@@ -38,6 +38,22 @@ function sanitizeString(str) {
   return str.replace(/[<>]/g, '').trim();
 }
 
+// Recursively strip HTML angle brackets from every string in a payload so
+// nothing scriptable can be persisted (mongo-sanitize only handles $ keys).
+function sanitizeDeep(value, depth = 0) {
+  if (depth > 6) return value;
+  if (typeof value === 'string') return sanitizeString(value);
+  if (Array.isArray(value)) return value.map(item => sanitizeDeep(item, depth + 1));
+  if (value && typeof value === 'object') {
+    const clean = {};
+    for (const [key, val] of Object.entries(value)) {
+      clean[sanitizeString(key)] = sanitizeDeep(val, depth + 1);
+    }
+    return clean;
+  }
+  return value;
+}
+
 export const register = async (req, res, next) => {
   try {
     const name = sanitizeString(req.body.name);
@@ -151,10 +167,11 @@ export const googleAuth = async (req, res, next) => {
     if (err.code === 11000) {
       return res.status(400).json({ success: false, message: 'هذا البريد الإلكتروني مسجل بالفعل' });
     }
-    const msg = err.name === 'MongooseError' || err.name === 'MongooseServerSelectionError'
-      ? 'تعذر الاتصال بقاعدة البيانات. تأكد من تشغيل MongoDB.'
-      : 'فشل تسجيل الدخول عبر Google. قد يكون معرف العميل (Client ID) غير صحيح.';
-    res.status(500).json({ success: false, message: msg });
+    if (err.name === 'MongooseError' || err.name === 'MongooseServerSelectionError') {
+      return res.status(500).json({ success: false, message: 'تعذر الاتصال بقاعدة البيانات. تأكد من تشغيل MongoDB.' });
+    }
+    // Token verification failures (bad signature, expired, wrong audience)
+    return res.status(401).json({ success: false, message: 'بيانات الدخول عبر Google غير صالحة' });
   }
 };
 
@@ -179,7 +196,9 @@ export const updateProfile = async (req, res, next) => {
   try {
     const fieldsToUpdate = {};
     if (req.body.name) fieldsToUpdate.name = sanitizeString(req.body.name);
-    if (req.body.profile) fieldsToUpdate.profile = req.body.profile;
+    if (req.body.profile && typeof req.body.profile === 'object') {
+      fieldsToUpdate.profile = sanitizeDeep(req.body.profile);
+    }
 
     const user = await User.findByIdAndUpdate(req.user.id, fieldsToUpdate, {
       new: true,
@@ -233,7 +252,7 @@ export const saveTestResult = async (req, res, next) => {
     if (!user.testResults) user.testResults = {};
 
     user.testResults[testType] = {
-      ...results,
+      ...sanitizeDeep(results),
       completedAt: new Date()
     };
 

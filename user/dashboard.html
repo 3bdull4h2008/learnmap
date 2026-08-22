@@ -223,7 +223,7 @@
             <div class="dash-user-email" id="dashUserEmail"></div>
           </div>
         </div>
-        <button class="btn-logout" onclick="AUTH.logout()">تسجيل الخروج</button>
+        <button class="btn-logout" onclick="if (window.LearnMapAuth) { window.LearnMapAuth.logout(); } else { window.location.href = '/auth/login.html'; }">تسجيل الخروج</button>
       </div>
       <div class="dash-grid">
         <div class="dash-card">
@@ -262,12 +262,12 @@
   </main>
   <div id="footer"></div>
   <script>fetch("/components/footer.html").then(r=>r.text()).then(d=>document.getElementById("footer").innerHTML=d);</script>
-  <script src="/auth/auth.js" defer></script>
+  <script src="/auth/auth.js"></script>
   <script src="/dark-mode-controller.js" defer></script>
   <script src="/components/mobile-menu.js" defer></script>
   <script>
   const AUTH = window.LearnMapAuth;
-  if (!AUTH.isLoggedIn()) {
+  if (!AUTH || !AUTH.isLoggedIn()) {
     window.location.href = '/auth/login.html';
   }
   async function loadDashboard() {

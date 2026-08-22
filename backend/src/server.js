@@ -47,6 +47,9 @@ app.use(helmet({
     directives: {
       defaultSrc: ["'self'"],
       scriptSrc: ["'self'", "'unsafe-inline'", "https://accounts.google.com", "https://cdnjs.cloudflare.com", "https://cdn.jsdelivr.net"],
+      // The frontend uses inline on* handler attributes (see matcher/universities-list);
+      // without this helmet defaults script-src-attr to 'none' and silently breaks them.
+      scriptSrcAttr: ["'unsafe-inline'"],
       styleSrc: ["'self'", "'unsafe-inline'", "https://fonts.googleapis.com", "https://cdnjs.cloudflare.com", "https://cdn.jsdelivr.net"],
       fontSrc: ["'self'", "https://fonts.gstatic.com", "https://cdnjs.cloudflare.com"],
       imgSrc: ["'self'", "data:", "https:", "blob:"],
@@ -57,7 +60,8 @@ app.use(helmet({
     }
   },
   crossOriginEmbedderPolicy: false,
-  crossOriginResourcePolicy: { policy: "cross-origin" }
+  crossOriginResourcePolicy: { policy: "cross-origin" },
+  frameguard: { action: 'deny' }
 }));
 
 // Body parser
@@ -106,6 +110,14 @@ app.use('/api', apiLimiter);
 
 // Serve static files (only in development or when serving fullstack)
 if (process.env.NODE_ENV !== 'production' || process.env.SERVE_STATIC === 'true') {
+  // Guard ahead of express.static: never expose dotfiles or backend sources
+  app.use((req, res, next) => {
+    const segments = decodeURIComponent(req.path).split('/');
+    if (segments[1] === 'backend' || segments.some(seg => seg.startsWith('.'))) {
+      return res.status(404).json({ success: false, message: 'Not found' });
+    }
+    next();
+  });
   app.use(express.static(wwwroot, {
     index: ['index.html', 'index.htm'],
     extensions: ['html', 'htm'],
