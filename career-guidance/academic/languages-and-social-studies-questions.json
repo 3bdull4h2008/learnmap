@@ -1,0 +1,1302 @@
+[
+  {
+    "id": 1,
+    "domain": "arabic",
+    "grade": 1,
+    "text": "ما الحرف الذي يبدأ به اسم بلدنا الأردن؟",
+    "subtitle": "الحروف العربية",
+    "options": [
+      {"id": "a", "text": "ب", "correct": false},
+      {"id": "b", "text": "أ", "correct": true},
+      {"id": "c", "text": "ج", "correct": false},
+      {"id": "d", "text": "د", "correct": false}
+    ]
+  },
+  {
+    "id": 2,
+    "domain": "english",
+    "grade": 1,
+    "text": "ما الكلمة الإنجليزية التي تعني \"تفاحة\"؟",
+    "subtitle": "المفردات الأساسية",
+    "options": [
+      {"id": "a", "text": "Book", "correct": false},
+      {"id": "b", "text": "Apple", "correct": true},
+      {"id": "c", "text": "Cat", "correct": false},
+      {"id": "d", "text": "Dog", "correct": false}
+    ]
+  },
+  {
+    "id": 3,
+    "domain": "social-studies",
+    "grade": 1,
+    "text": "ما اسم عاصمة الأردن؟",
+    "subtitle": "الهوية الوطنية",
+    "options": [
+      {"id": "a", "text": "إربد", "correct": false},
+      {"id": "b", "text": "الزرقاء", "correct": false},
+      {"id": "c", "text": "عمّان", "correct": true},
+      {"id": "d", "text": "العقبة", "correct": false}
+    ]
+  },
+  {
+    "id": 4,
+    "domain": "arabic",
+    "grade": 2,
+    "text": "ما علامة المفعول به في الجملة التالية: \"رأى أحمدَ صديقُه\"؟",
+    "subtitle": "الإعراب البسيط",
+    "options": [
+      {"id": "a", "text": "الضمة", "correct": false},
+      {"id": "b", "text": "الفتحة", "correct": true},
+      {"id": "c", "text": "الكسرة", "correct": false},
+      {"id": "d", "text": "الشدة", "correct": false}
+    ]
+  },
+  {
+    "id": 5,
+    "domain": "english",
+    "grade": 2,
+    "text": "ما الكلمة الصحيحة لِـ \"يكتب\" باللغة الإنجليزية؟",
+    "subtitle": "الأفعال الأساسية",
+    "options": [
+      {"id": "a", "text": "Read", "correct": false},
+      {"id": "b", "text": "Write", "correct": true},
+      {"id": "c", "text": "Run", "correct": false},
+      {"id": "d", "text": "Jump", "correct": false}
+    ]
+  },
+  {
+    "id": 6,
+    "domain": "social-studies",
+    "grade": 2,
+    "text": "ما لون الأرض في علم الأردن؟",
+    "subtitle": "الرموز الوطنية",
+    "options": [
+      {"id": "a", "text": "أحمر", "correct": false},
+      {"id": "b", "text": "أسود", "correct": true},
+      {"id": "c", "text": "أبيض", "correct": false},
+      {"id": "d", "text": "أخضر", "correct": false}
+    ]
+  },
+  {
+    "id": 7,
+    "domain": "arabic",
+    "grade": 3,
+    "text": "ما نوع الجملة: \"ما أجمل الطبيعة في الأردن!\"؟",
+    "subtitle": "أنواع الجمل",
+    "options": [
+      {"id": "a", "text": "جملة خبرية", "correct": false},
+      {"id": "b", "text": "جملة استفهامية", "correct": false},
+      {"id": "c", "text": "جملة تعجبية", "correct": true},
+      {"id": "d", "text": "جملة أمر", "correct": false}
+    ]
+  },
+  {
+    "id": 8,
+    "domain": "english",
+    "grade": 3,
+    "text": "ما الجمع الصحيح لكلمة \"child\"؟",
+    "subtitle": "الجمع غير المنتظم",
+    "options": [
+      {"id": "a", "text": "Childs", "correct": false},
+      {"id": "b", "text": "Children", "correct": true},
+      {"id": "c", "text": "Childes", "correct": false},
+      {"id": "d", "text": "Childies", "correct": false}
+    ]
+  },
+  {
+    "id": 9,
+    "domain": "social-studies",
+    "grade": 3,
+    "text": "أين يقع ميناء العقبة؟",
+    "subtitle": "الجغرافيا الأردنية",
+    "options": [
+      {"id": "a", "text": "في الشمال", "correct": false},
+      {"id": "b", "text": "في الجنوب", "correct": true},
+      {"id": "c", "text": "في الشرق", "correct": false},
+      {"id": "d", "text": "في الغرب", "correct": false}
+    ]
+  },
+  {
+    "id": 10,
+    "domain": "arabic",
+    "grade": 4,
+    "text": "ما المفعول المطلق في الجملة: \"سافر الطالب سفرًا مريحًا\"؟",
+    "subtitle": "الإعراب المتقدم",
+    "options": [
+      {"id": "a", "text": "الطالب", "correct": false},
+      {"id": "b", "text": "سافر", "correct": false},
+      {"id": "c", "text": "سفرًا", "correct": true},
+      {"id": "d", "text": "مريحًا", "correct": false}
+    ]
+  },
+  {
+    "id": 11,
+    "domain": "english",
+    "grade": 4,
+    "text": "ما الزمن المستخدم في الجملة: \"She plays football every day.\"؟",
+    "subtitle": "الأزمنة البسيطة",
+    "options": [
+      {"id": "a", "text": "الماضي البسيط", "correct": false},
+      {"id": "b", "text": "المضارع البسيط", "correct": true},
+      {"id": "c", "text": "المستقبل", "correct": false},
+      {"id": "d", "text": "المضارع المستمر", "correct": false}
+    ]
+  },
+  {
+    "id": 12,
+    "domain": "social-studies",
+    "grade": 4,
+    "text": "ما اسم أقدم خريطة للعالم رُسمت في الأردن؟",
+    "subtitle": "الإرث الحضاري",
+    "options": [
+      {"id": "a", "text": "خريطة البتراء", "correct": false},
+      {"id": "b", "text": "خريطة البحر الميت", "correct": false},
+      {"id": "c", "text": "خريطة مادبا", "correct": true},
+      {"id": "d", "text": "خريطة عمّان", "correct": false}
+    ]
+  },
+  {
+    "id": 13,
+    "domain": "arabic",
+    "grade": 5,
+    "text": "ما الغرض من استخدام علامات الترقيم في الكتابة؟",
+    "subtitle": "الكتابة والتنظيم",
+    "options": [
+      {"id": "a", "text": "لتزيين النص", "correct": false},
+      {"id": "b", "text": "لتسهيل الفهم وتنظيم الأفكار", "correct": true},
+      {"id": "c", "text": "لزيادة عدد الكلمات", "correct": false},
+      {"id": "d", "text": "لإرباك القارئ", "correct": false}
+    ]
+  },
+  {
+    "id": 14,
+    "domain": "english",
+    "grade": 5,
+    "text": "ما الصفة (Adjective) في الجملة: \"The tall man walked slowly.\"؟",
+    "subtitle": "أجزاء الجملة",
+    "options": [
+      {"id": "a", "text": "The", "correct": false},
+      {"id": "b", "text": "tall", "correct": true},
+      {"id": "c", "text": "man", "correct": false},
+      {"id": "d", "text": "slowly", "correct": false}
+    ]
+  },
+  {
+    "id": 15,
+    "domain": "social-studies",
+    "grade": 5,
+    "text": "ما نظام الحكم في المملكة الأردنية الهاشمية؟",
+    "subtitle": "المواطنة والحكم",
+    "options": [
+      {"id": "a", "text": "جمهوري", "correct": false},
+      {"id": "b", "text": "ملكي دستوري", "correct": true},
+      {"id": "c", "text": "ديكتاتوري", "correct": false},
+      {"id": "d", "text": "عسكري", "correct": false}
+    ]
+  },
+  {
+    "id": 16,
+    "domain": "arabic",
+    "grade": 6,
+    "text": "ما اسم الصيغة التي تدل على تفضيل بين شيئين؟",
+    "subtitle": "المقارنة",
+    "options": [
+      {"id": "a", "text": "اسم التفضيل", "correct": true},
+      {"id": "b", "text": "اسم التأنيث", "correct": false},
+      {"id": "c", "text": "اسم الجمع", "correct": false},
+      {"id": "d", "text": "اسم الفاعل", "correct": false}
+    ]
+  },
+  {
+    "id": 17,
+    "domain": "english",
+    "grade": 6,
+    "text": "ما المعنى الصحيح لعبارة \"break the ice\"؟",
+    "subtitle": "التعبيرات الاصطلاحية",
+    "options": [
+      {"id": "a", "text": "كسر الجليد", "correct": false},
+      {"id": "b", "text": "بدء الحديث في موقف محرج", "correct": true},
+      {"id": "c", "text": "التزلج", "correct": false},
+      {"id": "d", "text": "شرب ماء بارد", "correct": false}
+    ]
+  },
+  {
+    "id": 18,
+    "domain": "social-studies",
+    "grade": 6,
+    "text": "ما أهمية موقع الأردن الجغرافي؟",
+    "subtitle": "الجغرافيا السياسية",
+    "options": [
+      {"id": "a", "text": "يحيط به بحار من كل جانب", "correct": false},
+      {"id": "b", "text": "يقع في قلب العالم العربي ويصل بين القارات", "correct": true},
+      {"id": "c", "text": "يحتوي على أكبر مخزون نفطي", "correct": false},
+      {"id": "d", "text": "لا أهمية له", "correct": false}
+    ]
+  },
+  {
+    "id": 19,
+    "domain": "arabic",
+    "grade": 7,
+    "text": "ما نوع الأسلوب في الجملة: \"هل زرتَ المتحف الوطني؟\"؟",
+    "subtitle": "الأساليب اللغوية",
+    "options": [
+      {"id": "a", "text": "النفي", "correct": false},
+      {"id": "b", "text": "الاستفهام", "correct": true},
+      {"id": "c", "text": "النداء", "correct": false},
+      {"id": "d", "text": "التعجب", "correct": false}
+    ]
+  },
+  {
+    "id": 20,
+    "domain": "english",
+    "grade": 7,
+    "text": "ما الفرق بين \"affect\" و \"effect\"؟",
+    "subtitle": "التمييز بين الكلمات",
+    "options": [
+      {"id": "a", "text": "لا فرق", "correct": false},
+      {"id": "b", "text": "\"Affect\" فعل، و\"effect\" اسم", "correct": true},
+      {"id": "c", "text": "كلاهما أفعال", "correct": false},
+      {"id": "d", "text": "كلاهما أسماء", "correct": false}
+    ]
+  },
+  {
+    "id": 21,
+    "domain": "social-studies",
+    "grade": 7,
+    "text": "ما الدور الذي لعبه الشريف الحسين بن علي في التاريخ العربي الحديث؟",
+    "subtitle": "الثورة العربية الكبرى",
+    "options": [
+      {"id": "a", "text": "أسس الدولة العثمانية", "correct": false},
+      {"id": "b", "text": "قاد الثورة العربية الكبرى", "correct": true},
+      {"id": "c", "text": "احتل فلسطين", "correct": false},
+      {"id": "d", "text": "بنى قناة السويس", "correct": false}
+    ]
+  },
+  {
+    "id": 22,
+    "domain": "arabic",
+    "grade": 8,
+    "text": "ما اسم أسلوب يُستخدم للتأكيد أو التوكيد؟",
+    "subtitle": "الأدوات البلاغية",
+    "options": [
+      {"id": "a", "text": "النفي", "correct": false},
+      {"id": "b", "text": "التوكيد", "correct": true},
+      {"id": "c", "text": "الاستعجال", "correct": false},
+      {"id": "d", "text": "التساؤل", "correct": false}
+    ]
+  },
+  {
+    "id": 23,
+    "domain": "english",
+    "grade": 8,
+    "text": "ما الصيغة الصحيحة للمضارع التام في الجملة: \"He ___ (finish) his homework.\"؟",
+    "subtitle": "الأزمنة المتقدمة",
+    "options": [
+      {"id": "a", "text": "finishes", "correct": false},
+      {"id": "b", "text": "finished", "correct": false},
+      {"id": "c", "text": "has finished", "correct": true},
+      {"id": "d", "text": "is finishing", "correct": false}
+    ]
+  },
+  {
+    "id": 24,
+    "domain": "social-studies",
+    "grade": 8,
+    "text": "ما معنى السيادة الوطنية؟",
+    "subtitle": "المواطنة والحقوق",
+    "options": [
+      {"id": "a", "text": "الخضوع للقوى الأجنبية", "correct": false},
+      {"id": "b", "text": "حق الدولة في اتخاذ قراراتها دون تدخل خارجي", "correct": true},
+      {"id": "c", "text": "الانفصال عن الجوار", "correct": false},
+      {"id": "d", "text": "الاستعمار", "correct": false}
+    ]
+  },
+  {
+    "id": 25,
+    "domain": "arabic",
+    "grade": 9,
+    "text": "ما اسم العلاقة بين الجملتين في: \"ذهبتُ إلى المدرسة، لأنّ الدوام إلزامي.\"؟",
+    "subtitle": "الربط المنطقي",
+    "options": [
+      {"id": "a", "text": "التخيير", "correct": false},
+      {"id": "b", "text": "السببية", "correct": true},
+      {"id": "c", "text": "النفي", "correct": false},
+      {"id": "d", "text": "التعجب", "correct": false}
+    ]
+  },
+  {
+    "id": 26,
+    "domain": "english",
+    "grade": 9,
+    "text": "ما الغرض من استخدام Passive Voice؟",
+    "subtitle": "القواعد المتقدمة",
+    "options": [
+      {"id": "a", "text": "إظهار الفاعل دائمًا", "correct": false},
+      {"id": "b", "text": "إخفاء الفاعل أو التركيز على الفعل أو المفعول", "correct": true},
+      {"id": "c", "text": "جعل الجملة أطول", "correct": false},
+      {"id": "d", "text": "تجنب الأخطاء فقط", "correct": false}
+    ]
+  },
+  {
+    "id": 27,
+    "domain": "social-studies",
+    "grade": 9,
+    "text": "ما المبدأ الذي يُعد أساسًا لحقوق الإنسان في الدستور الأردني؟",
+    "subtitle": "الدستور وحقوق الإنسان",
+    "options": [
+      {"id": "a", "text": "التمييز العنصري", "correct": false},
+      {"id": "b", "text": "المساواة أمام القانون", "correct": true},
+      {"id": "c", "text": "الحكم المطلق", "correct": false},
+      {"id": "d", "text": "اللامبالاة", "correct": false}
+    ]
+  },
+  {
+    "id": 28,
+    "domain": "arabic",
+    "grade": 1,
+    "text": "ما الحرف الذي يُكتب في نهاية كلمة \"مدرسة\"؟",
+    "subtitle": "الكتابة الصحيحة",
+    "options": [
+      {"id": "a", "text": "ه", "correct": true},
+      {"id": "b", "text": "ة", "correct": false},
+      {"id": "c", "text": "ي", "correct": false},
+      {"id": "d", "text": "و", "correct": false}
+    ]
+  },
+  {
+    "id": 29,
+    "domain": "english",
+    "grade": 1,
+    "text": "ما الكلمة التي تبدأ بحرف \"B\"؟",
+    "subtitle": "الحروف والأصوات",
+    "options": [
+      {"id": "a", "text": "Cat", "correct": false},
+      {"id": "b", "text": "Ball", "correct": true},
+      {"id": "c", "text": "Dog", "correct": false},
+      {"id": "d", "text": "Fish", "correct": false}
+    ]
+  },
+  {
+    "id": 30,
+    "domain": "social-studies",
+    "grade": 2,
+    "text": "ما اسم الملك المؤسس للمملكة الأردنية الهاشمية؟",
+    "subtitle": "الهوية الوطنية",
+    "options": [
+      {"id": "a", "text": "الملك عبد الله الثاني", "correct": false},
+      {"id": "b", "text": "الملك الحسين", "correct": false},
+      {"id": "c", "text": "الملك عبد الله الأول", "correct": true},
+      {"id": "d", "text": "الملك طلال", "correct": false}
+    ]
+  },
+  {
+    "id": 31,
+    "domain": "arabic",
+    "grade": 3,
+    "text": "ما الكلمة التي تدل على جمع تكسير؟",
+    "subtitle": "الجمع",
+    "options": [
+      {"id": "a", "text": "كتب", "correct": true},
+      {"id": "b", "text": "معلمين", "correct": false},
+      {"id": "c", "text": "أطفال", "correct": false},
+      {"id": "d", "text": "قلم", "correct": false}
+    ]
+  },
+  {
+    "id": 32,
+    "domain": "english",
+    "grade": 3,
+    "text": "ما الكلمة التي تعني \"الكتاب\" بالإنجليزية؟",
+    "subtitle": "المفردات الأساسية",
+    "options": [
+      {"id": "a", "text": "Pen", "correct": false},
+      {"id": "b", "text": "Book", "correct": true},
+      {"id": "c", "text": "Chair", "correct": false},
+      {"id": "d", "text": "Table", "correct": false}
+    ]
+  },
+  {
+    "id": 33,
+    "domain": "social-studies",
+    "grade": 4,
+    "text": "ما اسم أقدم جامعة في الأردن؟",
+    "subtitle": "الإرث التعليمي",
+    "options": [
+      {"id": "a", "text": "جامعة اليرموك", "correct": false},
+      {"id": "b", "text": "الجامعة الأردنية", "correct": true},
+      {"id": "c", "text": "جامعة مؤتة", "correct": false},
+      {"id": "d", "text": "جامعة العلوم والتكنولوجيا", "correct": false}
+    ]
+  },
+  {
+    "id": 34,
+    "domain": "arabic",
+    "grade": 5,
+    "text": "ما علامة رفع الفاعل في الجملة: \"يقرأُ الطالبُ الدرسَ.\"؟",
+    "subtitle": "الإعراب",
+    "options": [
+      {"id": "a", "text": "الضمة", "correct": true},
+      {"id": "b", "text": "الكسرة", "correct": false},
+      {"id": "c", "text": "الفتحة", "correct": false},
+      {"id": "d", "text": "السكون", "correct": false}
+    ]
+  },
+  {
+    "id": 35,
+    "domain": "english",
+    "grade": 5,
+    "text": "ما الكلمة الصحيحة لِـ \"أمس\" بالإنجليزية؟",
+    "subtitle": "الزمن الماضي",
+    "options": [
+      {"id": "a", "text": "Today", "correct": false},
+      {"id": "b", "text": "Tomorrow", "correct": false},
+      {"id": "c", "text": "Yesterday", "correct": true},
+      {"id": "d", "text": "Now", "correct": false}
+    ]
+  },
+  {
+    "id": 36,
+    "domain": "social-studies",
+    "grade": 6,
+    "text": "ما اسم الوثيقة التي تنظم عمل السلطات في الدولة؟",
+    "subtitle": "النظام السياسي",
+    "options": [
+      {"id": "a", "text": "الاتفاقية", "correct": false},
+      {"id": "b", "text": "الدستور", "correct": true},
+      {"id": "c", "text": "المرسوم", "correct": false},
+      {"id": "d", "text": "الميثاق", "correct": false}
+    ]
+  },
+  {
+    "id": 37,
+    "domain": "arabic",
+    "grade": 7,
+    "text": "ما اسم أسلوب يُستخدم للطلب أو الأمر؟",
+    "subtitle": "الأساليب",
+    "options": [
+      {"id": "a", "text": "الاستفهام", "correct": false},
+      {"id": "b", "text": "النفي", "correct": false},
+      {"id": "c", "text": "الأمر", "correct": true},
+      {"id": "d", "text": "الخبر", "correct": false}
+    ]
+  },
+  {
+    "id": 38,
+    "domain": "english",
+    "grade": 7,
+    "text": "ما الجملة الصحيحة؟",
+    "subtitle": "القواعد الأساسية",
+    "options": [
+      {"id": "a", "text": "She don’t like apples.", "correct": false},
+      {"id": "b", "text": "She doesn’t likes apples.", "correct": false},
+      {"id": "c", "text": "She doesn’t like apples.", "correct": true},
+      {"id": "d", "text": "She not like apples.", "correct": false}
+    ]
+  },
+  {
+    "id": 39,
+    "domain": "social-studies",
+    "grade": 8,
+    "text": "ما أهمية المشاركة في الانتخابات؟",
+    "subtitle": "المواطنة الفاعلة",
+    "options": [
+      {"id": "a", "text": "لإضاعة الوقت", "correct": false},
+      {"id": "b", "text": "لممارسة الحق الديمقراطي والمساهمة في صنع القرار", "correct": true},
+      {"id": "c", "text": "لإثبات القوة", "correct": false},
+      {"id": "d", "text": "لإرضاء الحكومة فقط", "correct": false}
+    ]
+  },
+  {
+    "id": 40,
+    "domain": "arabic",
+    "grade": 9,
+    "text": "ما نوع الصورة البلاغية في قولك: \"قلبه من حجر\"؟",
+    "subtitle": "البلاغة",
+    "options": [
+      {"id": "a", "text": "كناية", "correct": false},
+      {"id": "b", "text": "تشبيه", "correct": false},
+      {"id": "c", "text": "استعارة", "correct": true},
+      {"id": "d", "text": "مجاز", "correct": false}
+    ]
+  },
+  {
+    "id": 41,
+    "domain": "english",
+    "grade": 9,
+    "text": "ما الغرض من كتابة مقال رأي (Opinion Essay)؟",
+    "subtitle": "الكتابة الأكاديمية",
+    "options": [
+      {"id": "a", "text": "سرد قصة", "correct": false},
+      {"id": "b", "text": "إثبات وجهة نظر بحجج منطقية", "correct": true},
+      {"id": "c", "text": "وصف مكان", "correct": false},
+      {"id": "d", "text": "سرد أحداث تاريخية فقط", "correct": false}
+    ]
+  },
+  {
+    "id": 42,
+    "domain": "social-studies",
+    "grade": 5,
+    "text": "ما نوع المناخ السائد في الأردن؟",
+    "subtitle": "الجغرافيا الطبيعية",
+    "options": [
+      {"id": "a", "text": "استوائي", "correct": false},
+      {"id": "b", "text": "صحراوي وشبه جاف", "correct": true},
+      {"id": "c", "text": "قطبي", "correct": false},
+      {"id": "d", "text": "رطب جداً", "correct": false}
+    ]
+  },
+  {
+    "id": 43,
+    "domain": "arabic",
+    "grade": 2,
+    "text": "ما الكلمة التي تنتهي بتاء مربوطة؟",
+    "subtitle": "الإملاء",
+    "options": [
+      {"id": "a", "text": "كتاب", "correct": false},
+      {"id": "b", "text": "معلمة", "correct": true},
+      {"id": "c", "text": "ولد", "correct": false},
+      {"id": "d", "text": "بيت", "correct": false}
+    ]
+  },
+  {
+    "id": 44,
+    "domain": "english",
+    "grade": 2,
+    "text": "ما الكلمة التي تعني \"بيت\" بالإنجليزية؟",
+    "subtitle": "المفردات اليومية",
+    "options": [
+      {"id": "a", "text": "Car", "correct": false},
+      {"id": "b", "text": "House", "correct": true},
+      {"id": "c", "text": "Tree", "correct": false},
+      {"id": "d", "text": "Sky", "correct": false}
+    ]
+  },
+  {
+    "id": 45,
+    "domain": "social-studies",
+    "grade": 3,
+    "text": "ما اسم المعلم الأثري الشهير في البتراء؟",
+    "subtitle": "التراث الأردني",
+    "options": [
+      {"id": "a", "text": "قلعة الشوبك", "correct": false},
+      {"id": "b", "text": "الخزنة", "correct": true},
+      {"id": "c", "text": "القسطل", "correct": false},
+      {"id": "d", "text": "جبل القلعة", "correct": false}
+    ]
+  },
+  {
+    "id": 46,
+    "domain": "arabic",
+    "grade": 4,
+    "text": "ما اسم الكلمة التي تُستخدم للربط بين الجمل؟",
+    "subtitle": "الربط اللغوي",
+    "options": [
+      {"id": "a", "text": "الاسم", "correct": false},
+      {"id": "b", "text": "الفعل", "correct": false},
+      {"id": "c", "text": "أداة الربط", "correct": true},
+      {"id": "d", "text": "الحرف", "correct": false}
+    ]
+  },
+  {
+    "id": 47,
+    "domain": "english",
+    "grade": 4,
+    "text": "ما الجملة الصحيحة؟",
+    "subtitle": "الترتيب النحوي",
+    "options": [
+      {"id": "a", "text": "Go to school I every day.", "correct": false},
+      {"id": "b", "text": "I go to school every day.", "correct": true},
+      {"id": "c", "text": "Every day I school go to.", "correct": false},
+      {"id": "d", "text": "School I go to every day.", "correct": false}
+    ]
+  },
+  {
+    "id": 48,
+    "domain": "social-studies",
+    "grade": 7,
+    "text": "ما اسم الحدث الذي وحّد شطريّ المملكة في عام 1950؟",
+    "subtitle": "التاريخ الأردني الحديث",
+    "options": [
+      {"id": "a", "text": "استقلال الأردن", "correct": false},
+      {"id": "b", "text": "وحدة الضفتين", "correct": true},
+      {"id": "c", "text": "ثورة 1920", "correct": false},
+      {"id": "d", "text": "معاهدة وادي عربة", "correct": false}
+    ]
+  },
+  {
+    "id": 49,
+    "domain": "arabic",
+    "grade": 6,
+    "text": "ما اسم الأسلوب الذي يُستخدم للنفي؟",
+    "subtitle": "الأساليب اللغوية",
+    "options": [
+      {"id": "a", "text": "الأمر", "correct": false},
+      {"id": "b", "text": "النفي", "correct": true},
+      {"id": "c", "text": "الاستفهام", "correct": false},
+      {"id": "d", "text": "الخبر", "correct": false}
+    ]
+  },
+  {
+    "id": 50,
+    "domain": "english",
+    "grade": 6,
+    "text": "ما الكلمة التي تُستخدم للسؤال عن المكان؟",
+    "subtitle": "الأسئلة",
+    "options": [
+      {"id": "a", "text": "When", "correct": false},
+      {"id": "b", "text": "Where", "correct": true},
+      {"id": "c", "text": "Who", "correct": false},
+      {"id": "d", "text": "What", "correct": false}
+    ]
+  },
+  {
+    "id": 51,
+    "domain": "social-studies",
+    "grade": 9,
+    "text": "ما المقصود بالتنمية المستدامة؟",
+    "subtitle": "التنمية والتحديات",
+    "options": [
+      {"id": "a", "text": "استهلاك الموارد دون تجديد", "correct": false},
+      {"id": "b", "text": "تلبية احتياجات الحاضر دون المساس بقدرة الأجيال القادمة", "correct": true},
+      {"id": "c", "text": "التركيز على الاقتصاد فقط", "correct": false},
+      {"id": "d", "text": "التوسع العمراني العشوائي", "correct": false}
+    ]
+  },
+  {
+    "id": 52,
+    "domain": "arabic",
+    "grade": 8,
+    "text": "ما اسم أسلوب يُستخدم للطلب اللطيف؟",
+    "subtitle": "الأدوات التعبيرية",
+    "options": [
+      {"id": "a", "text": "الأمر المباشر", "correct": false},
+      {"id": "b", "text": "الالتماس", "correct": true},
+      {"id": "c", "text": "النفي", "correct": false},
+      {"id": "d", "text": "الاستفهام", "correct": false}
+    ]
+  },
+  {
+    "id": 53,
+    "domain": "english",
+    "grade": 8,
+    "text": "ما اسم الجملة التي تحتوي على جملة رئيسية وفرعية؟",
+    "subtitle": "البنية النحوية",
+    "options": [
+      {"id": "a", "text": "جملة بسيطة", "correct": false},
+      {"id": "b", "text": "جملة مركبة", "correct": true},
+      {"id": "c", "text": "جملة اسمية", "correct": false},
+      {"id": "d", "text": "جملة فعلية", "correct": false}
+    ]
+  },
+  {
+    "id": 54,
+    "domain": "social-studies",
+    "grade": 1,
+    "text": "ما العلم الذي يمثل الأردن؟",
+    "subtitle": "الرموز الوطنية",
+    "options": [
+      {"id": "a", "text": "علم فلسطين", "correct": false},
+      {"id": "b", "text": "علم الأردن", "correct": true},
+      {"id": "c", "text": "علم السعودية", "correct": false},
+      {"id": "d", "text": "علم مصر", "correct": false}
+    ]
+  },
+  {
+    "id": 55,
+    "domain": "arabic",
+    "grade": 1,
+    "text": "ما الحرف الذي يلي \"ت\" في ترتيب الحروف العربية؟",
+    "subtitle": "الحروف",
+    "options": [
+      {"id": "a", "text": "ث", "correct": true},
+      {"id": "b", "text": "ج", "correct": false},
+      {"id": "c", "text": "ح", "correct": false},
+      {"id": "d", "text": "خ", "correct": false}
+    ]
+  },
+  {
+    "id": 56,
+    "domain": "english",
+    "grade": 1,
+    "text": "ما الكلمة التي تبدأ بحرف \"C\"؟",
+    "subtitle": "الحروف",
+    "options": [
+      {"id": "a", "text": "Dog", "correct": false},
+      {"id": "b", "text": "Cat", "correct": true},
+      {"id": "c", "text": "Elephant", "correct": false},
+      {"id": "d", "text": "Fish", "correct": false}
+    ]
+  },
+  {
+    "id": 57,
+    "domain": "social-studies",
+    "grade": 2,
+    "text": "ما اسم الملك الحالي للأردن؟",
+    "subtitle": "الهوية الوطنية",
+    "options": [
+      {"id": "a", "text": "الملك طلال", "correct": false},
+      {"id": "b", "text": "الملك الحسين", "correct": false},
+      {"id": "c", "text": "الملك عبد الله الثاني", "correct": true},
+      {"id": "d", "text": "الملك فيصل", "correct": false}
+    ]
+  },
+  {
+    "id": 58,
+    "domain": "arabic",
+    "grade": 5,
+    "text": "ما اسم أداة الاستفهام التي تُستخدم للسؤال عن العدد؟",
+    "subtitle": "أدوات الاستفهام",
+    "options": [
+      {"id": "a", "text": "من", "correct": false},
+      {"id": "b", "text": "ماذا", "correct": false},
+      {"id": "c", "text": "كم", "correct": true},
+      {"id": "d", "text": "أين", "correct": false}
+    ]
+  },
+  {
+    "id": 59,
+    "domain": "english",
+    "grade": 5,
+    "text": "ما الكلمة الصحيحة لِـ \"مدرسة\" بالإنجليزية؟",
+    "subtitle": "المفردات التعليمية",
+    "options": [
+      {"id": "a", "text": "Hospital", "correct": false},
+      {"id": "b", "text": "School", "correct": true},
+      {"id": "c", "text": "Market", "correct": false},
+      {"id": "d", "text": "Park", "correct": false}
+    ]
+  },
+  {
+    "id": 60,
+    "domain": "social-studies",
+    "grade": 3,
+    "text": "ما اسم النهر المقدس الذي يمرّ على حدود الأردن؟",
+    "subtitle": "الجغرافيا المقدسة",
+    "options": [
+      {"id": "a", "text": "النيل", "correct": false},
+      {"id": "b", "text": "الفرات", "correct": false},
+      {"id": "c", "text": "الأردن", "correct": true},
+      {"id": "d", "text": "ال幼发拉底", "correct": false}
+    ]
+  },
+  {
+    "id": 61,
+    "domain": "arabic",
+    "grade": 7,
+    "text": "ما اسم أداة النفي التي تُدخل على الجملة الاسمية؟",
+    "subtitle": "النحو",
+    "options": [
+      {"id": "a", "text": "لم", "correct": false},
+      {"id": "b", "text": "لن", "correct": false},
+      {"id": "c", "text": "ما", "correct": false},
+      {"id": "d", "text": "ليس", "correct": true}
+    ]
+  },
+  {
+    "id": 62,
+    "domain": "english",
+    "grade": 7,
+    "text": "ما الزمن المستخدم في: \"They were playing football.\"؟",
+    "subtitle": "الأزمنة",
+    "options": [
+      {"id": "a", "text": "الماضي البسيط", "correct": false},
+      {"id": "b", "text": "الماضي المستمر", "correct": true},
+      {"id": "c", "text": "المضارع البسيط", "correct": false},
+      {"id": "d", "text": "المضارع التام", "correct": false}
+    ]
+  },
+  {
+    "id": 63,
+    "domain": "social-studies",
+    "grade": 4,
+    "text": "ما اسم أقدم مدينة في الأردن؟",
+    "subtitle": "الإرث الحضاري",
+    "options": [
+      {"id": "a", "text": "عمّان", "correct": true},
+      {"id": "b", "text": "البتراء", "correct": false},
+      {"id": "c", "text": "السلط", "correct": false},
+      {"id": "d", "text": "إربد", "correct": false}
+    ]
+  },
+  {
+    "id": 64,
+    "domain": "arabic",
+    "grade": 8,
+    "text": "ما نوع الخبر في الجملة: \"كان الطقسُ جميلًا\"؟",
+    "subtitle": "كان وأخواتها",
+    "options": [
+      {"id": "a", "text": "مبتدأ", "correct": false},
+      {"id": "b", "text": "اسم كان", "correct": false},
+      {"id": "c", "text": "خبر كان", "correct": true},
+      {"id": "d", "text": "فعل", "correct": false}
+    ]
+  },
+  {
+    "id": 65,
+    "domain": "english",
+    "grade": 8,
+    "text": "ما اسم الحرف الذي لا يُنطق في كلمة \"knee\"؟",
+    "subtitle": "اللفظ والتهجئة",
+    "options": [
+      {"id": "a", "text": "e", "correct": false},
+      {"id": "b", "text": "n", "correct": false},
+      {"id": "c", "text": "k", "correct": true},
+      {"id": "d", "text": "i", "correct": false}
+    ]
+  },
+  {
+    "id": 66,
+    "domain": "social-studies",
+    "grade": 5,
+    "text": "ما اسم الجهة التي تصدر القوانين في الأردن؟",
+    "subtitle": "النظام السياسي",
+    "options": [
+      {"id": "a", "text": "السلطة التنفيذية", "correct": false},
+      {"id": "b", "text": "السلطة القضائية", "correct": false},
+      {"id": "c", "text": "السلطة التشريعية (مجلس الأمة)", "correct": true},
+      {"id": "d", "text": "المحاكم", "correct": false}
+    ]
+  },
+  {
+    "id": 67,
+    "domain": "arabic",
+    "grade": 9,
+    "text": "ما اسم أسلوب يُستخدم للتأكيد على حدوث الفعل؟",
+    "subtitle": "التأكيد اللغوي",
+    "options": [
+      {"id": "a", "text": "النفي", "correct": false},
+      {"id": "b", "text": "القسم", "correct": true},
+      {"id": "c", "text": "النداء", "correct": false},
+      {"id": "d", "text": "الاستعجال", "correct": false}
+    ]
+  },
+  {
+    "id": 68,
+    "domain": "english",
+    "grade": 9,
+    "text": "ما اسم العلاقة بين كلمتي \"happy\" و \"sad\"؟",
+    "subtitle": "الدلالات",
+    "options": [
+      {"id": "a", "text": "مرادفات", "correct": false},
+      {"id": "b", "text": "أضداد", "correct": true},
+      {"id": "c", "text": "مشتقات", "correct": false},
+      {"id": "d", "text": "أصوات", "correct": false}
+    ]
+  },
+  {
+    "id": 69,
+    "domain": "social-studies",
+    "grade": 6,
+    "text": "ما أهمية التنوّع الثقافي في الأردن؟",
+    "subtitle": "الهوية والمجتمع",
+    "options": [
+      {"id": "a", "text": "يسبب النزاعات", "correct": false},
+      {"id": "b", "text": "يُثري الحياة الاجتماعية ويعزز التسامح", "correct": true},
+      {"id": "c", "text": "لا أهمية له", "correct": false},
+      {"id": "d", "text": "يقلل من الوحدة", "correct": false}
+    ]
+  },
+  {
+    "id": 70,
+    "domain": "arabic",
+    "grade": 3,
+    "text": "ما الكلمة التي تدل على مفرد \"أقلام\"؟",
+    "subtitle": "الجمع والمفرد",
+    "options": [
+      {"id": "a", "text": "قلم", "correct": true},
+      {"id": "b", "text": "أقلام", "correct": false},
+      {"id": "c", "text": "كتب", "correct": false},
+      {"id": "d", "text": "أوراق", "correct": false}
+    ]
+  },
+  {
+    "id": 71,
+    "domain": "english",
+    "grade": 3,
+    "text": "ما الكلمة التي تعني \"صديق\" بالإنجليزية؟",
+    "subtitle": "المفردات الاجتماعية",
+    "options": [
+      {"id": "a", "text": "Enemy", "correct": false},
+      {"id": "b", "text": "Friend", "correct": true},
+      {"id": "c", "text": "Teacher", "correct": false},
+      {"id": "d", "text": "Mother", "correct": false}
+    ]
+  },
+  {
+    "id": 72,
+    "domain": "social-studies",
+    "grade": 7,
+    "text": "ما اسم الحدث التاريخي الذي تم فيه استقلال الأردن عن الانتداب البريطاني؟",
+    "subtitle": "التاريخ الحديث",
+    "options": [
+      {"id": "a", "text": "ثورة 1920", "correct": false},
+      {"id": "b", "text": "استقلال 1946", "correct": true},
+      {"id": "c", "text": "وحدة 1950", "correct": false},
+      {"id": "d", "text": "معاهدة السلام 1994", "correct": false}
+    ]
+  },
+  {
+    "id": 73,
+    "domain": "arabic",
+    "grade": 4,
+    "text": "ما اسم الكلمة التي تدل على مكان حدوث الفعل؟",
+    "subtitle": "الظروف",
+    "options": [
+      {"id": "a", "text": "ظرف زمان", "correct": false},
+      {"id": "b", "text": "ظرف مكان", "correct": true},
+      {"id": "c", "text": "اسم", "correct": false},
+      {"id": "d", "text": "فعل", "correct": false}
+    ]
+  },
+  {
+    "id": 74,
+    "domain": "english",
+    "grade": 4,
+    "text": "ما الكلمة التي تُستخدم للسؤال عن الوقت؟",
+    "subtitle": "الأسئلة",
+    "options": [
+      {"id": "a", "text": "Where", "correct": false},
+      {"id": "b", "text": "When", "correct": true},
+      {"id": "c", "text": "Who", "correct": false},
+      {"id": "d", "text": "What", "correct": false}
+    ]
+  },
+  {
+    "id": 75,
+    "domain": "social-studies",
+    "grade": 8,
+    "text": "ما اسم الوثيقة الدولية التي أكّد الأردن التزامه بها في مجال حقوق الإنسان؟",
+    "subtitle": "الاتفاقيات الدولية",
+    "options": [
+      {"id": "a", "text": "إعلان حقوق الإنسان العالمي", "correct": true},
+      {"id": "b", "text": "معاهدة فرساي", "correct": false},
+      {"id": "c", "text": "ميثاق الأمم المتحدة فقط", "correct": false},
+      {"id": "d", "text": "اتفاقية باريس للمناخ فقط", "correct": false}
+    ]
+  },
+  {
+    "id": 76,
+    "domain": "arabic",
+    "grade": 5,
+    "text": "ما اسم أداة الشرط التي تُستخدم في: \"إذا درستَ، نجحتَ.\"؟",
+    "subtitle": "أدوات الشرط",
+    "options": [
+      {"id": "a", "text": "لو", "correct": false},
+      {"id": "b", "text": "إن", "correct": false},
+      {"id": "c", "text": "إذا", "correct": true},
+      {"id": "d", "text": "متى", "correct": false}
+    ]
+  },
+  {
+    "id": 77,
+    "domain": "english",
+    "grade": 5,
+    "text": "ما الجملة التي تستخدم صيغة الماضي التام؟",
+    "subtitle": "الأزمنة",
+    "options": [
+      {"id": "a", "text": "I eat an apple.", "correct": false},
+      {"id": "b", "text": "I ate an apple.", "correct": false},
+      {"id": "c", "text": "I have eaten an apple.", "correct": true},
+      {"id": "d", "text": "I am eating an apple.", "correct": false}
+    ]
+  },
+  {
+    "id": 78,
+    "domain": "social-studies",
+    "grade": 9,
+    "text": "ما المبدأ الذي يضمن المساواة بين المواطنين في الدستور الأردني؟",
+    "subtitle": "الحقوق الدستورية",
+    "options": [
+      {"id": "a", "text": "التمييز على أساس الجنس", "correct": false},
+      {"id": "b", "text": "المساواة في الحقوق والواجبات", "correct": true},
+      {"id": "c", "text": "الامتيازات الفردية", "correct": false},
+      {"id": "d", "text": "الاستثناءات العرقية", "correct": false}
+    ]
+  },
+  {
+    "id": 79,
+    "domain": "arabic",
+    "grade": 6,
+    "text": "ما اسم أداة الاستفهام التي تُستخدم للسؤال عن الشخص؟",
+    "subtitle": "الاستفهام",
+    "options": [
+      {"id": "a", "text": "ماذا", "correct": false},
+      {"id": "b", "text": "من", "correct": true},
+      {"id": "c", "text": "أين", "correct": false},
+      {"id": "d", "text": "كيف", "correct": false}
+    ]
+  },
+  {
+    "id": 80,
+    "domain": "english",
+    "grade": 6,
+    "text": "ما الكلمة التي تعني \"الكتاب\" في صيغة الجمع؟",
+    "subtitle": "الجمع",
+    "options": [
+      {"id": "a", "text": "Book", "correct": false},
+      {"id": "b", "text": "Bookes", "correct": false},
+      {"id": "c", "text": "Books", "correct": true},
+      {"id": "d", "text": "Bookies", "correct": false}
+    ]
+  },
+  {
+    "id": 81,
+    "domain": "social-studies",
+    "grade": 1,
+    "text": "ما اسم البلد الذي نعيش فيه؟",
+    "subtitle": "الانتماء الوطني",
+    "options": [
+      {"id": "a", "text": "فلسطين", "correct": false},
+      {"id": "b", "text": "سوريا", "correct": false},
+      {"id": "c", "text": "الأردن", "correct": true},
+      {"id": "d", "text": "السعودية", "correct": false}
+    ]
+  },
+  {
+    "id": 82,
+    "domain": "arabic",
+    "grade": 2,
+    "text": "ما الحرف الذي يُكتب في بداية كلمة \"نهر\"؟",
+    "subtitle": "الحروف",
+    "options": [
+      {"id": "a", "text": "م", "correct": false},
+      {"id": "b", "text": "ن", "correct": true},
+      {"id": "c", "text": "ه", "correct": false},
+      {"id": "d", "text": "ر", "correct": false}
+    ]
+  },
+  {
+    "id": 83,
+    "domain": "english",
+    "grade": 2,
+    "text": "ما الكلمة التي تعني \"ماء\" بالإنجليزية؟",
+    "subtitle": "المفردات الأساسية",
+    "options": [
+      {"id": "a", "text": "Milk", "correct": false},
+      {"id": "b", "text": "Water", "correct": true},
+      {"id": "c", "text": "Juice", "correct": false},
+      {"id": "d", "text": "Tea", "correct": false}
+    ]
+  },
+  {
+    "id": 84,
+    "domain": "social-studies",
+    "grade": 3,
+    "text": "ما اسم المكان الذي يُعرض فيه التراث الأردني؟",
+    "subtitle": "المتاحف",
+    "options": [
+      {"id": "a", "text": "المكتبة", "correct": false},
+      {"id": "b", "text": "المتحف الوطني الأردني", "correct": true},
+      {"id": "c", "text": "المدرسة", "correct": false},
+      {"id": "d", "text": "السوق", "correct": false}
+    ]
+  },
+  {
+    "id": 85,
+    "domain": "arabic",
+    "grade": 7,
+    "text": "ما اسم أداة النداء المستخدمة في: \"يا طالبُ، اجتهدْ.\"؟",
+    "subtitle": "النداء",
+    "options": [
+      {"id": "a", "text": "أيا", "correct": false},
+      {"id": "b", "text": "يا", "correct": true},
+      {"id": "c", "text": "أ", "correct": false},
+      {"id": "d", "text": "هيا", "correct": false}
+    ]
+  },
+  {
+    "id": 86,
+    "domain": "english",
+    "grade": 7,
+    "text": "ما اسم الكلمة التي تصف الفعل؟",
+    "subtitle": "أجزاء الكلام",
+    "options": [
+      {"id": "a", "text": "اسم", "correct": false},
+      {"id": "b", "text": "فعل", "correct": false},
+      {"id": "c", "text": "ظرف", "correct": true},
+      {"id": "d", "text": "أداة", "correct": false}
+    ]
+  },
+  {
+    "id": 87,
+    "domain": "social-studies",
+    "grade": 4,
+    "text": "ما اسم الجبل الذي يُسمّى بـ\"جبل القلعة\"؟",
+    "subtitle": "المعالم التاريخية",
+    "options": [
+      {"id": "a", "text": "في البتراء", "correct": false},
+      {"id": "b", "text": "في عمّان", "correct": true},
+      {"id": "c", "text": "في العقبة", "correct": false},
+      {"id": "d", "text": "في إربد", "correct": false}
+    ]
+  },
+  {
+    "id": 88,
+    "domain": "arabic",
+    "grade": 8,
+    "text": "ما اسم الخبر في الجملة: \"إنّ العلمَ نورٌ\"؟",
+    "subtitle": "إنّ وأخواتها",
+    "options": [
+      {"id": "a", "text": "العلم", "correct": false},
+      {"id": "b", "text": "نور", "correct": true},
+      {"id": "c", "text": "إنّ", "correct": false},
+      {"id": "d", "text": "الجملة كلها", "correct": false}
+    ]
+  },
+  {
+    "id": 89,
+    "domain": "english",
+    "grade": 8,
+    "text": "ما اسم الصيغة التي تُستخدم للتعبير عن الاحتمال؟",
+    "subtitle": "الاحتمال والقدرة",
+    "options": [
+      {"id": "a", "text": "Will", "correct": false},
+      {"id": "b", "text": "Can", "correct": false},
+      {"id": "c", "text": "Might", "correct": true},
+      {"id": "d", "text": "Did", "correct": false}
+    ]
+  },
+  {
+    "id": 90,
+    "domain": "social-studies",
+    "grade": 5,
+    "text": "ما اسم أهم مصدر للمياه في الأردن؟",
+    "subtitle": "الموارد الطبيعية",
+    "options": [
+      {"id": "a", "text": "نهر الأردن", "correct": true},
+      {"id": "b", "text": "البحر الميت", "correct": false},
+      {"id": "c", "text": "الأنهار في السعودية", "correct": false},
+      {"id": "d", "text": "مياه الأمطار فقط", "correct": false}
+    ]
+  },
+  {
+    "id": 91,
+    "domain": "arabic",
+    "grade": 9,
+    "text": "ما نوع العلاقة في الجملة: \"ذهب إلى السوق ليشتري طعامًا\"؟",
+    "subtitle": "الغرض",
+    "options": [
+      {"id": "a", "text": "السبب", "correct": false},
+      {"id": "b", "text": "الغرض", "correct": true},
+      {"id": "c", "text": "الزمان", "correct": false},
+      {"id": "d", "text": "المكان", "correct": false}
+    ]
+  },
+  {
+    "id": 92,
+    "domain": "english",
+    "grade": 9,
+    "text": "ما اسم الجملة التي لا يمكن أن تُنقسم إلى جملتين مستقلتين؟",
+    "subtitle": "البنية اللغوية",
+    "options": [
+      {"id": "a", "text": "جملة بسيطة", "correct": true},
+      {"id": "b", "text": "جملة مركبة", "correct": false},
+      {"id": "c", "text": "جملة معقدة", "correct": false},
+      {"id": "d", "text": "جملة شرطية", "correct": false}
+    ]
+  },
+  {
+    "id": 93,
+    "domain": "social-studies",
+    "grade": 6,
+    "text": "ما اسم الاتفاقية التي أنهت الحرب بين الأردن وإسرائيل؟",
+    "subtitle": "العلاقات الدولية",
+    "options": [
+      {"id": "a", "text": "اتفاقية أوسلو", "correct": false},
+      {"id": "b", "text": "معاهدة وادي عربة", "correct": true},
+      {"id": "c", "text": "معاهدة كامب ديفيد", "correct": false},
+      {"id": "d", "text": "إعلان الاستقلال", "correct": false}
+    ]
+  },
+  {
+    "id": 94,
+    "domain": "arabic",
+    "grade": 1,
+    "text": "ما الحرف الذي يبدأ به اسم \"عمّان\"؟",
+    "subtitle": "الحروف",
+    "options": [
+      {"id": "a", "text": "ع", "correct": true},
+      {"id": "b", "text": "م", "correct": false},
+      {"id": "c", "text": "أ", "correct": false},
+      {"id": "d", "text": "ن", "correct": false}
+    ]
+  },
+  {
+    "id": 95,
+    "domain": "english",
+    "grade": 1,
+    "text": "ما الكلمة التي تعني \"معلّم\" بالإنجليزية؟",
+    "subtitle": "المهن",
+    "options": [
+      {"id": "a", "text": "Doctor", "correct": false},
+      {"id": "b", "text": "Teacher", "correct": true},
+      {"id": "c", "text": "Driver", "correct": false},
+      {"id": "d", "text": "Cook", "correct": false}
+    ]
+  },
+  {
+    "id": 96,
+    "domain": "social-studies",
+    "grade": 2,
+    "text": "ما اسم أهم معلمين دينيين في الأردن؟",
+    "subtitle": "الأماكن المقدسة",
+    "options": [
+      {"id": "a", "text": "المسجد الأقصى والمسجد الحرام", "correct": false},
+      {"id": "b", "text": "المسجد الحرام والمسجد النبوي", "correct": false},
+      {"id": "c", "text": "المسجد الأقصى ومقام النبي هارون", "correct": true},
+      {"id": "d", "text": "الكنيسة القديمة فقط", "correct": false}
+    ]
+  },
+  {
+    "id": 97,
+    "domain": "arabic",
+    "grade": 3,
+    "text": "ما الكلمة التي تدل على جمع مؤنث سالم؟",
+    "subtitle": "الجمع",
+    "options": [
+      {"id": "a", "text": "كتب", "correct": false},
+      {"id": "b", "text": "معلمات", "correct": true},
+      {"id": "c", "text": "أقلام", "correct": false},
+      {"id": "d", "text": "ولد", "correct": false}
+    ]
+  },
+  {
+    "id": 98,
+    "domain": "english",
+    "grade": 3,
+    "text": "ما الكلمة التي تعني \"سيارة\" بالإنجليزية؟",
+    "subtitle": "المركبات",
+    "options": [
+      {"id": "a", "text": "Bike", "correct": false},
+      {"id": "b", "text": "Car", "correct": true},
+      {"id": "c", "text": "Bus", "correct": false},
+      {"id": "d", "text": "Train", "correct": false}
+    ]
+  },
+  {
+    "id": 99,
+    "domain": "social-studies",
+    "grade": 7,
+    "text": "ما اسم الحدث الذي أُعلن فيه قيام الإمارة الأردنية؟",
+    "subtitle": "التاريخ الحديث",
+    "options": [
+      {"id": "a", "text": "1921", "correct": true},
+      {"id": "b", "text": "1946", "correct": false},
+      {"id": "c", "text": "1950", "correct": false},
+      {"id": "d", "text": "1994", "correct": false}
+    ]
+  },
+  {
+    "id": 100,
+    "domain": "arabic",
+    "grade": 4,
+    "text": "ما اسم أداة الاستفهام التي تُستخدم للسؤال عن الكيفية؟",
+    "subtitle": "أدوات الاستفهام",
+    "options": [
+      {"id": "a", "text": "من", "correct": false},
+      {"id": "b", "text": "ماذا", "correct": false},
+      {"id": "c", "text": "كيف", "correct": true},
+      {"id": "d", "text": "أين", "correct": false}
+    ]
+  }
+]

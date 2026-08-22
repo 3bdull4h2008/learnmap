@@ -1,0 +1,114 @@
+{
+  "basic_info": {
+    "name": "جامعة جرش",
+    "nameEn": "Jerash University",
+    "type": "private",
+    "city": "Jerash",
+    "region": "north",
+    "established": 1992,
+    "website": "https://www.jpu.edu.jo",
+    "acronym": "JERASHUN",
+    "entity_type": "for-profit",
+    "campus_area": "200 acres (0.81 km²)",
+    "student_enrollment": "3,000-3,999",
+    "academic_calendar": "semesters"
+  },
+  "admission_requirements": {
+    "general_requirements": "Secondary school certificate (Tawjihi) or equivalent",
+    "min_tawjihi_mark": "[uncertain]",
+    "has_entrance_exam": false,
+    "exam_details": "",
+    "english_requirement": "English equivalency exam may be required; students who fail may need to undertake additional credit hours [uncertain]"
+  },
+  "majors_overview": {
+    "faculty_count": 11,
+    "faculties": [
+      "Arts & Literatures",
+      "Business",
+      "Science",
+      "Law",
+      "Islamic Studies",
+      "Agriculture",
+      "Educational Sciences",
+      "Nursing",
+      "Engineering",
+      "Pharmacy",
+      "Information Technology"
+    ],
+    "total_bachelor_majors": 26,
+    "total_master_majors": 10,
+    "has_postgraduate": true,
+    "notes": "Agriculture faculty is unique among private universities in Jordan"
+  },
+  "tuition_fees": {
+    "annual_fees_range": "30-55 JOD per credit hour for local students",
+    "medical_majors_fees": "[uncertain]",
+    "engineering_majors_fees": "[uncertain]",
+    "humanities_majors_fees": "[uncertain]",
+    "notes": "Tuition is per credit hour; fees vary by program. Master's programs may cost around 107 JOD/hour. Standard bachelor programs require approximately 132 credit hours. Easy installment payment system available."
+  },
+  "ranking_accreditation": {
+    "national_ranking": "18th in Jordan (uniRank 2026)",
+    "world_ranking": "5599 (uniRank 2026)",
+    "accreditation": "Ministry of Higher Education and Scientific Research of Jordan (MOHE)",
+    "international_recognition": "Member of IAU, FUIW, AArU",
+    "qs_arab_ranking": "[uncertain]"
+  },
+  "market_demand": {
+    "overall_demand": "[uncertain]",
+    "high_demand_majors": ["[uncertain]"],
+    "employment_rate_estimate": "[uncertain]",
+    "notes": "No specific employment data available for Jerash University graduates"
+  },
+  "campus_facilities": {
+    "has_accommodation": "[uncertain]",
+    "accommodation_details": "Housing status not reported by uniRank; university provides transportation services",
+    "has_library": true,
+    "library_details": "Computerized library with 124,872+ books, periodicals, journals, and scientific publications",
+    "has_sports_facilities": true,
+    "has_scholarships": true,
+    "scholarship_details": "Grants available for local community institutions and students from Arab and Islamic world, particularly for non-native speakers studying Arabic and Shari'a. Easy installment payment system available.",
+    "centers": [
+      "Language Center",
+      "Center of Counseling",
+      "E-Learning Center",
+      "Computer and IT Center",
+      "Career Guidance Center"
+    ]
+  },
+  "contact_info": {
+    "address": "P.O. Box 311, Jerash, 26150 Jordan",
+    "phone": "+962 (2) 635 0521",
+    "fax": "+962 (2) 635 0520",
+    "email": "info.jpu@jpu.edu.jo",
+    "social_media": {
+      "facebook": "https://www.facebook.com/JerashUn/",
+      "twitter": "https://twitter.com/zuyd",
+      "instagram": "https://www.instagram.com/jerashuniversity/",
+      "youtube": "https://www.youtube.com/@JerashUniversity [uncertain]",
+      "linkedin": "https://www.linkedin.com/company/jerash-university/"
+    }
+  },
+  "affiliations": [
+    "International Association of Universities (IAU)",
+    "Federation of the Universities of the Islamic World (FUIW)",
+    "Association of Arab Universities (AArU)"
+  ],
+  "deanships": [
+    "Deanship of Student Affairs",
+    "Deanship of Academic Research and Higher Studies",
+    "Deanship of Accreditation and Quality Assurance"
+  ],
+  "uncertain": [
+    "min_tawjihi_mark",
+    "medical_majors_fees",
+    "engineering_majors_fees",
+    "humanities_majors_fees",
+    "overall_demand",
+    "high_demand_majors",
+    "employment_rate_estimate",
+    "qs_arab_ranking",
+    "has_accommodation",
+    "youtube_social_media"
+  ]
+}

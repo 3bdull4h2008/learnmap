@@ -1,0 +1,1102 @@
+[
+  {
+    "id": 1,
+    "text": "ما هو المقصود بالسياحة الداخلية؟",
+    "subtitle": "السياحة والسفر - مفاهيم أساسية",
+    "options": [
+      {"id": "a", "text": "سفر المواطنين داخل وطنهم", "correct": true},
+      {"id": "b", "text": "سفر المواطنين إلى الخارج", "correct": false},
+      {"id": "c", "text": "قدوم السياح من الخارج", "correct": false},
+      {"id": "d", "text": "السياحة بين الدول العربية", "correct": false}
+    ]
+  },
+  {
+    "id": 2,
+    "text": "أي من هذه الوثائق مطلوبة للسفر الدولي؟",
+    "subtitle": "السياحة والسفر - مستندات السفر",
+    "options": [
+      {"id": "a", "text": "جواز السفر", "correct": true},
+      {"id": "b", "text": "رخصة القيادة", "correct": false},
+      {"id": "c", "text": "البطاقة الشخصية", "correct": false},
+      {"id": "d", "text": "شهادة الميلاد", "correct": false}
+    ]
+  },
+  {
+    "id": 3,
+    "text": "ما هو دور وكيل السفر؟",
+    "subtitle": "السياحة والسفر - خدمات السفر",
+    "options": [
+      {"id": "a", "text": "تنظيم رحلات العملاء", "correct": true},
+      {"id": "b", "text": "قيادة الطائرات", "correct": false},
+      {"id": "c", "text": "إدارة الفنادق", "correct": false},
+      {"id": "d", "text": "طهي الطعام", "correct": false}
+    ]
+  },
+  {
+    "id": 4,
+    "text": "أي من هذه المدن تعتبر عاصمة السياحة في الأردن؟",
+    "subtitle": "السياحة والسفر - السياحة في الأردن",
+    "options": [
+      {"id": "a", "text": "البتراء", "correct": false},
+      {"id": "b", "text": "عمان", "correct": true},
+      {"id": "c", "text": "العقبة", "correct": false},
+      {"id": "d", "text": "إربد", "correct": false}
+    ]
+  },
+  {
+    "id": 5,
+    "text": "ما هو أفضل موسم للسياحة في الأردن؟",
+    "subtitle": "السياحة والسفر - مواسم السياحة",
+    "options": [
+      {"id": "a", "text": "فصل الربيع", "correct": true},
+      {"id": "b", "text": "فصل الصيف", "correct": false},
+      {"id": "c", "text": "فصل الشتاء", "correct": false},
+      {"id": "d", "text": "فصل الخريف", "correct": false}
+    ]
+  },
+  {
+    "id": 6,
+    "text": "أي من هذه الأماكن تعتبر من عجائب الدنيا السبع؟",
+    "subtitle": "السياحة والسفر - معالم عالمية",
+    "options": [
+      {"id": "a", "text": "البتراء", "correct": true},
+      {"id": "b", "text": "جبل نيبو", "correct": false},
+      {"id": "c", "text": "البحر الميت", "correct": false},
+      {"id": "d", "text": "وادي رم", "correct": false}
+    ]
+  },
+  {
+    "id": 7,
+    "text": "ما هو نوع السياحة الذي يركز على زيارة الأماكن التاريخية؟",
+    "subtitle": "السياحة والسفر - أنواع السياحة",
+    "options": [
+      {"id": "a", "text": "السياحة الثقافية", "correct": true},
+      {"id": "b", "text": "السياحة العلاجية", "correct": false},
+      {"id": "c", "text": "السياحة الرياضية", "correct": false},
+      {"id": "d", "text": "السياحة الدينية", "correct": false}
+    ]
+  },
+  {
+    "id": 8,
+    "text": "أي من هذه الخدمات تقدمها الفنادق للضيوف؟",
+    "subtitle": "السياحة والسفر - خدمات الفنادق",
+    "options": [
+      {"id": "a", "text": "الإقامة والطعام", "correct": true},
+      {"id": "b", "text": "تأجير السيارات", "correct": false},
+      {"id": "c", "text": "بيع التذاكر", "correct": false},
+      {"id": "d", "text": "تغيير العملة", "correct": false}
+    ]
+  },
+  {
+    "id": 9,
+    "text": "ما هو نظام الخمس نجوم في الفنادق؟",
+    "subtitle": "السياحة والسفر - تصنيف الفنادق",
+    "options": [
+      {"id": "a", "text": "مقياس لجودة الخدمات", "correct": true},
+      {"id": "b", "text": "عدد الغرف", "correct": false},
+      {"id": "c", "text": "سعر الغرفة", "correct": false},
+      {"id": "d", "text": "موقع الفندق", "correct": false}
+    ]
+  },
+  {
+    "id": 10,
+    "text": "أي من هذه المهن تعتبر من مهنان السياحة؟",
+    "subtitle": "السياحة والسفر - المهن السياحية",
+    "options": [
+      {"id": "a", "text": "مرشد سياحي", "correct": true},
+      {"id": "b", "text": "طبيب", "correct": false},
+      {"id": "c", "text": "مهندس", "correct": false},
+      {"id": "d", "text": "معلم", "correct": false}
+    ]
+  },
+  {
+    "id": 11,
+    "text": "ما هو الغرض من التأشيرة؟",
+    "subtitle": "السياحة والسفر - مستندات السفر",
+    "options": [
+      {"id": "a", "text": "الإذن بدخول دولة أجنبية", "correct": true},
+      {"id": "b", "text": "إثبات الشخصية", "correct": false},
+      {"id": "c", "text": "حجز الفندق", "correct": false},
+      {"id": "d", "text": "شراء التذاكر", "correct": false}
+    ]
+  },
+  {
+    "id": 12,
+    "text": "أي من هذه الدول لا تحتاج مواطني الأردن إلى تأشيرة لدخولها؟",
+    "subtitle": "السياحة والسفر - متطلبات السفر",
+    "options": [
+      {"id": "a", "text": "ماليزيا", "correct": true},
+      {"id": "b", "text": "أمريكا", "correct": false},
+      {"id": "c", "text": "بريطانيا", "correct": false},
+      {"id": "d", "text": "كندا", "correct": false}
+    ]
+  },
+  {
+    "id": 13,
+    "text": "ما هو دور المرشد السياحي؟",
+    "subtitle": "السياحة والسفر - المهن السياحية",
+    "options": [
+      {"id": "a", "text": "شرح المعالم للسياح", "correct": true},
+      {"id": "b", "text": "قيادة الحافلات", "correct": false},
+      {"id": "c", "text": "طهي الطعام", "correct": false},
+      {"id": "d", "text": "تنظيف الغرف", "correct": false}
+    ]
+  },
+  {
+    "id": 14,
+    "text": "أي من هذه المدن الأردنية تشتهر بالسياحة العلاجية؟",
+    "subtitle": "السياحة والسفر - السياحة في الأردن",
+    "options": [
+      {"id": "a", "text": "البحر الميت", "correct": true},
+      {"id": "b", "text": "عمان", "correct": false},
+      {"id": "c", "text": "الزرقاء", "correct": false},
+      {"id": "d", "text": "المفرق", "correct": false}
+    ]
+  },
+  {
+    "id": 15,
+    "text": "ما هو أفضل وقت لزيارة البحر الميت؟",
+    "subtitle": "السياحة والسفر - التخطيط للرحلات",
+    "options": [
+      {"id": "a", "text": "فصل الربيع", "correct": true},
+      {"id": "b", "text": "فصل الصيف", "correct": false},
+      {"id": "c", "text": "فصل الشتاء", "correct": false},
+      {"id": "d", "text": "فصل الخريف", "correct": false}
+    ]
+  },
+  {
+    "id": 16,
+    "text": "أي من هذه الخدمات تقدمها شركات الطيران؟",
+    "subtitle": "السياحة والسفر - النقل الجوي",
+    "options": [
+      {"id": "a", "text": "نقل الركاب جوًا", "correct": true},
+      {"id": "b", "text": "حجز الفنادق", "correct": false},
+      {"id": "c", "text": "تأجير السيارات", "correct": false},
+      {"id": "d", "text": "تنظيم الجولات", "correct": false}
+    ]
+  },
+  {
+    "id": 17,
+    "text": "ما هو نوع السياحة الذي يركز على زيارة الأماكن المقدسة؟",
+    "subtitle": "السياحة والسفر - أنواع السياحة",
+    "options": [
+      {"id": "a", "text": "السياحة الدينية", "correct": true},
+      {"id": "b", "text": "السياحة الثقافية", "correct": false},
+      {"id": "c", "text": "السياحة الرياضية", "correct": false},
+      {"id": "d", "text": "السياحة البيئية", "correct": false}
+    ]
+  },
+  {
+    "id": 18,
+    "text": "أي من هذه المهارات يجب أن يمتلكها عامل السياحة؟",
+    "subtitle": "السياحة والسفر - مهارات العاملين",
+    "options": [
+      {"id": "a", "text": "التواصل الجيد", "correct": true},
+      {"id": "b", "text": "البرمجة", "correct": false},
+      {"id": "c", "text": "الطبخ", "correct": false},
+      {"id": "d", "text": "القيادة", "correct": false}
+    ]
+  },
+  {
+    "id": 19,
+    "text": "ما هو الغرض من حجز التذاكر مسبقًا؟",
+    "subtitle": "السياحة والسفر - تخطيط الرحلات",
+    "options": [
+      {"id": "a", "text": "ضمان المقاعد وتوفير المال", "correct": true},
+      {"id": "b", "text": "تجنب السفر", "correct": false},
+      {"id": "c", "text": "تأكيد الهوية", "correct": false},
+      {"id": "d", "text": "الحصول على خصم", "correct": false}
+    ]
+  },
+  {
+    "id": 20,
+    "text": "أي من هذه اللغات مفيدة للعاملين في مجال السياحة؟",
+    "subtitle": "السياحة والسفر - مهارات اللغة",
+    "options": [
+      {"id": "a", "text": "الإنجليزية", "correct": true},
+      {"id": "b", "text": "اليابانية", "correct": false},
+      {"id": "c", "text": "الصينية", "correct": false},
+      {"id": "d", "text": "الروسية", "correct": false}
+    ]
+  },
+  {
+    "id": 21,
+    "text": "ما هو المقصود بالسياحة المستدامة؟",
+    "subtitle": "السياحة والسفر - مفاهيم متقدمة",
+    "options": [
+      {"id": "a", "text": "سياحة تحافظ على البيئة والتراث", "correct": true},
+      {"id": "b", "text": "سياحة رخيصة", "correct": false},
+      {"id": "c", "text": "سياحة داخلية", "correct": false},
+      {"id": "d", "text": "سياحة جماعية", "correct": false}
+    ]
+  },
+  {
+    "id": 22,
+    "text": "أي من هذه الأماكن في الأردن مصنف كموقع تراث عالمي؟",
+    "subtitle": "السياحة والسفر - معالم أردنية",
+    "options": [
+      {"id": "a", "text": "قصر عمرة", "correct": true},
+      {"id": "b", "text": "جبل القلعة", "correct": false},
+      {"id": "c", "text": "شارع الرينبو", "correct": false},
+      {"id": "d", "text": "سوق جارا", "correct": false}
+    ]
+  },
+  {
+    "id": 23,
+    "text": "ما هو دور إدارة العلاقات العامة في الفندق؟",
+    "subtitle": "السياحة والسفر - إدارة الفنادق",
+    "options": [
+      {"id": "a", "text": "تحسين صورة الفندق", "correct": true},
+      {"id": "b", "text": "تنظيف الغرف", "correct": false},
+      {"id": "c", "text": "طهي الطعام", "correct": false},
+      {"id": "d", "text": "حساب الفواتير", "correct": false}
+    ]
+  },
+  {
+    "id": 24,
+    "text": "أي من هذه الخدمات تقدمها المطاعم للسياح؟",
+    "subtitle": "السياحة والسفر - خدمات الطعام",
+    "options": [
+      {"id": "a", "text": "وجبات محلية وعالمية", "correct": true},
+      {"id": "b", "text": "حجز تذاكر الطيران", "correct": false},
+      {"id": "c", "text": "تأجير السيارات", "correct": false},
+      {"id": "d", "text": "تنظيم الجولات", "correct": false}
+    ]
+  },
+  {
+    "id": 25,
+    "text": "ما هو أفضل طريقة للتعامل مع الشكاوى في الفنادق؟",
+    "subtitle": "السياحة والسفر - خدمة العملاء",
+    "options": [
+      {"id": "a", "text": "الاستماع والعمل على الحل", "correct": true},
+      {"id": "b", "text": "تجاهل الشكوى", "correct": false},
+      {"id": "c", "text": "الرد بعدم اكتراث", "correct": false},
+      {"id": "d", "text": "إلقاء اللوم على العميل", "correct": false}
+    ]
+  },
+  {
+    "id": 26,
+    "text": "أي من هذه العوامل تؤثر على اختيار الوجهة السياحية؟",
+    "subtitle": "السياحة والسفر - تخطيط الرحلات",
+    "options": [
+      {"id": "a", "text": "التكلفة والطقس", "correct": true},
+      {"id": "b", "text": "لون العلم", "correct": false},
+      {"id": "c", "text": "عدد السكان", "correct": false},
+      {"id": "d", "text": "المساحة", "correct": false}
+    ]
+  },
+  {
+    "id": 27,
+    "text": "ما هو نوع السياحة الذي يركز على ممارسة الرياضة؟",
+    "subtitle": "السياحة والسفر - أنواع السياحة",
+    "options": [
+      {"id": "a", "text": "السياحة الرياضية", "correct": true},
+      {"id": "b", "text": "السياحة الثقافية", "correct": false},
+      {"id": "c", "text": "السياحة الدينية", "correct": false},
+      {"id": "d", "text": "السياحة العلاجية", "correct": false}
+    ]
+  },
+  {
+    "id": 28,
+    "text": "أي من هذه المهارات مهمة لمرشد سياحي؟",
+    "subtitle": "السياحة والسفر - المهارات المهنية",
+    "options": [
+      {"id": "a", "text": "المعرفة التاريخية", "correct": true},
+      {"id": "b", "text": "البرمجة", "correct": false},
+      {"id": "c", "text": "الطبخ", "correct": false},
+      {"id": "d", "text": "الخياطة", "correct": false}
+    ]
+  },
+  {
+    "id": 29,
+    "text": "ما هو الغرض من التخطيط للرحلة؟",
+    "subtitle": "السياحة والسفر - تخطيط الرحلات",
+    "options": [
+      {"id": "a", "text": "تنظيم الوقت والميزانية", "correct": true},
+      {"id": "b", "text": "إلغاء الرحلة", "correct": false},
+      {"id": "c", "text": "زيادة التكاليف", "correct": false},
+      {"id": "d", "text": "تأخير السفر", "correct": false}
+    ]
+  },
+  {
+    "id": 30,
+    "text": "أي من هذه الدول تشتهر بالسياحة الثقافية؟",
+    "subtitle": "السياحة والسفر - الوجهات العالمية",
+    "options": [
+      {"id": "a", "text": "إيطاليا", "correct": true},
+      {"id": "b", "text": "روسيا", "correct": false},
+      {"id": "c", "text": "كندا", "correct": false},
+      {"id": "d", "text": "أستراليا", "correct": false}
+    ]
+  },
+  {
+    "id": 31,
+    "text": "ما هو المقصود بالسياحة الجماعية؟",
+    "subtitle": "السياحة والسفر - أنواع السياحة",
+    "options": [
+      {"id": "a", "text": "سياحة المجموعات المنظمة", "correct": true},
+      {"id": "b", "text": "سياحة الأفراد", "correct": false},
+      {"id": "c", "text": "سياحة الأعمال", "correct": false},
+      {"id": "d", "text": "سياحة المغامرات", "correct": false}
+    ]
+  },
+  {
+    "id": 32,
+    "text": "أي من هذه الخدمات تقدمها شركات تأجير السيارات؟",
+    "subtitle": "السياحة والسفر - خدمات النقل",
+    "options": [
+      {"id": "a", "text": "تأجير سيارات للسياح", "correct": true},
+      {"id": "b", "text": "بيع التذاكر", "correct": false},
+      {"id": "c", "text": "حجز الفنادق", "correct": false},
+      {"id": "d", "text": "تنظيم الجولات", "correct": false}
+    ]
+  },
+  {
+    "id": 33,
+    "text": "ما هو دور قسم الاستقبال في الفندق؟",
+    "subtitle": "السياحة والسفر - إدارة الفنادق",
+    "options": [
+      {"id": "a", "text": "استقبال وتوديع الضيوف", "correct": true},
+      {"id": "b", "text": "طهي الطعام", "correct": false},
+      {"id": "c", "text": "تنظيف الغرف", "correct": false},
+      {"id": "d", "text": "إدارة الحسابات", "correct": false}
+    ]
+  },
+  {
+    "id": 34,
+    "text": "أي من هذه المأكولات تشتهر بها الأردن؟",
+    "subtitle": "السياحة والسفر - المطبخ المحلي",
+    "options": [
+      {"id": "a", "text": "المنسف", "correct": true},
+      {"id": "b", "text": "السوشي", "correct": false},
+      {"id": "c", "text": "الباستا", "correct": false},
+      {"id": "d", "text": "التاكو", "correct": false}
+    ]
+  },
+  {
+    "id": 35,
+    "text": "ما هو أفضل طريقة للترويج للسياحة؟",
+    "subtitle": "السياحة والسفر - التسويق السياحي",
+    "options": [
+      {"id": "a", "text": "استخدام وسائل التواصل الاجتماعي", "correct": true},
+      {"id": "b", "text": "الإعلانات المطبوعة فقط", "correct": false},
+      {"id": "c", "text": "التلفاز فقط", "correct": false},
+      {"id": "d", "text": "الإذاعة فقط", "correct": false}
+    ]
+  },
+  {
+    "id": 36,
+    "text": "أي من هذه الأنشطة تعتبر من سياحة المغامرات؟",
+    "subtitle": "السياحة والسفر - أنشطة سياحية",
+    "options": [
+      {"id": "a", "text": "تسلق الجبال", "correct": true},
+      {"id": "b", "text": "زيارة المتاحف", "correct": false},
+      {"id": "c", "text": "التسوق", "correct": false},
+      {"id": "d", "text": "الاستجمام", "correct": false}
+    ]
+  },
+  {
+    "id": 37,
+    "text": "ما هو نوع السياحة الذي يركز على زيارة المناطق الطبيعية؟",
+    "subtitle": "السياحة والسفر - أنواع السياحة",
+    "options": [
+      {"id": "a", "text": "السياحة البيئية", "correct": true},
+      {"id": "b", "text": "السياحة الثقافية", "correct": false},
+      {"id": "c", "text": "السياحة الدينية", "correct": false},
+      {"id": "d", "text": "السياحة الرياضية", "correct": false}
+    ]
+  },
+  {
+    "id": 38,
+    "text": "أي من هذه المهارات مهمة للعاملين في خدمة العملاء؟",
+    "subtitle": "السياحة والسفر - مهارات التواصل",
+    "options": [
+      {"id": "a", "text": "اللباقة والصدق", "correct": true},
+      {"id": "b", "text": "الغضب", "correct": false},
+      {"id": "c", "text": "التحدث بصوت عال", "correct": false},
+      {"id": "d", "text": "التأخر في الرد", "correct": false}
+    ]
+  },
+  {
+    "id": 39,
+    "text": "ما هو الغرض من التأمين على السفر؟",
+    "subtitle": "السياحة والسفر - مستندات السفر",
+    "options": [
+      {"id": "a", "text": "الحماية من المخاطر", "correct": true},
+      {"id": "b", "text": "زيادة التكلفة", "correct": false},
+      {"id": "c", "text": "تأخير الرحلة", "correct": false},
+      {"id": "d", "text": "إلغاء الحجز", "correct": false}
+    ]
+  },
+  {
+    "id": 40,
+    "text": "أي من هذه اللغات مفيدة للسياح في الأردن؟",
+    "subtitle": "السياحة والسفر - التواصل مع السياح",
+    "options": [
+      {"id": "a", "text": "العربية", "correct": true},
+      {"id": "b", "text": "اليابانية", "correct": false},
+      {"id": "c", "text": "الكورية", "correct": false},
+      {"id": "d", "text": "السويدية", "correct": false}
+    ]
+  },
+  {
+    "id": 41,
+    "text": "ما هو المقصود بالسياحة الشاطئية؟",
+    "subtitle": "السياحة والسفر - أنواع السياحة",
+    "options": [
+      {"id": "a", "text": "سياحة الاستجمام على الشواطئ", "correct": true},
+      {"id": "b", "text": "سياحة الجبال", "correct": false},
+      {"id": "c", "text": "سياحة الصحراء", "correct": false},
+      {"id": "d", "text": "سياحة المدن", "correct": false}
+    ]
+  },
+  {
+    "id": 42,
+    "text": "أي من هذه المدن الأردنية تشتهر بالسياحة الدينية؟",
+    "subtitle": "السياحة والسفر - السياحة في الأردن",
+    "options": [
+      {"id": "a", "text": "مادبا", "correct": true},
+      {"id": "b", "text": "الزرقاء", "correct": false},
+      {"id": "c", "text": "المفرق", "correct": false},
+      {"id": "d", "text": "الكرك", "correct": false}
+    ]
+  },
+  {
+    "id": 43,
+    "text": "ما هو دور إدارة الحجوزات في الفندق؟",
+    "subtitle": "السياحة والسفر - إدارة الفنادق",
+    "options": [
+      {"id": "a", "text": "تنظيم حجوزات الغرف", "correct": true},
+      {"id": "b", "text": "طهي الطعام", "correct": false},
+      {"id": "c", "text": "تنظيف الغرف", "correct": false},
+      {"id": "d", "text": "إدارة الحسابات", "correct": false}
+    ]
+  },
+  {
+    "id": 44,
+    "text": "أي من هذه الخدمات تقدمها المطاعم الفاخرة؟",
+    "subtitle": "السياحة والسفر - خدمات الطعام",
+    "options": [
+      {"id": "a", "text": "خدمة متميزة وأطباق خاصة", "correct": true},
+      {"id": "b", "text": "وجبات سريعة فقط", "correct": false},
+      {"id": "c", "text": "خدمة ذاتية", "correct": false},
+      {"id": "d", "text": "أطباق باردة فقط", "correct": false}
+    ]
+  },
+  {
+    "id": 45,
+    "text": "ما هو أفضل طريقة للتعامل مع السياح الغاضبين؟",
+    "subtitle": "السياحة والسفر - خدمة العملاء",
+    "options": [
+      {"id": "a", "text": "الهدوء والاستماع", "correct": true},
+      {"id": "b", "text": "الصراخ", "correct": false},
+      {"id": "c", "text": "التجاهل", "correct": false},
+      {"id": "d", "text": "الرد بالمثل", "correct": false}
+    ]
+  },
+  {
+    "id": 46,
+    "text": "أي من هذه العوامل تؤثر على نجاح المشروع السياحي؟",
+    "subtitle": "السياحة والسفر - إدارة المشاريع",
+    "options": [
+      {"id": "a", "text": "الموقع والجودة", "correct": true},
+      {"id": "b", "text": "لون المبنى", "correct": false},
+      {"id": "c", "text": "حجم المبنى", "correct": false},
+      {"id": "d", "text": "اسم المبنى", "correct": false}
+    ]
+  },
+  {
+    "id": 47,
+    "text": "ما هو نوع السياحة الذي يركز على زيارة المعارض والمتاحف؟",
+    "subtitle": "السياحة والسفر - أنواع السياحة",
+    "options": [
+      {"id": "a", "text": "السياحة الثقافية", "correct": true},
+      {"id": "b", "text": "السياحة الرياضية", "correct": false},
+      {"id": "c", "text": "السياحة الدينية", "correct": false},
+      {"id": "d", "text": "السياحة العلاجية", "correct": false}
+    ]
+  },
+  {
+    "id": 48,
+    "text": "أي من هذه المهارات مهمة لمدير الفندق؟",
+    "subtitle": "السياحة والسفر - المهارات الإدارية",
+    "options": [
+      {"id": "a", "text": "القدرة على القيادة", "correct": true},
+      {"id": "b", "text": "الطبخ", "correct": false},
+      {"id": "c", "text": "الغناء", "correct": false},
+      {"id": "d", "text": "الرسم", "correct": false}
+    ]
+  },
+  {
+    "id": 49,
+    "text": "ما هو الغرض من وضع ميزانية للرحلة؟",
+    "subtitle": "السياحة والسفر - تخطيط الرحلات",
+    "options": [
+      {"id": "a", "text": "التحكم في المصروفات", "correct": true},
+      {"id": "b", "text": "زيادة التكاليف", "correct": false},
+      {"id": "c", "text": "إلغاء الرحلة", "correct": false},
+      {"id": "d", "text": "تأخير السفر", "correct": false}
+    ]
+  },
+  {
+    "id": 50,
+    "text": "أي من هذه الدول تشتهر بالسياحة الشتوية؟",
+    "subtitle": "السياحة والسفر - الوجهات العالمية",
+    "options": [
+      {"id": "a", "text": "سويسرا", "correct": true},
+      {"id": "b", "text": "مصر", "correct": false},
+      {"id": "c", "text": "تايلاند", "correct": false},
+      {"id": "d", "text": "الإمارات", "correct": false}
+    ]
+  },
+  {
+    "id": 51,
+    "text": "ما هو المقصود بالسياحة العلاجية؟",
+    "subtitle": "السياحة والسفر - أنواع السياحة",
+    "options": [
+      {"id": "a", "text": "سياحة للاستفادة من الخدمات الطبية", "correct": true},
+      {"id": "b", "text": "سياحة للتسوق", "correct": false},
+      {"id": "c", "text": "سياحة للمغامرات", "correct": false},
+      {"id": "d", "text": "سياحة للتعليم", "correct": false}
+    ]
+  },
+  {
+    "id": 52,
+    "text": "أي من هذه الخدمات تقدمها شركات السياحة؟",
+    "subtitle": "السياحة والسفر - خدمات السياحة",
+    "options": [
+      {"id": "a", "text": "تنظيم رحلات وجولات", "correct": true},
+      {"id": "b", "text": "بيع الملابس", "correct": false},
+      {"id": "c", "text": "تصليح السيارات", "correct": false},
+      {"id": "d", "text": "بناء المنازل", "correct": false}
+    ]
+  },
+  {
+    "id": 53,
+    "text": "ما هو دور قسم المطاعم في الفندق؟",
+    "subtitle": "السياحة والسفر - إدارة الفنادق",
+    "options": [
+      {"id": "a", "text": "توفير خدمات الطعام والشراب", "correct": true},
+      {"id": "b", "text": "تنظيف الغرف", "correct": false},
+      {"id": "c", "text": "إدارة الحسابات", "correct": false},
+      {"id": "d", "text": "استقبال الضيوف", "correct": false}
+    ]
+  },
+  {
+    "id": 54,
+    "text": "أي من هذه الفنادق في الأردن يعتبر من أفخم الفنادق؟",
+    "subtitle": "السياحة والسفر - الفنادق في الأردن",
+    "options": [
+      {"id": "a", "text": "فندق كمبينسكي", "correct": true},
+      {"id": "b", "text": "فندق صغير", "correct": false},
+      {"id": "c", "text": "نزل", "correct": false},
+      {"id": "d", "text": "شقة مفروشة", "correct": false}
+    ]
+  },
+  {
+    "id": 55,
+    "text": "ما هو أفضل طريقة لجذب السياح؟",
+    "subtitle": "السياحة والسفر - التسويق السياحي",
+    "options": [
+      {"id": "a", "text": "عروض وتخفيضات", "correct": true},
+      {"id": "b", "text": "رفع الأسعار", "correct": false},
+      {"id": "c", "text": "تقليل الخدمات", "correct": false},
+      {"id": "d", "text": "إهمال النظافة", "correct": false}
+    ]
+  },
+  {
+    "id": 56,
+    "text": "أي من هذه الأنشطة تعتبر من سياحة التسوق؟",
+    "subtitle": "السياحة والسفر - أنشطة سياحية",
+    "options": [
+      {"id": "a", "text": "زيارة الأسواق والمولات", "correct": true},
+      {"id": "b", "text": "تسلق الجبال", "correct": false},
+      {"id": "c", "text": "زيارة المتاحف", "correct": false},
+      {"id": "d", "text": "الاستجمام", "correct": false}
+    ]
+  },
+  {
+    "id": 57,
+    "text": "ما هو نوع السياحة الذي يركز على التعلم؟",
+    "subtitle": "السياحة والسفر - أنواع السياحة",
+    "options": [
+      {"id": "a", "text": "السياحة التعليمية", "correct": true},
+      {"id": "b", "text": "السياحة الثقافية", "correct": false},
+      {"id": "c", "text": "السياحة الدينية", "correct": false},
+      {"id": "d", "text": "السياحة الرياضية", "correct": false}
+    ]
+  },
+  {
+    "id": 58,
+    "text": "أي من هذه المهارات مهمة للعاملين في المطاعم؟",
+    "subtitle": "السياحة والسفر - مهارات الخدمة",
+    "options": [
+      {"id": "a", "text": "سرعة الاستجابة", "correct": true},
+      {"id": "b", "text": "البطء", "correct": false},
+      {"id": "c", "text": "النسيان", "correct": false},
+      {"id": "d", "text": "التأخر", "correct": false}
+    ]
+  },
+  {
+    "id": 59,
+    "text": "ما هو الغرض من جواز السفر؟",
+    "subtitle": "السياحة والسفر - مستندات السفر",
+    "options": [
+      {"id": "a", "text": "إثبات الهوية والجنسية", "correct": true},
+      {"id": "b", "text": "حجز الفندق", "correct": false},
+      {"id": "c", "text": "شراء التذاكر", "correct": false},
+      {"id": "d", "text": "تأجير السيارات", "correct": false}
+    ]
+  },
+  {
+    "id": 60,
+    "text": "أي من هذه اللغات مفيدة للسياح في أوروبا؟",
+    "subtitle": "السياحة والسفر - التواصل مع السياح",
+    "options": [
+      {"id": "a", "text": "الإنجليزية", "correct": true},
+      {"id": "b", "text": "اليابانية", "correct": false},
+      {"id": "c", "text": "الكورية", "correct": false},
+      {"id": "d", "text": "الصينية", "correct": false}
+    ]
+  },
+  {
+    "id": 61,
+    "text": "ما هو المقصود بالسياحة الرياضية؟",
+    "subtitle": "السياحة والسفر - أنواع السياحة",
+    "options": [
+      {"id": "a", "text": "سياحة لمشاهدة أو ممارسة الرياضة", "correct": true},
+      {"id": "b", "text": "سياحة للتسوق", "correct": false},
+      {"id": "c", "text": "سياحة للعلاج", "correct": false},
+      {"id": "d", "text": "سياحة للتعليم", "correct": false}
+    ]
+  },
+  {
+    "id": 62,
+    "text": "أي من هذه المدن الأردنية تشتهر بالسياحة الترفيهية؟",
+    "subtitle": "السياحة والسفر - السياحة في الأردن",
+    "options": [
+      {"id": "a", "text": "عمان", "correct": true},
+      {"id": "b", "text": "الزرقاء", "correct": false},
+      {"id": "c", "text": "المفرق", "correct": false},
+      {"id": "d", "text": "الكرك", "correct": false}
+    ]
+  },
+  {
+    "id": 63,
+    "text": "ما هو دور إدارة الغرف في الفندق؟",
+    "subtitle": "السياحة والسفر - إدارة الفنادق",
+    "options": [
+      {"id": "a", "text": "تنظيم وتنظيف الغرف", "correct": true},
+      {"id": "b", "text": "طهي الطعام", "correct": false},
+      {"id": "c", "text": "إدارة الحسابات", "correct": false},
+      {"id": "d", "text": "استقبال الضيوف", "correct": false}
+    ]
+  },
+  {
+    "id": 64,
+    "text": "أي من هذه الخدمات تقدمها المقاهي للسياح؟",
+    "subtitle": "السياحة والسفر - خدمات الطعام",
+    "options": [
+      {"id": "a", "text": "المشروبات والوجبات الخفيفة", "correct": true},
+      {"id": "b", "text": "حجز تذاكر الطيران", "correct": false},
+      {"id": "c", "text": "تأجير السيارات", "correct": false},
+      {"id": "d", "text": "تنظيم الجولات", "correct": false}
+    ]
+  },
+  {
+    "id": 65,
+    "text": "ما هو أفضل طريقة للترحيب بالسياح؟",
+    "subtitle": "السياحة والسفر - خدمة العملاء",
+    "options": [
+      {"id": "a", "text": "الابتسامة والترحيب الحار", "correct": true},
+      {"id": "b", "text": "الصمت", "correct": false},
+      {"id": "c", "text": "التجاهل", "correct": false},
+      {"id": "d", "text": "العبوس", "correct": false}
+    ]
+  },
+  {
+    "id": 66,
+    "text": "أي من هذه العوامل تؤثر على أسعار الفنادق؟",
+    "subtitle": "السياحة والسفر - اقتصاديات السياحة",
+    "options": [
+      {"id": "a", "text": "الموسم والموقع", "correct": true},
+      {"id": "b", "text": "لون الغرفة", "correct": false},
+      {"id": "c", "text": "حجم التلفاز", "correct": false},
+      {"id": "d", "text": "نوع الستائر", "correct": false}
+    ]
+  },
+  {
+    "id": 67,
+    "text": "ما هو نوع السياحة الذي يركز على زيارة الأماكن الريفية؟",
+    "subtitle": "السياحة والسفر - أنواع السياحة",
+    "options": [
+      {"id": "a", "text": "السياحة الريفية", "correct": true},
+      {"id": "b", "text": "السياحة الحضرية", "correct": false},
+      {"id": "c", "text": "السياحة الدينية", "correct": false},
+      {"id": "d", "text": "السياحة الرياضية", "correct": false}
+    ]
+  },
+  {
+    "id": 68,
+    "text": "أي من هذه المهارات مهمة لسائق الحافلات السياحية؟",
+    "subtitle": "السياحة والسفر - المهارات المهنية",
+    "options": [
+      {"id": "a", "text": "القيادة الآمنة", "correct": true},
+      {"id": "b", "text": "الطبخ", "correct": false},
+      {"id": "c", "text": "الغناء", "correct": false},
+      {"id": "d", "text": "الرسم", "correct": false}
+    ]
+  },
+  {
+    "id": 69,
+    "text": "ما هو الغرض من حجز الفندق مسبقًا؟",
+    "subtitle": "السياحة والسفر - تخطيط الرحلات",
+    "options": [
+      {"id": "a", "text": "ضمان الغرفة وتوفير المال", "correct": true},
+      {"id": "b", "text": "زيادة التكلفة", "correct": false},
+      {"id": "c", "text": "تأخير الوصول", "correct": false},
+      {"id": "d", "text": "إلغاء الرحلة", "correct": false}
+    ]
+  },
+  {
+    "id": 70,
+    "text": "أي من هذه الدول تشتهر بالسياحة الصيفية؟",
+    "subtitle": "السياحة والسفر - الوجهات العالمية",
+    "options": [
+      {"id": "a", "text": "إسبانيا", "correct": true},
+      {"id": "b", "text": "النرويج", "correct": false},
+      {"id": "c", "text": "فنلندا", "correct": false},
+      {"id": "d", "text": "أيسلندا", "correct": false}
+    ]
+  },
+  {
+    "id": 71,
+    "text": "ما هو المقصود بالسياحة البيئية؟",
+    "subtitle": "السياحة والسفر - أنواع السياحة",
+    "options": [
+      {"id": "a", "text": "سياحة تراعي البيئة والطبيعة", "correct": true},
+      {"id": "b", "text": "سياحة التلوث", "correct": false},
+      {"id": "c", "text": "سياحة المدن", "correct": false},
+      {"id": "d", "text": "سياحة المصانع", "correct": false}
+    ]
+  },
+  {
+    "id": 72,
+    "text": "أي من هذه الخدمات تقدمها شركات الطيران للركاب؟",
+    "subtitle": "السياحة والسفر - خدمات الطيران",
+    "options": [
+      {"id": "a", "text": "الوجبات والترفيه", "correct": true},
+      {"id": "b", "text": "حجز الفنادق", "correct": false},
+      {"id": "c", "text": "تأجير السيارات", "correct": false},
+      {"id": "d", "text": "تنظيم الجولات", "correct": false}
+    ]
+  },
+  {
+    "id": 73,
+    "text": "ما هو دور إدارة الأمن في الفندق؟",
+    "subtitle": "السياحة والسفر - إدارة الفنادق",
+    "options": [
+      {"id": "a", "text": "حماية الضيوف والممتلكات", "correct": true},
+      {"id": "b", "text": "طهي الطعام", "correct": false},
+      {"id": "c", "text": "تنظيف الغرف", "correct": false},
+      {"id": "d", "text": "إدارة الحسابات", "correct": false}
+    ]
+  },
+  {
+    "id": 74,
+    "text": "أي من هذه المأكولات تشتهر بها إيطاليا؟",
+    "subtitle": "السياحة والسفر - المطابخ العالمية",
+    "options": [
+      {"id": "a", "text": "الباستا والبيتزا", "correct": true},
+      {"id": "b", "text": "السوشي", "correct": false},
+      {"id": "c", "text": "التاكو", "correct": false},
+      {"id": "d", "text": "المنسف", "correct": false}
+    ]
+  },
+  {
+    "id": 75,
+    "text": "ما هو أفضل طريقة للتعامل مع الحالات الطارئة؟",
+    "subtitle": "السياحة والسفر - السلامة والأمن",
+    "options": [
+      {"id": "a", "text": "الهدوء وطلب المساعدة", "correct": true},
+      {"id": "b", "text": "الذعر", "correct": false},
+      {"id": "c", "text": "التجاهل", "correct": false},
+      {"id": "d", "text": "الصراخ", "correct": false}
+    ]
+  },
+  {
+    "id": 76,
+    "text": "أي من هذه العوامل تؤثر على اختيار الفندق؟",
+    "subtitle": "السياحة والسفر - تخطيط الإقامة",
+    "options": [
+      {"id": "a", "text": "السعر والموقع", "correct": true},
+      {"id": "b", "text": "لون المبنى", "correct": false},
+      {"id": "c", "text": "اسم الفندق", "correct": false},
+      {"id": "d", "text": "عدد النوافذ", "correct": false}
+    ]
+  },
+  {
+    "id": 77,
+    "text": "ما هو نوع السياحة الذي يركز على زيارة الأماكن الأثرية؟",
+    "subtitle": "السياحة والسفر - أنواع السياحة",
+    "options": [
+      {"id": "a", "text": "السياحة الأثرية", "correct": true},
+      {"id": "b", "text": "السياحة الرياضية", "correct": false},
+      {"id": "c", "text": "السياحة الدينية", "correct": false},
+      {"id": "d", "text": "السياحة العلاجية", "correct": false}
+    ]
+  },
+  {
+    "id": 78,
+    "text": "أي من هذه المهارات مهمة للعاملين في الاستقبال؟",
+    "subtitle": "السياحة والسفر - مهارات التواصل",
+    "options": [
+      {"id": "a", "text": "اللباقة وحسن المظهر", "correct": true},
+      {"id": "b", "text": "الغضب", "correct": false},
+      {"id": "c", "text": "التحدث بصوت عال", "correct": false},
+      {"id": "d", "text": "التأخر", "correct": false}
+    ]
+  },
+  {
+    "id": 79,
+    "text": "ما هو الغرض من بطاقة الصعود إلى الطائرة؟",
+    "subtitle": "السياحة والسفر - مستندات السفر",
+    "options": [
+      {"id": "a", "text": "الإذن بصعود الطائرة", "correct": true},
+      {"id": "b", "text": "حجز الفندق", "correct": false},
+      {"id": "c", "text": "تأجير السيارات", "correct": false},
+      {"id": "d", "text": "شراء الهدايا", "correct": false}
+    ]
+  },
+  {
+    "id": 80,
+    "text": "أي من هذه اللغات مفيدة للسياح في آسيا؟",
+    "subtitle": "السياحة والسفر - التواصل مع السياح",
+    "options": [
+      {"id": "a", "text": "الإنجليزية", "correct": true},
+      {"id": "b", "text": "الإسبانية", "correct": false},
+      {"id": "c", "text": "الفرنسية", "correct": false},
+      {"id": "d", "text": "الألمانية", "correct": false}
+    ]
+  },
+  {
+    "id": 81,
+    "text": "ما هو المقصود بالسياحة الثقافية؟",
+    "subtitle": "السياحة والسفر - أنواع السياحة",
+    "options": [
+      {"id": "a", "text": "سياحة للتعرف على التراث والعادات", "correct": true},
+      {"id": "b", "text": "سياحة للتسوق", "correct": false},
+      {"id": "c", "text": "سياحة للعلاج", "correct": false},
+      {"id": "d", "text": "سياحة للمغامرات", "correct": false}
+    ]
+  },
+  {
+    "id": 82,
+    "text": "أي من هذه المدن الأردنية تشتهر بالسياحة الشتوية؟",
+    "subtitle": "السياحة والسفر - السياحة في الأردن",
+    "options": [
+      {"id": "a", "text": "عجلون", "correct": true},
+      {"id": "b", "text": "العقبة", "correct": false},
+      {"id": "c", "text": "البحر الميت", "correct": false},
+      {"id": "d", "text": "الزرقاء", "correct": false}
+    ]
+  },
+  {
+    "id": 83,
+    "text": "ما هو دور إدارة الجودة في الفندق؟",
+    "subtitle": "السياحة والسفر - إدارة الفنادق",
+    "options": [
+      {"id": "a", "text": "تحسين الخدمات والمرافق", "correct": true},
+      {"id": "b", "text": "طهي الطعام", "correct": false},
+      {"id": "c", "text": "تنظيف الغرف", "correct": false},
+      {"id": "d", "text": "إدارة الحسابات", "correct": false}
+    ]
+  },
+  {
+    "id": 84,
+    "text": "أي من هذه الخدمات تقدمها محطات القطار؟",
+    "subtitle": "السياحة والسفر - خدمات النقل",
+    "options": [
+      {"id": "a", "text": "بيع التذاكر وانتظار الركاب", "correct": true},
+      {"id": "b", "text": "حجز الفنادق", "correct": false},
+      {"id": "c", "text": "تأجير السيارات", "correct": false},
+      {"id": "d", "text": "تنظيم الجولات", "correct": false}
+    ]
+  },
+  {
+    "id": 85,
+    "text": "ما هو أفضل طريقة لشكر السياح؟",
+    "subtitle": "السياحة والسفر - خدمة العملاء",
+    "options": [
+      {"id": "a", "text": "الشكر والابتسامة", "correct": true},
+      {"id": "b", "text": "الصمت", "correct": false},
+      {"id": "c", "text": "التجاهل", "correct": false},
+      {"id": "d", "text": "العبوس", "correct": false}
+    ]
+  },
+  {
+    "id": 86,
+    "text": "أي من هذه العوامل تؤثر على تذاكر الطيران؟",
+    "subtitle": "السياحة والسفر - اقتصاديات السياحة",
+    "options": [
+      {"id": "a", "text": "الموسم والطلب", "correct": true},
+      {"id": "b", "text": "لون الطائرة", "correct": false},
+      {"id": "c", "text": "اسم الشركة", "correct": false},
+      {"id": "d", "text": "شكل المقعد", "correct": false}
+    ]
+  },
+  {
+    "id": 87,
+    "text": "ما هو نوع السياحة الذي يركز على زيارة المعالم الحديثة؟",
+    "subtitle": "السياحة والسفر - أنواع السياحة",
+    "options": [
+      {"id": "a", "text": "السياحة الحضرية", "correct": true},
+      {"id": "b", "text": "السياحة الريفية", "correct": false},
+      {"id": "c", "text": "السياحة الدينية", "correct": false},
+      {"id": "d", "text": "السياحة الرياضية", "correct": false}
+    ]
+  },
+  {
+    "id": 88,
+    "text": "أي من هذه المهارات مهمة للعاملين في السياحة؟",
+    "subtitle": "السياحة والسفر - المهارات المهنية",
+    "options": [
+      {"id": "a", "text": "المعرفة بالمعالم", "correct": true},
+      {"id": "b", "text": "البرمجة", "correct": false},
+      {"id": "c", "text": "الطبخ", "correct": false},
+      {"id": "d", "text": "الخياطة", "correct": false}
+    ]
+  },
+  {
+    "id": 89,
+    "text": "ما هو الغرض من الفحص الأمني في المطارات؟",
+    "subtitle": "السياحة والسفر - سلامة السفر",
+    "options": [
+      {"id": "a", "text": "ضمان سلامة الركاب", "correct": true},
+      {"id": "b", "text": "تأخير الرحلة", "correct": false},
+      {"id": "c", "text": "زيادة التكلفة", "correct": false},
+      {"id": "d", "text": "إلغاء الحجز", "correct": false}
+    ]
+  },
+  {
+    "id": 90,
+    "text": "أي من هذه اللغات مفيدة للسياح في أمريكا اللاتينية؟",
+    "subtitle": "السياحة والسفر - التواصل مع السياح",
+    "options": [
+      {"id": "a", "text": "الإسبانية", "correct": true},
+      {"id": "b", "text": "اليابانية", "correct": false},
+      {"id": "c", "text": "الكورية", "correct": false},
+      {"id": "d", "text": "الصينية", "correct": false}
+    ]
+  },
+  {
+    "id": 91,
+    "text": "ما هو المقصود بالسياحة الدينية؟",
+    "subtitle": "السياحة والسفر - أنواع السياحة",
+    "options": [
+      {"id": "a", "text": "سياحة لزيارة الأماكن المقدسة", "correct": true},
+      {"id": "b", "text": "سياحة للتسوق", "correct": false},
+      {"id": "c", "text": "سياحة للعلاج", "correct": false},
+      {"id": "d", "text": "سياحة للمغامرات", "correct": false}
+    ]
+  },
+  {
+    "id": 92,
+    "text": "أي من هذه المدن الأردنية تشتهر بالسياحة البحرية؟",
+    "subtitle": "السياحة والسفر - السياحة في الأردن",
+    "options": [
+      {"id": "a", "text": "العقبة", "correct": true},
+      {"id": "b", "text": "عمان", "correct": false},
+      {"id": "c", "text": "الزرقاء", "correct": false},
+      {"id": "d", "text": "إربد", "correct": false}
+    ]
+  },
+  {
+    "id": 93,
+    "text": "ما هو دور إدارة التسويق في الفندق؟",
+    "subtitle": "السياحة والسفر - إدارة الفنادق",
+    "options": [
+      {"id": "a", "text": "جذب العملاء وزيادة الإشغال", "correct": true},
+      {"id": "b", "text": "طهي الطعام", "correct": false},
+      {"id": "c", "text": "تنظيف الغرف", "correct": false},
+      {"id": "d", "text": "إدارة الحسابات", "correct": false}
+    ]
+  },
+  {
+    "id": 94,
+    "text": "أي من هذه الخدمات تقدمها محطات الحافلات؟",
+    "subtitle": "السياحة والسفر - خدمات النقل",
+    "options": [
+      {"id": "a", "text": "بيع التذاكر وانتظار الركاب", "correct": true},
+      {"id": "b", "text": "حجز الفنادق", "correct": false},
+      {"id": "c", "text": "تأجير السيارات", "correct": false},
+      {"id": "d", "text": "تنظيم الجولات", "correct": false}
+    ]
+  },
+  {
+    "id": 95,
+    "text": "ما هو أفضل طريقة لوداع السياح؟",
+    "subtitle": "السياحة والسفر - خدمة العملاء",
+    "options": [
+      {"id": "a", "text": "التوديع الحار والدعوة للعودة", "correct": true},
+      {"id": "b", "text": "الصمت", "correct": false},
+      {"id": "c", "text": "التجاهل", "correct": false},
+      {"id": "d", "text": "العبوس", "correct": false}
+    ]
+  },
+  {
+    "id": 96,
+    "text": "أي من هذه العوامل تؤثر على جودة الخدمة؟",
+    "subtitle": "السياحة والسفر - إدارة الجودة",
+    "options": [
+      {"id": "a", "text": "التدريب والاهتمام", "correct": true},
+      {"id": "b", "text": "لون الزي", "correct": false},
+      {"id": "c", "text": "حجم المبنى", "correct": false},
+      {"id": "d", "text": "اسم المؤسسة", "correct": false}
+    ]
+  },
+  {
+    "id": 97,
+    "text": "ما هو نوع السياحة الذي يركز على زيارة الأماكن الطبيعية؟",
+    "subtitle": "السياحة والسفر - أنواع السياحة",
+    "options": [
+      {"id": "a", "text": "السياحة البيئية", "correct": true},
+      {"id": "b", "text": "السياحة الحضرية", "correct": false},
+      {"id": "c", "text": "السياحة الدينية", "correct": false},
+      {"id": "d", "text": "السياحة الرياضية", "correct": false}
+    ]
+  },
+  {
+    "id": 98,
+    "text": "أي من هذه المهارات مهمة للعاملين في السياحة؟",
+    "subtitle": "السياحة والسفر - المهارات الشخصية",
+    "options": [
+      {"id": "a", "text": "الصبر والتحمل", "correct": true},
+      {"id": "b", "text": "الغضب", "correct": false},
+      {"id": "c", "text": "التسرع", "correct": false},
+      {"id": "d", "text": "النسيان", "correct": false}
+    ]
+  },
+  {
+    "id": 99,
+    "text": "ما هو الغرض من تأشيرة العبور؟",
+    "subtitle": "السياحة والسفر - مستندات السفر",
+    "options": [
+      {"id": "a", "text": "السماح بالمرور عبر دولة", "correct": true},
+      {"id": "b", "text": "الإقامة الدائمة", "correct": false},
+      {"id": "c", "text": "العمل", "correct": false},
+      {"id": "d", "text": "الدراسة", "correct": false}
+    ]
+  },
+  {
+    "id": 100,
+    "text": "أي من هذه اللغات مفيدة للسياح في أفريقيا؟",
+    "subtitle": "السياحة والسفر - التواصل مع السياح",
+    "options": [
+      {"id": "a", "text": "الإنجليزية والفرنسية", "correct": true},
+      {"id": "b", "text": "اليابانية", "correct": false},
+      {"id": "c", "text": "الكورية", "correct": false},
+      {"id": "d", "text": "الصينية", "correct": false}
+    ]
+  }
+]

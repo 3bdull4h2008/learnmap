@@ -1,0 +1,87 @@
+{
+  "basic_info": {
+    "name": "جامعة الزرقاء",
+    "nameEn": "Zarqa University",
+    "type": "private",
+    "city": "Zarqa",
+    "region": "central",
+    "established": 1994,
+    "website": "https://zu.edu.jo/EN"
+  },
+  "admission_requirements": {
+    "general_requirements": "Secondary school certificate (Tawjihi) or equivalent; minimum marks vary by major: 60% for arts/science/IT/education/design/media, 65% for law, 70% for allied medical/nursing, 75% for sharia, 80% for engineering/pharmacy/dentistry",
+    "min_tawjihi_mark": 60,
+    "has_entrance_exam": false,
+    "exam_details": "No entrance exam; admission based on Tawjihi marks. Level placement exams may be required for some programs.",
+    "english_requirement": "No specific TOEFL/IELTS requirement stated; English language courses are offered through the British Council for students needing improvement."
+  },
+  "majors_overview": {
+    "college_count": 15,
+    "major_categories": [
+      "medical",
+      "engineering",
+      "IT",
+      "business",
+      "arts",
+      "law",
+      "sharia",
+      "science",
+      "education",
+      "media",
+      "design"
+    ],
+    "total_majors": 58,
+    "has_postgraduate": true
+  },
+  "tuition_fees": {
+    "annual_fees_range": "Varies by major and nationality (after discounts for Jordanians); international students pay higher rates",
+    "medical_majors_fees": 8160,
+    "engineering_majors_fees": 3960,
+    "humanities_majors_fees": 1980,
+    "notes": "Fees per credit hour (2024/2025): Sharia 30 JOD, Arts 55 JOD, Science 55 JOD, IT 65-80 JOD, Economics 50-60 JOD, Education 55-60 JOD, Law 60 JOD, Allied Medical 70-100 JOD, Nursing 70 JOD, Engineering 110-120 JOD, Pharmacy 120 JOD, Dentistry 290 JOD, Arts & Design 90 JOD, Media 80 JOD. Discounts up to 70% available for high achievers. The university offers scholarships totaling approximately JD 2.5 million per term."
+  },
+  "ranking_accreditation": {
+    "national_ranking": "8th in Jordan (ARU Arab Ranking for Universities 2025)",
+    "accreditation": "Ministry of Higher Education and Scientific Research of Jordan (MOHE), Accreditation and Quality Assurance Commission for Higher Education Institutions, ASIC (British Accreditation Commission) Premier University status",
+    "international_recognition": "QS Arab Rankings 2025: 161-170; THE Impact Rankings 2025: 1501+; Webometrics 2026: World Rank 3686, Country Rank 17"
+  },
+  "market_demand": {
+    "overall_demand": "medium",
+    "high_demand_majors": ["Pharmacy", "Nursing", "Engineering", "Computer Science", "Dentistry"],
+    "employment_rate_estimate": "Good for medical and engineering graduates; uncertain for other fields",
+    "notes": "Zarqa University serves a relatively underprivileged region. The university has partnerships with local industries and a Business Incubator Unit to support entrepreneurship and employability."
+  },
+  "campus_facilities": {
+    "has_accommodation": false,
+    "accommodation_details": "No on-campus student housing confirmed; the university does not list accommodation among its facilities",
+    "has_library": true,
+    "has_sports_facilities": true,
+    "has_scholarships": true,
+    "scholarship_details": "Multiple scholarship programs available: EDU-SYRIA (EU-funded for Syrian refugees), Social Security Corporation scholarships for children of retirees, 'We Rejoice in Hussein' scholarships for Zarqa residents, and other merit-based grants totaling approximately JD 2.5 million per term."
+  },
+  "contact_info": {
+    "address": "P.O.Box 2000, Zarqa 13110, Jordan",
+    "phone": "+962 (0)5 38 211 00",
+    "email": "regist@zu.edu.jo",
+    "social_media": [
+      "https://web.facebook.com/News.Zu/",
+      "https://x.com/News_Zu",
+      "https://www.instagram.com/zarqauniversity1/",
+      "https://www.youtube.com/channel/UCEzwC8Db-Zq5n2SEZczvN6w",
+      "https://jo.linkedin.com/school/zarqa-university/",
+      "https://wa.me/+962780022880"
+    ]
+  },
+  "uncertain": [
+    "admission_requirements.english_requirement",
+    "tuition_fees.annual_fees_range",
+    "tuition_fees.medical_majors_fees",
+    "tuition_fees.engineering_majors_fees",
+    "tuition_fees.humanities_majors_fees",
+    "market_demand.overall_demand",
+    "market_demand.high_demand_majors",
+    "market_demand.employment_rate_estimate",
+    "campus_facilities.has_accommodation",
+    "campus_facilities.accommodation_details"
+  ]
+}

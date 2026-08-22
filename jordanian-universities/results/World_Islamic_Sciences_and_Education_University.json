@@ -1,0 +1,145 @@
+{
+  "basic_info": {
+    "name": "جامعة العلوم الإسلامية العالمية",
+    "nameEn": "World Islamic Sciences and Education University",
+    "type": "public",
+    "city": "Amman",
+    "region": "central",
+    "established": 2008,
+    "website": "https://www.wise.edu.jo",
+    "affiliation": "Al al-Bayt Royal Institute for Islamic Thought",
+    "establishment_law": "Special Law No. 16/2008, Official Gazette No. 4900, April 16, 2008"
+  },
+  "admission_requirements": {
+    "general_requirements": "Tawjihi (General Secondary Education Certificate) or equivalent; unified admission through Ministry of Higher Education for competitive programs; direct admission (parallel) also available",
+    "min_tawjihi_mark": 50,
+    "min_tawjihi_mark_note": "50% is the absolute minimum for diploma programs; bachelor programs require 75-88% depending on major",
+    "has_entrance_exam": "[uncertain]",
+    "exam_details": "[uncertain]",
+    "english_requirement": "[uncertain]"
+  },
+  "majors_overview": {
+    "college_count": 9,
+    "colleges": [
+      "Faculty of Dawa and Usuluddien (Theology)",
+      "Faculty of Sheikh Noah El-Qudha for Sharia and Law",
+      "Faculty of Arts, Humanities and Educational Science",
+      "Faculty of Traditional Islamic Art and Architecture",
+      "Faculty of Information Technology",
+      "Faculty of Business and Finance",
+      "Faculty of Basic Sciences",
+      "Faculty of Higher Studies",
+      "Higher Institute for Quranic Studies and Recitation"
+    ],
+    "major_categories": [
+      "sharia",
+      "law",
+      "arts",
+      "humanities",
+      "education",
+      "IT",
+      "business",
+      "finance",
+      "islamic art and architecture",
+      "basic sciences",
+      "quranic studies"
+    ],
+    "total_majors": "[uncertain]",
+    "has_postgraduate": true,
+    "notable_programs": [
+      "BA in Hanafi Fiqh (English language, first of its kind accredited by MOHE)",
+      "BA in Shafi'i Fiqh (English language)",
+      "PhD in Faith and Islamic Philosophy",
+      "PhD in Quranic Sciences and Interpretation",
+      "PhD in Hadeeth and Its Sciences",
+      "PhD in Sharia Courts",
+      "PhD in Islamic Jurisprudence",
+      "MSc and PhD in Islamic Banking"
+    ]
+  },
+  "tuition_fees": {
+    "fee_structure_source": "HPMI Yordania (2024 data, may be outdated)",
+    "admission_fee": "175 JOD",
+    "registration_fee": "50 JOD",
+    "semester_administration_fee": "215 JOD",
+    "insurance_fee": "50 JOD",
+    "proficiency_exam_fee": "65 JOD (Arabic, English, Computer)",
+    "online_registration_fee": "50 JOD",
+    "campus_registration_fee": "250 JOD (after acceptance)",
+    "per_credit_hour": {
+      "ushuluddin": "15 JOD",
+      "usul_fiqh": "15 JOD",
+      "quranic_readings": "15 JOD",
+      "fiqh_shafii": "10 JOD",
+      "fiqh_hanafi": "10 JOD",
+      "fiqh_maliki": "10 JOD"
+    },
+    "annual_fees_range": "[uncertain]",
+    "medical_majors_fees": "N/A - no medical programs",
+    "engineering_majors_fees": "N/A - no engineering programs",
+    "humanities_majors_fees": "[uncertain]",
+    "distance_learning_ba_fees": "~$350 USD per semester ($45/course + $100 registration + $100 one-time admission + $30 reenrollment)",
+    "notes": "Fee structure varies by program; data sourced from third-party sites and may not reflect current fees. Check official website for latest."
+  },
+  "ranking_accreditation": {
+    "national_ranking": "21st in Jordan",
+    "accreditation": "MOHE (Ministry of Higher Education and Scientific Research), FUIW (Federation of the Universities of the Islamic World), AArU (Association of Arab Universities)",
+    "international_recognition": "QS Arab Region Rankings 2026: #201-250; THE Impact Rankings 2024: 1501+"
+  },
+  "market_demand": {
+    "overall_demand": "[uncertain]",
+    "high_demand_majors": "[uncertain]",
+    "employment_rate_estimate": "[uncertain]",
+    "notes": "[uncertain]"
+  },
+  "campus_facilities": {
+    "campus_locations": [
+      "District Tariq (Tariq Hayy), Amman - Faculty of Dawa and Usuluddien, Faculty of Sharia and Law, Faculty of Arabic Language and Literature",
+      "Umm Udzainah District (Duwar Sadis), Amman - Faculty of Arts and Islamic Architecture",
+      "Medina Riyadiyya, Amman - Main campus"
+    ],
+    "has_accommodation": "[uncertain]",
+    "accommodation_details": "[uncertain]",
+    "has_library": true,
+    "has_sports_facilities": "[uncertain]",
+    "has_scholarships": true,
+    "scholarship_details": "Scholarships available for high-achieving Tawjihi certificate holders (above 80% scores), prioritized for Jordanian nationals",
+    "centers": [
+      "Computer and Information Center",
+      "Arabic Language Center for Speakers of Other Languages",
+      "The Language Center",
+      "Consultation, Training, Planning and Development Center",
+      "The Center for the Rehabilitation of Imams and Preachers",
+      "E-Learning Center"
+    ]
+  },
+  "contact_info": {
+    "address": "PO Box 1101, Tabarbour, Amman 11947, Jordan",
+    "phone": "+962 6 5600230",
+    "fax": "+962 6 5064015",
+    "email": "info@wise.edu.jo",
+    "email_programs": {
+      "english_ba": "englishba@wise.edu.jo",
+      "support": "Info@makingsenseofislam.com"
+    },
+    "social_media": "[uncertain]",
+    "admission_portal": "https://admission.wise.edu.jo/",
+    "lms_portal": "https://lms.wise.edu.jo/mlms/"
+  },
+  "uncertain": [
+    "has_entrance_exam",
+    "exam_details",
+    "english_requirement",
+    "total_majors",
+    "annual_fees_range",
+    "humanities_majors_fees",
+    "market_demand.overall_demand",
+    "market_demand.high_demand_majors",
+    "market_demand.employment_rate_estimate",
+    "market_demand.notes",
+    "has_accommodation",
+    "accommodation_details",
+    "has_sports_facilities",
+    "social_media"
+  ]
+}

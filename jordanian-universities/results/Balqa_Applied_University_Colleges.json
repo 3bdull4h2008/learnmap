@@ -1,0 +1,293 @@
+{
+  "basic_info": {
+    "name": "جامعة البلقاء التطبيقية",
+    "nameEn": "Balqa Applied University",
+    "type": "public",
+    "city": "Salt (main campus), with regional colleges across Jordan",
+    "region": "national (north, central, south)",
+    "established": 1997,
+    "website": "https://www.bau.edu.jo"
+  },
+  "admission_requirements": {
+    "general_requirements": "Tawjihi (General Secondary Education Certificate), Unified Admission Coordination Unit placement, competitive entry based on Tawjihi marks",
+    "min_tawjihi_mark": 65.0,
+    "has_entrance_exam": true,
+    "exam_details": "Some programs require entrance exams or interviews; selective admission policy based on entrance examinations and past academic records",
+    "english_requirement": "[uncertain]"
+  },
+  "colleges": {
+    "total_count": 25,
+    "main_campus_colleges_count": 13,
+    "regional_colleges_count": 12,
+    "main_campus_colleges": [
+      {
+        "nameAr": "كلية الدراسات العليا",
+        "nameEn": "College of Graduate Studies",
+        "location": "Salt (main campus)",
+        "url": "https://www.bau.edu.jo/bauar/Colleges/Graduate_Studies/Home.aspx"
+      },
+      {
+        "nameAr": "كلية الطب",
+        "nameEn": "College of Medicine",
+        "location": "Salt (main campus)",
+        "url": "https://www.bau.edu.jo/bauar/Colleges/Medic/Home.aspx"
+      },
+      {
+        "nameAr": "كلية الهندسة",
+        "nameEn": "College of Engineering",
+        "location": "Salt (main campus)",
+        "url": "https://www.bau.edu.jo/bauar/Colleges/Eng/Home.aspx"
+      },
+      {
+        "nameAr": "كلية العلوم",
+        "nameEn": "College of Science",
+        "location": "Salt (main campus)",
+        "url": "https://www.bau.edu.jo/bauar/Colleges/Science/Home.aspx"
+      },
+      {
+        "nameAr": "كلية التمريض",
+        "nameEn": "College of Nursing",
+        "location": "Salt (main campus)",
+        "url": "https://www.bau.edu.jo/bauar/Colleges/Nursing/Home.aspx"
+      },
+      {
+        "nameAr": "كلية العلوم الطبية المساندة",
+        "nameEn": "College of Allied Medical Sciences",
+        "location": "Salt (main campus)",
+        "url": "https://www.bau.edu.jo/bauar/Colleges/Allied_Medical_Sciences/Home.aspx"
+      },
+      {
+        "nameAr": "كلية الزراعة التكنولوجية",
+        "nameEn": "College of Agricultural Technology",
+        "location": "Salt (main campus)",
+        "url": "https://www.bau.edu.jo/bauar/Colleges/Agr/Home.aspx"
+      },
+      {
+        "nameAr": "كلية الأمير عبدالله بن غازي للاتصالات وتكنولوجيا المعلومات",
+        "nameEn": "Prince Abdullah Bin Ghazi College for Communications and Information Technology",
+        "location": "Salt (main campus)",
+        "url": "https://www.bau.edu.jo/bauar/Colleges/Prince_Abdullah/Home.aspx"
+      },
+      {
+        "nameAr": "كلية الذكاء الاصطناعي",
+        "nameEn": "College of Artificial Intelligence",
+        "location": "Salt (main campus)",
+        "url": "https://www.bau.edu.jo/bauar/Colleges/AI/Home.aspx"
+      },
+      {
+        "nameAr": "كلية الأعمال",
+        "nameEn": "College of Business",
+        "location": "Salt (main campus)",
+        "url": "https://www.bau.edu.jo/bauar/Colleges/Business/Home.aspx"
+      },
+      {
+        "nameAr": "كلية السلط للعلوم التربوية والإنسانية",
+        "nameEn": "Salt College for Educational and Human Sciences",
+        "location": "Salt (main campus)",
+        "url": "https://www.bau.edu.jo/bauar/Colleges/salt/Home.aspx"
+      },
+      {
+        "nameAr": "كلية السلط التقنية",
+        "nameEn": "Salt Technology College",
+        "location": "Salt (main campus)",
+        "url": "https://www.bau.edu.jo/bauar/Colleges/Salt_Technology/Home.aspx"
+      },
+      {
+        "nameAr": "كلية الحقوق",
+        "nameEn": "College of Law",
+        "location": "Salt (main campus)",
+        "url": "https://www.bau.edu.jo/bauar/Colleges/law/Home.aspx"
+      }
+    ],
+    "regional_colleges": [
+      {
+        "nameAr": "كلية الحصن الجامعية",
+        "nameEn": "Huson University College",
+        "location": "Irbid (Huson)",
+        "departments": [
+          "Chemical Engineering",
+          "Mechanical Engineering",
+          "Civil Engineering (Water and Environment)",
+          "Electrical Engineering",
+          "Nutrition and Food Technology",
+          "Financial and Administrative Sciences",
+          "Basic Sciences (Humanities)",
+          "Basic Sciences (Scientific)",
+          "Information Technology",
+          "Applied Sciences"
+        ],
+        "email": "huson@bau.edu.jo",
+        "url": "https://www.bau.edu.jo/bauar/Colleges/Huson/Home.aspx"
+      },
+      {
+        "nameAr": "كلية اربد الجامعية",
+        "nameEn": "Irbid University College",
+        "location": "Irbid",
+        "departments": [
+          "Applied Sciences",
+          "Educational Sciences",
+          "English Language",
+          "Arabic Language",
+          "Basic Sciences",
+          "Applied Health Sciences",
+          "Applied Sciences and Allied Medical Professions"
+        ],
+        "email": "Irbid@bau.edu.jo",
+        "url": "https://www.bau.edu.jo/bauar/Colleges/Irbid/Home.aspx"
+      },
+      {
+        "nameAr": "كلية عجلون الجامعية",
+        "nameEn": "Ajloun University College",
+        "location": "Ajloun",
+        "departments": [
+          "Applied Sciences",
+          "Basic Sciences",
+          "Educational Sciences",
+          "Social Sciences",
+          "English Language",
+          "Financial and Administrative Sciences"
+        ],
+        "email": "Ajloun@bau.edu.jo",
+        "url": "https://www.bau.edu.jo/bauar/Colleges/Ajloun/Home.aspx"
+      },
+      {
+        "nameAr": "كلية الهندسة التكنولوجية",
+        "nameEn": "College of Technological Engineering",
+        "location": "[uncertain]",
+        "url": "https://www.bau.edu.jo/bauar/Colleges/Technological_Engineering/Home.aspx"
+      },
+      {
+        "nameAr": "كلية عمّان الجامعية للعلوم المالية والإدارية",
+        "nameEn": "Amman University College for Financial and Administrative Sciences",
+        "location": "Amman (Shafa Badran / Marj Al-Faras)",
+        "departments": [
+          "Basic Sciences",
+          "Accounting and Accounting Information Systems",
+          "Financial and Banking Sciences",
+          "Management Information Systems",
+          "Business Administration"
+        ],
+        "email": "amman@bau.edu.jo",
+        "url": "https://www.bau.edu.jo/bauar/Colleges/Amman/Home.aspx"
+      },
+      {
+        "nameAr": "كلية الاميرة عاليه الجامعية",
+        "nameEn": "Princess Alia University College",
+        "location": "Amman",
+        "url": "https://www.bau.edu.jo/bauar/Colleges/Alia/Home.aspx"
+      },
+      {
+        "nameAr": "كلية الزرقاء الجامعية",
+        "nameEn": "Zarqa University College",
+        "location": "Zarqa",
+        "url": "https://www.bau.edu.jo/bauar/Colleges/Zarqa/Home.aspx"
+      },
+      {
+        "nameAr": "كلية الاميرة رحمة الجامعية",
+        "nameEn": "Princess Rahma University College",
+        "location": "Amman",
+        "url": "https://www.bau.edu.jo/bauar/Colleges/Rahma/Home.aspx"
+      },
+      {
+        "nameAr": "كلية الكرك الجامعية",
+        "nameEn": "Karak University College",
+        "location": "Karak",
+        "url": "https://www.bau.edu.jo/bauar/Colleges/Karak/Home.aspx"
+      },
+      {
+        "nameAr": "كلية الشوبك الجامعية",
+        "nameEn": "Shoubak University College",
+        "location": "Shoubak",
+        "url": "https://www.bau.edu.jo/bauar/Colleges/Shoubk/Home.aspx"
+      },
+      {
+        "nameAr": "كلية معان الجامعية",
+        "nameEn": "Ma'an University College",
+        "location": "Ma'an",
+        "url": "https://www.bau.edu.jo/bauar/Colleges/Maan/Home.aspx"
+      },
+      {
+        "nameAr": "كلية العقبة الجامعية",
+        "nameEn": "Aqaba University College",
+        "location": "Aqaba",
+        "url": "https://www.bau.edu.jo/bauar/Colleges/Aqaba/Home.aspx"
+      }
+    ]
+  },
+  "majors_overview": {
+    "college_count": 25,
+    "bachelor_programs": 115,
+    "diploma_programs": 165,
+    "postgraduate_programs": 30,
+    "major_categories": [
+      "Medicine",
+      "Engineering",
+      "Science",
+      "Nursing",
+      "Allied Medical Sciences",
+      "Agricultural Technology",
+      "Communications and Information Technology",
+      "Artificial Intelligence",
+      "Business and Administrative Sciences",
+      "Education and Human Sciences",
+      "Technology",
+      "Law",
+      "Applied Sciences",
+      "Financial and Banking Sciences",
+      "Social Sciences",
+      "English Language",
+      "Arabic Language"
+    ],
+    "has_postgraduate": true
+  },
+  "tuition_fees": {
+    "annual_fees_range": "1,000 - 4,500 JOD depending on program and level",
+    "medical_majors_fees": 4210,
+    "engineering_majors_fees": 3500,
+    "humanities_majors_fees": 1500,
+    "notes": "Fees vary by program (bachelor vs associate diploma) and admission type (regular vs parallel). Registration fees: 151 JOD for regular bachelor, 102 JOD for regular diploma. Postgraduate fees reduced by 28-45% as of 2022/2023. Scholarships available through Student Support Fund and Ministry of Higher Education."
+  },
+  "ranking_accreditation": {
+    "national_ranking": "5th in Jordan (Webometrics)",
+    "accreditation": "Ministry of Higher Education and Scientific Research (MOHE), IAU, FUIW, UNIMED, AArU",
+    "international_recognition": "Webometrics World Rank: 2575, THE World University Rankings: 601-800"
+  },
+  "market_demand": {
+    "overall_demand": "high",
+    "high_demand_majors": [
+      "Nursing and Midwifery",
+      "Pharmacy",
+      "Engineering Technology",
+      "Computer Science and IT",
+      "Business Administration",
+      "Maritime Transport Technology"
+    ],
+    "employment_rate_estimate": "[uncertain]",
+    "notes": "BAU focuses on applied and technical education aligned with Jordanian labor market needs. The university has signed work-placement agreements with companies. Applied diploma graduates are in demand for technical and vocational roles."
+  },
+  "campus_facilities": {
+    "total_students": 65000,
+    "total_graduates": 240000,
+    "academic_staff": 1590,
+    "administrative_staff": 2200,
+    "has_accommodation": true,
+    "accommodation_details": "Dormitories available at main campus and some affiliated colleges; designated student housing with modern accommodations",
+    "has_library": true,
+    "has_sports_facilities": true,
+    "has_scholarships": true,
+    "scholarship_details": "Scholarships through Student Support Fund, Ministry of Higher Education internal scholarships and loans, overseas scholarship program for master's and PhD, excellence grants, and emergency financial aid. Student Support Fund provides monthly assistance of 60 JOD to eligible students."
+  },
+  "contact_info": {
+    "address": "Al-Mansheyeh, Salt 19117, Jordan (Main Campus)",
+    "phone": "+962 5 3491111",
+    "fax": "+962 5 3532312",
+    "email": "info@bau.edu.jo",
+    "social_media": "[uncertain]"
+  },
+  "uncertain": [
+    "admission_requirements.english_requirement",
+    "market_demand.employment_rate_estimate",
+    "contact_info.social_media",
+    "colleges.regional_colleges[3].location (Technological Engineering College)"
+  ]
+}

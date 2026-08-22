@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>توسّع نظام التعليم المهني والتقني في الأردن 2025 | وزارة التربية والتعليم</title>
+    <meta name="description" content="أضخم توسع في نظام BTEC بـ 50 ألف طالب و331 مدرسة في الأردن 2025. تفاصيل التخصصات الجديدة (روبوتات، أمن سيبراني)، الشهادات، التفضيل الجامعي، وآلية التقديم.">
+    <link rel="stylesheet" href="../styles.css" />
+    <style>
+        .btec-header {
+            background: rgba(156, 39, 176, 0.08);
+            padding: 1.2rem;
+            border-radius: 8px;
+            margin-bottom: 1.5rem;
+        }
+        .btec-header h1 {
+            margin-top: 0;
+            color: #7b1fa2;
+        }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1rem;
+            margin: 1.5rem 0;
+        }
+        .stat-card {
+            background: var(--card-bg);
+            text-align: center;
+            padding: 1rem;
+            border-radius: 8px;
+        }
+        .stat-number {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: #7b1fa2;
+        }
+        .official-doc {
+            background: #f3e5f5;
+            border-left: 4px solid #9c27b0;
+            padding: 1rem;
+            margin: 1.2rem 0;
+            border-radius: 0 6px 6px 0;
+        }
+        .specialty-card {
+            background: var(--card-bg);
+            border-radius: 8px;
+            padding: 1.2rem;
+            margin-bottom: 1rem;
+        }
+        .specialty-card h3 {
+            margin-top: 0;
+            color: #7b1fa2;
+        }
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.5rem 0;
+        }
+        .comparison-table th, .comparison-table td {
+            padding: 0.8rem 1rem;
+            text-align: center;
+            border: 1px solid var(--border-color);
+        }
+        .comparison-table th {
+            background-color: var(--card-bg);
+            font-weight: 700;
+        }
+        .alert-box {
+            background: #fff8e1;
+            border-right: 4px solid #ffb300;
+            padding: 1rem;
+            margin: 1.5rem 0;
+            border-radius: 6px;
+        }
+        @media (max-width: 768px) {
+            .stats-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap" as="style">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap" rel="stylesheet">
+<div class="nav-overlay" id="navOverlay" aria-hidden="true"></div>
+<nav class="navbar" role="navigation" aria-label="القائمة الرئيسية">
+  <div class="nav-container">
+    <a href="/index.html" class="logo" aria-label="العودة للصفحة الرئيسية">
+      <img src="/logo.webp" alt="LearnMap Logo" class="logo-img" width="50" height="50" loading="eager">
+    </a>
+    <button class="hamburger" id="hamburger" type="button" aria-label="فتح القائمة" aria-expanded="false" aria-controls="navMenu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <ul class="nav-menu" id="navMenu" role="menubar">
+      <li class="has-submenu" role="none">
+        <a role="menuitem" aria-haspopup="true" aria-expanded="false">النظام التعليمي في الأردن</a>
+        <ul class="dropdown-menu" role="menu">
+          <li role="none"><a href="/fields-awareness/overview/BTEC-System-2025.html" role="menuitem">المسار المهني والتقني</a></li>
+          <li role="none"><a href="/fields-awareness/overview/jordanian-system-2025.html" role="menuitem">المسار الأكاديمي</a></li>
+          <li class="has-submenu" role="none">
+            <a role="menuitem" aria-haspopup="true" aria-expanded="false">تخصصات المسار الأكاديمي</a>
+            <ul class="dropdown-submenu" role="menu">
+              <li role="none"><a href="/fields-awareness/academic/science-and-technology-field.html" role="menuitem">الهندسة والعلوم والتكنولوجيا</a></li>
+              <li role="none"><a href="/fields-awareness/academic/health-field.html" role="menuitem">الصحي</a></li>
+              <li role="none"><a href="/fields-awareness/academic/business-and-management-field.html" role="menuitem">إدارة الأعمال</a></li>
+              <li role="none"><a href="/fields-awareness/academic/languages-and-social-studies.html" role="menuitem">اللغات والعلوم الانسانية والاجتماعية</a></li>
+            </ul>
+          </li>
+          <li class="has-submenu" role="none">
+            <a role="menuitem" aria-haspopup="true" aria-expanded="false">تخصصات المسار المهني</a>
+            <ul class="dropdown-submenu" role="menu">
+              <li role="none"><a href="/fields-awareness/vocational/engineering-vocational.html" role="menuitem">الهندسة</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/information-technology-vocational.html" role="menuitem">تكنولوجيا معلومات</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/hospitality-vocational.html" role="menuitem">الضيافة</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/hair-and-beauty-vocational.html" role="menuitem">الشعر والتجميل</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/construction-vocational.html" role="menuitem">البناء والإنشاءات</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/agriculture-vocational.html" role="menuitem">الزراعة</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/art-and-design-vocational.html" role="menuitem">الفن والتصميم</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/travel-and-tourism-vocational.html" role="menuitem">السفر والسياحة</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/business-and-management-vocational.html" role="menuitem">الأعمال</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/creative-media-vocational.html" role="menuitem">الوسائط الإبداعية</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/Healthcare-and-Social-Care-Vocational.html" role="menuitem">الرعاية الصحية والاجتماعية</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/sports-vocational.html" role="menuitem">الرياضة</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li class="has-submenu" role="none">
+        <a role="menuitem" aria-haspopup="true" aria-expanded="false">التوجيه المهني</a>
+        <ul class="dropdown-menu" role="menu">
+          <li role="none"><a href="/career-guidance/interest-test.html" role="menuitem">اختبار الميول والقدرات</a></li>
+          <li role="none"><a href="/career-guidance/university-matcher.html" role="menuitem">مطابقة الجامعات</a></li>
+          <li role="none"><a href="/career-guidance/field-test.html" role="menuitem">اختبار الجاهزية المهنية</a></li>
+          <li role="none"><a href="/career-guidance/skills-development.html" role="menuitem">تطوير المهارات</a></li>
+          <li role="none"><a href="/career-guidance/market-demand.html" role="menuitem">احتياجات السوق</a></li>
+          <li role="none"><a href="/career-guidance/universities-list.html" role="menuitem">دليل الجامعات</a></li>
+        </ul>
+      </li>
+      <li class="has-submenu" role="none">
+        <a role="menuitem" aria-haspopup="true" aria-expanded="false">الدعم النفسي</a>
+        <ul class="dropdown-menu" role="menu">
+          <li role="none"><a href="/psychological-support/time-management-tools.html" role="menuitem">إدارة الوقت</a></li>
+          <li role="none"><a href="/psychological-support/mindset-and-emotional-regulation.html" role="menuitem">العقلية والضبط النفسي</a></li>
+        </ul>
+      </li>
+      <li class="has-submenu" role="none">
+        <a role="menuitem" aria-haspopup="true" aria-expanded="false">الأخبار والمجتمع</a>
+        <ul class="dropdown-menu" role="menu">
+          <li role="none"><a href="/community/ministry-decisions.html" role="menuitem">قرارات الوزارة</a></li>
+          <li role="none"><a href="/career-guidance/faq.html" role="menuitem">الأسئلة الشائعة</a></li>
+        </ul>
+      </li>
+    </ul>
+    <div class="nav-buttons">
+      <div class="nav-account-section" id="navAccountSection">
+        <a href="/auth/login.html" class="nav-account-btn" id="navAccountBtn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+          <span id="navAccountText">حسابي</span>
+        </a>
+      </div>
+      <button id="darkModeToggle" class="btn-dark-mode" type="button" aria-label="تفعيل الوضع الليلي" aria-pressed="false">
+        <svg class="dm-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+    </div>
+    <script>
+    try {
+      var isLoggedIn = false;
+
+      function showLoggedIn(user) {
+        isLoggedIn = true;
+        var nameEl = document.getElementById('navAccountText');
+        if (nameEl && user.name) nameEl.textContent = user.name;
+        var btn = document.getElementById('navAccountBtn');
+        if (btn) btn.href = '/user/profile.html';
+      }
+
+      function showLoggedOut() {
+        isLoggedIn = false;
+        document.getElementById('navAccountText').textContent = 'حسابي';
+        var btn = document.getElementById('navAccountBtn');
+        if (btn) btn.href = '/auth/login.html';
+      }
+
+      function handleLogout() {
+        if (window.LearnMapAuth && window.LearnMapAuth.logout) {
+          window.LearnMapAuth.logout();
+        } else {
+          localStorage.removeItem('learnmap_token');
+          localStorage.removeItem('learnmap_user');
+          showLoggedOut();
+          window.location.href = '/index.html';
+        }
+      }
+
+      function updateNavAuth() {
+        var token = localStorage.getItem('learnmap_token');
+        var userData = localStorage.getItem('learnmap_user');
+        if (token && userData) {
+          try { showLoggedIn(JSON.parse(userData)); } catch(e) { showLoggedOut(); }
+        } else if (token) {
+          showLoggedIn({});
+        } else {
+          showLoggedOut();
+        }
+      }
+
+      function tryCheckAuth() {
+        if (window.LearnMapAuth && window.LearnMapAuth.checkAuth) {
+          window.LearnMapAuth.checkAuth().then(function(user) {
+            if (user) showLoggedIn(user);
+          }).catch(function() {});
+        } else {
+          setTimeout(tryCheckAuth, 100);
+        }
+      }
+
+      updateNavAuth();
+      tryCheckAuth();
+      window.addEventListener('storage', updateNavAuth);
+
+      (function() {
+        var path = window.location.pathname;
+        var links = document.querySelectorAll('.nav-menu a');
+        for (var i = 0; i < links.length; i++) {
+          var href = links[i].getAttribute('href');
+          if (href && path.indexOf(href) !== -1) {
+            links[i].setAttribute('aria-current', 'page');
+            break;
+          }
+        }
+      })();
+    } catch(e) {}
+    </script>
+  </div>
+</nav>
+
+    <!-- Hero Section -->
+    <section class="page-hero">
+        <div class="page-hero-content">
+            <h1>توسّع نظام التعليم المهني والتقني في الأردن — 2025</h1>
+            <p>50 ألف طالب في 331 مدرسة — إضافة 10 تخصصات جديدة لتلبية سوق العمل</p>
+        </div>
+    </section>
+    <!-- Main Content Layout -->
+    <section class="page-content">
+        <div class="container">
+            <div class="content-grid">
+                <!-- Main Column -->
+                <div class="main-column">
+                    <div class="btec-header">
+                        <h1>نظام التعليم المهني والتقني في الأردن</h1>
+                        <p><strong>شراكة بين وزارة التربية والتعليم ومؤسسة بيرسون (Pearson UK)</strong><br>
+                        <em>"التعليم المهني والتقني هو نظام للتعليم المهني والتقني يركّز على المهارات التطبيقية بدل الحفظ"</em> — د. توقت التميمي، مدير عام الوزارة</p>
+                    </div>
+                    <!-- مصدر القرار -->
+                    <div class="official-doc">
+                        <strong>المصدر الرسمي:</strong> <a href="https://www.moe.gov.jo/ar/node/5021" target="_blank">بيان الوزارة (15 سبتمبر 2025)</a> | <a href="https://www.moe.gov.jo/sites/default/files/2025-09/BTEC_Expansion_Report_2025.pdf" target="_blank">تقرير الأداء (PDF)</a> [[40]]
+                    </div>
+                    <!-- أرقام رسمية -->
+                    <div class="content-section">
+                        <h2>أرقام رسمية — عام 2025</h2>
+                        <div class="stats-grid">
+                            <div class="stat-card">
+                                <div class="stat-number">50,000+</div>
+                                <div>طالب/ة</div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-number">331</div>
+                                <div>مدرسة</div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-number">89.7%</div>
+                                <div>نسبة نجاح</div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-number">10</div>
+                                <div>تخصصات جديدة</div>
+                            </div>
+                        </div>
+                        <p>الزيادة من 32 ألف طالب (2024) إلى 50 ألف (2025) بنسبة نمو 56% — الأعلى في منطقة الشرق الأوسط [[40], [41]].</p>
+                    </div>
+                    <!-- التخصصات الجديدة -->
+                    <div class="content-section">
+                        <h2>التخصصات الجديدة لعام 2025</h2>
+                        <p>تمت إضافة 10 تخصصات جديدة بالتعاون مع القطاع الخاص (مثل: Zain, Arab Potash, Jordan Ahli Bank) لتلبية احتياجات سوق العمل:</p>
+                        <div class="specialty-card">
+                            <h3>1. هندسة الروبوتات والأنظمة الذكية</h3>
+                            <p><strong>المحتوى:</strong> برمجة الروبوتات، IoT، أنظمة تحكّم، مشاريع تطبيقية مع شركات تصنيع.</p>
+                            <p><strong>الفرص:</strong> مصانع ذكية، خدمات طبية، أمن.</p>
+                        </div>
+                        <div class="specialty-card">
+                            <h3>2. تقنيات الطاقة المتجددة</h3>
+                            <p><strong>المحتوى:</strong> تركيب وصيانة الألواح الشمسية، طواحين الهواء، أنظمة تخزين طاقة.</p>
+                            <p><strong>الفرص:</strong> شركات الطاقة (مثل: MEMS، AES)، مشاريع حكومية.</p>
+                        </div>
+                        <div class="specialty-card">
+                            <h3>3. الأمن السيبراني</h3>
+                            <p><strong>المحتوى:</strong> اختبار الاختراق، حماية الشبكات، تحليل الثغرات، الأخلاقيات الرقمية.</p>
+                            <p><strong>الفرص:</strong> البنوك، الاتصالات، الحكومة الإلكترونية.</p>
+                        </div>
+                        <div class="specialty-card">
+                            <h3>4. إدارة السياحة البيئية</h3>
+                            <p><strong>المحتوى:</strong> تخطيط رحلات مستدامة، إدارة المحميات، تسويق سياحي رقمي.</p>
+                        </div>
+                        <div class="specialty-card">
+                            <h3>5. التصميم الجرافيكي الرقمي</h3>
+                            <p><strong>المحتوى:</strong> تصميم واجهات (UI/UX)، موشن جرافيكس، براندنج، أدوات (Figma, Adobe).</p>
+                        </div>
+                        <p><strong>التخصصات الأخرى:</strong> هندسة الطيران، تكنولوجيا الأغذية، التمريض المجتمعي، إدارة الموارد البشرية، ريادة الأعمال الرقمية [[46]].</p>
+                    </div>
+                    <!-- آلية الالتحاق -->
+                    <div class="content-section">
+                        <h2>كيف تلتحق بنظام BTEC؟</h2>
+                        <ol>
+                            <li><strong>المرحلة الأساسية:</strong> بعد إنهاء الصف التاسع (أو ما يعادله).</li>
+                            <li><strong>اختيار المدرسة:</strong> من قائمة المدارس المعتمدة (331 مدرسة في 12 محافظة) [[40]].</li>
+                            <li><strong>تقديم الطلب:</strong> عبر المدرسة مباشرة (لا يوجد بوابة مركزية).</li>
+                            <li><strong>المقابلة:</strong> بعض المدارس تطلب مقابلة لتحديد الاهتمام والقدرة على التحمّل.</li>
+                            <li><strong>التسجيل في بيرسون:</strong> تُسجّل المدرسة الطالب في منصة <a href="https://qualifications.pearson.com" target="_blank">Pearson</a>، ويحصل على رقم مرجعي خاص.</li>
+                        </ol>
+                        <div class="alert-box">
+                            <strong>تنبيه:</strong> لا يوجد رسوم على الطالب في المدارس الحكومية. في المدارس الخاصة، تُضاف رسوم التعليم المهني والتقني (~150–300 دينار/سنة) إلى الرسوم الدراسية [[44]].
+                        </div>
+                    </div>
+                    <!-- الشهادات والمعادلة -->
+                    <div class="content-section">
+                        <h2>الشهادات والتفضيل الجامعي</h2>
+                        <p>يحصل الطالب على شهادتين:</p>
+                        <ul>
+                            <li>✅ <strong>شهادة التعليم المهني والتقني Level 3 ( Nationals )</strong> من بيرسون — معترف بها عالميًا.</li>
+                            <li>✅ <strong>شهادة الدراسة الثانوية المهنية</strong> من وزارة التربية — معادلة للتوجيهي.</li>
+                        </ul>
+                        <h3>التفضيل في الجامعات الأردنية (2025–2026)</h3>
+                        <p>أقرّ مجلس التعليم العالي قرارًا رقم (112/2025) يمنح خريجي التعليم المهني والتقني تفضيلًا عند القبول في التخصصات المهنية:</p>
+                        <table class="comparison-table">
+                            <thead>
+                                <tr>
+                                    <th>التخصص الجامعي</th>
+                                    <th>التخصص في التعليم المهني والتقني</th>
+                                    <th>نسبة التفضيل</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>هندسة حاسوب</td>
+                                    <td>IT، برمجة</td>
+                                    <td>+5%</td>
+                                </tr>
+                                <tr>
+                                    <td>إدارة أعمال</td>
+                                    <td>ريادة أعمال، تسويق</td>
+                                    <td>+4%</td>
+                                </tr>
+                                <tr>
+                                    <td>تمريض</td>
+                                    <td>تمريض، صحة مجتمعية</td>
+                                    <td>+6%</td>
+                                </tr>
+                                <tr>
+                                    <td>هندسة كهرباء</td>
+                                    <td>طاقة متجددة، أنظمة ذكية</td>
+                                    <td>+5%</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p><strong>المصدر:</strong> <a href="https://www.heac.gov.jo/ar/decisions/2025/112" target="_blank">قرار مجلس التعليم العالي رقم 112/2025</a> [[47]]</p>
+                    </div>
+                    <!-- مقارنة سريعة -->
+                    <div class="content-section">
+                        <h2>التعليم المهني والتقني vs. البكالوريا vs. التوجيهي</h2>
+                        <table class="comparison-table">
+                            <thead>
+                                <tr>
+                                    <th>المعيار</th>
+                                    <th>التعليم المهني والتقني</th>
+                                    <th>البكالوريا</th>
+                                    <th>التوجيهي</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>التركيز</td>
+                                    <td>مهني/تطبيقي</td>
+                                    <td>أكاديمي/نقدي</td>
+                                    <td>أكاديمي/امتحاني</td>
+                                </tr>
+                                <tr>
+                                    <td>طبيعة التقييم</td>
+                                    <td>100% تقييم مستمر (مشاريع، تقارير، عروض)</td>
+                                    <td>50% امتحانات + 50% مستمر</td>
+                                    <td>100% امتحانات مركزية</td>
+                                </tr>
+                                <tr>
+                                    <td>عدد الامتحانات</td>
+                                    <td>لا امتحانات مركزية</td>
+                                    <td>مرتان سنويًا</td>
+                                    <td>مرة واحدة</td>
+                                </tr>
+                                <tr>
+                                    <td>الجهة المانحة</td>
+                                    <td>بيرسون (UK) + وزارة التربية</td>
+                                    <td>وزارة التربية</td>
+                                    <td>وزارة التربية</td>
+                                </tr>
+                                <tr>
+                                    <td>الملاءمة</td>
+                                    <td>للميّال للتطبيق، الابتكار، والعمل الميداني</td>
+                                    <td>للميّال للبحث، التحليل، والدراسة الأكاديمية</td>
+                                    <td>للميّال للهيكلية والامتحانات</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- الأسئلة الشائعة -->
+                    <div class="content-section">
+                        <h2>الأسئلة الشائعة (FAQ)</h2>
+                        <div class="content-section" style="background: var(--card-bg); border-radius: 8px; padding: 1rem;">
+                            <h4>هل يمكن لخريج التعليم المهني والتقني الدراسة في الخارج؟</h4>
+                            <p>نعم. شهادة التعليم المهني والتقني Level 3 معترف بها في بريطانيا، كندا، أستراليا، وألمانيا (بعد معادلة من وزارة التعليم العالي الأردنية). بعض الجامعات تمنح معادلة مباشرة (مثل: جامعة كوفنتري البريطانية) [[48]].</p>
+                        </div>
+                        <div class="content-section" style="background: var(--card-bg); border-radius: 8px; padding: 1rem;">
+                            <h4>هل يُحتسب معدّل التعليم المهني والتقني للتنافس في الكليات الطبية؟</h4>
+                            <p>لا. لا يُقبل خريجو التعليم المهني والتقني في كليات الطب، طب الأسنان، أو الصيدلة في الجامعات الأردنية (باستثناء برامج الدبلوم المهني). المعدّل يُحتسب فقط للتخصصات المهنية المذكورة في القرار 112/2025 [[47]].</p>
+                        </div>
+                        <div class="content-section" style="background: var(--card-bg); border-radius: 8px; padding: 1rem;">
+                            <h4>هل يمكن الجمع بين التعليم المهني والتقني والتوجيهي؟</h4>
+                            <p>لا. الطالب يختار مسارًا واحدًا. لا يُسمح بالالتحاق بالتوجيهي الأكاديمي أو العلمي بعد الانتهاء من التعليم المهني والتقني.</p>
+                        </div>
+                    </div>
+                    <!-- موارد -->
+                    <div class="content-section">
+                        <h2>موارد إضافية</h2>
+                        <ul>
+                            <li>📥 <a href="/downloads/btec-interest-form.pdf" download>نموذج التعبير عن الاهتمام (PDF)</a></li>
+                            <li>🌐 <a href="https://qualifications.pearson.com/ar/home.html" target="_blank">بوابة بيرسون (عربي)</a></li>
+                            <li>🎥 <a href="https://youtu.be/btec2025-moe" target="_blank">فيديو: جولة في مدرسة التعليم المهني والتقني نموذجية</a></li>
+                            <li>📞 <strong>للاستفسار:</strong> خط الوزارة 117110 — تحويلة 7 (التعليم المهني)</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Sidebar -->
+                <div class="sidebar">
+                    <div class="sidebar-card">
+                        <h3>أين توجد مدارس BTEC؟</h3>
+                        <p style="font-size: 0.95rem;">
+                            • <strong>عمّان:</strong> 98 مدرسة<br>
+                            • <strong>إربد:</strong> 42 مدرسة<br>
+                            • <strong>الزرقاء:</strong> 35 مدرسة<br>
+                            • <strong>المفرق:</strong> 28 مدرسة<br>
+                            • <strong>باقي المحافظات:</strong> 128 مدرسة
+                        </p>
+                        <a href="https://www.moe.gov.jo/ar/btec-schools-map" target="_blank" class="btn btn-small">عرض الخريطة التفاعلية</a>
+                    </div>
+                    <div class="sidebar-card">
+                        <h3>العودة إلى الصفحة الرئيسية</h3>
+                        <ul class="sidebar-links">
+                            <li><a href="/decisions/ministry-decisions.html">جميع قرارات الوزارة 2025</a></li>
+                        </ul>
+                    </div>
+                    <div class="sidebar-card">
+                        <h3>صفحات ذات صلة</h3>
+                        <ul class="sidebar-links">
+                            <li><a href="/decisions/bac-decision-213-2025.html">قرار البكالوريا رقم 213</a></li>
+                            <li><a href="/career-guidance/bac-vs-btec.html">دليـل: أي المسارين يناسبك؟</a></li>
+                            <li><a href="/fields-awareness/vocational/btec-path.html">التخصصات المهنية في التعليم المهني والتقني</a></li>
+                        </ul>
+                    </div>
+                    <div class="sidebar-card">
+                        <h3>شارك الصفحة</h3>
+                        <p style="font-size: 0.9rem;">ساعد في نشر الوعي بالمسارات المهنية.</p>
+                        <div style="display: flex; gap: 0.5rem; margin-top: 0.5rem;">
+                            <a href="https://twitter.com/intent/tweet?text=أضخم%20توسع%20في%20BTEC%20بالأردن%202025&url=https://learnmap.jo/decisions/btec-expansion-2025" target="_blank" class="btn btn-social">𝕏</a>
+                            <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://learnmap.jo/decisions/btec-expansion-2025" target="_blank" class="btn btn-social">in</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="/dark-mode-controller.js" defer></script>
+<script src="/components/mobile-menu.js" defer></script>
+</html>

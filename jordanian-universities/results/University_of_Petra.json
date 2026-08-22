@@ -1,0 +1,87 @@
+{
+  "basic_info": {
+    "name": "جامعة البترا",
+    "nameEn": "University of Petra",
+    "type": "private",
+    "city": "Amman",
+    "region": "central",
+    "established": 1991,
+    "website": "https://www.uop.edu.jo"
+  },
+  "admission_requirements": {
+    "general_requirements": "Jordanian General Secondary Certificate (Tawjihi) or equivalent; minimum scores vary by major: 60% for most humanities, IT, and business programs; 65% for Law; 70% for Clinical Nutrition; 80% for Pharmacy, Civil Engineering, and Architecture.",
+    "min_tawjihi_mark": 60,
+    "has_entrance_exam": false,
+    "exam_details": "Placement tests in Arabic, English, and IT for new students to determine language and computer proficiency levels; technical abilities aptitude test required for Architecture and Design programs.",
+    "english_requirement": "No specific English proficiency score required for undergraduate admission; English exam (IELTS/TOEFL) required for master's program admission with minimum scores varying by program (IELTS 5.0-6.5 or TOEFL IBT 59-90)."
+  },
+  "majors_overview": {
+    "college_count": 9,
+    "major_categories": ["dentistry", "arts and sciences", "business", "pharmacy and medical sciences", "information technology", "architecture and design", "law", "mass communication", "engineering"],
+    "total_majors": 37,
+    "has_postgraduate": true
+  },
+  "tuition_fees": {
+    "credit_hour_fees": "30-120 JOD per credit hour depending on program",
+    "fee_details_by_program": {
+      "pharmacy": "120 JOD/credit hour (166 total credit hours)",
+      "architecture": "120 JOD/credit hour (165 total credit hours)",
+      "interior_design": "100 JOD/credit hour (143 total credit hours)",
+      "graphic_design": "100 JOD/credit hour (137 total credit hours)",
+      "animation_and_multimedia": "100 JOD/credit hour (137 total credit hours)",
+      "accounting": "85 JOD/credit hour (132 total credit hours)",
+      "software_engineering": "90 JOD/credit hour (133 total credit hours)",
+      "computer_science": "80 JOD/credit hour (134 total credit hours)",
+      "business_administration": "80 JOD/credit hour (132 total credit hours)",
+      "banking_and_finance": "80 JOD/credit hour (132 total credit hours)",
+      "digital_film_design": "65 JOD/credit hour (140 total credit hours)",
+      "civil_engineering": "60 JOD/credit hour (160 total credit hours)",
+      "clinical_nutrition": "60 JOD/credit hour (136 total credit hours)",
+      "law": "60 JOD/credit hour (141 total credit hours)",
+      "chemistry": "55 JOD/credit hour (132 total credit hours)",
+      "mathematics": "55 JOD/credit hour (132 total credit hours)",
+      "arabic_language": "30 JOD/credit hour (135 total credit hours)",
+      "class_teacher": "30 JOD/credit hour (135 total credit hours)",
+      "child_education": "30 JOD/credit hour (135 total credit hours)"
+    },
+    "notes": "Additional fees: registration 200 JOD, service fees 170 JOD per regular semester; insurance 100 JOD (refundable); application fees 40 JOD; placement test 45 JOD (undergraduate). Summer semester: registration 100 JOD, service fees 85 JOD. Fees listed are for the academic year 2022/2023."
+  },
+  "ranking_accreditation": {
+    "national_ranking": "[uncertain]",
+    "accreditation": "Ministry of Higher Education and Scientific Research (MOHE); ABET (Engineering & IT programs); [uncertain] ACPE (Pharmacy); ISO 9001 [uncertain]",
+    "international_recognition": "[uncertain]"
+  },
+  "market_demand": {
+    "overall_demand": "high",
+    "high_demand_majors": ["Pharmacy", "Engineering", "Information Technology", "Business Administration", "Architecture"],
+    "employment_rate_estimate": "[uncertain]",
+    "notes": "University operates Career Guidance and Alumni Office. Exact employment rate not publicly available on the website."
+  },
+  "campus_facilities": {
+    "has_accommodation": true,
+    "accommodation_details": "Student dormitory available; transportation services provided to all areas in Amman, Zarqa, and Madaba for a nominal fee.",
+    "has_library": true,
+    "has_sports_facilities": true,
+    "has_scholarships": true,
+    "scholarship_details": "Incentive discount up to 20% on master's programs; additional scholarship details available through Deanship of Student Affairs."
+  },
+  "contact_info": {
+    "address": "Airport Road, Amman, Jordan P.O Box 961343",
+    "phone": "+962 6 5799555",
+    "whatsapp": "00962791152410",
+    "mobile": "00962796677755",
+    "fax": "+962 6 5715570",
+    "email": "info@uop.edu.jo",
+    "social_media": [
+      "https://www.facebook.com/PetraaUniversity",
+      "https://x.com/PetraUniversity",
+      "https://www.linkedin.com/company/petra-university"
+    ]
+  },
+  "uncertain": [
+    "ranking_accreditation.national_ranking",
+    "ranking_accreditation.international_recognition",
+    "ranking_accreditation.accreditation (ACPE, ISO 9001)",
+    "employment_rate_estimate"
+  ]
+}

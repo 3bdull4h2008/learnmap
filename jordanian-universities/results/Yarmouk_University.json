@@ -1,0 +1,88 @@
+{
+  "basic_info": {
+    "name": "جامعة اليرموك",
+    "nameEn": "Yarmouk University",
+    "type": "public",
+    "city": "Irbid",
+    "region": "north",
+    "established": 1976,
+    "website": "https://www.yu.edu.jo"
+  },
+  "admission_requirements": {
+    "general_requirements": "Tawjihi (General Secondary Education Certificate) or equivalent (IB, SAT, IGCSE) with equivalency from Jordanian Ministry of Education; unified admission through Ministry of Higher Education for regular program; parallel program admission directly through university",
+    "min_tawjihi_mark": 65,
+    "has_entrance_exam": true,
+    "exam_details": "Selective admission based on entrance examinations and past academic records; proficiency exams in Arabic and English for admitted students; specific programs may have additional entrance requirements",
+    "english_requirement": "English proficiency required for scientific and medical programs; proficiency exam may be taken upon admission"
+  },
+  "majors_overview": {
+    "college_count": 17,
+    "major_categories": [
+      "health (medicine, pharmacy, nursing)",
+      "science",
+      "engineering technology",
+      "information technology and computer science",
+      "arts",
+      "business",
+      "sharia and islamic studies",
+      "education",
+      "law",
+      "physical education and sports science",
+      "archaeology and anthropology",
+      "tourism and hotel management",
+      "fine arts",
+      "mass communication"
+    ],
+    "total_majors": 52,
+    "has_postgraduate": true
+  },
+  "tuition_fees": {
+    "annual_fees_range": "900 - 4,500 JOD per year (approximate, varies by faculty and program type)",
+    "medical_majors_fees": 4000,
+    "engineering_majors_fees": 1800,
+    "humanities_majors_fees": 1200,
+    "notes": "Fees vary by faculty and admission type (regular/parallel). Per credit hour ranges: humanities 30-50 JOD, business/IT 30-65 JOD, nursing/health 50-75 JOD, pharmacy 60-90 JOD, medicine 100-150 JOD, engineering 40-80 JOD. Parallel program fees are higher."
+  },
+  "ranking_accreditation": {
+    "national_ranking": "3rd in Jordan",
+    "accreditation": "MOHE (Ministry of Higher Education and Scientific Research), AQACHEI (Accreditation and Quality Assurance Commission for Higher Education Institutions)",
+    "international_recognition": "THE World University Rankings 2026: 601-800; QS World University Rankings 2026: 851-900; US News Best Global Universities 2025-2026: #1188 [uncertain]"
+  },
+  "market_demand": {
+    "overall_demand": "medium",
+    "high_demand_majors": [
+      "Medicine",
+      "Pharmacy",
+      "Engineering",
+      "Information Technology",
+      "Computer Science",
+      "Nursing"
+    ],
+    "employment_rate_estimate": "[uncertain]",
+    "notes": "Yarmouk University has strong programs in medicine, pharmacy, and engineering. Jordan faces general youth unemployment challenges (~25% for graduates). University hosts business incubators and entrepreneurship centers to improve graduate employability."
+  },
+  "campus_facilities": {
+    "has_accommodation": true,
+    "accommodation_details": "On-campus housing available (السكنات الطلابية); limited furnished apartments for international students and staff (200-250 JD/month for one-bedroom); most male students live off-campus in private housing near the university in Irbid",
+    "has_library": true,
+    "has_sports_facilities": true,
+    "has_scholarships": true,
+    "scholarship_details": "Merit-based scholarships for outstanding academic performance, need-based financial aid, government-funded scholarships (makromat for military, teachers, camp residents), research and teaching assistantships for postgraduate students"
+  },
+  "contact_info": {
+    "address": "Irbid - Jordan, P.O. Box 566, Postal Code 21163",
+    "phone": "+962 (2) 721 1111",
+    "email": "yarmouk@yu.edu.jo",
+    "social_media": [
+      "https://www.facebook.com/Yarmouk.U/",
+      "https://x.com/yarmoukuni76",
+      "https://www.linkedin.com/school/yarmoukuniversity/",
+      "https://www.instagram.com/yarmouk.university/",
+      "https://www.youtube.com/@yarmoukuniversity-l2n"
+    ]
+  },
+  "uncertain": [
+    "employment_rate_estimate",
+    "ranking_accreditation.international_recognition (specific QS/THE rank beyond 2025 data)"
+  ]
+}

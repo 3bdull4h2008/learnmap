@@ -1,0 +1,91 @@
+{
+  "basic_info": {
+    "name": "جامعة الأميرة سمية للتكنولوجيا",
+    "nameEn": "Princess Sumaya University for Technology",
+    "type": "private",
+    "city": "Amman",
+    "region": "central",
+    "established": 1991,
+    "website": "https://www.psut.edu.jo"
+  },
+  "admission_requirements": {
+    "general_requirements": "Jordanian Tawjihi certificate (Scientific stream) or equivalent; university entrance exam and interview; competitive admission based on exam score and Tawjihi average",
+    "min_tawjihi_mark": 75,
+    "has_entrance_exam": true,
+    "exam_details": "All applicants must take a 30-minute entrance exam measuring English, intelligence, logic, communication skills, and mathematics; followed by an interview with the school committee",
+    "english_requirement": "[uncertain]"
+  },
+  "majors_overview": {
+    "college_count": 4,
+    "college_names": [
+      "King Hussein School of Computing Sciences",
+      "King Abdullah II School of Engineering",
+      "King Talal School of Business Technology",
+      "King Abdullah I School of Graduate Studies & Scientific Research"
+    ],
+    "major_categories": ["engineering", "IT", "business"],
+    "total_bachelor_programs": 15,
+    "total_academic_programs": 28,
+    "has_postgraduate": true
+  },
+  "tuition_fees": {
+    "per_credit_hour": {
+      "computing_sciences": 130,
+      "engineering": 130,
+      "business": 120
+    },
+    "registration_fee_first_time": 375,
+    "registration_fee_subsequent": 300,
+    "transportation_fee_per_semester": 100,
+    "graduate_computing_sciences_per_credit": 150,
+    "graduate_engineering_per_credit": 150,
+    "graduate_business_per_credit": 150,
+    "phd_per_credit": 300,
+    "engineering_management_per_semester": 2655,
+    "emba_per_credit": 200,
+    "notes": "Tuition fees vary by program. Registration fee 375 JOD (first time), 300 JOD thereafter. Transportation fee 100 JOD/semester. Payment via eFAWATEERcom, Visa, or MasterCard."
+  },
+  "ranking_accreditation": {
+    "national_ranking": "2nd among Jordanian private universities, 3rd nationally (QS 2023)",
+    "accreditation": "Ministry of Higher Education and Scientific Research (MOHE), ABET (5 programs), AACSB, EUR-ACE, EQUIS (King Talal School of Business Technology, 2026)",
+    "international_recognition": "QS World University Rankings 901-950 (2026); US News Best Global Universities #445 (2026); QS Arab University Rankings #44 (2024); QS Employment Index global rank #73; QS 5 Stars Plus"
+  },
+  "market_demand": {
+    "overall_demand": "high",
+    "high_demand_majors": ["Computer Science", "Data Science and Artificial Intelligence", "Cybersecurity", "Software Engineering", "Networks and Information Security Engineering", "Computer Engineering", "Business Analytics", "E-Marketing and Social Media"],
+    "employment_rate_estimate": "90-93% within 6 months of graduation",
+    "notes": "PSUT scored 3.8/4 on IFC employability scale (Jordan average 2.6). Annual Career Fair with 50+ leading companies. QS Employment Index global rank 73. University advisory boards include industry experts and company managers."
+  },
+  "campus_facilities": {
+    "has_accommodation": false,
+    "accommodation_details": "No on-campus student housing. Private student residences, hotel apartments, and hotels available in the Al-Jubaiha area near campus.",
+    "has_library": true,
+    "library_name": "El Hassan Library",
+    "has_sports_facilities": true,
+    "has_scholarships": true,
+    "student_clubs_count": 30,
+    "scholarship_details": "Graduate assistantships and Emerging Researcher Scholarship for graduate students. Deans' Council determines grants and discounts for high-achieving undergraduate students annually. Sports excellence grants available."
+  },
+  "contact_info": {
+    "address": "Khalil Saket Street, Al-Jubeiha 11941, P.O. Box 1438, Amman, Jordan",
+    "phone": "+962 6 535 9949",
+    "email": "info@psut.edu.jo",
+    "admission_email": "dar@psut.edu.jo",
+    "social_media": [
+      "https://www.youtube.com/@PSUTofficial",
+      "https://www.instagram.com/psutofficial/",
+      "https://www.facebook.com/PSUTOFFICIAL",
+      "https://twitter.com/PSUTOFFICIAL",
+      "https://www.linkedin.com/school/princess-sumaya-university-for-technology/"
+    ]
+  },
+  "student_numbers": {
+    "total_students": 5296,
+    "international_students": 639,
+    "total_graduates": 11773
+  },
+  "uncertain": [
+    "admission_requirements.english_requirement",
+    "admission_requirements.min_tawjihi_mark"
+  ]
+}

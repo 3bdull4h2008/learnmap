@@ -1,0 +1,1102 @@
+[
+  {
+    "id": 1,
+    "text": "ما هو الجهاز المستخدم لقياس الزوايا في أعمال البناء؟",
+    "subtitle": "البناء - أدوات القياس",
+    "options": [
+      {"id": "a", "text": "الميزان المائي", "correct": false},
+      {"id": "b", "text": "الشاقول", "correct": false},
+      {"id": "c", "text": "الزاوية القائمة", "correct": true},
+      {"id": "d", "text": "الشريط المتري", "correct": false}
+    ]
+  },
+  {
+    "id": 2,
+    "text": "أي من هذه المواد يستخدم في صناعة الإسمنت؟",
+    "subtitle": "البناء - المواد الأساسية",
+    "options": [
+      {"id": "a", "text": "الطين", "correct": false},
+      {"id": "b", "text": "الحجر الجيري", "correct": true},
+      {"id": "c", "text": "الرمل", "correct": false},
+      {"id": "d", "text": "الخشب", "correct": false}
+    ]
+  },
+  {
+    "id": 3,
+    "text": "ما هو نوع الأساس المستخدم في التربة الضعيفة؟",
+    "subtitle": "البناء - الأساسات",
+    "options": [
+      {"id": "a", "text": "الأساس المنفرد", "correct": false},
+      {"id": "b", "text": "أساس اللبشة", "correct": true},
+      {"id": "c", "text": "الأساس الشريطي", "correct": false},
+      {"id": "d", "text": "أساس خوازيق", "correct": false}
+    ]
+  },
+  {
+    "id": 4,
+    "text": "ما هي النسبة الحجمية للخرسانة العادية؟",
+    "subtitle": "البناء - الخلطات الخرسانية",
+    "options": [
+      {"id": "a", "text": "1:2:4", "correct": true},
+      {"id": "b", "text": "1:1:2", "correct": false},
+      {"id": "c", "text": "2:3:5", "correct": false},
+      {"id": "d", "text": "1:3:6", "correct": false}
+    ]
+  },
+  {
+    "id": 5,
+    "text": "أي من هذه الأدوات يستخدم في قطع البلاط؟",
+    "subtitle": "البناء - أدوات التشطيب",
+    "options": [
+      {"id": "a", "text": "المسطرين", "correct": false},
+      {"id": "b", "text": "قاطع البلاط", "correct": true},
+      {"id": "c", "text": "المجرفة", "correct": false},
+      {"id": "d", "text": "المسحاة", "correct": false}
+    ]
+  },
+  {
+    "id": 6,
+    "text": "ما هو الغرض من استخدام الحديد في الخرسانة المسلحة؟",
+    "subtitle": "البناء - الخرسانة المسلحة",
+    "options": [
+      {"id": "a", "text": "تقليل التكلفة", "correct": false},
+      {"id": "b", "text": "تحمل قوى الشد", "correct": true},
+      {"id": "c", "text": "تحمل قوى الضغط", "correct": false},
+      {"id": "d", "text": "تحسين المظهر", "correct": false}
+    ]
+  },
+  {
+    "id": 7,
+    "text": "ما هو الجهاز المستخدم لقياس استواء الأسطح؟",
+    "subtitle": "البناء - أدوات القياس",
+    "options": [
+      {"id": "a", "text": "الميزان المائي", "correct": true},
+      {"id": "b", "text": "الشاقول", "correct": false},
+      {"id": "c", "text": "الزاوية القائمة", "correct": false},
+      {"id": "d", "text": "المسطرة", "correct": false}
+    ]
+  },
+  {
+    "id": 8,
+    "text": "أي من هذه الأنواع يعتبر من أنواع الطوب؟",
+    "subtitle": "البناء - مواد البناء",
+    "options": [
+      {"id": "a", "text": "الطوب الأسمنتي", "correct": true},
+      {"id": "b", "text": "الطوب الزجاجي", "correct": false},
+      {"id": "c", "text": "الطوب المعدني", "correct": false},
+      {"id": "d", "text": "الطوب البلاستيكي", "correct": false}
+    ]
+  },
+  {
+    "id": 9,
+    "text": "ما هو العمق المناسب لأساسات المنازل في التربة العادية؟",
+    "subtitle": "البناء - الأساسات",
+    "options": [
+      {"id": "a", "text": "50 سم", "correct": false},
+      {"id": "b", "text": "100 سم", "correct": true},
+      {"id": "c", "text": "200 سم", "correct": false},
+      {"id": "d", "text": "300 سم", "correct": false}
+    ]
+  },
+  {
+    "id": 10,
+    "text": "ما هي المادة المستخدمة في عزل الأسطح ضد الرطوبة؟",
+    "subtitle": "البناء - العزل",
+    "options": [
+      {"id": "a", "text": "البيتومين", "correct": true},
+      {"id": "b", "text": "الجبس", "correct": false},
+      {"id": "c", "text": "الأسمنت", "correct": false},
+      {"id": "d", "text": "الرمل", "correct": false}
+    ]
+  },
+  {
+    "id": 11,
+    "text": "أي من هذه الأدوات يستخدم في خلط الخرسانة يدوياً؟",
+    "subtitle": "البناء - أدوات العمل",
+    "options": [
+      {"id": "a", "text": "المسحاة", "correct": true},
+      {"id": "b", "text": "المطرقة", "correct": false},
+      {"id": "c", "text": "المسطرين", "correct": false},
+      {"id": "d", "text": "المجرفة", "correct": false}
+    ]
+  },
+  {
+    "id": 12,
+    "text": "ما هو الغرض من استخدام الهزاز في الصب الخرساني؟",
+    "subtitle": "البناء - الخرسانة",
+    "options": [
+      {"id": "a", "text": "تسريع التجفيف", "correct": false},
+      {"id": "b", "text": "إزالة الفراغات الهوائية", "correct": true},
+      {"id": "c", "text": "تقوية الخرسانة", "correct": false},
+      {"id": "d", "text": "تبريد الخرسانة", "correct": false}
+    ]
+  },
+  {
+    "id": 13,
+    "text": "ما هو نوع الدهان المناسب للأسطح الخشبية الخارجية؟",
+    "subtitle": "البناء - التشطيبات",
+    "options": [
+      {"id": "a", "text": "الدهان المائي", "correct": false},
+      {"id": "b", "text": "الدهان الزيتي", "correct": true},
+      {"id": "c", "text": "الدهان البلاستيك", "correct": false},
+      {"id": "d", "text": "الورنيش", "correct": false}
+    ]
+  },
+  {
+    "id": 14,
+    "text": "أي من هذه القياسات يعتبر القياس القياسي لطوبة الخشب في البناء؟",
+    "subtitle": "البناء - مواد البناء",
+    "options": [
+      {"id": "a", "text": "5%", "correct": false},
+      {"id": "b", "text": "12%", "correct": true},
+      {"id": "c", "text": "20%", "correct": false},
+      {"id": "d", "text": "25%", "correct": false}
+    ]
+  },
+  {
+    "id": 15,
+    "text": "ما هو الجهاز المستخدم لقياس ميل الأسطح؟",
+    "subtitle": "البناء - أدوات القياس",
+    "options": [
+      {"id": "a", "text": "ميزان الميل", "correct": true},
+      {"id": "b", "text": "الميزان المائي", "correct": false},
+      {"id": "c", "text": "الشاقول", "correct": false},
+      {"id": "d", "text": "الزاوية القائمة", "correct": false}
+    ]
+  },
+  {
+    "id": 16,
+    "text": "ما هي المدة اللازمة لمعالجة الخرسانة بعد الصب؟",
+    "subtitle": "البناء - الخرسانة",
+    "options": [
+      {"id": "a", "text": "3 أيام", "correct": false},
+      {"id": "b", "text": "7 أيام", "correct": true},
+      {"id": "c", "text": "14 يوماً", "correct": false},
+      {"id": "d", "text": "28 يوماً", "correct": false}
+    ]
+  },
+  {
+    "id": 17,
+    "text": "أي من هذه المواد يستخدم في تثبيت البلاط؟",
+    "subtitle": "البناء - مواد التشطيب",
+    "options": [
+      {"id": "a", "text": "الأسمنت", "correct": false},
+      {"id": "b", "text": "مادة لصق البلاط", "correct": true},
+      {"id": "c", "text": "الجبس", "correct": false},
+      {"id": "d", "text": "الرمل", "correct": false}
+    ]
+  },
+  {
+    "id": 18,
+    "text": "ما هو نوع الحديد المستخدم في تسليح الأعمدة؟",
+    "subtitle": "البناء - التسليح",
+    "options": [
+      {"id": "a", "text": "حديد أملس", "correct": false},
+      {"id": "b", "text": "حديد مجدول", "correct": true},
+      {"id": "c", "text": "حديد مربع", "correct": false},
+      {"id": "d", "text": "حديد مسطح", "correct": false}
+    ]
+  },
+  {
+    "id": 19,
+    "text": "ما هو الغرض من استخدام الشبك المعدني في البياض؟",
+    "subtitle": "البناء - أعمال البياض",
+    "options": [
+      {"id": "a", "text": "تحسين المظهر", "correct": false},
+      {"id": "b", "text": "منع التشققات", "correct": true},
+      {"id": "c", "text": "تقليل التكلفة", "correct": false},
+      {"id": "d", "text": "تسريع التجفيف", "correct": false}
+    ]
+  },
+  {
+    "id": 20,
+    "text": "أي من هذه الأدوات يستخدم في قص الحديد؟",
+    "subtitle": "البناء - أدوات الحدادة",
+    "options": [
+      {"id": "a", "text": "منشار الحديد", "correct": true},
+      {"id": "b", "text": "المقص اليدوي", "correct": false},
+      {"id": "c", "text": "المطرقة", "correct": false},
+      {"id": "d", "text": "المسطرين", "correct": false}
+    ]
+  },
+  {
+    "id": 21,
+    "text": "ما هو نوع الخشب المناسب لأعمال النجارة الخارجية؟",
+    "subtitle": "البناء - النجارة",
+    "options": [
+      {"id": "a", "text": "خشب السويد", "correct": false},
+      {"id": "b", "text": "خشب الزان", "correct": false},
+      {"id": "c", "text": "خشب الساج", "correct": true},
+      {"id": "d", "text": "خشب الحور", "correct": false}
+    ]
+  },
+  {
+    "id": 22,
+    "text": "ما هي المسافة القصوى بين كلوتات التسليح في البلاطات؟",
+    "subtitle": "البناء - التسليح",
+    "options": [
+      {"id": "a", "text": "10 سم", "correct": false},
+      {"id": "b", "text": "20 سم", "correct": true},
+      {"id": "c", "text": "30 سم", "correct": false},
+      {"id": "d", "text": "40 سم", "correct": false}
+    ]
+  },
+  {
+    "id": 23,
+    "text": "أي من هذه المواد يستخدم في عزل الصوت؟",
+    "subtitle": "البناء - العزل",
+    "options": [
+      {"id": "a", "text": "الفوم", "correct": true},
+      {"id": "b", "text": "الرمل", "correct": false},
+      {"id": "c", "text": "الأسمنت", "correct": false},
+      {"id": "d", "text": "الجبس", "correct": false}
+    ]
+  },
+  {
+    "id": 24,
+    "text": "ما هو الجهاز المستخدم في تحديد مناسيب الأرض؟",
+    "subtitle": "البناء - المساحة",
+    "options": [
+      {"id": "a", "text": "الميزان المائي", "correct": false},
+      {"id": "b", "text": "جهاز التسوية", "correct": true},
+      {"id": "c", "text": "الشاقول", "correct": false},
+      {"id": "d", "text": "الزاوية القائمة", "correct": false}
+    ]
+  },
+  {
+    "id": 25,
+    "text": "ما هي نسبة الماء إلى الأسمنت في الخرسانة العادية؟",
+    "subtitle": "البناء - الخلطات الخرسانية",
+    "options": [
+      {"id": "a", "text": "0.4", "correct": false},
+      {"id": "b", "text": "0.5", "correct": true},
+      {"id": "c", "text": "0.6", "correct": false},
+      {"id": "d", "text": "0.7", "correct": false}
+    ]
+  },
+  {
+    "id": 26,
+    "text": "أي من هذه الأنظمة يستخدم في بناء الجدران الحاملة؟",
+    "subtitle": "البناء - الأنظمة الإنشائية",
+    "options": [
+      {"id": "a", "text": "النظام الهيكلي", "correct": false},
+      {"id": "b", "text": "نظام الحوائط الحاملة", "correct": true},
+      {"id": "c", "text": "النظام القشري", "correct": false},
+      {"id": "d", "text": "النظام الفراغي", "correct": false}
+    ]
+  },
+  {
+    "id": 27,
+    "text": "ما هو نوع الأساس المناسب للمباني المرتفعة؟",
+    "subtitle": "البناء - الأساسات",
+    "options": [
+      {"id": "a", "text": "أساس خوازيق", "correct": true},
+      {"id": "b", "text": "الأساس المنفرد", "correct": false},
+      {"id": "c", "text": "الأساس الشريطي", "correct": false},
+      {"id": "d", "text": "أساس اللبشة", "correct": false}
+    ]
+  },
+  {
+    "id": 28,
+    "text": "ما هي المادة المستخدمة في لصق بلاط السيراميك؟",
+    "subtitle": "البناء - مواد التشطيب",
+    "options": [
+      {"id": "a", "text": "الأسمنت الأبيض", "correct": false},
+      {"id": "b", "text": "مادة اللصق", "correct": true},
+      {"id": "c", "text": "الجبس", "correct": false},
+      {"id": "d", "text": "البيتومين", "correct": false}
+    ]
+  },
+  {
+    "id": 29,
+    "text": "أي من هذه الأدوات يستخدم في ثني الحديد؟",
+    "subtitle": "البناء - أدوات الحدادة",
+    "options": [
+      {"id": "a", "text": "ماكينة الثني", "correct": true},
+      {"id": "b", "text": "المقص", "correct": false},
+      {"id": "c", "text": "المطرقة", "correct": false},
+      {"id": "d", "text": "المنشار", "correct": false}
+    ]
+  },
+  {
+    "id": 30,
+    "text": "ما هو الغرض من استخدام الفواصل في الخرسانة؟",
+    "subtitle": "البناء - الخرسانة",
+    "options": [
+      {"id": "a", "text": "تقليل التكلفة", "correct": false},
+      {"id": "b", "text": "السماح بالتمدد والانكماش", "correct": true},
+      {"id": "c", "text": "تحسين المظهر", "correct": false},
+      {"id": "d", "text": "تسريع الصب", "correct": false}
+    ]
+  },
+  {
+    "id": 31,
+    "text": "ما هو نوع الدهان المناسب للأسطح المعدنية؟",
+    "subtitle": "البناء - التشطيبات",
+    "options": [
+      {"id": "a", "text": "الدهان المطفي", "correct": false},
+      {"id": "b", "text": "الدهان المضاد للصدأ", "correct": true},
+      {"id": "c", "text": "الدهان البلاستيك", "correct": false},
+      {"id": "d", "text": "الورنيش", "correct": false}
+    ]
+  },
+  {
+    "id": 32,
+    "text": "أي من هذه المواد يستخدم في عزل الحرارة؟",
+    "subtitle": "البناء - العزل",
+    "options": [
+      {"id": "a", "text": "الصوف الصخري", "correct": true},
+      {"id": "b", "text": "الرمل", "correct": false},
+      {"id": "c", "text": "الأسمنت", "correct": false},
+      {"id": "d", "text": "الجبس", "correct": false}
+    ]
+  },
+  {
+    "id": 33,
+    "text": "ما هو الجهاز المستخدم في قياس قوة الخرسانة؟",
+    "subtitle": "البناء - الاختبارات",
+    "options": [
+      {"id": "a", "text": "مطرقة شميدت", "correct": true},
+      {"id": "b", "text": "الميزان المائي", "correct": false},
+      {"id": "c", "text": "جهاز التسوية", "correct": false},
+      {"id": "d", "text": "الشاقول", "correct": false}
+    ]
+  },
+  {
+    "id": 34,
+    "text": "ما هي المدة اللازمة لتفكيك الشدات للأعمدة؟",
+    "subtitle": "البناء - الشدات",
+    "options": [
+      {"id": "a", "text": "3 أيام", "correct": false},
+      {"id": "b", "text": "7 أيام", "correct": false},
+      {"id": "c", "text": "14 يوماً", "correct": false},
+      {"id": "d", "text": "21 يوماً", "correct": true}
+    ]
+  },
+  {
+    "id": 35,
+    "text": "أي من هذه الأنواع يعتبر من أنواع الأرضيات؟",
+    "subtitle": "البناء - الأرضيات",
+    "options": [
+      {"id": "a", "text": "الباركيه", "correct": true},
+      {"id": "b", "text": "الجبسوم بورد", "correct": false},
+      {"id": "c", "text": "الطوب الأحمر", "correct": false},
+      {"id": "d", "text": "الأسمنت", "correct": false}
+    ]
+  },
+  {
+    "id": 36,
+    "text": "ما هو نوع الحجر المناسب لأعمال الواجهات؟",
+    "subtitle": "البناء - مواد البناء",
+    "options": [
+      {"id": "a", "text": "الحجر الرملي", "correct": false},
+      {"id": "b", "text": "الحجر الجيري", "correct": false},
+      {"id": "c", "text": "الحجر الطبيعي", "correct": true},
+      {"id": "d", "text": "الحجر الصناعي", "correct": false}
+    ]
+  },
+  {
+    "id": 37,
+    "text": "ما هي المسافة القصوى بين ركائز السقالات؟",
+    "subtitle": "البناء - السقالات",
+    "options": [
+      {"id": "a", "text": "1.5 متر", "correct": false},
+      {"id": "b", "text": "2.5 متر", "correct": true},
+      {"id": "c", "text": "3.5 متر", "correct": false},
+      {"id": "d", "text": "4.5 متر", "correct": false}
+    ]
+  },
+  {
+    "id": 38,
+    "text": "أي من هذه الأدوات يستخدم في تلبيس الجدران؟",
+    "subtitle": "البناء - أدوات التشطيب",
+    "options": [
+      {"id": "a", "text": "المسطرين", "correct": true},
+      {"id": "b", "text": "المطرقة", "correct": false},
+      {"id": "c", "text": "المقص", "correct": false},
+      {"id": "d", "text": "المنشار", "correct": false}
+    ]
+  },
+  {
+    "id": 39,
+    "text": "ما هو نوع الخشب المستخدم في الشدات الخشبية؟",
+    "subtitle": "البناء - الشدات",
+    "options": [
+      {"id": "a", "text": "خشب السويد", "correct": false},
+      {"id": "b", "text": "خشب اللاتيه", "correct": true},
+      {"id": "c", "text": "خشب الزان", "correct": false},
+      {"id": "d", "text": "خشب الساج", "correct": false}
+    ]
+  },
+  {
+    "id": 40,
+    "text": "ما هي المادة المستخدمة في ملء فواصل البلاط؟",
+    "subtitle": "البناء - التشطيبات",
+    "options": [
+      {"id": "a", "text": "مادة الجراوت", "correct": true},
+      {"id": "b", "text": "الأسمنت", "correct": false},
+      {"id": "c", "text": "الجبس", "correct": false},
+      {"id": "d", "text": "البيتومين", "correct": false}
+    ]
+  },
+  {
+    "id": 41,
+    "text": "أي من هذه الأنظمة يستخدم في التهوية الطبيعية؟",
+    "subtitle": "البناء - التهوية",
+    "options": [
+      {"id": "a", "text": "النوافذ", "correct": true},
+      {"id": "b", "text": "المكيفات", "correct": false},
+      {"id": "c", "text": "المراوح", "correct": false},
+      {"id": "d", "text": "المضخات", "correct": false}
+    ]
+  },
+  {
+    "id": 42,
+    "text": "ما هو نوع العزل المناسب للأسطح المبلطة؟",
+    "subtitle": "البناء - العزل",
+    "options": [
+      {"id": "a", "text": "العزل المائي", "correct": true},
+      {"id": "b", "text": "العزل الحراري", "correct": false},
+      {"id": "c", "text": "العزل الصوتي", "correct": false},
+      {"id": "d", "text": "العزل الكهربائي", "correct": false}
+    ]
+  },
+  {
+    "id": 43,
+    "text": "ما هي المسافة القصوى بين فواصل التمدد في المباني؟",
+    "subtitle": "البناء - الفواصل",
+    "options": [
+      {"id": "a", "text": "30 متر", "correct": false},
+      {"id": "b", "text": "40 متر", "correct": false},
+      {"id": "c", "text": "50 متر", "correct": true},
+      {"id": "d", "text": "60 متر", "correct": false}
+    ]
+  },
+  {
+    "id": 44,
+    "text": "أي من هذه المواد يستخدم في تثبيت الزجاج في النوافذ؟",
+    "subtitle": "البناء - النجارة",
+    "options": [
+      {"id": "a", "text": "معجون الزجاج", "correct": true},
+      {"id": "b", "text": "الأسمنت", "correct": false},
+      {"id": "c", "text": "الجبس", "correct": false},
+      {"id": "d", "text": "البيتومين", "correct": false}
+    ]
+  },
+  {
+    "id": 45,
+    "text": "ما هو نوع الأساس المستخدم تحت الأعمدة؟",
+    "subtitle": "البناء - الأساسات",
+    "options": [
+      {"id": "a", "text": "الأساس المنفرد", "correct": true},
+      {"id": "b", "text": "الأساس الشريطي", "correct": false},
+      {"id": "c", "text": "أساس اللبشة", "correct": false},
+      {"id": "d", "text": "أساس خوازيق", "correct": false}
+    ]
+  },
+  {
+    "id": 46,
+    "text": "ما هي المادة المستخدمة في لصق ورق الحائط؟",
+    "subtitle": "البناء - التشطيبات",
+    "options": [
+      {"id": "a", "text": "معجون لصق ورق الحائط", "correct": true},
+      {"id": "b", "text": "الأسمنت", "correct": false},
+      {"id": "c", "text": "الجبس", "correct": false},
+      {"id": "d", "text": "البيتومين", "correct": false}
+    ]
+  },
+  {
+    "id": 47,
+    "text": "أي من هذه الأدوات يستخدم في ضغط التربة؟",
+    "subtitle": "البناء - أدوات التربة",
+    "options": [
+      {"id": "a", "text": "الهزاز", "correct": false},
+      {"id": "b", "text": "المدحلة", "correct": true},
+      {"id": "c", "text": "المسحاة", "correct": false},
+      {"id": "d", "text": "المجرفة", "correct": false}
+    ]
+  },
+  {
+    "id": 48,
+    "text": "ما هو نوع الخرسانة المستخدمة في الأرضيات؟",
+    "subtitle": "البناء - الخرسانة",
+    "options": [
+      {"id": "a", "text": "خرسانة عادية", "correct": false},
+      {"id": "b", "text": "خرسانة مسلحة", "correct": false},
+      {"id": "c", "text": "خرسانة ملساء", "correct": true},
+      {"id": "d", "text": "خرسانة خفيفة", "correct": false}
+    ]
+  },
+  {
+    "id": 49,
+    "text": "ما هي المادة المستخدمة في تثبيت العتبات؟",
+    "subtitle": "البناء - البناء",
+    "options": [
+      {"id": "a", "text": "الأسمنت", "correct": false},
+      {"id": "b", "text": "مونة الأسمنت", "correct": true},
+      {"id": "c", "text": "الجبس", "correct": false},
+      {"id": "d", "text": "البيتومين", "correct": false}
+    ]
+  },
+  {
+    "id": 50,
+    "text": "أي من هذه الأنظمة يستخدم في الصرف الصحي؟",
+    "subtitle": "البناء - السباكة",
+    "options": [
+      {"id": "a", "text": "أنابيب PVC", "correct": true},
+      {"id": "b", "text": "أنابيب الحديد", "correct": false},
+      {"id": "c", "text": "أنابيب النحاس", "correct": false},
+      {"id": "d", "text": "أنابيب الألمنيوم", "correct": false}
+    ]
+  },
+  {
+    "id": 51,
+    "text": "ما هو نوع الطوب المستخدم في بناء الأفران؟",
+    "subtitle": "البناء - مواد البناء",
+    "options": [
+      {"id": "a", "text": "طوب حراري", "correct": true},
+      {"id": "b", "text": "طوب أسمنتي", "correct": false},
+      {"id": "c", "text": "طوب طيني", "correct": false},
+      {"id": "d", "text": "طوب زجاجي", "correct": false}
+    ]
+  },
+  {
+    "id": 52,
+    "text": "ما هي المادة المستخدمة في عزل خزانات المياه؟",
+    "subtitle": "البناء - العزل",
+    "options": [
+      {"id": "a", "text": "البيتومين", "correct": true},
+      {"id": "b", "text": "الجبس", "correct": false},
+      {"id": "c", "text": "الأسمنت", "correct": false},
+      {"id": "d", "text": "الرمل", "correct": false}
+    ]
+  },
+  {
+    "id": 53,
+    "text": "أي من هذه الأدوات يستخدم في قص الخشب؟",
+    "subtitle": "البناء - النجارة",
+    "options": [
+      {"id": "a", "text": "منشار الخشب", "correct": true},
+      {"id": "b", "text": "المقص", "correct": false},
+      {"id": "c", "text": "المطرقة", "correct": false},
+      {"id": "d", "text": "المسطرين", "correct": false}
+    ]
+  },
+  {
+    "id": 54,
+    "text": "ما هو نوع الأساس المستخدم في المناطق الزلزالية؟",
+    "subtitle": "البناء - الأساسات",
+    "options": [
+      {"id": "a", "text": "أساسات مقاومة للزلازل", "correct": true},
+      {"id": "b", "text": "أساسات عادية", "correct": false},
+      {"id": "c", "text": "أساسات سطحية", "correct": false},
+      {"id": "d", "text": "أساسات عميقة", "correct": false}
+    ]
+  },
+  {
+    "id": 55,
+    "text": "ما هي المادة المستخدمة في تبطين القنوات؟",
+    "subtitle": "البناء - الأعمال الصحية",
+    "options": [
+      {"id": "a", "text": "البيتومين", "correct": false},
+      {"id": "b", "text": "الإيبوكسي", "correct": true},
+      {"id": "c", "text": "الجبس", "correct": false},
+      {"id": "d", "text": "الأسمنت", "correct": false}
+    ]
+  },
+  {
+    "id": 56,
+    "text": "أي من هذه المواد يستخدم في بناء الجدران الاستنادية؟",
+    "subtitle": "البناء - الإنشاءات",
+    "options": [
+      {"id": "a", "text": "الحجر", "correct": true},
+      {"id": "b", "text": "الخشب", "correct": false},
+      {"id": "c", "text": "الزجاج", "correct": false},
+      {"id": "d", "text": "البلاستيك", "correct": false}
+    ]
+  },
+  {
+    "id": 57,
+    "text": "ما هو نوع الدهان المناسب للأسطح الخرسانية؟",
+    "subtitle": "البناء - التشطيبات",
+    "options": [
+      {"id": "a", "text": "الدهان الإيبوكسي", "correct": true},
+      {"id": "b", "text": "الدهان المائي", "correct": false},
+      {"id": "c", "text": "الدهان الزيتي", "correct": false},
+      {"id": "d", "text": "الورنيش", "correct": false}
+    ]
+  },
+  {
+    "id": 58,
+    "text": "ما هي المادة المستخدمة في لصق الرخام؟",
+    "subtitle": "البناء - مواد التشطيب",
+    "options": [
+      {"id": "a", "text": "مادة لصق الرخام", "correct": true},
+      {"id": "b", "text": "الأسمنت", "correct": false},
+      {"id": "c", "text": "الجبس", "correct": false},
+      {"id": "d", "text": "البيتومين", "correct": false}
+    ]
+  },
+  {
+    "id": 59,
+    "text": "أي من هذه الأدوات يستخدم في حفر التربة؟",
+    "subtitle": "البناء - أدوات الحفر",
+    "options": [
+      {"id": "a", "text": "المجرفة", "correct": false},
+      {"id": "b", "text": "الحفارة", "correct": true},
+      {"id": "c", "text": "المسحاة", "correct": false},
+      {"id": "d", "text": "المطرقة", "correct": false}
+    ]
+  },
+  {
+    "id": 60,
+    "text": "ما هو نوع العزل المناسب للجدران الخارجية؟",
+    "subtitle": "البناء - العزل",
+    "options": [
+      {"id": "a", "text": "العزل الحراري", "correct": true},
+      {"id": "b", "text": "العزل المائي", "correct": false},
+      {"id": "c", "text": "العزل الصوتي", "correct": false},
+      {"id": "d", "text": "العزل الكهربائي", "correct": false}
+    ]
+  },
+  {
+    "id": 61,
+    "text": "ما هي المادة المستخدمة في تثبيت البلاط الحجري؟",
+    "subtitle": "البناء - مواد البناء",
+    "options": [
+      {"id": "a", "text": "مونة الأسمنت", "correct": true},
+      {"id": "b", "text": "الجبس", "correct": false},
+      {"id": "c", "text": "البيتومين", "correct": false},
+      {"id": "d", "text": "معجون اللصق", "correct": false}
+    ]
+  },
+  {
+    "id": 62,
+    "text": "أي من هذه الأنظمة يستخدم في التدفئة المركزية؟",
+    "subtitle": "البناء - التدفئة",
+    "options": [
+      {"id": "a", "text": "أنابيب المياه الساخنة", "correct": true},
+      {"id": "b", "text": "المراوح", "correct": false},
+      {"id": "c", "text": "المكيفات", "correct": false},
+      {"id": "d", "text": "المضخات", "correct": false}
+    ]
+  },
+  {
+    "id": 63,
+    "text": "ما هو نوع الخشب المستخدم في الأبواب الخارجية؟",
+    "subtitle": "البناء - النجارة",
+    "options": [
+      {"id": "a", "text": "خشب الساج", "correct": true},
+      {"id": "b", "text": "خشب السويد", "correct": false},
+      {"id": "c", "text": "خشب الحور", "correct": false},
+      {"id": "d", "text": "خشب اللاتيه", "correct": false}
+    ]
+  },
+  {
+    "id": 64,
+    "text": "ما هي المادة المستخدمة في عزل الأسطح الخشبية؟",
+    "subtitle": "البناء - العزل",
+    "options": [
+      {"id": "a", "text": "البيتومين", "correct": false},
+      {"id": "b", "text": "مادة عزل الخشب", "correct": true},
+      {"id": "c", "text": "الأسمنت", "correct": false},
+      {"id": "d", "text": "الجبس", "correct": false}
+    ]
+  },
+  {
+    "id": 65,
+    "text": "أي من هذه الأدوات يستخدم في تركيب المواسير؟",
+    "subtitle": "البناء - السباكة",
+    "options": [
+      {"id": "a", "text": "مفتاح المواسير", "correct": true},
+      {"id": "b", "text": "المطرقة", "correct": false},
+      {"id": "c", "text": "المسطرين", "correct": false},
+      {"id": "d", "text": "المقص", "correct": false}
+    ]
+  },
+  {
+    "id": 66,
+    "text": "ما هو نوع الأساس المستخدم تحت الجدران؟",
+    "subtitle": "البناء - الأساسات",
+    "options": [
+      {"id": "a", "text": "الأساس الشريطي", "correct": true},
+      {"id": "b", "text": "الأساس المنفرد", "correct": false},
+      {"id": "c", "text": "أساس اللبشة", "correct": false},
+      {"id": "d", "text": "أساس خوازيق", "correct": false}
+    ]
+  },
+  {
+    "id": 67,
+    "text": "ما هي المادة المستخدمة في تبطين الأحواض؟",
+    "subtitle": "البناء - الأعمال الصحية",
+    "options": [
+      {"id": "a", "text": "السيراميك", "correct": true},
+      {"id": "b", "text": "الخشب", "correct": false},
+      {"id": "c", "text": "الزجاج", "correct": false},
+      {"id": "d", "text": "البلاستيك", "correct": false}
+    ]
+  },
+  {
+    "id": 68,
+    "text": "أي من هذه المواد يستخدم في بناء القباب؟",
+    "subtitle": "البناء - الإنشاءات",
+    "options": [
+      {"id": "a", "text": "الطوب", "correct": true},
+      {"id": "b", "text": "الخشب", "correct": false},
+      {"id": "c", "text": "الزجاج", "correct": false},
+      {"id": "d", "text": "البلاستيك", "correct": false}
+    ]
+  },
+  {
+    "id": 69,
+    "text": "ما هو نوع الدهان المناسب للأسطح الخشبية الداخلية؟",
+    "subtitle": "البناء - التشطيبات",
+    "options": [
+      {"id": "a", "text": "الدهان المائي", "correct": true},
+      {"id": "b", "text": "الدهان الزيتي", "correct": false},
+      {"id": "c", "text": "الدهان الإيبوكسي", "correct": false},
+      {"id": "d", "text": "الورنيش", "correct": false}
+    ]
+  },
+  {
+    "id": 70,
+    "text": "ما هي المادة المستخدمة في عزل الأنابيب؟",
+    "subtitle": "البناء - العزل",
+    "options": [
+      {"id": "a", "text": "الفوم", "correct": true},
+      {"id": "b", "text": "الرمل", "correct": false},
+      {"id": "c", "text": "الأسمنت", "correct": false},
+      {"id": "d", "text": "الجبس", "correct": false}
+    ]
+  },
+  {
+    "id": 71,
+    "text": "أي من هذه الأدوات يستخدم في قياس الأبعاد الكبيرة؟",
+    "subtitle": "البناء - أدوات القياس",
+    "options": [
+      {"id": "a", "text": "الشريط المتري", "correct": true},
+      {"id": "b", "text": "المسطرة", "correct": false},
+      {"id": "c", "text": "الزاوية القائمة", "correct": false},
+      {"id": "d", "text": "الميزان المائي", "correct": false}
+    ]
+  },
+  {
+    "id": 72,
+    "text": "ما هو نوع الخرسانة المستخدمة في الأساسات؟",
+    "subtitle": "البناء - الخرسانة",
+    "options": [
+      {"id": "a", "text": "خرسانة مسلحة", "correct": true},
+      {"id": "b", "text": "خرسانة عادية", "correct": false},
+      {"id": "c", "text": "خرسانة ملساء", "correct": false},
+      {"id": "d", "text": "خرسانة خفيفة", "correct": false}
+    ]
+  },
+  {
+    "id": 73,
+    "text": "ما هي المادة المستخدمة في تثبيت الشبك المعدني؟",
+    "subtitle": "البناء - التسليح",
+    "options": [
+      {"id": "a", "text": "أسلاك الربط", "correct": true},
+      {"id": "b", "text": "الأسمنت", "correct": false},
+      {"id": "c", "text": "الجبس", "correct": false},
+      {"id": "d", "text": "البيتومين", "correct": false}
+    ]
+  },
+  {
+    "id": 74,
+    "text": "أي من هذه الأنظمة يستخدم في التبريد المركزي؟",
+    "subtitle": "البناء - التبريد",
+    "options": [
+      {"id": "a", "text": "أنابيب المياه الباردة", "correct": false},
+      {"id": "b", "text": "أنابيب الفريون", "correct": true},
+      {"id": "c", "text": "المراوح", "correct": false},
+      {"id": "d", "text": "المضخات", "correct": false}
+    ]
+  },
+  {
+    "id": 75,
+    "text": "ما هو نوع الطوب المستخدم في بناء المداخن؟",
+    "subtitle": "البناء - مواد البناء",
+    "options": [
+      {"id": "a", "text": "طوب حراري", "correct": true},
+      {"id": "b", "text": "طوب أسمنتي", "correct": false},
+      {"id": "c", "text": "طوب طيني", "correct": false},
+      {"id": "d", "text": "طوب زجاجي", "correct": false}
+    ]
+  },
+  {
+    "id": 76,
+    "text": "ما هي المادة المستخدمة في عزل الأسطح المعدنية؟",
+    "subtitle": "البناء - العزل",
+    "options": [
+      {"id": "a", "text": "الدهان العازل", "correct": true},
+      {"id": "b", "text": "البيتومين", "correct": false},
+      {"id": "c", "text": "الأسمنت", "correct": false},
+      {"id": "d", "text": "الجبس", "correct": false}
+    ]
+  },
+  {
+    "id": 77,
+    "text": "أي من هذه الأدوات يستخدم في ثقب الخرسانة؟",
+    "subtitle": "البناء - أدوات العمل",
+    "options": [
+      {"id": "a", "text": "المثقاب الكهربائي", "correct": true},
+      {"id": "b", "text": "المطرقة", "correct": false},
+      {"id": "c", "text": "المسطرين", "correct": false},
+      {"id": "d", "text": "المقص", "correct": false}
+    ]
+  },
+  {
+    "id": 78,
+    "text": "ما هو نوع الأساس المستخدم في التربة الصخرية؟",
+    "subtitle": "البناء - الأساسات",
+    "options": [
+      {"id": "a", "text": "أساسات سطحية", "correct": true},
+      {"id": "b", "text": "أساسات عميقة", "correct": false},
+      {"id": "c", "text": "أساس خوازيق", "correct": false},
+      {"id": "d", "text": "أساس اللبشة", "correct": false}
+    ]
+  },
+  {
+    "id": 79,
+    "text": "ما هي المادة المستخدمة في تبطين الجدران الرطبة؟",
+    "subtitle": "البناء - العزل",
+    "options": [
+      {"id": "a", "text": "البيتومين", "correct": false},
+      {"id": "b", "text": "مادة عزل الرطوبة", "correct": true},
+      {"id": "c", "text": "الأسمنت", "correct": false},
+      {"id": "d", "text": "الجبس", "correct": false}
+    ]
+  },
+  {
+    "id": 80,
+    "text": "أي من هذه المواد يستخدم في بناء الجسور؟",
+    "subtitle": "البناء - الإنشاءات",
+    "options": [
+      {"id": "a", "text": "الخرسانة المسلحة", "correct": true},
+      {"id": "b", "text": "الخشب", "correct": false},
+      {"id": "c", "text": "الزجاج", "correct": false},
+      {"id": "d", "text": "البلاستيك", "correct": false}
+    ]
+  },
+  {
+    "id": 81,
+    "text": "ما هو نوع الدهان المناسب للأسطح الخارجية؟",
+    "subtitle": "البناء - التشطيبات",
+    "options": [
+      {"id": "a", "text": "الدهان المقاوم للعوامل الجوية", "correct": true},
+      {"id": "b", "text": "الدهان المائي", "correct": false},
+      {"id": "c", "text": "الدهان الزيتي", "correct": false},
+      {"id": "d", "text": "الورنيش", "correct": false}
+    ]
+  },
+  {
+    "id": 82,
+    "text": "ما هي المادة المستخدمة في عزل الأسقف المعلقة؟",
+    "subtitle": "البناء - العزل",
+    "options": [
+      {"id": "a", "text": "الصوف الصخري", "correct": true},
+      {"id": "b", "text": "الرمل", "correct": false},
+      {"id": "c", "text": "الأسمنت", "correct": false},
+      {"id": "d", "text": "الجبس", "correct": false}
+    ]
+  },
+  {
+    "id": 83,
+    "text": "أي من هذه الأدوات يستخدم في قص المعادن؟",
+    "subtitle": "البناء - أدوات الحدادة",
+    "options": [
+      {"id": "a", "text": "منشار المعادن", "correct": true},
+      {"id": "b", "text": "المقص", "correct": false},
+      {"id": "c", "text": "المطرقة", "correct": false},
+      {"id": "d", "text": "المسطرين", "correct": false}
+    ]
+  },
+  {
+    "id": 84,
+    "text": "ما هو نوع الأساس المستخدم في المناطق المنحدرة؟",
+    "subtitle": "البناء - الأساسات",
+    "options": [
+      {"id": "a", "text": "أساسات متدرجة", "correct": true},
+      {"id": "b", "text": "أساسات سطحية", "correct": false},
+      {"id": "c", "text": "أساسات عميقة", "correct": false},
+      {"id": "d", "text": "أساس خوازيق", "correct": false}
+    ]
+  },
+  {
+    "id": 85,
+    "text": "ما هي المادة المستخدمة في تبطين المسابح؟",
+    "subtitle": "البناء - الأعمال الصحية",
+    "options": [
+      {"id": "a", "text": "الفسيفساء", "correct": true},
+      {"id": "b", "text": "الخشب", "correct": false},
+      {"id": "c", "text": "الزجاج", "correct": false},
+      {"id": "d", "text": "البلاستيك", "correct": false}
+    ]
+  },
+  {
+    "id": 86,
+    "text": "أي من هذه المواد يستخدم في بناء الأنفاق؟",
+    "subtitle": "البناء - الإنشاءات",
+    "options": [
+      {"id": "a", "text": "الخرسانة المسلحة", "correct": true},
+      {"id": "b", "text": "الخشب", "correct": false},
+      {"id": "c", "text": "الزجاج", "correct": false},
+      {"id": "d", "text": "البلاستيك", "correct": false}
+    ]
+  },
+  {
+    "id": 87,
+    "text": "ما هو نوع الدهان المناسب للأسطح الخرسانية الخارجية؟",
+    "subtitle": "البناء - التشطيبات",
+    "options": [
+      {"id": "a", "text": "الدهان الإكريليك", "correct": true},
+      {"id": "b", "text": "الدهان المائي", "correct": false},
+      {"id": "c", "text": "الدهان الزيتي", "correct": false},
+      {"id": "d", "text": "الورنيش", "correct": false}
+    ]
+  },
+  {
+    "id": 88,
+    "text": "ما هي المادة المستخدمة في عزل الأرضيات؟",
+    "subtitle": "البناء - العزل",
+    "options": [
+      {"id": "a", "text": "الفوم", "correct": true},
+      {"id": "b", "text": "الرمل", "correct": false},
+      {"id": "c", "text": "الأسمنت", "correct": false},
+      {"id": "d", "text": "الجبس", "correct": false}
+    ]
+  },
+  {
+    "id": 89,
+    "text": "أي من هذه الأدوات يستخدم في تركيب الألواح الجبسية؟",
+    "subtitle": "البناء - أدوات التشطيب",
+    "options": [
+      {"id": "a", "text": "المسامير", "correct": true},
+      {"id": "b", "text": "الغراء", "correct": false},
+      {"id": "c", "text": "الأسمنت", "correct": false},
+      {"id": "d", "text": "البيتومين", "correct": false}
+    ]
+  },
+  {
+    "id": 90,
+    "text": "ما هو نوع الأساس المستخدم في المناطق ذات المياه الجوفية المرتفعة؟",
+    "subtitle": "البناء - الأساسات",
+    "options": [
+      {"id": "a", "text": "أساسات مرتفعة", "correct": true},
+      {"id": "b", "text": "أساسات سطحية", "correct": false},
+      {"id": "c", "text": "أساسات عميقة", "correct": false},
+      {"id": "d", "text": "أساس خوازيق", "correct": false}
+    ]
+  },
+  {
+    "id": 91,
+    "text": "ما هي المادة المستخدمة في تبطين الجدران الداخلية؟",
+    "subtitle": "البناء - التشطيبات",
+    "options": [
+      {"id": "a", "text": "الجبسوم بورد", "correct": true},
+      {"id": "b", "text": "الطوب", "correct": false},
+      {"id": "c", "text": "الخشب", "correct": false},
+      {"id": "d", "text": "الزجاج", "correct": false}
+    ]
+  },
+  {
+    "id": 92,
+    "text": "أي من هذه المواد يستخدم في بناء الأسقف المقببة؟",
+    "subtitle": "البناء - الإنشاءات",
+    "options": [
+      {"id": "a", "text": "الطوب", "correct": true},
+      {"id": "b", "text": "الخشب", "correct": false},
+      {"id": "c", "text": "الزجاج", "correct": false},
+      {"id": "d", "text": "البلاستيك", "correct": false}
+    ]
+  },
+  {
+    "id": 93,
+    "text": "ما هو نوع الدهان المناسب للأسطح المعدنية الخارجية؟",
+    "subtitle": "البناء - التشطيبات",
+    "options": [
+      {"id": "a", "text": "الدهان المضاد للصدأ", "correct": true},
+      {"id": "b", "text": "الدهان المائي", "correct": false},
+      {"id": "c", "text": "الدهان الزيتي", "correct": false},
+      {"id": "d", "text": "الورنيش", "correct": false}
+    ]
+  },
+  {
+    "id": 94,
+    "text": "ما هي المادة المستخدمة في عزل الأسطح الخرسانية؟",
+    "subtitle": "البناء - العزل",
+    "options": [
+      {"id": "a", "text": "البيتومين", "correct": true},
+      {"id": "b", "text": "الرمل", "correct": false},
+      {"id": "c", "text": "الأسمنت", "correct": false},
+      {"id": "d", "text": "الجبس", "correct": false}
+    ]
+  },
+  {
+    "id": 95,
+    "text": "أي من هذه الأدوات يستخدم في تركيب البلاط؟",
+    "subtitle": "البناء - أدوات التشطيب",
+    "options": [
+      {"id": "a", "text": "المسطرين", "correct": true},
+      {"id": "b", "text": "المطرقة", "correct": false},
+      {"id": "c", "text": "المقص", "correct": false},
+      {"id": "d", "text": "المنشار", "correct": false}
+    ]
+  },
+  {
+    "id": 96,
+    "text": "ما هو نوع الأساس المستخدم في المناطق الزلزالية النشطة؟",
+    "subtitle": "البناء - الأساسات",
+    "options": [
+      {"id": "a", "text": "أساسات مرنة", "correct": true},
+      {"id": "b", "text": "أساسات صلبة", "correct": false},
+      {"id": "c", "text": "أساسات سطحية", "correct": false},
+      {"id": "d", "text": "أساسات عميقة", "correct": false}
+    ]
+  },
+  {
+    "id": 97,
+    "text": "ما هي المادة المستخدمة في تبطين الجدران الخارجية؟",
+    "subtitle": "البناء - التشطيبات",
+    "options": [
+      {"id": "a", "text": "الحجر", "correct": true},
+      {"id": "b", "text": "الجبس", "correct": false},
+      {"id": "c", "text": "الخشب", "correct": false},
+      {"id": "d", "text": "الزجاج", "correct": false}
+    ]
+  },
+  {
+    "id": 98,
+    "text": "أي من هذه المواد يستخدم في بناء الجدران الداخلية؟",
+    "subtitle": "البناء - مواد البناء",
+    "options": [
+      {"id": "a", "text": "الطوب الخفيف", "correct": true},
+      {"id": "b", "text": "الطوب الثقيل", "correct": false},
+      {"id": "c", "text": "الحجر", "correct": false},
+      {"id": "d", "text": "الخرسانة", "correct": false}
+    ]
+  },
+  {
+    "id": 99,
+    "text": "ما هو نوع الدهان المناسب للأسطح الخشبية الخارجية المعرضة للشمس؟",
+    "subtitle": "البناء - التشطيبات",
+    "options": [
+      {"id": "a", "text": "الدهان المقاوم للأشعة فوق البنفسجية", "correct": true},
+      {"id": "b", "text": "الدهان المائي", "correct": false},
+      {"id": "c", "text": "الدهان الزيتي", "correct": false},
+      {"id": "d", "text": "الورنيش", "correct": false}
+    ]
+  },
+  {
+    "id": 100,
+    "text": "ما هي المادة المستخدمة في عزل الأسطح المائلة؟",
+    "subtitle": "البناء - العزل",
+    "options": [
+      {"id": "a", "text": "البيتومين", "correct": true},
+      {"id": "b", "text": "الرمل", "correct": false},
+      {"id": "c", "text": "الأسمنت", "correct": false},
+      {"id": "d", "text": "الجبس", "correct": false}
+    ]
+  }
+]

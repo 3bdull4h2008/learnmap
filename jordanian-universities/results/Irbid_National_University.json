@@ -1,0 +1,135 @@
+{
+  "basic_info": {
+    "name": "جامعة إربد الأهلية",
+    "nameEn": "Irbid National University",
+    "type": "private",
+    "city": "Irbid",
+    "region": "north",
+    "established": 1994,
+    "website": "https://inu.edu.jo"
+  },
+  "admission_requirements": {
+    "general_requirements": "Jordanian General Secondary Certificate (Tawjihi) or equivalent. All high school certificates in Arab countries are accepted if authenticated by Jordanian Ministry of Education. Non-Jordanian students with vocational diplomas must submit applications to the Jordanian Ministry of Education for certificate equalization.",
+    "min_tawjihi_mark": 60,
+    "has_entrance_exam": false,
+    "exam_details": "No general entrance exam; placement tests may be required for language proficiency.",
+    "english_requirement": "TOEFL or IELTS required for postgraduate program admission; not specified for undergraduate admission. Students who fail to prove English proficiency may study a qualifying program of 6 additional credit hours.",
+    "bridging_system": "Community college diploma with 68% or above. Maximum 66 credit hours transferred for 2-year system. Non-Jordanian community college graduates: maximum 30 credit hours with minimum 68% grade. Special needs bridging minimum: 65% with medical documentation.",
+    "acceptance_rate": "50-59% (averagely selective)"
+  },
+  "majors_overview": {
+    "college_count": 6,
+    "faculties": [
+      "Faculty of Law",
+      "Faculty of Business Administration and Finance",
+      "Faculty of Arts and Humanities",
+      "Faculty of Science and Information Technology",
+      "Faculty of Educational Sciences",
+      "Faculty of Nursing"
+    ],
+    "bachelor_programs_count": 20,
+    "master_programs_count": 7,
+    "total_majors": 27,
+    "has_postgraduate": true,
+    "postgraduate_note": "Master's programs started in 2012"
+  },
+  "tuition_fees": {
+    "fee_structure": "Per credit hour, after discount for Jordanian students",
+    "bachelor_fees": {
+      "Faculty of Arts and Humanities": {
+        "Arabic Language and Literature": 20,
+        "English Language and Literature": 25,
+        "Translation": 30,
+        "Graphic Design": 30
+      },
+      "Faculty of Science and Information Technology": {
+        "Mathematics": 24,
+        "Computer Science": 30,
+        "Cyber Security": 40,
+        "Data Science and Artificial Intelligence": 35
+      },
+      "Faculty of Business Administration and Finance": {
+        "Accounting": 25,
+        "Business Administration": 25,
+        "Entrepreneurship": 25,
+        "Management Information Systems": 25,
+        "Banking and Finance": 20,
+        "Accounting Information Systems": 25,
+        "E-marketing and Social Media": 30
+      },
+      "Faculty of Educational Sciences": {
+        "Classroom Teacher": 25,
+        "Special Education": 20,
+        "Vocational Education": 25,
+        "Psychological and Educational Counseling": 20
+      },
+      "Faculty of Nursing": {
+        "Nursing": 45
+      },
+      "Faculty of Law": {
+        "Law": 25
+      }
+    },
+    "master_fees": {
+      "Mathematics": 70,
+      "Law": "[uncertain]",
+      "Accounting": "[uncertain]",
+      "Banking and Finance": "[uncertain]",
+      "Cybersecurity": 105,
+      "Arabic Language and Literature": 50,
+      "Business Intelligence and Data Analysis": 105
+    },
+    "currency": "JOD",
+    "notes": "Tuition charged per credit hour. Fees shown are after discount for Jordanian students. International students may have different rates."
+  },
+  "ranking_accreditation": {
+    "national_ranking": "Ranked #22 in Jordan (Webometrics Jan 2026); #24 in Jordan (edurank)",
+    "accreditation": "Ministry of Higher Education and Scientific Research of Jordan",
+    "affiliations": [
+      "Islamic Association of Arab Universities (AARU)",
+      "International Association of Universities (IAU)",
+      "International Federation of Universities (FUIW)",
+      "Mediterranean Universities Union (UNIMED)",
+      "Federation of Arab Private Higher Education Institutions"
+    ],
+    "international_recognition": "QS Arab Region Rankings #201-250 (2026); Webometrics World Rank #6246 (Jan 2026); UniRank World #6555"
+  },
+  "market_demand": {
+    "overall_demand": "[uncertain]",
+    "high_demand_majors": "[uncertain]",
+    "employment_rate_estimate": "[uncertain]",
+    "notes": "[uncertain]"
+  },
+  "campus_facilities": {
+    "has_accommodation": false,
+    "accommodation_details": "No confirmed on-campus dormitories. International Relations Office reportedly facilitates accommodation for international students through external housing.",
+    "has_library": true,
+    "has_sports_facilities": true,
+    "sports_details": "Gym established 2007 with facilities for football, basketball, volleyball, tennis, bodybuilding, squash, billiards, table tennis, and bowling. Outdoor stadium founded 2000 with football field and capacity for 5,000 spectators.",
+    "has_health_center": true,
+    "health_center_details": "Health Care Center located inside campus providing health services for students.",
+    "has_computer_center": true,
+    "has_scholarships": true,
+    "scholarship_details": "Scholarships available for top-performing students; financial aid programs may be available."
+  },
+  "contact_info": {
+    "address": "P.O. Box 2600, Irbid International Road, Irbid, 21110, Jordan",
+    "phone": "+962 2 7056682",
+    "alt_phones": ["+962 2 7056680", "+962 2 7056681"],
+    "email": "inu@inu.edu.jo",
+    "social_media": {
+      "facebook": "https://web.facebook.com/irbidUniversity/",
+      "twitter": "https://x.com/INU_University",
+      "instagram": "https://www.instagram.com/irbiduniversity/",
+      "linkedin": "https://www.linkedin.com/company/irbid-national-university-جامعة-إربد-الأهلية",
+      "youtube": "https://www.youtube.com/@inu_university2011"
+    }
+  },
+  "uncertain": [
+    "master_fees (Law, Accounting, Banking and Finance)",
+    "overall_demand",
+    "high_demand_majors",
+    "employment_rate_estimate",
+    "notes (market_demand)"
+  ]
+}

@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>احتياجات سوق العمل - LearnMap</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="icon" type="image/x-icon" href="/images/logo.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+        .skill-card {
+            background: var(--lm-bg-secondary);
+            border: 1px solid var(--lm-border);
+            border-radius: 15px;
+            padding: 1.5rem;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.07);
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            transition: all 0.35s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+        .skill-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 12px 35px rgba(0,0,0,0.15);
+        }
+        .skill-icon {
+            width: 60px;
+            height: 60px;
+            min-width: 60px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5em;
+            color: white;
+            flex-shrink: 0;
+            background: linear-gradient(135deg, var(--gold-primary), var(--gold-primary));
+        }
+        .skill-info h4 {
+            font-size: 1.1rem;
+            color: var(--lm-text-primary);
+            margin-bottom: 0.3rem;
+        }
+        .skill-info p {
+            font-size: 0.9rem;
+            color: var(--lm-text-muted);
+            margin: 0;
+        }
+        .comparison-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+        .trends-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+        .trend-card {
+            background: linear-gradient(135deg, #2d3e5f, #1e2f47);
+            border-radius: 20px;
+            padding: 2rem 1.5rem;
+            text-align: center;
+            transition: all 0.35s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+        .trend-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35);
+        }
+        .trend-icon {
+            font-size: 2.5em;
+            color: var(--gold-primary);
+            margin-bottom: 1rem;
+        }
+        .trend-card h3 {
+            color: white;
+            font-size: 1.2rem;
+            margin-bottom: 0.8rem;
+        }
+        .trend-card p {
+            color: rgba(255,255,255,0.8);
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+        .demand-badge {
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.82em;
+            font-weight: 600;
+            display: inline-block;
+            white-space: nowrap;
+        }
+        .badge-high { background: rgba(46, 125, 50, 0.15); color: #2e7d32; }
+        .badge-growing { background: rgba(56, 142, 60, 0.15); color: #388e3c; }
+        .badge-stable { background: rgba(255, 152, 0, 0.15); color: #f57c00; }
+        .badge-declining { background: rgba(198, 40, 40, 0.15); color: #c62828; }
+        .badge-volatile { background: rgba(156, 39, 176, 0.15); color: #7b1fa2; }
+        .badge-specialized { background: rgba(21, 101, 192, 0.15); color: #1565c0; }
+        .type-badge {
+            padding: 3px 10px;
+            border-radius: 8px;
+            font-size: 0.8em;
+            font-weight: 600;
+        }
+        .type-academic { background: rgba(102, 126, 234, 0.15); color: #5c6bc0; }
+        .type-vocational { background: rgba(67, 233, 123, 0.15); color: #2e7d32; }
+        .data-note {
+            max-width: 1200px;
+            margin: 20px auto 0;
+            padding: 18px 22px;
+            background: rgba(200, 154, 102, 0.08);
+            border-radius: 10px;
+            border-right: 4px solid var(--gold-primary);
+        }
+        .data-note p {
+            font-size: 0.88rem;
+            color: var(--lm-text-muted);
+            margin: 0;
+            line-height: 1.9;
+        }
+        .data-note a {
+            color: var(--gold-primary);
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .data-note a:hover { text-decoration: underline; }
+        .data-note .sources-list {
+            margin-top: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .data-note .source-tag {
+            background: white;
+            padding: 5px 12px;
+            border-radius: 15px;
+            font-size: 0.82rem;
+            border: 1px solid var(--gold-primary);
+            transition: all 0.25s;
+        }
+        .data-note .source-tag:hover {
+            background: var(--gold-primary);
+            color: white;
+        }
+        .data-note .source-tag a { color: inherit; }
+        .stat-card .stat-trend {
+            margin-top: 10px;
+            font-size: 0.82em;
+            padding: 4px 10px;
+            border-radius: 20px;
+            display: inline-block;
+        }
+        .trend-down { background: rgba(76, 175, 80, 0.15); color: #2e7d32; }
+        .trend-up { background: rgba(244, 67, 54, 0.15); color: #c62828; }
+        .trend-neutral { background: rgba(255, 152, 0, 0.15); color: #f57c00; }
+        .comparison-card {
+            background: var(--lm-bg-secondary);
+            border: 1px solid var(--lm-border);
+            border-radius: 20px;
+            padding: 2rem;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.07);
+            transition: all 0.35s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+        .comparison-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 12px 35px rgba(0,0,0,0.15);
+        }
+        .comparison-card h3 {
+            font-size: 1.4rem;
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            border-bottom: 2px solid var(--lm-border);
+            padding-bottom: 0.75rem;
+        }
+        .comparison-card.academic h3 { color: #5c6bc0; }
+        .comparison-card.vocational h3 { color: #2e7d32; }
+        .comparison-card ul { list-style: none; padding: 0; }
+        .comparison-card ul li {
+            padding: 0.75rem 0;
+            border-bottom: 1px solid #eee;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 0.95rem;
+            color: var(--lm-text-secondary);
+            transition: all 0.25s ease;
+        }
+        .comparison-card ul li:last-child { border-bottom: none; }
+        .comparison-card ul li:hover {
+            transform: translateX(5px);
+            color: var(--gold-primary);
+        }
+        .comparison-card ul li i {
+            color: var(--gold-primary);
+            width: 20px;
+            text-align: center;
+        }
+        .filter-bar {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-bottom: 25px;
+            padding: 0 20px;
+        }
+        .rec-number {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--gold-primary), var(--gold-primary));
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 1.1rem;
+            margin-bottom: 15px;
+        }
+        .challenge-tag {
+            display: inline-block;
+            background: rgba(255, 152, 0, 0.1);
+            color: #f57c00;
+            padding: 3px 10px;
+            border-radius: 12px;
+            font-size: 0.78rem;
+            margin-top: 5px;
+            border: 1px solid rgba(255, 152, 0, 0.3);
+        }
+        .fields-table-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+
+        .dark-mode .skill-card,
+        .dark-mode .comparison-card {
+            background: var(--dm-bg-secondary);
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+        }
+        .dark-mode .skill-info h4,
+        .dark-mode .comparison-card ul li {
+            color: var(--dm-text-light);
+        }
+        .dark-mode .skill-info p {
+            color: var(--dm-text-medium);
+        }
+        .dark-mode .comparison-card h3 {
+            border-bottom-color: var(--dm-border);
+        }
+        .dark-mode .comparison-card ul li {
+            border-bottom-color: var(--dm-border);
+        }
+        .dark-mode .trend-card {
+            background: linear-gradient(135deg, var(--dm-bg-secondary), var(--dm-bg-tertiary));
+        }
+        .dark-mode .trend-card:hover {
+            box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+        }
+        .dark-mode .trend-card h3 { color: var(--dm-text-light); }
+        .dark-mode .trend-card p { color: var(--dm-text-medium); }
+        .dark-mode .badge-high { background: rgba(76, 175, 80, 0.2); color: #81c784; }
+        .dark-mode .badge-growing { background: rgba(129, 199, 132, 0.2); color: #a5d6a7; }
+        .dark-mode .badge-stable { background: rgba(255, 183, 77, 0.2); color: #ffb74d; }
+        .dark-mode .badge-declining { background: rgba(229, 115, 115, 0.2); color: #e57373; }
+        .dark-mode .badge-volatile { background: rgba(186, 104, 200, 0.2); color: #ce93d8; }
+        .dark-mode .badge-specialized { background: rgba(100, 181, 246, 0.2); color: #90caf9; }
+        .dark-mode .type-academic { background: rgba(102, 126, 234, 0.2); color: #9fa8da; }
+        .dark-mode .type-vocational { background: rgba(129, 199, 132, 0.2); color: #a5d6a7; }
+        .dark-mode .data-note {
+            background: rgba(222,178,83,0.1);
+            border-right-color: #deb253;
+        }
+        .dark-mode .data-note p { color: var(--dm-text-medium); }
+        .dark-mode .data-note a { color: #deb253; }
+        .dark-mode .data-note .source-tag {
+            background: var(--dm-bg-tertiary);
+            border-color: #deb253;
+            color: var(--dm-text-light);
+        }
+        .dark-mode .data-note .source-tag:hover {
+            background: #deb253;
+            color: var(--dm-bg-primary);
+        }
+        .dark-mode .trend-down { background: rgba(129, 199, 132, 0.2); color: #81c784; }
+        .dark-mode .trend-up { background: rgba(229, 115, 115, 0.2); color: #e57373; }
+        .dark-mode .trend-neutral { background: rgba(255, 183, 77, 0.2); color: #ffb74d; }
+        .dark-mode .challenge-tag {
+            background: rgba(255, 183, 77, 0.15);
+            color: #ffb74d;
+            border-color: rgba(255, 183, 77, 0.3);
+        }
+        .legend-box {
+            background: var(--lm-bg-secondary);
+            border: 1px solid var(--lm-border);
+            border-radius: 15px;
+            padding: 1.5rem;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.07);
+            margin-bottom: 2rem;
+        }
+        .dark-mode .legend-box {
+            background: var(--dm-bg-secondary);
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+        }
+        .legend-box h4 {
+            color: var(--lm-text-primary);
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+            border-bottom: 2px solid var(--lm-border);
+            padding-bottom: 0.5rem;
+        }
+        .dark-mode .legend-box h4 {
+            color: var(--dm-text-light);
+            border-bottom-color: var(--dm-border);
+        }
+        .legend-items {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(min(200px, 100%), 1fr));
+            gap: 10px;
+        }
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.88rem;
+            color: var(--lm-text-secondary);
+        }
+        .dark-mode .legend-item { color: var(--dm-text-medium); }
+
+        @media (max-width: 768px) {
+            .comparison-grid { grid-template-columns: 1fr; }
+            .stat-box { text-align: center; }
+            .stat-number { font-size: 1.5rem !important; }
+            .chart-frame { min-height: 250px; }
+        }
+        @media (max-width: 480px) {
+            .skills-grid { grid-template-columns: 1fr; }
+            .trends-grid { grid-template-columns: 1fr; }
+            .filter-bar { gap: 6px; }
+            .filter-bar .filter-btn { padding: 6px 12px; font-size: 0.85rem; }
+        }
+    </style>
+</head>
+<body>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap" as="style">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap" rel="stylesheet">
+<div class="nav-overlay" id="navOverlay" aria-hidden="true"></div>
+<nav class="navbar" role="navigation" aria-label="القائمة الرئيسية">
+  <div class="nav-container">
+    <a href="/index.html" class="logo" aria-label="العودة للصفحة الرئيسية">
+      <img src="/logo.webp" alt="LearnMap Logo" class="logo-img" width="50" height="50" loading="eager">
+    </a>
+    <button class="hamburger" id="hamburger" type="button" aria-label="فتح القائمة" aria-expanded="false" aria-controls="navMenu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <ul class="nav-menu" id="navMenu" role="menubar">
+      <li class="has-submenu" role="none">
+        <a role="menuitem" aria-haspopup="true" aria-expanded="false">النظام التعليمي في الأردن</a>
+        <ul class="dropdown-menu" role="menu">
+          <li role="none"><a href="/fields-awareness/overview/BTEC-System-2025.html" role="menuitem">المسار المهني والتقني</a></li>
+          <li role="none"><a href="/fields-awareness/overview/jordanian-system-2025.html" role="menuitem">المسار الأكاديمي</a></li>
+          <li class="has-submenu" role="none">
+            <a role="menuitem" aria-haspopup="true" aria-expanded="false">تخصصات المسار الأكاديمي</a>
+            <ul class="dropdown-submenu" role="menu">
+              <li role="none"><a href="/fields-awareness/academic/science-and-technology-field.html" role="menuitem">الهندسة والعلوم والتكنولوجيا</a></li>
+              <li role="none"><a href="/fields-awareness/academic/health-field.html" role="menuitem">الصحي</a></li>
+              <li role="none"><a href="/fields-awareness/academic/business-and-management-field.html" role="menuitem">إدارة الأعمال</a></li>
+              <li role="none"><a href="/fields-awareness/academic/languages-and-social-studies.html" role="menuitem">اللغات والعلوم الانسانية والاجتماعية</a></li>
+            </ul>
+          </li>
+          <li class="has-submenu" role="none">
+            <a role="menuitem" aria-haspopup="true" aria-expanded="false">تخصصات المسار المهني</a>
+            <ul class="dropdown-submenu" role="menu">
+              <li role="none"><a href="/fields-awareness/vocational/engineering-vocational.html" role="menuitem">الهندسة</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/information-technology-vocational.html" role="menuitem">تكنولوجيا معلومات</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/hospitality-vocational.html" role="menuitem">الضيافة</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/hair-and-beauty-vocational.html" role="menuitem">الشعر والتجميل</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/construction-vocational.html" role="menuitem">البناء والإنشاءات</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/agriculture-vocational.html" role="menuitem">الزراعة</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/art-and-design-vocational.html" role="menuitem">الفن والتصميم</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/travel-and-tourism-vocational.html" role="menuitem">السفر والسياحة</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/business-and-management-vocational.html" role="menuitem">الأعمال</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/creative-media-vocational.html" role="menuitem">الوسائط الإبداعية</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/Healthcare-and-Social-Care-Vocational.html" role="menuitem">الرعاية الصحية والاجتماعية</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/sports-vocational.html" role="menuitem">الرياضة</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li class="has-submenu" role="none">
+        <a role="menuitem" aria-haspopup="true" aria-expanded="false">التوجيه المهني</a>
+        <ul class="dropdown-menu" role="menu">
+          <li role="none"><a href="/career-guidance/interest-test.html" role="menuitem">اختبار الميول والقدرات</a></li>
+          <li role="none"><a href="/career-guidance/university-matcher.html" role="menuitem">مطابقة الجامعات</a></li>
+          <li role="none"><a href="/career-guidance/field-test.html" role="menuitem">اختبار الجاهزية المهنية</a></li>
+          <li role="none"><a href="/career-guidance/skills-development.html" role="menuitem">تطوير المهارات</a></li>
+          <li role="none"><a href="/career-guidance/market-demand.html" role="menuitem">احتياجات السوق</a></li>
+          <li role="none"><a href="/career-guidance/universities-list.html" role="menuitem">دليل الجامعات</a></li>
+        </ul>
+      </li>
+      <li class="has-submenu" role="none">
+        <a role="menuitem" aria-haspopup="true" aria-expanded="false">الدعم النفسي</a>
+        <ul class="dropdown-menu" role="menu">
+          <li role="none"><a href="/psychological-support/time-management-tools.html" role="menuitem">إدارة الوقت</a></li>
+          <li role="none"><a href="/psychological-support/mindset-and-emotional-regulation.html" role="menuitem">العقلية والضبط النفسي</a></li>
+        </ul>
+      </li>
+      <li class="has-submenu" role="none">
+        <a role="menuitem" aria-haspopup="true" aria-expanded="false">الأخبار والمجتمع</a>
+        <ul class="dropdown-menu" role="menu">
+          <li role="none"><a href="/community/ministry-decisions.html" role="menuitem">قرارات الوزارة</a></li>
+          <li role="none"><a href="/career-guidance/faq.html" role="menuitem">الأسئلة الشائعة</a></li>
+        </ul>
+      </li>
+    </ul>
+    <div class="nav-buttons">
+      <div class="nav-account-section" id="navAccountSection">
+        <a href="/auth/login.html" class="nav-account-btn" id="navAccountBtn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+          <span id="navAccountText">حسابي</span>
+        </a>
+      </div>
+      <button id="darkModeToggle" class="btn-dark-mode" type="button" aria-label="تفعيل الوضع الليلي" aria-pressed="false">
+        <svg class="dm-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+    </div>
+    <script>
+    try {
+      var isLoggedIn = false;
+
+      function showLoggedIn(user) {
+        isLoggedIn = true;
+        var nameEl = document.getElementById('navAccountText');
+        if (nameEl && user.name) nameEl.textContent = user.name;
+        var btn = document.getElementById('navAccountBtn');
+        if (btn) btn.href = '/user/profile.html';
+      }
+
+      function showLoggedOut() {
+        isLoggedIn = false;
+        document.getElementById('navAccountText').textContent = 'حسابي';
+        var btn = document.getElementById('navAccountBtn');
+        if (btn) btn.href = '/auth/login.html';
+      }
+
+      function handleLogout() {
+        if (window.LearnMapAuth && window.LearnMapAuth.logout) {
+          window.LearnMapAuth.logout();
+        } else {
+          localStorage.removeItem('learnmap_token');
+          localStorage.removeItem('learnmap_user');
+          showLoggedOut();
+          window.location.href = '/index.html';
+        }
+      }
+
+      function updateNavAuth() {
+        var token = localStorage.getItem('learnmap_token');
+        var userData = localStorage.getItem('learnmap_user');
+        if (token && userData) {
+          try { showLoggedIn(JSON.parse(userData)); } catch(e) { showLoggedOut(); }
+        } else if (token) {
+          showLoggedIn({});
+        } else {
+          showLoggedOut();
+        }
+      }
+
+      function tryCheckAuth() {
+        if (window.LearnMapAuth && window.LearnMapAuth.checkAuth) {
+          window.LearnMapAuth.checkAuth().then(function(user) {
+            if (user) showLoggedIn(user);
+          }).catch(function() {});
+        } else {
+          setTimeout(tryCheckAuth, 100);
+        }
+      }
+
+      updateNavAuth();
+      tryCheckAuth();
+      window.addEventListener('storage', updateNavAuth);
+
+      (function() {
+        var path = window.location.pathname;
+        var links = document.querySelectorAll('.nav-menu a');
+        for (var i = 0; i < links.length; i++) {
+          var href = links[i].getAttribute('href');
+          if (href && path.indexOf(href) !== -1) {
+            links[i].setAttribute('aria-current', 'page');
+            break;
+          }
+        }
+      })();
+    } catch(e) {}
+    </script>
+  </div>
+</nav>
+
+    <!-- ===== Hero Section ===== -->
+    <section class="page-hero">
+        <div class="page-hero-content">
+            <h1><i class="fas fa-chart-line"></i> احتياجات سوق العمل</h1>
+            <p>تحليل مبني على بيانات رسمية من دائرة الإحصاءات العامة ونظام معلومات سوق العمل الأردني (LMIS)</p>
+        </div>
+    </section>
+    <!-- ===== Key Statistics Cards ===== -->
+    <section class="page-content">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-box animate-slide-up">
+                    <div class="stat-number">21.4%</div>
+                    <div class="stat-label">معدل البطالة الإجمالي (2024)</div>
+                    <span class="stat-trend trend-down"><i class="fas fa-arrow-down"></i> انخفاض 0.9% عن السابق</span>
+                </div>
+                <div class="stat-box animate-slide-up">
+                    <div class="stat-number">مرتفعة</div>
+                    <div class="stat-label">بطالة الشباب (15–24 سنة)</div>
+                    <span class="stat-trend trend-up"><i class="fas fa-exclamation-triangle"></i> تحدي هيكلي</span>
+                </div>
+                <div class="stat-box animate-slide-up">
+                    <div class="stat-number">مرتفعة</div>
+                    <div class="stat-label">بطالة النساء</div>
+                    <span class="stat-trend trend-up"><i class="fas fa-venus"></i> فجوة جندرية</span>
+                </div>
+                <div class="stat-box animate-slide-up">
+                    <div class="stat-number">18,000+</div>
+                    <div class="stat-label">طالب في برامج BTEC المهنية</div>
+                    <span class="stat-trend trend-down"><i class="fas fa-arrow-up"></i> توسّع مستمر</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ===== Charts Section ===== -->
+    <section class="page-content" style="padding-top: 1rem;">
+        <div class="container">
+            <h2 class="section-title">الرسوم البيانية التفاعلية</h2>
+            <p style="text-align:center; color: var(--lm-text-muted); margin-bottom: 2rem;">استعرض البيانات بشكل بصري لفهم أفضل لاتجاهات سوق العمل</p>
+            <div class="charts-row">
+                <iframe src="/components/charts.html" class="chart-frame" title="عدد الوظائف الشاغرة في الأردن" loading="lazy"></iframe>
+                <iframe src="/components/chart2.html" class="chart-frame" title="القطاعات الأكثر طلباً للوظائف" loading="lazy"></iframe>
+                <iframe src="/components/chart3.html" class="chart-frame" title="مستويات الأجور في الأردن" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+    <!-- ===== In-Demand Skills Section ===== -->
+    <section class="page-content">
+        <div class="container">
+            <h2 class="section-title">المهارات الأكثر طلباً في 2025–2026</h2>
+            <p style="text-align:center; color: var(--lm-text-muted); margin-bottom: 2rem;">المهارات التي يبحث عنها أصحاب العمل عبر جميع القطاعات في الأردن</p>
+            <div class="skills-grid">
+                <div class="stat-box animate-slide-up">
+                    <div class="skill-icon"><i class="fas fa-code"></i></div>
+                    <div class="skill-info">
+                        <h4>تطوير البرمجيات و IT</h4>
+                        <p>Java, Python, تطوير الويب — الراتب: 600–1,400 دينار</p>
+                    </div>
+                </div>
+                <div class="stat-box animate-slide-up">
+                    <div class="skill-icon"><i class="fas fa-database"></i></div>
+                    <div class="skill-info">
+                        <h4>تحليل البيانات</h4>
+                        <p>SQL, Power BI, Tableau — مهارات رقمية متقدمة</p>
+                    </div>
+                </div>
+                <div class="stat-box animate-slide-up">
+                    <div class="skill-icon"><i class="fas fa-shield-alt"></i></div>
+                    <div class="skill-info">
+                        <h4>الأمن السيبراني</h4>
+                        <p>حماية البيانات والأنظمة — طلب متزايد بسبب التحول الرقمي</p>
+                    </div>
+                </div>
+                <div class="stat-box animate-slide-up">
+                    <div class="skill-icon"><i class="fas fa-robot"></i></div>
+                    <div class="skill-info">
+                        <h4>الذكاء الاصطناعي</h4>
+                        <p>Machine Learning و AI — من أسرع المهارات نمواً</p>
+                    </div>
+                </div>
+                <div class="stat-box animate-slide-up">
+                    <div class="skill-icon"><i class="fas fa-solar-panel"></i></div>
+                    <div class="skill-info">
+                        <h4>الطاقة المتجددة</h4>
+                        <p>الطاقة الشمسية وطاقة الرياح — قطاع أخضر ناشئ</p>
+                    </div>
+                </div>
+                <div class="stat-box animate-slide-up">
+                    <div class="skill-icon"><i class="fas fa-heartbeat"></i></div>
+                    <div class="skill-info">
+                        <h4>القطاع الصحي</h4>
+                        <p>تمريض، أشعة، تخصصات طبية — نمو مستمر</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ===== Table Section ===== -->
+    <section class="page-content">
+        <div class="container">
+            <h2 class="section-title">جدول التخصصات — نظرة شاملة</h2>
+            <p style="text-align:center; color: var(--lm-text-muted); margin-bottom: 2rem;">
+                اضغط على أي صف للانتقال إلى صفحة التخصص — التوصيفات مبنية على تصنيفات نظام LMIS الجديد
+            </p>
+            <!-- Legend -->
+            <div class="legend-box">
+                <h4><i class="fas fa-info-circle" style="color:var(--gold-primary);"></i> دليل التوصيفات الجديدة</h4>
+                <div class="legend-items">
+                    <div class="legend-item"><span class="demand-badge badge-high">نمو متزايد ومستمر</span> طلب قوي ومستمر</div>
+                    <div class="legend-item"><span class="demand-badge badge-growing">طلب متزايد</span> نمو بسبب عوامل جديدة</div>
+                    <div class="legend-item"><span class="demand-badge badge-stable">طلب مستقر</span> نمو بطيء وثابت</div>
+                    <div class="legend-item"><span class="demand-badge badge-declining">طلب منخفض/متناقص</span> تشبع في السوق</div>
+                    <div class="legend-item"><span class="demand-badge badge-volatile">طلب متقلب</span> يختلف حسب المنطقة</div>
+                    <div class="legend-item"><span class="demand-badge badge-specialized">طلب متخصص جداً</span> محدود وخبراء</div>
+                </div>
+            </div>
+            <!-- Filter Buttons -->
+            <div class="filter-bar">
+                <button class="filter-btn active" data-filter="all">الكل</button>
+                <button class="filter-btn" data-filter="academic">أكاديمي</button>
+                <button class="filter-btn" data-filter="vocational">مهني</button>
+                <button class="filter-btn" data-filter="high">نمو متزايد</button>
+                <button class="filter-btn" data-filter="stable">طلب مستقر</button>
+                <button class="filter-btn" data-filter="low">طلب منخفض</button>
+            </div>
+            <div class="table-container fields-table-scroll">
+                <table class="styled-table" id="fieldsTable">
+                    <thead>
+                        <tr>
+                            <th><i class="fas fa-graduation-cap"></i> التخصص / المجال</th>
+                            <th><i class="fas fa-tag"></i> النوع</th>
+                            <th><i class="fas fa-fire"></i> حالة الطلب (تصنيف جديد)</th>
+                            <th><i class="fas fa-money-bill-wave"></i> الدخل الشهري (دينار)</th>
+                            <th><i class="fas fa-exclamation-circle"></i> التحديات</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- ===== أكاديمي ===== -->
+                        <tr data-href="/fields-awareness/academic/science-and-technology-field.html" data-type="academic" data-demand="high" class="demand-high salary-high">
+                            <td><i class="fas fa-microchip" style="color:#5c6bc0; margin-left:8px;"></i>العلوم والتكنولوجيا والهندسة</td>
+                            <td><span class="type-badge type-academic">أكاديمي</span></td>
+                            <td><span class="demand-badge badge-high">نمو متزايد ومستمر</span></td>
+                            <td>600 – 1,400</td>
+                            <td><span class="challenge-tag">تحديث المناهج</span></td>
+                        </tr>
+                        <tr data-href="/fields-awareness/academic/health-field.html" data-type="academic" data-demand="high" class="demand-high salary-high">
+                            <td><i class="fas fa-stethoscope" style="color:#c62828; margin-left:8px;"></i>الصحي (طب، تمريض، صيدلة)</td>
+                            <td><span class="type-badge type-academic">أكاديمي</span></td>
+                            <td><span class="demand-badge badge-high">نمو متزايد ومستمر</span></td>
+                            <td>550 – 1,300</td>
+                            <td><span class="challenge-tag">حاجة للمناطق النائية</span></td>
+                        </tr>
+                        <tr data-href="/fields-awareness/academic/business-and-management-field.html" data-type="academic" data-demand="stable" class="demand-medium salary-medium">
+                            <td><i class="fas fa-chart-pie" style="color:#f57c00; margin-left:8px;"></i>إدارة الأعمال والتسويق الرقمي</td>
+                            <td><span class="type-badge type-academic">أكاديمي</span></td>
+                            <td><span class="demand-badge badge-stable">طلب مستقر مع نمو بطيء</span></td>
+                            <td>450 – 1,000</td>
+                            <td><span class="challenge-tag">حاجة لمهارات عملية</span></td>
+                        </tr>
+                        <tr data-href="/fields-awareness/academic/law-and-sharia-field.html" data-type="academic" data-demand="low" class="demand-low salary-low">
+                            <td><i class="fas fa-balance-scale" style="color:#757575; margin-left:8px;"></i>القانون، الشريعة، واللغات والعلوم الإنسانية</td>
+                            <td><span class="type-badge type-academic">أكاديمي</span></td>
+                            <td><span class="demand-badge badge-declining">طلب منخفض أو متناقص</span></td>
+                            <td>350 – 800</td>
+                            <td><span class="challenge-tag">تشبع — بطالة +30%</span></td>
+                        </tr>
+                        <!-- ===== مهني ===== -->
+                        <tr data-href="/fields-awareness/vocational/engineering-vocational.html" data-type="vocational" data-demand="high" class="demand-high salary-medium">
+                            <td><i class="fas fa-hard-hat" style="color:#e65100; margin-left:8px;"></i>الهندسة التطبيقية (مهني)</td>
+                            <td><span class="type-badge type-vocational">مهني</span></td>
+                            <td><span class="demand-badge badge-growing">طلب متزايد</span></td>
+                            <td>500 – 1,100</td>
+                            <td><span class="challenge-tag">مشاريع بنية تحتية</span></td>
+                        </tr>
+                        <tr data-href="/fields-awareness/vocational/information-technology-vocational.html" data-type="vocational" data-demand="high" class="demand-high salary-high">
+                            <td><i class="fas fa-laptop-code" style="color:#1565c0; margin-left:8px;"></i>تكنولوجيا المعلومات (مهني)</td>
+                            <td><span class="type-badge type-vocational">مهني</span></td>
+                            <td><span class="demand-badge badge-high">نمو متزايد ومستمر</span></td>
+                            <td>700 – 1,600</td>
+                            <td><span class="challenge-tag">أمن سيبراني و AI</span></td>
+                        </tr>
+                        <tr data-href="/fields-awareness/vocational/Healthcare-and-Social-Care-Vocational.html" data-type="vocational" data-demand="high" class="demand-high salary-medium">
+                            <td><i class="fas fa-heartbeat" style="color:#c62828; margin-left:8px;"></i>الصحي المساعد (تمريض، مختبرات، صيدلة)</td>
+                            <td><span class="type-badge type-vocational">مهني</span></td>
+                            <td><span class="demand-badge badge-high">نمو متزايد ومستمر</span></td>
+                            <td>400 – 900</td>
+                            <td><span class="challenge-tag">حاجة مستمرة</span></td>
+                        </tr>
+                        <tr data-href="/fields-awareness/vocational/renewable-energy-vocational.html" data-type="vocational" data-demand="high" class="demand-high salary-medium">
+                            <td><i class="fas fa-solar-panel" style="color:#2e7d32; margin-left:8px;"></i>الطاقة المتجددة</td>
+                            <td><span class="type-badge type-vocational">مهني</span></td>
+                            <td><span class="demand-badge badge-high">نمو سريع</span></td>
+                            <td>500 – 1,200</td>
+                            <td><span class="challenge-tag">كوادر صيانة وتشغيل</span></td>
+                        </tr>
+                        <tr data-href="/fields-awareness/vocational/hospitality-vocational.html" data-type="vocational" data-demand="stable" class="demand-medium salary-low">
+                            <td><i class="fas fa-concierge-bell" style="color:#7b1fa2; margin-left:8px;"></i>الضيافة</td>
+                            <td><span class="type-badge type-vocational">مهني</span></td>
+                            <td><span class="demand-badge badge-volatile">طلب متقلب</span></td>
+                            <td>350 – 700</td>
+                            <td><span class="challenge-tag">حسّاس للمواسم</span></td>
+                        </tr>
+                        <tr data-href="/fields-awareness/vocational/hair-and-beauty-vocational.html" data-type="vocational" data-demand="stable" class="demand-medium salary-low">
+                            <td><i class="fas fa-cut" style="color:#ad1457; margin-left:8px;"></i>الشعر والتجميل</td>
+                            <td><span class="type-badge type-vocational">مهني</span></td>
+                            <td><span class="demand-badge badge-stable">طلب مستقر مع نمو بطيء</span></td>
+                            <td>300 – 800</td>
+                            <td><span class="challenge-tag">منافسة عالية</span></td>
+                        </tr>
+                        <tr data-href="/fields-awareness/vocational/construction-vocational.html" data-type="vocational" data-demand="high" class="demand-high salary-medium">
+                            <td><i class="fas fa-building" style="color:#5d4037; margin-left:8px;"></i>البناء والتشييد</td>
+                            <td><span class="type-badge type-vocational">مهني</span></td>
+                            <td><span class="demand-badge badge-growing">طلب متزايد</span></td>
+                            <td>450 – 900</td>
+                            <td><span class="challenge-tag">مشاريع حكومية كبرى</span></td>
+                        </tr>
+                        <tr data-href="/fields-awareness/vocational/sports-vocational.html" data-type="vocational" data-demand="stable" class="demand-medium salary-low">
+                            <td><i class="fas fa-running" style="color:#00838f; margin-left:8px;"></i>الرياضة واللياقة البدنية</td>
+                            <td><span class="type-badge type-vocational">مهني</span></td>
+                            <td><span class="demand-badge badge-stable">طلب مستقر مع نمو بطيء</span></td>
+                            <td>300 – 700</td>
+                            <td><span class="challenge-tag">قطاع عافية ناشئ</span></td>
+                        </tr>
+                        <tr data-href="/fields-awareness/vocational/agriculture-vocational.html" data-type="vocational" data-demand="low" class="demand-low salary-low">
+                            <td><i class="fas fa-seedling" style="color:#2e7d32; margin-left:8px;"></i>الزراعة</td>
+                            <td><span class="type-badge type-vocational">مهني</span></td>
+                            <td><span class="demand-badge badge-declining">طلب منخفض أو متناقص</span></td>
+                            <td>300 – 550</td>
+                            <td><span class="challenge-tag">حاجة لتقنيات حديثة</span></td>
+                        </tr>
+                        <tr data-href="/fields-awareness/vocational/art-and-design-vocational.html" data-type="vocational" data-demand="stable" class="demand-medium salary-medium">
+                            <td><i class="fas fa-palette" style="color:#ef6c00; margin-left:8px;"></i>الفن والتصميم</td>
+                            <td><span class="type-badge type-vocational">مهني</span></td>
+                            <td><span class="demand-badge badge-specialized">طلب متخصص جداً</span></td>
+                            <td>400 – 900</td>
+                            <td><span class="challenge-tag">عمل حر وريادة</span></td>
+                        </tr>
+                        <tr data-href="/fields-awareness/vocational/travel-and-tourism-vocational.html" data-type="vocational" data-demand="stable" class="demand-medium salary-low">
+                            <td><i class="fas fa-plane" style="color:#1976d2; margin-left:8px;"></i>السفر والسياحة</td>
+                            <td><span class="type-badge type-vocational">مهني</span></td>
+                            <td><span class="demand-badge badge-volatile">طلب متقلب</span></td>
+                            <td>350 – 750</td>
+                            <td><span class="challenge-tag">حسّاس للأحداث</span></td>
+                        </tr>
+                        <tr data-href="/fields-awareness/vocational/business-and-management-vocational.html" data-type="vocational" data-demand="stable" class="demand-medium salary-medium">
+                            <td><i class="fas fa-handshake" style="color:#455a64; margin-left:8px;"></i>الأعمال (مهني)</td>
+                            <td><span class="type-badge type-vocational">مهني</span></td>
+                            <td><span class="demand-badge badge-stable">طلب مستقر مع نمو بطيء</span></td>
+                            <td>450 – 950</td>
+                            <td><span class="challenge-tag">مهارات رقمية مطلوبة</span></td>
+                        </tr>
+                        <tr data-href="/fields-awareness/vocational/creative-media-vocational.html" data-type="vocational" data-demand="high" class="demand-high salary-high">
+                            <td><i class="fas fa-film" style="color:#d84315; margin-left:8px;"></i>الوسائط الإبداعية</td>
+                            <td><span class="type-badge type-vocational">مهني</span></td>
+                            <td><span class="demand-badge badge-growing">طلب متزايد</span></td>
+                            <td>550 – 1,200</td>
+                            <td><span class="challenge-tag">محتوى رقمي</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="data-note">
+                    <p>
+                        <i class="fas fa-info-circle" style="color:var(--gold-primary);"></i>
+                        <strong>ملاحظة المنهجية:</strong> البيانات المعروضة مبنية على أحدث التقارير الرسمية الأردنية (2024–2025).
+                        التوصيفات النوعية مستندة إلى تصنيفات نظام معلومات سوق العمل الأردني (LMIS) الجديد بالتعاون مع منظمة العمل الدولية.
+                        <br><br>
+                        <i class="fas fa-exclamation-triangle" style="color:#f57c00;"></i>
+                        <strong>تنويه:</strong> معدلات البطالة حسب التخصص تقديرية مبنية على تحليل تقارير دائرة الإحصاءات العامة.
+                        الدخل يشمل القطاعين العام والخاص، وقد يختلف حسب الخبرة والموقع الجغرافي.
+                    </p>
+                    <div class="sources-list">
+                        <span class="source-tag"><i class="fas fa-external-link-alt"></i> <a href="https://dosweb.dos.gov.jo/" target="_blank">دائرة الإحصاءات العامة</a></span>
+                        <span class="source-tag"><i class="fas fa-external-link-alt"></i> <a href="https://lmis.mol.gov.jo/" target="_blank">نظام معلومات سوق العمل (LMIS)</a></span>
+                        <span class="source-tag"><i class="fas fa-external-link-alt"></i> <a href="https://www.mol.gov.jo/" target="_blank">وزارة العمل الأردنية</a></span>
+                        <span class="source-tag"><i class="fas fa-external-link-alt"></i> <a href="https://www.ilo.org/beirut/lang--ar/index.htm" target="_blank">منظمة العمل الدولية (ILO)</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ===== Academic vs Vocational Comparison ===== -->
+    <section class="page-content">
+        <div class="container">
+            <h2 class="section-title">أكاديمي vs مهني — أيهما تختار؟</h2>
+            <p style="text-align:center; color: var(--lm-text-muted); margin-bottom: 2rem;">مقارنة سريعة تساعدك على فهم الفروقات الجوهرية بين المسارين</p>
+            <div class="comparison-grid">
+                <div class="comparison-card academic">
+                    <h3><i class="fas fa-university"></i> التعليم الأكاديمي</h3>
+                    <ul>
+                        <li><i class="fas fa-clock"></i> مدة الدراسة: 4–6 سنوات</li>
+                        <li><i class="fas fa-book"></i> تركيز نظري وعميق في التخصص</li>
+                        <li><i class="fas fa-certificate"></i> شهادة بكالوريوس أو أعلى</li>
+                        <li><i class="fas fa-money-bill-wave"></i> دخل أعلى على المدى الطويل</li>
+                        <li><i class="fas fa-chart-line"></i> فرص ترقّي وظيفي أوسع</li>
+                        <li><i class="fas fa-exclamation-triangle"></i> بعض التخصصات تعاني من التشبع</li>
+                        <li><i class="fas fa-users"></i> مناسب لـ: الطب، الهندسة، العلوم، القانون</li>
+                    </ul>
+                </div>
+                <div class="comparison-card vocational">
+                    <h3><i class="fas fa-tools"></i> التعليم المهني (BTEC)</h3>
+                    <ul>
+                        <li><i class="fas fa-clock"></i> مدة الدراسة: سنتان كحد أقصى</li>
+                        <li><i class="fas fa-wrench"></i> تركيز عملي وتطبيقي مباشر</li>
+                        <li><i class="fas fa-certificate"></i> دبلوم أو شهادة مهنية معتمدة دولياً</li>
+                        <li><i class="fas fa-rocket"></i> دخول أسرع لسوق العمل</li>
+                        <li><i class="fas fa-hand-holding-usd"></i> تكلفة دراسية أقل بكثير</li>
+                        <li><i class="fas fa-fire"></i> طلب مرتفع على المهن التقنية</li>
+                        <li><i class="fas fa-users"></i> مناسب لـ: IT، الصحة المساعدة، البناء، الطاقة</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ===== Future Trends Section ===== -->
+    <section class="page-content">
+        <div class="container">
+            <h2 class="section-title">اتجاهات المستقبل 2025–2030</h2>
+            <p style="text-align:center; color: var(--lm-text-muted); margin-bottom: 2rem;">التحولات المتوقعة في سوق العمل الأردني وفقاً للدراسات الرسمية</p>
+            <div class="trends-grid">
+                <div class="trend-card">
+                    <div class="trend-icon"><i class="fas fa-robot"></i></div>
+                    <h3>الذكاء الاصطناعي والأتمتة</h3>
+                    <p>تزايد الطلب على متخصصي AI و Machine Learning مع تحول الشركات نحو الرقمنة الشاملة.</p>
+                </div>
+                <div class="trend-card">
+                    <div class="trend-icon"><i class="fas fa-solar-panel"></i></div>
+                    <h3>الطاقة المتجددة</h3>
+                    <p>الأردن يستثمر بقوة في الطاقة الشمسية وطاقة الرياح، مما يخلق فرصاً جديدة في القطاع الأخضر.</p>
+                </div>
+                <div class="trend-card">
+                    <div class="trend-icon"><i class="fas fa-shield-alt"></i></div>
+                    <h3>الأمن السيبراني</h3>
+                    <p>مع زيادة التحول الرقمي، يرتفع الطلب على خبراء حماية البيانات والأنظمة بشكل ملحوظ.</p>
+                </div>
+                <div class="trend-card">
+                    <div class="trend-icon"><i class="fas fa-heartbeat"></i></div>
+                    <h3>الرعاية الصحية</h3>
+                    <p>توسّع القطاع الصحي وارتفاع عدد السكان يزيد الحاجة للكوادر الطبية وشبه الطبية.</p>
+                </div>
+                <div class="trend-card">
+                    <div class="trend-icon"><i class="fas fa-globe"></i></div>
+                    <h3>العمل عن بُعد</h3>
+                    <p>فرص العمل عن بُعد مع شركات عالمية تفتح آفاقاً جديدة للشباب الأردني في البرمجة والتصميم.</p>
+                </div>
+                <div class="trend-card">
+                    <div class="trend-icon"><i class="fas fa-dumbbell"></i></div>
+                    <h3>اللياقة والعافية</h3>
+                    <p>نمو قطاع اللياقة البدنية والصحة النفسية يخلق فرصاً للمدربين وأخصائيي التغذية.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ===== Recommendations Section ===== -->
+    <section class="page-content">
+        <div class="container">
+            <h2 class="section-title">نصائح لاختيار التخصص الصحيح</h2>
+            <p style="text-align:center; color: var(--lm-text-muted); margin-bottom: 2rem;">خطوات عملية تساعدك على اتخاذ قرار مبني على بيانات حقيقية</p>
+            <div class="skills-grid">
+                <div class="rec-card">
+                    <div class="rec-number">1</div>
+                    <h3>ابحث قبل أن تختار</h3>
+                    <p>لا تختر تخصصاً بناءً على المسمى فقط. ادرس معدلات التوظيف والدخل المستقبلي وحالة الطلب في السوق من خلال نظام LMIS.</p>
+                </div>
+                <div class="rec-card">
+                    <div class="rec-number">2</div>
+                    <h3>المهارة أهم من الشهادة</h3>
+                    <p>سوق العمل اليوم يبحث عن المهارات العملية. استثمر في تعلم مهارات رقمية مطلوبة حتى لو لم تكن في تخصصك.</p>
+                </div>
+                <div class="rec-card">
+                    <div class="rec-number">3</div>
+                    <h3>لا تتجاهل التعليم المهني</h3>
+                    <p>التعليم المهني (BTEC) ليس خياراً ثانياً — بل هو مسار أسرع للدخول في مجالات مطلوبة بشدة مثل IT والبناء والطاقة المتجددة.</p>
+                </div>
+                <div class="rec-card">
+                    <div class="rec-number">4</div>
+                    <h3>نوّع مهاراتك</h3>
+                    <p>أصحاب العمل يبحثون عن شخص يجمع بين تخصصه ومهارات مكملة مثل اللغة الإنجليزية والتسويق الرقمي والذكاء الاصطناعي.</p>
+                </div>
+                <div class="rec-card">
+                    <div class="rec-number">5</div>
+                    <h3>تابع الاتجاهات</h3>
+                    <p>سوق العمل يتغير بسرعة. تابع التقارير السنوية لدائرة الإحصاءات ونظام LMIS لتعرف أين تتجه الفرص.</p>
+                </div>
+                <div class="rec-card">
+                    <div class="rec-number">6</div>
+                    <h3>ابدأ مبكراً</h3>
+                    <p>لا تنتظر حتى التخرج. ابدأ بالتدريب التطوعي والعمل الجزئي في مجال اهتمامك من الآن لبناء خبرتك.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ===== Footer ===== -->
+    <div id="footer"></div>
+    <script>
+        fetch("/components/footer.html")
+            .then(res => res.text())
+            .then(data => document.getElementById("footer").innerHTML = data);
+    </script>
+    <!-- ===== Scripts ===== -->
+    <script>
+        // Row click navigation
+        document.querySelectorAll('tr[data-href]').forEach(row => {
+            row.addEventListener('click', (e) => {
+                if (!e.target.closest('a')) {
+                    window.location.href = row.dataset.href;
+                }
+            });
+        });
+        // Filter functionality
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                const filter = btn.dataset.filter;
+                const rows = document.querySelectorAll('#fieldsTable tbody tr');
+                rows.forEach(row => {
+                    if (filter === 'all') {
+                        row.style.display = '';
+                    } else if (filter === 'academic' || filter === 'vocational') {
+                        row.style.display = row.dataset.type === filter ? '' : 'none';
+                    } else if (filter === 'high') {
+                        row.style.display = row.dataset.demand === 'high' ? '' : 'none';
+                    } else if (filter === 'stable') {
+                        row.style.display = row.dataset.demand === 'stable' ? '' : 'none';
+                    } else if (filter === 'low') {
+                        row.style.display = row.dataset.demand === 'low' ? '' : 'none';
+                    }
+                });
+            });
+        });
+    </script>
+    <script src="../dark-mode-controller.js" defer></script>
+    <script src="../components/mobile-menu.js" defer></script>
+</body>
+</html>

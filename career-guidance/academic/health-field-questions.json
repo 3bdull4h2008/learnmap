@@ -1,0 +1,1302 @@
+[
+  {
+    "id": 1,
+    "domain": "health",
+    "grade": 1,
+    "text": "لماذا نغسل أيدينا قبل الأكل؟",
+    "subtitle": "النظافة الشخصية",
+    "options": [
+      {"id": "a", "text": "لنجعلها رطبة", "correct": false},
+      {"id": "b", "text": "لإزالة الجراثيم ومنع المرض", "correct": true},
+      {"id": "c", "text": "لأن الماء بارد", "correct": false},
+      {"id": "d", "text": "لنغسل الصابون", "correct": false}
+    ]
+  },
+  {
+    "id": 2,
+    "domain": "health",
+    "grade": 1,
+    "text": "ما أهمية تفريش الأسنان مرتين يوميًا؟",
+    "subtitle": "صحة الفم",
+    "options": [
+      {"id": "a", "text": "لجعلها بيضاء فقط", "correct": false},
+      {"id": "b", "text": "لمنع تسوس الأسنان ورائحة الفم الكريهة", "correct": true},
+      {"id": "c", "text": "للعب بالمعجون", "correct": false},
+      {"id": "d", "text": "لنجعلها تلمع", "correct": false}
+    ]
+  },
+  {
+    "id": 3,
+    "domain": "health",
+    "grade": 2,
+    "text": "أي من هذه العادات يساعد على النوم الجيد؟",
+    "subtitle": "النوم والراحة",
+    "options": [
+      {"id": "a", "text": "اللعب على الهاتف حتى متأخرًا", "correct": false},
+      {"id": "b", "text": "النوم في وقت منتظم", "correct": true},
+      {"id": "c", "text": "شرب المشروبات الغازية قبل النوم", "correct": false},
+      {"id": "d", "text": "الأكل كثيرًا قبل النوم", "correct": false}
+    ]
+  },
+  {
+    "id": 4,
+    "domain": "health",
+    "grade": 2,
+    "text": "ما الذي يجب أن نفعله عند العطس؟",
+    "subtitle": "الوقاية من انتشار العدوى",
+    "options": [
+      {"id": "a", "text": "نغطي أنفنا بمرفقنا أو بمنديل", "correct": true},
+      {"id": "b", "text": "ننظر إلى السماء", "correct": false},
+      {"id": "c", "text": "نضحك بصوت عالٍ", "correct": false},
+      {"id": "d", "text": "نركض بسرعة", "correct": false}
+    ]
+  },
+  {
+    "id": 5,
+    "domain": "health",
+    "grade": 3,
+    "text": "أي من هذه الأطعمة يساعد على تقوية العظام؟",
+    "subtitle": "التغذية السليمة",
+    "options": [
+      {"id": "a", "text": "البطاطا المقلية", "correct": false},
+      {"id": "b", "text": "الحليب والجبن", "correct": true},
+      {"id": "c", "text": "الحلوى", "correct": false},
+      {"id": "d", "text": "المشروبات الغازية", "correct": false}
+    ]
+  },
+  {
+    "id": 6,
+    "domain": "health",
+    "grade": 3,
+    "text": "ما الذي يساعد على الحفاظ على صحة القلب؟",
+    "subtitle": "النشاط البدني",
+    "options": [
+      {"id": "a", "text": "الجلوس طوال اليوم", "correct": false},
+      {"id": "b", "text": "ممارسة الرياضة بانتظام", "correct": true},
+      {"id": "c", "text": "أكل الوجبات السريعة", "correct": false},
+      {"id": "d", "text": "شرب العصائر المعلبة", "correct": false}
+    ]
+  },
+  {
+    "id": 7,
+    "domain": "health",
+    "grade": 4,
+    "text": "ما وظيفة الجهاز الهضمي؟",
+    "subtitle": "أجسامنا",
+    "options": [
+      {"id": "a", "text": "ضخ الدم", "correct": false},
+      {"id": "b", "text": "هضم الطعام وامتصاص العناصر الغذائية", "correct": true},
+      {"id": "c", "text": "إدخال الأكسجين", "correct": false},
+      {"id": "d", "text": "إفراز العرق", "correct": false}
+    ]
+  },
+  {
+    "id": 8,
+    "domain": "health",
+    "grade": 4,
+    "text": "أي من العادات التالية تحمي من أمراض الجهاز التنفسي؟",
+    "subtitle": "الوقاية من الأمراض",
+    "options": [
+      {"id": "a", "text": "التدخين", "correct": false},
+      {"id": "b", "text": "الابتعاد عن التدخين وغسل اليدين", "correct": true},
+      {"id": "c", "text": "شرب المشروبات الباردة دائمًا", "correct": false},
+      {"id": "d", "text": "الجلوس في أماكن مغلقة", "correct": false}
+    ]
+  },
+  {
+    "id": 9,
+    "domain": "health",
+    "grade": 5,
+    "text": "ما أهمية شرب الماء خلال اليوم؟",
+    "subtitle": "الترطيب",
+    "options": [
+      {"id": "a", "text": "لملء البطن فقط", "correct": false},
+      {"id": "b", "text": "لمساعدة الجسم على أداء وظائفه بشكل صحيح", "correct": true},
+      {"id": "c", "text": "للتخلص من العطش فقط", "correct": false},
+      {"id": "d", "text": "لإيقاف الجوع دائمًا", "correct": false}
+    ]
+  },
+  {
+    "id": 10,
+    "domain": "health",
+    "grade": 5,
+    "text": "ما الذي يسبب تسوس الأسنان؟",
+    "subtitle": "صحة الفم",
+    "options": [
+      {"id": "a", "text": "شرب الحليب", "correct": false},
+      {"id": "b", "text": "الأكل الصحي", "correct": false},
+      {"id": "c", "text": "السكريات وقلة تنظيف الأسنان", "correct": true},
+      {"id": "d", "text": "شرب الماء", "correct": false}
+    ]
+  },
+  {
+    "id": 11,
+    "domain": "health",
+    "grade": 6,
+    "text": "ما أهمية النشاط البدني اليومي للأطفال؟",
+    "subtitle": "الصحة البدنية",
+    "options": [
+      {"id": "a", "text": "لزيادة الوزن", "correct": false},
+      {"id": "b", "text": "لتحسين الصحة العامة وتقوية العضلات والعظام", "correct": true},
+      {"id": "c", "text": "لإضاعة الوقت", "correct": false},
+      {"id": "d", "text": "للوصول إلى التعب فقط", "correct": false}
+    ]
+  },
+  {
+    "id": 12,
+    "domain": "health",
+    "grade": 6,
+    "text": "أي من هذه السلوكيات تُعد جزءًا من الصحة النفسية الجيدة؟",
+    "subtitle": "الصحة النفسية",
+    "options": [
+      {"id": "a", "text": "كتم المشاعر دائمًا", "correct": false},
+      {"id": "b", "text": "التحدث مع من نثق به عند الشعور بالحزن", "correct": true},
+      {"id": "c", "text": "الانعزال عن الجميع", "correct": false},
+      {"id": "d", "text": "الغضب المستمر", "correct": false}
+    ]
+  },
+  {
+    "id": 13,
+    "domain": "health",
+    "grade": 7,
+    "text": "ما المقصود بالتغذية المتوازنة؟",
+    "subtitle": "التغذية",
+    "options": [
+      {"id": "a", "text": "أكل كميات كبيرة من الطعام", "correct": false},
+      {"id": "b", "text": "تناول جميع المجموعات الغذائية بكميات مناسبة", "correct": true},
+      {"id": "c", "text": "الاعتماد على الوجبات السريعة", "correct": false},
+      {"id": "d", "text": "شرب العصائر فقط", "correct": false}
+    ]
+  },
+  {
+    "id": 14,
+    "domain": "health",
+    "grade": 7,
+    "text": "ما تأثير التدخين على صحة الجسم؟",
+    "subtitle": "المخاطر الصحية",
+    "options": [
+      {"id": "a", "text": "يقوّي الرئتين", "correct": false},
+      {"id": "b", "text": "يسبب أمراض القلب والرئة والسرطان", "correct": true},
+      {"id": "c", "text": "يساعد على التركيز", "correct": false},
+      {"id": "d", "text": "يحسن التنفس", "correct": false}
+    ]
+  },
+  {
+    "id": 15,
+    "domain": "health",
+    "grade": 8,
+    "text": "ما الذي يُعد دليلًا على احترام الذات؟",
+    "subtitle": "الصحة النفسية والاجتماعية",
+    "options": [
+      {"id": "a", "text": "المقارنة الدائمة بالآخرين", "correct": false},
+      {"id": "b", "text": "تقدير النفس والاعتراف بالقدرات", "correct": true},
+      {"id": "c", "text": "الخوف من التعبير عن الرأي", "correct": false},
+      {"id": "d", "text": "الاعتماد الكامل على الآخرين", "correct": false}
+    ]
+  },
+  {
+    "id": 16,
+    "domain": "health",
+    "grade": 8,
+    "text": "ما أهمية معرفة علامات البلوغ؟",
+    "subtitle": "الصحة الإنجابية",
+    "options": [
+      {"id": "a", "text": "للمزاح مع الأصدقاء", "correct": false},
+      {"id": "b", "text": "لفهم التغيرات الطبيعية في الجسم واتخاذ قرارات واعية", "correct": true},
+      {"id": "c", "text": "لتجنب النمو", "correct": false},
+      {"id": "d", "text": "لإخفاء المعلومات", "correct": false}
+    ]
+  },
+  {
+    "id": 17,
+    "domain": "health",
+    "grade": 9,
+    "text": "ما العلاقة بين التغذية السيئة والسمنة؟",
+    "subtitle": "الأمراض المزمنة",
+    "options": [
+      {"id": "a", "text": "لا توجد علاقة", "correct": false},
+      {"id": "b", "text": "التغذية السيئة قد تؤدي إلى السمنة وأمراض مثل السكري", "correct": true},
+      {"id": "c", "text": "السمنة تحسن الصحة", "correct": false},
+      {"id": "d", "text": "الأكل الكثير يقوي الجسم دائمًا", "correct": false}
+    ]
+  },
+  {
+    "id": 18,
+    "domain": "health",
+    "grade": 9,
+    "text": "ما الموقف الصحيح عند مواجهة ضغط الأقران لتجربة المخدرات؟",
+    "subtitle": "الوقاية من المخدرات",
+    "options": [
+      {"id": "a", "text": "الموافقة خشية الرفض", "correct": false},
+      {"id": "b", "text": "الابتعاد وطلب المساعدة من مُرشد أو معلم", "correct": true},
+      {"id": "c", "text": "التجربة لمرة واحدة", "correct": false},
+      {"id": "d", "text": "الصمت وعدم الرد", "correct": false}
+    ]
+  },
+  {
+    "id": 19,
+    "domain": "health",
+    "grade": 4,
+    "text": "ما أفضل طريقة لتجنب لدغات الحشرات في فصل الصيف؟",
+    "subtitle": "السلامة الصحية",
+    "options": [
+      {"id": "a", "text": "ارتداء ملابس قصيرة", "correct": false},
+      {"id": "b", "text": "استخدام طارد الحشرات وارتداء ملابس طويلة", "correct": true},
+      {"id": "c", "text": "الجلوس في الحدائق دون حماية", "correct": false},
+      {"id": "d", "text": "شرب الماء البارد", "correct": false}
+    ]
+  },
+  {
+    "id": 20,
+    "domain": "health",
+    "grade": 5,
+    "text": "ما الذي يساعد على تقليل التوتر لدى الطلاب؟",
+    "subtitle": "الصحة النفسية",
+    "options": [
+      {"id": "a", "text": "الجلوس وحيدًا دون حديث", "correct": false},
+      {"id": "b", "text": "ممارسة التنفس العميق والتحدث مع معلم أو ولي أمر", "correct": true},
+      {"id": "c", "text": "الهروب من المدرسة", "correct": false},
+      {"id": "d", "text": "تناول الحلويات بكثرة", "correct": false}
+    ]
+  },
+  {
+    "id": 21,
+    "domain": "health",
+    "grade": 1,
+    "text": "ما الذي نفعله بعد استخدام الحمام؟",
+    "subtitle": "النظافة",
+    "options": [
+      {"id": "a", "text": "اللعب بالماء", "correct": false},
+      {"id": "b", "text": "غسل اليدين جيدًا بالصابون", "correct": true},
+      {"id": "c", "text": "الخروج بسرعة", "correct": false},
+      {"id": "d", "text": "عدم لمس الباب", "correct": false}
+    ]
+  },
+  {
+    "id": 22,
+    "domain": "health",
+    "grade": 2,
+    "text": "لماذا نتناول وجبة الإفطار كل يوم؟",
+    "subtitle": "التغذية",
+    "options": [
+      {"id": "a", "text": "لأنها وجبة لذيذة فقط", "correct": false},
+      {"id": "b", "text": "لإمداد الجسم بالطاقة للدراسة واللعب", "correct": true},
+      {"id": "c", "text": "لملء المعدة فقط", "correct": false},
+      {"id": "d", "text": "لأن الجميع يأكلها", "correct": false}
+    ]
+  },
+  {
+    "id": 23,
+    "domain": "health",
+    "grade": 3,
+    "text": "ما نوع الرياضة التي تساعد على تقوية القلب؟",
+    "subtitle": "النشاط البدني",
+    "options": [
+      {"id": "a", "text": "الجلوس", "correct": false},
+      {"id": "b", "text": "الركض والسباحة", "correct": true},
+      {"id": "c", "text": "مشاهدة التلفاز", "correct": false},
+      {"id": "d", "text": "اللعب على الهاتف", "correct": false}
+    ]
+  },
+  {
+    "id": 24,
+    "domain": "health",
+    "grade": 1,
+    "text": "أين نضع فرشاة الأسنان بعد استخدامها؟",
+    "subtitle": "صحة الفم",
+    "options": [
+      {"id": "a", "text": "في المرحاض", "correct": false},
+      {"id": "b", "text": "في كوب نظيف ورأسها لأعلى", "correct": true},
+      {"id": "c", "text": "على الأرض", "correct": false},
+      {"id": "d", "text": "في جيبنا", "correct": false}
+    ]
+  },
+  {
+    "id": 25,
+    "domain": "health",
+    "grade": 2,
+    "text": "ما الذي يجب فعله عند ارتفاع درجة الحرارة؟",
+    "subtitle": "الإسعافات الأولية",
+    "options": [
+      {"id": "a", "text": "تناول دواء دون استشارة", "correct": false},
+      {"id": "b", "text": "إخبار الكبار وطلب المساعدة", "correct": true},
+      {"id": "c", "text": "اللعب كالمعتاد", "correct": false},
+      {"id": "d", "text": "شرب الماء الساخن فقط", "correct": false}
+    ]
+  },
+  {
+    "id": 26,
+    "domain": "health",
+    "grade": 3,
+    "text": "ما أهمية استخدام واقي الشمس عند الخروج في النهار؟",
+    "subtitle": "حماية الجلد",
+    "options": [
+      {"id": "a", "text": "لجعل البشرة داكنة", "correct": false},
+      {"id": "b", "text": "لحماية الجلد من أشعة الشمس الضارة", "correct": true},
+      {"id": "c", "text": "للتجميل فقط", "correct": false},
+      {"id": "d", "text": "لمنع العرق", "correct": false}
+    ]
+  },
+  {
+    "id": 27,
+    "domain": "health",
+    "grade": 4,
+    "text": "ما وظيفة الدم في الجسم؟",
+    "subtitle": "الجهاز الدوري",
+    "options": [
+      {"id": "a", "text": "هضم الطعام", "correct": false},
+      {"id": "b", "text": "نقل الأكسجين والمواد الغذائية", "correct": true},
+      {"id": "c", "text": "طرد الفضلات عبر الجلد", "correct": false},
+      {"id": "d", "text": "إفراز العرق", "correct": false}
+    ]
+  },
+  {
+    "id": 28,
+    "domain": "health",
+    "grade": 5,
+    "text": "ما أفضل وقت لغسل الفواكه والخضروات؟",
+    "subtitle": "النظافة الغذائية",
+    "options": [
+      {"id": "a", "text": "بعد تقطيعها", "correct": false},
+      {"id": "b", "text": "قبل تناولها أو طهيها", "correct": true},
+      {"id": "c", "text": "عند شرائها فقط", "correct": false},
+      {"id": "d", "text": "لا حاجة لغسلها", "correct": false}
+    ]
+  },
+  {
+    "id": 29,
+    "domain": "health",
+    "grade": 6,
+    "text": "ما أهمية النوم الكافي للطلاب؟",
+    "subtitle": "الصحة العامة",
+    "options": [
+      {"id": "a", "text": "لرؤية الأحلام فقط", "correct": false},
+      {"id": "b", "text": "لتحسين التركيز والنمو الصحي", "correct": true},
+      {"id": "c", "text": "لإضاعة الوقت", "correct": false},
+      {"id": "d", "text": "لتقليل الجوع", "correct": false}
+    ]
+  },
+  {
+    "id": 30,
+    "domain": "health",
+    "grade": 3,
+    "text": "ما الذي يسبب الجفاف في الجسم؟",
+    "subtitle": "الترطيب",
+    "options": [
+      {"id": "a", "text": "شرب الماء بكثرة", "correct": false},
+      {"id": "b", "text": "قلة شرب الماء خاصة في الجو الحار", "correct": true},
+      {"id": "c", "text": "ممارسة الرياضة", "correct": false},
+      {"id": "d", "text": "الأكل الصحي", "correct": false}
+    ]
+  },
+  {
+    "id": 31,
+    "domain": "health",
+    "grade": 7,
+    "text": "ما الذي يُعد من علامات احترام الآخرين؟",
+    "subtitle": "الصحة الاجتماعية",
+    "options": [
+      {"id": "a", "text": "السخرية", "correct": false},
+      {"id": "b", "text": "الاستماع عند الحديث", "correct": true},
+      {"id": "c", "text": "التحدث بصوت عالٍ", "correct": false},
+      {"id": "d", "text": "التجاهل", "correct": false}
+    ]
+  },
+  {
+    "id": 32,
+    "domain": "health",
+    "grade": 8,
+    "text": "ما أهمية الفحص الدوري لدى الطبيب؟",
+    "subtitle": "الرعاية الصحية",
+    "options": [
+      {"id": "a", "text": "لصرف أدوية دون داعٍ", "correct": false},
+      {"id": "b", "text": "لاكتشاف المشاكل الصحية مبكرًا", "correct": true},
+      {"id": "c", "text": "لإضاعة الوقت", "correct": false},
+      {"id": "d", "text": "عند المرض فقط", "correct": false}
+    ]
+  },
+  {
+    "id": 33,
+    "domain": "health",
+    "grade": 9,
+    "text": "ما العلاقة بين التوتر المزمن والصحة؟",
+    "subtitle": "الصحة النفسية والجسدية",
+    "options": [
+      {"id": "a", "text": "لا تأثير له", "correct": false},
+      {"id": "b", "text": "قد يؤدي إلى مشاكل في القلب والمناعة", "correct": true},
+      {"id": "c", "text": "يقوي الجسم", "correct": false},
+      {"id": "d", "text": "يزيد من التركيز فقط", "correct": false}
+    ]
+  },
+  {
+    "id": 34,
+    "domain": "health",
+    "grade": 4,
+    "text": "ما أهمية قص الأظافر بانتظام؟",
+    "subtitle": "النظافة الشخصية",
+    "options": [
+      {"id": "a", "text": "لجعلها طويلة", "correct": false},
+      {"id": "b", "text": "لمنع تراكم الأوساخ والجراثيم", "correct": true},
+      {"id": "c", "text": "للتزين فقط", "correct": false},
+      {"id": "d", "text": "لإعجاب الأصدقاء", "correct": false}
+    ]
+  },
+  {
+    "id": 35,
+    "domain": "health",
+    "grade": 5,
+    "text": "ما الذي يساعد على الوقاية من نزلات البرد؟",
+    "subtitle": "المناعة",
+    "options": [
+      {"id": "a", "text": "الجلوس في أماكن مزدحمة دون احتياط", "correct": false},
+      {"id": "b", "text": "غسل اليدين، الأكل الصحي، والنوم الكافي", "correct": true},
+      {"id": "c", "text": "شرب المشروبات الباردة", "correct": false},
+      {"id": "d", "text": "عدم شرب الماء", "correct": false}
+    ]
+  },
+  {
+    "id": 36,
+    "domain": "health",
+    "grade": 6,
+    "text": "ما أهمية ارتداء الخوذة عند ركوب الدراجة؟",
+    "subtitle": "السلامة",
+    "options": [
+      {"id": "a", "text": "لتبدو جميلًا", "correct": false},
+      {"id": "b", "text": "لحماية الرأس من الإصابات", "correct": true},
+      {"id": "c", "text": "لزيادة السرعة", "correct": false},
+      {"id": "d", "text": "لإزعاج الآخرين", "correct": false}
+    ]
+  },
+  {
+    "id": 37,
+    "domain": "health",
+    "grade": 7,
+    "text": "ما المقصود بالصحة النفسية؟",
+    "subtitle": "مفاهيم الصحة",
+    "options": [
+      {"id": "a", "text": "صحة القلب فقط", "correct": false},
+      {"id": "b", "text": "القدرة على التعامل مع الضغوط والتفاعل بشكل إيجابي", "correct": true},
+      {"id": "c", "text": "عدم الشعور بأي مشاعر", "correct": false},
+      {"id": "d", "text": "الهدوء التام دائمًا", "correct": false}
+    ]
+  },
+  {
+    "id": 38,
+    "domain": "health",
+    "grade": 8,
+    "text": "ما تأثير وسائل التواصل الاجتماعي على الصحة النفسية إذا استُخدمت بإفراط؟",
+    "subtitle": "التكنولوجيا والصحة",
+    "options": [
+      {"id": "a", "text": "تقوي العلاقات دائمًا", "correct": false},
+      {"id": "b", "text": "قد تسبب القلق، الاكتئاب، وقلة النوم", "correct": true},
+      {"id": "c", "text": "تحسن التركيز", "correct": false},
+      {"id": "d", "text": "لا تأثير لها", "correct": false}
+    ]
+  },
+  {
+    "id": 39,
+    "domain": "health",
+    "grade": 9,
+    "text": "ما أهمية التواصل الفعّال في العلاقات؟",
+    "subtitle": "المهارات الحياتية",
+    "options": [
+      {"id": "a", "text": "للفوز بالنقاشات", "correct": false},
+      {"id": "b", "text": "لبناء علاقات صحية وحل المشكلات", "correct": true},
+      {"id": "c", "text": "لإثبات الرأي فقط", "correct": false},
+      {"id": "d", "text": "لتجنب الحديث", "correct": false}
+    ]
+  },
+  {
+    "id": 40,
+    "domain": "health",
+    "grade": 2,
+    "text": "ما الذي نفعله عند رؤية شخص يعاني من إصابة؟",
+    "subtitle": "الإسعافات الأولية",
+    "options": [
+      {"id": "a", "text": "الضحك عليه", "correct": false},
+      {"id": "b", "text": "طلب المساعدة من شخص بالغ", "correct": true},
+      {"id": "c", "text": "الهروب", "correct": false},
+      {"id": "d", "text": "اللعب بجانبه", "correct": false}
+    ]
+  },
+  {
+    "id": 41,
+    "domain": "health",
+    "grade": 1,
+    "text": "ما وقت غسل اليدين؟",
+    "subtitle": "النظافة",
+    "options": [
+      {"id": "a", "text": "عند الشعور بالجوع", "correct": false},
+      {"id": "b", "text": "قبل الأكل، بعد استخدام الحمام، وبعد اللعب", "correct": true},
+      {"id": "c", "text": "مرة واحدة يوميًا", "correct": false},
+      {"id": "d", "text": "لا حاجة لذلك", "correct": false}
+    ]
+  },
+  {
+    "id": 42,
+    "domain": "health",
+    "grade": 3,
+    "text": "ما أهمية شرب الحليب للأطفال؟",
+    "subtitle": "التغذية",
+    "options": [
+      {"id": "a", "text": "لجعلهم ينامون", "correct": false},
+      {"id": "b", "text": "لبناء العظام والأسنان", "correct": true},
+      {"id": "c", "text": "لزيادة الوزن فقط", "correct": false},
+      {"id": "d", "text": "لإرواء العطش فقط", "correct": false}
+    ]
+  },
+  {
+    "id": 43,
+    "domain": "health",
+    "grade": 4,
+    "text": "ما الذي يحمي الجسم من الأمراض؟",
+    "subtitle": "المناعة",
+    "options": [
+      {"id": "a", "text": "الوجبات السريعة", "correct": false},
+      {"id": "b", "text": "النوم القليل", "correct": false},
+      {"id": "c", "text": "التغذية الجيدة، النوم، والنظافة", "correct": true},
+      {"id": "d", "text": "شرب المشروبات الغازية", "correct": false}
+    ]
+  },
+  {
+    "id": 44,
+    "domain": "health",
+    "grade": 5,
+    "text": "ما أهمية تناول الخضروات والفواكه يوميًا؟",
+    "subtitle": "التغذية",
+    "options": [
+      {"id": "a", "text": "لإضفاء اللون على الطبق فقط", "correct": false},
+      {"id": "b", "text": "لإمداد الجسم بالفيتامينات والألياف", "correct": true},
+      {"id": "c", "text": "لزيادة السكر في الدم", "correct": false},
+      {"id": "d", "text": "لإرضاء الأم فقط", "correct": false}
+    ]
+  },
+  {
+    "id": 45,
+    "domain": "health",
+    "grade": 6,
+    "text": "ما الذي يجب تجنبه لحماية العيون عند استخدام الحاسوب؟",
+    "subtitle": "صحة العيون",
+    "options": [
+      {"id": "a", "text": "الجلوس لفترة طويلة دون راحة", "correct": true},
+      {"id": "b", "text": "أخذ فترات راحة كل 20 دقيقة", "correct": false},
+      {"id": "c", "text": "الإضاءة الجيدة", "correct": false},
+      {"id": "d", "text": "ضبط شاشة العرض", "correct": false}
+    ]
+  },
+  {
+    "id": 46,
+    "domain": "health",
+    "grade": 7,
+    "text": "ما أهمية ممارسة الهوايات؟",
+    "subtitle": "الصحة النفسية",
+    "options": [
+      {"id": "a", "text": "لإضاعة الوقت", "correct": false},
+      {"id": "b", "text": "لتقليل التوتر وتنمية الذات", "correct": true},
+      {"id": "c", "text": "لإثارة المنافسة فقط", "correct": false},
+      {"id": "d", "text": "للوصول إلى التعب", "correct": false}
+    ]
+  },
+  {
+    "id": 47,
+    "domain": "health",
+    "grade": 8,
+    "text": "ما تأثير قلة النوم على الجسم؟",
+    "subtitle": "النوم والصحة",
+    "options": [
+      {"id": "a", "text": "تحسين الذاكرة", "correct": false},
+      {"id": "b", "text": "ضعف التركيز وزيادة التوتر", "correct": true},
+      {"id": "c", "text": "زيادة الطاقة", "correct": false},
+      {"id": "d", "text": "تقوية المناعة", "correct": false}
+    ]
+  },
+  {
+    "id": 48,
+    "domain": "health",
+    "grade": 9,
+    "text": "ما الموقف الصحيح تجاه زميل يعاني من التنمر؟",
+    "subtitle": "الصحة الاجتماعية",
+    "options": [
+      {"id": "a", "text": "الضحك مع المتنمرين", "correct": false},
+      {"id": "b", "text": "الإبلاغ عن الموقف ودعم الزميل", "correct": true},
+      {"id": "c", "text": "التجاهل التام", "correct": false},
+      {"id": "d", "text": "الانضمام للتنمر", "correct": false}
+    ]
+  },
+  {
+    "id": 49,
+    "domain": "health",
+    "grade": 3,
+    "text": "ما أفضل طريقة لحماية الأذنين من الأصوات العالية؟",
+    "subtitle": "صحة الحواس",
+    "options": [
+      {"id": "a", "text": "الاقتراب من المصدر", "correct": false},
+      {"id": "b", "text": "الابتعاد أو استخدام سدادات الأذن", "correct": true},
+      {"id": "c", "text": "رفع الصوت أكثر", "correct": false},
+      {"id": "d", "text": "الغناء بصوت عالٍ", "correct": false}
+    ]
+  },
+  {
+    "id": 50,
+    "domain": "health",
+    "grade": 4,
+    "text": "ما الذي يسبب رائحة الفم الكريهة؟",
+    "subtitle": "صحة الفم",
+    "options": [
+      {"id": "a", "text": "شرب الماء", "correct": false},
+      {"id": "b", "text": "قلة تنظيف الفم وتناول بعض الأطعمة", "correct": true},
+      {"id": "c", "text": "أكل التفاح", "correct": false},
+      {"id": "d", "text": "النوم الجيد", "correct": false}
+    ]
+  },
+  {
+    "id": 51,
+    "domain": "health",
+    "grade": 5,
+    "text": "ما أهمية شرب الماء بعد ممارسة الرياضة؟",
+    "subtitle": "الترطيب",
+    "options": [
+      {"id": "a", "text": "لإيقاف العرق", "correct": false},
+      {"id": "b", "text": "لتعويض السوائل المفقودة", "correct": true},
+      {"id": "c", "text": "لزيادة الوزن", "correct": false},
+      {"id": "d", "text": "لتحسين الطعم", "correct": false}
+    ]
+  },
+  {
+    "id": 52,
+    "domain": "health",
+    "grade": 6,
+    "text": "ما العضو المسؤول عن تنقية الدم في الجسم؟",
+    "subtitle": "أجسامنا",
+    "options": [
+      {"id": "a", "text": "القلب", "correct": false},
+      {"id": "b", "text": "الكبد", "correct": true},
+      {"id": "c", "text": "المعدة", "correct": false},
+      {"id": "d", "text": "الرئتين", "correct": false}
+    ]
+  },
+  {
+    "id": 53,
+    "domain": "health",
+    "grade": 7,
+    "text": "ما أهمية وضع أهداف واقعية؟",
+    "subtitle": "الصحة النفسية",
+    "options": [
+      {"id": "a", "text": "للمبالغة في التوقعات", "correct": false},
+      {"id": "b", "text": "لتحقيق النجاح وبناء الثقة بالنفس", "correct": true},
+      {"id": "c", "text": "لإثارة الفشل", "correct": false},
+      {"id": "d", "text": "لإرضاء الجميع", "correct": false}
+    ]
+  },
+  {
+    "id": 54,
+    "domain": "health",
+    "grade": 8,
+    "text": "ما العلاقة بين التغذية والتحصيل الدراسي؟",
+    "subtitle": "التغذية والتعلم",
+    "options": [
+      {"id": "a", "text": "لا علاقة", "correct": false},
+      {"id": "b", "text": "التغذية الجيدة تحسن التركيز والذاكرة", "correct": true},
+      {"id": "c", "text": "كلما أكل الطالب أكثر، قلّ تركيزه", "correct": false},
+      {"id": "d", "text": "الأكل يعطل الدراسة", "correct": false}
+    ]
+  },
+  {
+    "id": 55,
+    "domain": "health",
+    "grade": 9,
+    "text": "ما المبدأ الأخلاقي في تقديم الإسعافات الأولية؟",
+    "subtitle": "الإسعافات",
+    "options": [
+      {"id": "a", "text": "التدخل دون إذن", "correct": false},
+      {"id": "b", "text": "المساعدة دون ضرر واحترام الخصوصية", "correct": true},
+      {"id": "c", "text": "التقاط صور للحالة", "correct": false},
+      {"id": "d", "text": "الهروب من المكان", "correct": false}
+    ]
+  },
+  {
+    "id": 56,
+    "domain": "health",
+    "grade": 1,
+    "text": "ما الذي نستخدمه لتنظيف أسناننا؟",
+    "subtitle": "النظافة",
+    "options": [
+      {"id": "a", "text": "المنديل", "correct": false},
+      {"id": "b", "text": "فرشاة ومعجون أسنان", "correct": true},
+      {"id": "c", "text": "الماء فقط", "correct": false},
+      {"id": "d", "text": "الصابون", "correct": false}
+    ]
+  },
+  {
+    "id": 57,
+    "domain": "health",
+    "grade": 2,
+    "text": "لماذا نستخدم المناديل عند نفخ الأنف؟",
+    "subtitle": "الوقاية",
+    "options": [
+      {"id": "a", "text": "لتجميل الأنف", "correct": false},
+      {"id": "b", "text": "لمنع انتشار الجراثيم", "correct": true},
+      {"id": "c", "text": "لإزعاج الآخرين", "correct": false},
+      {"id": "d", "text": "لأنها ملونة", "correct": false}
+    ]
+  },
+  {
+    "id": 58,
+    "domain": "health",
+    "grade": 3,
+    "text": "ما أهمية الاستحمام بانتظام؟",
+    "subtitle": "النظافة الشخصية",
+    "options": [
+      {"id": "a", "text": "لجعل البشرة جافة", "correct": false},
+      {"id": "b", "text": "لإزالة العرق والأوساخ والجراثيم", "correct": true},
+      {"id": "c", "text": "لإضاعة الماء", "correct": false},
+      {"id": "d", "text": "للتسلية فقط", "correct": false}
+    ]
+  },
+  {
+    "id": 59,
+    "domain": "health",
+    "grade": 4,
+    "text": "ما الذي يسبب حب الشباب عند المراهقين؟",
+    "subtitle": "التغيرات الجسدية",
+    "options": [
+      {"id": "a", "text": "الأكل الصحي", "correct": false},
+      {"id": "b", "text": "التغيرات الهرمونية والنظافة", "correct": true},
+      {"id": "c", "text": "شرب الماء", "correct": false},
+      {"id": "d", "text": "ممارسة الرياضة", "correct": false}
+    ]
+  },
+  {
+    "id": 60,
+    "domain": "health",
+    "grade": 5,
+    "text": "ما أهمية تناول وجبات منتظمة؟",
+    "subtitle": "التغذية",
+    "options": [
+      {"id": "a", "text": "لزيادة الوزن فقط", "correct": false},
+      {"id": "b", "text": "للحفاظ على طاقة الجسم وتركيزه", "correct": true},
+      {"id": "c", "text": "لإشباع الجوع فقط", "correct": false},
+      {"id": "d", "text": "لتجنب الطعام الصحي", "correct": false}
+    ]
+  },
+  {
+    "id": 61,
+    "domain": "health",
+    "grade": 6,
+    "text": "ما أهمية تعلم مهارات اتخاذ القرار؟",
+    "subtitle": "المهارات الحياتية",
+    "options": [
+      {"id": "a", "text": "للموافقة على كل شيء", "correct": false},
+      {"id": "b", "text": "للاتجاه نحو خيارات صحية وآمنة", "correct": true},
+      {"id": "c", "text": "لإرضاء الأصدقاء", "correct": false},
+      {"id": "d", "text": "لتجنب المسؤولية", "correct": false}
+    ]
+  },
+  {
+    "id": 62,
+    "domain": "health",
+    "grade": 7,
+    "text": "ما الذي يُعد من علامات الصحة النفسية الجيدة؟",
+    "subtitle": "الصحة النفسية",
+    "options": [
+      {"id": "a", "text": "العزلة الدائمة", "correct": false},
+      {"id": "b", "text": "القدرة على التكيّف مع التغيير", "correct": true},
+      {"id": "c", "text": "الغضب المستمر", "correct": false},
+      {"id": "d", "text": "الخوف من كل شيء", "correct": false}
+    ]
+  },
+  {
+    "id": 63,
+    "domain": "health",
+    "grade": 8,
+    "text": "ما أهمية معرفة المعلومات الصحية من مصادر موثوقة؟",
+    "subtitle": "الإعلام الصحي",
+    "options": [
+      {"id": "a", "text": "لنشر الشائعات", "correct": false},
+      {"id": "b", "text": "لتجنب المعلومات الخاطئة واتخاذ قرارات صحيحة", "correct": true},
+      {"id": "c", "text": "لإثارة الخوف", "correct": false},
+      {"id": "d", "text": "لإضاعة الوقت", "correct": false}
+    ]
+  },
+  {
+    "id": 64,
+    "domain": "health",
+    "grade": 9,
+    "text": "ما العلاقة بين نمط الحياة والأمراض المزمنة؟",
+    "subtitle": "الوقاية",
+    "options": [
+      {"id": "a", "text": "لا علاقة", "correct": false},
+      {"id": "b", "text": "نمط الحياة غير الصحي يزيد خطر السكري وأمراض القلب", "correct": true},
+      {"id": "c", "text": "الأمراض وراثية فقط", "correct": false},
+      {"id": "d", "text": "الرياضة تسبب الأمراض", "correct": false}
+    ]
+  },
+  {
+    "id": 65,
+    "domain": "health",
+    "grade": 1,
+    "text": "ما الذي نفعله عند السعال؟",
+    "subtitle": "الوقاية",
+    "options": [
+      {"id": "a", "text": "الصراخ", "correct": false},
+      {"id": "b", "text": "نغطي فمّنا بمرفقنا", "correct": true},
+      {"id": "c", "text": "نركض", "correct": false},
+      {"id": "d", "text": "نضحك", "correct": false}
+    ]
+  },
+  {
+    "id": 66,
+    "domain": "health",
+    "grade": 2,
+    "text": "ما أهمية ارتداء الحذاء المناسب؟",
+    "subtitle": "السلامة",
+    "options": [
+      {"id": "a", "text": "للمظهر فقط", "correct": false},
+      {"id": "b", "text": "لحماية القدمين ومنع الإصابات", "correct": true},
+      {"id": "c", "text": "لجعل القدمين دافئتين دائمًا", "correct": false},
+      {"id": "d", "text": "لإزعاج الآخرين", "correct": false}
+    ]
+  },
+  {
+    "id": 67,
+    "domain": "health",
+    "grade": 3,
+    "text": "ما الذي يساعد على تهدئة الجسم عند الغضب؟",
+    "subtitle": "الصحة النفسية",
+    "options": [
+      {"id": "a", "text": "الصراخ", "correct": false},
+      {"id": "b", "text": "أخذ نفس عميق والعد حتى 10", "correct": true},
+      {"id": "c", "text": "كسر الأشياء", "correct": false},
+      {"id": "d", "text": "الهروب", "correct": false}
+    ]
+  },
+  {
+    "id": 68,
+    "domain": "health",
+    "grade": 4,
+    "text": "ما أهمية قراءة ملصقات الأغذية؟",
+    "subtitle": "التغذية",
+    "options": [
+      {"id": "a", "text": "لمعرفة اللون", "correct": false},
+      {"id": "b", "text": "لمعرفة المكونات وقيمتها الغذائية", "correct": true},
+      {"id": "c", "text": "لرؤية الصور فقط", "correct": false},
+      {"id": "d", "text": "لإضاعة الوقت", "correct": false}
+    ]
+  },
+  {
+    "id": 69,
+    "domain": "health",
+    "grade": 5,
+    "text": "ما الذي يسبب تساقط الشعر أحيانًا عند المراهقين؟",
+    "subtitle": "الصحة العامة",
+    "options": [
+      {"id": "a", "text": "النظافة الزائدة", "correct": false},
+      {"id": "b", "text": "التوتر، سوء التغذية، أو التغيرات الهرمونية", "correct": true},
+      {"id": "c", "text": "شرب الماء", "correct": false},
+      {"id": "d", "text": "ممارسة الرياضة", "correct": false}
+    ]
+  },
+  {
+    "id": 70,
+    "domain": "health",
+    "grade": 6,
+    "text": "ما أهمية احترام خصوصية الآخرين؟",
+    "subtitle": "الصحة الاجتماعية",
+    "options": [
+      {"id": "a", "text": "للمزاح", "correct": false},
+      {"id": "b", "text": "لبنيان علاقات قائمة على الثقة", "correct": true},
+      {"id": "c", "text": "لنشر أسرارهم", "correct": false},
+      {"id": "d", "text": "لإثبات القوة", "correct": false}
+    ]
+  },
+  {
+    "id": 71,
+    "domain": "health",
+    "grade": 7,
+    "text": "ما أهمية التفكير النقدي في اتخاذ قرارات صحية؟",
+    "subtitle": "المهارات المعرفية",
+    "options": [
+      {"id": "a", "text": "للموافقة على كل ما يُقال", "correct": false},
+      {"id": "b", "text": "لتقييم المعلومات واختيار الأفضل للصحة", "correct": true},
+      {"id": "c", "text": "لإثارة الجدل", "correct": false},
+      {"id": "d", "text": "لتجنب القراءة", "correct": false}
+    ]
+  },
+  {
+    "id": 72,
+    "domain": "health",
+    "grade": 8,
+    "text": "ما الذي يُعد من علامات الإدمان؟",
+    "subtitle": "الوقاية",
+    "options": [
+      {"id": "a", "text": "القدرة على التوقف في أي وقت", "correct": false},
+      {"id": "b", "text": "الاستمرار في السلوك رغم العواقب السلبية", "correct": true},
+      {"id": "c", "text": "ممارسة الهوايات", "correct": false},
+      {"id": "d", "text": "النوم الكافي", "correct": false}
+    ]
+  },
+  {
+    "id": 73,
+    "domain": "health",
+    "grade": 9,
+    "text": "ما أهمية التوازن بين الدراسة والراحة؟",
+    "subtitle": "الصحة النفسية",
+    "options": [
+      {"id": "a", "text": "لتحقيق التفوق فقط", "correct": false},
+      {"id": "b", "text": "للحفاظ على الصحة العقلية والجسدية", "correct": true},
+      {"id": "c", "text": "لإرضاء المعلمين فقط", "correct": false},
+      {"id": "d", "text": "لإضاعة الوقت", "correct": false}
+    ]
+  },
+  {
+    "id": 74,
+    "domain": "health",
+    "grade": 2,
+    "text": "ما الذي نفعله عند شعورنا بالجوع في المدرسة؟",
+    "subtitle": "التغذية",
+    "options": [
+      {"id": "a", "text": "نشرض زميلنا", "correct": false},
+      {"id": "b", "text": "نأكل وجبة خفيفة صحية إذا سمح", "correct": true},
+      {"id": "c", "text": "نبكي", "correct": false},
+      {"id": "d", "text": "نتجاهل الجوع", "correct": false}
+    ]
+  },
+  {
+    "id": 75,
+    "domain": "health",
+    "grade": 3,
+    "text": "ما أهمية شرب الماء النظيف؟",
+    "subtitle": "الصحة العامة",
+    "options": [
+      {"id": "a", "text": "لإرواء العطش فقط", "correct": false},
+      {"id": "b", "text": "لتجنب الأمراض المنقولة بالماء", "correct": true},
+      {"id": "c", "text": "لجعل الماء باردًا", "correct": false},
+      {"id": "d", "text": "لإضفاء طعم", "correct": false}
+    ]
+  },
+  {
+    "id": 76,
+    "domain": "health",
+    "grade": 4,
+    "text": "ما أفضل طريقة للتعامل مع الخلاف مع صديق؟",
+    "subtitle": "الصحة الاجتماعية",
+    "options": [
+      {"id": "a", "text": "الصراخ والشتائم", "correct": false},
+      {"id": "b", "text": "الحوار الهادئ والتفاهم", "correct": true},
+      {"id": "c", "text": "الهروب", "correct": false},
+      {"id": "d", "text": "الانتقام", "correct": false}
+    ]
+  },
+  {
+    "id": 77,
+    "domain": "health",
+    "grade": 5,
+    "text": "ما أهمية فحص العيون الدوري؟",
+    "subtitle": "صحة الحواس",
+    "options": [
+      {"id": "a", "text": "لشراء نظارات جديدة فقط", "correct": false},
+      {"id": "b", "text": "لاكتشاف مشاكل الرؤية مبكرًا", "correct": true},
+      {"id": "c", "text": "لإضاعة الوقت", "correct": false},
+      {"id": "d", "text": "عند الشعور بالألم فقط", "correct": false}
+    ]
+  },
+  {
+    "id": 78,
+    "domain": "health",
+    "grade": 6,
+    "text": "ما أهمية تعلم مهارات حل المشكلات؟",
+    "subtitle": "المهارات الحياتية",
+    "options": [
+      {"id": "a", "text": "لتجنب المشاكل تمامًا", "correct": false},
+      {"id": "b", "text": "للتعامل مع التحديات بفعالية", "correct": true},
+      {"id": "c", "text": "لإثبات الذكاء فقط", "correct": false},
+      {"id": "d", "text": "لإثارة المشكلات", "correct": false}
+    ]
+  },
+  {
+    "id": 79,
+    "domain": "health",
+    "grade": 7,
+    "text": "ما الذي يُعد من استراتيجيات التعامل مع التوتر؟",
+    "subtitle": "الصحة النفسية",
+    "options": [
+      {"id": "a", "text": "العزلة التامة", "correct": false},
+      {"id": "b", "text": "ممارسة الرياضة، التحدث، والتنظيم", "correct": true},
+      {"id": "c", "text": "تناول الحلويات بكثرة", "correct": false},
+      {"id": "d", "text": "النوم طوال اليوم", "correct": false}
+    ]
+  },
+  {
+    "id": 80,
+    "domain": "health",
+    "grade": 8,
+    "text": "ما أهمية احترام التنوّع بين الأشخاص؟",
+    "subtitle": "الصحة الاجتماعية",
+    "options": [
+      {"id": "a", "text": "لإثبات التفوق", "correct": false},
+      {"id": "b", "text": "لبناء مجتمع صحي وشامل", "correct": true},
+      {"id": "c", "text": "للمقارنة الدائمة", "correct": false},
+      {"id": "d", "text": "لتجنب الآخرين", "correct": false}
+    ]
+  },
+  {
+    "id": 81,
+    "domain": "health",
+    "grade": 9,
+    "text": "ما أهمية التخطيط للمستقبل في الصحة؟",
+    "subtitle": "الصحة الوقائية",
+    "options": [
+      {"id": "a", "text": "للوصول إلى الكمال", "correct": false},
+      {"id": "b", "text": "لاتخاذ قرارات صحية تضمن حياة أفضل", "correct": true},
+      {"id": "c", "text": "لإثارة القلق", "correct": false},
+      {"id": "d", "text": "لإرضاء الآخرين فقط", "correct": false}
+    ]
+  },
+  {
+    "id": 82,
+    "domain": "health",
+    "grade": 1,
+    "text": "ما مكان غسل اليدين؟",
+    "subtitle": "النظافة",
+    "options": [
+      {"id": "a", "text": "في الحديقة", "correct": false},
+      {"id": "b", "text": "تحت ماء جارٍ مع صابون", "correct": true},
+      {"id": "c", "text": "في الهواء", "correct": false},
+      {"id": "d", "text": "في الحوض فقط دون ماء", "correct": false}
+    ]
+  },
+  {
+    "id": 83,
+    "domain": "health",
+    "grade": 2,
+    "text": "ما الذي نفعله عند رؤية طعام منتهي الصلاحية؟",
+    "subtitle": "السلامة الغذائية",
+    "options": [
+      {"id": "a", "text": "نتذوقه أولًا", "correct": false},
+      {"id": "b", "text": "نخبر الكبار ولا نأكله", "correct": true},
+      {"id": "c", "text": "نعطيه لصديق", "correct": false},
+      {"id": "d", "text": "نحتفظ به", "correct": false}
+    ]
+  },
+  {
+    "id": 84,
+    "domain": "health",
+    "grade": 3,
+    "text": "ما أهمية المشي اليومي؟",
+    "subtitle": "النشاط البدني",
+    "options": [
+      {"id": "a", "text": "لإجهاد الجسم", "correct": false},
+      {"id": "b", "text": "لتحسين الدورة الدموية والصحة العامة", "correct": true},
+      {"id": "c", "text": "لإضاعة الوقت", "correct": false},
+      {"id": "d", "text": "للوصول إلى التعب", "correct": false}
+    ]
+  },
+  {
+    "id": 85,
+    "domain": "health",
+    "grade": 4,
+    "text": "ما أهمية عدم مشاركة أدوات النظافة الشخصية؟",
+    "subtitle": "الوقاية",
+    "options": [
+      {"id": "a", "text": "لأنها مملوكة لنا", "correct": false},
+      {"id": "b", "text": "لمنع انتشار العدوى والجراثيم", "correct": true},
+      {"id": "c", "text": "لإثارة الغيرة", "correct": false},
+      {"id": "d", "text": "لجعلها نظيفة", "correct": false}
+    ]
+  },
+  {
+    "id": 86,
+    "domain": "health",
+    "grade": 5,
+    "text": "ما أهمية تناول البروتين في طعامنا؟",
+    "subtitle": "التغذية",
+    "options": [
+      {"id": "a", "text": "لإعطاء طعم حلو", "correct": false},
+      {"id": "b", "text": "لبناء العضلات وإصلاح الأنسجة", "correct": true},
+      {"id": "c", "text": "لزيادة السكر في الدم", "correct": false},
+      {"id": "d", "text": "لإرواء العطش", "correct": false}
+    ]
+  },
+  {
+    "id": 87,
+    "domain": "health",
+    "grade": 6,
+    "text": "ما أهمية تجنب الألعاب الإلكترونية لساعات طويلة؟",
+    "subtitle": "صحة العيون والجسم",
+    "options": [
+      {"id": "a", "text": "لتحسين المهارات", "correct": false},
+      {"id": "b", "text": "لحماية العيون والجسم من التعب", "correct": true},
+      {"id": "c", "text": "لإضاعة الوقت", "correct": false},
+      {"id": "d", "text": "للوصول إلى أعلى مستوى", "correct": false}
+    ]
+  },
+  {
+    "id": 88,
+    "domain": "health",
+    "grade": 7,
+    "text": "ما أهمية التعبير عن المشاعر بشكل صحي؟",
+    "subtitle": "الصحة النفسية",
+    "options": [
+      {"id": "a", "text": "لإثارة الآخرين", "correct": false},
+      {"id": "b", "text": "لتحسين العلاقات وتقليل التوتر", "correct": true},
+      {"id": "c", "text": "لكتم المشاعر", "correct": false},
+      {"id": "d", "text": "للوصول إلى الانفجار", "correct": false}
+    ]
+  },
+  {
+    "id": 89,
+    "domain": "health",
+    "grade": 8,
+    "text": "ما أهمية معرفة حقوقنا وواجباتنا الصحية؟",
+    "subtitle": "التربية المدنية والصحية",
+    "options": [
+      {"id": "a", "text": "للمطالبة فقط", "correct": false},
+      {"id": "b", "text": "لممارسة الصحة بمسؤولية واحترام الآخرين", "correct": true},
+      {"id": "c", "text": "لإثبات القوة", "correct": false},
+      {"id": "d", "text": "لتجنب الواجبات", "correct": false}
+    ]
+  },
+  {
+    "id": 90,
+    "domain": "health",
+    "grade": 9,
+    "text": "ما أهمية دعم الأقران في اتخاذ قرارات صحية؟",
+    "subtitle": "الصحة المجتمعية",
+    "options": [
+      {"id": "a", "text": "لفرض الآراء", "correct": false},
+      {"id": "b", "text": "لتعزيز بيئة صحية وداعمة", "correct": true},
+      {"id": "c", "text": "للمزاح", "correct": false},
+      {"id": "d", "text": "لإثارة الخلاف", "correct": false}
+    ]
+  },
+  {
+    "id": 91,
+    "domain": "health",
+    "grade": 2,
+    "text": "ما الذي نفعله عند انسكاب شيء ساخن على الجلد؟",
+    "subtitle": "الإسعافات",
+    "options": [
+      {"id": "a", "text": "نضع ثلجًا مباشرًا", "correct": false},
+      {"id": "b", "text": "نغسل المكان بماء بارد ونخبر الكبار", "correct": true},
+      {"id": "c", "text": "ندهن معجون أسنان", "correct": false},
+      {"id": "d", "text": "نلمسه بيدين ساخنتين", "correct": false}
+    ]
+  },
+  {
+    "id": 92,
+    "domain": "health",
+    "grade": 3,
+    "text": "ما أهمية ترتيب مكان النوم؟",
+    "subtitle": "الصحة البيئية",
+    "options": [
+      {"id": "a", "text": "لإرضاء الأم فقط", "correct": false},
+      {"id": "b", "text": "لتحسين النوم وتقليل التوتر", "correct": true},
+      {"id": "c", "text": "لإضاعة الوقت", "correct": false},
+      {"id": "d", "text": "لإخفاء الألعاب", "correct": false}
+    ]
+  },
+  {
+    "id": 93,
+    "domain": "health",
+    "grade": 4,
+    "text": "ما أهمية غسل الفواكه ذات القشر قبل تقشيرها؟",
+    "subtitle": "النظافة الغذائية",
+    "options": [
+      {"id": "a", "text": "لأن القشر يؤكل", "correct": false},
+      {"id": "b", "text": "لأن الجراثيم على القشر قد تنتقل للداخل عند التقشير", "correct": true},
+      {"id": "c", "text": "لتحسين الطعم", "correct": false},
+      {"id": "d", "text": "لا داعي لذلك", "correct": false}
+    ]
+  },
+  {
+    "id": 94,
+    "domain": "health",
+    "grade": 5,
+    "text": "ما أهمية تجنب المشروبات الغازية بكثرة؟",
+    "subtitle": "التغذية",
+    "options": [
+      {"id": "a", "text": "لأنها لذيذة", "correct": false},
+      {"id": "b", "text": "لأنها تحتوي على سكر عالٍ وقد تسبب تسوس الأسنان", "correct": true},
+      {"id": "c", "text": "لأنها تعطي طاقة", "correct": false},
+      {"id": "d", "text": "لأنها باردة", "correct": false}
+    ]
+  },
+  {
+    "id": 95,
+    "domain": "health",
+    "grade": 6,
+    "text": "ما أهمية ممارسة الرياضة في الهواء الطلق؟",
+    "subtitle": "الصحة العامة",
+    "options": [
+      {"id": "a", "text": "للتعرض لأشعة الشمس المفيدة (فيتامين د)", "correct": true},
+      {"id": "b", "text": "للتعرض للتلوث", "correct": false},
+      {"id": "c", "text": "لإجهاد الجسم", "correct": false},
+      {"id": "d", "text": "للوصول إلى التعب", "correct": false}
+    ]
+  },
+  {
+    "id": 96,
+    "domain": "health",
+    "grade": 7,
+    "text": "ما أهمية عدم مقارنة النفس بالآخرين على وسائل التواصل؟",
+    "subtitle": "الصحة النفسية",
+    "options": [
+      {"id": "a", "text": "للتقليل من الثقة بالنفس", "correct": false},
+      {"id": "b", "text": "لبناء صورة ذهنية واقعية وصحية عن الذات", "correct": true},
+      {"id": "c", "text": "لإثبات التفوق", "correct": false},
+      {"id": "d", "text": "للمشاركة أكثر", "correct": false}
+    ]
+  },
+  {
+    "id": 97,
+    "domain": "health",
+    "grade": 8,
+    "text": "ما أهمية معرفة علامات التسمم الغذائي؟",
+    "subtitle": "السلامة",
+    "options": [
+      {"id": "a", "text": "لتجربة الأطعمة الجديدة", "correct": false},
+      {"id": "b", "text": "لطلب المساعدة فورًا عند حدوثه", "correct": true},
+      {"id": "c", "text": "لإثارة الخوف", "correct": false},
+      {"id": "d", "text": "لا داعي لذلك", "correct": false}
+    ]
+  },
+  {
+    "id": 98,
+    "domain": "health",
+    "grade": 9,
+    "text": "ما أهمية تعلم مهارات الإنعاش القلبي الرئوي (CPR)؟",
+    "subtitle": "الإسعافات",
+    "options": [
+      {"id": "a", "text": "للمشاهدة فقط", "correct": false},
+      {"id": "b", "text": "لإنقاذ حياة شخص في حال الطوارئ", "correct": true},
+      {"id": "c", "text": "لإثارة الإعجاب", "correct": false},
+      {"id": "d", "text": "لا فائدة منها", "correct": false}
+    ]
+  },
+  {
+    "id": 99,
+    "domain": "health",
+    "grade": 3,
+    "text": "ما أهمية استخدام كريم الوقاية من الشمس؟",
+    "subtitle": "الحماية",
+    "options": [
+      {"id": "a", "text": "لجعل البشرة داكنة", "correct": false},
+      {"id": "b", "text": "لحماية الجلد من الحروق والسرطان", "correct": true},
+      {"id": "c", "text": "للتجميل فقط", "correct": false},
+      {"id": "d", "text": "لمنع التعرق", "correct": false}
+    ]
+  },
+  {
+    "id": 100,
+    "domain": "health",
+    "grade": 6,
+    "text": "ما أهمية تناول وجبة خفيفة صحية بين الوجبات؟",
+    "subtitle": "التغذية",
+    "options": [
+      {"id": "a", "text": "لزيادة الوزن", "correct": false},
+      {"id": "b", "text": "للحفاظ على مستويات الطاقة والتركيز", "correct": true},
+      {"id": "c", "text": "لإشباع الجوع بالحلوى", "correct": false},
+      {"id": "d", "text": "لإضاعة الوقت", "correct": false}
+    ]
+  }
+]

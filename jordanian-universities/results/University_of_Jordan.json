@@ -1,0 +1,168 @@
+{
+  "basic_info": {
+    "name": "الجامعة الأردنية",
+    "nameEn": "University of Jordan",
+    "type": "public",
+    "city": "Amman",
+    "region": "central",
+    "established": 1962,
+    "website": "https://www.ju.edu.jo"
+  },
+  "admission_requirements": {
+    "general_requirements": "Tawjihi (General Secondary Education Certificate) or equivalent (IB, SAT, IGCSE) with equivalency from Jordanian Ministry of Education. Regular program: Jordanian students apply through Unified Admission Coordination Unit at MOHE. Parallel program: Jordanian certificate holders apply directly. International program: Non-Jordanian students apply directly. Required documents include original authenticated Tawjihi, equivalency certificate (for foreign certs), national ID/birth certificate (Jordanians), passport (non-Jordanians), military service book, and personal photos.",
+    "min_tawjihi_mark": 55,
+    "min_tawjihi_mark_details": {
+      "medicine_and_dentistry": 80,
+      "pharmacy_and_engineering": 70,
+      "sharia": 65,
+      "nursing_and_rehabilitation": 60,
+      "other_schools": 55,
+      "non_jordanian_parallel": {
+        "medicine_and_dentistry": 85,
+        "pharmacy_and_engineering": 80,
+        "sharia": 75,
+        "rehabilitation_and_nursing": 70,
+        "other_schools": 65
+      }
+    },
+    "has_entrance_exam": true,
+    "exam_details": "Proficiency exams in Arabic, English, and computer are mandatory for all admitted students to determine placement level. Results are used to assign course schedules.",
+    "english_requirement": "English proficiency exam taken upon admission for placement. No separate TOEFL/IELTS required for undergraduate admission, but certain programs may require it. Graduate studies require TOEFL, IELTS, or equivalent."
+  },
+  "majors_overview": {
+    "college_count": 26,
+    "major_categories": [
+      "Medicine",
+      "Dentistry",
+      "Pharmacy",
+      "Nursing",
+      "Rehabilitation Sciences",
+      "Sciences",
+      "Agriculture",
+      "Engineering",
+      "Information Technology",
+      "Arts",
+      "Business Administration",
+      "Sharia",
+      "Educational Sciences",
+      "Law",
+      "Sports Sciences",
+      "Arts and Design",
+      "International Studies",
+      "Politics",
+      "Foreign Languages",
+      "Tourism and Archaeology"
+    ],
+    "total_majors": 106,
+    "has_postgraduate": true,
+    "postgraduate_details": {
+      "masters_programs": 126,
+      "phd_programs": 40,
+      "higher_specialization_programs": 22,
+      "diploma_programs": 7,
+      "total_postgraduate": 195
+    },
+    "internationally_accredited_programs": 55,
+    "internationally_accredited_schools": 11
+  },
+  "tuition_fees": {
+    "annual_fees_range": "Regular: 16-45 JOD/credit hour depending on program; Parallel: 45-200 JOD/credit hour; International: 100-500 USD/credit hour. Total admission semester fees: Regular 128 JD, Parallel 206 JD, International 880 USD.",
+    "medical_majors_fees": "Medicine: 45 JD/hr (Regular), 175-250 JD/hr (Parallel), 500 USD/hr (International); Dentistry: 40 JD/hr (Regular); Pharmacy: 29 JD/hr (Regular), 90-125 JD/hr (Parallel), 190 USD/hr (International)",
+    "engineering_majors_fees": "29 JD/hr (Regular), 85-95 JD/hr (Parallel), 180-200 USD/hr (International)",
+    "humanities_majors_fees": "16 JD/hr (Regular), 45-60 JD/hr (Parallel), 100-150 USD/hr (International)",
+    "it_computer_majors_fees": "47-70 JD/hr (Regular), 90-120 JD/hr (Parallel), 190-215 USD/hr (International)",
+    "notes": "Additional fees per semester (except admission): Regular 53 JD (1st/2nd sem), 43 JD (summer); Parallel 86 JD/71 JD; International 400/350 USD. Proficiency exam fees: 45 JD (Jordanian) / 60 USD (International). Registration fees, computer services, and insurance fees also apply."
+  },
+  "ranking_accreditation": {
+    "national_ranking": "1st in Jordan (QS Arab Region 2026)",
+    "qs_world_ranking": "324 (QS World 2026)",
+    "qs_arab_ranking": "10th in Arab Region (QS Arab 2026)",
+    "qs_employer_reputation": "194 globally (QS 2026)",
+    "qs_academic_reputation": "239 globally (QS 2026)",
+    "webometrics_ranking": "8th in Arab world, 23rd in Middle East",
+    "accreditation": "MOHE (Ministry of Higher Education and Scientific Research), ABET (Engineering, IT), ACCM (Medicine), ACEN (Nursing), ACPE (Pharmacy), ADEE (Dentistry), WFOT (Rehabilitation Sciences)",
+    "international_recognition": "55 internationally accredited programs across 11 schools. QS Stars Rating: 5 stars. Nursing program ranked 47th globally in QS by Subject 2025.",
+    "qs_subject_rankings": "4 subjects in top 100, 9 subjects in top 200, 17 subjects in top 300 globally"
+  },
+  "market_demand": {
+    "overall_demand": "medium",
+    "high_demand_majors": [
+      "Medicine",
+      "Dentistry",
+      "Nursing",
+      "Pharmacy",
+      "Engineering",
+      "Cybersecurity",
+      "Data Science",
+      "Artificial Intelligence"
+    ],
+    "employment_rate_estimate": "[uncertain]",
+    "notes": "UJ ranks 194th globally in QS Employer Reputation 2026. Medical graduates achieve top scores in US medical specialization exams. Jordan faces general youth unemployment challenges (~25% for graduates). UJ graduates over 270,000 alumni since 1962. University has over 7,000 international students from 130+ countries."
+  },
+  "campus_facilities": {
+    "has_accommodation": true,
+    "accommodation_details": "International Dorms (Jarash and Amon dorms for international students), Al-Zahraa and Al-Andalus dorms, Dania female dorm. Private housing available near campus on University Street. Dorm pricing varies; contact university for current rates.",
+    "has_library": true,
+    "library_details": "Central university library accessible via library.ju.edu.jo",
+    "has_sports_facilities": true,
+    "sports_details": "Sports Activities Complex on campus",
+    "has_hospital": true,
+    "hospital_details": "UJ Hospital - university teaching hospital on campus",
+    "has_transportation": true,
+    "transportation_details": "Student transportation services provided by university",
+    "has_food_services": true,
+    "has_student_clinic": true,
+    "has_scholarships": true,
+    "scholarship_details": "Merit-based scholarships for outstanding academic performance, need-based scholarships for financially disadvantaged students, international student scholarships, research and teaching assistantships for postgraduate students, government-funded scholarships, SYLFF fellowships, ERASMUS+ exchange programs, and external scholarship listings (Chevening, Japanese, German, etc.)",
+    "has_radio_station": true,
+    "radio_details": "UJFM Radio 94.9FM - campus radio station",
+    "has_elearning": true,
+    "elearning_details": "E-Learning platform via elearning.ju.edu.jo",
+    "has_research_centers": true,
+    "research_centers": [
+      "Cell Therapy Center",
+      "Public Health Institute",
+      "Hamdi Mango Center for Scientific Research",
+      "Infectious Disease and Vaccine Center",
+      "Water, Energy and Environment Center",
+      "Center for Women's Studies",
+      "Nanotechnology Center"
+    ]
+  },
+  "contact_info": {
+    "address": "Queen Rania Al Abdullah Street, Jubaiha (Aljubeiha), Amman 11942, Jordan",
+    "phone": "+962 6 5355 000",
+    "email": "admin@ju.edu.jo",
+    "social_media": [
+      "https://www.facebook.com/ujnews/",
+      "https://x.com/ujedujo",
+      "https://www.instagram.com/the.university.of.jordan/",
+      "https://www.youtube.com/channel/UC3GsbJeY4wD4tjENEsIQfUQ",
+      "https://www.linkedin.com/school/university-of-jordan"
+    ],
+    "mobile_apps": [
+      "iOS: https://apps.apple.com/jo/app/uj-reg-app/id6758769586",
+      "Android: https://play.google.com/store/apps/details?id=com.ju.uj_reg"
+    ],
+    "aqaba_branch": "https://aqaba.ju.edu.jo"
+  },
+  "uncertain": [
+    "employment_rate_estimate - no official university-published employment rate found",
+    "accommodation_details - specific dorm pricing not listed on website; varies by year",
+    "annual_fees_range - exact ranges depend on specific program; table shows per-credit-hour rates"
+  ],
+  "verification_sources": [
+    "https://www.ju.edu.jo (official homepage)",
+    "https://www.ju.edu.jo/Pages/AboutUJ.aspx (about page)",
+    "https://registration.ju.edu.jo/en/english/Pages/MajorsAndFees_new.aspx (majors and fees)",
+    "https://ipmd.ju.edu.jo/Pages/Undergraduate_Entry_requirements.aspx (international admission)",
+    "https://registration.ju.edu.jo/en/english/Pages/RegularProgramme/About_new.aspx (regular program)",
+    "https://registration.ju.edu.jo/en/english/Pages/ParallelProgram/PrllConditions_new.aspx (parallel program)",
+    "https://sites.ju.edu.jo/en/pqmc/Home.aspx (accreditation center)",
+    "https://www.ju.edu.jo/Lists/Services/Services.aspx (campus services)",
+    "https://offices.ju.edu.jo/en/oir/Lists/ScholarShips/all_ScholarShips.aspx (scholarships)",
+    "https://ipmd.ju.edu.jo/Lists/FeaturedTopics/Disp_form.aspx?ID=9 (QS rankings)",
+    "https://www.topuniversities.com/universities/university-jordan (QS profile)"
+  ],
+  "last_updated": "2026-07-02"
+}

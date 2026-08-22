@@ -1,0 +1,1102 @@
+[
+  {
+    "id": 1,
+    "text": "ما هو البرنامج الأكثر استخداماً لتحرير الصور الفوتوغرافية؟",
+    "subtitle": "الإعلام الإبداعي - برامج التحرير",
+    "options": [
+      {"id": "a", "text": "أدوبي فوتوشوب", "correct": true},
+      {"id": "b", "text": "أدوبي إليستريتور", "correct": false},
+      {"id": "c", "text": "أدوبي بريمير", "correct": false},
+      {"id": "d", "text": "أدوبي أفتر إفكتس", "correct": false}
+    ]
+  },
+  {
+    "id": 2,
+    "text": "ما هي دقة الصورة المناسبة للطباعة عالية الجودة؟",
+    "subtitle": "الإعلام الإبداعي - الجودة والوضوح",
+    "options": [
+      {"id": "a", "text": "72 نقطة في البوصة", "correct": false},
+      {"id": "b", "text": "150 نقطة في البوصة", "correct": false},
+      {"id": "c", "text": "300 نقطة في البوصة", "correct": true},
+      {"id": "d", "text": "600 نقطة في البوصة", "correct": false}
+    ]
+  },
+  {
+    "id": 3,
+    "text": "أي من هذه العناصر يعتبر من عناصر التصميم الجرافيكي؟",
+    "subtitle": "الإعلام الإبداعي - أساسيات التصميم",
+    "options": [
+      {"id": "a", "text": "الخط", "correct": true},
+      {"id": "b", "text": "الصوت", "correct": false},
+      {"id": "c", "text": "الحركة", "correct": false},
+      {"id": "d", "text": "الزمن", "correct": false}
+    ]
+  },
+  {
+    "id": 4,
+    "text": "ما هو المصطلح الذي يصف توزيع العناصر في التصميم لخلق التوازن البصري؟",
+    "subtitle": "الإعلام الإبداعي - مبادئ التصميم",
+    "options": [
+      {"id": "a", "text": "التباين", "correct": false},
+      {"id": "b", "text": "التوازن", "correct": true},
+      {"id": "c", "text": "الإيقاع", "correct": false},
+      {"id": "d", "text": "الوحدة", "correct": false}
+    ]
+  },
+  {
+    "id": 5,
+    "text": "أي من هذه الصيغ تعتبر صيغة فيديو مضغوطة؟",
+    "subtitle": "الإعلام الإبداعي - صيغ الملفات",
+    "options": [
+      {"id": "a", "text": "MP4", "correct": true},
+      {"id": "b", "text": "AVI", "correct": false},
+      {"id": "c", "text": "MOV", "correct": false},
+      {"id": "d", "text": "WAV", "correct": false}
+    ]
+  },
+  {
+    "id": 6,
+    "text": "ما هو البرنامج المستخدم لإنشاء الرسومات المتجهة؟",
+    "subtitle": "الإعلام الإبداعي - برامج الرسم",
+    "options": [
+      {"id": "a", "text": "أدوبي إليستريتور", "correct": true},
+      {"id": "b", "text": "أدوبي فوتوشوب", "correct": false},
+      {"id": "c", "text": "أدوبي إن ديزاين", "correct": false},
+      {"id": "d", "text": "أدوبي بريمير", "correct": false}
+    ]
+  },
+  {
+    "id": 7,
+    "text": "ما هي تقنية التصوير التي تجعل الخلفية ضبابية والموضوع حاداً؟",
+    "subtitle": "الإعلام الإبداعي - تقنيات التصوير",
+    "options": [
+      {"id": "a", "text": "عمق الميدان", "correct": true},
+      {"id": "b", "text": "سرعة الغالق", "correct": false},
+      {"id": "c", "text": "فتحة العدسة", "correct": false},
+      {"id": "d", "text": "الأيزو", "correct": false}
+    ]
+  },
+  {
+    "id": 8,
+    "text": "أي من هذه العناصر يؤثر على تعريض الصورة في التصوير الفوتوغرافي؟",
+    "subtitle": "الإعلام الإبداعي - أساسيات التصوير",
+    "options": [
+      {"id": "a", "text": "سرعة الغالق", "correct": false},
+      {"id": "b", "text": "فتحة العدسة", "correct": false},
+      {"id": "c", "text": "حساسية الضوء (ISO)", "correct": false},
+      {"id": "d", "text": "جميع ما سبق", "correct": true}
+    ]
+  },
+  {
+    "id": 9,
+    "text": "ما هو المصطلح الذي يصف تكوين الصورة من نقاط صغيرة؟",
+    "subtitle": "الإعلام الإبداعي - معالجة الصور",
+    "options": [
+      {"id": "a", "text": "البكسل", "correct": true},
+      {"id": "b", "text": "المتجه", "correct": false},
+      {"id": "c", "text": "الرستر", "correct": false},
+      {"id": "d", "text": "الفيكتور", "correct": false}
+    ]
+  },
+  {
+    "id": 10,
+    "text": "ما هي المساحة الآمنة التي يجب تركها في التصميم لتجنب القص؟",
+    "subtitle": "الإعلام الإبداعي - تصميم المطبوعات",
+    "options": [
+      {"id": "a", "text": "منطقة القص", "correct": false},
+      {"id": "b", "text": "الهامش الآمن", "correct": true},
+      {"id": "c", "text": "منطقة العمل", "correct": false},
+      {"id": "d", "text": "منطقة التصميم", "correct": false}
+    ]
+  },
+  {
+    "id": 11,
+    "text": "أي من هذه البرامج يستخدم لمونتاج الفيديو؟",
+    "subtitle": "الإعلام الإبداعي - برامج المونتاج",
+    "options": [
+      {"id": "a", "text": "أدوبي بريمير", "correct": true},
+      {"id": "b", "text": "أدوبي فوتوشوب", "correct": false},
+      {"id": "c", "text": "أدوبي إليستريتور", "correct": false},
+      {"id": "d", "text": "أدوبي أكروبات", "correct": false}
+    ]
+  },
+  {
+    "id": 12,
+    "text": "ما هو عدد الإطارات في الثانية للفيديو السينمائي؟",
+    "subtitle": "الإعلام الإبداعي - تقنيات الفيديو",
+    "options": [
+      {"id": "a", "text": "24 إطار/ثانية", "correct": true},
+      {"id": "b", "text": "30 إطار/ثانية", "correct": false},
+      {"id": "c", "text": "60 إطار/ثانية", "correct": false},
+      {"id": "d", "text": "120 إطار/ثانية", "correct": false}
+    ]
+  },
+  {
+    "id": 13,
+    "text": "ما هو المصطلح الذي يصف تدرج الألوان من الفاتح إلى الغامق؟",
+    "subtitle": "الإعلام الإبداعي - نظرية الألوان",
+    "options": [
+      {"id": "a", "text": "التشبع", "correct": false},
+      {"id": "b", "text": "الدرجة اللونية", "correct": false},
+      {"id": "c", "text": "القيمة", "correct": true},
+      {"id": "d", "text": "الظل", "correct": false}
+    ]
+  },
+  {
+    "id": 14,
+    "text": "أي من هذه الأنماط اللونية يستخدم للطباعة؟",
+    "subtitle": "الإعلام الإبداعي - أنظمة الألوان",
+    "options": [
+      {"id": "a", "text": "RGB", "correct": false},
+      {"id": "b", "text": "CMYK", "correct": true},
+      {"id": "c", "text": "HSV", "correct": false},
+      {"id": "d", "text": "LAB", "correct": false}
+    ]
+  },
+  {
+    "id": 15,
+    "text": "ما هو البرنامج المستخدم لإنشاء المؤثرات البصرية؟",
+    "subtitle": "الإعلام الإبداعي - المؤثرات البصرية",
+    "options": [
+      {"id": "a", "text": "أدوبي أفتر إفكتس", "correct": true},
+      {"id": "b", "text": "أدوبي بريمير", "correct": false},
+      {"id": "c", "text": "أدوبي فوتوشوب", "correct": false},
+      {"id": "d", "text": "أدوبي إليستريتور", "correct": false}
+    ]
+  },
+  {
+    "id": 16,
+    "text": "ما هي تقنية التصوير التي تلتقط الحركة السريعة؟",
+    "subtitle": "الإعلام الإبداعي - تقنيات التصوير",
+    "options": [
+      {"id": "a", "text": "سرعة غالق عالية", "correct": true},
+      {"id": "b", "text": "سرعة غالق منخفضة", "correct": false},
+      {"id": "c", "text": "فتحة عدسة واسعة", "correct": false},
+      {"id": "d", "text": "أيزو مرتفع", "correct": false}
+    ]
+  },
+  {
+    "id": 17,
+    "text": "أي من هذه العناصر يعتبر من مكونات الفيديو الرقمي؟",
+    "subtitle": "الإعلام الإبداعي - تقنيات الفيديو",
+    "options": [
+      {"id": "a", "text": "الدقة", "correct": false},
+      {"id": "b", "text": "معدل الإطارات", "correct": false},
+      {"id": "c", "text": "معدل البت", "correct": false},
+      {"id": "d", "text": "جميع ما سبق", "correct": true}
+    ]
+  },
+  {
+    "id": 18,
+    "text": "ما هو المصطلح الذي يصف دمج الصور مع الخلفية؟",
+    "subtitle": "الإعلام الإبداعي - معالجة الصور",
+    "options": [
+      {"id": "a", "text": "الدمج", "correct": false},
+      {"id": "b", "text": "التركيب", "correct": true},
+      {"id": "c", "text": "التحويل", "correct": false},
+      {"id": "d", "text": "التشويه", "correct": false}
+    ]
+  },
+  {
+    "id": 19,
+    "text": "ما هي المسافة بين الحروف في النص؟",
+    "subtitle": "الإعلام الإبداعي - الطباعة",
+    "options": [
+      {"id": "a", "text": "تباعد الأسطر", "correct": false},
+      {"id": "b", "text": "تباعد الحروف", "correct": true},
+      {"id": "c", "text": "تباعد الكلمات", "correct": false},
+      {"id": "d", "text": "تباعد الفقرات", "correct": false}
+    ]
+  },
+  {
+    "id": 20,
+    "text": "أي من هذه البرامج يستخدم لتصميم layouts الصفحات؟",
+    "subtitle": "الإعلام الإبداعي - تصميم الصفحات",
+    "options": [
+      {"id": "a", "text": "أدوبي إن ديزاين", "correct": true},
+      {"id": "b", "text": "أدوبي فوتوشوب", "correct": false},
+      {"id": "c", "text": "أدوبي إليستريتور", "correct": false},
+      {"id": "d", "text": "أدوبي بريمير", "correct": false}
+    ]
+  },
+  {
+    "id": 21,
+    "text": "ما هو نوع العدسة المناسب للتصوير عن قرب؟",
+    "subtitle": "الإعلام الإبداعي - معدات التصوير",
+    "options": [
+      {"id": "a", "text": "العدسة المقربة", "correct": false},
+      {"id": "b", "text": "العدسة واسعة الزاوية", "correct": false},
+      {"id": "c", "text": "العدسة الماكرو", "correct": true},
+      {"id": "d", "text": "العدسة العادية", "correct": false}
+    ]
+  },
+  {
+    "id": 22,
+    "text": "ما هو المصطلح الذي يصف درجة نقاء اللون؟",
+    "subtitle": "الإعلام الإبداعي - نظرية الألوان",
+    "options": [
+      {"id": "a", "text": "التشبع", "correct": true},
+      {"id": "b", "text": "الدرجة", "correct": false},
+      {"id": "c", "text": "القيمة", "correct": false},
+      {"id": "d", "text": "الظل", "correct": false}
+    ]
+  },
+  {
+    "id": 23,
+    "text": "أي من هذه الصيغ تعتبر صيغة صوت غير مضغوطة؟",
+    "subtitle": "الإعلام الإبداعي - صيغ الصوت",
+    "options": [
+      {"id": "a", "text": "WAV", "correct": true},
+      {"id": "b", "text": "MP3", "correct": false},
+      {"id": "c", "text": "AAC", "correct": false},
+      {"id": "d", "text": "OGG", "correct": false}
+    ]
+  },
+  {
+    "id": 24,
+    "text": "ما هو البرنامج المستخدم لتحرير الصوت؟",
+    "subtitle": "الإعلام الإبداعي - برامج الصوت",
+    "options": [
+      {"id": "a", "text": "أدوبي أوديشن", "correct": true},
+      {"id": "b", "text": "أدوبي بريمير", "correct": false},
+      {"id": "c", "text": "أدوبي فوتوشوب", "correct": false},
+      {"id": "d", "text": "أدوبي إليستريتور", "correct": false}
+    ]
+  },
+  {
+    "id": 25,
+    "text": "ما هي تقنية التصوير التي تخلق تأثير الحركة؟",
+    "subtitle": "الإعلام الإبداعي - تقنيات التصوير",
+    "options": [
+      {"id": "a", "text": "سرعة غالق منخفضة", "correct": true},
+      {"id": "b", "text": "سرعة غالق عالية", "correct": false},
+      {"id": "c", "text": "فتحة عدسة ضيقة", "correct": false},
+      {"id": "d", "text": "أيزو منخفض", "correct": false}
+    ]
+  },
+  {
+    "id": 26,
+    "text": "أي من هذه المكونات يؤثر على جودة الصورة الرقمية؟",
+    "subtitle": "الإعلام الإبداعي - جودة الصور",
+    "options": [
+      {"id": "a", "text": "عدد البكسل", "correct": false},
+      {"id": "b", "text": "حجم الملف", "correct": false},
+      {"id": "c", "text": "نسبة الأبعاد", "correct": false},
+      {"id": "d", "text": "جميع ما سبق", "correct": true}
+    ]
+  },
+  {
+    "id": 27,
+    "text": "ما هو المصطلح الذي يصف توزيع العناصر في التصميم؟",
+    "subtitle": "الإعلام الإبداعي - مبادئ التصميم",
+    "options": [
+      {"id": "a", "text": "التوازن", "correct": false},
+      {"id": "b", "text": "التناسب", "correct": false},
+      {"id": "c", "text": "التخطيط", "correct": true},
+      {"id": "d", "text": "التباين", "correct": false}
+    ]
+  },
+  {
+    "id": 28,
+    "text": "ما هي دقة الصورة المناسبة للعرض على الويب؟",
+    "subtitle": "الإعلام الإبداعي - تحسين الصور",
+    "options": [
+      {"id": "a", "text": "72 نقطة في البوصة", "correct": true},
+      {"id": "b", "text": "150 نقطة في البوصة", "correct": false},
+      {"id": "c", "text": "300 نقطة في البوصة", "correct": false},
+      {"id": "d", "text": "600 نقطة في البوصة", "correct": false}
+    ]
+  },
+  {
+    "id": 29,
+    "text": "أي من هذه الأدوات تستخدم لاختيار الألوان في التصميم؟",
+    "subtitle": "الإعلام الإبداعي - أدوات التصميم",
+    "options": [
+      {"id": "a", "text": "أداة القطارة", "correct": true},
+      {"id": "b", "text": "أداة الفرشاة", "correct": false},
+      {"id": "c", "text": "أداة القلم", "correct": false},
+      {"id": "d", "text": "أداة التحديد", "correct": false}
+    ]
+  },
+  {
+    "id": 30,
+    "text": "ما هو البرنامج المستخدم لإنشاء الرسوم المتحركة؟",
+    "subtitle": "الإعلام الإبداعي - الرسوم المتحركة",
+    "options": [
+      {"id": "a", "text": "أدوبي أنيميت", "correct": true},
+      {"id": "b", "text": "أدوبي بريمير", "correct": false},
+      {"id": "c", "text": "أدوبي فوتوشوب", "correct": false},
+      {"id": "d", "text": "أدوبي إليستريتور", "correct": false}
+    ]
+  },
+  {
+    "id": 31,
+    "text": "ما هو نوع الإضاءة المناسب للتصوير الداخلي؟",
+    "subtitle": "الإعلام الإبداعي - إضاءة التصوير",
+    "options": [
+      {"id": "a", "text": "الإضاءة الطبيعية", "correct": false},
+      {"id": "b", "text": "الإضاءة الصناعية", "correct": false},
+      {"id": "c", "text": "الإضاءة المستمرة", "correct": true},
+      {"id": "d", "text": "الإضاءة الخاطفة", "correct": false}
+    ]
+  },
+  {
+    "id": 32,
+    "text": "ما هو المصطلح الذي يصف المسافة بين أسطر النص؟",
+    "subtitle": "الإعلام الإبداعي - الطباعة",
+    "options": [
+      {"id": "a", "text": "تباعد الحروف", "correct": false},
+      {"id": "b", "text": "تباعد الأسطر", "correct": true},
+      {"id": "c", "text": "تباعد الكلمات", "correct": false},
+      {"id": "d", "text": "تباعد الفقرات", "correct": false}
+    ]
+  },
+  {
+    "id": 33,
+    "text": "أي من هذه الصيغ تعتبر صيغة متجهة؟",
+    "subtitle": "الإعلام الإبداعي - صيغ الملفات",
+    "options": [
+      {"id": "a", "text": "AI", "correct": true},
+      {"id": "b", "text": "JPG", "correct": false},
+      {"id": "c", "text": "PNG", "correct": false},
+      {"id": "d", "text": "GIF", "correct": false}
+    ]
+  },
+  {
+    "id": 34,
+    "text": "ما هو البرنامج المستخدم لتصميم الشعارات؟",
+    "subtitle": "الإعلام الإبداعي - تصميم الشعارات",
+    "options": [
+      {"id": "a", "text": "أدوبي إليستريتور", "correct": true},
+      {"id": "b", "text": "أدوبي فوتوشوب", "correct": false},
+      {"id": "c", "text": "أدوبي بريمير", "correct": false},
+      {"id": "d", "text": "أدوبي إن ديزاين", "correct": false}
+    ]
+  },
+  {
+    "id": 35,
+    "text": "ما هي تقنية التصوير التي تظهر الحركة بشكل متجمد؟",
+    "subtitle": "الإعلام الإبداعي - تقنيات التصوير",
+    "options": [
+      {"id": "a", "text": "سرعة غالق عالية", "correct": true},
+      {"id": "b", "text": "سرعة غالق منخفضة", "correct": false},
+      {"id": "c", "text": "فتحة عدسة واسعة", "correct": false},
+      {"id": "d", "text": "أيزو مرتفع", "correct": false}
+    ]
+  },
+  {
+    "id": 36,
+    "text": "أي من هذه العناصر يعتبر من مبادئ التصميم؟",
+    "subtitle": "الإعلام الإبداعي - أساسيات التصميم",
+    "options": [
+      {"id": "a", "text": "التباين", "correct": false},
+      {"id": "b", "text": "التكرار", "correct": false},
+      {"id": "c", "text": "المساحة", "correct": false},
+      {"id": "d", "text": "جميع ما سبق", "correct": true}
+    ]
+  },
+  {
+    "id": 37,
+    "text": "ما هو المصطلح الذي يصف درجة سطوع الصورة؟",
+    "subtitle": "الإعلام الإبداعي - معالجة الصور",
+    "options": [
+      {"id": "a", "text": "التشبع", "correct": false},
+      {"id": "b", "text": "السطوع", "correct": true},
+      {"id": "c", "text": "التباين", "correct": false},
+      {"id": "d", "text": "الحدة", "correct": false}
+    ]
+  },
+  {
+    "id": 38,
+    "text": "ما هي المسافة بين الكلمات في النص؟",
+    "subtitle": "الإعلام الإبداعي - الطباعة",
+    "options": [
+      {"id": "a", "text": "تباعد الحروف", "correct": false},
+      {"id": "b", "text": "تباعد الأسطر", "correct": false},
+      {"id": "c", "text": "تباعد الكلمات", "correct": true},
+      {"id": "d", "text": "تباعد الفقرات", "correct": false}
+    ]
+  },
+  {
+    "id": 39,
+    "text": "أي من هذه البرامج يستخدم لتصميم interfaces التطبيقات؟",
+    "subtitle": "الإعلام الإبداعي - تصميم الواجهات",
+    "options": [
+      {"id": "a", "text": "أدوبي XD", "correct": true},
+      {"id": "b", "text": "أدوبي فوتوشوب", "correct": false},
+      {"id": "c", "text": "أدوبي إليستريتور", "correct": false},
+      {"id": "d", "text": "أدوبي بريمير", "correct": false}
+    ]
+  },
+  {
+    "id": 40,
+    "text": "ما هو نوع العدسة المناسب للتصوير الرياضي؟",
+    "subtitle": "الإعلام الإبداعي - معدات التصوير",
+    "options": [
+      {"id": "a", "text": "العدسة المقربة", "correct": true},
+      {"id": "b", "text": "العدسة واسعة الزاوية", "correct": false},
+      {"id": "c", "text": "العدسة الماكرو", "correct": false},
+      {"id": "d", "text": "العدسة العادية", "correct": false}
+    ]
+  },
+  {
+    "id": 41,
+    "text": "ما هو المصطلح الذي يصف درجة وضوح الصورة؟",
+    "subtitle": "الإعلام الإبداعي - جودة الصور",
+    "options": [
+      {"id": "a", "text": "الحدة", "correct": true},
+      {"id": "b", "text": "التباين", "correct": false},
+      {"id": "c", "text": "التشبع", "correct": false},
+      {"id": "d", "text": "السطوع", "correct": false}
+    ]
+  },
+  {
+    "id": 42,
+    "text": "أي من هذه الصيغ تعتبر صيغة صوت مضغوطة؟",
+    "subtitle": "الإعلام الإبداعي - صيغ الصوت",
+    "options": [
+      {"id": "a", "text": "MP3", "correct": true},
+      {"id": "b", "text": "WAV", "correct": false},
+      {"id": "c", "text": "AIFF", "correct": false},
+      {"id": "d", "text": "BWF", "correct": false}
+    ]
+  },
+  {
+    "id": 43,
+    "text": "ما هو البرنامج المستخدم لإنشاء الرسوم ثلاثية الأبعاد؟",
+    "subtitle": "الإعلام الإبداعي - الرسوم ثلاثية الأبعاد",
+    "options": [
+      {"id": "a", "text": "أدوبي ديمنشن", "correct": true},
+      {"id": "b", "text": "أدوبي بريمير", "correct": false},
+      {"id": "c", "text": "أدوبي فوتوشوب", "correct": false},
+      {"id": "d", "text": "أدوبي إليستريتور", "correct": false}
+    ]
+  },
+  {
+    "id": 44,
+    "text": "ما هي تقنية التصوير التي تظهر تفاصيل الخلفية؟",
+    "subtitle": "الإعلام الإبداعي - تقنيات التصوير",
+    "options": [
+      {"id": "a", "text": "فتحة عدسة ضيقة", "correct": true},
+      {"id": "b", "text": "فتحة عدسة واسعة", "correct": false},
+      {"id": "c", "text": "سرعة غالق عالية", "correct": false},
+      {"id": "d", "text": "أيزو منخفض", "correct": false}
+    ]
+  },
+  {
+    "id": 45,
+    "text": "أي من هذه المكونات يؤثر على جودة الفيديو؟",
+    "subtitle": "الإعلام الإبداعي - جودة الفيديو",
+    "options": [
+      {"id": "a", "text": "الدقة", "correct": false},
+      {"id": "b", "text": "معدل البت", "correct": false},
+      {"id": "c", "text": "معدل الإطارات", "correct": false},
+      {"id": "d", "text": "جميع ما سبق", "correct": true}
+    ]
+  },
+  {
+    "id": 46,
+    "text": "ما هو المصطلح الذي يصف تباين الألوان في التصميم؟",
+    "subtitle": "الإعلام الإبداعي - نظرية الألوان",
+    "options": [
+      {"id": "a", "text": "التباين", "correct": true},
+      {"id": "b", "text": "التوازن", "correct": false},
+      {"id": "c", "text": "التناسب", "correct": false},
+      {"id": "d", "text": "الإيقاع", "correct": false}
+    ]
+  },
+  {
+    "id": 47,
+    "text": "ما هي دقة الفيديو Full HD؟",
+    "subtitle": "الإعلام الإبداعي - دقة الفيديو",
+    "options": [
+      {"id": "a", "text": "720p", "correct": false},
+      {"id": "b", "text": "1080p", "correct": true},
+      {"id": "c", "text": "1440p", "correct": false},
+      {"id": "d", "text": "2160p", "correct": false}
+    ]
+  },
+  {
+    "id": 48,
+    "text": "أي من هذه الأدوات تستخدم لرسم الأشكال في التصميم؟",
+    "subtitle": "الإعلام الإبداعي - أدوات التصميم",
+    "options": [
+      {"id": "a", "text": "أداة القلم", "correct": true},
+      {"id": "b", "text": "أداة الفرشاة", "correct": false},
+      {"id": "c", "text": "أداة القطارة", "correct": false},
+      {"id": "d", "text": "أداة التحديد", "correct": false}
+    ]
+  },
+  {
+    "id": 49,
+    "text": "ما هو البرنامج المستخدم لتصميم الكتب والمجلات؟",
+    "subtitle": "الإعلام الإبداعي - تصميم المطبوعات",
+    "options": [
+      {"id": "a", "text": "أدوبي إن ديزاين", "correct": true},
+      {"id": "b", "text": "أدوبي فوتوشوب", "correct": false},
+      {"id": "c", "text": "أدوبي إليستريتور", "correct": false},
+      {"id": "d", "text": "أدوبي بريمير", "correct": false}
+    ]
+  },
+  {
+    "id": 50,
+    "text": "ما هو نوع الإضاءة المناسب للتصوير الليلي؟",
+    "subtitle": "الإعلام الإبداعي - إضاءة التصوير",
+    "options": [
+      {"id": "a", "text": "الإضاءة الطبيعية", "correct": false},
+      {"id": "b", "text": "الإضاءة الصناعية", "correct": false},
+      {"id": "c", "text": "الإضاءة الخاطفة", "correct": true},
+      {"id": "d", "text": "الإضاءة المستمرة", "correct": false}
+    ]
+  },
+  {
+    "id": 51,
+    "text": "ما هو المصطلح الذي يصف المسافة بين الفقرات في النص؟",
+    "subtitle": "الإعلام الإبداعي - الطباعة",
+    "options": [
+      {"id": "a", "text": "تباعد الحروف", "correct": false},
+      {"id": "b", "text": "تباعد الأسطر", "correct": false},
+      {"id": "c", "text": "تباعد الكلمات", "correct": false},
+      {"id": "d", "text": "تباعد الفقرات", "correct": true}
+    ]
+  },
+  {
+    "id": 52,
+    "text": "أي من هذه الصيغ تعتبر صيغة صور مضغوطة؟",
+    "subtitle": "الإعلام الإبداعي - صيغ الصور",
+    "options": [
+      {"id": "a", "text": "JPG", "correct": true},
+      {"id": "b", "text": "PSD", "correct": false},
+      {"id": "c", "text": "AI", "correct": false},
+      {"id": "d", "text": "EPS", "correct": false}
+    ]
+  },
+  {
+    "id": 53,
+    "text": "ما هو البرنامج المستخدم لتحرير الفيديو الاحترافي؟",
+    "subtitle": "الإعلام الإبداعي - برامج المونتاج",
+    "options": [
+      {"id": "a", "text": "أدوبي بريمير", "correct": true},
+      {"id": "b", "text": "أدوبي فوتوشوب", "correct": false},
+      {"id": "c", "text": "أدوبي إليستريتور", "correct": false},
+      {"id": "d", "text": "أدوبي إن ديزاين", "correct": false}
+    ]
+  },
+  {
+    "id": 54,
+    "text": "ما هي تقنية التصوير التي تظهر الحركة بشكل سلس؟",
+    "subtitle": "الإعلام الإبداعي - تقنيات التصوير",
+    "options": [
+      {"id": "a", "text": "سرعة غالق منخفضة", "correct": true},
+      {"id": "b", "text": "سرعة غالق عالية", "correct": false},
+      {"id": "c", "text": "فتحة عدسة واسعة", "correct": false},
+      {"id": "d", "text": "أيزو مرتفع", "correct": false}
+    ]
+  },
+  {
+    "id": 55,
+    "text": "أي من هذه العناصر يعتبر من عناصر التصميم؟",
+    "subtitle": "الإعلام الإبداعي - أساسيات التصميم",
+    "options": [
+      {"id": "a", "text": "الشكل", "correct": false},
+      {"id": "b", "text": "اللون", "correct": false},
+      {"id": "c", "text": "الملمس", "correct": false},
+      {"id": "d", "text": "جميع ما سبق", "correct": true}
+    ]
+  },
+  {
+    "id": 56,
+    "text": "ما هو المصطلح الذي يصف درجة تشبع الصورة؟",
+    "subtitle": "الإعلام الإبداعي - معالجة الصور",
+    "options": [
+      {"id": "a", "text": "التشبع", "correct": true},
+      {"id": "b", "text": "التباين", "correct": false},
+      {"id": "c", "text": "السطوع", "correct": false},
+      {"id": "d", "text": "الحدة", "correct": false}
+    ]
+  },
+  {
+    "id": 57,
+    "text": "ما هي المسافة بين الحروف في النص؟",
+    "subtitle": "الإعلام الإبداعي - الطباعة",
+    "options": [
+      {"id": "a", "text": "تباعد الحروف", "correct": true},
+      {"id": "b", "text": "تباعد الأسطر", "correct": false},
+      {"id": "c", "text": "تباعد الكلمات", "correct": false},
+      {"id": "d", "text": "تباعد الفقرات", "correct": false}
+    ]
+  },
+  {
+    "id": 58,
+    "text": "أي من هذه البرامج يستخدم لتصميم مواقع الويب؟",
+    "subtitle": "الإعلام الإبداعي - تصميم الويب",
+    "options": [
+      {"id": "a", "text": "أدوبي دريم ويفر", "correct": true},
+      {"id": "b", "text": "أدوبي فوتوشوب", "correct": false},
+      {"id": "c", "text": "أدوبي إليستريتور", "correct": false},
+      {"id": "d", "text": "أدوبي بريمير", "correct": false}
+    ]
+  },
+  {
+    "id": 59,
+    "text": "ما هو نوع العدسة المناسب للتصوير المعماري؟",
+    "subtitle": "الإعلام الإبداعي - معدات التصوير",
+    "options": [
+      {"id": "a", "text": "العدسة واسعة الزاوية", "correct": true},
+      {"id": "b", "text": "العدسة المقربة", "correct": false},
+      {"id": "c", "text": "العدسة الماكرو", "correct": false},
+      {"id": "d", "text": "العدسة العادية", "correct": false}
+    ]
+  },
+  {
+    "id": 60,
+    "text": "ما هو المصطلح الذي يصف درجة تباين الصورة؟",
+    "subtitle": "الإعلام الإبداعي - معالجة الصور",
+    "options": [
+      {"id": "a", "text": "التباين", "correct": true},
+      {"id": "b", "text": "التشبع", "correct": false},
+      {"id": "c", "text": "السطوع", "correct": false},
+      {"id": "d", "text": "الحدة", "correct": false}
+    ]
+  },
+  {
+    "id": 61,
+    "text": "أي من هذه الصيغ تعتبر صيغة فيديو عالية الجودة؟",
+    "subtitle": "الإعلام الإبداعي - صيغ الفيديو",
+    "options": [
+      {"id": "a", "text": "MOV", "correct": true},
+      {"id": "b", "text": "MP4", "correct": false},
+      {"id": "c", "text": "AVI", "correct": false},
+      {"id": "d", "text": "WMV", "correct": false}
+    ]
+  },
+  {
+    "id": 62,
+    "text": "ما هو البرنامج المستخدم لإنشاء المؤثرات الصوتية؟",
+    "subtitle": "الإعلام الإبداعي - المؤثرات الصوتية",
+    "options": [
+      {"id": "a", "text": "أدوبي أوديشن", "correct": true},
+      {"id": "b", "text": "أدوبي بريمير", "correct": false},
+      {"id": "c", "text": "أدوبي فوتوشوب", "correct": false},
+      {"id": "d", "text": "أدوبي إليستريتور", "correct": false}
+    ]
+  },
+  {
+    "id": 63,
+    "text": "ما هي تقنية التصوير التي تظهر تفاصيل الوجه؟",
+    "subtitle": "الإعلام الإبداعي - تقنيات التصوير",
+    "options": [
+      {"id": "a", "text": "التصوير القريب", "correct": true},
+      {"id": "b", "text": "التصوير البانورامي", "correct": false},
+      {"id": "c", "text": "التصوير الليلي", "correct": false},
+      {"id": "d", "text": "التصوير الرياضي", "correct": false}
+    ]
+  },
+  {
+    "id": 64,
+    "text": "أي من هذه المكونات يؤثر على جودة الصوت؟",
+    "subtitle": "الإعلام الإبداعي - جودة الصوت",
+    "options": [
+      {"id": "a", "text": "معدل العينة", "correct": false},
+      {"id": "b", "text": "عمق البت", "correct": false},
+      {"id": "c", "text": "معدل البت", "correct": false},
+      {"id": "d", "text": "جميع ما سبق", "correct": true}
+    ]
+  },
+  {
+    "id": 65,
+    "text": "ما هو المصطلح الذي يصف توزيع العناصر في التصميم؟",
+    "subtitle": "الإعلام الإبداعي - مبادئ التصميم",
+    "options": [
+      {"id": "a", "text": "التوازن", "correct": false},
+      {"id": "b", "text": "التناسب", "correct": false},
+      {"id": "c", "text": "التخطيط", "correct": true},
+      {"id": "d", "text": "التباين", "correct": false}
+    ]
+  },
+  {
+    "id": 66,
+    "text": "ما هي دقة الفيديو 4K؟",
+    "subtitle": "الإعلام الإبداعي - دقة الفيديو",
+    "options": [
+      {"id": "a", "text": "720p", "correct": false},
+      {"id": "b", "text": "1080p", "correct": false},
+      {"id": "c", "text": "1440p", "correct": false},
+      {"id": "d", "text": "2160p", "correct": true}
+    ]
+  },
+  {
+    "id": 67,
+    "text": "أي من هذه الأدوات تستخدم لرسم الخطوط في التصميم؟",
+    "subtitle": "الإعلام الإبداعي - أدوات التصميم",
+    "options": [
+      {"id": "a", "text": "أداة القلم", "correct": false},
+      {"id": "b", "text": "أداة الخط", "correct": true},
+      {"id": "c", "text": "أداة الفرشاة", "correct": false},
+      {"id": "d", "text": "أداة التحديد", "correct": false}
+    ]
+  },
+  {
+    "id": 68,
+    "text": "ما هو البرنامج المستخدم لتصميم العروض التقديمية؟",
+    "subtitle": "الإعلام الإبداعي - تصميم العروض",
+    "options": [
+      {"id": "a", "text": "مايكروسوفت باوربوينت", "correct": true},
+      {"id": "b", "text": "أدوبي فوتوشوب", "correct": false},
+      {"id": "c", "text": "أدوبي إليستريتور", "correct": false},
+      {"id": "d", "text": "أدوبي بريمير", "correct": false}
+    ]
+  },
+  {
+    "id": 69,
+    "text": "ما هو نوع الإضاءة المناسب للتصوير في الاستوديو؟",
+    "subtitle": "الإعلام الإبداعي - إضاءة التصوير",
+    "options": [
+      {"id": "a", "text": "الإضاءة الطبيعية", "correct": false},
+      {"id": "b", "text": "الإضاءة الصناعية", "correct": false},
+      {"id": "c", "text": "الإضاءة المستمرة", "correct": true},
+      {"id": "d", "text": "الإضاءة الخاطفة", "correct": false}
+    ]
+  },
+  {
+    "id": 70,
+    "text": "ما هو المصطلح الذي يصف المسافة بين الحروف في النص؟",
+    "subtitle": "الإعلام الإبداعي - الطباعة",
+    "options": [
+      {"id": "a", "text": "تباعد الحروف", "correct": true},
+      {"id": "b", "text": "تباعد الأسطر", "correct": false},
+      {"id": "c", "text": "تباعد الكلمات", "correct": false},
+      {"id": "d", "text": "تباعد الفقرات", "correct": false}
+    ]
+  },
+  {
+    "id": 71,
+    "text": "أي من هذه الصيغ تعتبر صيغة صور شفافة؟",
+    "subtitle": "الإعلام الإبداعي - صيغ الصور",
+    "options": [
+      {"id": "a", "text": "PNG", "correct": true},
+      {"id": "b", "text": "JPG", "correct": false},
+      {"id": "c", "text": "BMP", "correct": false},
+      {"id": "d", "text": "TIFF", "correct": false}
+    ]
+  },
+  {
+    "id": 72,
+    "text": "ما هو البرنامج المستخدم لتحرير الفيديو السينمائي؟",
+    "subtitle": "الإعلام الإبداعي - برامج المونتاج",
+    "options": [
+      {"id": "a", "text": "أدوبي بريمير", "correct": true},
+      {"id": "b", "text": "أدوبي فوتوشوب", "correct": false},
+      {"id": "c", "text": "أدوبي إليستريتور", "correct": false},
+      {"id": "d", "text": "أدوبي إن ديزاين", "correct": false}
+    ]
+  },
+  {
+    "id": 73,
+    "text": "ما هي تقنية التصوير التي تظهر الحركة بشكل متجمد؟",
+    "subtitle": "الإعلام الإبداعي - تقنيات التصوير",
+    "options": [
+      {"id": "a", "text": "سرعة غالق عالية", "correct": true},
+      {"id": "b", "text": "سرعة غالق منخفضة", "correct": false},
+      {"id": "c", "text": "فتحة عدسة واسعة", "correct": false},
+      {"id": "d", "text": "أيزو مرتفع", "correct": false}
+    ]
+  },
+  {
+    "id": 74,
+    "text": "أي من هذه العناصر يعتبر من مبادئ التصميم؟",
+    "subtitle": "الإعلام الإبداعي - أساسيات التصميم",
+    "options": [
+      {"id": "a", "text": "التوازن", "correct": false},
+      {"id": "b", "text": "التباين", "correct": false},
+      {"id": "c", "text": "الإيقاع", "correct": false},
+      {"id": "d", "text": "جميع ما سبق", "correct": true}
+    ]
+  },
+  {
+    "id": 75,
+    "text": "ما هو المصطلح الذي يصف درجة وضوح الصورة؟",
+    "subtitle": "الإعلام الإبداعي - جودة الصور",
+    "options": [
+      {"id": "a", "text": "الحدة", "correct": true},
+      {"id": "b", "text": "التباين", "correct": false},
+      {"id": "c", "text": "التشبع", "correct": false},
+      {"id": "d", "text": "السطوع", "correct": false}
+    ]
+  },
+  {
+    "id": 76,
+    "text": "ما هي المسافة بين الأسطر في النص؟",
+    "subtitle": "الإعلام الإبداعي - الطباعة",
+    "options": [
+      {"id": "a", "text": "تباعد الحروف", "correct": false},
+      {"id": "b", "text": "تباعد الأسطر", "correct": true},
+      {"id": "c", "text": "تباعد الكلمات", "correct": false},
+      {"id": "d", "text": "تباعد الفقرات", "correct": false}
+    ]
+  },
+  {
+    "id": 77,
+    "text": "أي من هذه البرامج يستخدم لتصميم الشعارات؟",
+    "subtitle": "الإعلام الإبداعي - تصميم الشعارات",
+    "options": [
+      {"id": "a", "text": "أدوبي إليستريتور", "correct": true},
+      {"id": "b", "text": "أدوبي فوتوشوب", "correct": false},
+      {"id": "c", "text": "أدوبي بريمير", "correct": false},
+      {"id": "d", "text": "أدوبي إن ديزاين", "correct": false}
+    ]
+  },
+  {
+    "id": 78,
+    "text": "ما هو نوع العدسة المناسب للتصوير البانورامي؟",
+    "subtitle": "الإعلام الإبداعي - معدات التصوير",
+    "options": [
+      {"id": "a", "text": "العدسة واسعة الزاوية", "correct": true},
+      {"id": "b", "text": "العدسة المقربة", "correct": false},
+      {"id": "c", "text": "العدسة الماكرو", "correct": false},
+      {"id": "d", "text": "العدسة العادية", "correct": false}
+    ]
+  },
+  {
+    "id": 79,
+    "text": "ما هو المصطلح الذي يصف درجة سطوع الصورة؟",
+    "subtitle": "الإعلام الإبداعي - معالجة الصور",
+    "options": [
+      {"id": "a", "text": "السطوع", "correct": true},
+      {"id": "b", "text": "التباين", "correct": false},
+      {"id": "c", "text": "التشبع", "correct": false},
+      {"id": "d", "text": "الحدة", "correct": false}
+    ]
+  },
+  {
+    "id": 80,
+    "text": "أي من هذه الصيغ تعتبر صيغة صوت عالية الجودة؟",
+    "subtitle": "الإعلام الإبداعي - صيغ الصوت",
+    "options": [
+      {"id": "a", "text": "WAV", "correct": true},
+      {"id": "b", "text": "MP3", "correct": false},
+      {"id": "c", "text": "AAC", "correct": false},
+      {"id": "d", "text": "OGG", "correct": false}
+    ]
+  },
+  {
+    "id": 81,
+    "text": "ما هو البرنامج المستخدم لإنشاء الرسوم المتحركة؟",
+    "subtitle": "الإعلام الإبداعي - الرسوم المتحركة",
+    "options": [
+      {"id": "a", "text": "أدوبي أنيميت", "correct": true},
+      {"id": "b", "text": "أدوبي بريمير", "correct": false},
+      {"id": "c", "text": "أدوبي فوتوشوب", "correct": false},
+      {"id": "d", "text": "أدوبي إليستريتور", "correct": false}
+    ]
+  },
+  {
+    "id": 82,
+    "text": "ما هي تقنية التصوير التي تظهر الحركة بشكل سلس؟",
+    "subtitle": "الإعلام الإبداعي - تقنيات التصوير",
+    "options": [
+      {"id": "a", "text": "سرعة غالق منخفضة", "correct": true},
+      {"id": "b", "text": "سرعة غالق عالية", "correct": false},
+      {"id": "c", "text": "فتحة عدسة واسعة", "correct": false},
+      {"id": "d", "text": "أيزو مرتفع", "correct": false}
+    ]
+  },
+  {
+    "id": 83,
+    "text": "أي من هذه المكونات يؤثر على جودة الفيديو؟",
+    "subtitle": "الإعلام الإبداعي - جودة الفيديو",
+    "options": [
+      {"id": "a", "text": "الدقة", "correct": false},
+      {"id": "b", "text": "معدل البت", "correct": false},
+      {"id": "c", "text": "معدل الإطارات", "correct": false},
+      {"id": "d", "text": "جميع ما سبق", "correct": true}
+    ]
+  },
+  {
+    "id": 84,
+    "text": "ما هو المصطلح الذي يصف تباين الألوان في التصميم؟",
+    "subtitle": "الإعلام الإبداعي - نظرية الألوان",
+    "options": [
+      {"id": "a", "text": "التباين", "correct": true},
+      {"id": "b", "text": "التوازن", "correct": false},
+      {"id": "c", "text": "التناسب", "correct": false},
+      {"id": "d", "text": "الإيقاع", "correct": false}
+    ]
+  },
+  {
+    "id": 85,
+    "text": "ما هي دقة الفيديو HD؟",
+    "subtitle": "الإعلام الإبداعي - دقة الفيديو",
+    "options": [
+      {"id": "a", "text": "720p", "correct": true},
+      {"id": "b", "text": "1080p", "correct": false},
+      {"id": "c", "text": "1440p", "correct": false},
+      {"id": "d", "text": "2160p", "correct": false}
+    ]
+  },
+  {
+    "id": 86,
+    "text": "أي من هذه الأدوات تستخدم لاختيار الألوان في التصميم؟",
+    "subtitle": "الإعلام الإبداعي - أدوات التصميم",
+    "options": [
+      {"id": "a", "text": "أداة القطارة", "correct": true},
+      {"id": "b", "text": "أداة الفرشاة", "correct": false},
+      {"id": "c", "text": "أداة القلم", "correct": false},
+      {"id": "d", "text": "أداة التحديد", "correct": false}
+    ]
+  },
+  {
+    "id": 87,
+    "text": "ما هو البرنامج المستخدم لتصميم interfaces التطبيقات؟",
+    "subtitle": "الإعلام الإبداعي - تصميم الواجهات",
+    "options": [
+      {"id": "a", "text": "أدوبي XD", "correct": true},
+      {"id": "b", "text": "أدوبي فوتوشوب", "correct": false},
+      {"id": "c", "text": "أدوبي إليستريتور", "correct": false},
+      {"id": "d", "text": "أدوبي بريمير", "correct": false}
+    ]
+  },
+  {
+    "id": 88,
+    "text": "ما هو نوع الإضاءة المناسب للتصوير في النهار؟",
+    "subtitle": "الإعلام الإبداعي - إضاءة التصوير",
+    "options": [
+      {"id": "a", "text": "الإضاءة الطبيعية", "correct": true},
+      {"id": "b", "text": "الإضاءة الصناعية", "correct": false},
+      {"id": "c", "text": "الإضاءة المستمرة", "correct": false},
+      {"id": "d", "text": "الإضاءة الخاطفة", "correct": false}
+    ]
+  },
+  {
+    "id": 89,
+    "text": "ما هو المصطلح الذي يصف المسافة بين الفقرات في النص؟",
+    "subtitle": "الإعلام الإبداعي - الطباعة",
+    "options": [
+      {"id": "a", "text": "تباعد الفقرات", "correct": true},
+      {"id": "b", "text": "تباعد الأسطر", "correct": false},
+      {"id": "c", "text": "تباعد الكلمات", "correct": false},
+      {"id": "d", "text": "تباعد الحروف", "correct": false}
+    ]
+  },
+  {
+    "id": 90,
+    "text": "أي من هذه الصيغ تعتبر صيغة متجهة؟",
+    "subtitle": "الإعلام الإبداعي - صيغ الملفات",
+    "options": [
+      {"id": "a", "text": "AI", "correct": true},
+      {"id": "b", "text": "JPG", "correct": false},
+      {"id": "c", "text": "PNG", "correct": false},
+      {"id": "d", "text": "GIF", "correct": false}
+    ]
+  },
+  {
+    "id": 91,
+    "text": "ما هو البرنامج المستخدم لتحرير الصور الفوتوغرافية؟",
+    "subtitle": "الإعلام الإبداعي - برامج التحرير",
+    "options": [
+      {"id": "a", "text": "أدوبي فوتوشوب", "correct": true},
+      {"id": "b", "text": "أدوبي إليستريتور", "correct": false},
+      {"id": "c", "text": "أدوبي بريمير", "correct": false},
+      {"id": "d", "text": "أدوبي أفتر إفكتس", "correct": false}
+    ]
+  },
+  {
+    "id": 92,
+    "text": "ما هي تقنية التصوير التي تظهر الخلفية ضبابية؟",
+    "subtitle": "الإعلام الإبداعي - تقنيات التصوير",
+    "options": [
+      {"id": "a", "text": "عمق الميدان", "correct": true},
+      {"id": "b", "text": "سرعة الغالق", "correct": false},
+      {"id": "c", "text": "فتحة العدسة", "correct": false},
+      {"id": "d", "text": "الأيزو", "correct": false}
+    ]
+  },
+  {
+    "id": 93,
+    "text": "أي من هذه العناصر يؤثر على تعريض الصورة في التصوير الفوتوغرافي؟",
+    "subtitle": "الإعلام الإبداعي - أساسيات التصوير",
+    "options": [
+      {"id": "a", "text": "سرعة الغالق", "correct": false},
+      {"id": "b", "text": "فتحة العدسة", "correct": false},
+      {"id": "c", "text": "حساسية الضوء (ISO)", "correct": false},
+      {"id": "d", "text": "جميع ما سبق", "correct": true}
+    ]
+  },
+  {
+    "id": 94,
+    "text": "ما هو المصطلح الذي يصف تكوين الصورة من نقاط صغيرة؟",
+    "subtitle": "الإعلام الإبداعي - معالجة الصور",
+    "options": [
+      {"id": "a", "text": "البكسل", "correct": true},
+      {"id": "b", "text": "المتجه", "correct": false},
+      {"id": "c", "text": "الرستر", "correct": false},
+      {"id": "d", "text": "الفيكتور", "correct": false}
+    ]
+  },
+  {
+    "id": 95,
+    "text": "ما هي المساحة الآمنة التي يجب تركها في التصميم لتجنب القص؟",
+    "subtitle": "الإعلام الإبداعي - تصميم المطبوعات",
+    "options": [
+      {"id": "a", "text": "منطقة القص", "correct": false},
+      {"id": "b", "text": "الهامش الآمن", "correct": true},
+      {"id": "c", "text": "منطقة العمل", "correct": false},
+      {"id": "d", "text": "منطقة التصميم", "correct": false}
+    ]
+  },
+  {
+    "id": 96,
+    "text": "أي من هذه البرامج يستخدم لمونتاج الفيديو؟",
+    "subtitle": "الإعلام الإبداعي - برامج المونتاج",
+    "options": [
+      {"id": "a", "text": "أدوبي بريمير", "correct": true},
+      {"id": "b", "text": "أدوبي فوتوشوب", "correct": false},
+      {"id": "c", "text": "أدوبي إليستريتور", "correct": false},
+      {"id": "d", "text": "أدوبي أكروبات", "correct": false}
+    ]
+  },
+  {
+    "id": 97,
+    "text": "ما هو عدد الإطارات في الثانية للفيديو السينمائي؟",
+    "subtitle": "الإعلام الإبداعي - تقنيات الفيديو",
+    "options": [
+      {"id": "a", "text": "24 إطار/ثانية", "correct": true},
+      {"id": "b", "text": "30 إطار/ثانية", "correct": false},
+      {"id": "c", "text": "60 إطار/ثانية", "correct": false},
+      {"id": "d", "text": "120 إطار/ثانية", "correct": false}
+    ]
+  },
+  {
+    "id": 98,
+    "text": "ما هو المصطلح الذي يصف تدرج الألوان من الفاتح إلى الغامق؟",
+    "subtitle": "الإعلام الإبداعي - نظرية الألوان",
+    "options": [
+      {"id": "a", "text": "التشبع", "correct": false},
+      {"id": "b", "text": "الدرجة اللونية", "correct": false},
+      {"id": "c", "text": "القيمة", "correct": true},
+      {"id": "d", "text": "الظل", "correct": false}
+    ]
+  },
+  {
+    "id": 99,
+    "text": "أي من هذه الأنماط اللونية يستخدم للطباعة؟",
+    "subtitle": "الإعلام الإبداعي - أنظمة الألوان",
+    "options": [
+      {"id": "a", "text": "RGB", "correct": false},
+      {"id": "b", "text": "CMYK", "correct": true},
+      {"id": "c", "text": "HSV", "correct": false},
+      {"id": "d", "text": "LAB", "correct": false}
+    ]
+  },
+  {
+    "id": 100,
+    "text": "ما هو البرنامج المستخدم لإنشاء المؤثرات البصرية؟",
+    "subtitle": "الإعلام الإبداعي - المؤثرات البصرية",
+    "options": [
+      {"id": "a", "text": "أدوبي أفتر إفكتس", "correct": true},
+      {"id": "b", "text": "أدوبي بريمير", "correct": false},
+      {"id": "c", "text": "أدوبي فوتوشوب", "correct": false},
+      {"id": "d", "text": "أدوبي إليستريتور", "correct": false}
+    ]
+  }
+]

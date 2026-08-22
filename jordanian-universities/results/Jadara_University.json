@@ -1,0 +1,123 @@
+{
+  "basic_info": {
+    "name": "جامعة جدارا",
+    "nameEn": "Jadara University",
+    "type": "private",
+    "city": "Irbid",
+    "region": "north",
+    "established": 2005,
+    "website": "https://www.jadara.edu.jo"
+  },
+  "admission_requirements": {
+    "general_requirements": "Tawjihi (General Secondary Education Certificate) or equivalent; credit hour system; minimum percentage varies by major",
+    "min_tawjihi_mark": 60,
+    "has_entrance_exam": false,
+    "exam_details": "N/A",
+    "english_requirement": "[uncertain]"
+  },
+  "majors_overview": {
+    "college_count": 14,
+    "major_categories": ["pharmacy", "allied medical sciences", "engineering", "information technology", "science", "business", "arts and languages", "educational sciences", "law", "physical education", "media", "technical", "fine arts and design"],
+    "total_majors": 48,
+    "has_postgraduate": true,
+    "postgraduate_programs": "20+ master's and higher diploma programs"
+  },
+  "tuition_fees": {
+    "annual_fees_range": "300 - 3,600 JOD (per semester, estimated based on credit hour rates)",
+    "per_credit_hour_range": "10 - 120 JOD",
+    "medical_majors_fees": 2430,
+    "engineering_majors_fees": 1350,
+    "humanities_majors_fees": 600,
+    "fees_by_major": {
+      "Arabic Language and Literature": 20,
+      "English Language and Literature": 30,
+      "English Language/Translation": 30,
+      "History": 15,
+      "Special Education": 24,
+      "Kindergarten": 20,
+      "Psychological and Educational Guidance": 20,
+      "Family Reform and Guidance": 20,
+      "Vocational Education": 22.5,
+      "Accounting": 25,
+      "Business Administration": 30,
+      "Business Intelligence": 30,
+      "Financial Technology": 26,
+      "Digital Marketing": 30,
+      "Business Information Technology": 45,
+      "Human Resource Management": 35,
+      "Customs and Taxation Sciences": 48,
+      "Law": 28,
+      "Political Science": 14,
+      "Sharia and Islamic Studies": 10,
+      "Computer Science": 60,
+      "Internet of Things": 51,
+      "Computer Networks and Cybersecurity": 60,
+      "Software Engineering": 60,
+      "Robotics and Artificial Intelligence": 60,
+      "Mathematics": 28,
+      "Civil Engineering": 48,
+      "Communications and Computer Engineering": 48,
+      "Renewable Energy Engineering": 49.5,
+      "Pharmacy": 81,
+      "Doctor of Pharmacy": 120,
+      "Medical Laboratory Sciences": 60,
+      "Respiratory Therapy": 75,
+      "Chemistry": 35,
+      "Graphic Design": 30,
+      "Interior Design": 39,
+      "Media and Communication Technology": 30,
+      "Physical Education": 30,
+      "Sports Training": 30,
+      "Radio and Television": 30,
+      "Ambulance and Emergency (under establishment)": 48,
+      "Chemistry and Pharmaceutical Manufacturing (under establishment)": 84,
+      "Aircraft Maintenance (under establishment)": 72
+    },
+    "notes": "Per-credit-hour fees range from 10 JOD (Sharia and Islamic Studies) to 120 JOD (Doctor of Pharmacy); discounts available for high-achieving students including 50% off for 90%+ Tawjihi, 25% off for 80-89% Tawjihi; siblings discount; free transportation and Wi-Fi for all students; students who fall below 68% GPA after first two semesters lose discount eligibility; Syrian and Egyptian nationals pay reduced flat fees"
+  },
+  "ranking_accreditation": {
+    "national_ranking": "1st in northern Jordan (THE Impact Rankings 2026); 21st globally in Quality Education",
+    "accreditation": "Ministry of Higher Education and Scientific Research of Jordan; ASIC International; ACPE Accredited (Pharmacy); Union of Arab Universities; International Association of Universities (IAU); Federation of the Universities of the Islamic World (FUIW)",
+    "international_recognition": "QS World University Rankings 2026: 1401+; QS World University Rankings 2027: 1201-1400; THE Impact Rankings 2026: 1st in northern Jordan, 21st globally in Quality Education; Webometrics 2026: Global 5007; GreenMetric World University Rankings"
+  },
+  "market_demand": {
+    "overall_demand": "[uncertain]",
+    "high_demand_majors": ["pharmacy", "engineering", "information technology", "business administration"],
+    "employment_rate_estimate": "[uncertain]",
+    "notes": "[uncertain]"
+  },
+  "campus_facilities": {
+    "has_accommodation": true,
+    "accommodation_details": "On-campus housing for female students: 10 buildings with 42 studios, 667 rooms, and 12 apartments, accommodating over 1,300 female students under supervision of 48 supervisors",
+    "has_library": true,
+    "has_sports_facilities": true,
+    "has_scholarships": true,
+    "scholarship_details": "Refa'iy Marashdeh Grant (50,000 JOD annually for students in need); DAFI scholarships for Syrian and Iraqi refugees; full coverage for top 10 Tawjihi achievers; 50% discount for 90%+ Tawjihi; 25% for 80-89%; siblings discounts; poor student fund; free transportation and health insurance",
+    "campus_area": "Approximately 200 dunams",
+    "sports_hall": "The Arena - one of the largest indoor sports halls in Jordan"
+  },
+  "contact_info": {
+    "address": "International Highway (Irbid/Amman), Aljaza'er Street, Nuaimeh, Irbid, Jordan",
+    "phone": "+962 2 7201222",
+    "phone_secondary": "+962 2 7201210",
+    "email": "info@Jadara.edu.jo",
+    "social_media": ["https://www.facebook.com/JadaraUniversity/", "https://twitter.com/JadaraUniversit/", "https://www.instagram.com/jadaraedu/", "https://www.linkedin.com/company/jadara-university/"]
+  },
+  "statistics": {
+    "total_graduates": "14,000+",
+    "international_students": "1,600+",
+    "current_students": "12,000+",
+    "postgraduate_programs": "20+",
+    "bachelor_programs": "48+",
+    "colleges": "14+",
+    "administrative_staff": "400+",
+    "faculty_nationalities": "50+",
+    "total_faculty": "400+"
+  },
+  "uncertain": [
+    "admission_requirements.english_requirement",
+    "market_demand.overall_demand",
+    "market_demand.employment_rate_estimate",
+    "market_demand.notes"
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "basic_info": {
+    "name": "الجامعة الألمانية الأردنية",
+    "nameEn": "German Jordanian University",
+    "type": "public",
+    "city": "Amman",
+    "region": "central",
+    "established": 2005,
+    "website": "https://www.gju.edu.jo"
+  },
+  "admission_requirements": {
+    "general_requirements": "Tawjihi (General Secondary Education Certificate) or equivalent (e.g., IB, IGCSE/GCE, SAT) with equivalency from Jordanian Ministry of Education",
+    "min_tawjihi_mark": 70,
+    "has_entrance_exam": true,
+    "exam_details": "Placement tests in English, German, and computer for all admitted students; acceptance exam (portfolio and interview) required for Architecture and Design and Visual Communication; admission exam available for students with Tawjihi 65-74.99% in certain majors (Nursing, Computer Science, Management Sciences, Logistics, International Accounting, Business Intelligence, Design and Visual Communication)",
+    "english_requirement": "English proficiency placement test upon admission; TOEFL or IELTS accepted for certain programs (minimum TOEFL 500 for postgraduate)"
+  },
+  "majors_overview": {
+    "college_count": 8,
+    "major_categories": [
+      "engineering",
+      "IT",
+      "business",
+      "architecture",
+      "arts and design",
+      "nursing",
+      "applied medical sciences",
+      "humanities and social sciences",
+      "languages and translation"
+    ],
+    "total_majors": 23,
+    "has_postgraduate": true
+  },
+  "tuition_fees": {
+    "annual_fees_range": "3,354 - 4,634 JOD per year (including semester fees) for regular Jordanian program; international students 130-150 JOD per credit hour",
+    "medical_majors_fees": "[uncertain]",
+    "engineering_majors_fees": 3200,
+    "humanities_majors_fees": 2240,
+    "notes": "Credit hour fees (regular): humanities 70 JOD, engineering/IT 100 JOD, architecture/business/nursing 110 JOD; international program: 130-150 JOD/credit hour; mandatory German year costs approximately 8,000-10,000 JOD for study and living in Germany; additional semester fees (registration, computer, medical insurance) ~557 JOD per semester. Detailed fee PDFs available at gju.edu.jo/content/tuition-fees-8319"
+  },
+  "ranking_accreditation": {
+    "national_ranking": "[uncertain]",
+    "accreditation": "MOHE (Ministry of Higher Education and Scientific Research), 13 German accredited programs, ISO 9001:2015, ISO 21001:2018, DAAD",
+    "international_recognition": "QS World University Rankings 2026: 801-850; QS World University Rankings 2027: 781-790; THE World University Rankings 2026: 801-1000; QS Arab Region Rankings 2025: 44th (per GJU homepage); GJU homepage lists 801-1000 World University Ranking"
+  },
+  "market_demand": {
+    "overall_demand": "high",
+    "high_demand_majors": [
+      "Engineering (Mechatronics, Industrial, Electrical, Mechanical and Maintenance Engineering)",
+      "Computer Science and Computer Engineering",
+      "Logistics Sciences",
+      "Nursing",
+      "Business Administration and Management Sciences",
+      "Pharmaceutical and Chemical Engineering"
+    ],
+    "employment_rate_estimate": "92%",
+    "notes": "GJU reports 92% employability rate; strong employer reputation ranking in top 554 globally per QS 2025; 102+ dual studies industry partners providing practical training; German-style applied education with mandatory German year enhances graduate competitiveness"
+  },
+  "campus_facilities": {
+    "has_accommodation": false,
+    "accommodation_details": "No on-campus dormitories; Deanship of Student Affairs assists students in finding off-campus housing in Amman; private flats available near Madaba campus and in Amman",
+    "has_library": true,
+    "has_sports_facilities": true,
+    "has_scholarships": true,
+    "scholarship_details": "DAAD German Year scholarships (992 Euro/month + 850 Euro travel allowance), Erasmus+ International Credit Mobility, research assistant scholarships for master's students, student fund for financial aid and academic excellence awards, GJU Future Minds Fellowship"
+  },
+  "contact_info": {
+    "address": "Amman Madaba Street, P.O. Box 35247, Amman 11180, Jordan",
+    "phone": "+962 6 429 4444",
+    "email": "info@gju.edu.jo",
+    "social_media": [
+      "https://www.facebook.com/GJUniversity",
+      "https://www.instagram.com/gjuniversity",
+      "https://www.twitter.com/GJUniversity",
+      "http://www.youtube.com/GermanJordanianUni",
+      "http://linkedin.com/company/german-jordanian-university"
+    ]
+  },
+  "uncertain": [
+    "medical_majors_fees",
+    "national_ranking"
+  ]
+}

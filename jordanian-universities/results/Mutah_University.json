@@ -1,0 +1,149 @@
+{
+  "basic_info": {
+    "name": "جامعة مؤتة",
+    "nameEn": "Mutah University",
+    "type": "public",
+    "city": "Karak",
+    "region": "south",
+    "established": 1981,
+    "website": "https://www.mutah.edu.jo/",
+    "campus_area": "4000 dunams",
+    "notes": "Founded by royal decree on March 22, 1981 as military wing; civilian wing established 1986. Known as 'University of the Sword and the Pen' due to its unique military-civilian dual structure."
+  },
+  "admission_requirements": {
+    "general_requirements": "Tawjihi (General Secondary Education Certificate) or equivalent; admission through unified admission coordination unit of the Ministry of Higher Education and Scientific Research; regular (competitive), parallel, and international tracks available",
+    "min_tawjihi_mark": "[uncertain]",
+    "has_entrance_exam": true,
+    "exam_details": "Students must take a proficiency exam during the first semester of admission; passing the exam is required to complete registration",
+    "english_requirement": "[uncertain]"
+  },
+  "majors_overview": {
+    "college_count": 17,
+    "college_breakdown": {
+      "humanities": 7,
+      "scientific": 9,
+      "graduate_studies": 1
+    },
+    "colleges_list": {
+      "humanities": [
+        "Arts",
+        "Business",
+        "Law",
+        "Social Sciences",
+        "Sharia",
+        "Educational Sciences",
+        "Sports Science"
+      ],
+      "scientific": [
+        "Medicine",
+        "Dentistry",
+        "Pharmacy",
+        "Allied Medical Sciences",
+        "Nursing",
+        "Engineering",
+        "Science",
+        "Information Technology",
+        "Agriculture"
+      ],
+      "graduate": "College of Graduate Studies"
+    },
+    "military_wing_colleges": [
+      "College of Police Sciences",
+      "College of Military Sciences",
+      "Princess Muna College of Nursing and Allied Medical Professions",
+      "Royal Jordanian National Defense College",
+      "Royal Command and Staff College",
+      "Prince Hassan College of Islamic Sciences"
+    ],
+    "major_categories": [
+      "medical",
+      "dentistry",
+      "engineering",
+      "IT",
+      "business",
+      "arts",
+      "law",
+      "sharia",
+      "science",
+      "agriculture",
+      "education",
+      "social sciences",
+      "sports",
+      "nursing",
+      "pharmacy",
+      "allied medical sciences"
+    ],
+    "total_bachelors_programs": 53,
+    "total_masters_programs": 42,
+    "total_doctoral_programs": 9,
+    "total_diploma_programs": 1,
+    "total_programs": 105,
+    "has_postgraduate": true
+  },
+  "tuition_fees": {
+    "annual_fees_range": "[uncertain] Fees vary by admission track (regular unified/parallel/international) and program",
+    "medical_majors_fees": "[uncertain]",
+    "engineering_majors_fees": "[uncertain]",
+    "humanities_majors_fees": "[uncertain]",
+    "notes": "Fees vary by admission track (regular unified/parallel/international) and program. Detailed fee schedules available on university website at /Pages/University-fees.aspx. Fee schedules exist for: bachelor's (regular/parallel/international), diploma, master's (Jordanian/international), doctoral (Jordanian/international), and medical specialization programs."
+  },
+  "ranking_accreditation": {
+    "national_ranking": "[uncertain]",
+    "accreditation": "Ministry of Higher Education and Scientific Research of Jordan (MOHE)",
+    "international_recognition": "[uncertain] QS World University Rankings and Times Higher Education rankings referenced on university homepage banners; QS 5-star rating achieved"
+  },
+  "market_demand": {
+    "overall_demand": "medium",
+    "high_demand_majors": [
+      "Medicine",
+      "Engineering",
+      "Pharmacy",
+      "Information Technology",
+      "Nursing"
+    ],
+    "employment_rate_estimate": "[uncertain]",
+    "notes": "[uncertain] No university-specific employment rate data available on official website"
+  },
+  "campus_facilities": {
+    "has_accommodation": true,
+    "accommodation_details": "Female student housing available; male accommodation through military wing barracks. Housing fund (صندوق الاسكان) available for students.",
+    "has_library": true,
+    "has_sports_facilities": true,
+    "has_scholarships": true,
+    "scholarship_details": "Various scholarship and financial support programs available including Royal Hashemite DIWAN Grants and Student Support Fund",
+    "notable_centers": [
+      "Prince Faisal Center for Dead Sea, Environmental and Energy Research",
+      "Language Center",
+      "Computer Center",
+      "E-Learning and Educational Resources Center",
+      "Academic Development and Quality Assurance Center",
+      "Center for Excellence and Innovation",
+      "Training and Consulting Center",
+      "Queen Rania Al Abdullah Center for Educational and Psychological Studies"
+    ]
+  },
+  "contact_info": {
+    "address": "Mutah University, Karak 61710, Jordan, P.O. Box 61710",
+    "phone": "+962 3 2372380",
+    "extension": "6000",
+    "fax": "+962 3 2375540",
+    "emails": [
+      "unit_admin@mutah.edu.jo",
+      "president@mutah.edu.jo"
+    ],
+    "social_media": [
+      "https://www.facebook.com/mutah2019/"
+    ]
+  },
+  "uncertain": [
+    "min_tawjihi_mark",
+    "english_requirement",
+    "annual_fees_range",
+    "medical_majors_fees",
+    "engineering_majors_fees",
+    "humanities_majors_fees",
+    "national_ranking",
+    "international_recognition",
+    "employment_rate_estimate"
+  ]
+}

@@ -1,0 +1,113 @@
+/* ===========================================
+   LEARNMAP — BASE STYLES
+   ===========================================
+   Reset, typography, focus states, container,
+   and base transitions.
+   =========================================== */
+
+/* ── Reset ── */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Cairo', sans-serif;
+  background-color: var(--lm-bg-primary);
+  color: var(--lm-text-primary);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+/* ── Skip to Content (Accessibility) ── */
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: var(--space-4);
+  background: var(--gold-primary);
+  color: #fff;
+  padding: var(--space-3) var(--space-6);
+  border-radius: 0 0 var(--radius-sm) var(--radius-sm);
+  font-weight: 700;
+  font-size: var(--fs-sm);
+  z-index: var(--z-toast);
+  text-decoration: none;
+  transition: top 0.2s ease;
+}
+
+.skip-link:focus {
+  top: 0;
+  outline: none;
+  box-shadow: var(--shadow-lg);
+}
+
+/* ── Focus States (Accessibility) ── */
+:focus-visible {
+  outline: 2px solid var(--gold-primary);
+  outline-offset: 2px;
+}
+
+a:focus-visible,
+button:focus-visible {
+  box-shadow: var(--focus-ring);
+  outline: none;
+}
+
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: none;
+  border-color: var(--gold-primary);
+  box-shadow: var(--focus-ring);
+}
+
+/* ── Base Transitions ── */
+a,
+button,
+input,
+select,
+textarea,
+.nav-menu a::after,
+.logo-img,
+.field-card,
+.video-card,
+.news-card,
+.info-card,
+.team-member,
+.stat-card,
+.btn-primary,
+.btn-secondary,
+.btn-hero,
+.btn-field,
+.filter-btn,
+.btn-apply,
+.control-btn,
+.bar,
+.sidebar-links li a,
+.content-section h2,
+.content-section li,
+.faq-question,
+.styled-table tbody tr,
+.feature-card,
+.level-card,
+.benefit-item,
+.answer-btn,
+.quiz-nav-btn,
+.rec-card,
+.resource-link,
+.score-card,
+.analysis-card {
+  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+/* ── Container (fluid) ── */
+.container {
+  width: min(100% - 2rem, 1200px);
+  margin-inline: auto;
+  padding-inline: var(--space-4);
+}

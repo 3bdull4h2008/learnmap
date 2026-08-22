@@ -1,0 +1,132 @@
+{
+  "basic_info": {
+    "name": "جامعة البلقاء التطبيقية",
+    "nameEn": "Al-Balqa Applied University",
+    "type": "public",
+    "city": "Salt",
+    "region": "central",
+    "established": 1996,
+    "website": "https://www.bau.edu.jo",
+    "notes": "Established by royal decree on August 22, 1996; law number 13 for 1997 approved March 25, 1997; teaching started 1997/1998"
+  },
+  "admission_requirements": {
+    "general_requirements": "General Secondary Education Certificate (Tawjihi) or equivalent",
+    "min_tawjihi_mark": "[uncertain]",
+    "has_entrance_exam": "[uncertain]",
+    "exam_details": "[uncertain]",
+    "english_requirement": "[uncertain]"
+  },
+  "majors_overview": {
+    "college_count": 25,
+    "major_categories": [
+      "medical",
+      "engineering",
+      "IT",
+      "business",
+      "arts",
+      "law",
+      "science",
+      "agriculture",
+      "education"
+    ],
+    "total_bachelor_programs": "+115",
+    "total_postgraduate_programs": "+30",
+    "total_diploma_programs": "+165",
+    "has_postgraduate": true,
+    "colleges": [
+      "Graduate Studies",
+      "Medicine",
+      "Engineering",
+      "Science",
+      "Nursing",
+      "Allied Medical Sciences",
+      "Agricultural Technology",
+      "Prince Abdullah bin Ghazi for Communications and IT",
+      "Artificial Intelligence",
+      "Business",
+      "Salt for Educational and Human Sciences",
+      "Salt Technology",
+      "Law",
+      "Al-Huson University College",
+      "Irbid University College",
+      "Ajloun University College",
+      "Technological Engineering",
+      "Amman University College for Financial and Administrative Sciences",
+      "Princess Alia University College",
+      "Zarqa University College",
+      "Princess Rahma University College",
+      "Karak University College",
+      "Shoubak University College",
+      "Ma'an University College",
+      "Aqaba University College"
+    ]
+  },
+  "tuition_fees": {
+    "annual_fees_range": "[uncertain]",
+    "medical_majors_fees": "[uncertain]",
+    "engineering_majors_fees": "[uncertain]",
+    "humanities_majors_fees": "[uncertain]",
+    "notes": "[uncertain]"
+  },
+  "ranking_accreditation": {
+    "national_ranking": "[uncertain]",
+    "accreditation": "Ministry of Higher Education and Scientific Research of Jordan",
+    "international_recognition": "[uncertain]",
+    "member_of": "Higher Education Council in Jordan, Arab, Islamic, and international university unions"
+  },
+  "market_demand": {
+    "overall_demand": "[uncertain]",
+    "high_demand_majors": "[uncertain]",
+    "employment_rate_estimate": "[uncertain]",
+    "notes": "[uncertain]"
+  },
+  "campus_facilities": {
+    "has_accommodation": "[uncertain]",
+    "accommodation_details": "[uncertain]",
+    "has_library": true,
+    "has_sports_facilities": "[uncertain]",
+    "has_scholarships": "[uncertain]",
+    "scholarship_details": "[uncertain]"
+  },
+  "statistics": {
+    "total_students": "+65000",
+    "total_graduates": "+240000",
+    "total_academics": "+1590",
+    "total_administrative_staff": "+2200"
+  },
+  "contact_info": {
+    "address": "Al-Salt 19117, Jordan",
+    "phone": "+962 5 349 1111",
+    "direct_phone": "+962 5 3558877",
+    "extensions": "3002/3006",
+    "fax": "+962 5 3532312",
+    "email": "info@bau.edu.jo",
+    "social_media": [
+      "https://www.facebook.com/BalqaAppUni",
+      "https://twitter.com/AlBalqaUni",
+      "https://www.instagram.com/al_balqaapplieduniversity"
+    ]
+  },
+  "uncertain": [
+    "admission_requirements.min_tawjihi_mark",
+    "admission_requirements.has_entrance_exam",
+    "admission_requirements.exam_details",
+    "admission_requirements.english_requirement",
+    "tuition_fees.annual_fees_range",
+    "tuition_fees.medical_majors_fees",
+    "tuition_fees.engineering_majors_fees",
+    "tuition_fees.humanities_majors_fees",
+    "tuition_fees.notes",
+    "ranking_accreditation.national_ranking",
+    "ranking_accreditation.international_recognition",
+    "market_demand.overall_demand",
+    "market_demand.high_demand_majors",
+    "market_demand.employment_rate_estimate",
+    "market_demand.notes",
+    "campus_facilities.has_accommodation",
+    "campus_facilities.accommodation_details",
+    "campus_facilities.has_sports_facilities",
+    "campus_facilities.has_scholarships",
+    "campus_facilities.scholarship_details"
+  ]
+}

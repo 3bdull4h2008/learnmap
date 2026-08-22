@@ -1,0 +1,8 @@
+# LearnMap robots.txt
+# https://learnmap.jo
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://learnmap.jo/sitemap.xml

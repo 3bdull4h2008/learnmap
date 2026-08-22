@@ -1,0 +1,65 @@
+{
+  "basic_info": {
+    "name": "جامعة الطفيلة التقنية",
+    "nameEn": "Tafila Technical University",
+    "type": "public",
+    "city": "Tafila",
+    "region": "south",
+    "established": 2005,
+    "website": "https://www.ttu.edu.jo"
+  },
+  "admission_requirements": {
+    "general_requirements": "Tawjihi (General Secondary Education Certificate) or equivalent; unified admission via Ministry of Higher Education and Scientific Research",
+    "min_tawjihi_mark": "[uncertain]",
+    "has_entrance_exam": false,
+    "exam_details": "No entrance exam required; admission based on Tawjihi scores and unified admission criteria",
+    "english_requirement": "[uncertain]"
+  },
+  "majors_overview": {
+    "college_count": 7,
+    "major_categories": ["engineering", "science", "information technology", "business", "arts", "education"],
+    "total_majors": 42,
+    "has_postgraduate": true
+  },
+  "tuition_fees": {
+    "annual_fees_range": "600-1500 JOD per year (estimated based on per-credit-hour fees)",
+    "medical_majors_fees": null,
+    "engineering_majors_fees": 900,
+    "humanities_majors_fees": 600,
+    "notes": "Fees are per credit hour; Jordanian morning students pay 20-50 JOD/credit hour depending on program. No medical programs offered."
+  },
+  "ranking_accreditation": {
+    "national_ranking": "20th in Jordan (EduRank 2026); 19th (Webometrics 2026)",
+    "accreditation": "Ministry of Higher Education and Scientific Research of Jordan, Association of Arab Universities (AAU), International Association of Universities (IAU), Federation of the Universities of the Islamic World (FUIW)",
+    "international_recognition": "Times Higher Education Impact Rankings 2025 (801-1000th); QS Arab Region Rankings (151-160); Webometrics World Rank 4790 (2026)"
+  },
+  "market_demand": {
+    "overall_demand": "[uncertain]",
+    "high_demand_majors": ["[uncertain]"],
+    "employment_rate_estimate": "[uncertain]",
+    "notes": "[uncertain]"
+  },
+  "campus_facilities": {
+    "has_accommodation": true,
+    "accommodation_details": "On-campus student housing available",
+    "has_library": true,
+    "has_sports_facilities": true,
+    "has_scholarships": true,
+    "scholarship_details": "Financial aid and scholarship programs available for local and international students"
+  },
+  "contact_info": {
+    "address": "P.O. Box 179, University Street, Tafila, 66110, Jordan",
+    "phone": "(+962) 2250-326",
+    "email": "official@ttu.edu.jo",
+    "social_media": ["https://www.facebook.com/tafila.technical.university", "https://www.linkedin.com/company/tafila-technical-university"]
+  },
+  "uncertain": [
+    "admission_requirements.min_tawjihi_mark",
+    "admission_requirements.english_requirement",
+    "market_demand.overall_demand",
+    "market_demand.high_demand_majors",
+    "market_demand.employment_rate_estimate",
+    "market_demand.notes",
+    "contact_info.social_media"
+  ]
+}

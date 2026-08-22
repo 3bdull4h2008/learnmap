@@ -1,0 +1,100 @@
+{
+  "basic_info": {
+    "name": "جامعة العلوم والتكنولوجيا الأردنية",
+    "nameEn": "Jordan University of Science and Technology",
+    "type": "public",
+    "city": "Irbid",
+    "region": "north",
+    "established": 1986,
+    "website": "https://www.just.edu.jo"
+  },
+  "admission_requirements": {
+    "general_requirements": "General Secondary Education Certificate (Tawjihi) or equivalent; admission is competitive based on Tawjihi average with varying minimum requirements per faculty",
+    "min_tawjihi_mark": "[uncertain]",
+    "has_entrance_exam": false,
+    "exam_details": "",
+    "english_requirement": "English proficiency required; instruction language is English; IELTS/TOEFL may be required for non-native speakers"
+  },
+  "majors_overview": {
+    "college_count": 12,
+    "major_categories": [
+      "engineering",
+      "medicine",
+      "dentistry",
+      "pharmacy",
+      "nursing",
+      "agriculture",
+      "veterinary medicine",
+      "science and arts",
+      "computer and information technology",
+      "applied medical sciences",
+      "architecture and design",
+      "graduate studies",
+      "nanotechnology institute"
+    ],
+    "total_bachelor_programs": 65,
+    "total_master_programs": 63,
+    "total_doctoral_programs": 2,
+    "has_postgraduate": true
+  },
+  "tuition_fees": {
+    "annual_fees_range": "[uncertain]",
+    "medical_majors_fees": "[uncertain]",
+    "engineering_majors_fees": "[uncertain]",
+    "humanities_majors_fees": "[uncertain]",
+    "notes": "Undergraduate fees are not publicly listed on the website; prospective students should contact the Admission office directly. Graduate fees vary by program and student type (Jordanian/Non-Jordanian). Multiple scholarships available including government, military, merit-based, and need-based; in 2023, JUST facilitated 17,831 full-tuition and 1,819 half-tuition scholarships"
+  },
+  "ranking_accreditation": {
+    "national_ranking": "2nd in Jordan (ARU 2025)",
+    "accreditation": "Ministry of Higher Education and Scientific Research of Jordan; ABET (Engineering, Computer Engineering, Computer Information Systems, Computer Network Engineering and Security, Computer Science, Mathematics, Physics); ASIIN (Agriculture, Biotechnology and Genetic Engineering); NAAB (Architecture and Design); IET (Software Engineering); ASIC (Radiology Technology, Optometry, Anesthesia Technology, Respiratory Therapy, Ambulance and Emergency, Medical Laboratory Sciences, Allied Dental Sciences, Dental Technology, Physiotherapy, Occupational Therapy, Hearing and Speech, Clinical Psychology); ACPE and RCSI (Pharmacy); ACEN (Nursing); ACGME and WFME (Medicine); Canadian Society for Chemistry (Chemistry); WFOT (Occupational Therapy); ISO 9001-2015 Quality Certificate",
+    "international_recognition": "QS World University Rankings 2027: #449; QS Stars: 5+; QS Sustainability: #576; QS Arab Region Rankings: #16; QS Subject Rankings 2026: 34 subjects ranked; UI GreenMetric World Ranking 2025: #116; U.S. News Best Global Universities 2025: #769; U.S. News Best Global Universities in Jordan: #2; ARU 2025: #13 overall, #2 national; Shanghai Ranking Clinical Medicine 2025: #401-500; Shanghai Dentistry & Oral Sciences: #151-200; Shanghai Nursing: #201-300"
+  },
+  "market_demand": {
+    "overall_demand": "high",
+    "high_demand_majors": [
+      "Medicine",
+      "Pharmacy",
+      "Dentistry",
+      "Engineering",
+      "Nursing",
+      "Computer Science and Information Technology"
+    ],
+    "employment_rate_estimate": "[uncertain]",
+    "notes": "JUST is Jordan's premier research university and graduates are highly sought after in the local and regional job market, particularly in medical and engineering fields; the university maintains strong industry connections and has a dedicated alumni network of 108,980 graduates (including 5,232 international)"
+  },
+  "campus_facilities": {
+    "has_accommodation": true,
+    "accommodation_details": "On-campus housing available with multiple options: single rooms (492-660 JD/semester), double rooms (300 JD/semester), studios (1,250-1,500 JD/semester), and Princess Basma building for female students (1,000-1,200 JD/semester); prices reduced by 50% during summer semester",
+    "has_library": true,
+    "library_details": "Centennial Library covers 12,500 sq meters, accommodates 2,500 visitors simultaneously; contains 195,000 books, 50,000 volumes, 900,892 e-books, 54 databases with 144,567 electronic journals; pioneer in RFID self-service equipment",
+    "has_sports_facilities": true,
+    "has_hospital": true,
+    "hospital_details": "King Abdullah University Hospital: 15-floor main tower with 3 underground floors (95,583 m2), capacity 678-819 beds; Field hospital with 300 beds including 50 intensive care beds",
+    "campus_area": "11,000,000 m2 total; buildings area 415,822 m2; green area 5,408,000 m2",
+    "has_solar_power": true,
+    "solar_power_capacity": "15 MW capacity, approximately 7,974 MW/h production",
+    "has_scholarships": true,
+    "scholarship_details": "Wide range of scholarships available including government scholarships (Ministry of Higher Education, Ministry of Education, Royal Diwan), military scholarships (Jordanian Armed Forces, Royal Jordanian Medical Services), identity-based scholarships (EU, Yemeni Cultural Attache, Higher Council for Persons with Disabilities), JUST internal scholarships (Deanship of Scientific Research, Deanship of Postgraduate Studies, students with limited income, children of JUST employees), and need-based scholarships; in 2023, JUST facilitated 17,831 full-tuition and 1,819 half-tuition scholarships"
+  },
+  "contact_info": {
+    "address": "P.O.Box 3030, Irbid 22110, Jordan",
+    "phone": "+962 2 7201000",
+    "fax": "+962 2 7095123",
+    "email": "public@just.edu.jo",
+    "social_media": [
+      "https://www.facebook.com/pages/JUST-University/633721593348542",
+      "https://www.instagram.com/justuniversityjo/",
+      "https://www.twitter.com/justedujo",
+      "https://www.youtube.com/channel/UCVLYZ-9I6nTA8-WgergKF0g",
+      "https://www.linkedin.com/edu/school?id=192021&trk=hp-feed-school-name"
+    ]
+  },
+  "uncertain": [
+    "min_tawjihi_mark",
+    "annual_fees_range",
+    "medical_majors_fees",
+    "engineering_majors_fees",
+    "humanities_majors_fees",
+    "employment_rate_estimate"
+  ]
+}

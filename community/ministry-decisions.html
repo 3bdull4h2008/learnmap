@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>القرارات والأنظمة التعليمية - LearnMap</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="icon" type="image/x-icon" href="/images/logo.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        /* =========================================================
+           FIX: Override broken styles.css rules for THIS page only
+           ========================================================= */
+        .news-image {
+            height: 180px !important; /* Fixes the 50pc (800px) typo */
+            background: linear-gradient(135deg, #2d3e5f, #1e2f47);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+        .news-icon {
+            width: 100% !important;
+            height: 100% !important;
+            position: relative !important;
+            transform: scale(3) !important; /* Removes the broken scale(3) */
+            display: flex !important;
+            justify-content: center !important;
+            align-items: center !important;
+        }
+        .news-icon img {
+            width: 70px !important;
+            height: 70px !important;
+            object-fit: contain;
+            filter: drop-shadow(0 4px 10px rgba(0,0,0,0.3));
+        }
+        .news-card {
+            display: flex !important;
+            flex-direction: column !important;
+            height: 100% !important;
+        }
+        .news-content {
+            padding: 1.5rem !important;
+            flex: 1 !important;
+            display: flex !important;
+            flex-direction: column !important;
+        }
+        .news-meta {
+            margin-top: auto;
+            padding-top: 1rem;
+            border-top: 1px solid rgba(0,0,0,0.05);
+        }
+        /* =========================================================
+           Modal Layout (ضروري لعرض المحتوى التفصيلي)
+           ========================================================= */
+        .modal-overlay {
+            position: fixed;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            background: rgba(0,0,0,0.7);
+            z-index: 9999;
+            display: none;
+            align-items: flex-start;
+            justify-content: center;
+            overflow-y: auto;
+            padding: 2rem 1rem;
+        }
+        .modal-overlay.active { display: flex; }
+        .modal-content {
+            background: var(--lm-bg-secondary);
+            border-radius: 20px;
+            max-width: 1000px;
+            width: 100%;
+            position: relative;
+            animation: slideUp 0.4s ease;
+            overflow: hidden;
+        }
+        @keyframes slideUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .modal-header {
+            background: linear-gradient(135deg, var(--color-dark-navy), var(--dm-bg-tertiary));
+            padding: 2.5rem;
+            color: white;
+            position: relative;
+        }
+        .modal-header::before {
+            content: '';
+            position: absolute;
+            top: 0; right: 0;
+            width: 200px; height: 200px;
+            background: radial-gradient(circle, rgba(212, 165, 116, 0.2), transparent);
+            border-radius: 50%;
+            transform: translate(30%, -30%);
+        }
+        .modal-close {
+            position: absolute;
+            top: 20px; left: 20px;
+            background: rgba(255,255,255,0.15);
+            border: none;
+            color: white;
+            width: 40px; height: 40px;
+            border-radius: 50%;
+            font-size: 1.3rem;
+            cursor: pointer;
+            transition: all 0.3s;
+            z-index: 10;
+        }
+        .modal-close:hover {
+            background: rgba(255,255,255,0.3);
+            transform: rotate(90deg);
+        }
+        .modal-category {
+            display: inline-block;
+            background: var(--gold-primary);
+            color: white;
+            padding: 0.4rem 1rem;
+            border-radius: 15px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+        .modal-title {
+            font-size: var(--fs-2xl);
+            margin-bottom: 1rem;
+            color: white;
+            position: relative;
+            z-index: 2;
+        }
+        .modal-meta-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-top: 1.5rem;
+            position: relative;
+            z-index: 2;
+        }
+        .modal-meta-item {
+            background: rgba(255,255,255,0.1);
+            padding: 0.8rem 1rem;
+            border-radius: 10px;
+            backdrop-filter: blur(10px);
+        }
+        .modal-meta-item strong {
+            display: block;
+            color: var(--gold-light);
+            font-size: 0.8rem;
+            margin-bottom: 0.3rem;
+        }
+        .modal-meta-item span { color: white; font-size: 0.95rem; }
+        .modal-body {
+            padding: 2.5rem;
+            color: var(--lm-text-secondary);
+            line-height: 1.8;
+        }
+        .modal-body h2 {
+            color: var(--lm-text-primary);
+            font-size: var(--fs-2xl);
+            margin: 2rem 0 1rem;
+            border-right: 5px solid var(--gold-primary);
+            padding-right: 1rem;
+        }
+        .modal-body h2:first-child { margin-top: 0; }
+        .modal-body h3 { color: var(--lm-text-primary); font-size: var(--fs-xl); margin: 1.5rem 0 0.8rem; }
+        .modal-body h4 { color: var(--gold-primary); font-size: 1.1rem; margin: 1rem 0 0.5rem; }
+        .modal-body p { margin-bottom: 1rem; }
+        .modal-body ul, .modal-body ol { padding-right: 1.5rem; margin-bottom: 1rem; }
+        .modal-body li { margin-bottom: 0.5rem; }
+        .modal-body .alert-box {
+            background: rgba(200, 154, 102, 0.1);
+            border-right: 4px solid var(--gold-primary);
+            padding: 1rem 1.2rem;
+            border-radius: 10px;
+            margin: 1.5rem 0;
+        }
+        .modal-body .path-card, .modal-body .eligible-card, .modal-body .board-card, .modal-body .year-card, .modal-body .step-card {
+            background: var(--lm-bg-tertiary);
+            border-radius: 12px;
+            padding: 1.2rem;
+            margin-bottom: 1rem;
+            border-right: 4px solid var(--gold-primary);
+        }
+        .modal-body .path-card h3, .modal-body .eligible-card h3, .modal-body .board-card h3 {
+            color: var(--gold-primary);
+            margin-top: 0;
+        }
+        .modal-body .comparison-table, .modal-body .subjects-table, .modal-body .term-table, .modal-body .fee-table, .modal-body .priority-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.5rem 0;
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        .modal-body .comparison-table th, .modal-body .subjects-table th, .modal-body .term-table th, .modal-body .fee-table th, .modal-body .priority-table th {
+            background: var(--lm-bg-tertiary);
+            color: var(--lm-text-primary);
+            padding: 0.8rem 1rem;
+            text-align: right;
+            font-weight: 600;
+        }
+        .modal-body .comparison-table td, .modal-body .subjects-table td, .modal-body .term-table td, .modal-body .fee-table td, .modal-body .priority-table td {
+            padding: 0.8rem 1rem;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        .modal-body .comparison-table tr:last-child td, .modal-body .subjects-table tr:last-child td, .modal-body .term-table tr:last-child td, .modal-body .fee-table tr:last-child td, .modal-body .priority-table tr:last-child td {
+            border-bottom: none;
+        }
+        .modal-body .holiday-row { background: rgba(76, 175, 80, 0.08); }
+        .modal-body .exam-row { background: rgba(255, 152, 0, 0.08); }
+        .modal-body .core-cell { color: var(--gold-primary); font-weight: 600; }
+        .modal-body .skill-cell { color: #5c6bc0; font-weight: 600; }
+        .modal-body .path-cell { background: rgba(200, 154, 102, 0.08); font-weight: 600; }
+        .modal-body .quick-dates {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 1rem;
+            margin: 1.5rem 0;
+        }
+        .modal-body .date-card {
+            background: linear-gradient(135deg, #2d3e5f, #1e2f47);
+            color: white;
+            padding: 1.2rem;
+            border-radius: 12px;
+            text-align: center;
+        }
+        .modal-body .date-label { color: var(--gold-light); font-size: 0.85rem; margin-bottom: 0.5rem; }
+        .modal-body .date-value { font-size: 1rem; font-weight: 700; }
+        .modal-body .ascii-calendar {
+            background: #1a1a2e;
+            color: #d0a16e;
+            padding: 1.5rem;
+            border-radius: 10px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.85rem;
+            white-space: pre;
+            overflow-x: auto;
+            line-height: 1.6;
+        }
+        .modal-body .deadline-card {
+            background: linear-gradient(135deg, var(--gold-primary), var(--gold-primary));
+            color: white;
+            padding: 1.5rem;
+            border-radius: 15px;
+            text-align: center;
+            margin: 1.5rem 0;
+        }
+        .modal-body .deadline-date { font-size: 1.5rem; font-weight: 700; margin: 0.5rem 0; }
+        .modal-body .steps-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin: 1.5rem 0;
+        }
+        .modal-body .step-number {
+            width: 40px; height: 40px;
+            background: var(--gold-primary);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 1.2rem;
+            margin: 0 auto 0.8rem;
+        }
+        .modal-body .step-card h4 { margin-top: 0; }
+        .modal-body .tawjihi-header, .modal-body .supp-header, .modal-body .calendar-header, .modal-body .fund-header {
+            background: linear-gradient(135deg, #2d3e5f, #1e2f47);
+            color: white;
+            padding: 2rem;
+            border-radius: 15px;
+            margin-bottom: 2rem;
+        }
+        .modal-body .tawjihi-header h1, .modal-body .supp-header h1, .modal-body .calendar-header h1, .modal-body .fund-header h1 {
+            color: white;
+            margin-bottom: 0.5rem;
+        }
+        .modal-body .system-arts {
+            background: rgba(200, 154, 102, 0.08);
+            padding: 1.5rem;
+            border-radius: 12px;
+            margin: 1rem 0;
+        }
+        .modal-footer {
+            padding: 1.5rem 2.5rem;
+            background: var(--lm-bg-tertiary);
+            border-top: 1px solid #f0f0f0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .modal-footer .btn-official {
+            background: var(--gold-primary);
+            color: white;
+            padding: 0.7rem 1.5rem;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: 600;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            transition: all 0.3s;
+        }
+        .modal-footer .btn-official:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(200, 154, 102, 0.4);
+        }
+        .modal-footer .gazette-info {
+            color: var(--lm-text-muted);
+            font-size: 0.88rem;
+        }
+        /* ===== Dark Mode Overrides ===== */
+        body.dark-mode .modal-content { background: var(--dm-bg-secondary); }
+        body.dark-mode .modal-body { color: var(--dm-text-medium); }
+        body.dark-mode .modal-body h2, body.dark-mode .modal-body h3 { color: var(--dm-text-light); }
+        body.dark-mode .modal-body h4 { color: var(--dm-text-gold); }
+        body.dark-mode .modal-body .alert-box { background: var(--dm-gold-focus); border-right-color: var(--dm-text-gold); }
+        body.dark-mode .modal-body .path-card, body.dark-mode .modal-body .eligible-card, body.dark-mode .modal-body .board-card, body.dark-mode .modal-body .year-card, body.dark-mode .modal-body .step-card { background: var(--dm-bg-tertiary); }
+        body.dark-mode .modal-body .path-card h3, body.dark-mode .modal-body .eligible-card h3, body.dark-mode .modal-body .board-card h3 { color: var(--dm-text-gold); }
+        body.dark-mode .modal-body .comparison-table, body.dark-mode .modal-body .subjects-table, body.dark-mode .modal-body .term-table, body.dark-mode .modal-body .fee-table, body.dark-mode .modal-body .priority-table { background: var(--dm-bg-tertiary); }
+        body.dark-mode .modal-body .comparison-table th, body.dark-mode .modal-body .subjects-table th, body.dark-mode .modal-body .term-table th, body.dark-mode .modal-body .fee-table th, body.dark-mode .modal-body .priority-table th { background: var(--dm-bg-primary); color: var(--dm-text-light); }
+        body.dark-mode .modal-body .comparison-table td, body.dark-mode .modal-body .subjects-table td, body.dark-mode .modal-body .term-table td, body.dark-mode .modal-body .fee-table td, body.dark-mode .modal-body .priority-table td { color: var(--dm-text-medium); border-bottom-color: var(--dm-border); }
+        body.dark-mode .modal-body .holiday-row { background: rgba(76, 175, 80, 0.15); }
+        body.dark-mode .modal-body .exam-row { background: rgba(255, 152, 0, 0.15); }
+        body.dark-mode .modal-body .core-cell { color: var(--dm-text-gold); }
+        body.dark-mode .modal-body .skill-cell { color: #9fa8da; }
+        body.dark-mode .modal-body .path-cell { background: var(--dm-gold-focus); }
+        body.dark-mode .modal-body .system-arts { background: var(--dm-gold-focus); }
+        body.dark-mode .modal-footer { background: var(--dm-bg-tertiary); border-top-color: var(--dm-border); }
+        body.dark-mode .modal-footer .gazette-info { color: var(--dm-text-medium); }
+        body.dark-mode .modal-footer .btn-official { background: linear-gradient(135deg, var(--dm-text-gold), var(--dm-gold-light)); color: #0b1926; }
+        body.dark-mode .modal-body a { color: var(--dm-text-gold); }
+        @media (max-width: 768px) {
+            .modal-title { font-size: 1.5rem; }
+            .modal-body { padding: 1.5rem; }
+            .modal-header { padding: 1.5rem; }
+            .modal-footer { padding: 1rem 1.5rem; flex-direction: column; text-align: center; }
+        }
+    </style>
+</head>
+<body>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap" as="style">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap" rel="stylesheet">
+<div class="nav-overlay" id="navOverlay" aria-hidden="true"></div>
+<nav class="navbar" role="navigation" aria-label="القائمة الرئيسية">
+  <div class="nav-container">
+    <a href="/index.html" class="logo" aria-label="العودة للصفحة الرئيسية">
+      <img src="/logo.webp" alt="LearnMap Logo" class="logo-img" width="50" height="50" loading="eager">
+    </a>
+    <button class="hamburger" id="hamburger" type="button" aria-label="فتح القائمة" aria-expanded="false" aria-controls="navMenu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <ul class="nav-menu" id="navMenu" role="menubar">
+      <li class="has-submenu" role="none">
+        <a role="menuitem" aria-haspopup="true" aria-expanded="false">النظام التعليمي في الأردن</a>
+        <ul class="dropdown-menu" role="menu">
+          <li role="none"><a href="/fields-awareness/overview/BTEC-System-2025.html" role="menuitem">المسار المهني والتقني</a></li>
+          <li role="none"><a href="/fields-awareness/overview/jordanian-system-2025.html" role="menuitem">المسار الأكاديمي</a></li>
+          <li class="has-submenu" role="none">
+            <a role="menuitem" aria-haspopup="true" aria-expanded="false">تخصصات المسار الأكاديمي</a>
+            <ul class="dropdown-submenu" role="menu">
+              <li role="none"><a href="/fields-awareness/academic/science-and-technology-field.html" role="menuitem">الهندسة والعلوم والتكنولوجيا</a></li>
+              <li role="none"><a href="/fields-awareness/academic/health-field.html" role="menuitem">الصحي</a></li>
+              <li role="none"><a href="/fields-awareness/academic/business-and-management-field.html" role="menuitem">إدارة الأعمال</a></li>
+              <li role="none"><a href="/fields-awareness/academic/languages-and-social-studies.html" role="menuitem">اللغات والعلوم الانسانية والاجتماعية</a></li>
+            </ul>
+          </li>
+          <li class="has-submenu" role="none">
+            <a role="menuitem" aria-haspopup="true" aria-expanded="false">تخصصات المسار المهني</a>
+            <ul class="dropdown-submenu" role="menu">
+              <li role="none"><a href="/fields-awareness/vocational/engineering-vocational.html" role="menuitem">الهندسة</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/information-technology-vocational.html" role="menuitem">تكنولوجيا معلومات</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/hospitality-vocational.html" role="menuitem">الضيافة</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/hair-and-beauty-vocational.html" role="menuitem">الشعر والتجميل</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/construction-vocational.html" role="menuitem">البناء والإنشاءات</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/agriculture-vocational.html" role="menuitem">الزراعة</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/art-and-design-vocational.html" role="menuitem">الفن والتصميم</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/travel-and-tourism-vocational.html" role="menuitem">السفر والسياحة</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/business-and-management-vocational.html" role="menuitem">الأعمال</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/creative-media-vocational.html" role="menuitem">الوسائط الإبداعية</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/Healthcare-and-Social-Care-Vocational.html" role="menuitem">الرعاية الصحية والاجتماعية</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/sports-vocational.html" role="menuitem">الرياضة</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li class="has-submenu" role="none">
+        <a role="menuitem" aria-haspopup="true" aria-expanded="false">التوجيه المهني</a>
+        <ul class="dropdown-menu" role="menu">
+          <li role="none"><a href="/career-guidance/interest-test.html" role="menuitem">اختبار الميول والقدرات</a></li>
+          <li role="none"><a href="/career-guidance/university-matcher.html" role="menuitem">مطابقة الجامعات</a></li>
+          <li role="none"><a href="/career-guidance/field-test.html" role="menuitem">اختبار الجاهزية المهنية</a></li>
+          <li role="none"><a href="/career-guidance/skills-development.html" role="menuitem">تطوير المهارات</a></li>
+          <li role="none"><a href="/career-guidance/market-demand.html" role="menuitem">احتياجات السوق</a></li>
+          <li role="none"><a href="/career-guidance/universities-list.html" role="menuitem">دليل الجامعات</a></li>
+        </ul>
+      </li>
+      <li class="has-submenu" role="none">
+        <a role="menuitem" aria-haspopup="true" aria-expanded="false">الدعم النفسي</a>
+        <ul class="dropdown-menu" role="menu">
+          <li role="none"><a href="/psychological-support/time-management-tools.html" role="menuitem">إدارة الوقت</a></li>
+          <li role="none"><a href="/psychological-support/mindset-and-emotional-regulation.html" role="menuitem">العقلية والضبط النفسي</a></li>
+        </ul>
+      </li>
+      <li class="has-submenu" role="none">
+        <a role="menuitem" aria-haspopup="true" aria-expanded="false">الأخبار والمجتمع</a>
+        <ul class="dropdown-menu" role="menu">
+          <li role="none"><a href="/community/ministry-decisions.html" role="menuitem">قرارات الوزارة</a></li>
+          <li role="none"><a href="/career-guidance/faq.html" role="menuitem">الأسئلة الشائعة</a></li>
+        </ul>
+      </li>
+    </ul>
+    <div class="nav-buttons">
+      <div class="nav-account-section" id="navAccountSection">
+        <a href="/auth/login.html" class="nav-account-btn" id="navAccountBtn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+          <span id="navAccountText">حسابي</span>
+        </a>
+      </div>
+      <button id="darkModeToggle" class="btn-dark-mode" type="button" aria-label="تفعيل الوضع الليلي" aria-pressed="false">
+        <svg class="dm-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+    </div>
+    <script>
+    try {
+      var isLoggedIn = false;
+
+      function showLoggedIn(user) {
+        isLoggedIn = true;
+        var nameEl = document.getElementById('navAccountText');
+        if (nameEl && user.name) nameEl.textContent = user.name;
+        var btn = document.getElementById('navAccountBtn');
+        if (btn) btn.href = '/user/profile.html';
+      }
+
+      function showLoggedOut() {
+        isLoggedIn = false;
+        document.getElementById('navAccountText').textContent = 'حسابي';
+        var btn = document.getElementById('navAccountBtn');
+        if (btn) btn.href = '/auth/login.html';
+      }
+
+      function handleLogout() {
+        if (window.LearnMapAuth && window.LearnMapAuth.logout) {
+          window.LearnMapAuth.logout();
+        } else {
+          localStorage.removeItem('learnmap_token');
+          localStorage.removeItem('learnmap_user');
+          showLoggedOut();
+          window.location.href = '/index.html';
+        }
+      }
+
+      function updateNavAuth() {
+        var token = localStorage.getItem('learnmap_token');
+        var userData = localStorage.getItem('learnmap_user');
+        if (token && userData) {
+          try { showLoggedIn(JSON.parse(userData)); } catch(e) { showLoggedOut(); }
+        } else if (token) {
+          showLoggedIn({});
+        } else {
+          showLoggedOut();
+        }
+      }
+
+      function tryCheckAuth() {
+        if (window.LearnMapAuth && window.LearnMapAuth.checkAuth) {
+          window.LearnMapAuth.checkAuth().then(function(user) {
+            if (user) showLoggedIn(user);
+          }).catch(function() {});
+        } else {
+          setTimeout(tryCheckAuth, 100);
+        }
+      }
+
+      updateNavAuth();
+      tryCheckAuth();
+      window.addEventListener('storage', updateNavAuth);
+
+      (function() {
+        var path = window.location.pathname;
+        var links = document.querySelectorAll('.nav-menu a');
+        for (var i = 0; i < links.length; i++) {
+          var href = links[i].getAttribute('href');
+          if (href && path.indexOf(href) !== -1) {
+            links[i].setAttribute('aria-current', 'page');
+            break;
+          }
+        }
+      })();
+    } catch(e) {}
+    </script>
+  </div>
+</nav>
+
+    <!-- ===== Hero Section ===== -->
+    <section class="page-hero">
+        <div class="page-hero-content">
+            <h1> القرارات والأنظمة التعليمية</h1>
+            <p>جميع القرارات الرسمية الصادرة عن وزارة التربية والتعليم الأردنية — محدّثة وموثّقة من الجريدة الرسمية</p>
+        </div>
+    </section>
+    <!-- ===== Decisions Grid ===== -->
+    <section class="news-section" style="padding-top: 1rem;">
+        <div class="container">
+            <div class="news-grid" id="decisionsGrid" role="list">
+                <!-- Cards will be injected here -->
+            </div>
+            <div style="text-align: center; margin-top: 2rem;">
+                <a href="/community/ministry-decisions.html" class="btn-apply">عرض المزيد من القرارات</a>
+            </div>
+        </div>
+    </section>
+    <!-- ===== Modal ===== -->
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal-content" id="modalContent">
+            <!-- Content injected dynamically -->
+        </div>
+    </div>
+    <!-- ===== Footer ===== -->
+    <div id="footer"></div>
+    <script>
+        fetch("/components/footer.html")
+            .then(res => res.text())
+            .then(data => document.getElementById("footer").innerHTML = data);
+    </script>
+    <script>
+        let decisions = [];
+        // ===== Load JSON Data =====
+        fetch('/community/decision.json')
+            .then(res => res.json())
+            .then(data => {
+                decisions = data;
+                renderCards(decisions);
+            })
+            .catch(err => {
+                console.error('Error loading decisions:', err);
+                document.getElementById('decisionsGrid').innerHTML = `
+                    <div style="grid-column: 1/-1; text-align: center; padding: 3rem; color: var(--lm-text-muted);">
+                        <i class="fas fa-exclamation-triangle" style="font-size: 3rem; color: var(--gold-primary); margin-bottom: 1rem;"></i>
+                        <p>تعذّر تحميل البيانات. يرجى التحقق من وجود الملف: <code>/community/decision.json</code></p>
+                    </div>
+                `;
+            });
+        // ===== Render Cards =====
+        function renderCards(data) {
+            const grid = document.getElementById('decisionsGrid');
+            grid.innerHTML = data.map(decision => `
+                <a href="#" class="news-card" role="listitem" data-id="${decision.id}" onclick="openModal('${decision.id}'); return false;">
+                    <div class="news-image">
+                        <div class="news-icon">
+                            <img src="${decision.image}" alt="${decision.alt}" width="60" height="60" loading="lazy" decoding="async" onerror="this.style.display='none'; this.parentElement.innerHTML='<i class=\\'fas fa-file-alt\\' style=\\'font-size:3rem; color: var(--gold-primary);\\'></i>'">
+                        </div>
+                    </div>
+                    <div class="news-content">
+                        <span class="news-category">${decision.category}</span>
+                        <h3>${decision.title}</h3>
+                        <div class="news-meta">
+                            <span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="vertical-align:middle;margin-left:0.2rem"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg> ${decision.date}</span>
+                            <span class="news-tag">${decision.tag}</span>
+                        </div>
+                    </div>
+                </a>
+            `).join('');
+        }
+        // ===== Open Modal =====
+        function openModal(id) {
+            const decision = decisions.find(d => d.id === id);
+            if (!decision) return;
+            const modal = document.getElementById('modalContent');
+            modal.innerHTML = `
+                <div class="modal-header">
+                    <button class="modal-close" onclick="closeModal()" aria-label="إغلاق"><i class="fas fa-times"></i></button>
+                    <span class="modal-category">${decision.category}</span>
+                    <h1 class="modal-title">${decision.title}</h1>
+                    <div class="modal-meta-grid">
+                        <div class="modal-meta-item">
+                            <strong><i class="fas fa-hashtag"></i> رقم القرار</strong>
+                            <span>${decision.decision_number}</span>
+                        </div>
+                        <div class="modal-meta-item">
+                            <strong><i class="fas fa-calendar-alt"></i> تاريخ القرار</strong>
+                            <span>${decision.decision_date}</span>
+                        </div>
+                        <div class="modal-meta-item">
+                            <strong><i class="fas fa-book"></i> الجريدة الرسمية</strong>
+                            <span>${decision.official_gazette}</span>
+                        </div>
+                        <div class="modal-meta-item">
+                            <strong><i class="fas fa-tag"></i> الوسم</strong>
+                            <span>${decision.tag}</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-body">
+                    ${decision.detailed_content}
+                </div>
+                <div class="modal-footer">
+                    <div class="gazette-info">
+                        <i class="fas fa-info-circle"></i>
+                        المصدر: ${decision.official_gazette}
+                    </div>
+                    <a href="${decision.official_link}" target="_blank" class="btn-official">
+                        <i class="fas fa-external-link-alt"></i>
+                        المصدر الرسمي
+                    </a>
+                </div>
+            `;
+            document.getElementById('modalOverlay').classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+        // ===== Close Modal =====
+        function closeModal() {
+            document.getElementById('modalOverlay').classList.remove('active');
+            document.body.style.overflow = '';
+        }
+        // Close on overlay click
+        document.getElementById('modalOverlay').addEventListener('click', (e) => {
+            if (e.target.id === 'modalOverlay') closeModal();
+        });
+        // Close on ESC key
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') closeModal();
+        });
+        // ===== Filter Functionality =====
+        document.querySelectorAll('#filterBar .filter-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('#filterBar .filter-btn').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                const filter = btn.dataset.filter;
+                if (filter === 'all') {
+                    renderCards(decisions);
+                } else {
+                    renderCards(decisions.filter(d => d.category === filter));
+                }
+            });
+        });
+    </script>
+    <script src="../dark-mode-controller.js" defer></script>
+    <script src="../components/mobile-menu.js" defer></script>
+</body>
+</html>

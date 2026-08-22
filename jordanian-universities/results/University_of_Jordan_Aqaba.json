@@ -1,0 +1,98 @@
+{
+  "basic_info": {
+    "name": "الجامعة الأردنية - فرع العقبة",
+    "nameEn": "University of Jordan - Aqaba Branch",
+    "type": "public",
+    "city": "Aqaba",
+    "region": "south",
+    "established": 2009,
+    "website": "https://aqaba.ju.edu.jo"
+  },
+  "admission_requirements": {
+    "general_requirements": "Jordanian General Secondary Education Certificate (Tawjihi) or equivalent; minimum 65% for most programs, 70% for Nursing; competitive admission through unified admission system or direct admission for Aqaba governorate residents",
+    "min_tawjihi_mark": 65,
+    "has_entrance_exam": false,
+    "exam_details": "Proficiency examinations in Arabic, English, and Computer skills administered after admission for placement purposes",
+    "english_requirement": "TOEFL or IELTS required for international students; English proficiency exam after admission for placement"
+  },
+  "majors_overview": {
+    "college_count": 7,
+    "major_categories": ["business", "law", "tourism and hospitality", "languages", "basic and marine sciences", "information technology", "nursing"],
+    "total_majors": 16,
+    "has_postgraduate": true,
+    "postgraduate_programs": ["Business Administration (MBA)", "Marine Science", "Computer Science"]
+  },
+  "tuition_fees": {
+    "fee_type": "per credit hour",
+    "programs": [
+      {"name": "Business Administration", "regular_jd": 20, "parallel_jd": 70, "international_usd": 150, "min_mark": 65, "plan_hours": 132},
+      {"name": "Finance", "regular_jd": 20, "parallel_jd": 70, "international_usd": 150, "min_mark": 65, "plan_hours": 132},
+      {"name": "Accounting", "regular_jd": 20, "parallel_jd": 70, "international_usd": 150, "min_mark": 65, "plan_hours": 132},
+      {"name": "Laws", "regular_jd": 35, "parallel_jd": 60, "international_usd": 140, "min_mark": 65, "plan_hours": 141},
+      {"name": "Hotel Management", "regular_jd": 25, "parallel_jd": 70, "international_usd": 150, "min_mark": 65, "plan_hours": 138},
+      {"name": "Tourism Management", "regular_jd": 25, "parallel_jd": 60, "international_usd": 100, "min_mark": 65, "plan_hours": 138},
+      {"name": "Mathematics", "regular_jd": 35, "parallel_jd": 70, "international_usd": 130, "min_mark": 65, "plan_hours": 132},
+      {"name": "Life Sciences", "regular_jd": 35, "parallel_jd": 75, "international_usd": 130, "min_mark": 65, "plan_hours": 132},
+      {"name": "Applied English", "regular_jd": 45, "parallel_jd": 70, "international_usd": 150, "min_mark": 65, "plan_hours": 135},
+      {"name": "English Language and Literature", "regular_jd": 35, "parallel_jd": 60, "international_usd": 150, "min_mark": 65, "plan_hours": 132},
+      {"name": "Arabic Language and Literature", "regular_jd": 30, "parallel_jd": 60, "international_usd": 100, "min_mark": 65, "plan_hours": 132},
+      {"name": "French/English", "regular_jd": 30, "parallel_jd": 60, "international_usd": 190, "min_mark": 65, "plan_hours": 144},
+      {"name": "Computer Information Systems", "regular_jd": 47, "parallel_jd": 75, "international_usd": 190, "min_mark": 65, "plan_hours": 132},
+      {"name": "Business Information Technology", "regular_jd": 47, "parallel_jd": 75, "international_usd": 190, "min_mark": 65, "plan_hours": 132},
+      {"name": "Cybersecurity and Smart Networks", "regular_jd": 55, "parallel_jd": 75, "international_usd": 215, "min_mark": 65, "plan_hours": 132},
+      {"name": "Nursing", "regular_jd": 55, "parallel_jd": 90, "international_usd": 140, "min_mark": 70, "plan_hours": 135}
+    ],
+    "additional_fees_admission_semester": {
+      "regular_jd": 128,
+      "parallel_jd": 206,
+      "international_usd": 880,
+      "includes": ["admission application fees (15/25/140)", "admission fees (15/50/280)", "proficiency exam fees (45/45/60)", "services fees (5/10/20)", "registration fees (28/46/280)", "computer services fees (20/30/100)"]
+    },
+    "additional_fees_per_semester": {
+      "regular_jd": 53,
+      "parallel_jd": 86,
+      "international_usd": 400
+    }
+  },
+  "ranking_accreditation": {
+    "national_ranking": "[uncertain]",
+    "accreditation": "Ministry of Higher Education and Scientific Research of Jordan; Higher Education Accreditation Commission",
+    "international_recognition": "[uncertain]"
+  },
+  "market_demand": {
+    "overall_demand": "[uncertain]",
+    "high_demand_majors": ["[uncertain]"],
+    "employment_rate_estimate": "[uncertain]",
+    "notes": "Aqaba governorate unemployment rate 17.3% (2024). Key local economic sectors: tourism, hospitality, port logistics, and marine sciences. University selected for EU-funded EUSEEDS project focusing on employability, entrepreneurship, and digital skills. Direct admission open for Aqaba governorate residents with available vacancies."
+  },
+  "campus_facilities": {
+    "has_accommodation": true,
+    "accommodation_details": "Agreement with Aqaba Development Corporation (2014) provides four buildings for student housing at low rent; dormitory facilities available",
+    "has_library": true,
+    "has_sports_facilities": "[uncertain]",
+    "has_scholarships": true,
+    "scholarship_details": "Student Support Fund provides partial/full scholarships and loans for Jordanian public university students; agreements with American and European universities for graduate studies scholarships for outstanding students"
+  },
+  "contact_info": {
+    "address": "The University of Jordan Aqaba 2595, Aqaba, Jordan",
+    "phone": "+962 3 2090 450 / +962 3 2090 460",
+    "phone_registration": "+962 3 2090 450 Ext: 36047",
+    "email": "admin@ju.edu.jo",
+    "email_registration": "regaq@ju.edu.jo",
+    "social_media": {
+      "facebook": "https://www.facebook.com/ujnews/",
+      "twitter_x": "https://x.com/UOJoffical",
+      "instagram": "https://www.instagram.com/the.university.of.jordan/",
+      "youtube": "https://www.youtube.com/channel/UC3GsbJeY4wD4tjENEsIQfUQ",
+      "linkedin": "https://www.linkedin.com/school/university-of-jordan"
+    }
+  },
+  "uncertain": [
+    "national_ranking",
+    "international_recognition",
+    "overall_demand",
+    "high_demand_majors",
+    "employment_rate_estimate",
+    "has_sports_facilities"
+  ]
+}

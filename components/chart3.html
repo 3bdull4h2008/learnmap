@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>أكثر القطاعات طلبًا في سوق العمل الأردني</title>
+  <link rel="stylesheet" href="/../styles.css">
+  <link rel="icon" type="image/x-icon" href="/images/logo.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+    }
+    body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 16px;
+      background: #f9f6f0;
+      font-family: 'Cairo', 'Tajawal', 'Segoe UI', Tahoma, sans-serif;
+    }
+    .chart-container {
+      width: 100%;
+      max-width: 1000px;
+      flex: 1;
+      min-height: 0;
+    }
+    h2 {
+      color: #d0a16e;
+      text-align: center;
+      margin-bottom: 8px;
+      font-size: 1.1rem;
+    }
+    .source {
+      font-size: 0.75rem;
+      color: #666;
+      text-align: center;
+      margin-top: 8px;
+      flex-shrink: 0;
+    }
+    body.dark-mode { background: #0b1926; }
+    body.dark-mode .source { color: #cbd5e1 !important; }
+    body.dark-mode h2 { color: #DEB253 !important; }
+  </style>
+</head>
+<body>
+  <h2>أكثر القطاعات طلبًا (2024)</h2>
+  <div class="chart-container">
+    <canvas id="sectorsChart"></canvas>
+  </div>
+  <div class="source">*الوظائف الشاغرة تقديرية شهريًا – مصادر: منصة ساعد، دائرة الإحصاءات، غرفة التجارة، تقارير ILO</div>
+  <script>
+  const ctx = document.getElementById("sectorsChart").getContext("2d");
+  const sectors = [
+    "تكنولوجيا المعلومات",
+    "المبيعات والتسويق",
+    "الرعاية الصحية",
+    "التعليم",
+    "الهندسة",
+    "الضيافة والسياحة",
+    "النقل واللوجستيات",
+    "البناء والتشييد",
+    "التصميم والإبداع",
+    "خدمة العملاء",
+    "المحاسبة والمالية",
+    "الزراعة",
+    "القانون",
+    "العلوم الإنسانية",
+    "الفنون الجميلة",
+    "الشريعة"
+  ];
+  const vacancies = [
+    1200, 950, 850, 800, 750, 650, 600, 580,
+    520, 500, 480, 350, 280, 220, 180, 150
+  ];
+  const backgroundColors = Array(16).fill('rgba(208, 161, 110, 0.7)');
+  backgroundColors[0] = 'rgba(46, 125, 50, 0.8)';
+  backgroundColors[1] = 'rgba(67, 160, 71, 0.8)';
+  backgroundColors[2] = 'rgba(67, 160, 71, 0.8)';
+  new Chart(ctx, {
+    type: "bar",
+    data: {  // ← This was missing!
+      labels: sectors,
+      datasets: [{
+        label: "الوظائف الشاغرة (شهريًا)",
+        data: vacancies,  // ← You wrote "vacancies" without "data:"
+        backgroundColor: backgroundColors,
+        borderColor: "#8b5e3c",
+        borderWidth: 1,
+        borderRadius: 4,
+        hoverBackgroundColor: 'rgba(208, 161, 110, 0.9)'
+      }]
+    },
+    options: {
+      indexAxis: 'y',
+      responsive: true,
+      maintainAspectRatio: false,
+      animation: {
+        duration: 1800,
+        easing: "easeOutQuart"
+      },
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          backgroundColor: 'rgba(139, 94, 60, 0.9)',
+          titleColor: '#fff',
+          bodyColor: '#fff',
+          callbacks: {
+            label: (ctx) => `الوظائف: ${ctx.parsed.x.toLocaleString()} شهريًا`
+          }
+        }
+      },
+      scales: {
+        x: {
+          beginAtZero: true,
+          ticks: {
+            color: "#555",
+            callback: (value) => value.toLocaleString()
+          },
+          grid: { color: "rgba(200,200,200,0.2)" }
+        },
+        y: {
+          ticks: {
+            color: "#555",
+            font: { size: 12 }
+          },
+          grid: { display: false }
+        }
+      }
+    }
+  });
+</script>
+</body>
+<script src="/dark-mode-controller.js" defer></script>
+</html>

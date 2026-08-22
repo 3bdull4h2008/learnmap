@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    
+    <url>
+        <loc>https://learnmap.jo/index.html</loc>
+        <lastmod>2026-03-02</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>https://learnmap.jo/About/vision-and-mission.html</loc>
+        <lastmod>2026-03-02</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <url>
+        <loc>https://learnmap.jo/fields-awareness/overview/BTEC-System-2025.html</loc>
+        <lastmod>2026-03-02</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://learnmap.jo/fields-awareness/overview/jordanian-system-2025.html</loc>
+        <lastmod>2026-03-02</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <url><loc>https://learnmap.jo/fields-awareness/academic/science-and-technology-field.html</loc><lastmod>2026-03-02</lastmod><priority>0.8</priority></url>
+    <url><loc>https://learnmap.jo/fields-awareness/academic/health-field.html</loc><lastmod>2026-03-02</lastmod><priority>0.8</priority></url>
+    <url><loc>https://learnmap.jo/fields-awareness/academic/business-and-management-field.html</loc><lastmod>2026-03-02</lastmod><priority>0.8</priority></url>
+    <url><loc>https://learnmap.jo/fields-awareness/academic/languages-and-social-studies.html</loc><lastmod>2026-03-02</lastmod><priority>0.8</priority></url>
+
+    <url><loc>https://learnmap.jo/fields-awareness/vocational/engineering-vocational.html</loc><lastmod>2026-03-02</lastmod><priority>0.8</priority></url>
+    <url><loc>https://learnmap.jo/fields-awareness/vocational/information-technology-vocational.html</loc><lastmod>2026-03-02</lastmod><priority>0.8</priority></url>
+    <url><loc>https://learnmap.jo/fields-awareness/vocational/hospitality-vocational.html</loc><lastmod>2026-03-02</lastmod><priority>0.8</priority></url>
+    <url><loc>https://learnmap.jo/fields-awareness/vocational/hair-and-beauty-vocational.html</loc><lastmod>2026-03-02</lastmod><priority>0.8</priority></url>
+    <url><loc>https://learnmap.jo/fields-awareness/vocational/construction-vocational.html</loc><lastmod>2026-03-02</lastmod><priority>0.8</priority></url>
+    <url><loc>https://learnmap.jo/fields-awareness/vocational/agriculture-vocational.html</loc><lastmod>2026-03-02</lastmod><priority>0.8</priority></url>
+    <url><loc>https://learnmap.jo/fields-awareness/vocational/art-and-design-vocational.html</loc><lastmod>2026-03-02</lastmod><priority>0.8</priority></url>
+    <url><loc>https://learnmap.jo/fields-awareness/vocational/travel-and-tourism-vocational.html</loc><lastmod>2026-03-02</lastmod><priority>0.8</priority></url>
+    <url><loc>https://learnmap.jo/fields-awareness/vocational/business-and-management-vocational.html</loc><lastmod>2026-03-02</lastmod><priority>0.8</priority></url>
+    <url><loc>https://learnmap.jo/fields-awareness/vocational/creative-media-vocational.html</loc><lastmod>2026-03-02</lastmod><priority>0.8</priority></url>
+    <url><loc>https://learnmap.jo/fields-awareness/vocational/Healthcare-and-Social-Care-Vocational.html</loc><lastmod>2026-03-02</lastmod><priority>0.8</priority></url>
+    <url><loc>https://learnmap.jo/fields-awareness/vocational/sports-vocational.html</loc><lastmod>2026-03-02</lastmod><priority>0.8</priority></url>
+
+    <url><loc>https://learnmap.jo/career-guidance/interest-test.html</loc><lastmod>2026-03-02</lastmod><priority>0.9</priority></url>
+    <url><loc>https://learnmap.jo/career-guidance/skills-development.html</loc><lastmod>2026-03-02</lastmod><priority>0.8</priority></url>
+    <url><loc>https://learnmap.jo/career-guidance/market-demand.html</loc><lastmod>2026-03-02</lastmod><priority>0.8</priority></url>
+    <url><loc>https://learnmap.jo/career-guidance/universities-list.html</loc><lastmod>2026-03-02</lastmod><priority>0.8</priority></url>
+    <url><loc>https://learnmap.jo/career-guidance/faq.html</loc><lastmod>2026-03-02</lastmod><priority>0.7</priority></url>
+    <url><loc>https://learnmap.jo/career-guidance/field-test.html</loc><lastmod>2026-03-02</lastmod><priority>0.9</priority></url>
+    <url><loc>https://learnmap.jo/career-guidance/university-matcher.html</loc><lastmod>2026-03-02</lastmod><priority>0.8</priority></url>
+
+    <url><loc>https://learnmap.jo/psychological-support/time-management-tools.html</loc><lastmod>2026-03-02</lastmod><priority>0.7</priority></url>
+    <url><loc>https://learnmap.jo/psychological-support/mindset-and-emotional-regulation.html</loc><lastmod>2026-03-02</lastmod><priority>0.7</priority></url>
+
+    <url><loc>https://learnmap.jo/community/ministry-decisions.html</loc><lastmod>2026-03-02</lastmod><priority>0.8</priority></url>
+    <url><loc>https://learnmap.jo/community/scholarships.html</loc><lastmod>2026-03-02</lastmod><priority>0.7</priority></url>
+
+    <url><loc>https://learnmap.jo/decisions/bac-decision-213-2025.html</loc><lastmod>2026-03-02</lastmod><priority>0.6</priority></url>
+    <url><loc>https://learnmap.jo/decisions/btec-expansion-2025.html</loc><lastmod>2026-03-02</lastmod><priority>0.6</priority></url>
+    <url><loc>https://learnmap.jo/decisions/new-tawjihi-curriculum-2025.html</loc><lastmod>2026-03-02</lastmod><priority>0.6</priority></url>
+    <url><loc>https://learnmap.jo/decisions/school-calendar-2025-2026.html</loc><lastmod>2026-03-02</lastmod><priority>0.6</priority></url>
+    <url><loc>https://learnmap.jo/decisions/tawjihi-supplementary-2025.html</loc><lastmod>2026-03-02</lastmod><priority>0.6</priority></url>
+    <url><loc>https://learnmap.jo/decisions/vet-fund-system-2025.html</loc><lastmod>2026-03-02</lastmod><priority>0.6</priority></url>
+
+    <url><loc>https://learnmap.jo/About/our-team.html</loc><lastmod>2026-03-02</lastmod><priority>0.5</priority></url>
+
+</urlset>

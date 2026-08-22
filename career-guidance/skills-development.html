@@ -1,0 +1,491 @@
+﻿<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>تنمية المهارات – LearnMap</title>
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="icon" type="image/x-icon" href="/images/logo.ico">
+    <style>
+        /* تخصيص داخلي لدعم الجدول والتلوين */
+        .skills-table .demand-high {
+            background-color: rgba(67, 160, 71, 0.12);
+        }
+        .skills-table .demand-medium {
+            background-color: rgba(255, 167, 38, 0.1);
+        }
+        .skills-table .demand-low {
+            background-color: rgba(158, 158, 158, 0.1);
+        }
+        .skills-table td:nth-child(3) {
+            font-weight: 600;
+        }
+        .skills-table .high { color: #2e7d32; }
+        .skills-table .medium { color: #f57c00; }
+        .skills-table .low { color: #757575; }
+        @media (max-width: 768px) {
+            .skills-table th:nth-child(4),
+            .skills-table td:nth-child(4) {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap" as="style">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap" rel="stylesheet">
+<div class="nav-overlay" id="navOverlay" aria-hidden="true"></div>
+<nav class="navbar" role="navigation" aria-label="القائمة الرئيسية">
+  <div class="nav-container">
+    <a href="/index.html" class="logo" aria-label="العودة للصفحة الرئيسية">
+      <img src="/logo.webp" alt="LearnMap Logo" class="logo-img" width="50" height="50" loading="eager">
+    </a>
+    <button class="hamburger" id="hamburger" type="button" aria-label="فتح القائمة" aria-expanded="false" aria-controls="navMenu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <ul class="nav-menu" id="navMenu" role="menubar">
+      <li class="has-submenu" role="none">
+        <a role="menuitem" aria-haspopup="true" aria-expanded="false">النظام التعليمي في الأردن</a>
+        <ul class="dropdown-menu" role="menu">
+          <li role="none"><a href="/fields-awareness/overview/BTEC-System-2025.html" role="menuitem">المسار المهني والتقني</a></li>
+          <li role="none"><a href="/fields-awareness/overview/jordanian-system-2025.html" role="menuitem">المسار الأكاديمي</a></li>
+          <li class="has-submenu" role="none">
+            <a role="menuitem" aria-haspopup="true" aria-expanded="false">تخصصات المسار الأكاديمي</a>
+            <ul class="dropdown-submenu" role="menu">
+              <li role="none"><a href="/fields-awareness/academic/science-and-technology-field.html" role="menuitem">الهندسة والعلوم والتكنولوجيا</a></li>
+              <li role="none"><a href="/fields-awareness/academic/health-field.html" role="menuitem">الصحي</a></li>
+              <li role="none"><a href="/fields-awareness/academic/business-and-management-field.html" role="menuitem">إدارة الأعمال</a></li>
+              <li role="none"><a href="/fields-awareness/academic/languages-and-social-studies.html" role="menuitem">اللغات والعلوم الانسانية والاجتماعية</a></li>
+            </ul>
+          </li>
+          <li class="has-submenu" role="none">
+            <a role="menuitem" aria-haspopup="true" aria-expanded="false">تخصصات المسار المهني</a>
+            <ul class="dropdown-submenu" role="menu">
+              <li role="none"><a href="/fields-awareness/vocational/engineering-vocational.html" role="menuitem">الهندسة</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/information-technology-vocational.html" role="menuitem">تكنولوجيا معلومات</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/hospitality-vocational.html" role="menuitem">الضيافة</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/hair-and-beauty-vocational.html" role="menuitem">الشعر والتجميل</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/construction-vocational.html" role="menuitem">البناء والإنشاءات</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/agriculture-vocational.html" role="menuitem">الزراعة</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/art-and-design-vocational.html" role="menuitem">الفن والتصميم</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/travel-and-tourism-vocational.html" role="menuitem">السفر والسياحة</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/business-and-management-vocational.html" role="menuitem">الأعمال</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/creative-media-vocational.html" role="menuitem">الوسائط الإبداعية</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/Healthcare-and-Social-Care-Vocational.html" role="menuitem">الرعاية الصحية والاجتماعية</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/sports-vocational.html" role="menuitem">الرياضة</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li class="has-submenu" role="none">
+        <a role="menuitem" aria-haspopup="true" aria-expanded="false">التوجيه المهني</a>
+        <ul class="dropdown-menu" role="menu">
+          <li role="none"><a href="/career-guidance/interest-test.html" role="menuitem">اختبار الميول والقدرات</a></li>
+          <li role="none"><a href="/career-guidance/university-matcher.html" role="menuitem">مطابقة الجامعات</a></li>
+          <li role="none"><a href="/career-guidance/field-test.html" role="menuitem">اختبار الجاهزية المهنية</a></li>
+          <li role="none"><a href="/career-guidance/skills-development.html" role="menuitem">تطوير المهارات</a></li>
+          <li role="none"><a href="/career-guidance/market-demand.html" role="menuitem">احتياجات السوق</a></li>
+          <li role="none"><a href="/career-guidance/universities-list.html" role="menuitem">دليل الجامعات</a></li>
+        </ul>
+      </li>
+      <li class="has-submenu" role="none">
+        <a role="menuitem" aria-haspopup="true" aria-expanded="false">الدعم النفسي</a>
+        <ul class="dropdown-menu" role="menu">
+          <li role="none"><a href="/psychological-support/time-management-tools.html" role="menuitem">إدارة الوقت</a></li>
+          <li role="none"><a href="/psychological-support/mindset-and-emotional-regulation.html" role="menuitem">العقلية والضبط النفسي</a></li>
+        </ul>
+      </li>
+      <li class="has-submenu" role="none">
+        <a role="menuitem" aria-haspopup="true" aria-expanded="false">الأخبار والمجتمع</a>
+        <ul class="dropdown-menu" role="menu">
+          <li role="none"><a href="/community/ministry-decisions.html" role="menuitem">قرارات الوزارة</a></li>
+          <li role="none"><a href="/career-guidance/faq.html" role="menuitem">الأسئلة الشائعة</a></li>
+        </ul>
+      </li>
+    </ul>
+    <div class="nav-buttons">
+      <div class="nav-account-section" id="navAccountSection">
+        <a href="/auth/login.html" class="nav-account-btn" id="navAccountBtn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+          <span id="navAccountText">حسابي</span>
+        </a>
+      </div>
+      <button id="darkModeToggle" class="btn-dark-mode" type="button" aria-label="تفعيل الوضع الليلي" aria-pressed="false">
+        <svg class="dm-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+    </div>
+    <script>
+    try {
+      var isLoggedIn = false;
+
+      function showLoggedIn(user) {
+        isLoggedIn = true;
+        var nameEl = document.getElementById('navAccountText');
+        if (nameEl && user.name) nameEl.textContent = user.name;
+        var btn = document.getElementById('navAccountBtn');
+        if (btn) btn.href = '/user/profile.html';
+      }
+
+      function showLoggedOut() {
+        isLoggedIn = false;
+        document.getElementById('navAccountText').textContent = 'حسابي';
+        var btn = document.getElementById('navAccountBtn');
+        if (btn) btn.href = '/auth/login.html';
+      }
+
+      function handleLogout() {
+        if (window.LearnMapAuth && window.LearnMapAuth.logout) {
+          window.LearnMapAuth.logout();
+        } else {
+          localStorage.removeItem('learnmap_token');
+          localStorage.removeItem('learnmap_user');
+          showLoggedOut();
+          window.location.href = '/index.html';
+        }
+      }
+
+      function updateNavAuth() {
+        var token = localStorage.getItem('learnmap_token');
+        var userData = localStorage.getItem('learnmap_user');
+        if (token && userData) {
+          try { showLoggedIn(JSON.parse(userData)); } catch(e) { showLoggedOut(); }
+        } else if (token) {
+          showLoggedIn({});
+        } else {
+          showLoggedOut();
+        }
+      }
+
+      function tryCheckAuth() {
+        if (window.LearnMapAuth && window.LearnMapAuth.checkAuth) {
+          window.LearnMapAuth.checkAuth().then(function(user) {
+            if (user) showLoggedIn(user);
+          }).catch(function() {});
+        } else {
+          setTimeout(tryCheckAuth, 100);
+        }
+      }
+
+      updateNavAuth();
+      tryCheckAuth();
+      window.addEventListener('storage', updateNavAuth);
+
+      (function() {
+        var path = window.location.pathname;
+        var links = document.querySelectorAll('.nav-menu a');
+        for (var i = 0; i < links.length; i++) {
+          var href = links[i].getAttribute('href');
+          if (href && path.indexOf(href) !== -1) {
+            links[i].setAttribute('aria-current', 'page');
+            break;
+          }
+        }
+      })();
+    } catch(e) {}
+    </script>
+  </div>
+</nav>
+
+    <section class="page-hero btec-hero">
+        <div class="hero-particles"></div>
+        <div class="page-hero-content">
+            <div class="hero-badge">تطوير المهارات </div>
+            <h1 class="animate-fade-in">تنمية المهارات المهنية والرقمية</h1>
+            <p class="animate-fade-in-delay">اكتشف المهارات الأكثر طلبًا في سوق العمل الأردني والعالمي، وابدأ رحلتك نحو التميّز الوظيفي.</p>
+            <div class="hero-stats">
+                <div class="stat-box animate-slide-up">
+                    <span class="stat-icon" aria-hidden="true"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg></span>
+                    <h3>+20</h3>
+                    <p>مهارة رقمية ومهنية مطلوبة</p>
+                </div>
+                <div class="stat-box animate-slide-up delay-1">
+                    <span class="stat-icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 1.1 2.7 2 6 2s6-.9 6-2v-5"/></svg></span>
+                    <h3>85%</h3>
+                    <p>من الوظائف تعتمد على المهارات الشخصية</p>
+                </div>
+                <div class="stat-box animate-slide-up delay-2">
+                    <span class="stat-icon" aria-hidden="true"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg></span>
+                    <h3>3</h3>
+                    <p>مسارات تطوير رئيسية</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Main Content Layout -->
+    <section class="page-content">
+        <div class="container">
+            <div class="content-grid">
+                <!-- Main Column -->
+                <div class="main-column">
+                    <!-- المهارات الأساسية -->
+                    <div class="content-section">
+                        <h2>المهارات الأساسية في العصر الرقمي</h2>
+                        <p>لم تعد الشهادة الأكاديمية كافية. اليوم، يبحث أصحاب العمل عن مهارات عملية وسلوكيات تُظهر قدرتك على التكيّف، الابتكار، والتواصل.</p>
+                        <p>تُصنَّف المهارات إلى ثلاث فئات رئيسية:</p>
+                        <ul>
+                            <li><strong>المهارات الرقمية (Digital Skills):</strong> مثل البرمجة، تحليل البيانات، الأمن السيبراني.</li>
+                            <li><strong>المهارات الشخصية (Soft Skills):</strong> مثل العمل الجماعي، إدارة الوقت، الذكاء العاطفي.</li>
+                            <li><strong>المهارات المهنية (Hard Skills):</strong> مثل المحاسبة، التصميم، الكهرباء، التمريض.</li>
+                        </ul>
+                    </div>
+                    <!-- جدول المهارات المطلوبة -->
+                    <div class="content-section">
+                        <h2>المهارات الأكثر طلبًا في الأردن (2026)</h2>
+                        <!-- أدوات الفلترة والبحث -->
+                        <div class="table-controls" style="margin-bottom: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
+                            <input type="text" id="skillSearch" placeholder="ابحث عن مهارة معينة..." style="padding: 0.6rem 1rem; border: 1px solid #ccc; border-radius: 4px; flex: 1; min-width: 200px; font-family: inherit;">
+                            <select id="categoryFilter" style="padding: 0.6rem; border: 1px solid #ccc; border-radius: 4px; font-family: inherit; cursor: pointer;">
+                                <option value="">جميع الفئات</option>
+                                <option value="رقمية">رقمية</option>
+                                <option value="شخصية">شخصية</option>
+                                <option value="مهنية">مهنية</option>
+                            </select>
+                        </div>
+                        <div class="table-container">
+                            <table class="styled-table skills-table">
+                                <thead>
+                                    <tr>
+                                        <th>المهارة</th>
+                                        <th>الفئة</th>
+                                        <th>مستوى الطلب</th>
+                                        <th>الرواتب التقريبية (دينار/شهر)</th>
+                                    </tr>
+                                </thead>
+                            <tbody>
+                                <tr class="demand-high">
+                                    <td>تحليل البيانات (Data Analysis)</td>
+                                    <td>رقمية</td>
+                                    <td class="high">مرتفع جدًا</td>
+                                    <td>700 – 1,800</td>
+                                </tr>
+                                <tr class="demand-high">
+                                    <td>البرمجة (Full-Stack Web Dev)</td>
+                                    <td>رقمية</td>
+                                    <td class="high">مرتفع جدًا</td>
+                                    <td>800 – 2,000</td>
+                                </tr>
+                                <tr class="demand-high">
+                                    <td>الأمن السيبراني (Cybersecurity)</td>
+                                    <td>رقمية</td>
+                                    <td class="high">مرتفع جدًا</td>
+                                    <td>900 – 2,500</td>
+                                </tr>
+                                <tr class="demand-high">
+                                    <td>الحوسبة السحابية (Cloud Computing)</td>
+                                    <td>رقمية</td>
+                                    <td class="high">مرتفع</td>
+                                    <td>850 – 2,200</td>
+                                </tr>
+                                <tr class="demand-high">
+                                    <td>تطوير البرمجيات وتضمين الأنظمة (DevOps)</td>
+                                    <td>رقمية</td>
+                                    <td class="high">مرتفع</td>
+                                    <td>1,000 – 2,400</td>
+                                </tr>
+                                <tr class="demand-high">
+                                    <td>إدارة المشاريع (Project Management)</td>
+                                    <td>شخصية</td>
+                                    <td class="high">مرتفع</td>
+                                    <td>600 – 1,500</td>
+                                </tr>
+                                <tr class="demand-high">
+                                    <td>التسويق عبر المؤثرين والنمو الرقمي (Growth Hacking)</td>
+                                    <td>رقمية</td>
+                                    <td class="high">مرتفع</td>
+                                    <td>550 – 1,300</td>
+                                </tr>
+                                <tr class="demand-medium">
+                                    <td>الذكاء الاصطناعي وهندسة الأوامر</td>
+                                    <td>رقمية</td>
+                                    <td class="medium">متوسط-مرتفع</td>
+                                    <td>900 – 2,200</td>
+                                </tr>
+                                <tr class="demand-medium">
+                                    <td>إدارة سلاسل الإمداد واللوجستيات (Logistics)</td>
+                                    <td>مهنية</td>
+                                    <td class="medium">متوسط-مرتفع</td>
+                                    <td>500 – 1,300</td>
+                                </tr>
+                                <tr class="demand-medium">
+                                    <td>صيانة المركبات الهجينة والكهربائية</td>
+                                    <td>مهنية</td>
+                                    <td class="medium">متوسط-مرتفع</td>
+                                    <td>500 – 1,200</td>
+                                </tr>
+                                <tr class="demand-medium">
+                                    <td>التسويق الرقمي وإدارة الحملات</td>
+                                    <td>رقمية</td>
+                                    <td class="medium">متوسط</td>
+                                    <td>400 – 1,000</td>
+                                </tr>
+                                <tr class="demand-medium">
+                                    <td>تطوير تطبيقات الهواتف الذكية</td>
+                                    <td>رقمية</td>
+                                    <td class="medium">متوسط</td>
+                                    <td>700 – 1,600</td>
+                                </tr>
+                                <tr class="demand-medium">
+                                    <td>التصميم الجرافيكي وتجربة المستخدم UI/UX</td>
+                                    <td>مهنية</td>
+                                    <td class="medium">متوسط</td>
+                                    <td>450 – 900</td>
+                                </tr>
+                                <tr class="demand-medium">
+                                    <td>المبيعات والوساطة العقارية الرقمية</td>
+                                    <td>شخصية</td>
+                                    <td class="medium">متوسط</td>
+                                    <td>400 – 1,100</td>
+                                </tr>
+                                <tr class="demand-medium">
+                                    <td>صيانة وتجهيز الأجهزة الطبية (Biomedical)</td>
+                                    <td>مهنية</td>
+                                    <td class="medium">متوسط</td>
+                                    <td>450 – 950</td>
+                                </tr>
+                                <tr class="demand-medium">
+                                    <td>إدارة وتأمين شبكات الاتصال الجيل الخامس 5G</td>
+                                    <td>رقمية</td>
+                                    <td class="medium">متوسط</td>
+                                    <td>750 – 1,500</td>
+                                </tr>
+                                <tr class="demand-low">
+                                    <td>الكتابة الإبداعية وصناعة المحتوى</td>
+                                    <td>شخصية</td>
+                                    <td class="low">منخفض</td>
+                                    <td>300 – 600</td>
+                                </tr>
+                                <tr class="demand-low">
+                                    <td>الترجمة العامة والفورية</td>
+                                    <td>مهنية</td>
+                                    <td class="low">منخفض</td>
+                                    <td>350 – 700</td>
+                                </tr>
+                                <tr class="demand-low">
+                                    <td>المحاسبة والتدقيق المالي التقليدي</td>
+                                    <td>مهنية</td>
+                                    <td class="low">منخفض</td>
+                                    <td>350 – 650</td>
+                                </tr>
+                                <tr class="demand-low">
+                                    <td>الأرشفة وإدخال البيانات التقليدي</td>
+                                    <td>رقمية</td>
+                                    <td class="low">منخفض</td>
+                                    <td>260 – 400</td>
+                                </tr>
+                            </tbody>
+                            </table>
+                        </div>
+                        <p style="font-size: 0.85rem; color: #777; margin-top: 0.5rem;">
+                            *البيانات تقديرية – مصادر: منصة ساعد، تقارير ILO، وغرفة تجارة الأردن.
+                        </p>
+                    </div>
+                    <!-- كيف تبدأ؟ -->
+                    <div class="content-section">
+                        <h2>كيف تبدأ في تطوير مهاراتك؟</h2>
+                        <div class="card-grid">
+                            <div class="info-card">
+                                <div class="info-card-content">
+                                    <div class="info-tag">مجانًا</div>
+                                    <h3>منصات عربية مجانية</h3>
+                                    <p>استفد من منصات مثل إدراك، رواق، ونفهم لتعلم المهارات الأساسية مجانًا.</p>
+                                </div>
+                            </div>
+                            <div class="info-card">
+                                <div class="info-card-content">
+                                    <div class="info-tag">معتمد</div>
+                                    <h3>شهادات عالمية</h3>
+                                    <p>احصل على شهادات معتمدة من Google, Microsoft, أو Coursera بأسعار رمزية.</p>
+                                </div>
+                            </div>
+                            <div class="info-card">
+                                <div class="info-card-content">
+                                    <div class="info-tag">تطبيقي</div>
+                                    <h3>مشاريع فعلية</h3>
+                                    <p>ابدأ بمشاريع صغيرة (مثل موقع شخصي أو تحليل بيانات) لتُظهر مهاراتك للعملاء.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- نصائح عملية -->
+                    <div class="content-section">
+                        <h2>نصائح ذهبية</h2>
+                        <ul>
+                            <li>ركز على مهارة واحدة كل 2–3 أشهر حتى تُتقنها.</li>
+                            <li>أنشئ محفظة أعمال (Portfolio) تعرض فيها مشاريعك.</li>
+                            <li>تدرّب على مقابلات العمل باستخدام منصات مثل Pramp.</li>
+                            <li>انضم إلى مجتمعات محلية (Meetups, Hackathons) لتوسيع شبكتك.</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Sidebar -->
+                <div class="sidebar">
+                    <div class="sidebar-card">
+                        <h3>هل هذا المسار لك؟</h3>
+                        <p>إذا كنت تحب اتخاذ القرارات، تحليل الأرقام، بناء فرق عمل، أو حتى إطلاق مشروعك الخاص — فقد يكون عالم الأعمال وجهتك.</p>
+                        <a href="../../career-guidance/interest-test.html" class="btn-primary" style="display: block; width: 100%; text-align: center; margin-bottom: 12px;">اختبار الميول</a>
+                        <p>إختبر قدراتك ومهاراتك ومعرفتك في هذا الحقل.</p>
+                        <a href="../../career-guidance/field-test.html" class="btn-primary" style="display: block; width: 100%; text-align: center;">اختبار المجال</a>
+                    </div>
+                    <div class="sidebar-card">
+                        <h3>روابط سريعة</h3>
+                        <ul class="sidebar-links">
+                            <li><a href="/career-guidance/market-demand.html">احتياجات سوق العمل</a></li>
+                            <li><a href="/fields-awareness/academic/science-and-technology-field.html">التخصصات الرقمية</a></li>
+                            <li><a href="/fields-awareness/vocational/information-technology-vocational.html">المسارات المهنية الرقمية</a></li>
+                        </ul>
+                    </div>
+                    <div class="sidebar-card">
+                        <h3>هل تبحث عن عمل؟</h3>
+                        <p style="font-size: 0.95rem; margin-bottom: 1rem;">
+                            استخدم منصات مثل:
+                        </p>
+                        <ul class="sidebar-links" style="font-size: 0.95rem;">
+                            <li><a href="https://saed.gov.jo" target="_blank">ساعد – الحكومة الأردنية</a></li>
+                            <li><a href="https://bayt.com" target="_blank">بيت.كوم</a></li>
+                            <li><a href="https://linkedin.com" target="_blank">LinkedIn</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Scripts -->
+    <script>
+        function initTableRowClick() {
+            document.querySelectorAll('.skills-table tbody tr').forEach(row => {
+                row.style.cursor = 'pointer';
+                row.addEventListener('click', () => {
+                    window.location.href = '/career-guidance/market-demand.html';
+                });
+            });
+        }
+        if (document.querySelector('.skills-table')) {
+            initTableRowClick();
+        }
+        // سكريبت فلترة وبحث الجدول تفاعلياً
+        document.getElementById('skillSearch').addEventListener('input', filterTable);
+        document.getElementById('categoryFilter').addEventListener('change', filterTable);
+        function filterTable() {
+            const searchText = document.getElementById('skillSearch').value.toLowerCase();
+            const categoryText = document.getElementById('categoryFilter').value;
+            const rows = document.querySelectorAll('.skills-table tbody tr');
+            rows.forEach(row => {
+                const skillName = row.cells[0].textContent.toLowerCase();
+                const skillCategory = row.cells[1].textContent;
+                const matchesSearch = skillName.includes(searchText);
+                const matchesCategory = categoryText === "" || skillCategory === categoryText;
+                if (matchesSearch && matchesCategory) {
+                    row.style.display = '';
+                } else {
+                    row.style.display = 'none';
+                }
+            });
+        }
+    </script>
+    <script src="../dark-mode-controller.js" defer></script>
+    <script src="../components/mobile-menu.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,1102 @@
+[
+  {
+    "id": 1,
+    "text": "ما هو البرنامج المسؤول عن إدارة موارد الحاسوب وتشغيل التطبيقات؟",
+    "subtitle": "تكنولوجيا المعلومات - أنظمة التشغيل",
+    "options": [
+      {"id": "a", "text": "برامج الأوفيس", "correct": false},
+      {"id": "b", "text": "نظام التشغيل", "correct": true},
+      {"id": "c", "text": "برامج مكافحة الفيروسات", "correct": false},
+      {"id": "d", "text": "المتصفح الإلكتروني", "correct": false}
+    ]
+  },
+  {
+    "id": 2,
+    "text": "أي من هذه المكونات يعتبر وحدة المعالجة المركزية للحاسوب؟",
+    "subtitle": "تكنولوجيا المعلومات - مكونات الحاسوب",
+    "options": [
+      {"id": "a", "text": "اللوحة الأم", "correct": false},
+      {"id": "b", "text": "الذاكرة العشوائية", "correct": false},
+      {"id": "c", "text": "المعالج", "correct": true},
+      {"id": "d", "text": "القرص الصلب", "correct": false}
+    ]
+  },
+  {
+    "id": 3,
+    "text": "ما هي لغة الترميز المستخدمة لإنشاء صفحات الويب؟",
+    "subtitle": "تكنولوجيا المعلومات - برمجة الويب",
+    "options": [
+      {"id": "a", "text": "HTML", "correct": true},
+      {"id": "b", "text": "Python", "correct": false},
+      {"id": "c", "text": "Java", "correct": false},
+      {"id": "d", "text": "C++", "correct": false}
+    ]
+  },
+  {
+    "id": 4,
+    "text": "أي من هذه البرامج يستخدم لمعالجة النصوص؟",
+    "subtitle": "تكنولوجيا المعلومات - برامج التطبيقات",
+    "options": [
+      {"id": "a", "text": "Microsoft Word", "correct": true},
+      {"id": "b", "text": "Microsoft Excel", "correct": false},
+      {"id": "c", "text": "Adobe Photoshop", "correct": false},
+      {"id": "d", "text": "PowerPoint", "correct": false}
+    ]
+  },
+  {
+    "id": 5,
+    "text": "ما هو الجهاز الذي يحول الإشارات الرقمية إلى تناظرية لإرسال البيانات عبر خطوط الهاتف؟",
+    "subtitle": "تكنولوجيا المعلومات - شبكات الحاسوب",
+    "options": [
+      {"id": "a", "text": "الراوتر", "correct": false},
+      {"id": "b", "text": "المودم", "correct": true},
+      {"id": "c", "text": "السويتش", "correct": false},
+      {"id": "d", "text": "الهاب", "correct": false}
+    ]
+  },
+  {
+    "id": 6,
+    "text": "أي من هذه الأنظمة يعتبر نظام تشغيل مفتوح المصدر؟",
+    "subtitle": "تكنولوجيا المعلومات - أنظمة التشغيل",
+    "options": [
+      {"id": "a", "text": "Windows", "correct": false},
+      {"id": "b", "text": "macOS", "correct": false},
+      {"id": "c", "text": "Linux", "correct": true},
+      {"id": "d", "text": "iOS", "correct": false}
+    ]
+  },
+  {
+    "id": 7,
+    "text": "ما هي الوحدة الأساسية لتمثيل البيانات في الحاسوب؟",
+    "subtitle": "تكنولوجيا المعلومات - أساسيات الحاسوب",
+    "options": [
+      {"id": "a", "text": "البايت", "correct": false},
+      {"id": "b", "text": "البت", "correct": true},
+      {"id": "c", "text": "الكيلوبايت", "correct": false},
+      {"id": "d", "text": "الميغابايت", "correct": false}
+    ]
+  },
+  {
+    "id": 8,
+    "text": "أي من هذه البرامج يستخدم لحماية الحاسوب من البرمجيات الخبيثة؟",
+    "subtitle": "تكنولوجيا المعلومات - الأمن السيبراني",
+    "options": [
+      {"id": "a", "text": "مضاد الفيروسات", "correct": true},
+      {"id": "b", "text": "معالج النصوص", "correct": false},
+      {"id": "c", "text": "الجداول الحسابية", "correct": false},
+      {"id": "d", "text": "قواعد البيانات", "correct": false}
+    ]
+  },
+  {
+    "id": 9,
+    "text": "ما هي لغة البرمجة المناسبة للمبتدئين بسبب بساطة تركيبها؟",
+    "subtitle": "تكنولوجيا المعلومات - البرمجة",
+    "options": [
+      {"id": "a", "text": "Python", "correct": true},
+      {"id": "b", "text": "C++", "correct": false},
+      {"id": "c", "text": "Assembly", "correct": false},
+      {"id": "d", "text": "Java", "correct": false}
+    ]
+  },
+  {
+    "id": 10,
+    "text": "أي من هذه الأجهزة يستخدم لتضخيم إشارة الشبكة اللاسلكية؟",
+    "subtitle": "تكنولوجيا المعلومات - شبكات الحاسوب",
+    "options": [
+      {"id": "a", "text": "المكرر", "correct": true},
+      {"id": "b", "text": "المحول", "correct": false},
+      {"id": "c", "text": "الجسر", "correct": false},
+      {"id": "d", "text": "المودم", "correct": false}
+    ]
+  },
+  {
+    "id": 11,
+    "text": "ما هو البروتوكول المستخدم لنقل صفحات الويب؟",
+    "subtitle": "تكنولوجيا المعلومات - شبكات",
+    "options": [
+      {"id": "a", "text": "FTP", "correct": false},
+      {"id": "b", "text": "HTTP", "correct": true},
+      {"id": "c", "text": "SMTP", "correct": false},
+      {"id": "d", "text": "TCP", "correct": false}
+    ]
+  },
+  {
+    "id": 12,
+    "text": "أي من هذه المكونات مسؤول عن تخزين البيانات بشكل دائم؟",
+    "subtitle": "تكنولوجيا المعلومات - تخزين البيانات",
+    "options": [
+      {"id": "a", "text": "الذاكرة العشوائية", "correct": false},
+      {"id": "b", "text": "القرص الصلب", "correct": true},
+      {"id": "c", "text": "ذاكرة الكاش", "correct": false},
+      {"id": "d", "text": "المعالج", "correct": false}
+    ]
+  },
+  {
+    "id": 13,
+    "text": "ما هي لغة الاستعلامات المستخدمة في قواعد البيانات؟",
+    "subtitle": "تكنولوجيا المعلومات - قواعد البيانات",
+    "options": [
+      {"id": "a", "text": "SQL", "correct": true},
+      {"id": "b", "text": "Java", "correct": false},
+      {"id": "c", "text": "Python", "correct": false},
+      {"id": "d", "text": "HTML", "correct": false}
+    ]
+  },
+  {
+    "id": 14,
+    "text": "أي من هذه الأنظمة يستخدم لإدارة قواعد البيانات؟",
+    "subtitle": "تكنولوجيا المعلومات - قواعد البيانات",
+    "options": [
+      {"id": "a", "text": "MySQL", "correct": true},
+      {"id": "b", "text": "Windows", "correct": false},
+      {"id": "c", "text": "Photoshop", "correct": false},
+      {"id": "d", "text": "Excel", "correct": false}
+    ]
+  },
+  {
+    "id": 15,
+    "text": "ما هو البرنامج الذي يترجم الكود المصدري إلى لغة الآلة؟",
+    "subtitle": "تكنولوجيا المعلومات - البرمجة",
+    "options": [
+      {"id": "a", "text": "المترجم", "correct": true},
+      {"id": "b", "text": "المحرر النصي", "correct": false},
+      {"id": "c", "text": "المتصفح", "correct": false},
+      {"id": "d", "text": "نظام التشغيل", "correct": false}
+    ]
+  },
+  {
+    "id": 16,
+    "text": "أي من هذه اللغات تستخدم لتنسيق صفحات الويب؟",
+    "subtitle": "تكنولوجيا المعلومات - تطوير الويب",
+    "options": [
+      {"id": "a", "text": "CSS", "correct": true},
+      {"id": "b", "text": "JavaScript", "correct": false},
+      {"id": "c", "text": "PHP", "correct": false},
+      {"id": "d", "text": "Python", "correct": false}
+    ]
+  },
+  {
+    "id": 17,
+    "text": "ما هو الجهاز الذي يربط شبكتين محليتين معاً؟",
+    "subtitle": "تكنولوجيا المعلومات - شبكات",
+    "options": [
+      {"id": "a", "text": "الجسر", "correct": true},
+      {"id": "b", "text": "المحول", "correct": false},
+      {"id": "c", "text": "المودم", "correct": false},
+      {"id": "d", "text": "الراوتر", "correct": false}
+    ]
+  },
+  {
+    "id": 18,
+    "text": "أي من هذه البرامج يستخدم للعروض التقديمية؟",
+    "subtitle": "تكنولوجيا المعلومات - برامج التطبيقات",
+    "options": [
+      {"id": "a", "text": "PowerPoint", "correct": true},
+      {"id": "b", "text": "Excel", "correct": false},
+      {"id": "c", "text": "Word", "correct": false},
+      {"id": "d", "text": "Access", "correct": false}
+    ]
+  },
+  {
+    "id": 19,
+    "text": "ما هو البروتوكول المستخدم لإرسال البريد الإلكتروني؟",
+    "subtitle": "تكنولوجيا المعلومات - شبكات",
+    "options": [
+      {"id": "a", "text": "SMTP", "correct": true},
+      {"id": "b", "text": "HTTP", "correct": false},
+      {"id": "c", "text": "FTP", "correct": false},
+      {"id": "d", "text": "TCP", "correct": false}
+    ]
+  },
+  {
+    "id": 20,
+    "text": "أي من هذه الذواكر أسرع في الوصول للبيانات؟",
+    "subtitle": "تكنولوجيا المعلومات - معمارية الحاسوب",
+    "options": [
+      {"id": "a", "text": "ذاكرة الكاش", "correct": true},
+      {"id": "b", "text": "القرص الصلب", "correct": false},
+      {"id": "c", "text": "الذاكرة العشوائية", "correct": false},
+      {"id": "d", "text": "القرص المضغوط", "correct": false}
+    ]
+  },
+  {
+    "id": 21,
+    "text": "ما هو نظام الأرقام الذي يستخدمه الحاسوب internally?",
+    "subtitle": "تكنولوجيا المعلومات - أنظمة العد",
+    "options": [
+      {"id": "a", "text": "النظام الثنائي", "correct": true},
+      {"id": "b", "text": "النظام العشري", "correct": false},
+      {"id": "c", "text": "النظام الست عشري", "correct": false},
+      {"id": "d", "text": "النظام الثماني", "correct": false}
+    ]
+  },
+  {
+    "id": 22,
+    "text": "أي من هذه المكونات مسؤول عن عرض الصور على الشاشة؟",
+    "subtitle": "تكنولوجيا المعلومات - مكونات الحاسوب",
+    "options": [
+      {"id": "a", "text": "كارت الشاشة", "correct": true},
+      {"id": "b", "text": "المعالج", "correct": false},
+      {"id": "c", "text": "اللوحة الأم", "correct": false},
+      {"id": "d", "text": "القرص الصلب", "correct": false}
+    ]
+  },
+  {
+    "id": 23,
+    "text": "ما هي لغة البرمجة المستخدمة لإضافة التفاعل لصفحات الويب؟",
+    "subtitle": "تكنولوجيا المعلومات - تطوير الويب",
+    "options": [
+      {"id": "a", "text": "JavaScript", "correct": true},
+      {"id": "b", "text": "HTML", "correct": false},
+      {"id": "c", "text": "CSS", "correct": false},
+      {"id": "d", "text": "SQL", "correct": false}
+    ]
+  },
+  {
+    "id": 24,
+    "text": "أي من هذه الأنظمة يستخدم للتحكم في إصدارات الكود البرمجي؟",
+    "subtitle": "تكنولوجيا المعلومات - أدوات التطوير",
+    "options": [
+      {"id": "a", "text": "Git", "correct": true},
+      {"id": "b", "text": "Excel", "correct": false},
+      {"id": "c", "text": "Word", "correct": false},
+      {"id": "d", "text": "Photoshop", "correct": false}
+    ]
+  },
+  {
+    "id": 25,
+    "text": "ما هو البروتوكول الآمن لنقل صفحات الويب؟",
+    "subtitle": "تكنولوجيا المعلومات - أمن الشبكات",
+    "options": [
+      {"id": "a", "text": "HTTPS", "correct": true},
+      {"id": "b", "text": "HTTP", "correct": false},
+      {"id": "c", "text": "FTP", "correct": false},
+      {"id": "d", "text": "SMTP", "correct": false}
+    ]
+  },
+  {
+    "id": 26,
+    "text": "أي من هذه البرامج يستخدم لتحرير الصور؟",
+    "subtitle": "تكنولوجيا المعلومات - برامج التطبيقات",
+    "options": [
+      {"id": "a", "text": "Adobe Photoshop", "correct": true},
+      {"id": "b", "text": "Microsoft Word", "correct": false},
+      {"id": "c", "text": "Excel", "correct": false},
+      {"id": "d", "text": "PowerPoint", "correct": false}
+    ]
+  },
+  {
+    "id": 27,
+    "text": "ما هو نوع الذاكرة الذي يفقد محتواه عند انقطاع الكهرباء؟",
+    "subtitle": "تكنولوجيا المعلومات - معمارية الحاسوب",
+    "options": [
+      {"id": "a", "text": "الذاكرة العشوائية", "correct": true},
+      {"id": "b", "text": "القرص الصلب", "correct": false},
+      {"id": "c", "text": "القرص المضغوط", "correct": false},
+      {"id": "d", "text": "الفلاش ميموري", "correct": false}
+    ]
+  },
+  {
+    "id": 28,
+    "text": "أي من هذه اللغات تستخدم لبرمجة تطبيقات Android?",
+    "subtitle": "تكنولوجيا المعلومات - البرمجة",
+    "options": [
+      {"id": "a", "text": "Java", "correct": true},
+      {"id": "b", "text": "Swift", "correct": false},
+      {"id": "c", "text": "C#", "correct": false},
+      {"id": "d", "text": "Python", "correct": false}
+    ]
+  },
+  {
+    "id": 29,
+    "text": "ما هو البرنامج الوسيط بين نظام التشغيل والتطبيقات؟",
+    "subtitle": "تكنولوجيا المعلومات - برمجة النظم",
+    "options": [
+      {"id": "a", "text": "API", "correct": true},
+      {"id": "b", "text": "GUI", "correct": false},
+      {"id": "c", "text": "URL", "correct": false},
+      {"id": "d", "text": "HTML", "correct": false}
+    ]
+  },
+  {
+    "id": 30,
+    "text": "أي من هذه الأجهزة يستخدم لتوصيل أجهزة الشبكة المحلية؟",
+    "subtitle": "تكنولوجيا المعلومات - شبكات",
+    "options": [
+      {"id": "a", "text": "السويتش", "correct": true},
+      {"id": "b", "text": "المودم", "correct": false},
+      {"id": "c", "text": "الطابعة", "correct": false},
+      {"id": "d", "text": "الماسح الضوئي", "correct": false}
+    ]
+  },
+  {
+    "id": 31,
+    "text": "ما هو البرنامج الخبيث الذي ينتشر بدون تدخل المستخدم؟",
+    "subtitle": "تكنولوجيا المعلومات - الأمن السيبراني",
+    "options": [
+      {"id": "a", "text": "الدودة", "correct": true},
+      {"id": "b", "text": "الفيروس", "correct": false},
+      {"id": "c", "text": "حصان طروادة", "correct": false},
+      {"id": "d", "text": "برنامج التجسس", "correct": false}
+    ]
+  },
+  {
+    "id": 32,
+    "text": "أي من هذه البرامج يستخدم لإنشاء الجداول الحسابية؟",
+    "subtitle": "تكنولوجيا المعلومات - برامج التطبيقات",
+    "options": [
+      {"id": "a", "text": "Microsoft Excel", "correct": true},
+      {"id": "b", "text": "Microsoft Word", "correct": false},
+      {"id": "c", "text": "PowerPoint", "correct": false},
+      {"id": "d", "text": "Access", "correct": false}
+    ]
+  },
+  {
+    "id": 33,
+    "text": "ما هو البروتوكول المستخدم لنقل الملفات؟",
+    "subtitle": "تكنولوجيا المعلومات - شبكات",
+    "options": [
+      {"id": "a", "text": "FTP", "correct": true},
+      {"id": "b", "text": "HTTP", "correct": false},
+      {"id": "c", "text": "SMTP", "correct": false},
+      {"id": "d", "text": "TCP", "correct": false}
+    ]
+  },
+  {
+    "id": 34,
+    "text": "أي من هذه اللغات تعتبر لغة برمجة كائنية التوجه؟",
+    "subtitle": "تكنولوجيا المعلومات - البرمجة",
+    "options": [
+      {"id": "a", "text": "Java", "correct": true},
+      {"id": "b", "text": "HTML", "correct": false},
+      {"id": "c", "text": "CSS", "correct": false},
+      {"id": "d", "text": "SQL", "correct": false}
+    ]
+  },
+  {
+    "id": 35,
+    "text": "ما هو الجهاز الذي يحول التيار المتردد إلى مستمر؟",
+    "subtitle": "تكنولوجيا المعلومات - كهرباء الحاسوب",
+    "options": [
+      {"id": "a", "text": "مزود الطاقة", "correct": true},
+      {"id": "b", "text": "المعالج", "correct": false},
+      {"id": "c", "text": "اللوحة الأم", "correct": false},
+      {"id": "d", "text": "كارت الشاشة", "correct": false}
+    ]
+  },
+  {
+    "id": 36,
+    "text": "أي من هذه الأنظمة يستخدم في الهواتف الذكية من Apple?",
+    "subtitle": "تكنولوجيا المعلومات - أنظمة التشغيل",
+    "options": [
+      {"id": "a", "text": "iOS", "correct": true},
+      {"id": "b", "text": "Android", "correct": false},
+      {"id": "c", "text": "Windows", "correct": false},
+      {"id": "d", "text": "Linux", "correct": false}
+    ]
+  },
+  {
+    "id": 37,
+    "text": "ما هو البرنامج الذي يقوم بتنفيذ التعليمات سطراً سطراً؟",
+    "subtitle": "تكنولوجيا المعلومات - البرمجة",
+    "options": [
+      {"id": "a", "text": "المفسر", "correct": true},
+      {"id": "b", "text": "المترجم", "correct": false},
+      {"id": "c", "text": "المحرر", "correct": false},
+      {"id": "d", "text": "المجمع", "correct": false}
+    ]
+  },
+  {
+    "id": 38,
+    "text": "أي من هذه التقنيات تستخدم للشبكات اللاسلكية المحلية؟",
+    "subtitle": "تكنولوجيا المعلومات - شبكات",
+    "options": [
+      {"id": "a", "text": "Wi-Fi", "correct": true},
+      {"id": "b", "text": "Bluetooth", "correct": false},
+      {"id": "c", "text": "Ethernet", "correct": false},
+      {"id": "d", "text": "USB", "correct": false}
+    ]
+  },
+  {
+    "id": 39,
+    "text": "ما هو البرنامج الذي يمنع الوصول غير المصرح به للشبكة؟",
+    "subtitle": "تكنولوجيا المعلومات - الأمن السيبراني",
+    "options": [
+      {"id": "a", "text": "جدار الحماية", "correct": true},
+      {"id": "b", "text": "مضاد الفيروسات", "correct": false},
+      {"id": "c", "text": "برنامج النسخ الاحتياطي", "correct": false},
+      {"id": "d", "text": "برنامج الضغط", "correct": false}
+    ]
+  },
+  {
+    "id": 40,
+    "text": "أي من هذه المكونات يؤثر على سرعة الحاسوب بشكل مباشر؟",
+    "subtitle": "تكنولوجيا المعلومات - أداء الحاسوب",
+    "options": [
+      {"id": "a", "text": "سرعة المعالج", "correct": true},
+      {"id": "b", "text": "حجم الشاشة", "correct": false},
+      {"id": "c", "text": "لون العلبة", "correct": false},
+      {"id": "d", "text": "عدد منافذ USB", "correct": false}
+    ]
+  },
+  {
+    "id": 41,
+    "text": "ما هو نظام الملفات المستخدم في Windows?",
+    "subtitle": "تكنولوجيا المعلومات - أنظمة التشغيل",
+    "options": [
+      {"id": "a", "text": "NTFS", "correct": true},
+      {"id": "b", "text": "EXT4", "correct": false},
+      {"id": "c", "text": "FAT32", "correct": false},
+      {"id": "d", "text": "HFS+", "correct": false}
+    ]
+  },
+  {
+    "id": 42,
+    "text": "أي من هذه البرامج يستخدم لإنشاء قواعد البيانات؟",
+    "subtitle": "تكنولوجيا المعلومات - قواعد البيانات",
+    "options": [
+      {"id": "a", "text": "Microsoft Access", "correct": true},
+      {"id": "b", "text": "Microsoft Word", "correct": false},
+      {"id": "c", "text": "Excel", "correct": false},
+      {"id": "d", "text": "PowerPoint", "correct": false}
+    ]
+  },
+  {
+    "id": 43,
+    "text": "ما هو البروتوكول المستخدم لتحديد عنوان IP تلقائياً؟",
+    "subtitle": "تكنولوجيا المعلومات - شبكات",
+    "options": [
+      {"id": "a", "text": "DHCP", "correct": true},
+      {"id": "b", "text": "DNS", "correct": false},
+      {"id": "c", "text": "HTTP", "correct": false},
+      {"id": "d", "text": "FTP", "correct": false}
+    ]
+  },
+  {
+    "id": 44,
+    "text": "أي من هذه اللغات تستخدم لبرمجة تطبيقات iOS?",
+    "subtitle": "تكنولوجيا المعلومات - البرمجة",
+    "options": [
+      {"id": "a", "text": "Swift", "correct": true},
+      {"id": "b", "text": "Java", "correct": false},
+      {"id": "c", "text": "C#", "correct": false},
+      {"id": "d", "text": "Python", "correct": false}
+    ]
+  },
+  {
+    "id": 45,
+    "text": "ما هو البرنامج الذي يقوم بضغط الملفات؟",
+    "subtitle": "تكنولوجيا المعلومات - برامج الأداة",
+    "options": [
+      {"id": "a", "text": "WinRAR", "correct": true},
+      {"id": "b", "text": "Photoshop", "correct": false},
+      {"id": "c", "text": "Word", "correct": false},
+      {"id": "d", "text": "Excel", "correct": false}
+    ]
+  },
+  {
+    "id": 46,
+    "text": "أي من هذه التقنيات تستخدم للتعرف على الوجوه؟",
+    "subtitle": "تكنولوجيا المعلومات - الذكاء الاصطناعي",
+    "options": [
+      {"id": "a", "text": "البيومتركس", "correct": true},
+      {"id": "b", "text": "البلوتوث", "correct": false},
+      {"id": "c", "text": "الواي فاي", "correct": false},
+      {"id": "d", "text": "النظام الثنائي", "correct": false}
+    ]
+  },
+  {
+    "id": 47,
+    "text": "ما هو البرنامج الذي يتحكم في إدخال وإخراج البيانات؟",
+    "subtitle": "تكنولوجيا المعلومات - أنظمة التشغيل",
+    "options": [
+      {"id": "a", "text": "نظام الإدخال والإخراج", "correct": true},
+      {"id": "b", "text": "المعالج", "correct": false},
+      {"id": "c", "text": "الذاكرة", "correct": false},
+      {"id": "d", "text": "القرص الصلب", "correct": false}
+    ]
+  },
+  {
+    "id": 48,
+    "text": "أي من هذه البرامج يعتبر متصفح ويب؟",
+    "subtitle": "تكنولوجيا المعلومات - برامج التطبيقات",
+    "options": [
+      {"id": "a", "text": "Google Chrome", "correct": true},
+      {"id": "b", "text": "Microsoft Word", "correct": false},
+      {"id": "c", "text": "Excel", "correct": false},
+      {"id": "d", "text": "Photoshop", "correct": false}
+    ]
+  },
+  {
+    "id": 49,
+    "text": "ما هو البروتوكول المستخدم لتحويل أسماء النطاقات إلى عناوين IP?",
+    "subtitle": "تكنولوجيا المعلومات - شبكات",
+    "options": [
+      {"id": "a", "text": "DNS", "correct": true},
+      {"id": "b", "text": "DHCP", "correct": false},
+      {"id": "c", "text": "HTTP", "correct": false},
+      {"id": "d", "text": "FTP", "correct": false}
+    ]
+  },
+  {
+    "id": 50,
+    "text": "أي من هذه المكونات يؤثر على جودة الصورة المعروضة؟",
+    "subtitle": "تكنولوجيا المعلومات - مكونات الحاسوب",
+    "options": [
+      {"id": "a", "text": "كارت الشاشة", "correct": true},
+      {"id": "b", "text": "القرص الصلب", "correct": false},
+      {"id": "c", "text": "الذاكرة العشوائية", "correct": false},
+      {"id": "d", "text": "المعالج", "correct": false}
+    ]
+  },
+  {
+    "id": 51,
+    "text": "ما هو البرنامج الذي يقوم بتنظيف النظام من الملفات المؤقتة؟",
+    "subtitle": "تكنولوجيا المعلومات - صيانة الحاسوب",
+    "options": [
+      {"id": "a", "text": "برنامج تنظيف القرص", "correct": true},
+      {"id": "b", "text": "مضاد الفيروسات", "correct": false},
+      {"id": "c", "text": "جدار الحماية", "correct": false},
+      {"id": "d", "text": "المترجم", "correct": false}
+    ]
+  },
+  {
+    "id": 52,
+    "text": "أي من هذه اللغات تستخدم لبرمجة الخوادم؟",
+    "subtitle": "تكنولوجيا المعلومات - برمجة الويب",
+    "options": [
+      {"id": "a", "text": "PHP", "correct": true},
+      {"id": "b", "text": "HTML", "correct": false},
+      {"id": "c", "text": "CSS", "correct": false},
+      {"id": "d", "text": "JavaScript", "correct": false}
+    ]
+  },
+  {
+    "id": 53,
+    "text": "ما هو الجهاز الذي يربط الشبكة المحلية بالإنترنت؟",
+    "subtitle": "تكنولوجيا المعلومات - شبكات",
+    "options": [
+      {"id": "a", "text": "الراوتر", "correct": true},
+      {"id": "b", "text": "السويتش", "correct": false},
+      {"id": "c", "text": "الهاب", "correct": false},
+      {"id": "d", "text": "الجسر", "correct": false}
+    ]
+  },
+  {
+    "id": 54,
+    "text": "أي من هذه البرامج يستخدم لمؤتمرات الفيديو؟",
+    "subtitle": "تكنولوجيا المعلومات - برامج التواصل",
+    "options": [
+      {"id": "a", "text": "Zoom", "correct": true},
+      {"id": "b", "text": "Word", "correct": false},
+      {"id": "c", "text": "Excel", "correct": false},
+      {"id": "d", "text": "Photoshop", "correct": false}
+    ]
+  },
+  {
+    "id": 55,
+    "text": "ما هو البروتوكول المستخدم لإدارة أجهزة الشبكة؟",
+    "subtitle": "تكنولوجيا المعلومات - شبكات",
+    "options": [
+      {"id": "a", "text": "SNMP", "correct": true},
+      {"id": "b", "text": "HTTP", "correct": false},
+      {"id": "c", "text": "FTP", "correct": false},
+      {"id": "d", "text": "SMTP", "correct": false}
+    ]
+  },
+  {
+    "id": 56,
+    "text": "أي من هذه التقنيات تستخدم للتخزين السحابي؟",
+    "subtitle": "تكنولوجيا المعلومات - تخزين البيانات",
+    "options": [
+      {"id": "a", "text": "Google Drive", "correct": true},
+      {"id": "b", "text": "القرص الصلب", "correct": false},
+      {"id": "c", "text": "الذاكرة العشوائية", "correct": false},
+      {"id": "d", "text": "القرص المضغوط", "correct": false}
+    ]
+  },
+  {
+    "id": 57,
+    "text": "ما هو البرنامج الذي يقوم بنسخ البيانات احتياطياً؟",
+    "subtitle": "تكنولوجيا المعلومات - أمن البيانات",
+    "options": [
+      {"id": "a", "text": "برنامج النسخ الاحتياطي", "correct": true},
+      {"id": "b", "text": "مضاد الفيروسات", "correct": false},
+      {"id": "c", "text": "جدار الحماية", "correct": false},
+      {"id": "d", "text": "المترجم", "correct": false}
+    ]
+  },
+  {
+    "id": 58,
+    "text": "أي من هذه اللغات تعتبر لغة برمجة وظيفية؟",
+    "subtitle": "تكنولوجيا المعلومات - البرمجة",
+    "options": [
+      {"id": "a", "text": "Haskell", "correct": true},
+      {"id": "b", "text": "Java", "correct": false},
+      {"id": "c", "text": "C++", "correct": false},
+      {"id": "d", "text": "Python", "correct": false}
+    ]
+  },
+  {
+    "id": 59,
+    "text": "ما هو الجهاز الذي يحول الإشارة الرقمية إلى ضوئية؟",
+    "subtitle": "تكنولوجيا المعلومات - شبكات",
+    "options": [
+      {"id": "a", "text": "المحول الضوئي", "correct": true},
+      {"id": "b", "text": "المودم", "correct": false},
+      {"id": "c", "text": "الراوتر", "correct": false},
+      {"id": "d", "text": "السويتش", "correct": false}
+    ]
+  },
+  {
+    "id": 60,
+    "text": "أي من هذه البرامج يستخدم لإدارة المشاريع؟",
+    "subtitle": "تكنولوجيا المعلومات - برامج الإدارة",
+    "options": [
+      {"id": "a", "text": "Microsoft Project", "correct": true},
+      {"id": "b", "text": "Word", "correct": false},
+      {"id": "c", "text": "Excel", "correct": false},
+      {"id": "d", "text": "PowerPoint", "correct": false}
+    ]
+  },
+  {
+    "id": 61,
+    "text": "ما هو البروتوكول المستخدم للبريد الإلكتروني الوارد؟",
+    "subtitle": "تكنولوجيا المعلومات - شبكات",
+    "options": [
+      {"id": "a", "text": "POP3", "correct": true},
+      {"id": "b", "text": "SMTP", "correct": false},
+      {"id": "c", "text": "HTTP", "correct": false},
+      {"id": "d", "text": "FTP", "correct": false}
+    ]
+  },
+  {
+    "id": 62,
+    "text": "أي من هذه التقنيات تستخدم للدفع الإلكتروني؟",
+    "subtitle": "تكنولوجيا المعلومات - التجارة الإلكترونية",
+    "options": [
+      {"id": "a", "text": "البطاقات الإئتمانية", "correct": true},
+      {"id": "b", "text": "الواي فاي", "correct": false},
+      {"id": "c", "text": "البلوتوث", "correct": false},
+      {"id": "d", "text": "النظام الثنائي", "correct": false}
+    ]
+  },
+  {
+    "id": 63,
+    "text": "ما هو البرنامج الذي يقوم بمراقبة حركة الشبكة؟",
+    "subtitle": "تكنولوجيا المعلومات - أمن الشبكات",
+    "options": [
+      {"id": "a", "text": "برنامج المراقبة", "correct": true},
+      {"id": "b", "text": "معالج النصوص", "correct": false},
+      {"id": "c", "text": "الجداول الحسابية", "correct": false},
+      {"id": "d", "text": "قواعد البيانات", "correct": false}
+    ]
+  },
+  {
+    "id": 64,
+    "text": "أي من هذه اللغات تستخدم لبرمجة قواعد البيانات؟",
+    "subtitle": "تكنولوجيا المعلومات - قواعد البيانات",
+    "options": [
+      {"id": "a", "text": "PL/SQL", "correct": true},
+      {"id": "b", "text": "HTML", "correct": false},
+      {"id": "c", "text": "CSS", "correct": false},
+      {"id": "d", "text": "JavaScript", "correct": false}
+    ]
+  },
+  {
+    "id": 65,
+    "text": "ما هو الجهاز الذي يقوم بتوجيه البيانات بين الشبكات؟",
+    "subtitle": "تكنولوجيا المعلومات - شبكات",
+    "options": [
+      {"id": "a", "text": "الراوتر", "correct": true},
+      {"id": "b", "text": "السويتش", "correct": false},
+      {"id": "c", "text": "الهاب", "correct": false},
+      {"id": "d", "text": "الجسر", "correct": false}
+    ]
+  },
+  {
+    "id": 66,
+    "text": "أي من هذه البرامج يستخدم للبرمجة المرئية؟",
+    "subtitle": "تكنولوجيا المعلومات - البرمجة",
+    "options": [
+      {"id": "a", "text": "Scratch", "correct": true},
+      {"id": "b", "text": "Word", "correct": false},
+      {"id": "c", "text": "Excel", "correct": false},
+      {"id": "d", "text": "PowerPoint", "correct": false}
+    ]
+  },
+  {
+    "id": 67,
+    "text": "ما هو البروتوكول المستخدم للاتصال الآمن بالخوادم؟",
+    "subtitle": "تكنولوجيا المعلومات - أمن الشبكات",
+    "options": [
+      {"id": "a", "text": "SSH", "correct": true},
+      {"id": "b", "text": "HTTP", "correct": false},
+      {"id": "c", "text": "FTP", "correct": false},
+      {"id": "d", "text": "SMTP", "correct": false}
+    ]
+  },
+  {
+    "id": 68,
+    "text": "أي من هذه التقنيات تستخدم للواقع الافتراضي؟",
+    "subtitle": "تكنولوجيا المعلومات - التقنيات الحديثة",
+    "options": [
+      {"id": "a", "text": "VR", "correct": true},
+      {"id": "b", "text": "الواي فاي", "correct": false},
+      {"id": "c", "text": "البلوتوث", "correct": false},
+      {"id": "d", "text": "النظام الثنائي", "correct": false}
+    ]
+  },
+  {
+    "id": 69,
+    "text": "ما هو البرنامج الذي يقوم بتحليل البيانات الكبيرة؟",
+    "subtitle": "تكنولوجيا المعلومات - تحليل البيانات",
+    "options": [
+      {"id": "a", "text": "برنامج تحليل البيانات", "correct": true},
+      {"id": "b", "text": "معالج النصوص", "correct": false},
+      {"id": "c", "text": "الجداول الحسابية", "correct": false},
+      {"id": "d", "text": "قواعد البيانات", "correct": false}
+    ]
+  },
+  {
+    "id": 70,
+    "text": "أي من هذه اللغات تستخدم لبرمجة الألعاب؟",
+    "subtitle": "تكنولوجيا المعلومات - البرمجة",
+    "options": [
+      {"id": "a", "text": "C++", "correct": true},
+      {"id": "b", "text": "HTML", "correct": false},
+      {"id": "c", "text": "CSS", "correct": false},
+      {"id": "d", "text": "SQL", "correct": false}
+    ]
+  },
+  {
+    "id": 71,
+    "text": "ما هو الجهاز الذي يحمي الشبكة من التيارات الكهربائية الزائدة؟",
+    "subtitle": "تكنولوجيا المعلومات - كهرباء الحاسوب",
+    "options": [
+      {"id": "a", "text": "منظم الجهد", "correct": true},
+      {"id": "b", "text": "المودم", "correct": false},
+      {"id": "c", "text": "الراوتر", "correct": false},
+      {"id": "d", "text": "السويتش", "correct": false}
+    ]
+  },
+  {
+    "id": 72,
+    "text": "أي من هذه البرامج يستخدم للرسم الهندسي؟",
+    "subtitle": "تكنولوجيا المعلومات - برامج التصميم",
+    "options": [
+      {"id": "a", "text": "AutoCAD", "correct": true},
+      {"id": "b", "text": "Word", "correct": false},
+      {"id": "c", "text": "Excel", "correct": false},
+      {"id": "d", "text": "PowerPoint", "correct": false}
+    ]
+  },
+  {
+    "id": 73,
+    "text": "ما هو البروتوكول المستخدم للدردشة الفورية؟",
+    "subtitle": "تكنولوجيا المعلومات - شبكات",
+    "options": [
+      {"id": "a", "text": "XMPP", "correct": true},
+      {"id": "b", "text": "HTTP", "correct": false},
+      {"id": "c", "text": "FTP", "correct": false},
+      {"id": "d", "text": "SMTP", "correct": false}
+    ]
+  },
+  {
+    "id": 74,
+    "text": "أي من هذه التقنيات تستخدم للتعلم الآلي؟",
+    "subtitle": "تكنولوجيا المعلومات - الذكاء الاصطناعي",
+    "options": [
+      {"id": "a", "text": "Machine Learning", "correct": true},
+      {"id": "b", "text": "الواي فاي", "correct": false},
+      {"id": "c", "text": "البلوتوث", "correct": false},
+      {"id": "d", "text": "النظام الثنائي", "correct": false}
+    ]
+  },
+  {
+    "id": 75,
+    "text": "ما هو البرنامج الذي يقوم بإدارة علاقات العملاء؟",
+    "subtitle": "تكنولوجيا المعلومات - برامج الأعمال",
+    "options": [
+      {"id": "a", "text": "CRM", "correct": true},
+      {"id": "b", "text": "Word", "correct": false},
+      {"id": "c", "text": "Excel", "correct": false},
+      {"id": "d", "text": "PowerPoint", "correct": false}
+    ]
+  },
+  {
+    "id": 76,
+    "text": "أي من هذه اللغات تستخدم لبرمجة الأنظمة المدمجة؟",
+    "subtitle": "تكنولوجيا المعلومات - البرمجة",
+    "options": [
+      {"id": "a", "text": "C", "correct": true},
+      {"id": "b", "text": "HTML", "correct": false},
+      {"id": "c", "text": "CSS", "correct": false},
+      {"id": "d", "text": "SQL", "correct": false}
+    ]
+  },
+  {
+    "id": 77,
+    "text": "ما هو الجهاز الذي يقوم بتحويل الإشارة التناظرية إلى رقمية؟",
+    "subtitle": "تكنولوجيا المعلومات - معالجة الإشارات",
+    "options": [
+      {"id": "a", "text": "المحول التناظري الرقمي", "correct": true},
+      {"id": "b", "text": "المودم", "correct": false},
+      {"id": "c", "text": "الراوتر", "correct": false},
+      {"id": "d", "text": "السويتش", "correct": false}
+    ]
+  },
+  {
+    "id": 78,
+    "text": "أي من هذه البرامج يستخدم للتحليل الإحصائي؟",
+    "subtitle": "تكنولوجيا المعلومات - تحليل البيانات",
+    "options": [
+      {"id": "a", "text": "SPSS", "correct": true},
+      {"id": "b", "text": "Word", "correct": false},
+      {"id": "c", "text": "Excel", "correct": false},
+      {"id": "d", "text": "PowerPoint", "correct": false}
+    ]
+  },
+  {
+    "id": 79,
+    "text": "ما هو البروتوكول المستخدم للبث المباشر؟",
+    "subtitle": "تكنولوجيا المعلومات - شبكات",
+    "options": [
+      {"id": "a", "text": "RTMP", "correct": true},
+      {"id": "b", "text": "HTTP", "correct": false},
+      {"id": "c", "text": "FTP", "correct": false},
+      {"id": "d", "text": "SMTP", "correct": false}
+    ]
+  },
+  {
+    "id": 80,
+    "text": "أي من هذه التقنيات تستخدم للتعرف على الصوت؟",
+    "subtitle": "تكنولوجيا المعلومات - الذكاء الاصطناعي",
+    "options": [
+      {"id": "a", "text": "معالجة الكلام", "correct": true},
+      {"id": "b", "text": "الواي فاي", "correct": false},
+      {"id": "c", "text": "البلوتوث", "correct": false},
+      {"id": "d", "text": "النظام الثنائي", "correct": false}
+    ]
+  },
+  {
+    "id": 81,
+    "text": "ما هو البرنامج الذي يقوم بإدارة الموارد البشرية؟",
+    "subtitle": "تكنولوجيا المعلومات - برامج الأعمال",
+    "options": [
+      {"id": "a", "text": "HRMS", "correct": true},
+      {"id": "b", "text": "Word", "correct": false},
+      {"id": "c", "text": "Excel", "correct": false},
+      {"id": "d", "text": "PowerPoint", "correct": false}
+    ]
+  },
+  {
+    "id": 82,
+    "text": "أي من هذه اللغات تستخدم لبرمجة تطبيقات الويب الديناميكية؟",
+    "subtitle": "تكنولوجيا المعلومات - برمجة الويب",
+    "options": [
+      {"id": "a", "text": "Python with Django", "correct": true},
+      {"id": "b", "text": "HTML", "correct": false},
+      {"id": "c", "text": "CSS", "correct": false},
+      {"id": "d", "text": "SQL", "correct": false}
+    ]
+  },
+  {
+    "id": 83,
+    "text": "ما هو الجهاز الذي يقوم بتخزين البيانات على الشبكة؟",
+    "subtitle": "تكنولوجيا المعلومات - تخزين البيانات",
+    "options": [
+      {"id": "a", "text": "خادم التخزين", "correct": true},
+      {"id": "b", "text": "المودم", "correct": false},
+      {"id": "c", "text": "الراوتر", "correct": false},
+      {"id": "d", "text": "السويتش", "correct": false}
+    ]
+  },
+  {
+    "id": 84,
+    "text": "أي من هذه البرامج يستخدم للتعلم الإلكتروني؟",
+    "subtitle": "تكنولوجيا المعلومات - التعليم",
+    "options": [
+      {"id": "a", "text": "Moodle", "correct": true},
+      {"id": "b", "text": "Word", "correct": false},
+      {"id": "c", "text": "Excel", "correct": false},
+      {"id": "d", "text": "PowerPoint", "correct": false}
+    ]
+  },
+  {
+    "id": 85,
+    "text": "ما هو البروتوكول المستخدم للاتصال الصوتي عبر الإنترنت؟",
+    "subtitle": "تكنولوجيا المعلومات - شبكات",
+    "options": [
+      {"id": "a", "text": "VoIP", "correct": true},
+      {"id": "b", "text": "HTTP", "correct": false},
+      {"id": "c", "text": "FTP", "correct": false},
+      {"id": "d", "text": "SMTP", "correct": false}
+    ]
+  },
+  {
+    "id": 86,
+    "text": "أي من هذه التقنيات تستخدم للبيانات الضخمة؟",
+    "subtitle": "تكنولوجيا المعلومات - تحليل البيانات",
+    "options": [
+      {"id": "a", "text": "Hadoop", "correct": true},
+      {"id": "b", "text": "الواي فاي", "correct": false},
+      {"id": "c", "text": "البلوتوث", "correct": false},
+      {"id": "d", "text": "النظام الثنائي", "correct": false}
+    ]
+  },
+  {
+    "id": 87,
+    "text": "ما هو البرنامج الذي يقوم بإدارة سلسلة التوريد؟",
+    "subtitle": "تكنولوجيا المعلومات - برامج الأعمال",
+    "options": [
+      {"id": "a", "text": "SCM", "correct": true},
+      {"id": "b", "text": "Word", "correct": false},
+      {"id": "c", "text": "Excel", "correct": false},
+      {"id": "d", "text": "PowerPoint", "correct": false}
+    ]
+  },
+  {
+    "id": 88,
+    "text": "أي من هذه اللغات تستخدم لبرمجة تطبيقات الهاتف المحمول؟",
+    "subtitle": "تكنولوجيا المعلومات - البرمجة",
+    "options": [
+      {"id": "a", "text": "Kotlin", "correct": true},
+      {"id": "b", "text": "HTML", "correct": false},
+      {"id": "c", "text": "CSS", "correct": false},
+      {"id": "d", "text": "SQL", "correct": false}
+    ]
+  },
+  {
+    "id": 89,
+    "text": "ما هو الجهاز الذي يقوم بحماية الشبكة من الهجمات؟",
+    "subtitle": "تكنولوجيا المعلومات - أمن الشبكات",
+    "options": [
+      {"id": "a", "text": "جدار الحماية", "correct": true},
+      {"id": "b", "text": "المودم", "correct": false},
+      {"id": "c", "text": "الراوتر", "correct": false},
+      {"id": "d", "text": "السويتش", "correct": false}
+    ]
+  },
+  {
+    "id": 90,
+    "text": "أي من هذه البرامج يستخدم للمحاسبة؟",
+    "subtitle": "تكنولوجيا المعلومات - برامج الأعمال",
+    "options": [
+      {"id": "a", "text": "QuickBooks", "correct": true},
+      {"id": "b", "text": "Word", "correct": false},
+      {"id": "c", "text": "Excel", "correct": false},
+      {"id": "d", "text": "PowerPoint", "correct": false}
+    ]
+  },
+  {
+    "id": 91,
+    "text": "ما هو البروتوكول المستخدم للوصول الآمن إلى البريد الإلكتروني؟",
+    "subtitle": "تكنولوجيا المعلومات - أمن الشبكات",
+    "options": [
+      {"id": "a", "text": "IMAPS", "correct": true},
+      {"id": "b", "text": "HTTP", "correct": false},
+      {"id": "c", "text": "FTP", "correct": false},
+      {"id": "d", "text": "SMTP", "correct": false}
+    ]
+  },
+  {
+    "id": 92,
+    "text": "أي من هذه التقنيات تستخدم للتعلم العميق؟",
+    "subtitle": "تكنولوجيا المعلومات - الذكاء الاصطناعي",
+    "options": [
+      {"id": "a", "text": "Deep Learning", "correct": true},
+      {"id": "b", "text": "الواي فاي", "correct": false},
+      {"id": "c", "text": "البلوتوث", "correct": false},
+      {"id": "d", "text": "النظام الثنائي", "correct": false}
+    ]
+  },
+  {
+    "id": 93,
+    "text": "ما هو البرنامج الذي يقوم بإدارة علاقات العملاء؟",
+    "subtitle": "تكنولوجيا المعلومات - برامج الأعمال",
+    "options": [
+      {"id": "a", "text": "Salesforce", "correct": true},
+      {"id": "b", "text": "Word", "correct": false},
+      {"id": "c", "text": "Excel", "correct": false},
+      {"id": "d", "text": "PowerPoint", "correct": false}
+    ]
+  },
+  {
+    "id": 94,
+    "text": "أي من هذه اللغات تستخدم لبرمجة الذكاء الاصطناعي؟",
+    "subtitle": "تكنولوجيا المعلومات - البرمجة",
+    "options": [
+      {"id": "a", "text": "Python", "correct": true},
+      {"id": "b", "text": "HTML", "correct": false},
+      {"id": "c", "text": "CSS", "correct": false},
+      {"id": "d", "text": "SQL", "correct": false}
+    ]
+  },
+  {
+    "id": 95,
+    "text": "ما هو الجهاز الذي يقوم بتحويل الإشارة الرقمية إلى تناظرية؟",
+    "subtitle": "تكنولوجيا المعلومات - معالجة الإشارات",
+    "options": [
+      {"id": "a", "text": "المحول الرقمي التناظري", "correct": true},
+      {"id": "b", "text": "المودم", "correct": false},
+      {"id": "c", "text": "الراوتر", "correct": false},
+      {"id": "d", "text": "السويتش", "correct": false}
+    ]
+  },
+  {
+    "id": 96,
+    "text": "أي من هذه البرامج يستخدم لإدارة المحتوى؟",
+    "subtitle": "تكنولوجيا المعلومات - برامج الويب",
+    "options": [
+      {"id": "a", "text": "WordPress", "correct": true},
+      {"id": "b", "text": "Word", "correct": false},
+      {"id": "c", "text": "Excel", "correct": false},
+      {"id": "d", "text": "PowerPoint", "correct": false}
+    ]
+  },
+  {
+    "id": 97,
+    "text": "ما هو البروتوكول المستخدم للطباعة عبر الشبكة؟",
+    "subtitle": "تكنولوجيا المعلومات - شبكات",
+    "options": [
+      {"id": "a", "text": "IPP", "correct": true},
+      {"id": "b", "text": "HTTP", "correct": false},
+      {"id": "c", "text": "FTP", "correct": false},
+      {"id": "d", "text": "SMTP", "correct": false}
+    ]
+  },
+  {
+    "id": 98,
+    "text": "أي من هذه التقنيات تستخدم للتعرف على الصور؟",
+    "subtitle": "تكنولوجيا المعلومات - الذكاء الاصطناعي",
+    "options": [
+      {"id": "a", "text": "معالجة الصور", "correct": true},
+      {"id": "b", "text": "الواي فاي", "correct": false},
+      {"id": "c", "text": "البلوتوث", "correct": false},
+      {"id": "d", "text": "النظام الثنائي", "correct": false}
+    ]
+  },
+  {
+    "id": 99,
+    "text": "ما هو البرنامج الذي يقوم بإدارة المشاريع البرمجية؟",
+    "subtitle": "تكنولوجيا المعلومات - برامج التطوير",
+    "options": [
+      {"id": "a", "text": "Jira", "correct": true},
+      {"id": "b", "text": "Word", "correct": false},
+      {"id": "c", "text": "Excel", "correct": false},
+      {"id": "d", "text": "PowerPoint", "correct": false}
+    ]
+  },
+  {
+    "id": 100,
+    "text": "أي من هذه اللغات تستخدم لبرمجة قواعد البيانات NoSQL?",
+    "subtitle": "تكنولوجيا المعلومات - قواعد البيانات",
+    "options": [
+      {"id": "a", "text": "MongoDB Query Language", "correct": true},
+      {"id": "b", "text": "HTML", "correct": false},
+      {"id": "c", "text": "CSS", "correct": false},
+      {"id": "d", "text": "SQL", "correct": false}
+    ]
+  }
+]

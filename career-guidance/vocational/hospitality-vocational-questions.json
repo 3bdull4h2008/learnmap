@@ -1,0 +1,1102 @@
+[
+  {
+    "id": 1,
+    "text": "ما هو المصطلح الذي يصف الشخص الذي يستقبل الضيوف في الفندق؟",
+    "subtitle": "الضيافة - أساسيات",
+    "options": [
+      {"id": "a", "text": "الموظف الاستقبال", "correct": true},
+      {"id": "b", "text": "النادل", "correct": false},
+      {"id": "c", "text": "الطاهي", "correct": false},
+      {"id": "d", "text": "مدير الفندق", "correct": false}
+    ]
+  },
+  {
+    "id": 2,
+    "text": "أي من هذه المهارات تعتبر الأكثر أهمية في مجال الضيافة؟",
+    "subtitle": "الضيافة - المهارات",
+    "options": [
+      {"id": "a", "text": "خدمة العملاء", "correct": true},
+      {"id": "b", "text": "البرمجة", "correct": false},
+      {"id": "c", "text": "الرسم", "correct": false},
+      {"id": "d", "text": "السباحة", "correct": false}
+    ]
+  },
+  {
+    "id": 3,
+    "text": "ما هو أول ما يجب فعله عند استقبال ضيف في الفندق؟",
+    "subtitle": "الضيافة - استقبال الضيوف",
+    "options": [
+      {"id": "a", "text": "الترحيب بالضيف بلطف", "correct": true},
+      {"id": "b", "text": "طلب الدفع", "correct": false},
+      {"id": "c", "text": "إعطاء المفاتيح", "correct": false},
+      {"id": "d", "text": "عرض الخدمات", "correct": false}
+    ]
+  },
+  {
+    "id": 4,
+    "text": "ما هو الغرض الرئيسي من وجود نظام الحجوزات في الفنادق؟",
+    "subtitle": "الضيافة - إدارة الحجوزات",
+    "options": [
+      {"id": "a", "text": "تنظيم وإدارة الغرف المتاحة", "correct": true},
+      {"id": "b", "text": "زيادة الأسعار", "correct": false},
+      {"id": "c", "text": "تقليل عدد الموظفين", "correct": false},
+      {"id": "d", "text": "إغلاق الفندق", "correct": false}
+    ]
+  },
+  {
+    "id": 5,
+    "text": "أي من هذه الخدمات تعتبر من خدمات الغرف في الفندق؟",
+    "subtitle": "الضيافة - خدمات الغرف",
+    "options": [
+      {"id": "a", "text": "خدمة الطعام للغرف", "correct": true},
+      {"id": "b", "text": "الصيانة العامة", "correct": false},
+      {"id": "c", "text": "الاستقبال", "correct": false},
+      {"id": "d", "text": "الحجوزات", "correct": false}
+    ]
+  },
+  {
+    "id": 6,
+    "text": "ما هو الوقت المناسب لتنظيف الغرفة في الفندق؟",
+    "subtitle": "الضيافة - نظافة الغرف",
+    "options": [
+      {"id": "a", "text": "عند مغادرة الضيف للغرفة", "correct": true},
+      {"id": "b", "text": "أثناء نوم الضيف", "correct": false},
+      {"id": "c", "text": "أثناء وجود الضيف في الغرفة", "correct": false},
+      {"id": "d", "text": "في منتصف الليل", "correct": false}
+    ]
+  },
+  {
+    "id": 7,
+    "text": "ما هو المصطلح الذي يصف تقييم الفندق من حيث الجودة؟",
+    "subtitle": "الضيافة - التصنيف",
+    "options": [
+      {"id": "a", "text": "التصنيف النجمي", "correct": true},
+      {"id": "b", "text": "التقييم اليومي", "correct": false},
+      {"id": "c", "text": "الفحص الشهري", "correct": false},
+      {"id": "d", "text": "المراجعة الأسبوعية", "correct": false}
+    ]
+  },
+  {
+    "id": 8,
+    "text": "أي من هذه الصفات يجب أن يتحلى بها موظف الاستقبال؟",
+    "subtitle": "الضيافة - صفات الموظفين",
+    "options": [
+      {"id": "a", "text": "اللباقة والترحيب", "correct": true},
+      {"id": "b", "text": "الصرامة", "correct": false},
+      {"id": "c", "text": "الهدوء المفرط", "correct": false},
+      {"id": "d", "text": "التحدث بصوت عال", "correct": false}
+    ]
+  },
+  {
+    "id": 9,
+    "text": "ما هو الإجراء المناسب عند وجود شكوى من الضيف؟",
+    "subtitle": "الضيافة - التعامل مع الشكاوى",
+    "options": [
+      {"id": "a", "text": "الاستماع باهتمام وحل المشكلة", "correct": true},
+      {"id": "b", "text": "تجاهل الشكوى", "correct": false},
+      {"id": "c", "text": "الرد بغضب", "correct": false},
+      {"id": "d", "text": "إلقاء اللوم على الضيف", "correct": false}
+    ]
+  },
+  {
+    "id": 10,
+    "text": "ما هو الغرض من وجود حقيبة الإسعافات الأولية في الفندق؟",
+    "subtitle": "الضيافة - السلامة",
+    "options": [
+      {"id": "a", "text": "التعامل مع الحالات الطبية الطارئة", "correct": true},
+      {"id": "b", "text": "تنظيف الغرف", "correct": false},
+      {"id": "c", "text": "تقديم الوجبات", "correct": false},
+      {"id": "d", "text": "تزيين الاستقبال", "correct": false}
+    ]
+  },
+  {
+    "id": 11,
+    "text": "أي من هذه العناصر يجب توفرها في غرفة الفندق؟",
+    "subtitle": "الضيافة - تجهيز الغرف",
+    "options": [
+      {"id": "a", "text": "سرير مريح", "correct": true},
+      {"id": "b", "text": "مكتب عمل", "correct": false},
+      {"id": "c", "text": "تلفزيون بشاشة كبيرة", "correct": false},
+      {"id": "d", "text": "ثلاجة", "correct": false}
+    ]
+  },
+  {
+    "id": 12,
+    "text": "ما هو المصطلح الذي يصف رسوم الخدمة الإضافية في الفندق؟",
+    "subtitle": "الضيافة - المصطلحات",
+    "options": [
+      {"id": "a", "text": "الرسوم الإضافية", "correct": true},
+      {"id": "b", "text": "الخصم", "correct": false},
+      {"id": "c", "text": "التكلفة الأساسية", "correct": false},
+      {"id": "d", "text": "السعر النهائي", "correct": false}
+    ]
+  },
+  {
+    "id": 13,
+    "text": "ما هو الإجراء المناسب عند فقدان الضيف لمفتاح الغرفة؟",
+    "subtitle": "الضيافة - التعامل مع المشكلات",
+    "options": [
+      {"id": "a", "text": "التأكد من هويته وإعطاء مفتاح جديد", "correct": true},
+      {"id": "b", "text": "رفض المساعدة", "correct": false},
+      {"id": "c", "text": "معاقبة الضيف", "correct": false},
+      {"id": "d", "text": "طلب تغيير الغرفة", "correct": false}
+    ]
+  },
+  {
+    "id": 14,
+    "text": "أي من هذه الخدمات قد تقدمها الفنادق لضيوفها؟",
+    "subtitle": "الضيافة - خدمات إضافية",
+    "options": [
+      {"id": "a", "text": "خدمة الغسيل والكي", "correct": true},
+      {"id": "b", "text": "خدمة التسوق", "correct": false},
+      {"id": "c", "text": "خدمة التعليم", "correct": false},
+      {"id": "d", "text": "خدمة الطهي الشخصي", "correct": false}
+    ]
+  },
+  {
+    "id": 15,
+    "text": "ما هو الوقت المناسب لتسجيل خروج الضيف من الفندق؟",
+    "subtitle": "الضيافة - إجراءات المغادرة",
+    "options": [
+      {"id": "a", "text": "قبل الوقت المحدد لتسجيل الخروج", "correct": true},
+      {"id": "b", "text": "بعد أسبوع", "correct": false},
+      {"id": "c", "text": "في أي وقت", "correct": false},
+      {"id": "d", "text": "فور الوصول", "correct": false}
+    ]
+  },
+  {
+    "id": 16,
+    "text": "ما هو المصطلح الذي يصف الغرفة المكونة من سرير واحد؟",
+    "subtitle": "الضيافة - أنواع الغرف",
+    "options": [
+      {"id": "a", "text": "غرفة فردية", "correct": true},
+      {"id": "b", "text": "غرفة مزدوجة", "correct": false},
+      {"id": "c", "text": "جناح", "correct": false},
+      {"id": "d", "text": "غرفة عائلية", "correct": false}
+    ]
+  },
+  {
+    "id": 17,
+    "text": "أي من هذه المهام تقع على عاتق مدير الفندق؟",
+    "subtitle": "الضيافة - الإدارة",
+    "options": [
+      {"id": "a", "text": "الإشراف على جميع العمليات", "correct": true},
+      {"id": "b", "text": "تنظيف الغرف", "correct": false},
+      {"id": "c", "text": "طهي الطعام", "correct": false},
+      {"id": "d", "text": "خدمة النزلاء", "correct": false}
+    ]
+  },
+  {
+    "id": 18,
+    "text": "ما هو الإجراء المناسب عند اكتشاف حريق في الفندق؟",
+    "subtitle": "الضيافة - الطوارئ",
+    "options": [
+      {"id": "a", "text": "إخلاء المبنى وإبلاغ الإطفاء", "correct": true},
+      {"id": "b", "text": "إخفاء الأمر", "correct": false},
+      {"id": "c", "text": "مواصلة العمل", "correct": false},
+      {"id": "d", "text": "التصوير", "correct": false}
+    ]
+  },
+  {
+    "id": 19,
+    "text": "ما هو الغرض من وجود نظام مركزي للتحكم في المفاتيح؟",
+    "subtitle": "الضيافة - الأمن",
+    "options": [
+      {"id": "a", "text": "ضمان أمن الغرف", "correct": true},
+      {"id": "b", "text": "تزيين الاستقبال", "correct": false},
+      {"id": "c", "text": "توفير الكهرباء", "correct": false},
+      {"id": "d", "text": "تحسين الخدمة", "correct": false}
+    ]
+  },
+  {
+    "id": 20,
+    "text": "أي من هذه الصفات تجعل الفندق متميزاً؟",
+    "subtitle": "الضيافة - التميز",
+    "options": [
+      {"id": "a", "text": "جودة الخدمة والنظافة", "correct": true},
+      {"id": "b", "text": "انخفاض الأسعار", "correct": false},
+      {"id": "c", "text": "صغر الحجم", "correct": false},
+      {"id": "d", "text": "بعد المكان", "correct": false}
+    ]
+  },
+  {
+    "id": 21,
+    "text": "ما هو المصطلح الذي يصف الشخص المسؤول عن نظافة الغرف؟",
+    "subtitle": "الضيافة - الموظفين",
+    "options": [
+      {"id": "a", "text": "موظف النظافة", "correct": true},
+      {"id": "b", "text": "النادل", "correct": false},
+      {"id": "c", "text": "الطاهي", "correct": false},
+      {"id": "d", "text": "مدير الفندق", "correct": false}
+    ]
+  },
+  {
+    "id": 22,
+    "text": "ما هو الإجراء المناسب عند وجود ضيف ذي احتياجات خاصة؟",
+    "subtitle": "الضيافة - الخدمات الخاصة",
+    "options": [
+      {"id": "a", "text": "توفير التسهيلات اللازمة", "correct": true},
+      {"id": "b", "text": "رفض الاستقبال", "correct": false},
+      {"id": "c", "text": "معاملته كباقي الضيوف", "correct": false},
+      {"id": "d", "text": "طلب مغادرته", "correct": false}
+    ]
+  },
+  {
+    "id": 23,
+    "text": "أي من هذه الخدمات تقدمها المطاعم الفندقية؟",
+    "subtitle": "الضيافة - خدمات المطاعم",
+    "options": [
+      {"id": "a", "text": "وجبات الطعام", "correct": true},
+      {"id": "b", "text": "خدمة الغسيل", "correct": false},
+      {"id": "c", "text": "الصيانة", "correct": false},
+      {"id": "d", "text": "الحجوزات", "correct": false}
+    ]
+  },
+  {
+    "id": 24,
+    "text": "ما هو الغرض من تدريب موظفي الفندق؟",
+    "subtitle": "الضيافة - التدريب",
+    "options": [
+      {"id": "a", "text": "تحسين جودة الخدمة", "correct": true},
+      {"id": "b", "text": "تقليل الرواتب", "correct": false},
+      {"id": "c", "text": "زيادة ساعات العمل", "correct": false},
+      {"id": "d", "text": "تقليل عدد الموظفين", "correct": false}
+    ]
+  },
+  {
+    "id": 25,
+    "text": "ما هو المصطلح الذي يصف الغرفة المكونة من سريرين؟",
+    "subtitle": "الضيافة - أنواع الغرف",
+    "options": [
+      {"id": "a", "text": "غرفة مزدوجة", "correct": true},
+      {"id": "b", "text": "غرفة فردية", "correct": false},
+      {"id": "c", "text": "جناح", "correct": false},
+      {"id": "d", "text": "غرفة عائلية", "correct": false}
+    ]
+  },
+  {
+    "id": 26,
+    "text": "أي من هذه المهام تقع على عاتق النادل في المطعم؟",
+    "subtitle": "الضيافة - خدمات المطعم",
+    "options": [
+      {"id": "a", "text": "تقديم الطعام والشراب", "correct": true},
+      {"id": "b", "text": "طهي الطعام", "correct": false},
+      {"id": "c", "text": "تنظيف المطعم", "correct": false},
+      {"id": "d", "text": "إدارة الحجوزات", "correct": false}
+    ]
+  },
+  {
+    "id": 27,
+    "text": "ما هو الإجراء المناسب عند تعطل جهاز التكييف في غرفة الضيف؟",
+    "subtitle": "الضيافة - الصيانة",
+    "options": [
+      {"id": "a", "text": "إصلاحه أو تغيير الغرفة", "correct": true},
+      {"id": "b", "text": "تجاهل المشكلة", "correct": false},
+      {"id": "c", "text": "طلب من الضيف إصلاحه", "correct": false},
+      {"id": "d", "text": "معاقبة الموظفين", "correct": false}
+    ]
+  },
+  {
+    "id": 28,
+    "text": "ما هو الغرض من وجود نظام حجوزات عبر الإنترنت؟",
+    "subtitle": "الضيافة - التكنولوجيا",
+    "options": [
+      {"id": "a", "text": "تسهيل عملية الحجز", "correct": true},
+      {"id": "b", "text": "زيادة الأسعار", "correct": false},
+      {"id": "c", "text": "تقليل الخدمات", "correct": false},
+      {"id": "d", "text": "إغلاق الفندق", "correct": false}
+    ]
+  },
+  {
+    "id": 29,
+    "text": "أي من هذه الصفات يجب أن يتحلى بها الطاهي في الفندق؟",
+    "subtitle": "الضيافة - المطابخ",
+    "options": [
+      {"id": "a", "text": "الإبداع والنظافة", "correct": true},
+      {"id": "b", "text": "السرعة فقط", "correct": false},
+      {"id": "c", "text": "التحدث بصوت عال", "correct": false},
+      {"id": "d", "text": "اللبس غير المنظم", "correct": false}
+    ]
+  },
+  {
+    "id": 30,
+    "text": "ما هو المصطلح الذي يصف الغرفة ذات المساحة الكبيرة والخدمات الإضافية؟",
+    "subtitle": "الضيافة - أنواع الغرف",
+    "options": [
+      {"id": "a", "text": "جناح", "correct": true},
+      {"id": "b", "text": "غرفة فردية", "correct": false},
+      {"id": "c", "text": "غرفة مزدوجة", "correct": false},
+      {"id": "d", "text": "غرفة صغيرة", "correct": false}
+    ]
+  },
+  {
+    "id": 31,
+    "text": "ما هو الإجراء المناسب عند وجود ضيف مصاب بالمرض؟",
+    "subtitle": "الضيافة - الرعاية الصحية",
+    "options": [
+      {"id": "a", "text": "تقديم المساعدة الطبية", "correct": true},
+      {"id": "b", "text": "طلب مغادرته", "correct": false},
+      {"id": "c", "text": "تجاهل الأمر", "correct": false},
+      {"id": "d", "text": "معاقبته", "correct": false}
+    ]
+  },
+  {
+    "id": 32,
+    "text": "أي من هذه الخدمات تقدمها الفنادق للمؤتمرات؟",
+    "subtitle": "الضيافة - خدمات المؤتمرات",
+    "options": [
+      {"id": "a", "text": "قاعات الاجتماعات", "correct": true},
+      {"id": "b", "text": "خدمة الغسيل", "correct": false},
+      {"id": "c", "text": "الصيانة", "correct": false},
+      {"id": "d", "text": "الحجوزات", "correct": false}
+    ]
+  },
+  {
+    "id": 33,
+    "text": "ما هو الغرض من وجود سياسة الإلغاء في الحجوزات؟",
+    "subtitle": "الضيافة - سياسات الحجز",
+    "options": [
+      {"id": "a", "text": "تنظيم عملية الحجز والإلغاء", "correct": true},
+      {"id": "b", "text": "زيادة الأسعار", "correct": false},
+      {"id": "c", "text": "تقليل الخدمات", "correct": false},
+      {"id": "d", "text": "إغلاق الفندق", "correct": false}
+    ]
+  },
+  {
+    "id": 34,
+    "text": "ما هو المصطلح الذي يصف الشخص المسؤول عن الأمن في الفندق؟",
+    "subtitle": "الضيافة - الأمن",
+    "options": [
+      {"id": "a", "text": "ضابط الأمن", "correct": true},
+      {"id": "b", "text": "النادل", "correct": false},
+      {"id": "c", "text": "الطاهي", "correct": false},
+      {"id": "d", "text": "مدير الفندق", "correct": false}
+    ]
+  },
+  {
+    "id": 35,
+    "text": "أي من هذه المهام تقع على عاتق موظف الاستقبال؟",
+    "subtitle": "الضيافة - الاستقبال",
+    "options": [
+      {"id": "a", "text": "استقبال الضيوف وتسجيلهم", "correct": true},
+      {"id": "b", "text": "طهي الطعام", "correct": false},
+      {"id": "c", "text": "تنظيف الغرف", "correct": false},
+      {"id": "d", "text": "إدارة المطعم", "correct": false}
+    ]
+  },
+  {
+    "id": 36,
+    "text": "ما هو الإجراء المناسب عند وجود ضيف غير راضٍ عن الخدمة؟",
+    "subtitle": "الضيافة - خدمة العملاء",
+    "options": [
+      {"id": "a", "text": "الاستماع له ومحاولة إرضائه", "correct": true},
+      {"id": "b", "text": "تجاهل شكواه", "correct": false},
+      {"id": "c", "text": "الرد بغضب", "correct": false},
+      {"id": "d", "text": "طلب مغادرته", "correct": false}
+    ]
+  },
+  {
+    "id": 37,
+    "text": "ما هو الغرض من وجود نظام مراقبة في الفندق؟",
+    "subtitle": "الضيافة - الأمن",
+    "options": [
+      {"id": "a", "text": "ضمان سلامة الضيوف والممتلكات", "correct": true},
+      {"id": "b", "text": "مراقبة الموظفين فقط", "correct": false},
+      {"id": "c", "text": "توفير الكهرباء", "correct": false},
+      {"id": "d", "text": "تحسين الخدمة", "correct": false}
+    ]
+  },
+  {
+    "id": 38,
+    "text": "أي من هذه الصفات تجعل المطعم متميزاً؟",
+    "subtitle": "الضيافة - جودة المطعم",
+    "options": [
+      {"id": "a", "text": "جودة الطعام والخدمة", "correct": true},
+      {"id": "b", "text": "انخفاض الأسعار", "correct": false},
+      {"id": "c", "text": "صغر الحجم", "correct": false},
+      {"id": "d", "text": "بعد المكان", "correct": false}
+    ]
+  },
+  {
+    "id": 39,
+    "text": "ما هو المصطلح الذي يصف الشخص المسؤول عن إدارة المطعم؟",
+    "subtitle": "الضيافة - إدارة المطعم",
+    "options": [
+      {"id": "a", "text": "مدير المطعم", "correct": true},
+      {"id": "b", "text": "النادل", "correct": false},
+      {"id": "c", "text": "الطاهي", "correct": false},
+      {"id": "d", "text": "موظف الاستقبال", "correct": false}
+    ]
+  },
+  {
+    "id": 40,
+    "text": "ما هو الإجراء المناسب عند وجود حشرة في غرفة الضيف؟",
+    "subtitle": "الضيافة - النظافة",
+    "options": [
+      {"id": "a", "text": "التعامل معها فوراً وتنظيف الغرفة", "correct": true},
+      {"id": "b", "text": "تجاهل الأمر", "correct": false},
+      {"id": "c", "text": "طلب من الضيف التعامل معها", "correct": false},
+      {"id": "d", "text": "معاقبة الموظفين", "correct": false}
+    ]
+  },
+  {
+    "id": 41,
+    "text": "أي من هذه الخدمات تقدمها الفنادق لرجال الأعمال؟",
+    "subtitle": "الضيافة - خدمات الأعمال",
+    "options": [
+      {"id": "a", "text": "خدمة الإنترنت ومركز الأعمال", "correct": true},
+      {"id": "b", "text": "خدمة الغسيل", "correct": false},
+      {"id": "c", "text": "الصيانة", "correct": false},
+      {"id": "d", "text": "الحجوزات", "correct": false}
+    ]
+  },
+  {
+    "id": 42,
+    "text": "ما هو الغرض من وجود سياسة خاصة بالأطفال في الفندق؟",
+    "subtitle": "الضيافة - سياسات خاصة",
+    "options": [
+      {"id": "a", "text": "توفير الراحة والسلامة للأطفال", "correct": true},
+      {"id": "b", "text": "زيادة الأسعار", "correct": false},
+      {"id": "c", "text": "تقليل الخدمات", "correct": false},
+      {"id": "d", "text": "إغلاق الفندق", "correct": false}
+    ]
+  },
+  {
+    "id": 43,
+    "text": "ما هو المصطلح الذي يصف الشخص المسؤول عن الحجوزات؟",
+    "subtitle": "الضيافة - الموظفين",
+    "options": [
+      {"id": "a", "text": "موظف الحجوزات", "correct": true},
+      {"id": "b", "text": "النادل", "correct": false},
+      {"id": "c", "text": "الطاهي", "correct": false},
+      {"id": "d", "text": "مدير الفندق", "correct": false}
+    ]
+  },
+  {
+    "id": 44,
+    "text": "أي من هذه المهام تقع على عاتق موظف النظافة؟",
+    "subtitle": "الضيافة - النظافة",
+    "options": [
+      {"id": "a", "text": "تنظيف وتجهيز الغرف", "correct": true},
+      {"id": "b", "text": "طهي الطعام", "correct": false},
+      {"id": "c", "text": "إدارة الحجوزات", "correct": false},
+      {"id": "d", "text": "خدمة النزلاء", "correct": false}
+    ]
+  },
+  {
+    "id": 45,
+    "text": "ما هو الإجراء المناسب عند وجود ضيف يسأل عن اتجاهات المدينة؟",
+    "subtitle": "الضيافة - المعلومات",
+    "options": [
+      {"id": "a", "text": "تقديم المعلومات بدقة", "correct": true},
+      {"id": "b", "text": "تجاهل السؤال", "correct": false},
+      {"id": "c", "text": "الرد بشكل خاطئ", "correct": false},
+      {"id": "d", "text": "طلب مغادرته", "correct": false}
+    ]
+  },
+  {
+    "id": 46,
+    "text": "ما هو الغرض من وجود نظام للشكاوى والمقترحات؟",
+    "subtitle": "الضيافة - جودة الخدمة",
+    "options": [
+      {"id": "a", "text": "تحسين الخدمة وتطويرها", "correct": true},
+      {"id": "b", "text": "زيادة الأسعار", "correct": false},
+      {"id": "c", "text": "تقليل الخدمات", "correct": false},
+      {"id": "d", "text": "إغلاق الفندق", "correct": false}
+    ]
+  },
+  {
+    "id": 47,
+    "text": "أي من هذه الصفات يجب أن يتحلى بها ضابط الأمن؟",
+    "subtitle": "الضيافة - الأمن",
+    "options": [
+      {"id": "a", "text": "اليقظة والانضباط", "correct": true},
+      {"id": "b", "text": "السرعة فقط", "correct": false},
+      {"id": "c", "text": "التحدث بصوت عال", "correct": false},
+      {"id": "d", "text": "اللبس غير المنظم", "correct": false}
+    ]
+  },
+  {
+    "id": 48,
+    "text": "ما هو المصطلح الذي يصف الغرفة المخصصة للعائلات؟",
+    "subtitle": "الضيافة - أنواع الغرف",
+    "options": [
+      {"id": "a", "text": "غرفة عائلية", "correct": true},
+      {"id": "b", "text": "غرفة فردية", "correct": false},
+      {"id": "c", "text": "غرفة مزدوجة", "correct": false},
+      {"id": "d", "text": "جناح", "correct": false}
+    ]
+  },
+  {
+    "id": 49,
+    "text": "ما هو الإجراء المناسب عند وجود ضيف يريد تمديد الإقامة؟",
+    "subtitle": "الضيافة - إدارة الإقامة",
+    "options": [
+      {"id": "a", "text": "التحقق من التوفر وتلبية الطلب", "correct": true},
+      {"id": "b", "text": "رفض الطلب", "correct": false},
+      {"id": "c", "text": "تجاهل الطلب", "correct": false},
+      {"id": "d", "text": "طلب مغادرته", "correct": false}
+    ]
+  },
+  {
+    "id": 50,
+    "text": "أي من هذه الخدمات تقدمها الفنادق للترفيه؟",
+    "subtitle": "الضيافة - خدمات الترفيه",
+    "options": [
+      {"id": "a", "text": "المسابح والنوادي الصحية", "correct": true},
+      {"id": "b", "text": "خدمة الغسيل", "correct": false},
+      {"id": "c", "text": "الصيانة", "correct": false},
+      {"id": "d", "text": "الحجوزات", "correct": false}
+    ]
+  },
+  {
+    "id": 51,
+    "text": "ما هو الغرض من وجود سياسة خاصة بالحيوانات الأليفة؟",
+    "subtitle": "الضيافة - سياسات خاصة",
+    "options": [
+      {"id": "a", "text": "تنظيم وجود الحيوانات في الفندق", "correct": true},
+      {"id": "b", "text": "زيادة الأسعار", "correct": false},
+      {"id": "c", "text": "تقليل الخدمات", "correct": false},
+      {"id": "d", "text": "إغلاق الفندق", "correct": false}
+    ]
+  },
+  {
+    "id": 52,
+    "text": "ما هو المصطلح الذي يصف الشخص المسؤول عن الصيانة؟",
+    "subtitle": "الضيافة - الموظفين",
+    "options": [
+      {"id": "a", "text": "فني الصيانة", "correct": true},
+      {"id": "b", "text": "النادل", "correct": false},
+      {"id": "c", "text": "الطاهي", "correct": false},
+      {"id": "d", "text": "مدير الفندق", "correct": false}
+    ]
+  },
+  {
+    "id": 53,
+    "text": "أي من هذه المهام تقع على عاتق مدير المطعم؟",
+    "subtitle": "الضيافة - إدارة المطعم",
+    "options": [
+      {"id": "a", "text": "الإشراف على عمليات المطعم", "correct": true},
+      {"id": "b", "text": "طهي الطعام", "correct": false},
+      {"id": "c", "text": "تنظيف المطعم", "correct": false},
+      {"id": "d", "text": "خدمة النزلاء", "correct": false}
+    ]
+  },
+  {
+    "id": 54,
+    "text": "ما هو الإجراء المناسب عند وجود ضيف يريد استبدال الغرفة؟",
+    "subtitle": "الضيافة - إدارة الغرف",
+    "options": [
+      {"id": "a", "text": "التحقق من السبب وتلبية الطلب إن أمكن", "correct": true},
+      {"id": "b", "text": "رفض الطلب", "correct": false},
+      {"id": "c", "text": "تجاهل الطلب", "correct": false},
+      {"id": "d", "text": "طلب مغادرته", "correct": false}
+    ]
+  },
+  {
+    "id": 55,
+    "text": "ما هو الغرض من وجود نظام للحجز المسبق؟",
+    "subtitle": "الضيافة - إدارة الحجوزات",
+    "options": [
+      {"id": "a", "text": "ضمان وجود غرفة للضيف", "correct": true},
+      {"id": "b", "text": "زيادة الأسعار", "correct": false},
+      {"id": "c", "text": "تقليل الخدمات", "correct": false},
+      {"id": "d", "text": "إغلاق الفندق", "correct": false}
+    ]
+  },
+  {
+    "id": 56,
+    "text": "أي من هذه الصفات يجب أن يتحلى بها موظف الحجوزات؟",
+    "subtitle": "الضيافة - خدمة العملاء",
+    "options": [
+      {"id": "a", "text": "الدقة واللباقة", "correct": true},
+      {"id": "b", "text": "السرعة فقط", "correct": false},
+      {"id": "c", "text": "التحدث بصوت عال", "correct": false},
+      {"id": "d", "text": "اللبس غير المنظم", "correct": false}
+    ]
+  },
+  {
+    "id": 57,
+    "text": "ما هو المصطلح الذي يصف الغرفة ذات الإطلالة الجميلة؟",
+    "subtitle": "الضيافة - أنواع الغرف",
+    "options": [
+      {"id": "a", "text": "غرفة بإطلالة", "correct": true},
+      {"id": "b", "text": "غرفة فردية", "correct": false},
+      {"id": "c", "text": "غرفة مزدوجة", "correct": false},
+      {"id": "d", "text": "جناح", "correct": false}
+    ]
+  },
+  {
+    "id": 58,
+    "text": "ما هو الإجراء المناسب عند وجود ضيف يريد فتح حساب؟",
+    "subtitle": "الضيافة - الإجراءات المالية",
+    "options": [
+      {"id": "a", "text": "فتح الحساب وتسجيل المصروفات", "correct": true},
+      {"id": "b", "text": "رفض الطلب", "correct": false},
+      {"id": "c", "text": "تجاهل الطلب", "correct": false},
+      {"id": "d", "text": "طلب مغادرته", "correct": false}
+    ]
+  },
+  {
+    "id": 59,
+    "text": "أي من هذه الخدمات تقدمها الفنادق للرياضيين؟",
+    "subtitle": "الضيافة - خدمات خاصة",
+    "options": [
+      {"id": "a", "text": "النوادي الصحية والمسابح", "correct": true},
+      {"id": "b", "text": "خدمة الغسيل", "correct": false},
+      {"id": "c", "text": "الصيانة", "correct": false},
+      {"id": "d", "text": "الحجوزات", "correct": false}
+    ]
+  },
+  {
+    "id": 60,
+    "text": "ما هو الغرض من وجود سياسة خاصة بالتدخين؟",
+    "subtitle": "الضيافة - سياسات خاصة",
+    "options": [
+      {"id": "a", "text": "الحفاظ على بيئة صحية للجميع", "correct": true},
+      {"id": "b", "text": "زيادة الأسعار", "correct": false},
+      {"id": "c", "text": "تقليل الخدمات", "correct": false},
+      {"id": "d", "text": "إغلاق الفندق", "correct": false}
+    ]
+  },
+  {
+    "id": 61,
+    "text": "ما هو المصطلح الذي يصف الشخص المسؤول عن المخزن؟",
+    "subtitle": "الضيافة - الموظفين",
+    "options": [
+      {"id": "a", "text": "أمين المخزن", "correct": true},
+      {"id": "b", "text": "النادل", "correct": false},
+      {"id": "c", "text": "الطاهي", "correct": false},
+      {"id": "d", "text": "مدير الفندق", "correct": false}
+    ]
+  },
+  {
+    "id": 62,
+    "text": "أي من هذه المهام تقع على عاتق فني الصيانة؟",
+    "subtitle": "الضيافة - الصيانة",
+    "options": [
+      {"id": "a", "text": "إصلاح الأعطال في الفندق", "correct": true},
+      {"id": "b", "text": "طهي الطعام", "correct": false},
+      {"id": "c", "text": "تنظيف الغرف", "correct": false},
+      {"id": "d", "text": "خدمة النزلاء", "correct": false}
+    ]
+  },
+  {
+    "id": 63,
+    "text": "ما هو الإجراء المناسب عند وجود ضيف يريد استخدام خدمة الإنترنت؟",
+    "subtitle": "الضيافة - خدمات الإنترنت",
+    "options": [
+      {"id": "a", "text": "توفير كلمة المرور والمعلومات", "correct": true},
+      {"id": "b", "text": "رفض الطلب", "correct": false},
+      {"id": "c", "text": "تجاهل الطلب", "correct": false},
+      {"id": "d", "text": "طلب مغادرته", "correct": false}
+    ]
+  },
+  {
+    "id": 64,
+    "text": "ما هو الغرض من وجود نظام للحجز الجماعي؟",
+    "subtitle": "الضيافة - إدارة الحجوزات",
+    "options": [
+      {"id": "a", "text": "تنظيم حجوزات المجموعات", "correct": true},
+      {"id": "b", "text": "زيادة الأسعار", "correct": false},
+      {"id": "c", "text": "تقليل الخدمات", "correct": false},
+      {"id": "d", "text": "إغلاق الفندق", "correct": false}
+    ]
+  },
+  {
+    "id": 65,
+    "text": "أي من هذه الصفات يجب أن يتحلى بها أمين المخزن؟",
+    "subtitle": "الضيافة - الإدارة",
+    "options": [
+      {"id": "a", "text": "الدقة والتنظيم", "correct": true},
+      {"id": "b", "text": "السرعة فقط", "correct": false},
+      {"id": "c", "text": "التحدث بصوت عال", "correct": false},
+      {"id": "d", "text": "اللبس غير المنظم", "correct": false}
+    ]
+  },
+  {
+    "id": 66,
+    "text": "ما هو المصطلح الذي يصف الغرفة المجهزة لذوي الاحتياجات الخاصة؟",
+    "subtitle": "الضيافة - أنواع الغرف",
+    "options": [
+      {"id": "a", "text": "غرفة مجهزة", "correct": true},
+      {"id": "b", "text": "غرفة فردية", "correct": false},
+      {"id": "c", "text": "غرفة مزدوجة", "correct": false},
+      {"id": "d", "text": "جناح", "correct": false}
+    ]
+  },
+  {
+    "id": 67,
+    "text": "ما هو الإجراء المناسب عند وجود ضيف يريد استخدام خدمة الغسيل؟",
+    "subtitle": "الضيافة - خدمات الغسيل",
+    "options": [
+      {"id": "a", "text": "توفير الخدمة وتوضيح التكلفة", "correct": true},
+      {"id": "b", "text": "رفض الطلب", "correct": false},
+      {"id": "c", "text": "تجاهل الطلب", "correct": false},
+      {"id": "d", "text": "طلب مغادرته", "correct": false}
+    ]
+  },
+  {
+    "id": 68,
+    "text": "أي من هذه الخدمات تقدمها الفنادق للعرسان؟",
+    "subtitle": "الضيافة - خدمات خاصة",
+    "options": [
+      {"id": "a", "text": "باقات شهر العسل", "correct": true},
+      {"id": "b", "text": "خدمة الغسيل", "correct": false},
+      {"id": "c", "text": "الصيانة", "correct": false},
+      {"id": "d", "text": "الحجوزات", "correct": false}
+    ]
+  },
+  {
+    "id": 69,
+    "text": "ما هو الغرض من وجود سياسة خاصة بالزوار؟",
+    "subtitle": "الضيافة - سياسات خاصة",
+    "options": [
+      {"id": "a", "text": "تنظيم زيارة غير النزلاء للغرف", "correct": true},
+      {"id": "b", "text": "زيادة الأسعار", "correct": false},
+      {"id": "c", "text": "تقليل الخدمات", "correct": false},
+      {"id": "d", "text": "إغلاق الفندق", "correct": false}
+    ]
+  },
+  {
+    "id": 70,
+    "text": "ما هو المصطلح الذي يصف الشخص المسؤول عن التدريب؟",
+    "subtitle": "الضيافة - الموظفين",
+    "options": [
+      {"id": "a", "text": "مدرب الموظفين", "correct": true},
+      {"id": "b", "text": "النادل", "correct": false},
+      {"id": "c", "text": "الطاهي", "correct": false},
+      {"id": "d", "text": "مدير الفندق", "correct": false}
+    ]
+  },
+  {
+    "id": 71,
+    "text": "أي من هذه المهام تقع على عاتق مدرب الموظفين؟",
+    "subtitle": "الضيافة - التدريب",
+    "options": [
+      {"id": "a", "text": "تدريب الموظفين على الخدمة", "correct": true},
+      {"id": "b", "text": "طهي الطعام", "correct": false},
+      {"id": "c", "text": "تنظيف الغرف", "correct": false},
+      {"id": "d", "text": "خدمة النزلاء", "correct": false}
+    ]
+  },
+  {
+    "id": 72,
+    "text": "ما هو الإجراء المناسب عند وجود ضيف يريد استخدام خدمة التوصيل؟",
+    "subtitle": "الضيافة - خدمات التوصيل",
+    "options": [
+      {"id": "a", "text": "توفير الخدمة وتوضيح التكلفة", "correct": true},
+      {"id": "b", "text": "رفض الطلب", "correct": false},
+      {"id": "c", "text": "تجاهل الطلب", "correct": false},
+      {"id": "d", "text": "طلب مغادرته", "correct": false}
+    ]
+  },
+  {
+    "id": 73,
+    "text": "ما هو الغرض من وجود نظام للمكافآت والحوافز؟",
+    "subtitle": "الضيافة - إدارة الموظفين",
+    "options": [
+      {"id": "a", "text": "تحفيز الموظفين على التميز", "correct": true},
+      {"id": "b", "text": "زيادة الأسعار", "correct": false},
+      {"id": "c", "text": "تقليل الخدمات", "correct": false},
+      {"id": "d", "text": "إغلاق الفندق", "correct": false}
+    ]
+  },
+  {
+    "id": 74,
+    "text": "أي من هذه الصفات يجب أن يتحلى بها مدرب الموظفين؟",
+    "subtitle": "الضيافة - التدريب",
+    "options": [
+      {"id": "a", "text": "القدرة على الشرح والتواصل", "correct": true},
+      {"id": "b", "text": "السرعة فقط", "correct": false},
+      {"id": "c", "text": "التحدث بصوت عال", "correct": false},
+      {"id": "d", "text": "اللبس غير المنظم", "correct": false}
+    ]
+  },
+  {
+    "id": 75,
+    "text": "ما هو المصطلح الذي يصف الغرفة ذات الأسعار المخفضة؟",
+    "subtitle": "الضيافة - أنواع الغرف",
+    "options": [
+      {"id": "a", "text": "غرفة بخصم", "correct": true},
+      {"id": "b", "text": "غرفة فردية", "correct": false},
+      {"id": "c", "text": "غرفة مزدوجة", "correct": false},
+      {"id": "d", "text": "جناح", "correct": false}
+    ]
+  },
+  {
+    "id": 76,
+    "text": "ما هو الإجراء المناسب عند وجود ضيف يريد استخدام خدمة الليموزين؟",
+    "subtitle": "الضيافة - خدمات النقل",
+    "options": [
+      {"id": "a", "text": "توفير الخدمة وتوضيح التكلفة", "correct": true},
+      {"id": "b", "text": "رفض الطلب", "correct": false},
+      {"id": "c", "text": "تجاهل الطلب", "correct": false},
+      {"id": "d", "text": "طلب مغادرته", "correct": false}
+    ]
+  },
+  {
+    "id": 77,
+    "text": "أي من هذه الخدمات تقدمها الفنادق للمسافرين؟",
+    "subtitle": "الضيافة - خدمات المسافرين",
+    "options": [
+      {"id": "a", "text": "خدمة حجز التذاكر", "correct": true},
+      {"id": "b", "text": "خدمة الغسيل", "correct": false},
+      {"id": "c", "text": "الصيانة", "correct": false},
+      {"id": "d", "text": "الحجوزات", "correct": false}
+    ]
+  },
+  {
+    "id": 78,
+    "text": "ما هو الغرض من وجود سياسة خاصة بالدفع؟",
+    "subtitle": "الضيافة - السياسات المالية",
+    "options": [
+      {"id": "a", "text": "تنظيم عملية الدفع والتحصيل", "correct": true},
+      {"id": "b", "text": "زيادة الأسعار", "correct": false},
+      {"id": "c", "text": "تقليل الخدمات", "correct": false},
+      {"id": "d", "text": "إغلاق الفندق", "correct": false}
+    ]
+  },
+  {
+    "id": 79,
+    "text": "ما هو المصطلح الذي يصف الشخص المسؤول عن التسويق؟",
+    "subtitle": "الضيافة - الموظفين",
+    "options": [
+      {"id": "a", "text": "مسؤول التسويق", "correct": true},
+      {"id": "b", "text": "النادل", "correct": false},
+      {"id": "c", "text": "الطاهي", "correct": false},
+      {"id": "d", "text": "مدير الفندق", "correct": false}
+    ]
+  },
+  {
+    "id": 80,
+    "text": "أي من هذه المهام تقع على عاتق مسؤول التسويق؟",
+    "subtitle": "الضيافة - التسويق",
+    "options": [
+      {"id": "a", "text": "التسويق للفندق وجذب العملاء", "correct": true},
+      {"id": "b", "text": "طهي الطعام", "correct": false},
+      {"id": "c", "text": "تنظيف الغرف", "correct": false},
+      {"id": "d", "text": "خدمة النزلاء", "correct": false}
+    ]
+  },
+  {
+    "id": 81,
+    "text": "ما هو الإجراء المناسب عند وجود ضيف يريد استخدام خدمة التدليك؟",
+    "subtitle": "الضيافة - خدمات الترفيه",
+    "options": [
+      {"id": "a", "text": "توفير الخدمة وتوضيح التكلفة", "correct": true},
+      {"id": "b", "text": "رفض الطلب", "correct": false},
+      {"id": "c", "text": "تجاهل الطلب", "correct": false},
+      {"id": "d", "text": "طلب مغادرته", "correct": false}
+    ]
+  },
+  {
+    "id": 82,
+    "text": "ما هو الغرض من وجود نظام للتقييم الذاتي؟",
+    "subtitle": "الضيافة - جودة الخدمة",
+    "options": [
+      {"id": "a", "text": "تحسين الخدمة وتطويرها", "correct": true},
+      {"id": "b", "text": "زيادة الأسعار", "correct": false},
+      {"id": "c", "text": "تقليل الخدمات", "correct": false},
+      {"id": "d", "text": "إغلاق الفندق", "correct": false}
+    ]
+  },
+  {
+    "id": 83,
+    "text": "أي من هذه الصفات يجب أن يتحلى بها مسؤول التسويق؟",
+    "subtitle": "الضيافة - التسويق",
+    "options": [
+      {"id": "a", "text": "الإبداع والقدرة على التواصل", "correct": true},
+      {"id": "b", "text": "السرعة فقط", "correct": false},
+      {"id": "c", "text": "التحدث بصوت عال", "correct": false},
+      {"id": "d", "text": "اللبس غير المنظم", "correct": false}
+    ]
+  },
+  {
+    "id": 84,
+    "text": "ما هو المصطلح الذي يصف الغرفة المجهزة بمطبخ صغير؟",
+    "subtitle": "الضيافة - أنواع الغرف",
+    "options": [
+      {"id": "a", "text": "غرفة بمطبخ", "correct": true},
+      {"id": "b", "text": "غرفة فردية", "correct": false},
+      {"id": "c", "text": "غرفة مزدوجة", "correct": false},
+      {"id": "d", "text": "جناح", "correct": false}
+    ]
+  },
+  {
+    "id": 85,
+    "text": "ما هو الإجراء المناسب عند وجود ضيف يريد استخدام خدمة الأطفال؟",
+    "subtitle": "الضيافة - خدمات الأطفال",
+    "options": [
+      {"id": "a", "text": "توفير الخدمة وتوضيح التكلفة", "correct": true},
+      {"id": "b", "text": "رفض الطلب", "correct": false},
+      {"id": "c", "text": "تجاهل الطلب", "correct": false},
+      {"id": "d", "text": "طلب مغادرته", "correct": false}
+    ]
+  },
+  {
+    "id": 86,
+    "text": "أي من هذه الخدمات تقدمها الفنادق للمصطافين؟",
+    "subtitle": "الضيافة - خدمات المصطافين",
+    "options": [
+      {"id": "a", "text": "خدمات الشاطئ والترفيه", "correct": true},
+      {"id": "b", "text": "خدمة الغسيل", "correct": false},
+      {"id": "c", "text": "الصيانة", "correct": false},
+      {"id": "d", "text": "الحجوزات", "correct": false}
+    ]
+  },
+  {
+    "id": 87,
+    "text": "ما هو الغرض من وجود سياسة خاصة بالهدايا؟",
+    "subtitle": "الضيافة - سياسات خاصة",
+    "options": [
+      {"id": "a", "text": "تنظيم تقديم الهدايا للضيوف", "correct": true},
+      {"id": "b", "text": "زيادة الأسعار", "correct": false},
+      {"id": "c", "text": "تقليل الخدمات", "correct": false},
+      {"id": "d", "text": "إغلاق الفندق", "correct": false}
+    ]
+  },
+  {
+    "id": 88,
+    "text": "ما هو المصطلح الذي يصف الشخص المسؤول عن العلاقات العامة؟",
+    "subtitle": "الضيافة - الموظفين",
+    "options": [
+      {"id": "a", "text": "مسؤول العلاقات العامة", "correct": true},
+      {"id": "b", "text": "النادل", "correct": false},
+      {"id": "c", "text": "الطاهي", "correct": false},
+      {"id": "d", "text": "مدير الفندق", "correct": false}
+    ]
+  },
+  {
+    "id": 89,
+    "text": "أي من هذه المهام تقع على عاتق مسؤول العلاقات العامة؟",
+    "subtitle": "الضيافة - العلاقات العامة",
+    "options": [
+      {"id": "a", "text": "تحسين صورة الفندق وعلاقاته", "correct": true},
+      {"id": "b", "text": "طهي الطعام", "correct": false},
+      {"id": "c", "text": "تنظيف الغرف", "correct": false},
+      {"id": "d", "text": "خدمة النزلاء", "correct": false}
+    ]
+  },
+  {
+    "id": 90,
+    "text": "ما هو الإجراء المناسب عند وجود ضيف يريد استخدام خدمة الاجتماعات؟",
+    "subtitle": "الضيافة - خدمات الاجتماعات",
+    "options": [
+      {"id": "a", "text": "توفير الخدمة وتوضيح التكلفة", "correct": true},
+      {"id": "b", "text": "رفض الطلب", "correct": false},
+      {"id": "c", "text": "تجاهل الطلب", "correct": false},
+      {"id": "d", "text": "طلب مغادرته", "correct": false}
+    ]
+  },
+  {
+    "id": 91,
+    "text": "ما هو الغرض من وجود نظام للتعامل مع الطوارئ؟",
+    "subtitle": "الضيافة - السلامة",
+    "options": [
+      {"id": "a", "text": "ضمان سلامة الضيوف والموظفين", "correct": true},
+      {"id": "b", "text": "زيادة الأسعار", "correct": false},
+      {"id": "c", "text": "تقليل الخدمات", "correct": false},
+      {"id": "d", "text": "إغلاق الفندق", "correct": false}
+    ]
+  },
+  {
+    "id": 92,
+    "text": "أي من هذه الصفات يجب أن يتحلى بها مسؤول العلاقات العامة؟",
+    "subtitle": "الضيافة - العلاقات العامة",
+    "options": [
+      {"id": "a", "text": "القدرة على التواصل واللباقة", "correct": true},
+      {"id": "b", "text": "السرعة فقط", "correct": false},
+      {"id": "c", "text": "التحدث بصوت عال", "correct": false},
+      {"id": "d", "text": "اللبس غير المنظم", "correct": false}
+    ]
+  },
+  {
+    "id": 93,
+    "text": "ما هو المصطلح الذي يصف الغرفة المجهزة بأجهزة تكيف متطورة؟",
+    "subtitle": "الضيافة - أنواع الغرف",
+    "options": [
+      {"id": "a", "text": "غرفة مكيفة", "correct": true},
+      {"id": "b", "text": "غرفة فردية", "correct": false},
+      {"id": "c", "text": "غرفة مزدوجة", "correct": false},
+      {"id": "d", "text": "جناح", "correct": false}
+    ]
+  },
+  {
+    "id": 94,
+    "text": "ما هو الإجراء المناسب عند وجود ضيف يريد استخدام خدمة الصالة؟",
+    "subtitle": "الضيافة - خدمات الصالة",
+    "options": [
+      {"id": "a", "text": "توفير الخدمة وتوضيح التكلفة", "correct": true},
+      {"id": "b", "text": "رفض الطلب", "correct": false},
+      {"id": "c", "text": "تجاهل الطلب", "correct": false},
+      {"id": "d", "text": "طلب مغادرته", "correct": false}
+    ]
+  },
+  {
+    "id": 95,
+    "text": "أي من هذه الخدمات تقدمها الفنادق للمسافرين الدوليين؟",
+    "subtitle": "الضيافة - خدمات المسافرين",
+    "options": [
+      {"id": "a", "text": "خدمة الصرافة والمعلومات", "correct": true},
+      {"id": "b", "text": "خدمة الغسيل", "correct": false},
+      {"id": "c", "text": "الصيانة", "correct": false},
+      {"id": "d", "text": "الحجوزات", "correct": false}
+    ]
+  },
+  {
+    "id": 96,
+    "text": "ما هو الغرض من وجود سياسة خاصة باللغات؟",
+    "subtitle": "الضيافة - سياسات خاصة",
+    "options": [
+      {"id": "a", "text": "تسهيل التواصل مع الضيوف الأجانب", "correct": true},
+      {"id": "b", "text": "زيادة الأسعار", "correct": false},
+      {"id": "c", "text": "تقليل الخدمات", "correct": false},
+      {"id": "d", "text": "إغلاق الفندق", "correct": false}
+    ]
+  },
+  {
+    "id": 97,
+    "text": "ما هو المصطلح الذي يصف الشخص المسؤول عن الجودة؟",
+    "subtitle": "الضيافة - الموظفين",
+    "options": [
+      {"id": "a", "text": "مسؤول الجودة", "correct": true},
+      {"id": "b", "text": "النادل", "correct": false},
+      {"id": "c", "text": "الطاهي", "correct": false},
+      {"id": "d", "text": "مدير الفندق", "correct": false}
+    ]
+  },
+  {
+    "id": 98,
+    "text": "أي من هذه المهام تقع على عاتق مسؤول الجودة؟",
+    "subtitle": "الضيافة - الجودة",
+    "options": [
+      {"id": "a", "text": "مراقبة وتحسين جودة الخدمة", "correct": true},
+      {"id": "b", "text": "طهي الطعام", "correct": false},
+      {"id": "c", "text": "تنظيف الغرف", "correct": false},
+      {"id": "d", "text": "خدمة النزلاء", "correct": false}
+    ]
+  },
+  {
+    "id": 99,
+    "text": "ما هو الإجراء المناسب عند وجود ضيف يريد استخدام خدمة التأجير؟",
+    "subtitle": "الضيافة - خدمات التأجير",
+    "options": [
+      {"id": "a", "text": "توفير الخدمة وتوضيح التكلفة", "correct": true},
+      {"id": "b", "text": "رفض الطلب", "correct": false},
+      {"id": "c", "text": "تجاهل الطلب", "correct": false},
+      {"id": "d", "text": "طلب مغادرته", "correct": false}
+    ]
+  },
+  {
+    "id": 100,
+    "text": "ما هو الغرض من وجود نظام للتعامل مع الشكاوى؟",
+    "subtitle": "الضيافة - خدمة العملاء",
+    "options": [
+      {"id": "a", "text": "تحسين الخدمة وإرضاء العملاء", "correct": true},
+      {"id": "b", "text": "زيادة الأسعار", "correct": false},
+      {"id": "c", "text": "تقليل الخدمات", "correct": false},
+      {"id": "d", "text": "إغلاق الفندق", "correct": false}
+    ]
+  }
+]

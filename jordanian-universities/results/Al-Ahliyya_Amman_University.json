@@ -1,0 +1,67 @@
+
+{
+  "basic_info": {
+    "name": "جامعة عمان الأهلية",
+    "nameEn": "Al-Ahliyya Amman University",
+    "type": "private",
+    "city": "Amman",
+    "region": "central",
+    "established": 1990,
+    "website": "https://www.ammanu.edu.jo"
+  },
+  "admission_requirements": {
+    "general_requirements": "Jordanian General Secondary Certificate (Tawjihi) or equivalent. Minimum 60% for general admission; Engineering and Pharmacy require 80%+, Allied Medical Sciences 75%+, Nursing and Law 70%+.",
+    "min_tawjihi_mark": 60,
+    "has_entrance_exam": false,
+    "exam_details": "No general entrance exam required; placement tests may be required for language or computer proficiency.",
+    "english_requirement": "TOEFL or IELTS required for master's program admission; no specific English proficiency requirement specified for undergraduate admission."
+  },
+  "majors_overview": {
+    "college_count": 15,
+    "major_categories": ["engineering", "information technology", "pharmacy", "nursing", "business", "law", "arts and sciences", "architecture and design", "allied medical sciences", "education", "hospitality and tourism", "agricultural technology", "dentistry", "technical education", "sharia"],
+    "total_majors": 49,
+    "has_postgraduate": true
+  },
+  "tuition_fees": {
+    "annual_fees_range": "2,805 - 5,362 JOD per year",
+    "medical_majors_fees": 5265,
+    "engineering_majors_fees": 5100,
+    "humanities_majors_fees": 2805,
+    "notes": "Tuition varies by program and is charged per credit hour. Fees listed are for Jordanian students. International students pay in USD at higher rates (range approximately 140-230 USD per credit hour). Scholarships and installment plans available."
+  },
+  "ranking_accreditation": {
+    "national_ranking": "Ranked #1 among Jordanian private universities; #401-500 in THE World University Rankings 2026 (first among all Jordanian universities)",
+    "accreditation": "Ministry of Higher Education and Scientific Research (MOHE), ABET (Engineering & IT programs), ACPE (Pharmacy), ASIC (Platinum Award), AACSB (Business School), IIMP (Marketing)",
+    "international_recognition": "QS World University Rankings #761-770 (2026); THE World University Rankings #401-500 (2026); QS Arab Region #32; THE Arab University Ranking #28; QS Stars Five Stars rating"
+  },
+  "market_demand": {
+    "overall_demand": "high",
+    "high_demand_majors": ["Pharmacy", "Engineering", "Information Technology", "Nursing", "Business Administration"],
+    "employment_rate_estimate": "92.3% within 1 year of graduation",
+    "notes": "Employment rate based on 2023/2024 graduate survey (2,001 respondents, 95% response rate). University operates Career Guidance and Alumni Office, holds annual Career Day (90+ companies in 2025), and partners with companies like Zoho for graduate recruitment."
+  },
+  "campus_facilities": {
+    "has_accommodation": true,
+    "accommodation_details": "On-campus female dormitories (Al-Zahra'a, Al-Khansa'a/Shajarat Al-Dorr, Al-Batool, Apartment System) with modern furniture, wireless internet, free sports complex access, transportation services including shopping trips and airport transfers, medical care, and 24-hour supervision.",
+    "has_library": true,
+    "has_sports_facilities": true,
+    "has_scholarships": true,
+    "scholarship_details": "Various scholarship programs available including external scholarships (e.g., Brazilian Embassy scholarships), financial aid, and installment-based fee structures for financially constrained students."
+  },
+  "contact_info": {
+    "address": "Al Salt Road, Sweileh, Amman, Jordan",
+    "phone": "+962 5 3500211",
+    "email": "public@ammanu.edu.jo",
+    "social_media": [
+      "https://www.facebook.com/AhliyyaAmmanUniv",
+      "https://www.instagram.com/ahliyya_amman_university/",
+      "https://www.linkedin.com/school/al-ahliyya-amman-university/",
+      "https://twitter.com/ahliyyaammanuni"
+    ]
+  },
+  "uncertain": [
+    "address_postal_code",
+    "medical_majors_fees",
+    "engineering_majors_fees"
+  ]
+}

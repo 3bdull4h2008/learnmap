@@ -1,0 +1,73 @@
+{
+  "basic_info": {
+    "name": "جامعة العقبة للتكنولوجيا",
+    "nameEn": "Aqaba University of Technology",
+    "type": "private",
+    "city": "Aqaba",
+    "region": "south",
+    "established": 2015,
+    "website": "http://www.aut.edu.jo"
+  },
+  "admission_requirements": {
+    "general_requirements": "General secondary school certificate (Tawjihi) or equivalent; non-Jordanian certificates must be equivalated by the Jordanian Ministry of Education",
+    "min_tawjihi_mark": 60,
+    "has_entrance_exam": false,
+    "exam_details": "",
+    "english_requirement": "Not specified"
+  },
+  "majors_overview": {
+    "college_count": 7,
+    "major_categories": ["engineering", "IT", "business", "arts", "law", "pharmacy", "medical sciences"],
+    "total_majors": 27,
+    "has_postgraduate": true
+  },
+  "tuition_fees": {
+    "annual_fees_range": "2805-3630 JOD",
+    "medical_majors_fees": 3400,
+    "engineering_majors_fees": 3600,
+    "humanities_majors_fees": 2700,
+    "notes": "Fees based on per-credit-hour rates: humanities/occupational education 80 JOD/hr, business/IT 85 JOD/hr, AI/physiotherapy/medical imaging 100 JOD/hr, engineering/pharmacy 110 JOD/hr. Annual estimates calculated from total program hours divided by program duration."
+  },
+  "ranking_accreditation": {
+    "national_ranking": "29",
+    "accreditation": "Ministry of Higher Education and Scientific Research of Jordan (MOHE)",
+    "international_recognition": "Association of Arab Universities (since 2019), International Association of Universities (since 2020), Mediterranean Universities Union (UNIMED), AQACHEI, ASIC Accreditation"
+  },
+  "market_demand": {
+    "overall_demand": "medium",
+    "high_demand_majors": ["Pharmacy", "Civil Engineering", "Software Engineering", "Artificial Intelligence"],
+    "employment_rate_estimate": "Not available",
+    "notes": "The university focuses on aligning programs with regional labor market needs in Aqaba Special Economic Zone. Specific employment rate data is not publicly available."
+  },
+  "campus_facilities": {
+    "has_accommodation": true,
+    "accommodation_details": "University provides separate accommodation for male and female students with spacious rooms",
+    "has_library": true,
+    "has_sports_facilities": true,
+    "has_scholarships": true,
+    "scholarship_details": "Full scholarships (covering tuition and registration fees) offered to students with 100% Tawjihi score; additional discounts may be available"
+  },
+  "contact_info": {
+    "address": "South of Aqaba, South Beach Road, Opposite Aqaba Development Corporation Stores, Aqaba, Jordan",
+    "phone": "+962 (0) 3 2092300",
+    "email": "info@aut.edu.jo",
+    "social_media": [
+      "https://www.facebook.com/aut.official/",
+      "https://twitter.com/autjo_official",
+      "https://www.instagram.com/autjo_official/",
+      "https://www.youtube.com/channel/UCVNesX0L2QBWJ2QfvaWedTg"
+    ]
+  },
+  "uncertain": [
+    "min_tawjihi_mark",
+    "total_majors",
+    "annual_fees_range",
+    "medical_majors_fees",
+    "engineering_majors_fees",
+    "humanities_majors_fees",
+    "national_ranking",
+    "overall_demand",
+    "high_demand_majors",
+    "employment_rate_estimate"
+  ]
+}

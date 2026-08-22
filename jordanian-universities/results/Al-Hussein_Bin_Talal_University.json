@@ -1,0 +1,89 @@
+{
+  "basic_info": {
+    "name": "جامعة الحسين بن طلال",
+    "nameEn": "Al-Hussein Bin Talal University",
+    "type": "public",
+    "city": "Ma'an",
+    "region": "south",
+    "established": 1999,
+    "website": "https://www.ahu.edu.jo"
+  },
+  "admission_requirements": {
+    "general_requirements": "Tawjihi (General Secondary Education Certificate) or equivalent; selective admission based on past academic records and grades",
+    "min_tawjihi_mark": 65.0,
+    "has_entrance_exam": false,
+    "exam_details": "Admission is based on Tawjihi score and academic record; no separate entrance exam required",
+    "english_requirement": "IELTS accepted (minimum score not specified on official website)"
+  },
+  "majors_overview": {
+    "college_count": 11,
+    "major_categories": [
+      "College of Arts",
+      "Law College",
+      "Faculty of Educational Sciences",
+      "Faculty of Business and Economics",
+      "Petra College of Tourism and Archaeology",
+      "Information Technology College",
+      "College of Engineering",
+      "College of Science",
+      "Princess Aisha Bint Al Hussein College for Nursing",
+      "College of Technology",
+      "Faculty of Applied Medical Sciences"
+    ],
+    "total_majors": 48,
+    "has_postgraduate": true
+  },
+  "tuition_fees": {
+    "annual_fees_range": "[uncertain]",
+    "medical_majors_fees": "[uncertain]",
+    "engineering_majors_fees": "[uncertain]",
+    "humanities_majors_fees": "[uncertain]",
+    "notes": "Graduate studies fees available: Language Arabic and Literature 60 JOD/hour, Computer Engineering and Networks 90 JOD/hour, Renewable Energy Engineering 100 JOD/hour; International Parallel Program (Master): 500 USD/semester, 360 USD/registration, 600 USD/one-time admission; Doctoral: 550 USD/semester, 410 USD/registration, 600 USD/one-time admission"
+  },
+  "ranking_accreditation": {
+    "national_ranking": "17th in Jordan",
+    "accreditation": "Ministry of Higher Education and Scientific Research of Jordan, Higher Education Accreditation Commission (HEAC)",
+    "international_recognition": "THE World University Rankings 2026: 1201-1500; QS Arab Region Rankings 2026: #130"
+  },
+  "market_demand": {
+    "overall_demand": "[uncertain]",
+    "high_demand_majors": "[uncertain]",
+    "employment_rate_estimate": "[uncertain]",
+    "notes": "[uncertain]"
+  },
+  "campus_facilities": {
+    "has_accommodation": true,
+    "accommodation_details": "University provides on-campus student housing facilities",
+    "has_library": true,
+    "library_details": "Prince Hussein Bin Abdullah Library",
+    "has_sports_facilities": true,
+    "has_scholarships": true,
+    "scholarship_details": "North and Central Scholarship providing tuition fee exemption and monthly salary up to 60 JOD; partial scholarships from corporate partners; grants and loans available through Ministry of Higher Education"
+  },
+  "contact_info": {
+    "address": "P.O. Box 20, Ma'an 71111, Jordan",
+    "phone": "+962 3 217 9000",
+    "fax": "+962 3 217 9050",
+    "email": "ahu@ahu.edu.jo",
+    "social_media": [
+      "https://www.facebook.com/AHUOfficialPage",
+      "https://twitter.com/ahuuniversity",
+      "https://www.instagram.com/ahu_officialpage",
+      "https://www.youtube.com/@ahuofficialpage",
+      "https://t.me/+znWJKTQbqrowMDg0"
+    ]
+  },
+  "uncertain": [
+    "admission_requirements.min_tawjihi_mark",
+    "admission_requirements.english_requirement",
+    "majors_overview.total_majors",
+    "tuition_fees.annual_fees_range",
+    "tuition_fees.medical_majors_fees",
+    "tuition_fees.engineering_majors_fees",
+    "tuition_fees.humanities_majors_fees",
+    "market_demand.overall_demand",
+    "market_demand.high_demand_majors",
+    "market_demand.employment_rate_estimate",
+    "market_demand.notes"
+  ]
+}

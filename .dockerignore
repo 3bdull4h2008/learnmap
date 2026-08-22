@@ -1,0 +1,28 @@
+# Dependencies
+node_modules
+backend/node_modules
+
+# Secrets & environment files
+.env
+backend/.env
+.env.*
+auth/client_secret_*.json
+
+# OS / editor junk
+.git
+.gitignore
+.DS_Store
+Thumbs.db
+
+# Large binaries & installers
+*.msi
+*.exe
+
+# Dev artifacts & docs not needed in the image
+*.py
+docs
+*.md
+
+# Logs
+*.log
+logs

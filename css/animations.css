@@ -1,0 +1,158 @@
+/* ===========================================
+   LEARNMAP — ANIMATIONS
+   ===========================================
+   All keyframes and animation utility classes.
+   =========================================== */
+
+/* ── Keyframes ── */
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+@keyframes heroFloat {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  33% { transform: translate(20px, -30px) scale(1.05); }
+  66% { transform: translate(-15px, 20px) scale(0.95); }
+}
+
+@keyframes heroBlobPulse {
+  0%, 100% { transform: scale(1); opacity: 0.6; }
+  50% { transform: scale(1.15); opacity: 0.9; }
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.1); opacity: 0.8; }
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeInDown {
+  from { opacity: 0; transform: translateY(-30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideInRight {
+  from { opacity: 0; transform: translateX(-50px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes float {
+  0%, 100% { transform: translate(0, 0); }
+  50% { transform: translate(30px, 30px); }
+}
+
+@keyframes growToBottomLeft {
+  0% { transform: scale(0.5) translate(-50%, 50%); opacity: 1; }
+  100% { transform: scale(3) translate(-87%, 70%); opacity: 1; }
+}
+
+@keyframes particleFloat {
+  from { transform: translateY(0); }
+  to { transform: translateY(-50px); }
+}
+
+@keyframes popIn {
+  0% { transform: scale(0.5); opacity: 0; }
+  70% { transform: scale(1.1); }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+/* ── Animation Utility Classes ── */
+
+.animate-fade-in { animation: fadeInDown 1s ease-out; }
+.animate-fade-in-delay { animation: fadeInDown 1s ease-out 0.3s both; }
+.animate-slide-up { animation: fadeInUp 0.8s ease-out; }
+.animate-slide-up.delay-1 { animation-delay: 0.2s; animation-fill-mode: both; }
+.animate-slide-up.delay-2 { animation-delay: 0.4s; animation-fill-mode: both; }
+
+.animate-on-scroll {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.7s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  will-change: opacity, transform;
+}
+
+.animate-on-scroll.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.animate-on-scroll.visible-delay-1 { transition-delay: 0.1s; }
+.animate-on-scroll.visible-delay-2 { transition-delay: 0.2s; }
+.animate-on-scroll.visible-delay-3 { transition-delay: 0.3s; }
+
+/* ── Reduced Motion ── */
+@media (prefers-reduced-motion: reduce) {
+  .animate-on-scroll {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+
+/* ── Smooth Dark Mode Transition ── */
+body,
+body * {
+  transition-property: background-color, color, border-color, box-shadow;
+  transition-duration: 0s;
+}
+
+body.dark-mode-transitioning,
+body.dark-mode-transitioning * {
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+}
+
+/* ── Loading Skeleton ── */
+.skeleton {
+  background: linear-gradient(90deg, var(--lm-bg-tertiary) 25%, var(--lm-bg-secondary) 50%, var(--lm-bg-tertiary) 75%);
+  background-size: 200% 100%;
+  animation: skeleton-shimmer 1.5s infinite;
+  border-radius: var(--radius-md);
+}
+
+@keyframes skeleton-shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+.skeleton-text { height: 1em; margin-bottom: 0.5em; }
+.skeleton-title { height: 1.5em; width: 60%; margin-bottom: 0.75em; }
+.skeleton-avatar { width: 50px; height: 50px; border-radius: 50%; }
+.skeleton-card { height: 200px; }
+
+/* ── Empty State ── */
+.empty-state {
+  text-align: center;
+  padding: var(--space-16) var(--space-8);
+  color: var(--lm-text-muted);
+}
+
+.empty-state-icon {
+  font-size: 4rem;
+  margin-bottom: var(--space-4);
+  opacity: 0.5;
+}
+
+.empty-state h3 {
+  color: var(--lm-text-primary);
+  margin-bottom: var(--space-2);
+}
+
+.empty-state p {
+  max-width: 400px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* ── Focus Visible Enhancement ── */
+:focus-visible {
+  outline: 2px solid var(--gold-primary);
+  outline-offset: 2px;
+  border-radius: var(--radius-xs);
+}

@@ -1,0 +1,193 @@
+{
+  "basic_info": {
+    "name": "جامعة العلوم التطبيقية الخاصة",
+    "nameEn": "Applied Science Private University",
+    "type": "private",
+    "city": "Amman",
+    "region": "central",
+    "established": 1991,
+    "website": "https://www.asu.edu.jo",
+    "pobox": "541350",
+    "postcode": "11937"
+  },
+  "admission_requirements": {
+    "general_requirements": "Tawjihi (General Secondary Education Certificate) or equivalent for undergraduate; bachelor's degree with grade no less than 'good' for postgraduate",
+    "min_tawjihi_mark": {
+      "dentistry": "90% (Jordanian), 80% (non-Jordanian)",
+      "pharmacy_and_engineering": "80% or more",
+      "sharia_and_islamic_studies": "75%",
+      "nursing_clinical_nutrition_physiotherapy_renewable_energy_applied_engineering": "70%",
+      "law": "65% or more",
+      "business_IT_arts_and_design_arts_and_science": "60% or more",
+      "intermediate_diploma": "50%"
+    },
+    "has_entrance_exam": true,
+    "exam_details": "All applicants undergo aptitude/placement exams; remedial courses required if scores fall below 50%",
+    "english_requirement": "English proficiency exam may be taken at the university; TOEFL or IELTS for postgraduate programs",
+    "bridging_admission_rate": "68% for Jordanian diploma (70% for Engineering and Pharmacy)",
+    "notes": "Dentistry requires minimum 90% for Jordanian students. Various faculties have different minimum admission averages."
+  },
+  "majors_overview": {
+    "college_count": 12,
+    "major_categories": [
+      "Arts and Humanities",
+      "Law",
+      "Business",
+      "Pharmacy",
+      "Arts and Design",
+      "Information Technology",
+      "Engineering and Technology",
+      "Nursing",
+      "Sharia and Islamic Studies",
+      "Allied Medical Sciences",
+      "Science",
+      "Dentistry"
+    ],
+    "total_majors": 59,
+    "has_postgraduate": true,
+    "has_high_diploma": true,
+    "has_technical_college": true
+  },
+  "tuition_fees": {
+    "bachelor_annual_fees": {
+      "tuition_per_semester": "530 JOD",
+      "registration_per_semester": "450 JOD",
+      "total_per_semester": "980 JOD",
+      "summer_tuition": "300 JOD",
+      "summer_registration": "220 JOD",
+      "aptitude_exam_fee": "20 JOD per exam"
+    },
+    "dentistry_fees": {
+      "enrolment": "250 JOD",
+      "semester_registration": "500 JOD",
+      "aptitude_exam_fee": "20 JOD per exam"
+    },
+    "master_degree_fees": {
+      "enrolment": "225 JOD",
+      "semester_registration": "275 JOD",
+      "refundable_deposits": "50 JOD",
+      "research_sources": "50 JOD"
+    },
+    "high_diploma_fees": {
+      "enrolment": "80 JOD",
+      "semester_registration": "300 JOD",
+      "refundable_deposits": "20 JOD",
+      "distant_teaching": "50 JOD"
+    },
+    "transportation_fees": {
+      "zarqa_russeifa_marj_al_hamam_salt": "145 JOD (regular), 60 JOD (summer)",
+      "inside_amman": "120 JOD (regular), 50 JOD (summer)"
+    },
+    "medical_majors_fees": "125 JOD per semester (Pharmacy); 90-100 JOD per semester (Allied Medical Sciences)",
+    "engineering_majors_fees": "125-130 JOD per semester",
+    "humanities_majors_fees": "50-110 JOD per semester",
+    "business_majors_fees": "85-110 JOD per semester",
+    "notes": "Tuition fees vary according to changes in currency exchange rates. Fees shown are per credit hour."
+  },
+  "scholarships_discounts": {
+    "has_scholarships": true,
+    "scholarship_types": [
+      "Discounts for new students based on high school average",
+      "Discounts for college students",
+      "Discounts for graduate students",
+      "Other discounts"
+    ],
+    "examples": {
+      "sharia_majors": "50-100% discount",
+      "law": "20-50% discount (65%+ average)",
+      "business": "30-60% discount (60%+ average)",
+      "engineering": "40-70% discount (80%+ average)",
+      "pharmacy": "35-45% discount (80%+ average)",
+      "it": "15-70% discount depending on major and average",
+      "computer_science": "15-60% discount (60%+ average)",
+      "software_engineering": "15-60% discount (60%+ average)",
+      "cybersecurity": "15-60% discount (60%+ average)",
+      "data_science_ai": "15-60% discount (60%+ average)",
+      "nursing": "40% discount",
+      "dentistry": "[uncertain]"
+    },
+    "notes": "Discounts vary by major and high school average percentage"
+  },
+  "ranking_accreditation": {
+    "national_ranking": "1st among private universities in Jordan (THE Impact Rankings)",
+    "qs_world_ranking": "851-900 (2026)",
+    "the_world_ranking": "401-500 (2025)",
+    "qs_arab_ranking": "48th among top Arab universities",
+    "qs_stars_rating": "5 Stars Plus (first private university to receive this rating)",
+    "accreditation": [
+      "ISO 9001:2000 Quality Management Certification",
+      "ACPE accreditation for Faculty of Pharmacy (first in Jordan)",
+      "ABET accreditation for Engineering and IT programs",
+      "ACEN accreditation for Faculty of Nursing",
+      "HCERES accreditation for Faculty of Law (first in Jordan)",
+      "AACSB acceptance for Faculty of Business",
+      "AFN accreditation for Clinical Nutrition and Dietetics",
+      "ASIC accreditation",
+      "IIMP accreditation for Marketing"
+    ],
+    "international_recognition": "THE World University Rankings 401-500; QS World University Rankings 851-900; QS Arab University Rankings 48th; QS 5 Stars Plus rating; Scimago Institutions Rankings"
+  },
+  "market_demand": {
+    "overall_demand": "[uncertain]",
+    "high_demand_majors": [
+      "Computer Science",
+      "Software Engineering",
+      "Cybersecurity and Cloud Computing",
+      "Data Science and Artificial Intelligence",
+      "Pharmacy",
+      "Dentistry",
+      "Engineering (various specializations)"
+    ],
+    "employment_rate_estimate": "[uncertain]",
+    "notes": "High-demand fields based on current market trends and university program offerings"
+  },
+  "campus_facilities": {
+    "campus_size": "356 dunams, 152,000 square meters academic buildings",
+    "has_accommodation": true,
+    "accommodation_details": "University Housing available on campus",
+    "has_library": true,
+    "library_details": "Central library with over 132,000 resources in multiple languages",
+    "has_sports_facilities": true,
+    "sports_facilities": [
+      "Olympic Stadium",
+      "Fitness Gym",
+      "Swimming Pool",
+      "Indoor Sports Courts"
+    ],
+    "has_scholarships": true,
+    "other_facilities": [
+      "Conference Palace",
+      "University Mosque and prayer rooms",
+      "Arab Bank branch and ATMs",
+      "Bookstores",
+      "Dining options",
+      "Comprehensive transportation network",
+      "On-campus clinic",
+      "Ibn Al-Haytham Hospital access",
+      "Medical services and health insurance",
+      "Banking services",
+      "Internet services",
+      "Services for people with special needs"
+    ]
+  },
+  "contact_info": {
+    "address": "Al Arab St. 21, Amman, Jordan",
+    "phone": "+962 6 560 9999",
+    "email": "info@asu.edu.jo",
+    "pobox": "541350",
+    "postcode": "11937",
+    "social_media": [
+      "https://www.facebook.com/ASPUJordan/",
+      "https://twitter.com/ASPUJordan/",
+      "https://www.instagram.com/asu.jordan/",
+      "https://www.youtube.com/channel/UC5w-Tx0ndHRW4hrDIPPtNQw",
+      "https://www.snapchat.com/add/aspu_snap",
+      "https://wa.me/962775778804"
+    ]
+  },
+  "uncertain": [
+    "market_demand.overall_demand",
+    "market_demand.employment_rate_estimate",
+    "scholarships_discounts.examples.dentistry"
+  ]
+}

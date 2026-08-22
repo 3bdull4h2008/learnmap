@@ -1,0 +1,1102 @@
+[
+  {
+    "id": 1,
+    "text": "ما هي الألوان الأساسية في نظرية الألوان؟",
+    "subtitle": "التصميم - نظرية الألوان",
+    "options": [
+      {"id": "a", "text": "الأحمر، الأزرق، الأصفر", "correct": true},
+      {"id": "b", "text": "الأخضر، البرتقالي، البنفسجي", "correct": false},
+      {"id": "c", "text": "الأبيض، الأسود، الرمادي", "correct": false},
+      {"id": "d", "text": "البني، البيج، الكريمي", "correct": false}
+    ]
+  },
+  {
+    "id": 2,
+    "text": "ما هو العنصر الفني الذي يشير إلى المساحة حول وحول الموضوع في العمل الفني؟",
+    "subtitle": "الفن - عناصر التصميم",
+    "options": [
+      {"id": "a", "text": "التركيز", "correct": false},
+      {"id": "b", "text": "الفراغ", "correct": true},
+      {"id": "c", "text": "الشكل", "correct": false},
+      {"id": "d", "text": "الملمس", "correct": false}
+    ]
+  },
+  {
+    "id": 3,
+    "text": "أي من هذه المواد يستخدم في تقنية الرسم بالألوان المائية؟",
+    "subtitle": "الفن - تقنيات الرسم",
+    "options": [
+      {"id": "a", "text": "الورق المقوى", "correct": false},
+      {"id": "b", "text": "الورق الخاص بالألوان المائية", "correct": true},
+      {"id": "c", "text": "الخشب", "correct": false},
+      {"id": "d", "text": "القماش الخشن", "correct": false}
+    ]
+  },
+  {
+    "id": 4,
+    "text": "ما هو المصطلح الذي يصف توزيع العناصر في العمل الفني لخلق التوازن؟",
+    "subtitle": "التصميم - مبادئ التصميم",
+    "options": [
+      {"id": "a", "text": "التباين", "correct": false},
+      {"id": "b", "text": "التركيز", "correct": false},
+      {"id": "c", "text": "التوازن", "correct": true},
+      {"id": "d", "text": "الإيقاع", "correct": false}
+    ]
+  },
+  {
+    "id": 5,
+    "text": "أي من هذه الأدوات يستخدم في فن النحت على الخشب؟",
+    "subtitle": "الفن - النحت",
+    "options": [
+      {"id": "a", "text": "الفرشاة", "correct": false},
+      {"id": "b", "text": "الإزميل", "correct": true},
+      {"id": "c", "text": "القلم الرصاص", "correct": false},
+      {"id": "d", "text": "السكين البلاستيكي", "correct": false}
+    ]
+  },
+  {
+    "id": 6,
+    "text": "ما هو اللون الذي نحصل عليه عند مزج اللونين الأزرق والأصفر؟",
+    "subtitle": "الفن - نظرية الألوان",
+    "options": [
+      {"id": "a", "text": "البرتقالي", "correct": false},
+      {"id": "b", "text": "الأخضر", "correct": true},
+      {"id": "c", "text": "البنفسجي", "correct": false},
+      {"id": "d", "text": "البني", "correct": false}
+    ]
+  },
+  {
+    "id": 7,
+    "text": "ما هو نوع الخط الذي يعبر عن القوة والثبات؟",
+    "subtitle": "التصميم - الخطوط",
+    "options": [
+      {"id": "a", "text": "الخط المنكسر", "correct": false},
+      {"id": "b", "text": "الخط المستقيم", "correct": true},
+      {"id": "c", "text": "الخط المتموج", "correct": false},
+      {"id": "d", "text": "الخط المتقطع", "correct": false}
+    ]
+  },
+  {
+    "id": 8,
+    "text": "أي من هذه التقنيات تستخدم في الطباعة الفنية؟",
+    "subtitle": "الفن - تقنيات الطباعة",
+    "options": [
+      {"id": "a", "text": "الرسم بالفحم", "correct": false},
+      {"id": "b", "text": "الليثوغراف", "correct": true},
+      {"id": "c", "text": "التصوير الضوئي", "correct": false},
+      {"id": "d", "text": "النحت بالطين", "correct": false}
+    ]
+  },
+  {
+    "id": 9,
+    "text": "ما هو العنصر الفني الذي يشير إلى كيفية شعورنا بالسطح عندما نلمسه؟",
+    "subtitle": "الفن - عناصر التصميم",
+    "options": [
+      {"id": "a", "text": "اللون", "correct": false},
+      {"id": "b", "text": "الملمس", "correct": true},
+      {"id": "c", "text": "الشكل", "correct": false},
+      {"id": "d", "text": "الحجم", "correct": false}
+    ]
+  },
+  {
+    "id": 10,
+    "text": "ما هو البرنامج المستخدم في التصميم الجرافيكي لإنشاء الرسومات المتجهة؟",
+    "subtitle": "التصميم - برامج التصميم",
+    "options": [
+      {"id": "a", "text": "فوتوشوب", "correct": false},
+      {"id": "b", "text": "أدوبي إليستريتور", "correct": true},
+      {"id": "c", "text": "أدوبي إن ديزاين", "correct": false},
+      {"id": "d", "text": "أدوبي بريمير", "correct": false}
+    ]
+  },
+  {
+    "id": 11,
+    "text": "ما هو نوع المنظور الذي تلتقي فيه الخطوط المتوازية في نقطة واحدة؟",
+    "subtitle": "الرسم - المنظور",
+    "options": [
+      {"id": "a", "text": "المنظور ثنائي النقاط", "correct": false},
+      {"id": "b", "text": "المنظور ثلاثي النقاط", "correct": false},
+      {"id": "c", "text": "المنظور أحادي النقطة", "correct": true},
+      {"id": "d", "text": "المنظور الجوي", "correct": false}
+    ]
+  },
+  {
+    "id": 12,
+    "text": "أي من هذه المواد تستخدم في تقنية الكولاج؟",
+    "subtitle": "الفن - تقنيات混合",
+    "options": [
+      {"id": "a", "text": "الورق الملون والصور المقطوعة", "correct": true},
+      {"id": "b", "text": "الطين والماء", "correct": false},
+      {"id": "c", "text": "الزيت والتيربنتين", "correct": false},
+      {"id": "d", "text": "الحجر والرخام", "correct": false}
+    ]
+  },
+  {
+    "id": 13,
+    "text": "ما هو المصطلح الذي يصف تباين الألوان الفاتحة والداكنة في العمل الفني؟",
+    "subtitle": "الفن - القيم اللونية",
+    "options": [
+      {"id": "a", "text": "التشبع", "correct": false},
+      {"id": "b", "text": "الظل والنور", "correct": true},
+      {"id": "c", "text": "الدرجة اللونية", "correct": false},
+      {"id": "d", "text": "الشفافية", "correct": false}
+    ]
+  },
+  {
+    "id": 14,
+    "text": "أي من هذه الأنماط الفنية يتميز بالأشكال الهندسية والتبسيط؟",
+    "subtitle": "الفن - تاريخ الفن",
+    "options": [
+      {"id": "a", "text": "الباروك", "correct": false},
+      {"id": "b", "text": "الرومانسية", "correct": false},
+      {"id": "c", "text": "التكعيبية", "correct": true},
+      {"id": "d", "text": "السريالية", "correct": false}
+    ]
+  },
+  {
+    "id": 15,
+    "text": "ما هو نوع التصميم الذي يركز على سهولة استخدام المنتج؟",
+    "subtitle": "التصميم - التصميم الصناعي",
+    "options": [
+      {"id": "a", "text": "التصميم الجرافيكي", "correct": false},
+      {"id": "b", "text": "تصميم تجربة المستخدم", "correct": true},
+      {"id": "c", "text": "التصميم الداخلي", "correct": false},
+      {"id": "d", "text": "التصميم المعماري", "correct": false}
+    ]
+  },
+  {
+    "id": 16,
+    "text": "ما هي التقنية التي تستخدم الألوان الشمعية في الرسم؟",
+    "subtitle": "الفن - تقنيات الرسم",
+    "options": [
+      {"id": "a", "text": "الأكرليك", "correct": false},
+      {"id": "b", "text": "الباستيل", "correct": false},
+      {"id": "c", "text": "الرصاص الملون", "correct": false},
+      {"id": "d", "text": "الشمع", "correct": true}
+    ]
+  },
+  {
+    "id": 17,
+    "text": "ما هو المبدأ التصميمي الذي يشير إلى حركة العين عبر العمل الفني؟",
+    "subtitle": "التصميم - مبادئ التصميم",
+    "options": [
+      {"id": "a", "text": "الإيقاع", "correct": false},
+      {"id": "b", "text": "التدفق البصري", "correct": true},
+      {"id": "c", "text": "الوحدة", "correct": false},
+      {"id": "d", "text": "التناسب", "correct": false}
+    ]
+  },
+  {
+    "id": 18,
+    "text": "أي من هذه الأنواع ينتمي إلى فنون الوسائط المتعددة؟",
+    "subtitle": "الفن - الفنون الرقمية",
+    "options": [
+      {"id": "a", "text": "النحت الحجري", "correct": false},
+      {"id": "b", "text": "الرسم الزيتي", "correct": false},
+      {"id": "c", "text": "الرسوم المتحركة", "correct": true},
+      {"id": "d", "text": "الرسم بالفحم", "correct": false}
+    ]
+  },
+  {
+    "id": 19,
+    "text": "ما هو اللون المكمل للون الأحمر في دائرة الألوان؟",
+    "subtitle": "الفن - نظرية الألوان",
+    "options": [
+      {"id": "a", "text": "الأزرق", "correct": false},
+      {"id": "b", "text": "الأخضر", "correct": true},
+      {"id": "c", "text": "الأصفر", "correct": false},
+      {"id": "d", "text": "البرتقالي", "correct": false}
+    ]
+  },
+  {
+    "id": 20,
+    "text": "ما هو نوع التوازن الذي يكون فيه كلا الجانبين متطابقين؟",
+    "subtitle": "التصميم - التوازن",
+    "options": [
+      {"id": "a", "text": "التوازن غير المتماثل", "correct": false},
+      {"id": "b", "text": "التوازن المتماثل", "correct": true},
+      {"id": "c", "text": "التوازن الشعاعي", "correct": false},
+      {"id": "d", "text": "التوازن العشوائي", "correct": false}
+    ]
+  },
+  {
+    "id": 21,
+    "text": "أي من هذه المواد تستخدم في فن الخزف؟",
+    "subtitle": "الفن - الخزف",
+    "options": [
+      {"id": "a", "text": "الطين", "correct": true},
+      {"id": "b", "text": "الرخام", "correct": false},
+      {"id": "c", "text": "البرونز", "correct": false},
+      {"id": "d", "text": "الخشب", "correct": false}
+    ]
+  },
+  {
+    "id": 22,
+    "text": "ما هو المصطلح الذي يصف درجة نقاء اللون؟",
+    "subtitle": "الفن - نظرية الألوان",
+    "options": [
+      {"id": "a", "text": "القيمة", "correct": false},
+      {"id": "b", "text": "التشبع", "correct": true},
+      {"id": "c", "text": "الدرجة", "correct": false},
+      {"id": "d", "text": "الظل", "correct": false}
+    ]
+  },
+  {
+    "id": 23,
+    "text": "ما هو نوع التصميم الذي يهتم بتصميم المباني والفراغات؟",
+    "subtitle": "التصميم - التصميم المعماري",
+    "options": [
+      {"id": "a", "text": "التصميم الجرافيكي", "correct": false},
+      {"id": "b", "text": "التصميم الصناعي", "correct": false},
+      {"id": "c", "text": "التصميم المعماري", "correct": true},
+      {"id": "d", "text": "تصميم الأزياء", "correct": false}
+    ]
+  },
+  {
+    "id": 24,
+    "text": "أي من هذه التقنيات تستخدم في التصوير الفوتوغرافي للتحكم في كمية الضوء؟",
+    "subtitle": "الفن - التصوير الضوئي",
+    "options": [
+      {"id": "a", "text": "سرعة الغالق", "correct": false},
+      {"id": "b", "text": "فتحة العدسة", "correct": true},
+      {"id": "c", "text": "درجة الحرارة اللونية", "correct": false},
+      {"id": "d", "text": "التركيز", "correct": false}
+    ]
+  },
+  {
+    "id": 25,
+    "text": "ما هو العنصر الفني الذي يشير إلى المسار الذي تتبعه العين؟",
+    "subtitle": "التصميم - الحركة البصرية",
+    "options": [
+      {"id": "a", "text": "الشكل", "correct": false},
+      {"id": "b", "text": "الخط", "correct": true},
+      {"id": "c", "text": "المساحة", "correct": false},
+      {"id": "d", "text": "الحجم", "correct": false}
+    ]
+  },
+  {
+    "id": 26,
+    "text": "ما هو نوع الفن الذي يستخدم الضوء كمادة أساسية؟",
+    "subtitle": "الفن - الفنون الحديثة",
+    "options": [
+      {"id": "a", "text": "فن الفيديو", "correct": false},
+      {"id": "b", "text": "فن التركيب", "correct": false},
+      {"id": "c", "text": "فن الضوء", "correct": true},
+      {"id": "d", "text": "فن الأداء", "correct": false}
+    ]
+  },
+  {
+    "id": 27,
+    "text": "أي من هذه البرامج يستخدم لتحرير الفيديو؟",
+    "subtitle": "التصميم - برامج المونتاج",
+    "options": [
+      {"id": "a", "text": "أدوبي بريمير", "correct": true},
+      {"id": "b", "text": "أدوبي إليستريتور", "correct": false},
+      {"id": "c", "text": "أدوبي فوتوشوب", "correct": false},
+      {"id": "d", "text": "أدوبي إن ديزاين", "correct": false}
+    ]
+  },
+  {
+    "id": 28,
+    "text": "ما هو المبدأ التصميمي الذي يشير إلى العلاقة بين الأجزاء والكل؟",
+    "subtitle": "التصميم - التناسب",
+    "options": [
+      {"id": "a", "text": "الوحدة", "correct": false},
+      {"id": "b", "text": "التناسب", "correct": true},
+      {"id": "c", "text": "التوازن", "correct": false},
+      {"id": "d", "text": "التباين", "correct": false}
+    ]
+  },
+  {
+    "id": 29,
+    "text": "ما هو نوع الرسم الذي يركز على تصوير الطبيعة؟",
+    "subtitle": "الرسم - الأنواع",
+    "options": [
+      {"id": "a", "text": "البورتريه", "correct": false},
+      {"id": "b", "text": "الطبيعة الصامتة", "correct": false},
+      {"id": "c", "text": "المناظر الطبيعية", "correct": true},
+      {"id": "d", "text": "التجريدي", "correct": false}
+    ]
+  },
+  {
+    "id": 30,
+    "text": "أي من هذه التقنيات تستخدم في الطباعة على القماش؟",
+    "subtitle": "الفن - الطباعة",
+    "options": [
+      {"id": "a", "text": "السيليك سكرين", "correct": true},
+      {"id": "b", "text": "الليثوغراف", "correct": false},
+      {"id": "c", "text": "الطباعة الغائرة", "correct": false},
+      {"id": "d", "text": "الطباعة البارزة", "correct": false}
+    ]
+  },
+  {
+    "id": 31,
+    "text": "ما هو المصطلح الذي يصف الفن الذي لا يمثل الواقع بشكل مباشر؟",
+    "subtitle": "الفن - الأنماط الفنية",
+    "options": [
+      {"id": "a", "text": "الواقعية", "correct": false},
+      {"id": "b", "text": "التجريدية", "correct": true},
+      {"id": "c", "text": "الانطباعية", "correct": false},
+      {"id": "d", "text": "التعبيرية", "correct": false}
+    ]
+  },
+  {
+    "id": 32,
+    "text": "ما هو نوع الخط الذي يعبر عن الحركة والحيوية؟",
+    "subtitle": "التصميم - الخطوط",
+    "options": [
+      {"id": "a", "text": "الخط المستقيم", "correct": false},
+      {"id": "b", "text": "الخط المنكسر", "correct": false},
+      {"id": "c", "text": "الخط المنحني", "correct": true},
+      {"id": "d", "text": "الخط المتقطع", "correct": false}
+    ]
+  },
+  {
+    "id": 33,
+    "text": "أي من هذه المواد تستخدم في الرسم بالحبر؟",
+    "subtitle": "الفن - المواد",
+    "options": [
+      {"id": "a", "text": "الورق الماص", "correct": true},
+      {"id": "b", "text": "اللوح الخشبي", "correct": false},
+      {"id": "c", "text": "القماش المشمع", "correct": false},
+      {"id": "d", "text": "الورق الشمعي", "correct": false}
+    ]
+  },
+  {
+    "id": 34,
+    "text": "ما هو العنصر الفني الذي يشير إلى الانزياح البصري؟",
+    "subtitle": "الفن - الخداع البصري",
+    "options": [
+      {"id": "a", "text": "المنظور", "correct": true},
+      {"id": "b", "text": "الملمس", "correct": false},
+      {"id": "c", "text": "اللون", "correct": false},
+      {"id": "d", "text": "الشكل", "correct": false}
+    ]
+  },
+  {
+    "id": 35,
+    "text": "ما هو نوع التصميم الذي يهتم بتصميم المنتجات الصناعية؟",
+    "subtitle": "التصميم - التصميم الصناعي",
+    "options": [
+      {"id": "a", "text": "التصميم الجرافيكي", "correct": false},
+      {"id": "b", "text": "التصميم الداخلي", "correct": false},
+      {"id": "c", "text": "التصميم الصناعي", "correct": true},
+      {"id": "d", "text": "تصميم الأزياء", "correct": false}
+    ]
+  },
+  {
+    "id": 36,
+    "text": "أي من هذه الألوان يعتبر لوناً محايداً؟",
+    "subtitle": "الفن - نظرية الألوان",
+    "options": [
+      {"id": "a", "text": "الأحمر", "correct": false},
+      {"id": "b", "text": "الأزرق", "correct": false},
+      {"id": "c", "text": "الرمادي", "correct": true},
+      {"id": "d", "text": "الأخضر", "correct": false}
+    ]
+  },
+  {
+    "id": 37,
+    "text": "ما هو المبدأ التصميمي الذي يشير إلى تكرار العناصر؟",
+    "subtitle": "التصميم - الإيقاع",
+    "options": [
+      {"id": "a", "text": "التباين", "correct": false},
+      {"id": "b", "text": "الإيقاع", "correct": true},
+      {"id": "c", "text": "التوازن", "correct": false},
+      {"id": "d", "text": "الوحدة", "correct": false}
+    ]
+  },
+  {
+    "id": 38,
+    "text": "ما هو نوع الفن الذي يجمع بين multiple media؟",
+    "subtitle": "الفن - الفنون混合",
+    "options": [
+      {"id": "a", "text": "الفن mixed media", "correct": true},
+      {"id": "b", "text": "الفن التجريدي", "correct": false},
+      {"id": "c", "text": "الفن الواقعي", "correct": false},
+      {"id": "d", "text": "الفن الرقمي", "correct": false}
+    ]
+  },
+  {
+    "id": 39,
+    "text": "ما هو اللون الذي نحصل عليه عند مزج الأحمر والأبيض؟",
+    "subtitle": "الفن - نظرية الألوان",
+    "options": [
+      {"id": "a", "text": "الوردي", "correct": true},
+      {"id": "b", "text": "البرتقالي", "correct": false},
+      {"id": "c", "text": "البني", "correct": false},
+      {"id": "d", "text": "الأرجواني", "correct": false}
+    ]
+  },
+  {
+    "id": 40,
+    "text": "أي من هذه الأدوات يستخدم في قياس النسب في الرسم؟",
+    "subtitle": "الرسم - الأدوات",
+    "options": [
+      {"id": "a", "text": "المسطرة", "correct": false},
+      {"id": "b", "text": "البيكار", "correct": true},
+      {"id": "c", "text": "الفرجار", "correct": false},
+      {"id": "d", "text": "المثلث", "correct": false}
+    ]
+  },
+  {
+    "id": 41,
+    "text": "ما هو نوع التوازن الذي يكون فيه الجانبان مختلفين ولكن متوازنين؟",
+    "subtitle": "التصميم - التوازن",
+    "options": [
+      {"id": "a", "text": "التوازن المتماثل", "correct": false},
+      {"id": "b", "text": "التوازن غير المتماثل", "correct": true},
+      {"id": "c", "text": "التوازن الشعاعي", "correct": false},
+      {"id": "d", "text": "التوازن المركزي", "correct": false}
+    ]
+  },
+  {
+    "id": 42,
+    "text": "ما هو الفن الذي يستخدم الخيوط والنسيج؟",
+    "subtitle": "الفن - الفنون التقليدية",
+    "options": [
+      {"id": "a", "text": "فن النسيج", "correct": true},
+      {"id": "b", "text": "فن الخزف", "correct": false},
+      {"id": "c", "text": "فن النحت", "correct": false},
+      {"id": "d", "text": "فن الرسم", "correct": false}
+    ]
+  },
+  {
+    "id": 43,
+    "text": "أي من هذه الأنماط الفنية يتميز بالتركيز على العواطف والمشاعر؟",
+    "subtitle": "الفن - تاريخ الفن",
+    "options": [
+      {"id": "a", "text": "الكلاسيكية", "correct": false},
+      {"id": "b", "text": "التعبيرية", "correct": true},
+      {"id": "c", "text": "الواقعية", "correct": false},
+      {"id": "d", "text": "التكعيبية", "correct": false}
+    ]
+  },
+  {
+    "id": 44,
+    "text": "ما هو المصطلح الذي يصف تدرج اللون من الفاتح إلى الغامق؟",
+    "subtitle": "الفن - القيم اللونية",
+    "options": [
+      {"id": "a", "text": "التشبع", "correct": false},
+      {"id": "b", "text": "الدرجة اللونية", "correct": false},
+      {"id": "c", "text": "السلم اللوني", "correct": true},
+      {"id": "d", "text": "التباين", "correct": false}
+    ]
+  },
+  {
+    "id": 45,
+    "text": "ما هو نوع التصميم الذي يهتم بتصميم المجوهرات؟",
+    "subtitle": "التصميم - التصميم الحرفي",
+    "options": [
+      {"id": "a", "text": "التصميم الجرافيكي", "correct": false},
+      {"id": "b", "text": "تصميم المجوهرات", "correct": true},
+      {"id": "c", "text": "التصميم الصناعي", "correct": false},
+      {"id": "d", "text": "التصميم المعماري", "correct": false}
+    ]
+  },
+  {
+    "id": 46,
+    "text": "أي من هذه التقنيات تستخدم في الرسم بالزيت؟",
+    "subtitle": "الفن - تقنيات الرسم",
+    "options": [
+      {"id": "a", "text": "الرسم على الورق الرطب", "correct": false},
+      {"id": "b", "text": "الرسم على القماش المشدود", "correct": true},
+      {"id": "c", "text": "الرسم على الزجاج", "correct": false},
+      {"id": "d", "text": "الرسم على الخشب", "correct": false}
+    ]
+  },
+  {
+    "id": 47,
+    "text": "ما هو المبدأ التصميمي الذي يشير إلى نقطة الجذب الرئيسية؟",
+    "subtitle": "التصميم - التركيز",
+    "options": [
+      {"id": "a", "text": "التوازن", "correct": false},
+      {"id": "b", "text": "التركيز", "correct": true},
+      {"id": "c", "text": "الإيقاع", "correct": false},
+      {"id": "d", "text": "الوحدة", "correct": false}
+    ]
+  },
+  {
+    "id": 48,
+    "text": "ما هو نوع الفن الذي يعتمد على الأداء الحيّ؟",
+    "subtitle": "الفن - فنون الأداء",
+    "options": [
+      {"id": "a", "text": "فن التركيب", "correct": false},
+      {"id": "b", "text": "فن الأداء", "correct": true},
+      {"id": "c", "text": "فن الفيديو", "correct": false},
+      {"id": "d", "text": "فن الصوت", "correct": false}
+    ]
+  },
+  {
+    "id": 49,
+    "text": "أي من هذه البرامج يستخدم للرسم الرقمي؟",
+    "subtitle": "التصميم - البرامج الرقمية",
+    "options": [
+      {"id": "a", "text": "أدوبي فوتوشوب", "correct": true},
+      {"id": "b", "text": "أدوبي إن ديزاين", "correct": false},
+      {"id": "c", "text": "أدوبي بريمير", "correct": false},
+      {"id": "d", "text": "أدوبي أكروبات", "correct": false}
+    ]
+  },
+  {
+    "id": 50,
+    "text": "ما هو العنصر الفني الذي يشير إلى الفراغ ثلاثي الأبعاد؟",
+    "subtitle": "الفن - عناصر التصميم",
+    "options": [
+      {"id": "a", "text": "المساحة", "correct": false},
+      {"id": "b", "text": "الحجم", "correct": true},
+      {"id": "c", "text": "الشكل", "correct": false},
+      {"id": "d", "text": "الملمس", "correct": false}
+    ]
+  },
+  {
+    "id": 51,
+    "text": "ما هو نوع الخط الذي يعبر عن الفوضى والعشوائية؟",
+    "subtitle": "التصميم - الخطوط",
+    "options": [
+      {"id": "a", "text": "الخط المستقيم", "correct": false},
+      {"id": "b", "text": "الخط المنحني", "correct": false},
+      {"id": "c", "text": "الخط المتقطع", "correct": false},
+      {"id": "d", "text": "الخط العشوائي", "correct": true}
+    ]
+  },
+  {
+    "id": 52,
+    "text": "أي من هذه المواد تستخدم في النحت بالمعادن؟",
+    "subtitle": "الفن - النحت",
+    "options": [
+      {"id": "a", "text": "البرونز", "correct": true},
+      {"id": "b", "text": "الطين", "correct": false},
+      {"id": "c", "text": "الجبس", "correct": false},
+      {"id": "d", "text": "الخشب", "correct": false}
+    ]
+  },
+  {
+    "id": 53,
+    "text": "ما هو المصطلح الذي يصف الفن الذي ينتقد المجتمع؟",
+    "subtitle": "الفن - الفن الاجتماعي",
+    "options": [
+      {"id": "a", "text": "فن الجرافيتي", "correct": true},
+      {"id": "b", "text": "الفن التجريدي", "correct": false},
+      {"id": "c", "text": "الفن الكلاسيكي", "correct": false},
+      {"id": "d", "text": "الفن الانطباعي", "correct": false}
+    ]
+  },
+  {
+    "id": 54,
+    "text": "ما هو نوع التصميم الذي يهتم بتصميم الواجهات الرقمية؟",
+    "subtitle": "التصميم - التصميم الرقمي",
+    "options": [
+      {"id": "a", "text": "تصميم واجهات المستخدم", "correct": true},
+      {"id": "b", "text": "التصميم الجرافيكي", "correct": false},
+      {"id": "c", "text": "التصميم الصناعي", "correct": false},
+      {"id": "d", "text": "التصميم المعماري", "correct": false}
+    ]
+  },
+  {
+    "id": 55,
+    "text": "أي من هذه الألوان يعتبر دافئاً؟",
+    "subtitle": "الفن - درجات الحرارة اللونية",
+    "options": [
+      {"id": "a", "text": "الأزرق", "correct": false},
+      {"id": "b", "text": "الأخضر", "correct": false},
+      {"id": "c", "text": "البرتقالي", "correct": true},
+      {"id": "d", "text": "البنفسجي", "correct": false}
+    ]
+  },
+  {
+    "id": 56,
+    "text": "ما هو المبدأ التصميمي الذي يشير إلى التنوع والاختلاف؟",
+    "subtitle": "التصميم - التباين",
+    "options": [
+      {"id": "a", "text": "الوحدة", "correct": false},
+      {"id": "b", "text": "التباين", "correct": true},
+      {"id": "c", "text": "التوازن", "correct": false},
+      {"id": "d", "text": "الإيقاع", "correct": false}
+    ]
+  },
+  {
+    "id": 57,
+    "text": "ما هو نوع الفن الذي يستخدم الصوت كمادة أساسية؟",
+    "subtitle": "الفن - الفنون السمعية",
+    "options": [
+      {"id": "a", "text": "فن التركيب", "correct": false},
+      {"id": "b", "text": "فن الصوت", "correct": true},
+      {"id": "c", "text": "فن الفيديو", "correct": false},
+      {"id": "d", "text": "فن الأداء", "correct": false}
+    ]
+  },
+  {
+    "id": 58,
+    "text": "أي من هذه التقنيات تستخدم في التصوير الفوتوغرافي لتجميد الحركة؟",
+    "subtitle": "الفن - التصوير الضوئي",
+    "options": [
+      {"id": "a", "text": "سرعة غالق عالية", "correct": true},
+      {"id": "b", "text": "فتحة عدسة واسعة", "correct": false},
+      {"id": "c", "text": "أيزو منخفض", "correct": false},
+      {"id": "d", "text": "تركيز يدوي", "correct": false}
+    ]
+  },
+  {
+    "id": 59,
+    "text": "ما هو العنصر الفني الذي يشير إلى الشعور بالعمق؟",
+    "subtitle": "الفن - البعد الثالث",
+    "options": [
+      {"id": "a", "text": "المساحة", "correct": true},
+      {"id": "b", "text": "اللون", "correct": false},
+      {"id": "c", "text": "الخط", "correct": false},
+      {"id": "d", "text": "الشكل", "correct": false}
+    ]
+  },
+  {
+    "id": 60,
+    "text": "ما هو نوع التصميم الذي يهتم بتصميم الكتب والمجلات؟",
+    "subtitle": "التصميم - التصميم editorial",
+    "options": [
+      {"id": "a", "text": "التصميم الجرافيكي", "correct": false},
+      {"id": "b", "text": "تصميم editorial", "correct": true},
+      {"id": "c", "text": "التصميم الصناعي", "correct": false},
+      {"id": "d", "text": "تصميم واجهات المستخدم", "correct": false}
+    ]
+  },
+  {
+    "id": 61,
+    "text": "أي من هذه الأنماط الفنية يتميز بالضبابية والانطباعات؟",
+    "subtitle": "الفن - تاريخ الفن",
+    "options": [
+      {"id": "a", "text": "الانطباعية", "correct": true},
+      {"id": "b", "text": "التكعيبية", "correct": false},
+      {"id": "c", "text": "التعبيرية", "correct": false},
+      {"id": "d", "text": "الواقعية", "correct": false}
+    ]
+  },
+  {
+    "id": 62,
+    "text": "ما هو المصطلح الذي يصف توزيع الأوزان البصرية؟",
+    "subtitle": "التصميم - التوازن البصري",
+    "options": [
+      {"id": "a", "text": "التوازن", "correct": true},
+      {"id": "b", "text": "التباين", "correct": false},
+      {"id": "c", "text": "الإيقاع", "correct": false},
+      {"id": "d", "text": "الوحدة", "correct": false}
+    ]
+  },
+  {
+    "id": 63,
+    "text": "ما هو نوع الرسم الذي يركز على تصوير الوجوه؟",
+    "subtitle": "الرسم - البورتريه",
+    "options": [
+      {"id": "a", "text": "الطبيعة الصامتة", "correct": false},
+      {"id": "b", "text": "البورتريه", "correct": true},
+      {"id": "c", "text": "المناظر الطبيعية", "correct": false},
+      {"id": "d", "text": "التجريدي", "correct": false}
+    ]
+  },
+  {
+    "id": 64,
+    "text": "أي من هذه المواد تستخدم في الرسم بالأكرليك؟",
+    "subtitle": "الفن - المواد",
+    "options": [
+      {"id": "a", "text": "الورق المائي", "correct": false},
+      {"id": "b", "text": "اللوح القماشي", "correct": true},
+      {"id": "c", "text": "الورق الشفاف", "correct": false},
+      {"id": "d", "text": "الخشب الرقائقي", "correct": false}
+    ]
+  },
+  {
+    "id": 65,
+    "text": "ما هو المبدأ التصميمي الذي يشير إلى التجانس والتماسك؟",
+    "subtitle": "التصميم - الوحدة",
+    "options": [
+      {"id": "a", "text": "التباين", "correct": false},
+      {"id": "b", "text": "الوحدة", "correct": true},
+      {"id": "c", "text": "الإيقاع", "correct": false},
+      {"id": "d", "text": "التوازن", "correct": false}
+    ]
+  },
+  {
+    "id": 66,
+    "text": "ما هو نوع الفن الذي يعتمد على تجميع عناصر مختلفة؟",
+    "subtitle": "الفن - فن التركيب",
+    "options": [
+      {"id": "a", "text": "فن التركيب", "correct": true},
+      {"id": "b", "text": "فن الأداء", "correct": false},
+      {"id": "c", "text": "فن الفيديو", "correct": false},
+      {"id": "d", "text": "فن الصوت", "correct": false}
+    ]
+  },
+  {
+    "id": 67,
+    "text": "أي من هذه البرامج يستخدم لتصميم layouts؟",
+    "subtitle": "التصميم - برامج التصميم",
+    "options": [
+      {"id": "a", "text": "أدوبي إن ديزاين", "correct": true},
+      {"id": "b", "text": "أدوبي فوتوشوب", "correct": false},
+      {"id": "c", "text": "أدوبي إليستريتور", "correct": false},
+      {"id": "d", "text": "أدوبي بريمير", "correct": false}
+    ]
+  },
+  {
+    "id": 68,
+    "text": "ما هو العنصر الفني الذي يشير إلى الشكل ثنائي الأبعاد؟",
+    "subtitle": "الفن - عناصر التصميم",
+    "options": [
+      {"id": "a", "text": "الحجم", "correct": false},
+      {"id": "b", "text": "الشكل", "correct": true},
+      {"id": "c", "text": "المساحة", "correct": false},
+      {"id": "d", "text": "الملمس", "correct": false}
+    ]
+  },
+  {
+    "id": 69,
+    "text": "ما هو نوع الخط الذي يعبر عن الدقة والوضوح؟",
+    "subtitle": "التصميم - الخطوط",
+    "options": [
+      {"id": "a", "text": "الخط المتقطع", "correct": false},
+      {"id": "b", "text": "الخط المستمر", "correct": true},
+      {"id": "c", "text": "الخط العشوائي", "correct": false},
+      {"id": "d", "text": "الخط المنحني", "correct": false}
+    ]
+  },
+  {
+    "id": 70,
+    "text": "أي من هذه التقنيات تستخدم في النحت بالطين؟",
+    "subtitle": "الفن - النحت",
+    "options": [
+      {"id": "a", "text": "النحت بالإضافة", "correct": true},
+      {"id": "b", "text": "النحت بالنحت", "correct": false},
+      {"id": "c", "text": "النحت بالصب", "correct": false},
+      {"id": "d", "text": "النحت باللحام", "correct": false}
+    ]
+  },
+  {
+    "id": 71,
+    "text": "ما هو المصطلح الذي يصف الفن الذي يعبر عن الأحلام واللاوعي؟",
+    "subtitle": "الفن - السريالية",
+    "options": [
+      {"id": "a", "text": "السريالية", "correct": true},
+      {"id": "b", "text": "الواقعية", "correct": false},
+      {"id": "c", "text": "التجريدية", "correct": false},
+      {"id": "d", "text": "التكعيبية", "correct": false}
+    ]
+  },
+  {
+    "id": 72,
+    "text": "ما هو نوع التصميم الذي يهتم بتصميم الملابس؟",
+    "subtitle": "التصميم - تصميم الأزياء",
+    "options": [
+      {"id": "a", "text": "التصميم الجرافيكي", "correct": false},
+      {"id": "b", "text": "تصميم الأزياء", "correct": true},
+      {"id": "c", "text": "التصميم الصناعي", "correct": false},
+      {"id": "d", "text": "التصميم المعماري", "correct": false}
+    ]
+  },
+  {
+    "id": 73,
+    "text": "أي من هذه الألوان يعتبر بارداً؟",
+    "subtitle": "الفن - درجات الحرارة اللونية",
+    "options": [
+      {"id": "a", "text": "الأحمر", "correct": false},
+      {"id": "b", "text": "البرتقالي", "correct": false},
+      {"id": "c", "text": "الأزرق", "correct": true},
+      {"id": "d", "text": "الأصفر", "correct": false}
+    ]
+  },
+  {
+    "id": 74,
+    "text": "ما هو المبدأ التصميمي الذي يشير إلى التكرار المنتظم؟",
+    "subtitle": "التصميم - النمط",
+    "options": [
+      {"id": "a", "text": "الإيقاع", "correct": false},
+      {"id": "b", "text": "النمط", "correct": true},
+      {"id": "c", "text": "التباين", "correct": false},
+      {"id": "d", "text": "التوازن", "correct": false}
+    ]
+  },
+  {
+    "id": 75,
+    "text": "ما هو نوع الفن الذي يستخدم التقنيات الرقمية؟",
+    "subtitle": "الفن - الفن الرقمي",
+    "options": [
+      {"id": "a", "text": "الفن الرقمي", "correct": true},
+      {"id": "b", "text": "الفن التقليدي", "correct": false},
+      {"id": "c", "text": "الفن الكلاسيكي", "correct": false},
+      {"id": "d", "text": "الفن الانطباعي", "correct": false}
+    ]
+  },
+  {
+    "id": 76,
+    "text": "أي من هذه التقنيات تستخدم في التصوير الفوتوغرافي لخلق عمق ميداني ضحل؟",
+    "subtitle": "الفن - التصوير الضوئي",
+    "options": [
+      {"id": "a", "text": "فتحة عدسة واسعة", "correct": true},
+      {"id": "b", "text": "سرعة غالق بطيئة", "correct": false},
+      {"id": "c", "text": "أيزو مرتفع", "correct": false},
+      {"id": "d", "text": "تركيز تلقائي", "correct": false}
+    ]
+  },
+  {
+    "id": 77,
+    "text": "ما هو العنصر الفني الذي يشير إلى العلاقة بين الأجزاء؟",
+    "subtitle": "التصميم - التناسب",
+    "options": [
+      {"id": "a", "text": "المقياس", "correct": false},
+      {"id": "b", "text": "التناسب", "correct": true},
+      {"id": "c", "text": "التوازن", "correct": false},
+      {"id": "d", "text": "التباين", "correct": false}
+    ]
+  },
+  {
+    "id": 78,
+    "text": "ما هو نوع التصميم الذي يهتم بتصميم الشعارات؟",
+    "subtitle": "التصميم - الهوية البصرية",
+    "options": [
+      {"id": "a", "text": "تصميم الشعارات", "correct": true},
+      {"id": "b", "text": "تصميم editorial", "correct": false},
+      {"id": "c", "text": "تصميم واجهات المستخدم", "correct": false},
+      {"id": "d", "text": "التصميم المعماري", "correct": false}
+    ]
+  },
+  {
+    "id": 79,
+    "text": "أي من هذه الأنماط الفنية يتميز بالتفاصيل الدقيقة والزخرفة؟",
+    "subtitle": "الفن - تاريخ الفن",
+    "options": [
+      {"id": "a", "text": "الباروك", "correct": false},
+      {"id": "b", "text": "الكلاسيكية", "correct": false},
+      {"id": "c", "text": "الحركة الجديدة", "correct": false},
+      {"id": "d", "text": "الحركة الزخرفية", "correct": true}
+    ]
+  },
+  {
+    "id": 80,
+    "text": "ما هو المصطلح الذي يصف تدرج الظلال من الأسود إلى الأبيض؟",
+    "subtitle": "الفن - القيم اللونية",
+    "options": [
+      {"id": "a", "text": "السلم الرمادي", "correct": true},
+      {"id": "b", "text": "التشبع", "correct": false},
+      {"id": "c", "text": "الدرجة اللونية", "correct": false},
+      {"id": "d", "text": "التباين", "correct": false}
+    ]
+  },
+  {
+    "id": 81,
+    "text": "ما هو نوع الخط الذي يعبر عن الأناقة والرشاقة؟",
+    "subtitle": "التصميم - الخطوط",
+    "options": [
+      {"id": "a", "text": "الخط المستقيم", "correct": false},
+      {"id": "b", "text": "الخط المنحني الرشيق", "correct": true},
+      {"id": "c", "text": "الخط المتقطع", "correct": false},
+      {"id": "d", "text": "الخط العشوائي", "correct": false}
+    ]
+  },
+  {
+    "id": 82,
+    "text": "أي من هذه المواد تستخدم في الرسم بالباستيل؟",
+    "subtitle": "الفن - المواد",
+    "options": [
+      {"id": "a", "text": "الورق الخشن", "correct": true},
+      {"id": "b", "text": "اللوح الزجاجي", "correct": false},
+      {"id": "c", "text": "القماش المطلي", "correct": false},
+      {"id": "d", "text": "الورق الشفاف", "correct": false}
+    ]
+  },
+  {
+    "id": 83,
+    "text": "ما هو الفن الذي يجمع بين الصورة والصوت؟",
+    "subtitle": "الفن - فن الفيديو",
+    "options": [
+      {"id": "a", "text": "فن الفيديو", "correct": true},
+      {"id": "b", "text": "فن التركيب", "correct": false},
+      {"id": "c", "text": "فن الأداء", "correct": false},
+      {"id": "d", "text": "فن الصوت", "correct": false}
+    ]
+  },
+  {
+    "id": 84,
+    "text": "ما هو نوع التصميم الذي يهتم بتصميم العبوات؟",
+    "subtitle": "التصميم - تصميم العبوات",
+    "options": [
+      {"id": "a", "text": "تصميم العبوات", "correct": true},
+      {"id": "b", "text": "التصميم الجرافيكي", "correct": false},
+      {"id": "c", "text": "التصميم الصناعي", "correct": false},
+      {"id": "d", "text": "التصميم المعماري", "correct": false}
+    ]
+  },
+  {
+    "id": 85,
+    "text": "أي من هذه الألوان هو لون ثانوي؟",
+    "subtitle": "الفن - نظرية الألوان",
+    "options": [
+      {"id": "a", "text": "الأحمر", "correct": false},
+      {"id": "b", "text": "الأزرق", "correct": false},
+      {"id": "c", "text": "البرتقالي", "correct": true},
+      {"id": "d", "text": "الأصفر", "correct": false}
+    ]
+  },
+  {
+    "id": 86,
+    "text": "ما هو المبدأ التصميمي الذي يشير إلى الحركة المتكررة؟",
+    "subtitle": "التصميم - الإيقاع",
+    "options": [
+      {"id": "a", "text": "التباين", "correct": false},
+      {"id": "b", "text": "الإيقاع", "correct": true},
+      {"id": "c", "text": "التوازن", "correct": false},
+      {"id": "d", "text": "الوحدة", "correct": false}
+    ]
+  },
+  {
+    "id": 87,
+    "text": "ما هو نوع الفن الذي يعتمد على التفاعل مع المشاهد؟",
+    "subtitle": "الفن - الفن التفاعلي",
+    "options": [
+      {"id": "a", "text": "الفن التفاعلي", "correct": true},
+      {"id": "b", "text": "الفن الثابت", "correct": false},
+      {"id": "c", "text": "الفن التقليدي", "correct": false},
+      {"id": "d", "text": "الفن الكلاسيكي", "correct": false}
+    ]
+  },
+  {
+    "id": 88,
+    "text": "أي من هذه التقنيات تستخدم في الطباعة البارزة؟",
+    "subtitle": "الفن - الطباعة",
+    "options": [
+      {"id": "a", "text": "الطباعة البارزة", "correct": true},
+      {"id": "b", "text": "الليثوغراف", "correct": false},
+      {"id": "c", "text": "السيليك سكرين", "correct": false},
+      {"id": "d", "text": "الطباعة الغائرة", "correct": false}
+    ]
+  },
+  {
+    "id": 89,
+    "text": "ما هو العنصر الفني الذي يشير إلى الشعور بالوزن؟",
+    "subtitle": "الفن - الكتلة",
+    "options": [
+      {"id": "a", "text": "الحجم", "correct": false},
+      {"id": "b", "text": "الكتلة", "correct": true},
+      {"id": "c", "text": "المساحة", "correct": false},
+      {"id": "d", "text": "الشكل", "correct": false}
+    ]
+  },
+  {
+    "id": 90,
+    "text": "ما هو نوع التصميم الذي يهتم بتصميم المساحات الداخلية؟",
+    "subtitle": "التصميم - التصميم الداخلي",
+    "options": [
+      {"id": "a", "text": "التصميم الداخلي", "correct": true},
+      {"id": "b", "text": "التصميم المعماري", "correct": false},
+      {"id": "c", "text": "التصميم الجرافيكي", "correct": false},
+      {"id": "d", "text": "التصميم الصناعي", "correct": false}
+    ]
+  },
+  {
+    "id": 91,
+    "text": "أي من هذه الأنماط الفنية يتميز بالألوان الزاهية والحدود الواضحة؟",
+    "subtitle": "الفن - تاريخ الفن",
+    "options": [
+      {"id": "a", "text": "البوب آرت", "correct": true},
+      {"id": "b", "text": "الانطباعية", "correct": false},
+      {"id": "c", "text": "التعبيرية", "correct": false},
+      {"id": "d", "text": "التكعيبية", "correct": false}
+    ]
+  },
+  {
+    "id": 92,
+    "text": "ما هو المصطلح الذي يصف توزيع العناصر حول نقطة مركزية؟",
+    "subtitle": "التصميم - التوازن الشعاعي",
+    "options": [
+      {"id": "a", "text": "التوازن المتماثل", "correct": false},
+      {"id": "b", "text": "التوازن غير المتماثل", "correct": false},
+      {"id": "c", "text": "التوازن الشعاعي", "correct": true},
+      {"id": "d", "text": "التوازن المركزي", "correct": false}
+    ]
+  },
+  {
+    "id": 93,
+    "text": "ما هو نوع الرسم الذي يركز على تصوير الأشياء الجامدة؟",
+    "subtitle": "الرسم - الطبيعة الصامتة",
+    "options": [
+      {"id": "a", "text": "البورتريه", "correct": false},
+      {"id": "b", "text": "الطبيعة الصامتة", "correct": true},
+      {"id": "c", "text": "المناظر الطبيعية", "correct": false},
+      {"id": "d", "text": "التجريدي", "correct": false}
+    ]
+  },
+  {
+    "id": 94,
+    "text": "أي من هذه المواد تستخدم في الرسم بالتمبرا؟",
+    "subtitle": "الفن - المواد",
+    "options": [
+      {"id": "a", "text": "اللوح الخشبي", "correct": true},
+      {"id": "b", "text": "الورق المائي", "correct": false},
+      {"id": "c", "text": "القماش المشمع", "correct": false},
+      {"id": "d", "text": "الزجاج", "correct": false}
+    ]
+  },
+  {
+    "id": 95,
+    "text": "ما هو المبدأ التصميمي الذي يشير إلى البساطة والوضوح؟",
+    "subtitle": "التصميم - البساطة",
+    "options": [
+      {"id": "a", "text": "التباين", "correct": false},
+      {"id": "b", "text": "البساطة", "correct": true},
+      {"id": "c", "text": "التوازن", "correct": false},
+      {"id": "d", "text": "الإيقاع", "correct": false}
+    ]
+  },
+  {
+    "id": 96,
+    "text": "ما هو نوع الفن الذي يعتمد على البيئة المحيطة؟",
+    "subtitle": "الفن - فن الأرض",
+    "options": [
+      {"id": "a", "text": "فن الأرض", "correct": true},
+      {"id": "b", "text": "فن التركيب", "correct": false},
+      {"id": "c", "text": "فن الأداء", "correct": false},
+      {"id": "d", "text": "فن الفيديو", "correct": false}
+    ]
+  },
+  {
+    "id": 97,
+    "text": "أي من هذه البرامج يستخدم للنمذجة ثلاثية الأبعاد؟",
+    "subtitle": "التصميم - برامج ثلاثية الأبعاد",
+    "options": [
+      {"id": "a", "text": "أدوبي فوتوشوب", "correct": false},
+      {"id": "b", "text": "أدوبي إليستريتور", "correct": false},
+      {"id": "c", "text": "بلايندر", "correct": true},
+      {"id": "d", "text": "أدوبي إن ديزاين", "correct": false}
+    ]
+  },
+  {
+    "id": 98,
+    "text": "ما هو العنصر الفني الذي يشير إلى الشعور بالاتجاه؟",
+    "subtitle": "الفن - الحركة",
+    "options": [
+      {"id": "a", "text": "الخط", "correct": false},
+      {"id": "b", "text": "الحركة", "correct": true},
+      {"id": "c", "text": "الشكل", "correct": false},
+      {"id": "d", "text": "المساحة", "correct": false}
+    ]
+  },
+  {
+    "id": 99,
+    "text": "ما هو نوع الخط الذي يعبر عن الحداثة والمعاصرة؟",
+    "subtitle": "التصميم - الخطوط",
+    "options": [
+      {"id": "a", "text": "الخط الكلاسيكي", "correct": false},
+      {"id": "b", "text": "الخط الحديث", "correct": true},
+      {"id": "c", "text": "الخط التقليدي", "correct": false},
+      {"id": "d", "text": "الخط التاريخي", "correct": false}
+    ]
+  },
+  {
+    "id": 100,
+    "text": "أي من هذه التقنيات تستخدم في النحت بالرخام؟",
+    "subtitle": "الفن - النحت",
+    "options": [
+      {"id": "a", "text": "النحت بالنحت", "correct": true},
+      {"id": "b", "text": "النحت بالإضافة", "correct": false},
+      {"id": "c", "text": "النحت بالصب", "correct": false},
+      {"id": "d", "text": "النحت باللحام", "correct": false}
+    ]
+  }
+]

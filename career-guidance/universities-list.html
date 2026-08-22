@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>دليل الجامعات - LearnMap</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="icon" type="image/x-icon" href="/images/logo.ico">
+    <style>
+        .filter-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(180px, 100%), 1fr)); gap: var(--space-3); margin-bottom: var(--space-4); }
+        .filter-row select { width: 100%; padding: 0.7rem 1rem; border: 2px solid var(--lm-border); border-radius: var(--radius-lg); font-size: var(--fs-sm); font-family: 'Cairo', sans-serif; background: var(--lm-bg-secondary); color: var(--lm-text-primary); cursor: pointer; transition: border-color 0.2s, box-shadow 0.2s; appearance: none; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%236b7280' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: left 0.8rem center; padding-left: 2.5rem; }
+        .filter-row select:focus { outline: none; border-color: var(--gold-primary); box-shadow: 0 0 0 3px rgba(20,112,121,0.15); }
+        .filter-row select:hover { border-color: var(--gold-light); }
+        .search-input { width: 100%; padding: 0.9rem 1.2rem 0.9rem 3rem; border: 2px solid var(--lm-border); border-radius: var(--radius-full); font-size: var(--fs-base); font-family: 'Cairo', sans-serif; background: var(--lm-bg-secondary); color: var(--lm-text-primary); transition: border-color 0.2s, box-shadow 0.2s; box-sizing: border-box; }
+        .search-input:focus { outline: none; border-color: var(--gold-primary); box-shadow: 0 0 0 3px rgba(20,112,121,0.15); }
+        .search-input:hover { border-color: var(--gold-light); }
+        .search-input::placeholder { color: var(--lm-text-muted); }
+        .search-wrapper { position: relative; margin-bottom: var(--space-4); }
+        .search-icon { position: absolute; right: 1rem; top: 50%; transform: translateY(-50%); color: var(--lm-text-muted); pointer-events: none; }
+        .scholarship-filters { display: flex; flex-wrap: wrap; gap: var(--space-3); margin-bottom: var(--space-4); padding: 0.8rem 1rem; background: var(--lm-bg-secondary); border: 1px solid var(--lm-border); border-radius: var(--radius-lg); }
+        .scholarship-filters label { display: flex; align-items: center; gap: 0.5rem; cursor: pointer; font-size: var(--fs-sm); color: var(--lm-text-primary); }
+        .scholarship-filters input[type="checkbox"] { width: 18px; height: 18px; accent-color: var(--gold-primary); cursor: pointer; }
+        .uni-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(360px, 100%), 1fr)); gap: var(--space-5); }
+        .uni-card { border-radius: var(--radius-xl); padding: 1.5rem; margin-bottom: 0; box-shadow: var(--shadow-md); transition: transform 0.2s, box-shadow 0.2s; border: 1px solid var(--lm-border); background: linear-gradient(135deg, var(--lm-bg-secondary), var(--lm-bg-tertiary)); }
+        .uni-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-xl); border-color: var(--gold-primary); }
+        .uni-card-head { display: flex; justify-content: space-between; align-items: flex-start; gap: var(--space-2); margin-bottom: var(--space-2); flex-wrap: wrap; }
+        .uni-card-name { font-size: var(--fs-lg); font-weight: 700; color: var(--lm-text-primary); flex: 1; min-width: 200px; }
+        .uni-badge { display: inline-block; padding: 0.2rem 0.6rem; border-radius: var(--radius-full); font-size: var(--fs-xs); font-weight: 600; }
+        .uni-badge.public { background: rgba(76,175,80,0.1); color: #4caf50; }
+        .uni-badge.private { background: rgba(255,152,0,0.1); color: #ff9800; }
+        .uni-badge.special-law { background: rgba(156,39,176,0.1); color: #9c27b0; }
+        .uni-badge.colleges { background: rgba(33,150,243,0.1); color: #2196f3; }
+        .uni-badge.hospital { background: rgba(244,67,54,0.1); color: #f44336; }
+        .uni-badge.international { background: rgba(0,150,136,0.1); color: #009688; }
+        .uni-badge.military { background: rgba(33,150,243,0.1); color: #2196f3; }
+        .uni-badge.teachers { background: rgba(76,175,80,0.1); color: #4caf50; }
+        .uni-badge-group { display: flex; gap: 0.3rem; flex-wrap: wrap; }
+        .uni-meta { display: flex; flex-wrap: wrap; gap: var(--space-3); margin-bottom: var(--space-3); font-size: var(--fs-sm); color: var(--lm-text-muted); }
+        .uni-majors-section { border-top: 1px solid var(--lm-border); padding-top: var(--space-3); margin-top: var(--space-2); }
+        .uni-majors-title { font-size: var(--fs-xs); font-weight: 600; color: var(--lm-text-muted); margin-bottom: var(--space-2); text-transform: uppercase; letter-spacing: 0.05em; }
+        .uni-major-chips { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+        .uni-major-chip { display: inline-flex; align-items: center; gap: 0.3rem; padding: 0.25rem 0.6rem; background: var(--gold-50); border: 1px solid var(--gold-100); border-radius: var(--radius-full); font-size: var(--fs-xs); color: var(--gold-primary); font-weight: 500; }
+        .uni-major-chip .mark { font-size: 0.65rem; color: var(--lm-text-muted); }
+        .uni-major-chip .cost { font-size: 0.65rem; color: var(--color-success); }
+        .uni-card-footer { display: flex; gap: 0.5rem; border-top: 1px solid var(--lm-border); padding-top: var(--space-3); margin-top: var(--space-2); }
+        .uni-card-btn { padding: 0.4rem 0.8rem; border: 1px solid var(--gold-primary); border-radius: 8px; background: transparent; color: var(--gold-primary); font-family: 'Cairo', sans-serif; font-size: 0.8rem; font-weight: 600; cursor: pointer; transition: all 0.2s; white-space: nowrap; }
+        .uni-card-btn:hover { background: var(--gold-50); }
+        .uni-details { max-height: 0; overflow: hidden; transition: max-height 0.3s ease; }
+        .uni-card.expanded .uni-details { max-height: 2000px; }
+        .uni-details-inner { padding: var(--space-3) 0; border-top: 1px solid var(--lm-border); }
+        .uni-details-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+        .uni-link { display: inline-flex; align-items: center; gap: 0.3rem; margin-top: var(--space-2); padding: 0.4rem 0.8rem; background: linear-gradient(135deg, var(--gold-primary), var(--gold-light)); color: #fff; border-radius: var(--radius-full); font-size: var(--fs-xs); font-weight: 600; text-decoration: none; transition: transform 0.2s, box-shadow 0.2s; }
+        .uni-link:hover { transform: translateY(-1px); box-shadow: 0 4px 12px rgba(20,112,121,0.3); }
+        .uni-major-name-en { color: var(--lm-text-muted); }
+        .active-tags { display: flex; flex-wrap: wrap; gap: var(--space-2); margin-bottom: var(--space-4); min-height: 0; }
+        .active-tags:empty { display: none; }
+        .active-tag { display: inline-flex; align-items: center; gap: 0.3rem; padding: 0.3rem 0.7rem; background: var(--gold-100); color: var(--gold-primary); border-radius: var(--radius-full); font-size: var(--fs-xs); font-weight: 600; }
+        .active-tag-x { cursor: pointer; opacity: 0.6; }
+        .active-tag-x:hover { opacity: 1; }
+        .main-column-full { width: 100%; margin: auto; }
+        .stat-card-center { text-align: center; }
+
+        .dark-mode .uni-card { background: var(--dm-bg-secondary); border-color: var(--dm-border); }
+        .dark-mode .uni-card:hover { border-color: var(--dm-accent-gold); }
+        .dark-mode .uni-details-inner { background: var(--dm-bg-tertiary); }
+        .dark-mode .uni-major-chip { background: rgba(222,178,83,0.1); border-color: rgba(222,178,83,0.2); }
+        .dark-mode .uni-badge.public { background: rgba(22,101,52,0.3); }
+        .dark-mode .uni-badge.private { background: rgba(146,64,14,0.3); }
+        .dark-mode .uni-badge.special-law { background: rgba(91,33,182,0.3); }
+        .dark-mode .uni-badge.colleges { background: rgba(30,64,175,0.3); }
+        .dark-mode .uni-badge.hospital { background: rgba(153,27,27,0.3); }
+        .dark-mode .uni-badge.international { background: rgba(17,94,89,0.3); }
+        .dark-mode .filter-row select { background-color: var(--dm-bg-secondary); border-color: var(--dm-border); color: var(--dm-text-primary); background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%239ca3af' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E"); }
+        .dark-mode .filter-row select:focus { border-color: var(--dm-accent-gold); box-shadow: 0 0 0 3px rgba(222,178,83,0.2); }
+        .dark-mode .search-input { background-color: var(--dm-bg-secondary); border-color: var(--dm-border); color: var(--dm-text-primary); }
+        .dark-mode .search-input:focus { border-color: var(--dm-accent-gold); box-shadow: 0 0 0 3px rgba(222,178,83,0.2); }
+        .dark-mode .scholarship-filters { background: var(--dm-bg-secondary); border-color: var(--dm-border); }
+        .dark-mode .scholarship-filters label { color: var(--dm-text-primary); }
+
+        @media (max-width: 640px) {
+            .filter-row { grid-template-columns: 1fr; gap: var(--space-2); }
+            .uni-card { padding: 1rem; }
+            .uni-card-name { font-size: var(--fs-base); min-width: 0; }
+            .uni-meta { gap: var(--space-2); }
+            .uni-modal-content { margin: 0.5rem; border-radius: 12px; }
+            .uni-modal-header { padding: 1.5rem; }
+            .uni-modal-body { padding: 1rem; }
+            .uni-modal-majors-grid { grid-template-columns: 1fr; }
+            .uni-modal-meta { grid-template-columns: 1fr; }
+            .uni-modal-footer { padding: 1rem; flex-direction: column; }
+            .uni-modal-visit-btn { width: 100%; justify-content: center; }
+        }
+    </style>
+</head>
+<body>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap" as="style">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap" rel="stylesheet">
+<div class="nav-overlay" id="navOverlay" aria-hidden="true"></div>
+<nav class="navbar" role="navigation" aria-label="القائمة الرئيسية">
+  <div class="nav-container">
+    <a href="/index.html" class="logo" aria-label="العودة للصفحة الرئيسية">
+      <img src="/logo.webp" alt="LearnMap Logo" class="logo-img" width="50" height="50" loading="eager">
+    </a>
+    <button class="hamburger" id="hamburger" type="button" aria-label="فتح القائمة" aria-expanded="false" aria-controls="navMenu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <ul class="nav-menu" id="navMenu" role="menubar">
+      <li class="has-submenu" role="none">
+        <a role="menuitem" aria-haspopup="true" aria-expanded="false">النظام التعليمي في الأردن</a>
+        <ul class="dropdown-menu" role="menu">
+          <li role="none"><a href="/fields-awareness/overview/BTEC-System-2025.html" role="menuitem">المسار المهني والتقني</a></li>
+          <li role="none"><a href="/fields-awareness/overview/jordanian-system-2025.html" role="menuitem">المسار الأكاديمي</a></li>
+          <li class="has-submenu" role="none">
+            <a role="menuitem" aria-haspopup="true" aria-expanded="false">تخصصات المسار الأكاديمي</a>
+            <ul class="dropdown-submenu" role="menu">
+              <li role="none"><a href="/fields-awareness/academic/science-and-technology-field.html" role="menuitem">الهندسة والعلوم والتكنولوجيا</a></li>
+              <li role="none"><a href="/fields-awareness/academic/health-field.html" role="menuitem">الصحي</a></li>
+              <li role="none"><a href="/fields-awareness/academic/business-and-management-field.html" role="menuitem">إدارة الأعمال</a></li>
+              <li role="none"><a href="/fields-awareness/academic/languages-and-social-studies.html" role="menuitem">اللغات والعلوم الانسانية والاجتماعية</a></li>
+            </ul>
+          </li>
+          <li class="has-submenu" role="none">
+            <a role="menuitem" aria-haspopup="true" aria-expanded="false">تخصصات المسار المهني</a>
+            <ul class="dropdown-submenu" role="menu">
+              <li role="none"><a href="/fields-awareness/vocational/engineering-vocational.html" role="menuitem">الهندسة</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/information-technology-vocational.html" role="menuitem">تكنولوجيا معلومات</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/hospitality-vocational.html" role="menuitem">الضيافة</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/hair-and-beauty-vocational.html" role="menuitem">الشعر والتجميل</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/construction-vocational.html" role="menuitem">البناء والإنشاءات</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/agriculture-vocational.html" role="menuitem">الزراعة</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/art-and-design-vocational.html" role="menuitem">الفن والتصميم</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/travel-and-tourism-vocational.html" role="menuitem">السفر والسياحة</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/business-and-management-vocational.html" role="menuitem">الأعمال</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/creative-media-vocational.html" role="menuitem">الوسائط الإبداعية</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/Healthcare-and-Social-Care-Vocational.html" role="menuitem">الرعاية الصحية والاجتماعية</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/sports-vocational.html" role="menuitem">الرياضة</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li class="has-submenu" role="none">
+        <a role="menuitem" aria-haspopup="true" aria-expanded="false">التوجيه المهني</a>
+        <ul class="dropdown-menu" role="menu">
+          <li role="none"><a href="/career-guidance/interest-test.html" role="menuitem">اختبار الميول والقدرات</a></li>
+          <li role="none"><a href="/career-guidance/university-matcher.html" role="menuitem">مطابقة الجامعات</a></li>
+          <li role="none"><a href="/career-guidance/field-test.html" role="menuitem">اختبار الجاهزية المهنية</a></li>
+          <li role="none"><a href="/career-guidance/skills-development.html" role="menuitem">تطوير المهارات</a></li>
+          <li role="none"><a href="/career-guidance/market-demand.html" role="menuitem">احتياجات السوق</a></li>
+          <li role="none"><a href="/career-guidance/universities-list.html" role="menuitem">دليل الجامعات</a></li>
+        </ul>
+      </li>
+      <li class="has-submenu" role="none">
+        <a role="menuitem" aria-haspopup="true" aria-expanded="false">الدعم النفسي</a>
+        <ul class="dropdown-menu" role="menu">
+          <li role="none"><a href="/psychological-support/time-management-tools.html" role="menuitem">إدارة الوقت</a></li>
+          <li role="none"><a href="/psychological-support/mindset-and-emotional-regulation.html" role="menuitem">العقلية والضبط النفسي</a></li>
+        </ul>
+      </li>
+      <li class="has-submenu" role="none">
+        <a role="menuitem" aria-haspopup="true" aria-expanded="false">الأخبار والمجتمع</a>
+        <ul class="dropdown-menu" role="menu">
+          <li role="none"><a href="/community/ministry-decisions.html" role="menuitem">قرارات الوزارة</a></li>
+          <li role="none"><a href="/career-guidance/faq.html" role="menuitem">الأسئلة الشائعة</a></li>
+        </ul>
+      </li>
+    </ul>
+    <div class="nav-buttons">
+      <div class="nav-account-section" id="navAccountSection">
+        <a href="/auth/login.html" class="nav-account-btn" id="navAccountBtn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+          <span id="navAccountText">حسابي</span>
+        </a>
+      </div>
+      <button id="darkModeToggle" class="btn-dark-mode" type="button" aria-label="تفعيل الوضع الليلي" aria-pressed="false">
+        <svg class="dm-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+    </div>
+    <script>
+    try {
+      var isLoggedIn = false;
+
+      function showLoggedIn(user) {
+        isLoggedIn = true;
+        var nameEl = document.getElementById('navAccountText');
+        if (nameEl && user.name) nameEl.textContent = user.name;
+        var btn = document.getElementById('navAccountBtn');
+        if (btn) btn.href = '/user/profile.html';
+      }
+
+      function showLoggedOut() {
+        isLoggedIn = false;
+        document.getElementById('navAccountText').textContent = 'حسابي';
+        var btn = document.getElementById('navAccountBtn');
+        if (btn) btn.href = '/auth/login.html';
+      }
+
+      function handleLogout() {
+        if (window.LearnMapAuth && window.LearnMapAuth.logout) {
+          window.LearnMapAuth.logout();
+        } else {
+          localStorage.removeItem('learnmap_token');
+          localStorage.removeItem('learnmap_user');
+          showLoggedOut();
+          window.location.href = '/index.html';
+        }
+      }
+
+      function updateNavAuth() {
+        var token = localStorage.getItem('learnmap_token');
+        var userData = localStorage.getItem('learnmap_user');
+        if (token && userData) {
+          try { showLoggedIn(JSON.parse(userData)); } catch(e) { showLoggedOut(); }
+        } else if (token) {
+          showLoggedIn({});
+        } else {
+          showLoggedOut();
+        }
+      }
+
+      function tryCheckAuth() {
+        if (window.LearnMapAuth && window.LearnMapAuth.checkAuth) {
+          window.LearnMapAuth.checkAuth().then(function(user) {
+            if (user) showLoggedIn(user);
+          }).catch(function() {});
+        } else {
+          setTimeout(tryCheckAuth, 100);
+        }
+      }
+
+      updateNavAuth();
+      tryCheckAuth();
+      window.addEventListener('storage', updateNavAuth);
+
+      (function() {
+        var path = window.location.pathname;
+        var links = document.querySelectorAll('.nav-menu a');
+        for (var i = 0; i < links.length; i++) {
+          var href = links[i].getAttribute('href');
+          if (href && path.indexOf(href) !== -1) {
+            links[i].setAttribute('aria-current', 'page');
+            break;
+          }
+        }
+      })();
+    } catch(e) {}
+    </script>
+  </div>
+</nav>
+
+
+    <section class="page-hero">
+        <div class="page-hero-content">
+            <h1>دليل الجامعات الأردنية الشامل</h1>
+            <p>اكتشف جميع الجامعات الحكومية والخاصة مع التخصصات، المتطلبات، والطلب في سوق العمل</p>
+        </div>
+    </section>
+
+    <section class="page-content">
+        <div class="container">
+            <div class="main-column main-column-full">
+
+                <div class="stats-grid" id="statsBar">
+                    <div class="stat-card stat-card-center"><div class="stat-value" id="statTotal">-</div><div class="stat-label">جامعة وكلية</div></div>
+                    <div class="stat-card stat-card-center"><div class="stat-value" id="statMajors">-</div><div class="stat-label">تخصص متاح</div></div>
+                    <div class="stat-card stat-card-center"><div class="stat-value" id="statCities">-</div><div class="stat-label">مدينة</div></div>
+                    <div class="stat-card stat-card-center"><div class="stat-value" id="statPublic">-</div><div class="stat-label">جامعة حكومية</div></div>
+                    <div class="stat-card stat-card-center"><div class="stat-value" id="statPrivate">-</div><div class="stat-label">جامعة خاصة</div></div>
+                    <div class="stat-card stat-card-center"><div class="stat-value" id="statScholarships">-</div><div class="stat-label">جامعة تقدم منح</div></div>
+                </div>
+
+                <div class="form-group search-wrapper">
+                    <input type="text" id="searchInput" class="search-input" placeholder="ابحث عن جامعة أو تخصص..." oninput="applyFilters()">
+                    <span class="search-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></span>
+                </div>
+
+                <div class="filter-row">
+                    <select id="filterType" onchange="applyFilters()">
+                        <option value="all">جميع الأنواع</option>
+                        <option value="public">حكومية</option>
+                        <option value="private">خاصة</option>
+                        <option value="special-law">ذات قانون خاص</option>
+                        <option value="colleges">كليات تابعة</option>
+                        <option value="hospital">مستشفيات جامعية</option>
+                        <option value="international">إقليمية/دولية</option>
+                    </select>
+                    <select id="filterCity" onchange="applyFilters()">
+                        <option value="all">جميع المدن</option>
+                    </select>
+                    <select id="filterField" onchange="applyFilters()">
+                        <option value="all">جميع المجالات</option>
+                    </select>
+                    <select id="filterDemand" onchange="applyFilters()">
+                        <option value="all">جميع مستويات الطلب</option>
+                        <option value="high">طلب عالي</option>
+                        <option value="medium">طلب متوسط</option>
+                        <option value="low">طلب منخفض</option>
+                    </select>
+                    <select id="sortBy" onchange="applyFilters()">
+                        <option value="name-asc">الاسم (أ-ي)</option>
+                        <option value="name-desc">الاسم (ي-أ)</option>
+                        <option value="minMark-desc">المعدّل التنازلي</option>
+                        <option value="minMark-asc">المعدّل التصاعدي</option>
+                        <option value="cost-asc">الأقل تكلفة</option>
+                        <option value="cost-desc">الأعلى تكلفة</option>
+                        <option value="majors-desc">الأكثر تخصصات</option>
+                    </select>
+                </div>
+
+                <div class="scholarship-filters">
+                    <label>
+                        <input type="checkbox" id="filterScholarshipMilitary" onchange="applyFilters()">
+                        منح القوات المسلحة
+                    </label>
+                    <label>
+                        <input type="checkbox" id="filterScholarshipTeachers" onchange="applyFilters()">
+                        منح المعلمين
+                    </label>
+                </div>
+
+                <div class="active-tags" id="activeFilters"></div>
+                <div id="resultsInfo" style="margin-bottom:var(--space-4)"></div>
+                <div id="universitiesContainer">
+                    <div style="text-align:center;padding:4rem 2rem;color:var(--lm-text-muted)">
+                        <div class="spinner" style="margin:0 auto var(--space-4)"></div>
+                        <p>جاري تحميل بيانات الجامعات...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        let allUniversities = [];
+        let allMajors = [];
+        let citySet = new Set();
+        let fieldSet = new Set();
+        let fieldCounts = {};
+
+        const TYPE_LABELS = {
+            'public': 'حكومية',
+            'private': 'خاصة',
+            'special-law': 'ذات قانون خاص',
+            'colleges': 'كليات تابعة',
+            'hospital': 'مستشفي جامعي',
+            'international': 'إقليمية/دولية'
+        };
+        const FIELD_LABELS = {
+            'engineering-tech': 'هندسة وتكنولوجيا',
+            'business': 'إدارة أعمال',
+            'health': 'صحة',
+            'languages-humanities': 'آداب ولغات',
+            'education': 'تعليم',
+            'sharia-law': 'شريعة وقانون',
+            'voc-it': 'تقنية معلومات مهنية',
+            'voc-design': 'تصميم مهني',
+            'voc-hospitality': 'ضيافة وسياحة',
+            'voc-admin': 'إدارة مهنية',
+            'voc-healthcare': 'صحة مهنية',
+            'voc-construction': 'بناء وتشييد',
+            'voc-agriculture': 'زراعة',
+            'voc-sports': 'رياضة',
+            'voc-crafts': 'حرف يدوية',
+            'voc-logistics': 'لوجستيات',
+            'other': 'أخرى'
+        };
+        const DEMAND_MAP = { 'high': 'طلب عالي', 'medium': 'طلب متوسط', 'low': 'طلب منخفض' };
+
+        async function loadData() {
+            try {
+                const API_BASE = window.SITE_API_URL || '/api';
+                const [uniData, majorData] = await Promise.all([
+                    fetch(`${API_BASE}/universities?limit=200`).then(r => r.json()),
+                    fetch(`${API_BASE}/universities/majors/all`).then(r => r.json())
+                ]);
+                allUniversities = uniData.data || [];
+                allMajors = majorData.data || [];
+
+                allUniversities.forEach(u => {
+                    citySet.add(u.location?.city);
+                    (u.majors || []).forEach(m => {
+                        if (m.field) {
+                            fieldSet.add(m.field);
+                            fieldCounts[m.field] = (fieldCounts[m.field] || 0) + 1;
+                        }
+                    });
+                });
+
+                const citySelect = document.getElementById('filterCity');
+                [...citySet].filter(Boolean).sort().forEach(c => {
+                    const opt = document.createElement('option');
+                    opt.value = c; opt.textContent = c;
+                    citySelect.appendChild(opt);
+                });
+
+                const fieldSelect = document.getElementById('filterField');
+                [...fieldSet].filter(Boolean).sort().forEach(f => {
+                    const opt = document.createElement('option');
+                    opt.value = f; opt.textContent = (FIELD_LABELS[f] || f) + ' (' + (fieldCounts[f] || 0) + ')';
+                    fieldSelect.appendChild(opt);
+                });
+
+                document.getElementById('statTotal').textContent = allUniversities.length;
+                document.getElementById('statMajors').textContent = allMajors.length;
+                document.getElementById('statCities').textContent = citySet.size;
+                document.getElementById('statPublic').textContent = allUniversities.filter(u => u.type === 'public').length;
+                document.getElementById('statPrivate').textContent = allUniversities.filter(u => u.type === 'private').length;
+                document.getElementById('statScholarships').textContent = allUniversities.filter(u => u.scholarships?.military || u.scholarships?.teachers).length;
+
+                applyFilters();
+            } catch (err) {
+                document.getElementById('universitiesContainer').innerHTML =
+                    '<div class="chart-card" style="text-align:center;padding:3rem"><h3>خطأ في تحميل البيانات</h3><p style="color:var(--lm-text-muted)">' + err.message + '</p></div>';
+            }
+        }
+
+        function getMajorDemand(m) {
+            if (!m.minMark) return null;
+            if (m.minMark >= 90) return 'high';
+            if (m.minMark >= 75) return 'medium';
+            return 'low';
+        }
+
+        function renderCard(uni) {
+            const typeClass = uni.type || 'public';
+            const typeName = TYPE_LABELS[uni.type] || uni.type;
+            const city = uni.location?.city || '-';
+            const website = uni.website || '#';
+            const majors = uni.majors || [];
+
+            const avgMark = majors.length > 0 ? Math.round(majors.reduce((s, m) => s + (m.minMark || 0), 0) / majors.length) : null;
+            const avgCost = majors.length > 0 ? Math.round(majors.reduce((s, m) => s + (m.annualCost || 0), 0) / majors.length) : null;
+            const topMajors = majors.slice(0, 6);
+
+            let h = '<div class="uni-card" data-uni-id="' + uni._id + '">';
+            h += '<div class="uni-card-head"><div class="uni-card-name">' + uni.name + '</div>';
+            h += '<div class="uni-badge-group">';
+            h += '<span class="uni-badge ' + typeClass + '">' + typeName + '</span>';
+            if (uni.scholarships?.military) h += '<span class="uni-badge military">🎯 منح جيش</span>';
+            if (uni.scholarships?.teachers) h += '<span class="uni-badge teachers">📚 منح معلمين</span>';
+            h += '</div></div>';
+
+            h += '<div class="uni-meta">';
+            h += '<span>📍 ' + city + '</span>';
+            if (uni.nameEn) h += '<span>🏛️ ' + uni.nameEn + '</span>';
+            if (avgMark) h += '<span>📊 معدّل ' + avgMark + '%</span>';
+            if (avgCost) h += '<span>💰 متوسط ' + avgCost + ' د.أ</span>';
+            h += '</div>';
+
+            if (majors.length > 0) {
+                h += '<div class="uni-majors-section">';
+                h += '<div class="uni-majors-title">التخصصات المتاحة (' + majors.length + ')</div>';
+                h += '<div class="uni-major-chips">';
+                topMajors.forEach(m => {
+                    h += '<span class="uni-major-chip">' + m.name;
+                    if (m.minMark) h += ' <span class="mark">' + m.minMark + '%</span>';
+                    if (m.annualCost) h += ' <span class="cost">' + m.annualCost + ' د.أ</span>';
+                    h += '</span>';
+                });
+                if (majors.length > 6) h += '<span class="uni-major-chip" style="background:var(--lm-bg-tertiary);color:var(--lm-text-muted);border-color:var(--lm-border)">+' + (majors.length - 6) + ' تخصص آخر</span>';
+                h += '</div></div>';
+            }
+
+            if (majors.length > 0) {
+                h += '<div class="uni-card-footer">';
+                h += '<button class="uni-card-btn" onclick="openUniModal(\'' + uni._id + '\')">عرض الجامعة</button>';
+                h += '</div>';
+                h += '<div class="uni-details"><div class="uni-details-inner">';
+                h += '<div class="uni-details-scroll"><div class="table-container"><table class="styled-table"><thead><tr>';
+                h += '<th>التخصص</th><th>المعدّل</th><th>التكلفة/سنة</th><th>المدة</th><th>المجال</th>';
+                h += '</tr></thead><tbody>';
+                majors.forEach(m => {
+                    const fieldLabel = FIELD_LABELS[m.field] || m.field || '-';
+                    h += '<tr>';
+                    h += '<td><strong>' + m.name + '</strong>' + (m.nameEn ? '<br><small class="uni-major-name-en">' + m.nameEn + '</small>' : '') + '</td>';
+                    h += '<td>' + (m.minMark ? m.minMark + '%' : '-') + '</td>';
+                    h += '<td>' + (m.annualCost ? m.annualCost + ' د.أ' : '-') + '</td>';
+                    h += '<td>' + (m.duration ? m.duration + ' سنوات' : '-') + '</td>';
+                    h += '<td>' + fieldLabel + '</td>';
+                    h += '</tr>';
+                });
+                h += '</tbody></table></div></div>';
+                h += '<a href="' + website + '" class="uni-link" target="_blank" rel="noopener noreferrer">زيارة الموقع الرسمي ↗</a>';
+                h += '</div></div>';
+            }
+
+            h += '</div>';
+            return h;
+        }
+
+        function toggleExpand(el) {
+            const card = el.closest('.uni-card');
+            card.classList.toggle('expanded');
+            el.querySelector('.expand-text').textContent = card.classList.contains('expanded') ? 'إخفاء التفاصيل' : 'عرض جميع التخصصات';
+        }
+
+        function applyFilters() {
+            const search = document.getElementById('searchInput').value.toLowerCase().trim();
+            const type = document.getElementById('filterType').value;
+            const city = document.getElementById('filterCity').value;
+            const field = document.getElementById('filterField').value;
+            const demand = document.getElementById('filterDemand').value;
+            const sort = document.getElementById('sortBy').value;
+            const scholarshipMilitary = document.getElementById('filterScholarshipMilitary').checked;
+            const scholarshipTeachers = document.getElementById('filterScholarshipTeachers').checked;
+
+            let filtered = allUniversities.filter(u => {
+                if (type !== 'all' && u.type !== type) return false;
+                if (city !== 'all' && u.location?.city !== city) return false;
+                if (search) {
+                    const nm = (u.name || '').toLowerCase().includes(search) || (u.nameEn || '').toLowerCase().includes(search);
+                    const mm = (u.majors || []).some(m => (m.name || '').toLowerCase().includes(search) || (m.nameEn || '').toLowerCase().includes(search));
+                    if (!nm && !mm) return false;
+                }
+                if (field !== 'all' && !(u.majors || []).some(m => m.field === field)) return false;
+                if (demand !== 'all') {
+                    const has = (u.majors || []).some(m => {
+                        if (demand === 'high') return m.minMark >= 90;
+                        if (demand === 'medium') return m.minMark >= 75 && m.minMark < 90;
+                        return m.minMark < 75;
+                    });
+                    if (!has) return false;
+                }
+                if (scholarshipMilitary && !(u.scholarships?.military)) return false;
+                if (scholarshipTeachers && !(u.scholarships?.teachers)) return false;
+                return true;
+            });
+
+            filtered.sort((a, b) => {
+                const am = a.majors || [], bm = b.majors || [];
+                switch (sort) {
+                    case 'name-asc': return (a.name || '').localeCompare(b.name || '', 'ar');
+                    case 'name-desc': return (b.name || '').localeCompare(a.name || '', 'ar');
+                    case 'minMark-desc':
+                        return (bm.length ? bm.reduce((s, m) => s + (m.minMark || 0), 0) / bm.length : 0) - (am.length ? am.reduce((s, m) => s + (m.minMark || 0), 0) / am.length : 0);
+                    case 'minMark-asc':
+                        return (am.length ? am.reduce((s, m) => s + (m.minMark || 0), 0) / am.length : 0) - (bm.length ? bm.reduce((s, m) => s + (m.minMark || 0), 0) / bm.length : 0);
+                    case 'cost-asc':
+                        return (am.length ? am.reduce((s, m) => s + (m.annualCost || 0), 0) / am.length : Infinity) - (bm.length ? bm.reduce((s, m) => s + (m.annualCost || 0), 0) / bm.length : Infinity);
+                    case 'cost-desc':
+                        return (bm.length ? bm.reduce((s, m) => s + (m.annualCost || 0), 0) / bm.length : 0) - (am.length ? am.reduce((s, m) => s + (m.annualCost || 0), 0) / am.length : 0);
+                    case 'majors-desc': return bm.length - am.length;
+                    default: return 0;
+                }
+            });
+
+            renderResults(filtered);
+        }
+
+        function renderResults(filtered) {
+            const container = document.getElementById('universitiesContainer');
+            const info = document.getElementById('resultsInfo');
+            const tags = document.getElementById('activeFilters');
+            tags.innerHTML = '';
+
+            const search = document.getElementById('searchInput').value.trim();
+            const type = document.getElementById('filterType').value;
+            const city = document.getElementById('filterCity').value;
+            const field = document.getElementById('filterField').value;
+            const demand = document.getElementById('filterDemand').value;
+
+            if (search) addTag('بحث: ' + search, () => { document.getElementById('searchInput').value = ''; applyFilters(); });
+            if (type !== 'all') addTag('النوع: ' + (TYPE_LABELS[type] || type), () => { document.getElementById('filterType').value = 'all'; applyFilters(); });
+            if (city !== 'all') addTag('المدينة: ' + city, () => { document.getElementById('filterCity').value = 'all'; applyFilters(); });
+            if (field !== 'all') addTag('المجال: ' + (FIELD_LABELS[field] || field), () => { document.getElementById('filterField').value = 'all'; applyFilters(); });
+            if (demand !== 'all') addTag('الطلب: ' + (DEMAND_MAP[demand] || demand), () => { document.getElementById('filterDemand').value = 'all'; applyFilters(); });
+            if (document.getElementById('filterScholarshipMilitary').checked) addTag('منح القوات المسلحة', () => { document.getElementById('filterScholarshipMilitary').checked = false; applyFilters(); });
+            if (document.getElementById('filterScholarshipTeachers').checked) addTag('منح المعلمين', () => { document.getElementById('filterScholarshipTeachers').checked = false; applyFilters(); });
+
+            info.innerHTML = '<span style="font-size:var(--fs-sm);color:var(--lm-text-muted)">عرض ' + filtered.length + ' من أصل ' + allUniversities.length + ' مؤسسة تعليمية</span>';
+
+            if (filtered.length === 0) {
+                container.innerHTML = '<div class="chart-card" style="text-align:center;padding:3rem"><h3>لم يتم العثور على نتائج</h3><p style="color:var(--lm-text-muted)">جرب تعديل معايير البحث أو إزالة بعض الفلاتر.</p></div>';
+                return;
+            }
+
+            var html = '<div class="uni-grid">';
+            filtered.forEach(u => { html += renderCard(u); });
+            html += '</div>';
+            container.innerHTML = html;
+        }
+
+        function addTag(text, onRemove) {
+            const tags = document.getElementById('activeFilters');
+            const tag = document.createElement('span');
+            tag.className = 'active-tag';
+            tag.innerHTML = text + ' <span class="active-tag-x">&times;</span>';
+            tag.querySelector('.active-tag-x').addEventListener('click', onRemove);
+            tags.appendChild(tag);
+        }
+
+        document.addEventListener('DOMContentLoaded', loadData);
+    </script>
+
+    <!-- University Detail Modal -->
+    <div class="uni-modal-overlay" id="uniModalOverlay">
+        <div class="uni-modal-content" id="uniModalContent"></div>
+    </div>
+
+    <style>
+        .uni-modal-overlay { position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.7); z-index:9999; display:none; align-items:flex-start; justify-content:center; overflow-y:auto; padding:2rem 1rem; }
+        .uni-modal-overlay.active { display:flex; }
+        .uni-modal-content { background:var(--lm-bg-secondary); border-radius:20px; max-width:900px; width:100%; position:relative; animation:slideUp 0.4s ease; overflow:hidden; }
+        @keyframes slideUp { from { opacity:0; transform:translateY(30px); } to { opacity:1; transform:translateY(0); } }
+        .uni-modal-header { background:linear-gradient(135deg, var(--color-dark-navy), var(--dm-bg-tertiary)); padding:2.5rem; color:white; position:relative; }
+        .uni-modal-header::before { content:''; position:absolute; top:0; right:0; width:200px; height:200px; background:radial-gradient(circle, rgba(212,165,116,0.2), transparent); border-radius:50%; transform:translate(30%,-30%); }
+        .uni-modal-close { position:absolute; top:20px; left:20px; background:rgba(255,255,255,0.15); border:none; color:white; width:40px; height:40px; border-radius:50%; font-size:1.3rem; cursor:pointer; transition:all 0.3s; z-index:10; }
+        .uni-modal-close:hover { background:rgba(255,255,255,0.3); transform:rotate(90deg); }
+        .uni-modal-badge { display:inline-block; background:var(--gold-primary); color:white; padding:0.4rem 1rem; border-radius:15px; font-size:0.85rem; font-weight:600; margin-bottom:1rem; }
+        .uni-modal-title { font-size:var(--fs-2xl); margin-bottom:0.5rem; color:white; position:relative; z-index:2; }
+        .uni-modal-subtitle { font-size:1rem; color:rgba(255,255,255,0.8); margin-bottom:1rem; position:relative; z-index:2; }
+        .uni-modal-meta { display:grid; grid-template-columns:repeat(auto-fit, minmax(180px,1fr)); gap:1rem; margin-top:1.5rem; position:relative; z-index:2; }
+        .uni-modal-meta-item { background:rgba(255,255,255,0.1); padding:0.8rem 1rem; border-radius:10px; backdrop-filter:blur(10px); }
+        .uni-modal-meta-item strong { display:block; color:var(--gold-light); font-size:0.8rem; margin-bottom:0.3rem; }
+        .uni-modal-meta-item span { color:white; font-size:0.95rem; }
+        .uni-modal-body { padding:2rem; }
+        .uni-modal-section { margin-bottom:1.5rem; }
+        .uni-modal-section-title { font-size:1.1rem; font-weight:700; color:var(--lm-text-primary); margin-bottom:1rem; display:flex; align-items:center; gap:0.5rem; padding-bottom:0.5rem; border-bottom:2px solid var(--gold-glow); }
+        .uni-modal-majors-grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(250px,1fr)); gap:0.75rem; }
+        .uni-modal-major-card { padding:1rem; border:1px solid var(--lm-border); border-radius:10px; transition:all 0.2s; background:var(--lm-bg-tertiary); }
+        .uni-modal-major-card:hover { border-color:var(--gold-primary); transform:translateY(-2px); box-shadow:0 4px 12px var(--gold-glow); }
+        .uni-modal-major-name { font-weight:700; color:var(--lm-text-primary); margin-bottom:0.5rem; }
+        .uni-modal-major-name-en { font-size:0.8rem; color:var(--lm-text-muted); margin-bottom:0.5rem; }
+        .uni-modal-major-details { display:flex; flex-wrap:wrap; gap:0.75rem; font-size:0.85rem; color:var(--lm-text-muted); }
+        .uni-modal-major-details span { display:flex; align-items:center; gap:0.3rem; }
+        .uni-modal-scholarships { display:flex; flex-wrap:wrap; gap:0.75rem; margin-top:1rem; }
+        .uni-modal-scholarship-badge { display:inline-flex; align-items:center; gap:0.4rem; padding:0.5rem 1rem; border-radius:20px; font-size:0.9rem; font-weight:600; }
+        .uni-modal-scholarship-badge.military { background:rgba(33,150,243,0.1); color:#2196f3; border:1px solid rgba(33,150,243,0.3); }
+        .uni-modal-scholarship-badge.teachers { background:rgba(76,175,80,0.1); color:#4caf50; border:1px solid rgba(76,175,80,0.3); }
+        .uni-modal-footer { padding:1.5rem 2rem; border-top:1px solid var(--lm-border); display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:1rem; }
+        .uni-modal-visit-btn { display:inline-flex; align-items:center; gap:0.5rem; padding:0.7rem 1.5rem; background:linear-gradient(135deg, var(--gold-primary), var(--gold-light)); color:white; border:none; border-radius:var(--radius-full); font-family:'Cairo',sans-serif; font-size:1rem; font-weight:600; cursor:pointer; transition:all 0.3s; text-decoration:none; }
+        .uni-modal-visit-btn:hover { transform:translateY(-2px); box-shadow:0 6px 20px rgba(212,175,55,0.3); }
+        .dark-mode .uni-modal-content { background:var(--dm-bg-secondary); }
+        .dark-mode .uni-modal-body { color:var(--dm-text-medium); }
+        .dark-mode .uni-modal-section-title { color:var(--dm-text-light); }
+        .dark-mode .uni-modal-major-card { background:var(--dm-bg-tertiary); border-color:var(--dm-border); }
+        .dark-mode .uni-modal-major-name { color:var(--dm-text-primary); }
+        .dark-mode .uni-modal-major-details { color:var(--dm-text-muted); }
+        .dark-mode .uni-modal-footer { border-top-color:var(--dm-border); }
+        @media (max-width:600px) {
+            .uni-modal-title { font-size:1.3rem; }
+            .uni-modal-body { padding:1.5rem; }
+            .uni-modal-footer { flex-direction:column; text-align:center; }
+        }
+    </style>
+
+    <script>
+        const FIELD_LABELS_MODAL = {
+            'engineering-tech': 'هندسة وتكنولوجيا',
+            'business': 'إدارة أعمال',
+            'health': 'صحة وعلوم طبية',
+            'languages-humanities': 'لغات وعلوم إنسانية',
+            'education': 'تعليم',
+            'voc-it': 'تقنية المعلومات',
+            'voc-design': 'التصميم والوسائط',
+            'voc-hospitality': 'الضيافة والعناية',
+            'voc-admin': 'الإدارة والسياحة',
+            'voc-construction': 'الإنشاءات والميكانيكا',
+            'voc-agriculture': 'الزراعة والبيئة',
+            'voc-healthcare': 'الرعاية الصحية',
+            'voc-sports': 'الرياضة واللياقة',
+            'voc-crafts': 'الفنون والحرف',
+            'voc-logistics': 'الخدمات اللوجستية',
+            'voc-manufacturing': 'التصنيع والتكنولوجيا',
+            'voc-social': 'التعليم والعمل المجتمعي'
+        };
+
+        function openUniModal(uniId) {
+            const uni = allUniversities.find(u => u._id === uniId);
+            if (!uni) return;
+
+            const modal = document.getElementById('uniModalContent');
+            const typeLabels = { 'public': 'حكومية', 'private': 'خاصة', 'special-law': 'ذات قانون خاص', 'colleges': 'كليات تابعة', 'hospital': 'مستشفى جامعي', 'international': 'إقليمية/دولية' };
+            const typeName = typeLabels[uni.type] || uni.type;
+            const city = uni.location?.city || '-';
+            const website = uni.website || '#';
+            const majors = uni.majors || [];
+            const hasScholarships = uni.scholarships?.military || uni.scholarships?.teachers;
+
+            let html = `
+                <div class="uni-modal-header">
+                    <span class="uni-modal-badge">${typeName}</span>
+                    <h1 class="uni-modal-title">${uni.name}</h1>
+                    ${uni.nameEn ? `<div class="uni-modal-subtitle">${uni.nameEn}</div>` : ''}
+                    <div class="uni-modal-meta">
+                        <div class="uni-modal-meta-item">
+                            <strong>المدينة</strong>
+                            <span>📍 ${city}</span>
+                        </div>
+                        <div class="uni-modal-meta-item">
+                            <strong>عدد التخصصات</strong>
+                            <span>📚 ${majors.length} تخصص</span>
+                        </div>
+                        ${uni.ranking?.national ? `<div class="uni-modal-meta-item"><strong>الترتيب الوطني</strong><span>🏆 #${uni.ranking.national}</span></div>` : ''}
+                    </div>
+                </div>
+                <div class="uni-modal-body">
+                    ${hasScholarships ? `
+                        <div class="uni-modal-section">
+                            <div class="uni-modal-section-title">🎓 المنح المتاحة</div>
+                            <div class="uni-modal-scholarships">
+                                ${uni.scholarships?.military ? '<span class="uni-modal-scholarship-badge military">🎖️ منح القوات المسلحة وعائلاتهم</span>' : ''}
+                                ${uni.scholarships?.teachers ? '<span class="uni-modal-scholarship-badge teachers">📚 منح المعلمين وعائلاتهم</span>' : ''}
+                            </div>
+                            ${uni.scholarships?.details ? `<p style="margin-top:0.75rem;color:var(--lm-text-muted);font-size:0.9rem">${uni.scholarships.details}</p>` : ''}
+                        </div>
+                    ` : ''}
+                    <div class="uni-modal-section">
+                        <div class="uni-modal-section-title">📋 التخصصات المتاحة (${majors.length})</div>
+                        <div class="uni-modal-majors-grid">
+                            ${majors.map(m => `
+                                <div class="uni-modal-major-card">
+                                    <div class="uni-modal-major-name">${m.name}</div>
+                                    ${m.nameEn ? `<div class="uni-modal-major-name-en">${m.nameEn}</div>` : ''}
+                                    <div class="uni-modal-major-details">
+                                        <span>📊 ${m.minMark || '-'}%</span>
+                                        <span>💰 ${m.annualCost || '-'} د.أ/سنة</span>
+                                        <span>📚 ${m.duration || 4} سنوات</span>
+                                        <span>🏷️ ${FIELD_LABELS_MODAL[m.field] || m.field || '-'}</span>
+                                    </div>
+                                </div>
+                            `).join('')}
+                        </div>
+                    </div>
+                </div>
+                <div class="uni-modal-footer">
+                    <a href="${website}" class="uni-modal-visit-btn" target="_blank" rel="noopener">
+                        زيارة الموقع الرسمي ↗
+                    </a>
+                </div>
+            `;
+
+            modal.innerHTML = html;
+            document.getElementById('uniModalOverlay').classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeUniModal() {
+            document.getElementById('uniModalOverlay').classList.remove('active');
+            document.body.style.overflow = '';
+        }
+
+        document.getElementById('uniModalOverlay').addEventListener('click', (e) => {
+            if (e.target.id === 'uniModalOverlay') closeUniModal();
+        });
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') closeUniModal();
+        });
+    </script>
+
+    <script src="../dark-mode-controller.js" defer></script>
+    <script src="../components/mobile-menu.js" defer></script>
+</body>
+</html>

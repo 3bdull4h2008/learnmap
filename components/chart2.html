@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>متوسط الرواتب في الأردن (2005–2024)</title>
+  <link rel="stylesheet" href="/../styles.css">
+  <link rel="icon" type="image/x-icon" href="/images/logo.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+    }
+    body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 16px;
+      background: #f9f6f0;
+      font-family: 'Cairo', 'Tajawal', 'Segoe UI', Tahoma, sans-serif;
+    }
+    .chart-container {
+      width: 100%;
+      max-width: 1000px;
+      flex: 1;
+      min-height: 0;
+    }
+    h2 {
+      color: #d0a16e;
+      text-align: center;
+      margin-bottom: 8px;
+      font-size: 1.1rem;
+    }
+    .source {
+      font-size: 0.75rem;
+      color: #666;
+      text-align: center;
+      margin-top: 8px;
+      flex-shrink: 0;
+    }
+    body.dark-mode { background: #0b1926; }
+    body.dark-mode .source { color: #cbd5e1 !important; }
+    body.dark-mode h2 { color: #DEB253 !important; }
+  </style>
+</head>
+<body>
+  <h2>متوسط الرواتب (2005–2024)</h2>
+  <div class="chart-container">
+    <canvas id="salaryChart"></canvas>
+  </div>
+  <div class="source">*بيانات تقديرية (دينار أردني) – مصادر: دائرة الإحصاءات العامة، البنك الدولي، ILO، وزارة العمل الأردنية</div>
+  <script>
+    const ctx = document.getElementById("salaryChart").getContext("2d");
+    const years = Array.from({ length: 20 }, (_, i) => (2005 + i).toString());
+    const avgSalaries = [
+      320, 340, 360, 370, 380, 390, 400, 410, 420, 430,
+      440, 450, 465, 480, 495, 500, 510, 525, 540, 560
+    ];
+    new Chart(ctx, {
+      type: "line",
+      data: {
+        labels: years,
+        datasets: [{
+          label: "متوسط الراتب الشهري (دينار)",
+          data: avgSalaries,
+          borderColor: "#2c7d53",
+          backgroundColor: "rgba(44, 125, 83, 0.1)",
+          borderWidth: 3,
+          fill: true,
+          tension: 0.3,
+          pointBackgroundColor: "#1b5e3a",
+          pointRadius: 3,
+          pointHoverRadius: 6
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        animation: {
+          duration: 2000,
+          easing: "easeInOutQuart"
+        },
+        plugins: {
+          legend: {
+            labels: { color: "#555", font: { size: 14 } }
+          },
+          tooltip: {
+            backgroundColor: 'rgba(28, 94, 58, 0.9)',
+            titleColor: '#fff',
+            bodyColor: '#fff',
+            borderColor: '#2c7d53',
+            borderWidth: 1
+          }
+        },
+        scales: {
+          x: {
+            ticks: {
+              color: "#555",
+              maxRotation: 0,
+              minRotation: 0,
+              autoSkip: false, 
+              font: { size: 11 },
+              // ===========================================
+              // التعديل هنا (FILTERING THE LABELS)
+              // ===========================================
+              callback: function(value, index, values) {
+                // الحصول على السنة الحالية من القيمة
+                const year = this.getLabelForValue(value);
+                // إظهار السنة فقط إذا كانت تقبل القسمة على 5 (2005, 2010, 2015...)
+                // أو إذا كانت آخر سنة في البيانات لضمان ظهور النهاية
+                if (year % 5 === 0 || index === values.length - 1) {
+                    return year;
+                }
+                return null; // إخفاء باقي السنوات
+              }
+            },
+            grid: {
+              color: "rgba(200, 200, 200, 0.2)"
+            }
+          },
+          y: {
+            beginAtZero: false,
+            min: 300,
+            ticks: {
+              color: "#555",
+              callback: (value) => value + ' د.أ',
+              stepSize: 50
+            },
+            grid: {
+              color: "rgba(200, 200, 200, 0.3)"
+            }
+          }
+        }
+      }
+    });
+  </script>
+</body>
+<script src="/dark-mode-controller.js" defer></script>
+</html>

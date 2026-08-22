@@ -1,0 +1,81 @@
+{
+  "basic_info": {
+    "name": "جامعة الحسين التقنية",
+    "nameEn": "Al-Hussein Technical University",
+    "type": "special-law",
+    "city": "Amman",
+    "region": "central",
+    "established": 2016,
+    "website": "https://www.htu.edu.jo"
+  },
+  "admission_requirements": {
+    "general_requirements": "Tawjihi or equivalent secondary certificate (IGCSE, IB, SAT, AP, ACT, BTEC) with minimum scores; holistic admission process including personal interview, introductory video, admission test, and extracurricular activities assessment",
+    "min_tawjihi_mark": 70,
+    "has_entrance_exam": true,
+    "exam_details": "Placement test (50 JD fee) and admission test as part of holistic evaluation; weight distribution: 20 points for high school GPA, 20 for math grades, 20 for physics grades, 20 for personal interview, 10 for introductory video, 10 for admission tests, 10 bonus points for extracurricular activities",
+    "english_requirement": "English language proficiency certificate recommended but not mandatory; accepted if available"
+  },
+  "majors_overview": {
+    "college_count": 4,
+    "major_categories": [
+      "engineering",
+      "computer science",
+      "cybersecurity",
+      "data science",
+      "artificial intelligence",
+      "game design and development"
+    ],
+    "total_majors": 9,
+    "has_postgraduate": false,
+    "notes": "4 schools: School of Engineering Technology (Mechanical, Electrical, Energy, Industrial Engineering), School of Computing and Informatics (Computer Science, Cyber Security, Data Science and AI, Game Design and Development), School of Built Environment Engineering, School of Social and Basic Sciences"
+  },
+  "tuition_fees": {
+    "annual_fees_range": "[uncertain]",
+    "medical_majors_fees": "N/A - No medical majors offered",
+    "engineering_majors_fees": "120 JD per credit hour (regular program), 175 JD (international program)",
+    "humanities_majors_fees": "120 JD per credit hour (regular program), 175 JD (international program)",
+    "notes": "Credit hour fee: 120 JD for technical and bachelor's degrees (regular), 175 JD (international). One-time fees: 50 JD application, 50 JD placement test, 300 JD enrollment (regular) / 500 JD (international), 100 JD refundable deposit. Semester fees: 350 JD fall/spring, 150 JD summer (regular); 500 JD fall/spring, 200 JD summer (international)"
+  },
+  "ranking_accreditation": {
+    "national_ranking": "[uncertain]",
+    "accreditation": "Ministry of Higher Education and Scientific Research of Jordan, Pearson (BTEC accreditation) - National and international accreditation confirmed",
+    "international_recognition": "[uncertain]"
+  },
+  "market_demand": {
+    "overall_demand": "high",
+    "high_demand_majors": [
+      "engineering",
+      "computer science",
+      "cybersecurity",
+      "data science and artificial intelligence"
+    ],
+    "employment_rate_estimate": "100%",
+    "notes": "HTU claims 100% graduate employment rate consistently; university's only KPI is employment; 250+ partnerships with private sector companies; one-year applied internship included in curriculum"
+  },
+  "campus_facilities": {
+    "has_accommodation": false,
+    "accommodation_details": "No accommodation information found on official website; university is located in King Hussein Business Park which is a business/commercial area",
+    "has_library": true,
+    "has_sports_facilities": "[uncertain]",
+    "has_scholarships": true,
+    "scholarship_details": "Diverse grants and scholarships including: academic excellence, leadership, financial need, governorate scholarships, Hope Scholarships for underprivileged families, public school student scholarships, sports and academic excellence scholarships, scholarships for students with disabilities; also included in Royal Scholarship for Teachers' Children and Military Scholarship programs"
+  },
+  "contact_info": {
+    "address": "Building 17, King Hussein Business Park, King Abdullah II Street, Amman, Jordan",
+    "phone": "+962 6 580 8787",
+    "email": "info@htu.edu.jo",
+    "social_media": [
+      "https://www.facebook.com/HTUjo/",
+      "https://x.com/htujo/",
+      "https://www.instagram.com/htujo/",
+      "https://www.linkedin.com/school/al-hussein-technical-university-htu/",
+      "https://www.youtube.com/channel/UC-DXAAHuMg7k7mss7uFskzQ"
+    ]
+  },
+  "uncertain": [
+    "annual_fees_range",
+    "national_ranking",
+    "international_recognition",
+    "has_sports_facilities"
+  ]
+}

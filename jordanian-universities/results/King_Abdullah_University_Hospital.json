@@ -1,0 +1,104 @@
+{
+  "basic_info": {
+    "name": "مستشفى الملك المؤسس عبد الله الجامعي",
+    "nameEn": "King Abdullah University Hospital",
+    "type": "teaching hospital",
+    "city": "Irbid (Ramtha)",
+    "region": "north",
+    "established": 2002,
+    "website": "https://www.kauh.edu.jo",
+    "affiliated_university": "Jordan University of Science and Technology (JUST)",
+    "bed_capacity": "750 (expandable to 900 in emergencies)",
+    "building_area_sqm": 95583,
+    "floors": "15-story main building + 3-story low-rise buildings"
+  },
+  "admission_requirements": {
+    "general_requirements": "N/A - teaching hospital, not a degree-granting university",
+    "min_tawjihi_mark": "N/A",
+    "has_entrance_exam": false,
+    "exam_details": "N/A",
+    "english_requirement": "N/A",
+    "note": "Hospital serves patients directly; medical students from JUST complete clinical training here"
+  },
+  "majors_overview": {
+    "college_count": "N/A - hospital with departments, not colleges",
+    "major_categories": [
+      "General Surgery",
+      "Special Surgery",
+      "Emergency Department",
+      "Pediatrics",
+      "Obstetrics and Gynecology",
+      "Internal Medicine and Dermatology",
+      "Cardiac Center",
+      "Diagnostic X-Ray",
+      "Pathology and Laboratory",
+      "Endoscopy Unit",
+      "Ophthalmology",
+      "Physical Therapy and Rehabilitation",
+      "Physiology Function Test",
+      "Neuroscience",
+      "Nursing",
+      "Information System Department"
+    ],
+    "centers_of_excellence": [
+      "Princess Mona Al Hussein Center for Heart Diseases",
+      "Assisted Reproduction Center",
+      "Spine Center",
+      "Urology and Nephrology Center",
+      "Saudi Radiology Center"
+    ],
+    "total_departments": 16,
+    "has_postgraduate": true,
+    "postgraduate_note": "Higher specialization residency programs (Jordanian Board)"
+  },
+  "tuition_fees": {
+    "annual_fees_range": "N/A",
+    "medical_majors_fees": "N/A",
+    "engineering_majors_fees": "N/A",
+    "humanities_majors_fees": "N/A",
+    "notes": "Not applicable - hospital, not a university. Patient fees apply for medical services."
+  },
+  "ranking_accreditation": {
+    "national_ranking": "N/A - hospital ranking not applicable",
+    "accreditation": [
+      "JCIA (Joint Commission International Accreditation)",
+      "ISO 9001",
+      "HCAC (Health Care Accreditation Council)",
+      "ISO 22000",
+      "Baby Friendly Hospital / HCAC"
+    ],
+    "international_recognition": "Largest medical facility in northern Jordan, serving ~1 million inhabitants from Ramtha, Irbid, Ajloun, Jerash, and Mafraq governorates"
+  },
+  "market_demand": {
+    "overall_demand": "N/A - teaching hospital",
+    "high_demand_majors": "N/A",
+    "employment_rate_estimate": "N/A",
+    "notes": "N/A"
+  },
+  "campus_facilities": {
+    "has_accommodation": false,
+    "accommodation_details": "N/A",
+    "has_library": "N/A",
+    "has_sports_facilities": false,
+    "has_scholarships": false,
+    "scholarship_details": "N/A",
+    "heliport": true,
+    "heliport_note": "Medevac heliport for emergency cases",
+    "training_center": true
+  },
+  "contact_info": {
+    "address": "King Abdullah University Hospital, Irbid - Jordan P.O. B (20)",
+    "phone_main": "+962 2 7200600",
+    "phone_mobile": "+962 792200600",
+    "phone_fax": "+962 2 7095777",
+    "email": "KAUH@JUST.EDU.JO",
+    "social_media": {
+      "facebook": "https://www.facebook.com/KAUHJO/",
+      "twitter": "https://twitter.com/KAUH_JO",
+      "linkedin": "https://www.linkedin.com/company/kauh",
+      "youtube": "http://www.youtube.com/c/KauhJordan",
+      "instagram": "http://www.instagram.com/"
+    }
+  },
+  "uncertain": []
+}

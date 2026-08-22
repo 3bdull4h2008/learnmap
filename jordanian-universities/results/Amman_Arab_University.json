@@ -1,0 +1,91 @@
+{
+  "basic_info": {
+    "name": "جامعة عمان العربية",
+    "nameEn": "Amman Arab University",
+    "type": "private",
+    "city": "Amman",
+    "region": "central",
+    "established": 1997,
+    "website": "https://www.aau.edu.jo"
+  },
+  "admission_requirements": {
+    "general_requirements": "General Secondary Certificate (Tawjihi) or equivalent; minimum grade varies by specialization: 80% for pharmacy, civil engineering, architecture; 75% for Sharia; 70% for applied medical sciences and aircraft maintenance; 65% for law; 60% for all other specializations",
+    "min_tawjihi_mark": 60,
+    "has_entrance_exam": false,
+    "exam_details": "Not required; admission based on Tawjihi percentage and specialization capacity",
+    "english_requirement": "Not specified on general admission page"
+  },
+  "majors_overview": {
+    "college_count": 11,
+    "major_categories": [
+      "engineering",
+      "IT",
+      "business",
+      "arts",
+      "law",
+      "sharia",
+      "pharmacy",
+      "education",
+      "aviation",
+      "applied medical sciences",
+      "technical"
+    ],
+    "total_majors": 27,
+    "has_postgraduate": true,
+    "postgraduate_programs": {
+      "master_programs": 18,
+      "diploma_programs": 1
+    }
+  },
+  "tuition_fees": {
+    "annual_fees_range": "[uncertain]",
+    "medical_majors_fees": "[uncertain]",
+    "engineering_majors_fees": "[uncertain]",
+    "humanities_majors_fees": "[uncertain]",
+    "notes": "Fees vary by college and program. Discounts available based on Tawjihi percentage (up to 90%): Social security retirees and children (10% additional), siblings (5%), cash payment (5%), targeted categories discounts, Ain Al-Basha and Baq'a residents (5%), military retirees association (5%), Arab League charitable associations (5%), Circassian charitable society (5%), Bab Amman municipality (5%), Samarna association (5%), Balqa decentralized council (5%), Jerash council (5%), Southern Ghour cultural forum (5%), Military Education Directorate (5%), Al-Faisaly Club (5%), Ministry of Education employees and UNRWA staff (5%). AAU graduates pursuing master's get 10% additional discount. Top 3 graduates per specialization get 70-90% discount for master's. Top 4-10 get 60% discount."
+  },
+  "ranking_accreditation": {
+    "national_ranking": "1st among private universities; 2nd among all Jordanian universities (Scimago 2025); 3rd among private and 6th among all Jordanian universities (THE Arab Region 2024); 4th among all Jordanian universities (THE Impact 2025); 8th among all Jordanian universities (THE Arab Region 2025)",
+    "accreditation": "Ministry of Higher Education (MOHE); AACSB (College of Business); ACPE (College of Pharmacy, valid until 2030); AABI (College of Aviation Sciences - first in Arab world, 6th globally); EUR-ACE (Software Engineering, 4 years); EASA Part 147; ISO 21001:2018 (renewed until 2027); IAA (College of Sharia, initial approval); Arab Engineering and Technology Accreditation Authority",
+    "international_recognition": "QS Arab Region 2025 (rank 93); QS World University Rankings 2027 (rank 1201-1400 globally, 11th locally); QS Sustainability 2026 (rank 551-600 globally, 9th locally); QS by Subject 2026 (Computer Science & Information Systems in top 600 globally); THE Impact Rankings 2025 (401-600 globally, 4th in Jordan); THE Arab Region 2025 (rank 66, 8th locally); Scimago 2025 Q1 (2nd locally, 26th Arab, 2977 global); Webometrics 2025 (1st private universities, 3rd overall in Jordan, rank 1486 globally); GreenMetric 2025 (rank 422 globally, 7th locally); UniRank 2025 (rank 6 locally); Fortune 500 (2nd locally); AD Scientific 2024 (6th locally); 4icu.org"
+  },
+  "market_demand": {
+    "overall_demand": "[uncertain]",
+    "high_demand_majors": ["Computer Science", "Software Engineering", "Cyber Security", "Data Science and Artificial Intelligence", "Pharmacy", "Civil Engineering", "Architecture Engineering", "Business Administration"],
+    "employment_rate_estimate": "[uncertain]",
+    "notes": "University has a Creativity, Innovation & Entrepreneurship Center (CIEC) to enhance graduate employability. Partnerships with industry for training and internships. Graduates and Employers Tracking System available. Campus is located on Jordan Street in Mubis area, 12 km north of Amman."
+  },
+  "campus_facilities": {
+    "has_accommodation": true,
+    "accommodation_details": "University assists with off-campus housing; studios and flats available near campus; university guest house available for students; transportation provided to/from university covering Amman, Balqa (extended to Deir Alla), Zarqa, Irbid, Jerash, Mafraq, Madaba, and Ajloun (150 JOD per semester)",
+    "has_library": true,
+    "has_sports_facilities": true,
+    "has_scholarships": true,
+    "scholarship_details": "Discounts up to 90% based on Tawjihi score; social security retirees and children (10% additional); siblings (5%); cash payment (5%); various targeted categories; Ain Al-Basha and Baq'a residents (5%); military retirees association (5%); multiple charitable organizations (5%); AAU graduates pursuing master's (10% additional); top 3 graduates per specialization (70-90% discount for master's); top 4-10 graduates (60% discount for master's); student employment fund; health insurance: 30 JOD per semester; transportation fee: 150 JOD per semester",
+    "campus_size": "Current buildings exceed 38,000 square meters, plus more than 5,000 square meters of yards, green spaces and playgrounds",
+    "campus_location": "Jordan Street, Mobus area, 12 km north of Amman, completed since academic year 2013/2014"
+  },
+  "contact_info": {
+    "address": "Jordan Street, Mubis, Amman 11953, Jordan",
+    "p_o_box": "2234",
+    "phone_registration": "+96264792555",
+    "phone": "+96264791400",
+    "phone_secondary": "+962799024000",
+    "fax": "+96264791414",
+    "email": "info@aau.edu.jo",
+    "social_media": [
+      "https://www.facebook.com/aau.edu.jordan/",
+      "https://www.linkedin.com/school/amman-arab-university/",
+      "https://twitter.com/AmmanArabUni",
+      "https://www.youtube.com/@Amman-Arab-University"
+    ]
+  },
+  "uncertain": [
+    "tuition_fees.annual_fees_range",
+    "tuition_fees.medical_majors_fees",
+    "tuition_fees.engineering_majors_fees",
+    "tuition_fees.humanities_majors_fees",
+    "market_demand.overall_demand",
+    "market_demand.employment_rate_estimate"
+  ]
+}

@@ -1,0 +1,1302 @@
+[
+  {
+    "id": 1,
+    "domain": "science",
+    "grade": 8,
+    "text": "ما هي حالات المادة الثلاث؟",
+    "subtitle": "الفيزياء - حالات المادة",
+    "options": [
+      {"id": "a", "text": "صلب، سائل، غاز", "correct": true},
+      {"id": "b", "text": "ناري، ترابي، هوائي", "correct": false},
+      {"id": "c", "text": "حامضي، قلوي، متعادل", "correct": false},
+      {"id": "d", "text": "معدني، عضوي، غير عضوي", "correct": false}
+    ]
+  },
+  {
+    "id": 2,
+    "domain": "science",
+    "grade": 7,
+    "text": "ما هو الغاز الذي تتنفسه النباتات ليلاً؟",
+    "subtitle": "الأحياء - التنفس في النبات",
+    "options": [
+      {"id": "a", "text": "الأكسجين", "correct": true},
+      {"id": "b", "text": "ثاني أكسيد الكربون", "correct": false},
+      {"id": "c", "text": "النيتروجين", "correct": false},
+      {"id": "d", "text": "الهيدروجين", "correct": false}
+    ]
+  },
+  {
+    "id": 3,
+    "domain": "science",
+    "grade": 8,
+    "text": "ما هو العنصر الكيميائي الأكثر انتشاراً في الكون؟",
+    "subtitle": "الكيمياء - العناصر",
+    "options": [
+      {"id": "a", "text": "الهيدروجين", "correct": true},
+      {"id": "b", "text": "الأكسجين", "correct": false},
+      {"id": "c", "text": "الكربون", "correct": false},
+      {"id": "d", "text": "النيتروجين", "correct": false}
+    ]
+  },
+  {
+    "id": 4,
+    "domain": "science",
+    "grade": 7,
+    "text": "ما هو الكوكب الأقرب إلى الشمس؟",
+    "subtitle": "علوم الأرض - المجموعة الشمسية",
+    "options": [
+      {"id": "a", "text": "عطارد", "correct": true},
+      {"id": "b", "text": "الزهرة", "correct": false},
+      {"id": "c", "text": "الأرض", "correct": false},
+      {"id": "d", "text": "المريخ", "correct": false}
+    ]
+  },
+  {
+    "id": 5,
+    "domain": "science",
+    "grade": 8,
+    "text": "ما هي الوحدة الأساسية لقياس التيار الكهربائي؟",
+    "subtitle": "الفيزياء - الكهرباء",
+    "options": [
+      {"id": "a", "text": "الأمبير", "correct": true},
+      {"id": "b", "text": "الفولت", "correct": false},
+      {"id": "c", "text": "الأوم", "correct": false},
+      {"id": "d", "text": "الواط", "correct": false}
+    ]
+  },
+  {
+    "id": 6,
+    "domain": "science",
+    "grade": 7,
+    "text": "ما هو العضو المسؤول عن عملية البناء الضوئي في النبات؟",
+    "subtitle": "الأحياء - النباتات",
+    "options": [
+      {"id": "a", "text": "البلاستيدات الخضراء", "correct": true},
+      {"id": "b", "text": "الجذور", "correct": false},
+      {"id": "c", "text": "الساق", "correct": false},
+      {"id": "d", "text": "الأوراق", "correct": false}
+    ]
+  },
+  {
+    "id": 7,
+    "domain": "science",
+    "grade": 8,
+    "text": "ما هو الرقم الهيدروجيني للمحاليل المتعادلة؟",
+    "subtitle": "الكيمياء - الأحماض والقواعد",
+    "options": [
+      {"id": "a", "text": "7", "correct": true},
+      {"id": "b", "text": "0", "correct": false},
+      {"id": "c", "text": "14", "correct": false},
+      {"id": "d", "text": "10", "correct": false}
+    ]
+  },
+  {
+    "id": 8,
+    "domain": "science",
+    "grade": 7,
+    "text": "ما هو الغاز المسؤول عن ظاهرة الاحتباس الحراري؟",
+    "subtitle": "علوم الأرض - البيئة",
+    "options": [
+      {"id": "a", "text": "ثاني أكسيد الكربون", "correct": true},
+      {"id": "b", "text": "الأكسجين", "correct": false},
+      {"id": "c", "text": "النيتروجين", "correct": false},
+      {"id": "d", "text": "الهيدروجين", "correct": false}
+    ]
+  },
+  {
+    "id": 9,
+    "domain": "science",
+    "grade": 8,
+    "text": "ما هو قانون انعكاس الضوء؟",
+    "subtitle": "الفيزياء - الضوء",
+    "options": [
+      {"id": "a", "text": "زاوية السقوط = زاوية الانعكاس", "correct": true},
+      {"id": "b", "text": "زاوية السقوط > زاوية الانعكاس", "correct": false},
+      {"id": "c", "text": "زاوية السقوط < زاوية الانعكاس", "correct": false},
+      {"id": "d", "text": "لا توجد علاقة", "correct": false}
+    ]
+  },
+  {
+    "id": 10,
+    "domain": "science",
+    "grade": 7,
+    "text": "ما هو عدد الكروموسومات في الخلية البشرية؟",
+    "subtitle": "الأحياء - الوراثة",
+    "options": [
+      {"id": "a", "text": "46", "correct": true},
+      {"id": "b", "text": "23", "correct": false},
+      {"id": "c", "text": "48", "correct": false},
+      {"id": "d", "text": "50", "correct": false}
+    ]
+  },
+  {
+    "id": 11,
+    "domain": "science",
+    "grade": 8,
+    "text": "ما هو العنصر الكيميائي الموجود في ملح الطعام؟",
+    "subtitle": "الكيمياء - العناصر",
+    "options": [
+      {"id": "a", "text": "الصوديوم", "correct": true},
+      {"id": "b", "text": "البوتاسيوم", "correct": false},
+      {"id": "c", "text": "الكالسيوم", "correct": false},
+      {"id": "d", "text": "المغنيسيوم", "correct": false}
+    ]
+  },
+  {
+    "id": 12,
+    "domain": "science",
+    "grade": 7,
+    "text": "ما هو الكوكب المعروف بالكوكب الأحمر؟",
+    "subtitle": "علوم الأرض - المجموعة الشمسية",
+    "options": [
+      {"id": "a", "text": "المريخ", "correct": true},
+      {"id": "b", "text": "المشتري", "correct": false},
+      {"id": "c", "text": "زحل", "correct": false},
+      {"id": "d", "text": "الزهرة", "correct": false}
+    ]
+  },
+  {
+    "id": 13,
+    "domain": "science",
+    "grade": 8,
+    "text": "ما هي وحدة قياس المقاومة الكهربائية؟",
+    "subtitle": "الفيزياء - الكهرباء",
+    "options": [
+      {"id": "a", "text": "الأوم", "correct": true},
+      {"id": "b", "text": "الفولت", "correct": false},
+      {"id": "c", "text": "الأمبير", "correct": false},
+      {"id": "d", "text": "الواط", "correct": false}
+    ]
+  },
+  {
+    "id": 14,
+    "domain": "science",
+    "grade": 7,
+    "text": "ما هو الجزء المسؤول عن حركة الخلية؟",
+    "subtitle": "الأحياء - الخلية",
+    "options": [
+      {"id": "a", "text": "السيتوبلازم", "correct": true},
+      {"id": "b", "text": "النواة", "correct": false},
+      {"id": "c", "text": "الجدار الخلوي", "correct": false},
+      {"id": "d", "text": "الغشاء الخلوي", "correct": false}
+    ]
+  },
+  {
+    "id": 15,
+    "domain": "science",
+    "grade": 8,
+    "text": "ما هو الرمز الكيميائي للذهب؟",
+    "subtitle": "الكيمياء - العناصر",
+    "options": [
+      {"id": "a", "text": "Au", "correct": true},
+      {"id": "b", "text": "Ag", "correct": false},
+      {"id": "c", "text": "Fe", "correct": false},
+      {"id": "d", "text": "Cu", "correct": false}
+    ]
+  },
+  {
+    "id": 16,
+    "domain": "science",
+    "grade": 7,
+    "text": "ما هو أقرب نجم إلى الأرض؟",
+    "subtitle": "علوم الأرض - الفلك",
+    "options": [
+      {"id": "a", "text": "الشمس", "correct": true},
+      {"id": "b", "text": "القمر", "correct": false},
+      {"id": "c", "text": "المريخ", "correct": false},
+      {"id": "d", "text": "الزهرة", "correct": false}
+    ]
+  },
+  {
+    "id": 17,
+    "domain": "science",
+    "grade": 8,
+    "text": "ما هو قانون أوم؟",
+    "subtitle": "الفيزياء - الكهرباء",
+    "options": [
+      {"id": "a", "text": "الجهد = التيار × المقاومة", "correct": true},
+      {"id": "b", "text": "التيار = الجهد × المقاومة", "correct": false},
+      {"id": "c", "text": "المقاومة = الجهد ÷ التيار", "correct": false},
+      {"id": "d", "text": "القدرة = الجهد × التيار", "correct": false}
+    ]
+  },
+  {
+    "id": 18,
+    "domain": "science",
+    "grade": 7,
+    "text": "ما هو العضو المسؤول عن تنقية الدم في الجسم؟",
+    "subtitle": "الأحياء - جسم الإنسان",
+    "options": [
+      {"id": "a", "text": "الكلى", "correct": true},
+      {"id": "b", "text": "الكبد", "correct": false},
+      {"id": "c", "text": "الرئتين", "correct": false},
+      {"id": "d", "text": "القلب", "correct": false}
+    ]
+  },
+  {
+    "id": 19,
+    "domain": "science",
+    "grade": 8,
+    "text": "ما هو الغاز النبيل الأكثر انتشاراً في الغلاف الجوي؟",
+    "subtitle": "الكيمياء - الغازات النبيلة",
+    "options": [
+      {"id": "a", "text": "النيون", "correct": false},
+      {"id": "b", "text": "الأرجون", "correct": true},
+      {"id": "c", "text": "الهيليوم", "correct": false},
+      {"id": "d", "text": "الزينون", "correct": false}
+    ]
+  },
+  {
+    "id": 20,
+    "domain": "science",
+    "grade": 7,
+    "text": "ما هو الكوكب الأكبر في المجموعة الشمسية؟",
+    "subtitle": "علوم الأرض - المجموعة الشمسية",
+    "options": [
+      {"id": "a", "text": "المشتري", "correct": true},
+      {"id": "b", "text": "زحل", "correct": false},
+      {"id": "c", "text": "الأرض", "correct": false},
+      {"id": "d", "text": "نبتون", "correct": false}
+    ]
+  },
+  {
+    "id": 21,
+    "domain": "science",
+    "grade": 8,
+    "text": "ما هي سرعة الضوء في الفراغ؟",
+    "subtitle": "الفيزياء - الضوء",
+    "options": [
+      {"id": "a", "text": "300,000 كم/ثانية", "correct": true},
+      {"id": "b", "text": "150,000 كم/ثانية", "correct": false},
+      {"id": "c", "text": "450,000 كم/ثانية", "correct": false},
+      {"id": "d", "text": "600,000 كم/ثانية", "correct": false}
+    ]
+  },
+  {
+    "id": 22,
+    "domain": "science",
+    "grade": 7,
+    "text": "ما هو العضو المسؤول عن إنتاج الأنسولين؟",
+    "subtitle": "الأحياء - جسم الإنسان",
+    "options": [
+      {"id": "a", "text": "البنكرياس", "correct": true},
+      {"id": "b", "text": "الكبد", "correct": false},
+      {"id": "c", "text": "الطحال", "correct": false},
+      {"id": "d", "text": "الغدة الدرقية", "correct": false}
+    ]
+  },
+  {
+    "id": 23,
+    "domain": "science",
+    "grade": 8,
+    "text": "ما هو الرمز الكيميائي للحديد؟",
+    "subtitle": "الكيمياء - العناصر",
+    "options": [
+      {"id": "a", "text": "Fe", "correct": true},
+      {"id": "b", "text": "Cu", "correct": false},
+      {"id": "c", "text": "Ag", "correct": false},
+      {"id": "d", "text": "Au", "correct": false}
+    ]
+  },
+  {
+    "id": 24,
+    "domain": "science",
+    "grade": 7,
+    "text": "ما هو القمر الطبيعي الوحيد للأرض؟",
+    "subtitle": "علوم الأرض - الفلك",
+    "options": [
+      {"id": "a", "text": "القمر", "correct": true},
+      {"id": "b", "text": "المريخ", "correct": false},
+      {"id": "c", "text": "المشتري", "correct": false},
+      {"id": "d", "text": "الزهرة", "correct": false}
+    ]
+  },
+  {
+    "id": 25,
+    "domain": "science",
+    "grade": 8,
+    "text": "ما هي وحدة قياس الطاقة؟",
+    "subtitle": "الفيزياء - الطاقة",
+    "options": [
+      {"id": "a", "text": "الجول", "correct": true},
+      {"id": "b", "text": "النيوتن", "correct": false},
+      {"id": "c", "text": "الباسكال", "correct": false},
+      {"id": "d", "text": "الواط", "correct": false}
+    ]
+  },
+  {
+    "id": 26,
+    "domain": "science",
+    "grade": 7,
+    "text": "ما هو عدد غرف القلب في الإنسان؟",
+    "subtitle": "الأحياء - جسم الإنسان",
+    "options": [
+      {"id": "a", "text": "4", "correct": true},
+      {"id": "b", "text": "2", "correct": false},
+      {"id": "c", "text": "3", "correct": false},
+      {"id": "d", "text": "5", "correct": false}
+    ]
+  },
+  {
+    "id": 27,
+    "domain": "science",
+    "grade": 8,
+    "text": "ما هو الغاز المسؤول عن ثقب الأوزون؟",
+    "subtitle": "الكيمياء - البيئة",
+    "options": [
+      {"id": "a", "text": "الكلوروفلوروكربون", "correct": true},
+      {"id": "b", "text": "ثاني أكسيد الكربون", "correct": false},
+      {"id": "c", "text": "الأكسجين", "correct": false},
+      {"id": "d", "text": "النيتروجين", "correct": false}
+    ]
+  },
+  {
+    "id": 28,
+    "domain": "science",
+    "grade": 7,
+    "text": "ما هو الكوكب المعروف بحلقاته؟",
+    "subtitle": "علوم الأرض - المجموعة الشمسية",
+    "options": [
+      {"id": "a", "text": "زحل", "correct": true},
+      {"id": "b", "text": "المشتري", "correct": false},
+      {"id": "c", "text": "أورانوس", "correct": false},
+      {"id": "d", "text": "نبتون", "correct": false}
+    ]
+  },
+  {
+    "id": 29,
+    "domain": "science",
+    "grade": 8,
+    "text": "ما هو قانون الجذب العام؟",
+    "subtitle": "الفيزياء - الميكانيكا",
+    "options": [
+      {"id": "a", "text": "قانون نيوتن", "correct": true},
+      {"id": "b", "text": "قانون أوم", "correct": false},
+      {"id": "c", "text": "قانون بويل", "correct": false},
+      {"id": "d", "text": "قانون كولوم", "correct": false}
+    ]
+  },
+  {
+    "id": 30,
+    "domain": "science",
+    "grade": 7,
+    "text": "ما هو العضو الأكبر في جسم الإنسان؟",
+    "subtitle": "الأحياء - جسم الإنسان",
+    "options": [
+      {"id": "a", "text": "الجلد", "correct": true},
+      {"id": "b", "text": "الكبد", "correct": false},
+      {"id": "c", "text": "الرئتين", "correct": false},
+      {"id": "d", "text": "المعدة", "correct": false}
+    ]
+  },
+  {
+    "id": 31,
+    "domain": "science",
+    "grade": 8,
+    "text": "ما هو الرقم الهيدروجيني للمحاليل الحمضية؟",
+    "subtitle": "الكيمياء - الأحماض والقواعد",
+    "options": [
+      {"id": "a", "text": "أقل من 7", "correct": true},
+      {"id": "b", "text": "أكثر من 7", "correct": false},
+      {"id": "c", "text": "يساوي 7", "correct": false},
+      {"id": "d", "text": "يساوي 14", "correct": false}
+    ]
+  },
+  {
+    "id": 32,
+    "domain": "science",
+    "grade": 7,
+    "text": "ما هو الكوكب الأبعد عن الشمس؟",
+    "subtitle": "علوم الأرض - المجموعة الشمسية",
+    "options": [
+      {"id": "a", "text": "نبتون", "correct": true},
+      {"id": "b", "text": "بلوتو", "correct": false},
+      {"id": "c", "text": "أورانوس", "correct": false},
+      {"id": "d", "text": "زحل", "correct": false}
+    ]
+  },
+  {
+    "id": 33,
+    "domain": "science",
+    "grade": 8,
+    "text": "ما هي وحدة قياس القوة؟",
+    "subtitle": "الفيزياء - الميكانيكا",
+    "options": [
+      {"id": "a", "text": "النيوتن", "correct": true},
+      {"id": "b", "text": "الجول", "correct": false},
+      {"id": "c", "text": "الباسكال", "correct": false},
+      {"id": "d", "text": "الواط", "correct": false}
+    ]
+  },
+  {
+    "id": 34,
+    "domain": "science",
+    "grade": 7,
+    "text": "ما هو عدد العظام في جسم الإنسان البالغ؟",
+    "subtitle": "الأحياء - جسم الإنسان",
+    "options": [
+      {"id": "a", "text": "206", "correct": true},
+      {"id": "b", "text": "300", "correct": false},
+      {"id": "c", "text": "180", "correct": false},
+      {"id": "d", "text": "250", "correct": false}
+    ]
+  },
+  {
+    "id": 35,
+    "domain": "science",
+    "grade": 8,
+    "text": "ما هو الغاز المسؤول عن الصوت؟",
+    "subtitle": "الكيمياء - الغازات",
+    "options": [
+      {"id": "a", "text": "لا يوجد غاز محدد", "correct": true},
+      {"id": "b", "text": "الأكسجين", "correct": false},
+      {"id": "c", "text": "النيتروجين", "correct": false},
+      {"id": "d", "text": "ثاني أكسيد الكربون", "correct": false}
+    ]
+  },
+  {
+    "id": 36,
+    "domain": "science",
+    "grade": 7,
+    "text": "ما هو الكوكب المعروف بالكوكب الأزرق؟",
+    "subtitle": "علوم الأرض - المجموعة الشمسية",
+    "options": [
+      {"id": "a", "text": "الأرض", "correct": true},
+      {"id": "b", "text": "نبتون", "correct": false},
+      {"id": "c", "text": "أورانوس", "correct": false},
+      {"id": "d", "text": "المشتري", "correct": false}
+    ]
+  },
+  {
+    "id": 37,
+    "domain": "science",
+    "grade": 8,
+    "text": "ما هو قانون حفظ الطاقة؟",
+    "subtitle": "الفيزياء - الطاقة",
+    "options": [
+      {"id": "a", "text": "الطاقة لا تفنى ولا تستحدث", "correct": true},
+      {"id": "b", "text": "الطاقة تفنى", "correct": false},
+      {"id": "c", "text": "الطاقة تستحدث", "correct": false},
+      {"id": "d", "text": "الطاقة تتغير", "correct": false}
+    ]
+  },
+  {
+    "id": 38,
+    "domain": "science",
+    "grade": 7,
+    "text": "ما هو العضو المسؤول عن حاسة الشم؟",
+    "subtitle": "الأحياء - جسم الإنسان",
+    "options": [
+      {"id": "a", "text": "الأنف", "correct": true},
+      {"id": "b", "text": "اللسان", "correct": false},
+      {"id": "c", "text": "الأذن", "correct": false},
+      {"id": "d", "text": "العين", "correct": false}
+    ]
+  },
+  {
+    "id": 39,
+    "domain": "science",
+    "grade": 8,
+    "text": "ما هو الرمز الكيميائي للفضة؟",
+    "subtitle": "الكيمياء - العناصر",
+    "options": [
+      {"id": "a", "text": "Ag", "correct": true},
+      {"id": "b", "text": "Au", "correct": false},
+      {"id": "c", "text": "Fe", "correct": false},
+      {"id": "d", "text": "Cu", "correct": false}
+    ]
+  },
+  {
+    "id": 40,
+    "domain": "science",
+    "grade": 7,
+    "text": "ما هو الكوكب الوحيد الذي توجد عليه حياة؟",
+    "subtitle": "علوم الأرض - المجموعة الشمسية",
+    "options": [
+      {"id": "a", "text": "الأرض", "correct": true},
+      {"id": "b", "text": "المريخ", "correct": false},
+      {"id": "c", "text": "الزهرة", "correct": false},
+      {"id": "d", "text": "المشتري", "correct": false}
+    ]
+  },
+  {
+    "id": 41,
+    "domain": "science",
+    "grade": 8,
+    "text": "ما هي سرعة الصوت في الهواء؟",
+    "subtitle": "الفيزياء - الصوت",
+    "options": [
+      {"id": "a", "text": "340 م/ث", "correct": true},
+      {"id": "b", "text": "300 م/ث", "correct": false},
+      {"id": "c", "text": "400 م/ث", "correct": false},
+      {"id": "d", "text": "500 م/ث", "correct": false}
+    ]
+  },
+  {
+    "id": 42,
+    "domain": "science",
+    "grade": 7,
+    "text": "ما هو العضو المسؤول عن حاسة التذوق؟",
+    "subtitle": "الأحياء - جسم الإنسان",
+    "options": [
+      {"id": "a", "text": "اللسان", "correct": true},
+      {"id": "b", "text": "الأنف", "correct": false},
+      {"id": "c", "text": "الأذن", "correct": false},
+      {"id": "d", "text": "العين", "correct": false}
+    ]
+  },
+  {
+    "id": 43,
+    "domain": "science",
+    "grade": 8,
+    "text": "ما هو الرمز الكيميائي للنحاس؟",
+    "subtitle": "الكيمياء - العناصر",
+    "options": [
+      {"id": "a", "text": "Cu", "correct": true},
+      {"id": "b", "text": "Ag", "correct": false},
+      {"id": "c", "text": "Au", "correct": false},
+      {"id": "d", "text": "Fe", "correct": false}
+    ]
+  },
+  {
+    "id": 44,
+    "domain": "science",
+    "grade": 7,
+    "text": "ما هو الكوكب المعروف بالكوكب التوأم للأرض؟",
+    "subtitle": "علوم الأرض - المجموعة الشمسية",
+    "options": [
+      {"id": "a", "text": "الزهرة", "correct": true},
+      {"id": "b", "text": "المريخ", "correct": false},
+      {"id": "c", "text": "المشتري", "correct": false},
+      {"id": "d", "text": "زحل", "correct": false}
+    ]
+  },
+  {
+    "id": 45,
+    "domain": "science",
+    "grade": 8,
+    "text": "ما هي وحدة قياس الضغط؟",
+    "subtitle": "الفيزياء - الضغط",
+    "options": [
+      {"id": "a", "text": "الباسكال", "correct": true},
+      {"id": "b", "text": "النيوتن", "correct": false},
+      {"id": "c", "text": "الجول", "correct": false},
+      {"id": "d", "text": "الواط", "correct": false}
+    ]
+  },
+  {
+    "id": 46,
+    "domain": "science",
+    "grade": 7,
+    "text": "ما هو العضو المسؤول عن حاسة السمع؟",
+    "subtitle": "الأحياء - جسم الإنسان",
+    "options": [
+      {"id": "a", "text": "الأذن", "correct": true},
+      {"id": "b", "text": "العين", "correct": false},
+      {"id": "c", "text": "الأنف", "correct": false},
+      {"id": "d", "text": "اللسان", "correct": false}
+    ]
+  },
+  {
+    "id": 47,
+    "domain": "science",
+    "grade": 8,
+    "text": "ما هو الرمز الكيميائي للأكسجين؟",
+    "subtitle": "الكيمياء - العناصر",
+    "options": [
+      {"id": "a", "text": "O", "correct": true},
+      {"id": "b", "text": "O2", "correct": false},
+      {"id": "c", "text": "O3", "correct": false},
+      {"id": "d", "text": "Ox", "correct": false}
+    ]
+  },
+  {
+    "id": 48,
+    "domain": "science",
+    "grade": 7,
+    "text": "ما هو الكوكب المعروف بالكوكب العملاق؟",
+    "subtitle": "علوم الأرض - المجموعة الشمسية",
+    "options": [
+      {"id": "a", "text": "المشتري", "correct": true},
+      {"id": "b", "text": "زحل", "correct": false},
+      {"id": "c", "text": "أورانوس", "correct": false},
+      {"id": "d", "text": "نبتون", "correct": false}
+    ]
+  },
+  {
+    "id": 49,
+    "domain": "science",
+    "grade": 8,
+    "text": "ما هي وحدة قياس القدرة؟",
+    "subtitle": "الفيزياء - القدرة",
+    "options": [
+      {"id": "a", "text": "الواط", "correct": true},
+      {"id": "b", "text": "الجول", "correct": false},
+      {"id": "c", "text": "النيوتن", "correct": false},
+      {"id": "d", "text": "الباسكال", "correct": false}
+    ]
+  },
+  {
+    "id": 50,
+    "domain": "science",
+    "grade": 7,
+    "text": "ما هو العضو المسؤول عن حاسة البصر؟",
+    "subtitle": "الأحياء - جسم الإنسان",
+    "options": [
+      {"id": "a", "text": "العين", "correct": true},
+      {"id": "b", "text": "الأذن", "correct": false},
+      {"id": "c", "text": "الأنف", "correct": false},
+      {"id": "d", "text": "اللسان", "correct": false}
+    ]
+  },
+  {
+    "id": 51,
+    "domain": "science",
+    "grade": 8,
+    "text": "ما هو الرمز الكيميائي للكربون؟",
+    "subtitle": "الكيمياء - العناصر",
+    "options": [
+      {"id": "a", "text": "C", "correct": true},
+      {"id": "b", "text": "Ca", "correct": false},
+      {"id": "c", "text": "Co", "correct": false},
+      {"id": "d", "text": "Cu", "correct": false}
+    ]
+  },
+  {
+    "id": 52,
+    "domain": "science",
+    "grade": 7,
+    "text": "ما هو الكوكب المعروف بالكوكب البارد؟",
+    "subtitle": "علوم الأرض - المجموعة الشمسية",
+    "options": [
+      {"id": "a", "text": "نبتون", "correct": true},
+      {"id": "b", "text": "أورانوس", "correct": false},
+      {"id": "c", "text": "زحل", "correct": false},
+      {"id": "d", "text": "المشتري", "correct": false}
+    ]
+  },
+  {
+    "id": 53,
+    "domain": "science",
+    "grade": 8,
+    "text": "ما هي وحدة قياس الشحنة الكهربائية؟",
+    "subtitle": "الفيزياء - الكهرباء",
+    "options": [
+      {"id": "a", "text": "الكولوم", "correct": true},
+      {"id": "b", "text": "الأمبير", "correct": false},
+      {"id": "c", "text": "الفولت", "correct": false},
+      {"id": "d", "text": "الأوم", "correct": false}
+    ]
+  },
+  {
+    "id": 54,
+    "domain": "science",
+    "grade": 7,
+    "text": "ما هو العضو المسؤول عن حاسة اللمس؟",
+    "subtitle": "الأحياء - جسم الإنسان",
+    "options": [
+      {"id": "a", "text": "الجلد", "correct": true},
+      {"id": "b", "text": "العين", "correct": false},
+      {"id": "c", "text": "الأذن", "correct": false},
+      {"id": "d", "text": "الأنف", "correct": false}
+    ]
+  },
+  {
+    "id": 55,
+    "domain": "science",
+    "grade": 8,
+    "text": "ما هو الرمز الكيميائي للنيتروجين؟",
+    "subtitle": "الكيمياء - العناصر",
+    "options": [
+      {"id": "a", "text": "N", "correct": true},
+      {"id": "b", "text": "Na", "correct": false},
+      {"id": "c", "text": "Ni", "correct": false},
+      {"id": "d", "text": "Ne", "correct": false}
+    ]
+  },
+  {
+    "id": 56,
+    "domain": "science",
+    "grade": 7,
+    "text": "ما هو الكوكب المعروف بالكوكب السيار؟",
+    "subtitle": "علوم الأرض - المجموعة الشمسية",
+    "options": [
+      {"id": "a", "text": "عطارد", "correct": true},
+      {"id": "b", "text": "الزهرة", "correct": false},
+      {"id": "c", "text": "الأرض", "correct": false},
+      {"id": "d", "text": "المريخ", "correct": false}
+    ]
+  },
+  {
+    "id": 57,
+    "domain": "science",
+    "grade": 8,
+    "text": "ما هي وحدة قياس التردد؟",
+    "subtitle": "الفيزياء - الموجات",
+    "options": [
+      {"id": "a", "text": "الهرتز", "correct": true},
+      {"id": "b", "text": "الواط", "correct": false},
+      {"id": "c", "text": "الجول", "correct": false},
+      {"id": "d", "text": "النيوتن", "correct": false}
+    ]
+  },
+  {
+    "id": 58,
+    "domain": "science",
+    "grade": 7,
+    "text": "ما هو العضو المسؤول عن ضخ الدم؟",
+    "subtitle": "الأحياء - جسم الإنسان",
+    "options": [
+      {"id": "a", "text": "القلب", "correct": true},
+      {"id": "b", "text": "الكبد", "correct": false},
+      {"id": "c", "text": "الرئتين", "correct": false},
+      {"id": "d", "text": "المعدة", "correct": false}
+    ]
+  },
+  {
+    "id": 59,
+    "domain": "science",
+    "grade": 8,
+    "text": "ما هو الرمز الكيميائي للهيدروجين؟",
+    "subtitle": "الكيمياء - العناصر",
+    "options": [
+      {"id": "a", "text": "H", "correct": true},
+      {"id": "b", "text": "He", "correct": false},
+      {"id": "c", "text": "Ha", "correct": false},
+      {"id": "d", "text": "Hy", "correct": false}
+    ]
+  },
+  {
+    "id": 60,
+    "domain": "science",
+    "grade": 7,
+    "text": "ما هو الكوكب المعروف بالكوكب الصخري؟",
+    "subtitle": "علوم الأرض - المجموعة الشمسية",
+    "options": [
+      {"id": "a", "text": "المريخ", "correct": true},
+      {"id": "b", "text": "المشتري", "correct": false},
+      {"id": "c", "text": "زحل", "correct": false},
+      {"id": "d", "text": "أورانوس", "correct": false}
+    ]
+  },
+  {
+    "id": 61,
+    "domain": "science",
+    "grade": 8,
+    "text": "ما هي وحدة قياس الحرارة؟",
+    "subtitle": "الفيزياء - الحرارة",
+    "options": [
+      {"id": "a", "text": "الكلفن", "correct": true},
+      {"id": "b", "text": "النيوتن", "correct": false},
+      {"id": "c", "text": "الجول", "correct": false},
+      {"id": "d", "text": "الواط", "correct": false}
+    ]
+  },
+  {
+    "id": 62,
+    "domain": "science",
+    "grade": 7,
+    "text": "ما هو العضو المسؤول عن التنفس؟",
+    "subtitle": "الأحياء - جسم الإنسان",
+    "options": [
+      {"id": "a", "text": "الرئتين", "correct": true},
+      {"id": "b", "text": "القلب", "correct": false},
+      {"id": "c", "text": "الكبد", "correct": false},
+      {"id": "d", "text": "المعدة", "correct": false}
+    ]
+  },
+  {
+    "id": 63,
+    "domain": "science",
+    "grade": 8,
+    "text": "ما هو الرمز الكيميائي للكلور؟",
+    "subtitle": "الكيمياء - العناصر",
+    "options": [
+      {"id": "a", "text": "Cl", "correct": true},
+      {"id": "b", "text": "Cr", "correct": false},
+      {"id": "c", "text": "Ca", "correct": false},
+      {"id": "d", "text": "Cu", "correct": false}
+    ]
+  },
+  {
+    "id": 64,
+    "domain": "science",
+    "grade": 7,
+    "text": "ما هو الكوكب المعروف بالكوكب الغازي؟",
+    "subtitle": "علوم الأرض - المجموعة الشمسية",
+    "options": [
+      {"id": "a", "text": "المشتري", "correct": true},
+      {"id": "b", "text": "المريخ", "correct": false},
+      {"id": "c", "text": "الزهرة", "correct": false},
+      {"id": "d", "text": "عطارد", "correct": false}
+    ]
+  },
+  {
+    "id": 65,
+    "domain": "science",
+    "grade": 8,
+    "text": "ما هي وحدة قياس الزمن؟",
+    "subtitle": "الفيزياء - القياس",
+    "options": [
+      {"id": "a", "text": "الثانية", "correct": true},
+      {"id": "b", "text": "المتر", "correct": false},
+      {"id": "c", "text": "الكيلوجرام", "correct": false},
+      {"id": "d", "text": "الأمبير", "correct": false}
+    ]
+  },
+  {
+    "id": 66,
+    "domain": "science",
+    "grade": 7,
+    "text": "ما هو العضو المسؤول عن الهضم؟",
+    "subtitle": "الأحياء - جسم الإنسان",
+    "options": [
+      {"id": "a", "text": "المعدة", "correct": true},
+      {"id": "b", "text": "القلب", "correct": false},
+      {"id": "c", "text": "الرئتين", "correct": false},
+      {"id": "d", "text": "الكبد", "correct": false}
+    ]
+  },
+  {
+    "id": 67,
+    "domain": "science",
+    "grade": 8,
+    "text": "ما هو الرمز الكيميائي للكبريت؟",
+    "subtitle": "الكيمياء - العناصر",
+    "options": [
+      {"id": "a", "text": "S", "correct": true},
+      {"id": "b", "text": "Si", "correct": false},
+      {"id": "c", "text": "Se", "correct": false},
+      {"id": "d", "text": "Sr", "correct": false}
+    ]
+  },
+  {
+    "id": 68,
+    "domain": "science",
+    "grade": 7,
+    "text": "ما هو الكوكب المعروف بالكوكب القزم؟",
+    "subtitle": "علوم الأرض - المجموعة الشمسية",
+    "options": [
+      {"id": "a", "text": "بلوتو", "correct": true},
+      {"id": "b", "text": "عطارد", "correct": false},
+      {"id": "c", "text": "المريخ", "correct": false},
+      {"id": "d", "text": "الزهرة", "correct": false}
+    ]
+  },
+  {
+    "id": 69,
+    "domain": "science",
+    "grade": 8,
+    "text": "ما هي وحدة قياس الكتلة؟",
+    "subtitle": "الفيزياء - القياس",
+    "options": [
+      {"id": "a", "text": "الكيلوجرام", "correct": true},
+      {"id": "b", "text": "المتر", "correct": false},
+      {"id": "c", "text": "الثانية", "correct": false},
+      {"id": "d", "text": "الأمبير", "correct": false}
+    ]
+  },
+  {
+    "id": 70,
+    "domain": "science",
+    "grade": 7,
+    "text": "ما هو العضو المسؤول عن إفراز العصارة الصفراوية؟",
+    "subtitle": "الأحياء - جسم الإنسان",
+    "options": [
+      {"id": "a", "text": "الكبد", "correct": true},
+      {"id": "b", "text": "المعدة", "correct": false},
+      {"id": "c", "text": "البنكرياس", "correct": false},
+      {"id": "d", "text": "الطحال", "correct": false}
+    ]
+  },
+  {
+    "id": 71,
+    "domain": "science",
+    "grade": 8,
+    "text": "ما هو الرمز الكيميائي للفوسفور؟",
+    "subtitle": "الكيمياء - العناصر",
+    "options": [
+      {"id": "a", "text": "P", "correct": true},
+      {"id": "b", "text": "Ph", "correct": false},
+      {"id": "c", "text": "Po", "correct": false},
+      {"id": "d", "text": "Pb", "correct": false}
+    ]
+  },
+  {
+    "id": 72,
+    "domain": "science",
+    "grade": 7,
+    "text": "ما هو الكوكب المعروف بالكوكب الجليدي؟",
+    "subtitle": "علوم الأرض - المجموعة الشمسية",
+    "options": [
+      {"id": "a", "text": "أورانوس", "correct": true},
+      {"id": "b", "text": "نبتون", "correct": false},
+      {"id": "c", "text": "زحل", "correct": false},
+      {"id": "d", "text": "المشتري", "correct": false}
+    ]
+  },
+  {
+    "id": 73,
+    "domain": "science",
+    "grade": 8,
+    "text": "ما هي وحدة قياس الطول؟",
+    "subtitle": "الفيزياء - القياس",
+    "options": [
+      {"id": "a", "text": "المتر", "correct": true},
+      {"id": "b", "text": "الكيلوجرام", "correct": false},
+      {"id": "c", "text": "الثانية", "correct": false},
+      {"id": "d", "text": "الأمبير", "correct": false}
+    ]
+  },
+  {
+    "id": 74,
+    "domain": "science",
+    "grade": 7,
+    "text": "ما هو العضو المسؤول عن إنتاج خلايا الدم؟",
+    "subtitle": "الأحياء - جسم الإنسان",
+    "options": [
+      {"id": "a", "text": "نخاع العظم", "correct": true},
+      {"id": "b", "text": "الكبد", "correct": false},
+      {"id": "c", "text": "الطحال", "correct": false},
+      {"id": "d", "text": "القلب", "correct": false}
+    ]
+  },
+  {
+    "id": 75,
+    "domain": "science",
+    "grade": 8,
+    "text": "ما هو الرمز الكيميائي للمغنيسيوم؟",
+    "subtitle": "الكيمياء - العناصر",
+    "options": [
+      {"id": "a", "text": "Mg", "correct": true},
+      {"id": "b", "text": "Mn", "correct": false},
+      {"id": "c", "text": "Mo", "correct": false},
+      {"id": "d", "text": "Mb", "correct": false}
+    ]
+  },
+  {
+    "id": 76,
+    "domain": "science",
+    "grade": 7,
+    "text": "ما هو الكوكب المعروف بالكوكب الساحلي؟",
+    "subtitle": "علوم الأرض - المجموعة الشمسية",
+    "options": [
+      {"id": "a", "text": "لا يوجد", "correct": true},
+      {"id": "b", "text": "نبتون", "correct": false},
+      {"id": "c", "text": "أورانوس", "correct": false},
+      {"id": "d", "text": "زحل", "correct": false}
+    ]
+  },
+  {
+    "id": 77,
+    "domain": "science",
+    "grade": 8,
+    "text": "ما هي وحدة قياس الحجم؟",
+    "subtitle": "الفيزياء - القياس",
+    "options": [
+      {"id": "a", "text": "المتر المكعب", "correct": true},
+      {"id": "b", "text": "المتر", "correct": false},
+      {"id": "c", "text": "الكيلوجرام", "correct": false},
+      {"id": "d", "text": "الثانية", "correct": false}
+    ]
+  },
+  {
+    "id": 78,
+    "domain": "science",
+    "grade": 7,
+    "text": "ما هو العضو المسؤول عن تنظيم السكر في الدم؟",
+    "subtitle": "الأحياء - جسم الإنسان",
+    "options": [
+      {"id": "a", "text": "البنكرياس", "correct": true},
+      {"id": "b", "text": "الكبد", "correct": false},
+      {"id": "c", "text": "الطحال", "correct": false},
+      {"id": "d", "text": "القلب", "correct": false}
+    ]
+  },
+  {
+    "id": 79,
+    "domain": "science",
+    "grade": 8,
+    "text": "ما هو الرمز الكيميائي للبوتاسيوم؟",
+    "subtitle": "الكيمياء - العناصر",
+    "options": [
+      {"id": "a", "text": "K", "correct": true},
+      {"id": "b", "text": "Ka", "correct": false},
+      {"id": "c", "text": "Ko", "correct": false},
+      {"id": "d", "text": "Ku", "correct": false}
+    ]
+  },
+  {
+    "id": 80,
+    "domain": "science",
+    "grade": 7,
+    "text": "ما هو الكوكب المعروف بالكوكب المغناطيسي؟",
+    "subtitle": "علوم الأرض - المجموعة الشمسية",
+    "options": [
+      {"id": "a", "text": "الأرض", "correct": true},
+      {"id": "b", "text": "المشتري", "correct": false},
+      {"id": "c", "text": "زحل", "correct": false},
+      {"id": "d", "text": "أورانوس", "correct": false}
+    ]
+  },
+  {
+    "id": 81,
+    "domain": "science",
+    "grade": 8,
+    "text": "ما هي وحدة قياس المساحة؟",
+    "subtitle": "الفيزياء - القياس",
+    "options": [
+      {"id": "a", "text": "المتر المربع", "correct": true},
+      {"id": "b", "text": "المتر", "correct": false},
+      {"id": "c", "text": "المتر المكعب", "correct": false},
+      {"id": "d", "text": "الكيلوجرام", "correct": false}
+    ]
+  },
+  {
+    "id": 82,
+    "domain": "science",
+    "grade": 7,
+    "text": "ما هو العضو المسؤول عن تخزين الفيتامينات؟",
+    "subtitle": "الأحياء - جسم الإنسان",
+    "options": [
+      {"id": "a", "text": "الكبد", "correct": true},
+      {"id": "b", "text": "المعدة", "correct": false},
+      {"id": "c", "text": "البنكرياس", "correct": false},
+      {"id": "d", "text": "الطحال", "correct": false}
+    ]
+  },
+  {
+    "id": 83,
+    "domain": "science",
+    "grade": 8,
+    "text": "ما هو الرمز الكيميائي للكالسيوم؟",
+    "subtitle": "الكيمياء - العناصر",
+    "options": [
+      {"id": "a", "text": "Ca", "correct": true},
+      {"id": "b", "text": "C", "correct": false},
+      {"id": "c", "text": "Co", "correct": false},
+      {"id": "d", "text": "Cu", "correct": false}
+    ]
+  },
+  {
+    "id": 84,
+    "domain": "science",
+    "grade": 7,
+    "text": "ما هو الكوكب المعروف بالكوكب المائي؟",
+    "subtitle": "علوم الأرض - المجموعة الشمسية",
+    "options": [
+      {"id": "a", "text": "الأرض", "correct": true},
+      {"id": "b", "text": "المريخ", "correct": false},
+      {"id": "c", "text": "الزهرة", "correct": false},
+      {"id": "d", "text": "عطارد", "correct": false}
+    ]
+  },
+  {
+    "id": 85,
+    "domain": "science",
+    "grade": 8,
+    "text": "ما هي وحدة قياس الكثافة؟",
+    "subtitle": "الفيزياء - القياس",
+    "options": [
+      {"id": "a", "text": "كجم/م³", "correct": true},
+      {"id": "b", "text": "م/ث", "correct": false},
+      {"id": "c", "text": "نيوتن/م²", "correct": false},
+      {"id": "d", "text": "جول/ث", "correct": false}
+    ]
+  },
+  {
+    "id": 86,
+    "domain": "science",
+    "grade": 7,
+    "text": "ما هو العضو المسؤول عن إنتاج الهرمونات؟",
+    "subtitle": "الأحياء - جسم الإنسان",
+    "options": [
+      {"id": "a", "text": "الغدد الصماء", "correct": true},
+      {"id": "b", "text": "الكبد", "correct": false},
+      {"id": "c", "text": "المعدة", "correct": false},
+      {"id": "d", "text": "القلب", "correct": false}
+    ]
+  },
+  {
+    "id": 87,
+    "domain": "science",
+    "grade": 8,
+    "text": "ما هو الرمز الكيميائي للألومنيوم؟",
+    "subtitle": "الكيمياء - العناصر",
+    "options": [
+      {"id": "a", "text": "Al", "correct": true},
+      {"id": "b", "text": "Am", "correct": false},
+      {"id": "c", "text": "Au", "correct": false},
+      {"id": "d", "text": "Ag", "correct": false}
+    ]
+  },
+  {
+    "id": 88,
+    "domain": "science",
+    "grade": 7,
+    "text": "ما هو الكوكب المعروف بالكوكب البركاني؟",
+    "subtitle": "علوم الأرض - المجموعة الشمسية",
+    "options": [
+      {"id": "a", "text": "الزهرة", "correct": true},
+      {"id": "b", "text": "المريخ", "correct": false},
+      {"id": "c", "text": "الأرض", "correct": false},
+      {"id": "d", "text": "عطارد", "correct": false}
+    ]
+  },
+  {
+    "id": 89,
+    "domain": "science",
+    "grade": 8,
+    "text": "ما هي وحدة قياس السرعة؟",
+    "subtitle": "الفيزياء - القياس",
+    "options": [
+      {"id": "a", "text": "م/ث", "correct": true},
+      {"id": "b", "text": "م/ث²", "correct": false},
+      {"id": "c", "text": "كجم/م³", "correct": false},
+      {"id": "d", "text": "نيوتن/م²", "correct": false}
+    ]
+  },
+  {
+    "id": 90,
+    "domain": "science",
+    "grade": 7,
+    "text": "ما هو العضو المسؤول عن التوازن؟",
+    "subtitle": "الأحياء - جسم الإنسان",
+    "options": [
+      {"id": "a", "text": "الأذن الداخلية", "correct": true},
+      {"id": "b", "text": "العين", "correct": false},
+      {"id": "c", "text": "الأنف", "correct": false},
+      {"id": "d", "text": "اللسان", "correct": false}
+    ]
+  },
+  {
+    "id": 91,
+    "domain": "science",
+    "grade": 8,
+    "text": "ما هو الرمز الكيميائي للصوديوم؟",
+    "subtitle": "الكيمياء - العناصر",
+    "options": [
+      {"id": "a", "text": "Na", "correct": true},
+      {"id": "b", "text": "No", "correct": false},
+      {"id": "c", "text": "Ni", "correct": false},
+      {"id": "d", "text": "Ne", "correct": false}
+    ]
+  },
+  {
+    "id": 92,
+    "domain": "science",
+    "grade": 7,
+    "text": "ما هو الكوكب المعروف بالكوكب الصامت؟",
+    "subtitle": "علوم الأرض - المجموعة الشمسية",
+    "options": [
+      {"id": "a", "text": "لا يوجد", "correct": true},
+      {"id": "b", "text": "المريخ", "correct": false},
+      {"id": "c", "text": "الزهرة", "correct": false},
+      {"id": "d", "text": "عطارد", "correct": false}
+    ]
+  },
+  {
+    "id": 93,
+    "domain": "science",
+    "grade": 8,
+    "text": "ما هي وحدة قياس التسارع؟",
+    "subtitle": "الفيزياء - القياس",
+    "options": [
+      {"id": "a", "text": "م/ث²", "correct": true},
+      {"id": "b", "text": "م/ث", "correct": false},
+      {"id": "c", "text": "كجم/م³", "correct": false},
+      {"id": "d", "text": "نيوتن/م²", "correct": false}
+    ]
+  },
+  {
+    "id": 94,
+    "domain": "science",
+    "grade": 7,
+    "text": "ما هو العضو المسؤول عن إنتاج الصوت؟",
+    "subtitle": "الأحياء - جسم الإنسان",
+    "options": [
+      {"id": "a", "text": "الحنجرة", "correct": true},
+      {"id": "b", "text": "الرئتين", "correct": false},
+      {"id": "c", "text": "اللسان", "correct": false},
+      {"id": "d", "text": "الأنف", "correct": false}
+    ]
+  },
+  {
+    "id": 95,
+    "domain": "science",
+    "grade": 8,
+    "text": "ما هو الرمز الكيميائي للحديد؟",
+    "subtitle": "الكيمياء - العناصر",
+    "options": [
+      {"id": "a", "text": "Fe", "correct": true},
+      {"id": "b", "text": "F", "correct": false},
+      {"id": "c", "text": "Fa", "correct": false},
+      {"id": "d", "text": "Fi", "correct": false}
+    ]
+  },
+  {
+    "id": 96,
+    "domain": "science",
+    "grade": 7,
+    "text": "ما هو الكوكب المعروف بالكوكب المضيء؟",
+    "subtitle": "علوم الأرض - المجموعة الشمسية",
+    "options": [
+      {"id": "a", "text": "الزهرة", "correct": true},
+      {"id": "b", "text": "المريخ", "correct": false},
+      {"id": "c", "text": "المشتري", "correct": false},
+      {"id": "d", "text": "زحل", "correct": false}
+    ]
+  },
+  {
+    "id": 97,
+    "domain": "science",
+    "grade": 8,
+    "text": "ما هي وحدة قياس القوة الدافعة الكهربائية؟",
+    "subtitle": "الفيزياء - الكهرباء",
+    "options": [
+      {"id": "a", "text": "الفولت", "correct": true},
+      {"id": "b", "text": "الأمبير", "correct": false},
+      {"id": "c", "text": "الأوم", "correct": false},
+      {"id": "d", "text": "الواط", "correct": false}
+    ]
+  },
+  {
+    "id": 98,
+    "domain": "science",
+    "grade": 7,
+    "text": "ما هو العضو المسؤول عن إنتاج الدموع؟",
+    "subtitle": "الأحياء - جسم الإنسان",
+    "options": [
+      {"id": "a", "text": "الغدة الدمعية", "correct": true},
+      {"id": "b", "text": "العين", "correct": false},
+      {"id": "c", "text": "الأنف", "correct": false},
+      {"id": "d", "text": "الأذن", "correct": false}
+    ]
+  },
+  {
+    "id": 99,
+    "domain": "science",
+    "grade": 8,
+    "text": "ما هو الرمز الكيميائي للزنك؟",
+    "subtitle": "الكيمياء - العناصر",
+    "options": [
+      {"id": "a", "text": "Zn", "correct": true},
+      {"id": "b", "text": "Zi", "correct": false},
+      {"id": "c", "text": "Za", "correct": false},
+      {"id": "d", "text": "Zo", "correct": false}
+    ]
+  },
+  {
+    "id": 100,
+    "domain": "science",
+    "grade": 7,
+    "text": "ما هو الكوكب المعروف بالكوكب السريع؟",
+    "subtitle": "علوم الأرض - المجموعة الشمسية",
+    "options": [
+      {"id": "a", "text": "عطارد", "correct": true},
+      {"id": "b", "text": "الزهرة", "correct": false},
+      {"id": "c", "text": "المريخ", "correct": false},
+      {"id": "d", "text": "المشتري", "correct": false}
+    ]
+  }
+]

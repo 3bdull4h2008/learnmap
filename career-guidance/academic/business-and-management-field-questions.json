@@ -1,0 +1,1311 @@
+[
+  {
+    "id": 1,
+    "domain": "business",
+    "grade": 1,
+    "text": "ما هو الشيء الذي نستخدمه لشراء الأشياء من المحل؟",
+    "subtitle": "المفاهيم المالية الأساسية",
+    "options": [
+      {"id": "a", "text": "الهدايا", "correct": false},
+      {"id": "b", "text": "الألعاب", "correct": false},
+      {"id": "c", "text": "النقود", "correct": true},
+      {"id": "d", "text": "الكتب", "correct": false}
+    ]
+  },
+  {
+    "id": 2,
+    "domain": "business",
+    "grade": 1,
+    "text": "إذا كان مع أحمد 2 دينار وأعطته أمه 3 دنانير، فكم يصبح معه؟",
+    "subtitle": "الجمع البسيط بالنقود",
+    "options": [
+      {"id": "a", "text": "4 دنانير", "correct": false},
+      {"id": "b", "text": "5 دنانير", "correct": true},
+      {"id": "c", "text": "6 دنانير", "correct": false},
+      {"id": "d", "text": "7 دنانير", "correct": false}
+    ]
+  },
+  {
+    "id": 3,
+    "domain": "business",
+    "grade": 1,
+    "text": "إذا كان سعر التفاحة 5 قروش واشتريت تفاحتين، كم دفعت؟",
+    "subtitle": "الحساب بالنقود الصغيرة",
+    "options": [
+      {"id": "a", "text": "5 قروش", "correct": false},
+      {"id": "b", "text": "10 قروش", "correct": true},
+      {"id": "c", "text": "15 قرشاً", "correct": false},
+      {"id": "d", "text": "20 قرشاً", "correct": false}
+    ]
+  },
+  {
+    "id": 4,
+    "domain": "business",
+    "grade": 1,
+    "text": "من هو الشخص الذي يبيع لنا الأشياء في المحل؟",
+    "subtitle": "مفاهيم التجارة",
+    "options": [
+      {"id": "a", "text": "الزبون", "correct": false},
+      {"id": "b", "text": "المعلم", "correct": false},
+      {"id": "c", "text": "البائع", "correct": true},
+      {"id": "d", "text": "السائق", "correct": false}
+    ]
+  },
+  {
+    "id": 5,
+    "domain": "business",
+    "grade": 1,
+    "text": "اشترى سامر لعبة بـ 30 قرشاً ودفع 50 قرشاً، كم الباقي؟",
+    "subtitle": "الطرح البسيط بالنقود",
+    "options": [
+      {"id": "a", "text": "10 قروش", "correct": false},
+      {"id": "b", "text": "20 قرشاً", "correct": true},
+      {"id": "c", "text": "30 قرشاً", "correct": false},
+      {"id": "d", "text": "40 قرشاً", "correct": false}
+    ]
+  },
+  {
+    "id": 6,
+    "domain": "business",
+    "grade": 1,
+    "text": "إذا كان سعر القلم 1 دينار واشتريت قلماً واحداً، كم تدفع؟",
+    "subtitle": "السعر والوحدة",
+    "options": [
+      {"id": "a", "text": "نصف دينار", "correct": false},
+      {"id": "b", "text": "1 دينار", "correct": true},
+      {"id": "c", "text": "2 دينار", "correct": false},
+      {"id": "d", "text": "3 دنانير", "correct": false}
+    ]
+  },
+  {
+    "id": 7,
+    "domain": "business",
+    "grade": 1,
+    "text": "إذا كان لديك 3 دنانير وأعطاك والدك دينارين، كم يصبح معك؟",
+    "subtitle": "الجمع في الحياة اليومية",
+    "options": [
+      {"id": "a", "text": "4 دنانير", "correct": false},
+      {"id": "b", "text": "5 دنانير", "correct": false},
+      {"id": "c", "text": "6 دنانير", "correct": true},
+      {"id": "d", "text": "7 دنانير", "correct": false}
+    ]
+  },
+  {
+    "id": 8,
+    "domain": "business",
+    "grade": 1,
+    "text": "من هو الشخص الذي يشتري البضاعة من المحل؟",
+    "subtitle": "مفاهيم التجارة البسيطة",
+    "options": [
+      {"id": "a", "text": "البائع", "correct": false},
+      {"id": "b", "text": "المدير", "correct": false},
+      {"id": "c", "text": "الزبون (العميل)", "correct": true},
+      {"id": "d", "text": "المورد", "correct": false}
+    ]
+  },
+  {
+    "id": 9,
+    "domain": "business",
+    "grade": 1,
+    "text": "إذا كان في المحفظة 6 دنانير ودفعت 1 دينار بثمن ماء، كم يتبقى؟",
+    "subtitle": "الطرح اليومي",
+    "options": [
+      {"id": "a", "text": "4 دنانير", "correct": false},
+      {"id": "b", "text": "5 دنانير", "correct": true},
+      {"id": "c", "text": "6 دنانير", "correct": false},
+      {"id": "d", "text": "7 دنانير", "correct": false}
+    ]
+  },
+  {
+    "id": 10,
+    "domain": "business",
+    "grade": 1,
+    "text": "إذا كان سعر العصير 25 قرشاً، أي ورقة نقدية مناسبة للدفع؟",
+    "subtitle": "التعرف على النقود",
+    "options": [
+      {"id": "a", "text": "دينار واحد", "correct": true},
+      {"id": "b", "text": "خمسة دنانير", "correct": false},
+      {"id": "c", "text": "عشرة دنانير", "correct": false},
+      {"id": "d", "text": "خمسون ديناراً", "correct": false}
+    ]
+  },
+
+  {
+    "id": 11,
+    "domain": "business",
+    "grade": 2,
+    "text": "إذا اشتريت قطعة حلوى بـ 10 قروش ودفعت 50 قرشاً، فكم يكون الباقي؟",
+    "subtitle": "الطرح بالنقود",
+    "options": [
+      {"id": "a", "text": "20 قرشاً", "correct": false},
+      {"id": "b", "text": "40 قرشاً", "correct": true},
+      {"id": "c", "text": "30 قرشاً", "correct": false},
+      {"id": "d", "text": "10 قروش", "correct": false}
+    ]
+  },
+  {
+    "id": 12,
+    "domain": "business",
+    "grade": 2,
+    "text": "إذا كان سعر القلم 2 دينار واشتريت 2 قلم، كم تدفع؟",
+    "subtitle": "الضرب البسيط",
+    "options": [
+      {"id": "a", "text": "2 دينار", "correct": false},
+      {"id": "b", "text": "3 دنانير", "correct": false},
+      {"id": "c", "text": "4 دنانير", "correct": true},
+      {"id": "d", "text": "5 دنانير", "correct": false}
+    ]
+  },
+  {
+    "id": 13,
+    "domain": "business",
+    "grade": 2,
+    "text": "إذا كان لديك 15 دينار وأنفقت 6 دنانير، كم يتبقى؟",
+    "subtitle": "طرح النقود",
+    "options": [
+      {"id": "a", "text": "7 دنانير", "correct": false},
+      {"id": "b", "text": "9 دنانير", "correct": true},
+      {"id": "c", "text": "10 دنانير", "correct": false},
+      {"id": "d", "text": "11 دينار", "correct": false}
+    ]
+  },
+  {
+    "id": 14,
+    "domain": "business",
+    "grade": 2,
+    "text": "سعر الدفتر 1 دينار وسعر المسطرة 0.5 دينار، كم ثمنهما معاً؟",
+    "subtitle": "الجمع بالأعداد العشرية",
+    "options": [
+      {"id": "a", "text": "1 دينار", "correct": false},
+      {"id": "b", "text": "1.5 دينار", "correct": true},
+      {"id": "c", "text": "2 دينار", "correct": false},
+      {"id": "d", "text": "2.5 دينار", "correct": false}
+    ]
+  },
+  {
+    "id": 15,
+    "domain": "business",
+    "grade": 2,
+    "text": "إذا كان سعر التفاحة 10 قروش وسعر الموزة 20 قرشاً، كم ثمنهما معاً؟",
+    "subtitle": "الجمع في التسوق",
+    "options": [
+      {"id": "a", "text": "20 قرشاً", "correct": false},
+      {"id": "b", "text": "25 قرشاً", "correct": false},
+      {"id": "c", "text": "30 قرشاً", "correct": true},
+      {"id": "d", "text": "40 قرشاً", "correct": false}
+    ]
+  },
+  {
+    "id": 16,
+    "domain": "business",
+    "grade": 2,
+    "text": "إذا أعطاك والدك 3 دنانير وكان معك 4 دنانير، كم يصبح لديك؟",
+    "subtitle": "الجمع البسيط",
+    "options": [
+      {"id": "a", "text": "6 دنانير", "correct": false},
+      {"id": "b", "text": "7 دنانير", "correct": true},
+      {"id": "c", "text": "8 دنانير", "correct": false},
+      {"id": "d", "text": "9 دنانير", "correct": false}
+    ]
+  },
+  {
+    "id": 17,
+    "domain": "business",
+    "grade": 2,
+    "text": "إذا كان ثمن العصير 0.25 دينار، كم تحتاج لشراء 4 عبوات؟",
+    "subtitle": "الضرب بالأعداد العشرية",
+    "options": [
+      {"id": "a", "text": "1 دينار", "correct": true},
+      {"id": "b", "text": "0.75 دينار", "correct": false},
+      {"id": "c", "text": "1.25 دينار", "correct": false},
+      {"id": "d", "text": "2 دينار", "correct": false}
+    ]
+  },
+  {
+    "id": 18,
+    "domain": "business",
+    "grade": 2,
+    "text": "من هو الشخص الذي يشتري المنتج أو الخدمة؟",
+    "subtitle": "مفاهيم الأعمال",
+    "options": [
+      {"id": "a", "text": "المورد", "correct": false},
+      {"id": "b", "text": "الزبون (العميل)", "correct": true},
+      {"id": "c", "text": "المدير", "correct": false},
+      {"id": "d", "text": "المحاسب", "correct": false}
+    ]
+  },
+  {
+    "id": 19,
+    "domain": "business",
+    "grade": 2,
+    "text": "إذا كان لديك 20 دينار ودفعت 9 دنانير ثمن حقيبة، كم يتبقى؟",
+    "subtitle": "الطرح بالنقود",
+    "options": [
+      {"id": "a", "text": "9 دنانير", "correct": false},
+      {"id": "b", "text": "10 دنانير", "correct": false},
+      {"id": "c", "text": "11 دينار", "correct": true},
+      {"id": "d", "text": "12 دينار", "correct": false}
+    ]
+  },
+  {
+    "id": 20,
+    "domain": "business",
+    "grade": 2,
+    "text": "إذا كان لديك 8 دنانير وأعطيت أخاك 3 دنانير، كم يبقى؟",
+    "subtitle": "الطرح في الحياة اليومية",
+    "options": [
+      {"id": "a", "text": "4 دنانير", "correct": false},
+      {"id": "b", "text": "5 دنانير", "correct": true},
+      {"id": "c", "text": "6 دنانير", "correct": false},
+      {"id": "d", "text": "7 دنانير", "correct": false}
+    ]
+  },
+
+  {
+    "id": 21,
+    "domain": "business",
+    "grade": 3,
+    "text": "إذا كان مع أحمد 5 دنانير وأعطته أمه 3 دنانير أخرى، فكم يصبح معه؟",
+    "subtitle": "الجمع البسيط",
+    "options": [
+      {"id": "a", "text": "7 دنانير", "correct": false},
+      {"id": "b", "text": "8 دنانير", "correct": true},
+      {"id": "c", "text": "9 دنانير", "correct": false},
+      {"id": "d", "text": "10 دنانير", "correct": false}
+    ]
+  },
+  {
+    "id": 22,
+    "domain": "business",
+    "grade": 3,
+    "text": "إذا كان سعر قلم الرصاص 50 قرشاً وممحاة 30 قرشاً، فكم ثمنهما معاً؟",
+    "subtitle": "الجمع في الحياة اليومية",
+    "options": [
+      {"id": "a", "text": "70 قرشاً", "correct": false},
+      {"id": "b", "text": "80 قرشاً", "correct": true},
+      {"id": "c", "text": "90 قرشاً", "correct": false},
+      {"id": "d", "text": "100 قرش", "correct": false}
+    ]
+  },
+  {
+    "id": 23,
+    "domain": "business",
+    "grade": 3,
+    "text": "إذا اشتريت 3 قطع بسعر 2 دينار للقطعة، كم تدفع؟",
+    "subtitle": "الضرب في التسوق",
+    "options": [
+      {"id": "a", "text": "4 دنانير", "correct": false},
+      {"id": "b", "text": "6 دنانير", "correct": true},
+      {"id": "c", "text": "8 دنانير", "correct": false},
+      {"id": "d", "text": "10 دنانير", "correct": false}
+    ]
+  },
+  {
+    "id": 24,
+    "domain": "business",
+    "grade": 3,
+    "text": "إذا كان لديك 20 ديناراً واشتريت لعبة بـ 12 ديناراً، كم يتبقى؟",
+    "subtitle": "الميزانية البسيطة",
+    "options": [
+      {"id": "a", "text": "7 دنانير", "correct": false},
+      {"id": "b", "text": "8 دنانير", "correct": true},
+      {"id": "c", "text": "9 دنانير", "correct": false},
+      {"id": "d", "text": "10 دنانير", "correct": false}
+    ]
+  },
+  {
+    "id": 25,
+    "domain": "business",
+    "grade": 3,
+    "text": "إذا كان سعر القميص 10 دنانير وسعر البنطال 25 ديناراً، كم ثمنهما معاً؟",
+    "subtitle": "الجمع في التسوق",
+    "options": [
+      {"id": "a", "text": "30 دينار", "correct": false},
+      {"id": "b", "text": "35 دينار", "correct": true},
+      {"id": "c", "text": "40 دينار", "correct": false},
+      {"id": "d", "text": "45 دينار", "correct": false}
+    ]
+  },
+  {
+    "id": 26,
+    "domain": "business",
+    "grade": 3,
+    "text": "إذا كان لديك 100 قرش ودفعت 60 قرشاً، كم يتبقى؟",
+    "subtitle": "الطرح بالقرش",
+    "options": [
+      {"id": "a", "text": "30 قرشاً", "correct": false},
+      {"id": "b", "text": "40 قرشاً", "correct": true},
+      {"id": "c", "text": "50 قرشاً", "correct": false},
+      {"id": "d", "text": "60 قرشاً", "correct": false}
+    ]
+  },
+  {
+    "id": 27,
+    "domain": "business",
+    "grade": 3,
+    "text": "ما هو الفرق بين البائع والمشتري؟",
+    "subtitle": "مفاهيم التجارة البسيطة",
+    "options": [
+      {"id": "a", "text": "البائع يبيع والمشتري يشتري", "correct": true},
+      {"id": "b", "text": "كلاهما نفس الشيء", "correct": false},
+      {"id": "c", "text": "البائع يشتري والمشتري يبيع", "correct": false},
+      {"id": "d", "text": "لا يوجد فرق", "correct": false}
+    ]
+  },
+  {
+    "id": 28,
+    "domain": "business",
+    "grade": 3,
+    "text": "إذا اشتريت وجبة بـ 2.5 دينار ودفعْت 5 دنانير، كم الباقي؟",
+    "subtitle": "الطرح بالأعداد العشرية",
+    "options": [
+      {"id": "a", "text": "1 دينار", "correct": false},
+      {"id": "b", "text": "2.5 دينار", "correct": true},
+      {"id": "c", "text": "3 دينار", "correct": false},
+      {"id": "d", "text": "3.5 دينار", "correct": false}
+    ]
+  },
+  {
+    "id": 29,
+    "domain": "business",
+    "grade": 3,
+    "text": "إذا كان سعر اللعبتين معاً 6 دنانير، وسعر الواحدة 3 دنانير، ماذا يعني ذلك؟",
+    "subtitle": "فهم السعر الإجمالي",
+    "options": [
+      {"id": "a", "text": "خصم على السعر", "correct": false},
+      {"id": "b", "text": "سعر موحّد للقطعة", "correct": true},
+      {"id": "c", "text": "سعر مختلف لكل قطعة", "correct": false},
+      {"id": "d", "text": "لا علاقة بينهما", "correct": false}
+    ]
+  },
+  {
+    "id": 30,
+    "domain": "business",
+    "grade": 3,
+    "text": "إذا كان سعر الحذاء 15 ديناراً وسعر الجوارب 2 دينار، كم تدفع معاً؟",
+    "subtitle": "الجمع في التسوق",
+    "options": [
+      {"id": "a", "text": "16 دينار", "correct": false},
+      {"id": "b", "text": "17 دينار", "correct": true},
+      {"id": "c", "text": "18 دينار", "correct": false},
+      {"id": "d", "text": "20 دينار", "correct": false}
+    ]
+  },
+
+  {
+    "id": 31,
+    "domain": "business",
+    "grade": 4,
+    "text": "إذا اشتريت 3 كيلو من التفاح بسعر 2 دينار للكيلو، فكم المبلغ الكلي؟",
+    "subtitle": "الضرب في الحياة اليومية",
+    "options": [
+      {"id": "a", "text": "5 دنانير", "correct": false},
+      {"id": "b", "text": "6 دنانير", "correct": true},
+      {"id": "c", "text": "8 دنانير", "correct": false},
+      {"id": "d", "text": "10 دنانير", "correct": false}
+    ]
+  },
+  {
+    "id": 32,
+    "domain": "business",
+    "grade": 4,
+    "text": "إذا كان سعر الكتاب 12 ديناراً واشتريت 3 كتب، فكم تدفع؟",
+    "subtitle": "الضرب في التسوق",
+    "options": [
+      {"id": "a", "text": "24 دينار", "correct": false},
+      {"id": "b", "text": "36 دينار", "correct": true},
+      {"id": "c", "text": "40 دينار", "correct": false},
+      {"id": "d", "text": "48 دينار", "correct": false}
+    ]
+  },
+  {
+    "id": 33,
+    "domain": "business",
+    "grade": 4,
+    "text": "إذا كان سعر القلم 1.5 دينار واشتريت 4 أقلام، فكم المبلغ الكلي؟",
+    "subtitle": "الضرب بالأعداد العشرية",
+    "options": [
+      {"id": "a", "text": "4 دنانير", "correct": false},
+      {"id": "b", "text": "5 دنانير", "correct": false},
+      {"id": "c", "text": "6 دنانير", "correct": true},
+      {"id": "d", "text": "7 دنانير", "correct": false}
+    ]
+  },
+  {
+    "id": 34,
+    "domain": "business",
+    "grade": 4,
+    "text": "إذا كان سعر الكعكة 0.75 دينار واشتريت 4 قطع، كم تدفع؟",
+    "subtitle": "الضرب بالأجزاء العشرية",
+    "options": [
+      {"id": "a", "text": "2 دينار", "correct": false},
+      {"id": "b", "text": "3 دنانير", "correct": true},
+      {"id": "c", "text": "3.5 دينار", "correct": false},
+      {"id": "d", "text": "4 دنانير", "correct": false}
+    ]
+  },
+  {
+    "id": 35,
+    "domain": "business",
+    "grade": 4,
+    "text": "إذا كان سعر القميص 25 ديناراً واشتريت قميصين، فكم تدفع؟",
+    "subtitle": "الضرب في التسوق",
+    "options": [
+      {"id": "a", "text": "40 دينار", "correct": false},
+      {"id": "b", "text": "50 دينار", "correct": true},
+      {"id": "c", "text": "60 دينار", "correct": false},
+      {"id": "d", "text": "70 دينار", "correct": false}
+    ]
+  },
+  {
+    "id": 36,
+    "domain": "business",
+    "grade": 4,
+    "text": "إذا كان سعر القطعة 15 ديناراً واشتريت 6 قطع، فكم تدفع؟",
+    "subtitle": "حسابات التسوق",
+    "options": [
+      {"id": "a", "text": "80 دينار", "correct": false},
+      {"id": "b", "text": "90 دينار", "correct": true},
+      {"id": "c", "text": "100 دينار", "correct": false},
+      {"id": "d", "text": "110 دينار", "correct": false}
+    ]
+  },
+  {
+    "id": 37,
+    "domain": "business",
+    "grade": 4,
+    "text": "إذا كان سعر الحذاء 20 ديناراً واشترى علي 3 أحذية، كم المبلغ؟",
+    "subtitle": "الضرب في الحياة اليومية",
+    "options": [
+      {"id": "a", "text": "40 دينار", "correct": false},
+      {"id": "b", "text": "50 دينار", "correct": false},
+      {"id": "c", "text": "60 دينار", "correct": true},
+      {"id": "d", "text": "70 دينار", "correct": false}
+    ]
+  },
+  {
+    "id": 38,
+    "domain": "business",
+    "grade": 4,
+    "text": "إذا كان سعر الكيلو من الأرز 1.8 دينار واشتريت 5 كيلو، كم تدفع؟",
+    "subtitle": "الضرب بالأعداد العشرية",
+    "options": [
+      {"id": "a", "text": "8 دينار", "correct": false},
+      {"id": "b", "text": "9 دينار", "correct": true},
+      {"id": "c", "text": "9.5 دينار", "correct": false},
+      {"id": "d", "text": "10 دينار", "correct": false}
+    ]
+  },
+  {
+    "id": 39,
+    "domain": "business",
+    "grade": 4,
+    "text": "إذا كان سعر الماء 0.3 دينار واشتريت 10 عبوات، كم تدفع؟",
+    "subtitle": "الضرب العشري",
+    "options": [
+      {"id": "a", "text": "2 دينار", "correct": false},
+      {"id": "b", "text": "3 دنانير", "correct": true},
+      {"id": "c", "text": "4 دنانير", "correct": false},
+      {"id": "d", "text": "5 دنانير", "correct": false}
+    ]
+  },
+  {
+    "id": 40,
+    "domain": "business",
+    "grade": 4,
+    "text": "إذا كان سعر التذكرة 2.5 دينار واشتريت 4 تذاكر، كم تدفع؟",
+    "subtitle": "حسابات التسوق",
+    "options": [
+      {"id": "a", "text": "8 دنانير", "correct": false},
+      {"id": "b", "text": "9 دنانير", "correct": false},
+      {"id": "c", "text": "10 دنانير", "correct": true},
+      {"id": "d", "text": "11 دينار", "correct": false}
+    ]
+  },
+
+  {
+    "id": 41,
+    "domain": "business",
+    "grade": 5,
+    "text": "ما هو أفضل تعريف للادخار؟",
+    "subtitle": "مبادئ الادخار",
+    "options": [
+      {"id": "a", "text": "توفير جزء من المال للمستقبل", "correct": true},
+      {"id": "b", "text": "إنفاق كل المال", "correct": false},
+      {"id": "c", "text": "اقتراض المال", "correct": false},
+      {"id": "d", "text": "بيع الممتلكات", "correct": false}
+    ]
+  },
+  {
+    "id": 42,
+    "domain": "business",
+    "grade": 5,
+    "text": "إذا كان سعر الحقيبة 45 ديناراً وتم خصم 10 دنانير، فما هو السعر الجديد؟",
+    "subtitle": "الطرح في التخفيضات",
+    "options": [
+      {"id": "a", "text": "30 دينار", "correct": false},
+      {"id": "b", "text": "35 دينار", "correct": true},
+      {"id": "c", "text": "40 دينار", "correct": false},
+      {"id": "d", "text": "50 دينار", "correct": false}
+    ]
+  },
+  {
+    "id": 43,
+    "domain": "business",
+    "grade": 5,
+    "text": "إذا كان سعر الدراجة 150 ديناراً ووفرت 30 ديناراً شهرياً، فكم شهراً تحتاج لشرائها؟",
+    "subtitle": "التخطيط المالي",
+    "options": [
+      {"id": "a", "text": "4 أشهر", "correct": false},
+      {"id": "b", "text": "5 أشهر", "correct": true},
+      {"id": "c", "text": "6 أشهر", "correct": false},
+      {"id": "d", "text": "7 أشهر", "correct": false}
+    ]
+  },
+  {
+    "id": 44,
+    "domain": "business",
+    "grade": 5,
+    "text": "إذا كان سعر اللعبة 80 ديناراً ووفرت 20 ديناراً شهرياً، فكم شهراً تحتاج؟",
+    "subtitle": "التخطيط للادخار",
+    "options": [
+      {"id": "a", "text": "3 أشهر", "correct": false},
+      {"id": "b", "text": "4 أشهر", "correct": true},
+      {"id": "c", "text": "5 أشهر", "correct": false},
+      {"id": "d", "text": "6 أشهر", "correct": false}
+    ]
+  },
+  {
+    "id": 45,
+    "domain": "business",
+    "grade": 5,
+    "text": "إذا دفعت 25 ديناراً من 60 ديناراً لثمن حذاء، كم يتبقى للدفع؟",
+    "subtitle": "حسابات الدفع",
+    "options": [
+      {"id": "a", "text": "25 دينار", "correct": false},
+      {"id": "b", "text": "30 دينار", "correct": false},
+      {"id": "c", "text": "35 دينار", "correct": true},
+      {"id": "d", "text": "40 دينار", "correct": false}
+    ]
+  },
+  {
+    "id": 46,
+    "domain": "business",
+    "grade": 5,
+    "text": "إذا كان لديك 200 دينار ميزانية شهرية وأنفقت 150 ديناراً، كم يتبقى؟",
+    "subtitle": "إدارة الميزانية",
+    "options": [
+      {"id": "a", "text": "30 دينار", "correct": false},
+      {"id": "b", "text": "40 دينار", "correct": false},
+      {"id": "c", "text": "50 دينار", "correct": true},
+      {"id": "d", "text": "60 دينار", "correct": false}
+    ]
+  },
+  {
+    "id": 47,
+    "domain": "business",
+    "grade": 5,
+    "text": "إذا اشتريت 5 قطع وكل قطعة بـ 4 دنانير، كم تدفع؟",
+    "subtitle": "الضرب في التسوق",
+    "options": [
+      {"id": "a", "text": "15 دينار", "correct": false},
+      {"id": "b", "text": "20 دينار", "correct": true},
+      {"id": "c", "text": "22 دينار", "correct": false},
+      {"id": "d", "text": "25 دينار", "correct": false}
+    ]
+  },
+  {
+    "id": 48,
+    "domain": "business",
+    "grade": 5,
+    "text": "إذا كان ثمن القميص 18 ديناراً وثمن البنطال 32 ديناراً، كم المجموع؟",
+    "subtitle": "الجمع في التسوق",
+    "options": [
+      {"id": "a", "text": "48 دينار", "correct": false},
+      {"id": "b", "text": "50 دينار", "correct": true},
+      {"id": "c", "text": "52 دينار", "correct": false},
+      {"id": "d", "text": "54 دينار", "correct": false}
+    ]
+  },
+  {
+    "id": 49,
+    "domain": "business",
+    "grade": 5,
+    "text": "إذا كان سعر القلم 1.25 دينار واشتريت 8 أقلام، كم تدفع؟",
+    "subtitle": "الضرب بالأعداد العشرية",
+    "options": [
+      {"id": "a", "text": "9 دنانير", "correct": false},
+      {"id": "b", "text": "10 دنانير", "correct": true},
+      {"id": "c", "text": "11 دينار", "correct": false},
+      {"id": "d", "text": "12 دينار", "correct": false}
+    ]
+  },
+  {
+    "id": 50,
+    "domain": "business",
+    "grade": 5,
+    "text": "اشترى أحمد 3 دفاتر بسعر 2.5 دينار للدفتر، كم دفع؟",
+    "subtitle": "حسابات التسوق",
+    "options": [
+      {"id": "a", "text": "6 دينار", "correct": false},
+      {"id": "b", "text": "7.5 دينار", "correct": true},
+      {"id": "c", "text": "8 دينار", "correct": false},
+      {"id": "d", "text": "9 دينار", "correct": false}
+    ]
+  },
+
+  {
+    "id": 51,
+    "domain": "business",
+    "grade": 6,
+    "text": "إذا كان لديك 100 دينار واشتريت سلعة بـ 75 ديناراً، فكم يتبقى معك؟",
+    "subtitle": "الطرح في المعاملات المالية",
+    "options": [
+      {"id": "a", "text": "15 دينار", "correct": false},
+      {"id": "b", "text": "25 دينار", "correct": true},
+      {"id": "c", "text": "35 دينار", "correct": false},
+      {"id": "d", "text": "175 دينار", "correct": false}
+    ]
+  },
+  {
+    "id": 52,
+    "domain": "business",
+    "grade": 6,
+    "text": "إذا كان لديك 200 دينار وأنفقت 75 ديناراً، فكم يتبقى معك؟",
+    "subtitle": "حسابات الميزانية",
+    "options": [
+      {"id": "a", "text": "100 دينار", "correct": false},
+      {"id": "b", "text": "125 دينار", "correct": true},
+      {"id": "c", "text": "150 دينار", "correct": false},
+      {"id": "d", "text": "175 دينار", "correct": false}
+    ]
+  },
+  {
+    "id": 53,
+    "domain": "business",
+    "grade": 6,
+    "text": "إذا كان سعر الهاتف 300 دينار ودفعت 100 دينار مقدماً، فكم تبقى عليك؟",
+    "subtitle": "حسابات الدفع",
+    "options": [
+      {"id": "a", "text": "100 دينار", "correct": false},
+      {"id": "b", "text": "150 دينار", "correct": false},
+      {"id": "c", "text": "200 دينار", "correct": true},
+      {"id": "d", "text": "250 دينار", "correct": false}
+    ]
+  },
+  {
+    "id": 54,
+    "domain": "business",
+    "grade": 6,
+    "text": "إذا كان سعر الحذاء 60 ديناراً ووفرت 15 ديناراً شهرياً، فكم شهراً تحتاج؟",
+    "subtitle": "التخطيط للادخار",
+    "options": [
+      {"id": "a", "text": "3 أشهر", "correct": false},
+      {"id": "b", "text": "4 أشهر", "correct": true},
+      {"id": "c", "text": "5 أشهر", "correct": false},
+      {"id": "d", "text": "6 أشهر", "correct": false}
+    ]
+  },
+  {
+    "id": 55,
+    "domain": "business",
+    "grade": 6,
+    "text": "إذا اشتريت 2 كيلو تفاح بسعر 2.5 دينار للكيلو، فكم تدفع؟",
+    "subtitle": "حسابات التسوق",
+    "options": [
+      {"id": "a", "text": "4 دنانير", "correct": false},
+      {"id": "b", "text": "5 دنانير", "correct": true},
+      {"id": "c", "text": "6 دنانير", "correct": false},
+      {"id": "d", "text": "7 دنانير", "correct": false}
+    ]
+  },
+  {
+    "id": 56,
+    "domain": "business",
+    "grade": 6,
+    "text": "إذا كان معدل الخصم على الحقيبة 10 دنانير من 45 ديناراً، ما السعر بعد الخصم؟",
+    "subtitle": "التخفيضات",
+    "options": [
+      {"id": "a", "text": "30 دينار", "correct": false},
+      {"id": "b", "text": "35 دينار", "correct": true},
+      {"id": "c", "text": "36 دينار", "correct": false},
+      {"id": "d", "text": "40 دينار", "correct": false}
+    ]
+  },
+  {
+    "id": 57,
+    "domain": "business",
+    "grade": 6,
+    "text": "إذا كان لديك 500 قرش وأنفقت 120 قرشاً، كم يتبقى؟",
+    "subtitle": "الطرح بالقرش",
+    "options": [
+      {"id": "a", "text": "360 قرشاً", "correct": false},
+      {"id": "b", "text": "380 قرشاً", "correct": true},
+      {"id": "c", "text": "400 قرش", "correct": false},
+      {"id": "d", "text": "420 قرش", "correct": false}
+    ]
+  },
+  {
+    "id": 58,
+    "domain": "business",
+    "grade": 6,
+    "text": "إذا كان سعر القميص 20 ديناراً واشتريت 4 قمصان، كم تدفع؟",
+    "subtitle": "الضرب في التسوق",
+    "options": [
+      {"id": "a", "text": "60 دينار", "correct": false},
+      {"id": "b", "text": "70 دينار", "correct": false},
+      {"id": "c", "text": "80 دينار", "correct": true},
+      {"id": "d", "text": "90 دينار", "correct": false}
+    ]
+  },
+  {
+    "id": 59,
+    "domain": "business",
+    "grade": 6,
+    "text": "إذا وفّرت 25 ديناراً كل شهر لمدة 6 أشهر، كم يصبح مجموع الادخار؟",
+    "subtitle": "خطة الادخار",
+    "options": [
+      {"id": "a", "text": "120 دينار", "correct": false},
+      {"id": "b", "text": "140 دينار", "correct": false},
+      {"id": "c", "text": "150 دينار", "correct": true},
+      {"id": "d", "text": "160 دينار", "correct": false}
+    ]
+  },
+  {
+    "id": 60,
+    "domain": "business",
+    "grade": 6,
+    "text": "اشتريت حقيبتين بسعر 17.5 دينار للحقيبة، كم المجموع؟",
+    "subtitle": "الضرب العشري",
+    "options": [
+      {"id": "a", "text": "32 دينار", "correct": false},
+      {"id": "b", "text": "34 دينار", "correct": true},
+      {"id": "c", "text": "35 دينار", "correct": false},
+      {"id": "d", "text": "36 دينار", "correct": false}
+    ]
+  },
+
+  {
+    "id": 61,
+    "domain": "business",
+    "grade": 7,
+    "text": "ما هو معنى مصطلح 'رأس المال' في الأعمال؟",
+    "subtitle": "مصطلحات الأعمال",
+    "options": [
+      {"id": "a", "text": "الأموال المستثمرة في المشروع", "correct": true},
+      {"id": "b", "text": "الأرباح الشهرية", "correct": false},
+      {"id": "c", "text": "رواتب الموظفين", "correct": false},
+      {"id": "d", "text": "أسعار المنتجات", "correct": false}
+    ]
+  },
+  {
+    "id": 62,
+    "domain": "business",
+    "grade": 7,
+    "text": "ما هو معنى 'التضخم' في الاقتصاد؟",
+    "subtitle": "مفاهيم اقتصادية",
+    "options": [
+      {"id": "a", "text": "ارتفاع الأسعار العامة", "correct": true},
+      {"id": "b", "text": "انخفاض الأسعار", "correct": false},
+      {"id": "c", "text": "ثبات الأسعار", "correct": false},
+      {"id": "d", "text": "زيادة الإنتاج", "correct": false}
+    ]
+  },
+  {
+    "id": 63,
+    "domain": "business",
+    "grade": 7,
+    "text": "إذا كان سعر الدولار 0.71 دينار، فكم ديناراً تعادل 100 دولار؟",
+    "subtitle": "تحويل العملات",
+    "options": [
+      {"id": "a", "text": "71 دينار", "correct": true},
+      {"id": "b", "text": "100 دينار", "correct": false},
+      {"id": "c", "text": "170 دينار", "correct": false},
+      {"id": "d", "text": "50 دينار", "correct": false}
+    ]
+  },
+  {
+    "id": 64,
+    "domain": "business",
+    "grade": 7,
+    "text": "إذا كان سعر الحقيبة 120 ديناراً وتم خصم 25%، فما هو السعر الجديد؟",
+    "subtitle": "حسابات الخصم",
+    "options": [
+      {"id": "a", "text": "90 دينار", "correct": true},
+      {"id": "b", "text": "95 دينار", "correct": false},
+      {"id": "c", "text": "100 دينار", "correct": false},
+      {"id": "d", "text": "110 دينار", "correct": false}
+    ]
+  },
+  {
+    "id": 65,
+    "domain": "business",
+    "grade": 7,
+    "text": "ما هو الفرق بين الربح والإيرادات؟",
+    "subtitle": "مفاهيم الأعمال الأساسية",
+    "options": [
+      {"id": "a", "text": "الربح هو المال بعد خصم التكاليف", "correct": true},
+      {"id": "b", "text": "لا يوجد فرق بينهما", "correct": false},
+      {"id": "c", "text": "الإيرادات هي المال بعد خصم التكاليف", "correct": false},
+      {"id": "d", "text": "الربح هو المال قبل خصم التكاليف", "correct": false}
+    ]
+  },
+  {
+    "id": 66,
+    "domain": "business",
+    "grade": 7,
+    "text": "إذا كان سعر شراء السلعة 80 ديناراً وبيعها بـ 100 دينار، فما هو نسبة الربح؟",
+    "subtitle": "حسابات الربح والخسارة",
+    "options": [
+      {"id": "a", "text": "20%", "correct": false},
+      {"id": "b", "text": "25%", "correct": true},
+      {"id": "c", "text": "15%", "correct": false},
+      {"id": "d", "text": "30%", "correct": false}
+    ]
+  },
+  {
+    "id": 67,
+    "domain": "business",
+    "grade": 7,
+    "text": "إذا كان معدل الفائدة 5% سنوياً على مبلغ 1000 دينار، فما هي الفائدة لمدة سنة؟",
+    "subtitle": "حسابات الفائدة البسيطة",
+    "options": [
+      {"id": "a", "text": "50 دينار", "correct": true},
+      {"id": "b", "text": "100 دينار", "correct": false},
+      {"id": "c", "text": "150 دينار", "correct": false},
+      {"id": "d", "text": "200 دينار", "correct": false}
+    ]
+  },
+  {
+    "id": 68,
+    "domain": "business",
+    "grade": 7,
+    "text": "ما هو معنى 'الخدمة' في الأعمال؟",
+    "subtitle": "السلع والخدمات",
+    "options": [
+      {"id": "a", "text": "عمل غير ملموس تقدمه الشركة", "correct": true},
+      {"id": "b", "text": "منتج مادي", "correct": false},
+      {"id": "c", "text": "مبنى الشركة", "correct": false},
+      {"id": "d", "text": "سيارة الشركة", "correct": false}
+    ]
+  },
+  {
+    "id": 69,
+    "domain": "business",
+    "grade": 7,
+    "text": "ما هو معنى 'العلامة التجارية'؟",
+    "subtitle": "الهوية التجارية",
+    "options": [
+      {"id": "a", "text": "اسم أو رمز يميز منتج الشركة", "correct": true},
+      {"id": "b", "text": "سعر المنتج", "correct": false},
+      {"id": "c", "text": "لون المحل", "correct": false},
+      {"id": "d", "text": "موقع الشركة", "correct": false}
+    ]
+  },
+  {
+    "id": 70,
+    "domain": "business",
+    "grade": 7,
+    "text": "إذا كان لديك 5 منتجات وسعر كل منها 10 دنانير، فما هو إجمالي المبيعات؟",
+    "subtitle": "حسابات المبيعات",
+    "options": [
+      {"id": "a", "text": "15 دينار", "correct": false},
+      {"id": "b", "text": "50 دينار", "correct": true},
+      {"id": "c", "text": "100 دينار", "correct": false},
+      {"id": "d", "text": "5 دنانير", "correct": false}
+    ]
+  },
+
+  {
+    "id": 71,
+    "domain": "business",
+    "grade": 8,
+    "text": "ما هو دور الإعلان في الأعمال؟",
+    "subtitle": "مبادئ التسويق",
+    "options": [
+      {"id": "a", "text": "جذب انتباه العملاء للمنتج", "correct": true},
+      {"id": "b", "text": "تقليل التكاليف", "correct": false},
+      {"id": "c", "text": "تصنيع المنتجات", "correct": false},
+      {"id": "d", "text": "دفع الضرائب", "correct": false}
+    ]
+  },
+  {
+    "id": 72,
+    "domain": "business",
+    "grade": 8,
+    "text": "ما هو الغرض الرئيسي من دراسة السوق؟",
+    "subtitle": "أساسيات التسويق",
+    "options": [
+      {"id": "a", "text": "معرفة احتياجات العملاء", "correct": true},
+      {"id": "b", "text": "زيادة أسعار المنتجات", "correct": false},
+      {"id": "c", "text": "تقليل عدد الموظفين", "correct": false},
+      {"id": "d", "text": "إغلاق المنافسين", "correct": false}
+    ]
+  },
+  {
+    "id": 73,
+    "domain": "business",
+    "grade": 8,
+    "text": "ما هو معنى 'المنافسة' في السوق؟",
+    "subtitle": "بيئة الأعمال",
+    "options": [
+      {"id": "a", "text": "وجود عدة بائعين لنفس المنتج", "correct": true},
+      {"id": "b", "text": "تعاون البائعين معاً", "correct": false},
+      {"id": "c", "text": "غياب البائعين", "correct": false},
+      {"id": "d", "text": "زيادة الأسعار", "correct": false}
+    ]
+  },
+  {
+    "id": 74,
+    "domain": "business",
+    "grade": 8,
+    "text": "ما هو دور البنك في الاقتصاد؟",
+    "subtitle": "المؤسسات المالية",
+    "options": [
+      {"id": "a", "text": "حفظ الأموال وتقديم القروض", "correct": true},
+      {"id": "b", "text": "بيع المنتجات", "correct": false},
+      {"id": "c", "text": "تصنيع السلع", "correct": false},
+      {"id": "d", "text": "استيراد البضائع", "correct": false}
+    ]
+  },
+  {
+    "id": 75,
+    "domain": "business",
+    "grade": 8,
+    "text": "إذا كان راتب الموظف 600 دينار وتم زيادة 10%، فما هو الراتب الجديد؟",
+    "subtitle": "حسابات الرواتب",
+    "options": [
+      {"id": "a", "text": "610 دنانير", "correct": false},
+      {"id": "b", "text": "620 دينار", "correct": false},
+      {"id": "c", "text": "660 دينار", "correct": true},
+      {"id": "d", "text": "700 دينار", "correct": false}
+    ]
+  },
+  {
+    "id": 76,
+    "domain": "business",
+    "grade": 8,
+    "text": "إذا كان العائد على الاستثمار 12% وكان المبلغ المستثمر 5000 دينار، فما هو العائد؟",
+    "subtitle": "حسابات العوائد",
+    "options": [
+      {"id": "a", "text": "600 دينار", "correct": true},
+      {"id": "b", "text": "700 دينار", "correct": false},
+      {"id": "c", "text": "800 دينار", "correct": false},
+      {"id": "d", "text": "900 دينار", "correct": false}
+    ]
+  },
+  {
+    "id": 77,
+    "domain": "business",
+    "grade": 8,
+    "text": "إذا كان إجمالي الأصول 10000 دينار والخصوم 4000 دينار، فما هو حقوق الملكية؟",
+    "subtitle": "المعادلة المحاسبية",
+    "options": [
+      {"id": "a", "text": "6000 دينار", "correct": true},
+      {"id": "b", "text": "4000 دينار", "correct": false},
+      {"id": "c", "text": "10000 دينار", "correct": false},
+      {"id": "d", "text": "14000 دينار", "correct": false}
+    ]
+  },
+  {
+    "id": 78,
+    "domain": "business",
+    "grade": 8,
+    "text": "ما هو دور قسم الموارد البشرية في الشركة؟",
+    "subtitle": "إدارة الموارد البشرية",
+    "options": [
+      {"id": "a", "text": "توظيف وإدارة العاملين", "correct": true},
+      {"id": "b", "text": "بيع المنتجات", "correct": false},
+      {"id": "c", "text": "تصنيع البضائع", "correct": false},
+      {"id": "d", "text": "دفع الضرائب", "correct": false}
+    ]
+  },
+  {
+    "id": 79,
+    "domain": "business",
+    "grade": 8,
+    "text": "ما هو معنى 'الابتكار' في الأعمال؟",
+    "subtitle": "الإبداع في الأعمال",
+    "options": [
+      {"id": "a", "text": "تقديم أفكار ومنتجات جديدة", "correct": true},
+      {"id": "b", "text": "تكرار نفس المنتجات", "correct": false},
+      {"id": "c", "text": "تقليد المنافسين", "correct": false},
+      {"id": "d", "text": "خفض الأسعار فقط", "correct": false}
+    ]
+  },
+  {
+    "id": 80,
+    "domain": "business",
+    "grade": 8,
+    "text": "إذا كان عدد العملاء 200 عميل ومتوسط الشراء 25 ديناراً، فما هي إجمالي المبيعات؟",
+    "subtitle": "تحليل المبيعات",
+    "options": [
+      {"id": "a", "text": "4000 دينار", "correct": false},
+      {"id": "b", "text": "5000 دينار", "correct": true},
+      {"id": "c", "text": "6000 دينار", "correct": false},
+      {"id": "d", "text": "7000 دينار", "correct": false}
+    ]
+  },
+
+  {
+    "id": 81,
+    "domain": "business",
+    "grade": 9,
+    "text": "ما هو معنى 'العرض والطلب'؟",
+    "subtitle": "مبادئ الاقتصاد",
+    "options": [
+      {"id": "a", "text": "العلاقة بين كمية المنتج والسعر", "correct": true},
+      {"id": "b", "text": "عدد العمال في المصنع", "correct": false},
+      {"id": "c", "text": "أسعار المواد الخام", "correct": false},
+      {"id": "d", "text": "جودة المنتجات", "correct": false}
+    ]
+  },
+  {
+    "id": 82,
+    "domain": "business",
+    "grade": 9,
+    "text": "إذا كانت الضريبة 16% على منتج سعره 200 دينار، فما هو المبلغ الإجمالي؟",
+    "subtitle": "حسابات الضرائب",
+    "options": [
+      {"id": "a", "text": "216 دينار", "correct": false},
+      {"id": "b", "text": "232 دينار", "correct": true},
+      {"id": "c", "text": "240 دينار", "correct": false},
+      {"id": "d", "text": "250 دينار", "correct": false}
+    ]
+  },
+  {
+    "id": 83,
+    "domain": "business",
+    "grade": 9,
+    "text": "ما هو أفضل وصف للاستثمار؟",
+    "subtitle": "مبادئ الاستثمار",
+    "options": [
+      {"id": "a", "text": "استخدام المال لتحقيق أرباح مستقبلية", "correct": true},
+      {"id": "b", "text": "إنفاق المال على الكماليات", "correct": false},
+      {"id": "c", "text": "إعطاء المال للآخرين", "correct": false},
+      {"id": "d", "text": "إخفاء المال في البيت", "correct": false}
+    ]
+  },
+  {
+    "id": 84,
+    "domain": "business",
+    "grade": 9,
+    "text": "إذا كان الناتج المحلي الإجمالي 50 مليار دينار ونموه 5% سنوياً، فما هو الناتج المتوقع بعد سنة؟",
+    "subtitle": "مؤشرات الاقتصاد الكلي",
+    "options": [
+      {"id": "a", "text": "52.5 مليار دينار", "correct": true},
+      {"id": "b", "text": "55 مليار دينار", "correct": false},
+      {"id": "c", "text": "57.5 مليار دينار", "correct": false},
+      {"id": "d", "text": "60 مليار دينار", "correct": false}
+    ]
+  },
+  {
+    "id": 85,
+    "domain": "business",
+    "grade": 9,
+    "text": "إذا كان معدل النمو 8% سنوياً وكانت القيمة الحالية 5000 دينار، فما هي القيمة بعد سنة؟",
+    "subtitle": "حسابات النمو",
+    "options": [
+      {"id": "a", "text": "5400 دينار", "correct": true},
+      {"id": "b", "text": "5500 دينار", "correct": false},
+      {"id": "c", "text": "5800 دينار", "correct": false},
+      {"id": "d", "text": "6000 دينار", "correct": false}
+    ]
+  },
+  {
+    "id": 86,
+    "domain": "business",
+    "grade": 9,
+    "text": "ما هو معنى 'السيولة' في الأعمال؟",
+    "subtitle": "المفاهيم المالية",
+    "options": [
+      {"id": "a", "text": "القدرة على تحويل الأصول إلى نقد", "correct": true},
+      {"id": "b", "text": "كمية المياه في المصنع", "correct": false},
+      {"id": "c", "text": "عدد العمال", "correct": false},
+      {"id": "d", "text": "جودة المنتج", "correct": false}
+    ]
+  },
+  {
+    "id": 87,
+    "domain": "business",
+    "grade": 9,
+    "text": "ما هو الفرق بين السوق الأولي والسوق الثانوي؟",
+    "subtitle": "أسواق الأوراق المالية",
+    "options": [
+      {"id": "a", "text": "الأولي إصدار أسهم جديدة، الثانوي تداول الأسهم", "correct": true},
+      {"id": "b", "text": "لا يوجد فرق", "correct": false},
+      {"id": "c", "text": "كلاهما نفس المعنى", "correct": false},
+      {"id": "d", "text": "الثانوي لإصدار أسهم جديدة", "correct": false}
+    ]
+  },
+  {
+    "id": 88,
+    "domain": "business",
+    "grade": 9,
+    "text": "ما هو الفرق بين الاندماج والاستحواذ؟",
+    "subtitle": "عمليات الشركات",
+    "options": [
+      {"id": "a", "text": "الاندماج اتحاد شركتين، الاستحواذ شراء شركة", "correct": true},
+      {"id": "b", "text": "لا يوجد فرق", "correct": false},
+      {"id": "c", "text": "كلاهما نفس المعنى", "correct": false},
+      {"id": "d", "text": "الاستحواذ اتحاد شركتين", "correct": false}
+    ]
+  },
+  {
+    "id": 89,
+    "domain": "business",
+    "grade": 9,
+    "text": "ما هو دور التحليل المالي في اتخاذ القرارات؟",
+    "subtitle": "التحليل المالي",
+    "options": [
+      {"id": "a", "text": "تقييم الأداء والمساعدة في اتخاذ القرارات", "correct": true},
+      {"id": "b", "text": "زيادة التكاليف فقط", "correct": false},
+      {"id": "c", "text": "تقليل المبيعات", "correct": false},
+      {"id": "d", "text": "تأجيل المشاريع", "correct": false}
+    ]
+  },
+  {
+    "id": 90,
+    "domain": "business",
+    "grade": 9,
+    "text": "ما هو دور أخلاقيات الأعمال في نجاح الشركة؟",
+    "subtitle": "المسؤولية الاجتماعية",
+    "options": [
+      {"id": "a", "text": "بناء الثقة والسمعة الطيبة", "correct": true},
+      {"id": "b", "text": "زيادة الأرباح فقط", "correct": false},
+      {"id": "c", "text": "تقليل التكاليف بأي طريقة", "correct": false},
+      {"id": "d", "text": "خداع العملاء", "correct": false}
+    ]
+  },
+
+  {
+    "id": 91,
+    "domain": "business",
+    "grade": 5,
+    "text": "ما هو معنى 'العمولة' في المبيعات؟",
+    "subtitle": "حوافز المبيعات",
+    "options": [
+      {"id": "a", "text": "نسبة من سعر البيع يحصل عليها البائع", "correct": true},
+      {"id": "b", "text": "سعر المنتج", "correct": false},
+      {"id": "c", "text": "تكلفة الإنتاج", "correct": false},
+      {"id": "d", "text": "ربح الشركة", "correct": false}
+    ]
+  },
+  {
+    "id": 92,
+    "domain": "business",
+    "grade": 6,
+    "text": "إذا كان سعر القميص 30 ديناراً وتم خصم 20%، ما السعر بعد الخصم؟",
+    "subtitle": "النسب المئوية والتخفيضات",
+    "options": [
+      {"id": "a", "text": "24 دينار", "correct": true},
+      {"id": "b", "text": "25 دينار", "correct": false},
+      {"id": "c", "text": "26 دينار", "correct": false},
+      {"id": "d", "text": "28 دينار", "correct": false}
+    ]
+  },
+  {
+    "id": 93,
+    "domain": "business",
+    "grade": 7,
+    "text": "إذا اشتريت سلعة بـ 50 ديناراً وبعتها بـ 65 ديناراً، كم الربح؟",
+    "subtitle": "الربح البسيط",
+    "options": [
+      {"id": "a", "text": "10 دنانير", "correct": false},
+      {"id": "b", "text": "15 دينار", "correct": true},
+      {"id": "c", "text": "20 دينار", "correct": false},
+      {"id": "d", "text": "25 دينار", "correct": false}
+    ]
+  },
+  {
+    "id": 94,
+    "domain": "business",
+    "grade": 8,
+    "text": "إذا كان إجمالي المبيعات 8000 دينار وتكاليف 5000 دينار، فما هو صافي الربح؟",
+    "subtitle": "حسابات الربح والخسارة",
+    "options": [
+      {"id": "a", "text": "2000 دينار", "correct": false},
+      {"id": "b", "text": "3000 دينار", "correct": true},
+      {"id": "c", "text": "4000 دينار", "correct": false},
+      {"id": "d", "text": "5000 دينار", "correct": false}
+    ]
+  },
+  {
+    "id": 95,
+    "domain": "business",
+    "grade": 9,
+    "text": "إذا كان صافي الربح 1000 دينار والتكاليف 4000 دينار، فما هي الإيرادات؟",
+    "subtitle": "حسابات الربح",
+    "options": [
+      {"id": "a", "text": "3000 دينار", "correct": false},
+      {"id": "b", "text": "4000 دينار", "correct": false},
+      {"id": "c", "text": "5000 دينار", "correct": true},
+      {"id": "d", "text": "6000 دينار", "correct": false}
+    ]
+  },
+  {
+    "id": 96,
+    "domain": "business",
+    "grade": 9,
+    "text": "إذا كان معدل البطالة الطبيعي 5% ومعدل البطالة الفعلي 8%، فما هو معدل البطالة الدوري؟",
+    "subtitle": "اقتصاد كلي",
+    "options": [
+      {"id": "a", "text": "3%", "correct": true},
+      {"id": "b", "text": "4%", "correct": false},
+      {"id": "c", "text": "5%", "correct": false},
+      {"id": "d", "text": "6%", "correct": false}
+    ]
+  },
+  {
+    "id": 97,
+    "domain": "business",
+    "grade": 8,
+    "text": "ما هو الفرق بين السوق المحلي والسوق العالمي؟",
+    "subtitle": "أنواع الأسواق",
+    "options": [
+      {"id": "a", "text": "المحلي داخل الدولة، العالمي يشمل عدة دول", "correct": true},
+      {"id": "b", "text": "لا يوجد فرق", "correct": false},
+      {"id": "c", "text": "المحلي أكبر من العالمي", "correct": false},
+      {"id": "d", "text": "العالمي داخل الدولة فقط", "correct": false}
+    ]
+  },
+  {
+    "id": 98,
+    "domain": "business",
+    "grade": 7,
+    "text": "ما هو معنى 'السمعة التجارية'؟",
+    "subtitle": "إدارة الأعمال",
+    "options": [
+      {"id": "a", "text": "الصورة الذهنية للعملاء عن الشركة", "correct": true},
+      {"id": "b", "text": "عدد فروع الشركة", "correct": false},
+      {"id": "c", "text": "أرباح الشركة", "correct": false},
+      {"id": "d", "text": "أسعار منتجات الشركة", "correct": false}
+    ]
+  },
+  {
+    "id": 99,
+    "domain": "business",
+    "grade": 8,
+    "text": "ما هو دور التخطيط في نجاح الأعمال؟",
+    "subtitle": "التخطيط الاستراتيجي",
+    "options": [
+      {"id": "a", "text": "تحديد الأهداف وطرق تحقيقها", "correct": true},
+      {"id": "b", "text": "زيادة التكاليف", "correct": false},
+      {"id": "c", "text": "تقليل المبيعات", "correct": false},
+      {"id": "d", "text": "تأجيل العمل", "correct": false}
+    ]
+  },
+  {
+    "id": 100,
+    "domain": "business",
+    "grade": 7,
+    "text": "ما هو دور المدير في الشركة؟",
+    "subtitle": "الإدارة والقيادة",
+    "options": [
+      {"id": "a", "text": "توجيه الموظفين واتخاذ القرارات", "correct": true},
+      {"id": "b", "text": "تنظيف المكاتب", "correct": false},
+      {"id": "c", "text": "دفع الفواتير فقط", "correct": false},
+      {"id": "d", "text": "بيع المنتجات فقط", "correct": false}
+    ]
+  }
+]

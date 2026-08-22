@@ -1,0 +1,81 @@
+{
+  "basic_info": {
+    "name": "الجامعة العربية المفتوحة",
+    "nameEn": "Arab Open University - Jordan",
+    "type": "private",
+    "city": "Amman",
+    "region": "central",
+    "established": 2002,
+    "website": "https://www.aou.edu.jo"
+  },
+  "admission_requirements": {
+    "general_requirements": "General Secondary Certificate (Tawjihi) or equivalent with a minimum score of 60%; bridging students require minimum 68% in comprehensive examination",
+    "min_tawjihi_mark": 60,
+    "has_entrance_exam": false,
+    "exam_details": "English and Arabic placement tests are required (placement tests, not competitive entrance exams)",
+    "english_requirement": "English proficiency placement test administered by the university"
+  },
+  "majors_overview": {
+    "college_count": 5,
+    "major_categories": [
+      "business",
+      "IT",
+      "arts",
+      "education",
+      "media"
+    ],
+    "total_majors": 14,
+    "has_postgraduate": true
+  },
+  "tuition_fees": {
+    "annual_fees_range": "[uncertain] - fees page is image-based, cannot extract exact figures",
+    "medical_majors_fees": "N/A - No medical programs offered",
+    "engineering_majors_fees": "N/A - No engineering programs offered",
+    "humanities_majors_fees": "[uncertain]",
+    "notes": "Credit hour fees vary by program. Admission fee 21.30 JOD (once). Semester registration fee varies by program. Student fund fee 3.55 JOD per semester. Academic packages fee 14.20 JOD. No medical or engineering programs offered. All fees in Jordanian Dinar."
+  },
+  "ranking_accreditation": {
+    "national_ranking": "[uncertain] - Webometrics ranking not verified from official site",
+    "accreditation": "Ministry of Higher Education and Scientific Research (MOHE), Higher Education Accreditation Commission (HEAC), British accreditation through Open University UK partnership and validation",
+    "international_recognition": "OU UK validated programs with dual degree option. AOU is the only university in Jordan providing UKOU validated degrees."
+  },
+  "market_demand": {
+    "overall_demand": "[uncertain]",
+    "high_demand_majors": [
+      "Business Studies",
+      "Information Technology and Computing",
+      "English Language and Literature",
+      "Education"
+    ],
+    "employment_rate_estimate": "[uncertain]",
+    "notes": "Many AOU students are already employed before enrollment due to the open learning system. University organizes annual job fair connecting students with employers."
+  },
+  "campus_facilities": {
+    "has_accommodation": false,
+    "accommodation_details": "No on-campus student housing; AOU operates as a blended/open learning institution without traditional residential facilities",
+    "has_library": true,
+    "has_sports_facilities": true,
+    "has_scholarships": true,
+    "scholarship_details": "Student Fund provides financial assistance to underprivileged students and scholarships to top students and high school graduates based on set criteria"
+  },
+  "contact_info": {
+    "address": "Amman - Tareq, P.O.Box 1339 Amman 11953 Jordan",
+    "phone": "+96265630630",
+    "email": "info@aou.edu.jo",
+    "social_media": [
+      "https://web.facebook.com/ArabOpenUniversity.jo",
+      "https://twitter.com/aoujordan1",
+      "https://www.instagram.com/aoujordan/",
+      "https://www.youtube.com/channel/UCWTWh5TbASUBxEQ_3hPkuKA",
+      "https://www.linkedin.com/company/arab-open-university---jordan-branch"
+    ]
+  },
+  "uncertain": [
+    "basic_info.established",
+    "tuition_fees.annual_fees_range",
+    "tuition_fees.humanities_majors_fees",
+    "ranking_accreditation.national_ranking",
+    "market_demand.overall_demand",
+    "market_demand.employment_rate_estimate"
+  ]
+}

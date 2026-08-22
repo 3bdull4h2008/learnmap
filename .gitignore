@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+backend/node_modules/
+
+# Environment files & secrets
+.env
+.env.*
+backend/.env
+auth/client_secret_*.json
+
+# Logs
+*.log
+logs/
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Large binaries / installers
+*.msi
+*.exe
+
+# Editor/IDE
+.vscode/
+.idea/

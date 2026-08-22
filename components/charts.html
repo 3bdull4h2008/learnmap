@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>عدد الوظائف الشاغرة في الأردن (2005-2024)</title>
+  <link rel="stylesheet" href="/../styles.css">
+  <link rel="icon" type="image/x-icon" href="/images/logo.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+    }
+    body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 16px;
+      background: #f9f6f0;
+      font-family: 'Cairo', 'Tajawal', 'Segoe UI', Tahoma, sans-serif;
+    }
+    .chart-container {
+      width: 100%;
+      max-width: 1000px;
+      flex: 1;
+      min-height: 0;
+    }
+    h2 {
+      color: #d0a16e;
+      text-align: center;
+      margin-bottom: 8px;
+      font-size: 1.1rem;
+    }
+    .source {
+      font-size: 0.75rem;
+      color: #666;
+      text-align: center;
+      margin-top: 8px;
+      flex-shrink: 0;
+    }
+    body.dark-mode { background: #0b1926; }
+    body.dark-mode .source { color: #cbd5e1 !important; }
+    body.dark-mode h2 { color: #DEB253 !important; }
+  </style>
+</head>
+<body>
+  <h2>عدد الوظائف الشاغرة (2005-2024)</h2>
+  <div class="chart-container">
+    <canvas id="myChart"></canvas>
+  </div>
+  <div class="source">*بيانات تقديرية (بالآلاف) - مصادر: دائرة الإحصاءات العامة، البنك الدولي، ILO</div>
+  <script>
+    const ctx = document.getElementById("myChart").getContext("2d");
+    // Dynamic dark mode color setup
+    const isDarkMode = document.body.classList.contains('dark-mode');
+    const tickColor = isDarkMode ? '#cbd5e1' : '#555';
+    const gridColorLight = isDarkMode ? 'rgba(255, 255, 255, 0.1)' : 'rgba(200, 200, 200, 0.2)';
+    const gridColorDark = isDarkMode ? 'rgba(255, 255, 255, 0.2)' : 'rgba(200, 200, 200, 0.3)';
+    const legendColor = isDarkMode ? '#f8fafc' : '#555';
+    const years = Array.from({ length: 20 }, (_, i) => (2005 + i).toString());
+    const vacancies = [
+      42, 45, 48, 40, 38, 41, 39, 43, 47, 50,
+      52, 55, 58, 60, 57, 45, 50, 56, 62, 68
+    ];
+    new Chart(ctx, {
+      type: "line",
+      data: {
+        labels: years,
+        datasets: [{
+          label: "الوظائف الشاغرة (بالآلاف)",
+          data: vacancies,
+          borderColor: "#d0a16e",
+          backgroundColor: "rgba(208, 161, 110, 0.1)",
+          borderWidth: 3,
+          fill: true,
+          tension: 0.3,
+          pointBackgroundColor: "#8b5e3c",
+          pointRadius: 3,
+          pointHoverRadius: 6
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        animation: {
+          duration: 2000,
+          easing: "easeInOutQuart"
+        },
+        plugins: {
+          legend: {
+            labels: { color: legendColor, font: { size: 14 } }
+          },
+          tooltip: {
+            backgroundColor: 'rgba(139, 94, 60, 0.9)',
+            titleColor: '#fff',
+            bodyColor: '#fff',
+            borderColor: '#d0a16e',
+            borderWidth: 1
+          }
+        },
+        scales: {
+          x: {
+            ticks: {
+              color: tickColor,
+              maxRotation: 0,
+              minRotation: 0,
+              autoSkip: false,
+              font: { size: 11 },
+              // FIX: Show labels every 5 years + last point
+              callback: function(value, index, values) {
+                const year = parseInt(this.getLabelForValue(value));
+                const isLast = index === values.length - 1;
+                return (year % 5 === 0 || isLast) ? year.toString() : null;
+              }
+            },
+            grid: {
+              color: gridColorLight
+            }
+          },
+          y: {
+            beginAtZero: true,
+            ticks: {
+              color: tickColor,
+              callback: (value) => value + 'K',
+              stepSize: 10
+            },
+            grid: {
+              color: gridColorDark
+            }
+          }
+        }
+      }
+    });
+  </script>
+</body>
+<script src="/dark-mode-controller.js" defer></script>
+</html>

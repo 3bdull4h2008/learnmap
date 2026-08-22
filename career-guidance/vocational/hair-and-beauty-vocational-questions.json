@@ -1,0 +1,1102 @@
+[
+  {
+    "id": 1,
+    "text": "ما هو الجهاز المستخدم لتجفيف الشعر؟",
+    "subtitle": "العناية بالشعر - أدوات",
+    "options": [
+      {"id": "a", "text": "مكواة الشعر", "correct": false},
+      {"id": "b", "text": "مجفف الشعر", "correct": true},
+      {"id": "c", "text": "مملس الشعر", "correct": false},
+      {"id": "d", "text": "مثبت الشعر", "correct": false}
+    ]
+  },
+  {
+    "id": 2,
+    "text": "أي من هذه المواد تستخدم لتثبيت التسريحة؟",
+    "subtitle": "تسريح الشعر - منتجات",
+    "options": [
+      {"id": "a", "text": "الجل", "correct": true},
+      {"id": "b", "text": "البلسم", "correct": false},
+      {"id": "c", "text": "الشامبو", "correct": false},
+      {"id": "d", "text": "الزيت", "correct": false}
+    ]
+  },
+  {
+    "id": 3,
+    "text": "ما هو المنتج المستخدم لحماية الشعر من الحرارة؟",
+    "subtitle": "العناية بالشعر - وقاية",
+    "options": [
+      {"id": "a", "text": "سيروم الحرارة", "correct": true},
+      {"id": "b", "text": "الجل", "correct": false},
+      {"id": "c", "text": "السبري", "correct": false},
+      {"id": "d", "text": "البلسم", "correct": false}
+    ]
+  },
+  {
+    "id": 4,
+    "text": "ما هو الغرض من استخدام البلسم؟",
+    "subtitle": "العناية بالشعر - منتجات",
+    "options": [
+      {"id": "a", "text": "تنظيف الشعر", "correct": false},
+      {"id": "b", "text": "ترطيب وتسهيل تمشيط الشعر", "correct": true},
+      {"id": "c", "text": "تثبيت التسريحة", "correct": false},
+      {"id": "d", "text": "تلوين الشعر", "correct": false}
+    ]
+  },
+  {
+    "id": 5,
+    "text": "أي من هذه الأدوات تستخدم لتمشيط الشعر؟",
+    "subtitle": "تسريح الشعر - أدوات",
+    "options": [
+      {"id": "a", "text": "المشط", "correct": true},
+      {"id": "b", "text": "المقص", "correct": false},
+      {"id": "c", "text": "المجفف", "correct": false},
+      {"id": "d", "text": "المكواة", "correct": false}
+    ]
+  },
+  {
+    "id": 6,
+    "text": "ما هو المنتج المستخدم لإضافة لمعان للشعر؟",
+    "subtitle": "العناية بالشعر - منتجات",
+    "options": [
+      {"id": "a", "text": "السيروم", "correct": true},
+      {"id": "b", "text": "الجل", "correct": false},
+      {"id": "c", "text": "الشامبو", "correct": false},
+      {"id": "d", "text": "الصبغة", "correct": false}
+    ]
+  },
+  {
+    "id": 7,
+    "text": "ما هو نوع البشرة الذي يتميز بزيادة إفراز الدهون؟",
+    "subtitle": "العناية بالبشرة - أنواع البشرة",
+    "options": [
+      {"id": "a", "text": "البشرة الجافة", "correct": false},
+      {"id": "b", "text": "البشرة الدهنية", "correct": true},
+      {"id": "c", "text": "البشرة العادية", "correct": false},
+      {"id": "d", "text": "البشرة الحساسة", "correct": false}
+    ]
+  },
+  {
+    "id": 8,
+    "text": "أي من هذه المنتجات يستخدم لتنظيف البشرة؟",
+    "subtitle": "العناية بالبشرة - منتجات",
+    "options": [
+      {"id": "a", "text": "الغسول", "correct": true},
+      {"id": "b", "text": "المرطب", "correct": false},
+      {"id": "c", "text": "الواقي الشمسي", "correct": false},
+      {"id": "d", "text": "التونر", "correct": false}
+    ]
+  },
+  {
+    "id": 9,
+    "text": "ما هو المنتج المستخدم لحماية البشرة من الشمس؟",
+    "subtitle": "العناية بالبشرة - وقاية",
+    "options": [
+      {"id": "a", "text": "الواقي الشمسي", "correct": true},
+      {"id": "b", "text": "المرطب", "correct": false},
+      {"id": "c", "text": "الغسول", "correct": false},
+      {"id": "d", "text": "السيروم", "correct": false}
+    ]
+  },
+  {
+    "id": 10,
+    "text": "ما هو الغرض من استخدام المرطب للبشرة؟",
+    "subtitle": "العناية بالبشرة - منتجات",
+    "options": [
+      {"id": "a", "text": "تنظيف البشرة", "correct": false},
+      {"id": "b", "text": "ترطيب البشرة ومنع الجفاف", "correct": true},
+      {"id": "c", "text": "حماية من الشمس", "correct": false},
+      {"id": "d", "text": "تفتيح البشرة", "correct": false}
+    ]
+  },
+  {
+    "id": 11,
+    "text": "أي من هذه الأدوات تستخدم لتقليم الأظافر؟",
+    "subtitle": "العناية بالأظافر - أدوات",
+    "options": [
+      {"id": "a", "text": "مقص الأظافر", "correct": true},
+      {"id": "b", "text": "المبرد", "correct": false},
+      {"id": "c", "text": "المشط", "correct": false},
+      {"id": "d", "text": "المجفف", "correct": false}
+    ]
+  },
+  {
+    "id": 12,
+    "text": "ما هو المنتج المستخدم لإزالة طلاء الأظافر؟",
+    "subtitle": "العناية بالأظافر - منتجات",
+    "options": [
+      {"id": "a", "text": "أسيتون", "correct": true},
+      {"id": "b", "text": "الورنيش", "correct": false},
+      {"id": "c", "text": "المرطب", "correct": false},
+      {"id": "d", "text": "الجل", "correct": false}
+    ]
+  },
+  {
+    "id": 13,
+    "text": "ما هو نوع البشرة الذي يحتاج إلى ترطيب مستمر؟",
+    "subtitle": "العناية بالبشرة - أنواع البشرة",
+    "options": [
+      {"id": "a", "text": "البشرة الجافة", "correct": true},
+      {"id": "b", "text": "البشرة الدهنية", "correct": false},
+      {"id": "c", "text": "البشرة العادية", "correct": false},
+      {"id": "d", "text": "البشرة المختلطة", "correct": false}
+    ]
+  },
+  {
+    "id": 14,
+    "text": "أي من هذه المنتجات يستخدم لتقشير البشرة؟",
+    "subtitle": "العناية بالبشرة - منتجات",
+    "options": [
+      {"id": "a", "text": "السكراب", "correct": true},
+      {"id": "b", "text": "المرطب", "correct": false},
+      {"id": "c", "text": "الغسول", "correct": false},
+      {"id": "d", "text": "التونر", "correct": false}
+    ]
+  },
+  {
+    "id": 15,
+    "text": "ما هو المنتج المستخدم لإزالة المكياج؟",
+    "subtitle": "المكياج - منتجات",
+    "options": [
+      {"id": "a", "text": "مزيل المكياج", "correct": true},
+      {"id": "b", "text": "الغسول", "correct": false},
+      {"id": "c", "text": "المرطب", "correct": false},
+      {"id": "d", "text": "التونر", "correct": false}
+    ]
+  },
+  {
+    "id": 16,
+    "text": "ما هو الغرض من استخدام الكونسيلر؟",
+    "subtitle": "المكياج - منتجات",
+    "options": [
+      {"id": "a", "text": "إخفاء العيوب والهالات", "correct": true},
+      {"id": "b", "text": "ترطيب البشرة", "correct": false},
+      {"id": "c", "text": "تنظيف البشرة", "correct": false},
+      {"id": "d", "text": "تثبيت المكياج", "correct": false}
+    ]
+  },
+  {
+    "id": 17,
+    "text": "أي من هذه الأدوات تستخدم لتطبيق الماسكارا؟",
+    "subtitle": "المكياج - أدوات",
+    "options": [
+      {"id": "a", "text": "فرشاة الماسكارا", "correct": true},
+      {"id": "b", "text": "الإسفنجة", "correct": false},
+      {"id": "c", "text": "الفرشاة", "correct": false},
+      {"id": "d", "text": "المشط", "correct": false}
+    ]
+  },
+  {
+    "id": 18,
+    "text": "ما هو المنتج المستخدم لتثبيت المكياج؟",
+    "subtitle": "المكياج - منتجات",
+    "options": [
+      {"id": "a", "text": "البودرة", "correct": false},
+      {"id": "b", "text": "السبري المثبت", "correct": true},
+      {"id": "c", "text": "الكونسيلر", "correct": false},
+      {"id": "d", "text": "الأيلاينر", "correct": false}
+    ]
+  },
+  {
+    "id": 19,
+    "text": "ما هو نوع البشرة الذي يجمع بين مناطق دهنية وجافة؟",
+    "subtitle": "العناية بالبشرة - أنواع البشرة",
+    "options": [
+      {"id": "a", "text": "البشرة المختلطة", "correct": true},
+      {"id": "b", "text": "البشرة الدهنية", "correct": false},
+      {"id": "c", "text": "البشرة الجافة", "correct": false},
+      {"id": "d", "text": "البشرة العادية", "correct": false}
+    ]
+  },
+  {
+    "id": 20,
+    "text": "أي من هذه المنتجات يستخدم لتلوين الشفاه؟",
+    "subtitle": "المكياج - منتجات",
+    "options": [
+      {"id": "a", "text": "أحمر الشفاه", "correct": true},
+      {"id": "b", "text": "البلاشر", "correct": false},
+      {"id": "c", "text": "الأيلاينر", "correct": false},
+      {"id": "d", "text": "الماسكارا", "correct": false}
+    ]
+  },
+  {
+    "id": 21,
+    "text": "ما هو المنتج المستخدم لتحديد الحواجب؟",
+    "subtitle": "المكياج - منتجات",
+    "options": [
+      {"id": "a", "text": "قلم الحواجب", "correct": true},
+      {"id": "b", "text": "الأيلاينر", "correct": false},
+      {"id": "c", "text": "الماسكارا", "correct": false},
+      {"id": "d", "text": "الكونسيلر", "correct": false}
+    ]
+  },
+  {
+    "id": 22,
+    "text": "ما هو الغرض من استخدام البلاشر؟",
+    "subtitle": "المكياج - منتجات",
+    "options": [
+      {"id": "a", "text": "إضافة لون للخدود", "correct": true},
+      {"id": "b", "text": "ترطيب البشرة", "correct": false},
+      {"id": "c", "text": "تنظيف البشرة", "correct": false},
+      {"id": "d", "text": "تثبيت المكياج", "correct": false}
+    ]
+  },
+  {
+    "id": 23,
+    "text": "أي من هذه الأدوات تستخدم لتطبيق الأساس؟",
+    "subtitle": "المكياج - أدوات",
+    "options": [
+      {"id": "a", "text": "الإسفنجة", "correct": true},
+      {"id": "b", "text": "الفرشاة", "correct": false},
+      {"id": "c", "text": "المشط", "correct": false},
+      {"id": "d", "text": "المقص", "correct": false}
+    ]
+  },
+  {
+    "id": 24,
+    "text": "ما هو المنتج المستخدم لتحديد العيون؟",
+    "subtitle": "المكياج - منتجات",
+    "options": [
+      {"id": "a", "text": "الأيلاينر", "correct": true},
+      {"id": "b", "text": "الماسكارا", "correct": false},
+      {"id": "c", "text": "الظل", "correct": false},
+      {"id": "d", "text": "الكونسيلر", "correct": false}
+    ]
+  },
+  {
+    "id": 25,
+    "text": "ما هو نوع البشرة الذي يتفاعل سلباً مع المنتجات؟",
+    "subtitle": "العناية بالبشرة - أنواع البشرة",
+    "options": [
+      {"id": "a", "text": "البشرة الحساسة", "correct": true},
+      {"id": "b", "text": "البشرة الدهنية", "correct": false},
+      {"id": "c", "text": "البشرة الجافة", "correct": false},
+      {"id": "d", "text": "البشرة العادية", "correct": false}
+    ]
+  },
+  {
+    "id": 26,
+    "text": "أي من هذه المنتجات يستخدم لتنعيم الشعر؟",
+    "subtitle": "العناية بالشعر - منتجات",
+    "options": [
+      {"id": "a", "text": "البلسم", "correct": false},
+      {"id": "b", "text": "سيروم التنعيم", "correct": true},
+      {"id": "c", "text": "الجل", "correct": false},
+      {"id": "d", "text": "السبري", "correct": false}
+    ]
+  },
+  {
+    "id": 27,
+    "text": "ما هو المنتج المستخدم لإضافة حجم للشعر؟",
+    "subtitle": "العناية بالشعر - منتجات",
+    "options": [
+      {"id": "a", "text": "سبراي الحجم", "correct": true},
+      {"id": "b", "text": "الجل", "correct": false},
+      {"id": "c", "text": "البلسم", "correct": false},
+      {"id": "d", "text": "الزيت", "correct": false}
+    ]
+  },
+  {
+    "id": 28,
+    "text": "ما هو الغرض من استخدام التونر للبشرة؟",
+    "subtitle": "العناية بالبشرة - منتجات",
+    "options": [
+      {"id": "a", "text": "موازنة درجة حموضة البشرة", "correct": true},
+      {"id": "b", "text": "ترطيب البشرة", "correct": false},
+      {"id": "c", "text": "تنظيف البشرة", "correct": false},
+      {"id": "d", "text": "تفتيح البشرة", "correct": false}
+    ]
+  },
+  {
+    "id": 29,
+    "text": "أي من هذه الأدوات تستخدم لتمويج الشعر؟",
+    "subtitle": "تسريح الشعر - أدوات",
+    "options": [
+      {"id": "a", "text": "مكواة التمويج", "correct": true},
+      {"id": "b", "text": "المجفف", "correct": false},
+      {"id": "c", "text": "المشط", "correct": false},
+      {"id": "d", "text": "المقص", "correct": false}
+    ]
+  },
+  {
+    "id": 30,
+    "text": "ما هو المنتج المستخدم لحماية الشعر من الكلور؟",
+    "subtitle": "العناية بالشعر - وقاية",
+    "options": [
+      {"id": "a", "text": "زيت الشعر", "correct": false},
+      {"id": "b", "text": "بلسم السباحة", "correct": true},
+      {"id": "c", "text": "الجل", "correct": false},
+      {"id": "d", "text": "السبري", "correct": false}
+    ]
+  },
+  {
+    "id": 31,
+    "text": "ما هو نوع البشرة الذي يتميز بمسام واضحة؟",
+    "subtitle": "العناية بالبشرة - أنواع البشرة",
+    "options": [
+      {"id": "a", "text": "البشرة الدهنية", "correct": true},
+      {"id": "b", "text": "البشرة الجافة", "correct": false},
+      {"id": "c", "text": "البشرة العادية", "correct": false},
+      {"id": "d", "text": "البشرة الحساسة", "correct": false}
+    ]
+  },
+  {
+    "id": 32,
+    "text": "أي من هذه المنتجات يستخدم لعلاج تشققات الشفاه؟",
+    "subtitle": "العناية بالشفاه - منتجات",
+    "options": [
+      {"id": "a", "text": "مرطب الشفاه", "correct": true},
+      {"id": "b", "text": "الغسول", "correct": false},
+      {"id": "c", "text": "المرطب", "correct": false},
+      {"id": "d", "text": "التونر", "correct": false}
+    ]
+  },
+  {
+    "id": 33,
+    "text": "ما هو المنتج المستخدم لتطويل الرموش؟",
+    "subtitle": "المكياج - منتجات",
+    "options": [
+      {"id": "a", "text": "الماسكارا", "correct": true},
+      {"id": "b", "text": "الأيلاينر", "correct": false},
+      {"id": "c", "text": "الظل", "correct": false},
+      {"id": "d", "text": "الكونسيلر", "correct": false}
+    ]
+  },
+  {
+    "id": 34,
+    "text": "ما هو الغرض من استخدام البرايمر؟",
+    "subtitle": "المكياج - منتجات",
+    "options": [
+      {"id": "a", "text": "تحضير البشرة للمكياج", "correct": true},
+      {"id": "b", "text": "ترطيب البشرة", "correct": false},
+      {"id": "c", "text": "تنظيف البشرة", "correct": false},
+      {"id": "d", "text": "تثبيت المكياج", "correct": false}
+    ]
+  },
+  {
+    "id": 35,
+    "text": "أي من هذه الأدوات تستخدم لتسوية الشعر؟",
+    "subtitle": "تسريح الشعر - أدوات",
+    "options": [
+      {"id": "a", "text": "مملس الشعر", "correct": true},
+      {"id": "b", "text": "المجفف", "correct": false},
+      {"id": "c", "text": "المشط", "correct": false},
+      {"id": "d", "text": "المقص", "correct": false}
+    ]
+  },
+  {
+    "id": 36,
+    "text": "ما هو المنتج المستخدم لتغذية الشعر الجاف؟",
+    "subtitle": "العناية بالشعر - منتجات",
+    "options": [
+      {"id": "a", "text": "زيت الشعر", "correct": true},
+      {"id": "b", "text": "الجل", "correct": false},
+      {"id": "c", "text": "السبري", "correct": false},
+      {"id": "d", "text": "الشامبو", "correct": false}
+    ]
+  },
+  {
+    "id": 37,
+    "text": "ما هو نوع البشرة الذي يحتاج إلى تنظيف عميق؟",
+    "subtitle": "العناية بالبشرة - أنواع البشرة",
+    "options": [
+      {"id": "a", "text": "البشرة الدهنية", "correct": true},
+      {"id": "b", "text": "البشرة الجافة", "correct": false},
+      {"id": "c", "text": "البشرة العادية", "correct": false},
+      {"id": "d", "text": "البشرة الحساسة", "correct": false}
+    ]
+  },
+  {
+    "id": 38,
+    "text": "أي من هذه المنتجات يستخدم لإزالة الرؤوس السوداء؟",
+    "subtitle": "العناية بالبشرة - منتجات",
+    "options": [
+      {"id": "a", "text": "الشرائط", "correct": true},
+      {"id": "b", "text": "المرطب", "correct": false},
+      {"id": "c", "text": "الغسول", "correct": false},
+      {"id": "d", "text": "التونر", "correct": false}
+    ]
+  },
+  {
+    "id": 39,
+    "text": "ما هو المنتج المستخدم لتلوين الخدود؟",
+    "subtitle": "المكياج - منتجات",
+    "options": [
+      {"id": "a", "text": "البلاشر", "correct": true},
+      {"id": "b", "text": "الأيلاينر", "correct": false},
+      {"id": "c", "text": "الماسكارا", "correct": false},
+      {"id": "d", "text": "الكونسيلر", "correct": false}
+    ]
+  },
+  {
+    "id": 40,
+    "text": "ما هو الغرض من استخدام السيروم للبشرة؟",
+    "subtitle": "العناية بالبشرة - منتجات",
+    "options": [
+      {"id": "a", "text": "معالجة مشاكل محددة", "correct": true},
+      {"id": "b", "text": "ترطيب البشرة", "correct": false},
+      {"id": "c", "text": "تنظيف البشرة", "correct": false},
+      {"id": "d", "text": "تثبيت المكياج", "correct": false}
+    ]
+  },
+  {
+    "id": 41,
+    "text": "أي من هذه الأدوات تستخدم لتقصير الشعر؟",
+    "subtitle": "تسريح الشعر - أدوات",
+    "options": [
+      {"id": "a", "text": "المقص", "correct": true},
+      {"id": "b", "text": "المشط", "correct": false},
+      {"id": "c", "text": "المجفف", "correct": false},
+      {"id": "d", "text": "المكواة", "correct": false}
+    ]
+  },
+  {
+    "id": 42,
+    "text": "ما هو المنتج المستخدم لمنع تساقط الشعر؟",
+    "subtitle": "العناية بالشعر - منتجات",
+    "options": [
+      {"id": "a", "text": "مصل الشعر", "correct": true},
+      {"id": "b", "text": "الجل", "correct": false},
+      {"id": "c", "text": "السبري", "correct": false},
+      {"id": "d", "text": "الشامبو", "correct": false}
+    ]
+  },
+  {
+    "id": 43,
+    "text": "ما هو نوع البشرة الذي يحتاج إلى عناية لطيفة؟",
+    "subtitle": "العناية بالبشرة - أنواع البشرة",
+    "options": [
+      {"id": "a", "text": "البشرة الحساسة", "correct": true},
+      {"id": "b", "text": "البشرة الدهنية", "correct": false},
+      {"id": "c", "text": "البشرة الجافة", "correct": false},
+      {"id": "d", "text": "البشرة العادية", "correct": false}
+    ]
+  },
+  {
+    "id": 44,
+    "text": "أي من هذه المنتجات يستخدم لتنظيف البشرة العميق؟",
+    "subtitle": "العناية بالبشرة - منتجات",
+    "options": [
+      {"id": "a", "text": "القناع", "correct": true},
+      {"id": "b", "text": "المرطب", "correct": false},
+      {"id": "c", "text": "الغسول", "correct": false},
+      {"id": "d", "text": "التونر", "correct": false}
+    ]
+  },
+  {
+    "id": 45,
+    "text": "ما هو المنتج المستخدم لتحديد الشفاه؟",
+    "subtitle": "المكياج - منتجات",
+    "options": [
+      {"id": "a", "text": "قلم الشفاه", "correct": true},
+      {"id": "b", "text": "الأيلاينر", "correct": false},
+      {"id": "c", "text": "الماسكارا", "correct": false},
+      {"id": "d", "text": "الكونسيلر", "correct": false}
+    ]
+  },
+  {
+    "id": 46,
+    "text": "ما هو الغرض من استخدام الهيلايت؟",
+    "subtitle": "المكياج - منتجات",
+    "options": [
+      {"id": "a", "text": "إضافة بريق للبشرة", "correct": true},
+      {"id": "b", "text": "ترطيب البشرة", "correct": false},
+      {"id": "c", "text": "تنظيف البشرة", "correct": false},
+      {"id": "d", "text": "تثبيت المكياج", "correct": false}
+    ]
+  },
+  {
+    "id": 47,
+    "text": "أي من هذه الأدوات تستخدم لتجعيد الشعر؟",
+    "subtitle": "تسريح الشعر - أدوات",
+    "options": [
+      {"id": "a", "text": "مكواة التجعيد", "correct": true},
+      {"id": "b", "text": "المجفف", "correct": false},
+      {"id": "c", "text": "المشط", "correct": false},
+      {"id": "d", "text": "المقص", "correct": false}
+    ]
+  },
+  {
+    "id": 48,
+    "text": "ما هو المنتج المستخدم لتنعيم الشعر المجعد؟",
+    "subtitle": "العناية بالشعر - منتجات",
+    "options": [
+      {"id": "a", "text": "كريم التنعيم", "correct": true},
+      {"id": "b", "text": "الجل", "correct": false},
+      {"id": "c", "text": "السبري", "correct": false},
+      {"id": "d", "text": "الشامبو", "correct": false}
+    ]
+  },
+  {
+    "id": 49,
+    "text": "ما هو نوع البشرة الذي يحتاج إلى ترطيب خفيف؟",
+    "subtitle": "العناية بالبشرة - أنواع البشرة",
+    "options": [
+      {"id": "a", "text": "البشرة الدهنية", "correct": true},
+      {"id": "b", "text": "البشرة الجافة", "correct": false},
+      {"id": "c", "text": "البشرة العادية", "correct": false},
+      {"id": "d", "text": "البشرة الحساسة", "correct": false}
+    ]
+  },
+  {
+    "id": 50,
+    "text": "أي من هذه المنتجات يستخدم لعلاج حب الشباب؟",
+    "subtitle": "العناية بالبشرة - منتجات",
+    "options": [
+      {"id": "a", "text": "العلاج الموضعي", "correct": true},
+      {"id": "b", "text": "المرطب", "correct": false},
+      {"id": "c", "text": "الغسول", "correct": false},
+      {"id": "d", "text": "التونر", "correct": false}
+    ]
+  },
+  {
+    "id": 51,
+    "text": "ما هو المنتج المستخدم لتلوين الجفون؟",
+    "subtitle": "المكياج - منتجات",
+    "options": [
+      {"id": "a", "text": "ظل العيون", "correct": true},
+      {"id": "b", "text": "الأيلاينر", "correct": false},
+      {"id": "c", "text": "الماسكارا", "correct": false},
+      {"id": "d", "text": "الكونسيلر", "correct": false}
+    ]
+  },
+  {
+    "id": 52,
+    "text": "ما هو الغرض من استخدام الكونتور؟",
+    "subtitle": "المكياج - منتجات",
+    "options": [
+      {"id": "a", "text": "تحديد ملامح الوجه", "correct": true},
+      {"id": "b", "text": "ترطيب البشرة", "correct": false},
+      {"id": "c", "text": "تنظيف البشرة", "correct": false},
+      {"id": "d", "text": "تثبيت المكياج", "correct": false}
+    ]
+  },
+  {
+    "id": 53,
+    "text": "أي من هذه الأدوات تستخدم لتمشيط الرموش؟",
+    "subtitle": "المكياج - أدوات",
+    "options": [
+      {"id": "a", "text": "مشط الرموش", "correct": true},
+      {"id": "b", "text": "الفرشاة", "correct": false},
+      {"id": "c", "text": "الإسفنجة", "correct": false},
+      {"id": "d", "text": "المشط", "correct": false}
+    ]
+  },
+  {
+    "id": 54,
+    "text": "ما هو المنتج المستخدم لتنظيف فرش المكياج؟",
+    "subtitle": "المكياج - منتجات",
+    "options": [
+      {"id": "a", "text": "منظف الفرش", "correct": true},
+      {"id": "b", "text": "الغسول", "correct": false},
+      {"id": "c", "text": "المرطب", "correct": false},
+      {"id": "d", "text": "التونر", "correct": false}
+    ]
+  },
+  {
+    "id": 55,
+    "text": "ما هو نوع البشرة الذي يحتاج إلى وقاية من الشمس؟",
+    "subtitle": "العناية بالبشرة - أنواع البشرة",
+    "options": [
+      {"id": "a", "text": "جميع أنواع البشرة", "correct": true},
+      {"id": "b", "text": "البشرة الدهنية فقط", "correct": false},
+      {"id": "c", "text": "البشرة الجافة فقط", "correct": false},
+      {"id": "d", "text": "البشرة الحساسة فقط", "correct": false}
+    ]
+  },
+  {
+    "id": 56,
+    "text": "أي من هذه المنتجات يستخدم لترطيب اليدين؟",
+    "subtitle": "العناية باليدين - منتجات",
+    "options": [
+      {"id": "a", "text": "كريم اليدين", "correct": true},
+      {"id": "b", "text": "الغسول", "correct": false},
+      {"id": "c", "text": "المرطب", "correct": false},
+      {"id": "d", "text": "التونر", "correct": false}
+    ]
+  },
+  {
+    "id": 57,
+    "text": "ما هو المنتج المستخدم لتقوية الأظافر؟",
+    "subtitle": "العناية بالأظافر - منتجات",
+    "options": [
+      {"id": "a", "text": "مقوي الأظافر", "correct": true},
+      {"id": "b", "text": "الورنيش", "correct": false},
+      {"id": "c", "text": "المرطب", "correct": false},
+      {"id": "d", "text": "الأسيتون", "correct": false}
+    ]
+  },
+  {
+    "id": 58,
+    "text": "ما هو الغرض من استخدام السيتينج بودرة؟",
+    "subtitle": "المكياج - منتجات",
+    "options": [
+      {"id": "a", "text": "تثبيت المكياج وإزالة اللمعة", "correct": true},
+      {"id": "b", "text": "ترطيب البشرة", "correct": false},
+      {"id": "c", "text": "تنظيف البشرة", "correct": false},
+      {"id": "d", "text": "تحديد الملامح", "correct": false}
+    ]
+  },
+  {
+    "id": 59,
+    "text": "أي من هذه الأدوات تستخدم لتطبيق ظل العيون؟",
+    "subtitle": "المكياج - أدوات",
+    "options": [
+      {"id": "a", "text": "فرشاة الظل", "correct": true},
+      {"id": "b", "text": "الإسفنجة", "correct": false},
+      {"id": "c", "text": "المشط", "correct": false},
+      {"id": "d", "text": "المقص", "correct": false}
+    ]
+  },
+  {
+    "id": 60,
+    "text": "ما هو المنتج المستخدم لتنعيم البشرة؟",
+    "subtitle": "العناية بالبشرة - منتجات",
+    "options": [
+      {"id": "a", "text": "مقشر البشرة", "correct": false},
+      {"id": "b", "text": "مرطب البشرة", "correct": false},
+      {"id": "c", "text": "زيت البشرة", "correct": true},
+      {"id": "d", "text": "غسول البشرة", "correct": false}
+    ]
+  },
+  {
+    "id": 61,
+    "text": "ما هو نوع الشعر الذي يحتاج إلى ترطيب مكثف؟",
+    "subtitle": "العناية بالشعر - أنواع الشعر",
+    "options": [
+      {"id": "a", "text": "الشعر الجاف", "correct": true},
+      {"id": "b", "text": "الشعر الدهني", "correct": false},
+      {"id": "c", "text": "الشعر العادي", "correct": false},
+      {"id": "d", "text": "الشعر المختلط", "correct": false}
+    ]
+  },
+  {
+    "id": 62,
+    "text": "أي من هذه المنتجات يستخدم لإزالة الشعر؟",
+    "subtitle": "إزالة الشعر - منتجات",
+    "options": [
+      {"id": "a", "text": "الشمع", "correct": true},
+      {"id": "b", "text": "المرطب", "correct": false},
+      {"id": "c", "text": "الغسول", "correct": false},
+      {"id": "d", "text": "التونر", "correct": false}
+    ]
+  },
+  {
+    "id": 63,
+    "text": "ما هو المنتج المستخدم لعلاج تقصف الشعر؟",
+    "subtitle": "العناية بالشعر - منتجات",
+    "options": [
+      {"id": "a", "text": "مصل الشعر", "correct": true},
+      {"id": "b", "text": "الجل", "correct": false},
+      {"id": "c", "text": "السبري", "correct": false},
+      {"id": "d", "text": "الشامبو", "correct": false}
+    ]
+  },
+  {
+    "id": 64,
+    "text": "ما هو الغرض من استخدام الماسك للشعر؟",
+    "subtitle": "العناية بالشعر - منتجات",
+    "options": [
+      {"id": "a", "text": "تغذية وعلاج الشعر", "correct": true},
+      {"id": "b", "text": "تنظيف الشعر", "correct": false},
+      {"id": "c", "text": "تثبيت التسريحة", "correct": false},
+      {"id": "d", "text": "تلوين الشعر", "correct": false}
+    ]
+  },
+  {
+    "id": 65,
+    "text": "أي من هذه الأدوات تستخدم لتمشيط الشعر المبلول؟",
+    "subtitle": "تسريح الشعر - أدوات",
+    "options": [
+      {"id": "a", "text": "مشط واسع الأسنان", "correct": true},
+      {"id": "b", "text": "المشط العادي", "correct": false},
+      {"id": "c", "text": "الفرشاة", "correct": false},
+      {"id": "d", "text": "المقص", "correct": false}
+    ]
+  },
+  {
+    "id": 66,
+    "text": "ما هو المنتج المستخدم لتخفيف تهيج البشرة بعد إزالة الشعر؟",
+    "subtitle": "إزالة الشعر - منتجات",
+    "options": [
+      {"id": "a", "text": "مرطب مهدئ", "correct": true},
+      {"id": "b", "text": "الغسول", "correct": false},
+      {"id": "c", "text": "التونر", "correct": false},
+      {"id": "d", "text": "السكراب", "correct": false}
+    ]
+  },
+  {
+    "id": 67,
+    "text": "ما هو نوع الشعر الذي يحتاج إلى غسل متكرر؟",
+    "subtitle": "العناية بالشعر - أنواع الشعر",
+    "options": [
+      {"id": "a", "text": "الشعر الدهني", "correct": true},
+      {"id": "b", "text": "الشعر الجاف", "correct": false},
+      {"id": "c", "text": "الشعر العادي", "correct": false},
+      {"id": "d", "text": "الشعر المختلط", "correct": false}
+    ]
+  },
+  {
+    "id": 68,
+    "text": "أي من هذه المنتجات يستخدم لتثبيت الحواجب؟",
+    "subtitle": "المكياج - منتجات",
+    "options": [
+      {"id": "a", "text": "جل الحواجب", "correct": true},
+      {"id": "b", "text": "الأيلاينر", "correct": false},
+      {"id": "c", "text": "الماسكارا", "correct": false},
+      {"id": "d", "text": "الكونسيلر", "correct": false}
+    ]
+  },
+  {
+    "id": 69,
+    "text": "ما هو المنتج المستخدم لتنظيف البشرة من المكياج؟",
+    "subtitle": "المكياج - منتجات",
+    "options": [
+      {"id": "a", "text": "مزيل المكياج", "correct": true},
+      {"id": "b", "text": "الغسول", "correct": false},
+      {"id": "c", "text": "المرطب", "correct": false},
+      {"id": "d", "text": "التونر", "correct": false}
+    ]
+  },
+  {
+    "id": 70,
+    "text": "ما هو الغرض من استخدام البرونزر؟",
+    "subtitle": "المكياج - منتجات",
+    "options": [
+      {"id": "a", "text": "إضافة سمرة للبشرة", "correct": true},
+      {"id": "b", "text": "ترطيب البشرة", "correct": false},
+      {"id": "c", "text": "تنظيف البشرة", "correct": false},
+      {"id": "d", "text": "تثبيت المكياج", "correct": false}
+    ]
+  },
+  {
+    "id": 71,
+    "text": "أي من هذه الأدوات تستخدم لتطبيق البلاشر؟",
+    "subtitle": "المكياج - أدوات",
+    "options": [
+      {"id": "a", "text": "فرشاة البلاشر", "correct": true},
+      {"id": "b", "text": "الإسفنجة", "correct": false},
+      {"id": "c", "text": "المشط", "correct": false},
+      {"id": "d", "text": "المقص", "correct": false}
+    ]
+  },
+  {
+    "id": 72,
+    "text": "ما هو المنتج المستخدم لتنعيم البشرة قبل المكياج؟",
+    "subtitle": "المكياج - منتجات",
+    "options": [
+      {"id": "a", "text": "البرايمر", "correct": true},
+      {"id": "b", "text": "المرطب", "correct": false},
+      {"id": "c", "text": "الغسول", "correct": false},
+      {"id": "d", "text": "التونر", "correct": false}
+    ]
+  },
+  {
+    "id": 73,
+    "text": "ما هو نوع الشعر الذي يحتاج إلى منتجات خفيفة؟",
+    "subtitle": "العناية بالشعر - أنواع الشعر",
+    "options": [
+      {"id": "a", "text": "الشعر الدهني", "correct": true},
+      {"id": "b", "text": "الشعر الجاف", "correct": false},
+      {"id": "c", "text": "الشعر العادي", "correct": false},
+      {"id": "d", "text": "الشعر المجعد", "correct": false}
+    ]
+  },
+  {
+    "id": 74,
+    "text": "أي من هذه المنتجات يستخدم لعلاج الهالات السوداء؟",
+    "subtitle": "العناية بالبشرة - منتجات",
+    "options": [
+      {"id": "a", "text": "كريم العيون", "correct": true},
+      {"id": "b", "text": "المرطب", "correct": false},
+      {"id": "c", "text": "الغسول", "correct": false},
+      {"id": "d", "text": "التونر", "correct": false}
+    ]
+  },
+  {
+    "id": 75,
+    "text": "ما هو المنتج المستخدم لتثبيت طلاء الأظافر؟",
+    "subtitle": "العناية بالأظافر - منتجات",
+    "options": [
+      {"id": "a", "text": "التوب كوت", "correct": true},
+      {"id": "b", "text": "الورنيش", "correct": false},
+      {"id": "c", "text": "المرطب", "correct": false},
+      {"id": "d", "text": "الأسيتون", "correct": false}
+    ]
+  },
+  {
+    "id": 76,
+    "text": "ما هو الغرض من استخدام البايس كوت؟",
+    "subtitle": "العناية بالأظافر - منتجات",
+    "options": [
+      {"id": "a", "text": "حماية الظفر ومنع الاصفرار", "correct": true},
+      {"id": "b", "text": "ترطيب الأظافر", "correct": false},
+      {"id": "c", "text": "تنظيف الأظافر", "correct": false},
+      {"id": "d", "text": "تثبيت الطلاء", "correct": false}
+    ]
+  },
+  {
+    "id": 77,
+    "text": "أي من هذه الأدوات تستخدم لتشكيل الحواجب؟",
+    "subtitle": "المكياج - أدوات",
+    "options": [
+      {"id": "a", "text": "ملقط الحواجب", "correct": true},
+      {"id": "b", "text": "المقص", "correct": false},
+      {"id": "c", "text": "المشط", "correct": false},
+      {"id": "d", "text": "الفرشاة", "correct": false}
+    ]
+  },
+  {
+    "id": 78,
+    "text": "ما هو المنتج المستخدم لتنعيم الشعر أثناء التمشيط؟",
+    "subtitle": "العناية بالشعر - منتجات",
+    "options": [
+      {"id": "a", "text": "سيروم التمشيط", "correct": true},
+      {"id": "b", "text": "الجل", "correct": false},
+      {"id": "c", "text": "السبري", "correct": false},
+      {"id": "d", "text": "الشامبو", "correct": false}
+    ]
+  },
+  {
+    "id": 79,
+    "text": "ما هو نوع الشعر الذي يحتاج إلى عناية خاصة من الحرارة؟",
+    "subtitle": "العناية بالشعر - أنواع الشعر",
+    "options": [
+      {"id": "a", "text": "الشعر المصبوغ", "correct": true},
+      {"id": "b", "text": "الشعر الدهني", "correct": false},
+      {"id": "c", "text": "الشعر العادي", "correct": false},
+      {"id": "d", "text": "الشعر المختلط", "correct": false}
+    ]
+  },
+  {
+    "id": 80,
+    "text": "أي من هذه المنتجات يستخدم لترطيب الجسم؟",
+    "subtitle": "العناية بالجسم - منتجات",
+    "options": [
+      {"id": "a", "text": "لوشن الجسم", "correct": true},
+      {"id": "b", "text": "الغسول", "correct": false},
+      {"id": "c", "text": "المرطب", "correct": false},
+      {"id": "d", "text": "التونر", "correct": false}
+    ]
+  },
+  {
+    "id": 81,
+    "text": "ما هو المنتج المستخدم لتنعيم القدمين؟",
+    "subtitle": "العناية بالقدمين - منتجات",
+    "options": [
+      {"id": "a", "text": "مقشر القدمين", "correct": true},
+      {"id": "b", "text": "المرطب", "correct": false},
+      {"id": "c", "text": "الغسول", "correct": false},
+      {"id": "d", "text": "التونر", "correct": false}
+    ]
+  },
+  {
+    "id": 82,
+    "text": "ما هو الغرض من استخدام الديوودرانت؟",
+    "subtitle": "العناية الشخصية - منتجات",
+    "options": [
+      {"id": "a", "text": "منع رائحة العرق", "correct": true},
+      {"id": "b", "text": "ترطيب البشرة", "correct": false},
+      {"id": "c", "text": "تنظيف البشرة", "correct": false},
+      {"id": "d", "text": "تثبيت المكياج", "correct": false}
+    ]
+  },
+  {
+    "id": 83,
+    "text": "أي من هذه الأدوات تستخدم لتسريح الشعر بشكل دائري؟",
+    "subtitle": "تسريح الشعر - أدوات",
+    "options": [
+      {"id": "a", "text": "فرشاة دائرة", "correct": true},
+      {"id": "b", "text": "المشط", "correct": false},
+      {"id": "c", "text": "المجفف", "correct": false},
+      {"id": "d", "text": "المقص", "correct": false}
+    ]
+  },
+  {
+    "id": 84,
+    "text": "ما هو المنتج المستخدم لتنظيف البشرة من العمق؟",
+    "subtitle": "العناية بالبشرة - منتجات",
+    "options": [
+      {"id": "a", "text": "القناع الطيني", "correct": true},
+      {"id": "b", "text": "المرطب", "correct": false},
+      {"id": "c", "text": "الغسول", "correct": false},
+      {"id": "d", "text": "التونر", "correct": false}
+    ]
+  },
+  {
+    "id": 85,
+    "text": "ما هو نوع الشعر الذي يحتاج إلى تقليم منتظم؟",
+    "subtitle": "العناية بالشعر - أنواع الشعر",
+    "options": [
+      {"id": "a", "text": "جميع أنواع الشعر", "correct": true},
+      {"id": "b", "text": "الشعر الدهني فقط", "correct": false},
+      {"id": "c", "text": "الشعر الجاف فقط", "correct": false},
+      {"id": "d", "text": "الشعر المصبوغ فقط", "correct": false}
+    ]
+  },
+  {
+    "id": 86,
+    "text": "أي من هذه المنتجات يستخدم لعلاج تشققات الكعبين؟",
+    "subtitle": "العناية بالقدمين - منتجات",
+    "options": [
+      {"id": "a", "text": "كريم الكعبين", "correct": true},
+      {"id": "b", "text": "المرطب", "correct": false},
+      {"id": "c", "text": "الغسول", "correct": false},
+      {"id": "d", "text": "التونر", "correct": false}
+    ]
+  },
+  {
+    "id": 87,
+    "text": "ما هو المنتج المستخدم لتنعيم الشعر المجعد طبيعياً؟",
+    "subtitle": "العناية بالشعر - منتجات",
+    "options": [
+      {"id": "a", "text": "كريم الترطيب", "correct": true},
+      {"id": "b", "text": "الجل", "correct": false},
+      {"id": "c", "text": "السبري", "correct": false},
+      {"id": "d", "text": "الشامبو", "correct": false}
+    ]
+  },
+  {
+    "id": 88,
+    "text": "ما هو الغرض من استخدام السيروم للشعر؟",
+    "subtitle": "العناية بالشعر - منتجات",
+    "options": [
+      {"id": "a", "text": "تغذية وعلاج الشعر", "correct": true},
+      {"id": "b", "text": "تنظيف الشعر", "correct": false},
+      {"id": "c", "text": "تثبيت التسريحة", "correct": false},
+      {"id": "d", "text": "تلوين الشعر", "correct": false}
+    ]
+  },
+  {
+    "id": 89,
+    "text": "أي من هذه الأدوات تستخدم لتسوية الشعر المجعد؟",
+    "subtitle": "تسريح الشعر - أدوات",
+    "options": [
+      {"id": "a", "text": "مملس الشعر", "correct": true},
+      {"id": "b", "text": "المجفف", "correct": false},
+      {"id": "c", "text": "المشط", "correct": false},
+      {"id": "d", "text": "المقص", "correct": false}
+    ]
+  },
+  {
+    "id": 90,
+    "text": "ما هو المنتج المستخدم لحماية الشعر من الرطوبة؟",
+    "subtitle": "العناية بالشعر - منتجات",
+    "options": [
+      {"id": "a", "text": "سيروم抗الرطوبة", "correct": true},
+      {"id": "b", "text": "الجل", "correct": false},
+      {"id": "c", "text": "السبري", "correct": false},
+      {"id": "d", "text": "الشامبو", "correct": false}
+    ]
+  },
+  {
+    "id": 91,
+    "text": "ما هو نوع البشرة الذي يحتاج إلى تقشير لطيف؟",
+    "subtitle": "العناية بالبشرة - أنواع البشرة",
+    "options": [
+      {"id": "a", "text": "البشرة الحساسة", "correct": true},
+      {"id": "b", "text": "البشرة الدهنية", "correct": false},
+      {"id": "c", "text": "البشرة الجافة", "correct": false},
+      {"id": "d", "text": "البشرة العادية", "correct": false}
+    ]
+  },
+  {
+    "id": 92,
+    "text": "أي من هذه المنتجات يستخدم لترطيب الشفاه الجافة؟",
+    "subtitle": "العناية بالشفاه - منتجات",
+    "options": [
+      {"id": "a", "text": "مرطب الشفاه", "correct": true},
+      {"id": "b", "text": "الغسول", "correct": false},
+      {"id": "c", "text": "المرطب", "correct": false},
+      {"id": "d", "text": "التونر", "correct": false}
+    ]
+  },
+  {
+    "id": 93,
+    "text": "ما هو المنتج المستخدم لتثبيت تسريحة الذيل؟",
+    "subtitle": "تسريح الشعر - منتجات",
+    "options": [
+      {"id": "a", "text": "ربطة الشعر", "correct": true},
+      {"id": "b", "text": "الجل", "correct": false},
+      {"id": "c", "text": "السبري", "correct": false},
+      {"id": "d", "text": "الشامبو", "correct": false}
+    ]
+  },
+  {
+    "id": 94,
+    "text": "ما هو الغرض من استخدام السبراي للشعر؟",
+    "subtitle": "العناية بالشعر - منتجات",
+    "options": [
+      {"id": "a", "text": "تثبيت التسريحة أو إضافة حجم", "correct": true},
+      {"id": "b", "text": "تنظيف الشعر", "correct": false},
+      {"id": "c", "text": "ترطيب الشعر", "correct": false},
+      {"id": "d", "text": "تلوين الشعر", "correct": false}
+    ]
+  },
+  {
+    "id": 95,
+    "text": "أي من هذه الأدوات تستخدم لتقطيع الشريط اللاصق؟",
+    "subtitle": "أدوات التجميل - أدوات",
+    "options": [
+      {"id": "a", "text": "المقص", "correct": true},
+      {"id": "b", "text": "المشط", "correct": false},
+      {"id": "c", "text": "المجفف", "correct": false},
+      {"id": "d", "text": "المكواة", "correct": false}
+    ]
+  },
+  {
+    "id": 96,
+    "text": "ما هو المنتج المستخدم لتنعيم البشرة بعد التقشير؟",
+    "subtitle": "العناية بالبشرة - منتجات",
+    "options": [
+      {"id": "a", "text": "المرطب", "correct": true},
+      {"id": "b", "text": "الغسول", "correct": false},
+      {"id": "c", "text": "التونر", "correct": false},
+      {"id": "d", "text": "السكراب", "correct": false}
+    ]
+  },
+  {
+    "id": 97,
+    "text": "ما هو نوع الشعر الذي يحتاج إلى عناية بالزيوت؟",
+    "subtitle": "العناية بالشعر - أنواع الشعر",
+    "options": [
+      {"id": "a", "text": "الشعر الجاف", "correct": true},
+      {"id": "b", "text": "الشعر الدهني", "correct": false},
+      {"id": "c", "text": "الشعر العادي", "correct": false},
+      {"id": "d", "text": "الشعر المختلط", "correct": false}
+    ]
+  },
+  {
+    "id": 98,
+    "text": "أي من هذه المنتجات يستخدم لتنظيف فرش المكياج؟",
+    "subtitle": "المكياج - منتجات",
+    "options": [
+      {"id": "a", "text": "منظف الفرش", "correct": true},
+      {"id": "b", "text": "الغسول", "correct": false},
+      {"id": "c", "text": "المرطب", "correct": false},
+      {"id": "d", "text": "التونر", "correct": false}
+    ]
+  },
+  {
+    "id": 99,
+    "text": "ما هو المنتج المستخدم لحماية الشعر من الشمس؟",
+    "subtitle": "العناية بالشعر - منتجات",
+    "options": [
+      {"id": "a", "text": "سيروم الحماية من الشمس", "correct": true},
+      {"id": "b", "text": "الجل", "correct": false},
+      {"id": "c", "text": "السبري", "correct": false},
+      {"id": "d", "text": "الشامبو", "correct": false}
+    ]
+  },
+  {
+    "id": 100,
+    "text": "ما هو الغرض من استخدام الكونسيلر السائل؟",
+    "subtitle": "المكياج - منتجات",
+    "options": [
+      {"id": "a", "text": "إخفاء العيوب بدقة عالية", "correct": true},
+      {"id": "b", "text": "ترطيب البشرة", "correct": false},
+      {"id": "c", "text": "تنظيف البشرة", "correct": false},
+      {"id": "d", "text": "تثبيت المكياج", "correct": false}
+    ]
+  }
+]

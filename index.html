@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnMap | منصة توجيهية لطلاب التوجيهي في الأردن</title>
+    <meta name="description" content="منصة LearnMap التوجيهية الشاملة لطلاب التوجيهي في الأردن. اكتشف المسارات الأكاديمية والمهنية، اختبارات الميول، الجامعات الأردنية، وفرص سوق العمل.">
+    <meta name="keywords" content="توجيهي, الأردن, tawjihi, LearnMap, اختبار ميول, جامعات أردنية, BTEC, مسار مهني, مسار أكاديمي">
+    <meta name="author" content="LearnMap">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learnmap.jo/">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://learnmap.jo/">
+    <meta property="og:title" content="LearnMap | منصة توجيهية لطلاب التوجيهي في الأردن">
+    <meta property="og:description" content="منصة توجيهية شاملة لطلاب التوجيهي في الأردن. اكتشف مساراتك الأكاديمية والمهنية، وأخذ اختبارات الميول المهنية.">
+    <meta property="og:image" content="https://learnmap.jo/images/og-image.png">
+    <meta property="og:locale" content="ar_JO">
+    <meta property="og:site_name" content="LearnMap">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learnmap.jo/">
+    <meta name="twitter:title" content="LearnMap | منصة توجيهية لطلاب التوجيهي في الأردن">
+    <meta name="twitter:description" content="منصة توجيهية شاملة لطلاب التوجيهي في الأردن. اكتشف مساراتك الأكاديمية والمهنية.">
+    <meta name="twitter:image" content="https://learnmap.jo/images/og-image.png">
+    <link rel="icon" type="image/x-icon" href="/images/logo.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap" as="style">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Apply Claymorphism Design System CSS -->
+    <link rel="stylesheet" href="/styles.css">
+    <style>
+        /* Homepage Hero Styles */
+        .hero {
+            background: linear-gradient(135deg, var(--gold-primary) 0%, var(--gold-light) 100%);
+            border-radius: var(--radius-2xl);
+            box-shadow: var(--shadow-2xl);
+            margin: var(--space-8) var(--space-4);
+        }
+        
+        .hero-container {
+            background: transparent;
+            border: none;
+            border-radius: var(--radius-xl);
+            padding: var(--space-8);
+        }
+        
+        .quick-action-card {
+            background: var(--lm-bg-secondary);
+            border: 1px solid var(--lm-border);
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-md);
+            transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+        
+        .quick-action-card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-xl);
+            border-color: var(--gold-primary);
+        }
+        
+        .field-card {
+            background: var(--lm-bg-secondary);
+            border: 1px solid var(--lm-border);
+            border-radius: var(--radius-md);
+            box-shadow: var(--shadow-md);
+            transition: all 0.3s ease;
+        }
+        
+        .field-card:hover {
+            transform: scale(1.02);
+            box-shadow: var(--shadow-xl);
+            border-color: var(--gold-primary);
+        }
+        
+        .btn-hero {
+            background: white;
+            color: var(--gold-primary);
+            border: none;
+            border-radius: var(--radius-full);
+            box-shadow: var(--shadow-md);
+            transition: all 0.3s ease;
+        }
+        
+        .btn-hero:hover {
+            background: var(--gold-50);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-lg);
+        }
+        
+        .section-header {
+            text-align: center;
+            margin-bottom: var(--space-8);
+        }
+        
+        .section-title {
+            font-size: var(--fs-3xl);
+            color: var(--gold-primary);
+            margin-bottom: var(--space-4);
+        }
+        
+        .section-desc {
+            font-size: var(--fs-lg);
+            color: var(--lm-text-secondary);
+        }
+    </style>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "EducationalOrganization",
+        "name": "LearnMap",
+        "alternateName": "ليرن ماب",
+        "url": "https://learnmap.jo",
+        "description": "منصة توجيهية شاملة لطلاب التوجيهي في الأردن",
+        "inLanguage": "ar-JO",
+        "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "JO",
+            "addressRegion": "الأردن"
+        },
+        "sameAs": [],
+        "offers": {
+            "@type": "Offer",
+            "category": "Educational Guidance",
+            "price": "0",
+            "priceCurrency": "JOD",
+            "description": "خدمات توجيهية مجانية لطلاب التوجيهي"
+        },
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "خدمات LearnMap",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "اختبار الميول المهنية",
+                        "description": "اختبار علمي لتحديد الميول المهنية والأكاديمية"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "دليل الجامعات الأردنية",
+                        "description": "قائمة شاملة بالجامعات الأردنية وتخصصاتها"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "فرص سوق العمل",
+                        "description": "تحليل سوق العمل والوظائف المطلوبة"
+                    }
+                }
+            ]
+        }
+    }
+    </script>
+    <noscript>
+        <style>
+            .js-dependent { display: none !important; }
+            .noscript-nav { 
+                display: block !important;
+                background: #f5f2ed;
+                padding: 1rem;
+                text-align: center;
+            }
+            .noscript-nav a {
+                color: #0b1926;
+                text-decoration: none;
+                margin: 0 1rem;
+                font-weight: 600;
+            }
+        </style>
+    </noscript>
+</head>
+<body>
+    <a href="#main-content" class="skip-link">تخطي إلى المحتوى الرئيسي</a>
+    <noscript>
+        <nav class="noscript-nav" aria-label="التنقل الرئيسي">
+            <a href="/">الرئيسية</a>
+            <a href="/fields-awareness/academic/health-field.html">المسارات الأكاديمية</a>
+            <a href="/fields-awareness/vocational/information-technology-vocational.html">المسارات المهنية</a>
+            <a href="/career-guidance/interest-test.html">اختبار الميول</a>
+            <a href="/career-guidance/universities-list.html">الجامعات</a>
+            <a href="/community/ministry-decisions.html">الأخبار</a>
+        </nav>
+    </noscript>
+    <div id="navbar" role="navigation" aria-label="القائمة الرئيسية">
+<div class="nav-overlay" id="navOverlay" aria-hidden="true"></div>
+<nav class="navbar" role="navigation" aria-label="القائمة الرئيسية">
+  <div class="nav-container">
+    <a href="/index.html" class="logo" aria-label="العودة للصفحة الرئيسية">
+      <img src="/logo.webp" alt="LearnMap Logo" class="logo-img" width="50" height="50" loading="eager">
+    </a>
+    <button class="hamburger" id="hamburger" type="button" aria-label="فتح القائمة" aria-expanded="false" aria-controls="navMenu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <ul class="nav-menu" id="navMenu" role="menubar">
+      <li class="has-submenu" role="none">
+        <a role="menuitem" aria-haspopup="true" aria-expanded="false">النظام التعليمي في الأردن</a>
+        <ul class="dropdown-menu" role="menu">
+          <li role="none"><a href="/fields-awareness/overview/BTEC-System-2025.html" role="menuitem">المسار المهني والتقني</a></li>
+          <li role="none"><a href="/fields-awareness/overview/jordanian-system-2025.html" role="menuitem">المسار الأكاديمي</a></li>
+          <li class="has-submenu" role="none">
+            <a role="menuitem" aria-haspopup="true" aria-expanded="false">تخصصات المسار الأكاديمي</a>
+            <ul class="dropdown-submenu" role="menu">
+              <li role="none"><a href="/fields-awareness/academic/science-and-technology-field.html" role="menuitem">الهندسة والعلوم والتكنولوجيا</a></li>
+              <li role="none"><a href="/fields-awareness/academic/health-field.html" role="menuitem">الصحي</a></li>
+              <li role="none"><a href="/fields-awareness/academic/business-and-management-field.html" role="menuitem">إدارة الأعمال</a></li>
+              <li role="none"><a href="/fields-awareness/academic/languages-and-social-studies.html" role="menuitem">اللغات والعلوم الانسانية والاجتماعية</a></li>
+            </ul>
+          </li>
+          <li class="has-submenu" role="none">
+            <a role="menuitem" aria-haspopup="true" aria-expanded="false">تخصصات المسار المهني</a>
+            <ul class="dropdown-submenu" role="menu">
+              <li role="none"><a href="/fields-awareness/vocational/engineering-vocational.html" role="menuitem">الهندسة</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/information-technology-vocational.html" role="menuitem">تكنولوجيا معلومات</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/hospitality-vocational.html" role="menuitem">الضيافة</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/hair-and-beauty-vocational.html" role="menuitem">الشعر والتجميل</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/construction-vocational.html" role="menuitem">البناء والإنشاءات</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/agriculture-vocational.html" role="menuitem">الزراعة</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/art-and-design-vocational.html" role="menuitem">الفن والتصميم</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/travel-and-tourism-vocational.html" role="menuitem">السفر والسياحة</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/business-and-management-vocational.html" role="menuitem">الأعمال</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/creative-media-vocational.html" role="menuitem">الوسائط الإبداعية</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/Healthcare-and-Social-Care-Vocational.html" role="menuitem">الرعاية الصحية والاجتماعية</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/sports-vocational.html" role="menuitem">الرياضة</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li class="has-submenu" role="none">
+        <a role="menuitem" aria-haspopup="true" aria-expanded="false">التوجيه المهني</a>
+        <ul class="dropdown-menu" role="menu">
+          <li role="none"><a href="/career-guidance/interest-test.html" role="menuitem">اختبار الميول والقدرات</a></li>
+          <li role="none"><a href="/career-guidance/university-matcher.html" role="menuitem">مطابقة الجامعات</a></li>
+          <li role="none"><a href="/career-guidance/field-test.html" role="menuitem">اختبار الجاهزية المهنية</a></li>
+          <li role="none"><a href="/career-guidance/skills-development.html" role="menuitem">تطوير المهارات</a></li>
+          <li role="none"><a href="/career-guidance/market-demand.html" role="menuitem">احتياجات السوق</a></li>
+          <li role="none"><a href="/career-guidance/universities-list.html" role="menuitem">دليل الجامعات</a></li>
+        </ul>
+      </li>
+      <li class="has-submenu" role="none">
+        <a role="menuitem" aria-haspopup="true" aria-expanded="false">الدعم النفسي</a>
+        <ul class="dropdown-menu" role="menu">
+          <li role="none"><a href="/psychological-support/time-management-tools.html" role="menuitem">إدارة الوقت</a></li>
+          <li role="none"><a href="/psychological-support/mindset-and-emotional-regulation.html" role="menuitem">العقلية والضبط النفسي</a></li>
+        </ul>
+      </li>
+      <li class="has-submenu" role="none">
+        <a role="menuitem" aria-haspopup="true" aria-expanded="false">الأخبار والمجتمع</a>
+        <ul class="dropdown-menu" role="menu">
+          <li role="none"><a href="/community/ministry-decisions.html" role="menuitem">قرارات الوزارة</a></li>
+          <li role="none"><a href="/career-guidance/faq.html" role="menuitem">الأسئلة الشائعة</a></li>
+        </ul>
+      </li>
+    </ul>
+    <div class="nav-buttons">
+      <div class="nav-account-section" id="navAccountSection">
+        <a href="/auth/login.html" class="nav-account-btn" id="navAccountBtn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+          <span id="navAccountText">حسابي</span>
+        </a>
+      </div>
+      <button id="darkModeToggle" class="btn-dark-mode" type="button" aria-label="تفعيل الوضع الليلي" aria-pressed="false">
+        <svg class="dm-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+    </div>
+    <script>
+    try {
+      var isLoggedIn = false;
+
+      function showLoggedIn(user) {
+        isLoggedIn = true;
+        var nameEl = document.getElementById('navAccountText');
+        if (nameEl && user.name) nameEl.textContent = user.name;
+        var btn = document.getElementById('navAccountBtn');
+        if (btn) btn.href = '/user/profile.html';
+      }
+
+      function showLoggedOut() {
+        isLoggedIn = false;
+        document.getElementById('navAccountText').textContent = 'حسابي';
+        var btn = document.getElementById('navAccountBtn');
+        if (btn) btn.href = '/auth/login.html';
+      }
+
+      function handleLogout() {
+        if (window.LearnMapAuth && window.LearnMapAuth.logout) {
+          window.LearnMapAuth.logout();
+        } else {
+          localStorage.removeItem('learnmap_token');
+          localStorage.removeItem('learnmap_user');
+          showLoggedOut();
+          window.location.href = '/index.html';
+        }
+      }
+
+      function updateNavAuth() {
+        var token = localStorage.getItem('learnmap_token');
+        var userData = localStorage.getItem('learnmap_user');
+        if (token && userData) {
+          try { showLoggedIn(JSON.parse(userData)); } catch(e) { showLoggedOut(); }
+        } else if (token) {
+          showLoggedIn({});
+        } else {
+          showLoggedOut();
+        }
+      }
+
+      function tryCheckAuth() {
+        if (window.LearnMapAuth && window.LearnMapAuth.checkAuth) {
+          window.LearnMapAuth.checkAuth().then(function(user) {
+            if (user) showLoggedIn(user);
+          }).catch(function() {});
+        } else {
+          setTimeout(tryCheckAuth, 100);
+        }
+      }
+
+      updateNavAuth();
+      tryCheckAuth();
+      window.addEventListener('storage', updateNavAuth);
+
+      (function() {
+        var path = window.location.pathname;
+        var links = document.querySelectorAll('.nav-menu a');
+        for (var i = 0; i < links.length; i++) {
+          var href = links[i].getAttribute('href');
+          if (href && path.indexOf(href) !== -1) {
+            links[i].setAttribute('aria-current', 'page');
+            break;
+          }
+        }
+      })();
+    } catch(e) {}
+    </script>
+  </div>
+</nav>
+    </div>
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="hero" id="home" aria-labelledby="hero-title">
+            <div class="hero-blob hero-blob-1" aria-hidden="true"></div>
+            <div class="hero-blob hero-blob-2" aria-hidden="true"></div>
+            <div class="hero-blob hero-blob-3" aria-hidden="true"></div>
+            <div class="hero-container">
+                <div class="hero-content">
+                    <span class="hero-badge"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="vertical-align:middle;margin-left:0.3rem"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/><line x1="4" y1="22" x2="4" y2="15"/></svg> منصة توجيهية أردنية</span>
+                    <h1 id="hero-title" class="hero-title">ازرع حلمك اليوم<br>لتحصده غداً بالنجاح</h1>
+                    <p class="hero-subtitle">دليلك الشامل لاختيار المسار الأكاديمي والمهني المناسب في الأردن</p>
+                    <div class="hero-buttons">
+                        <a href="/career-guidance/interest-test.html" class="btn-hero">ابدأ اختبار الميول <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="vertical-align:middle;margin-right:0.3rem"><polygon points="5 3 19 12 5 21 5 3"/></svg></a>
+                        <a href="/career-guidance/university-matcher.html" class="btn-hero btn-hero-gold"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="vertical-align:middle;margin-left:0.3rem"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg> مطابقة الجامعات</a>
+                        <a href="/career-guidance/field-test.html" class="btn-hero">اختبار الجاهزية المهنية</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="hero-img">
+                        <video width="100%" autoplay muted playsinline preload="metadata" poster="/images/hero-poster.png" aria-hidden="true" style="max-width:320px;border-radius:var(--radius-xl);">
+                            <source src="/images/hero-img.webm" type="video/webm">
+                        </video>
+                    </div>
+                    <div class="hero-stats-card">
+                        <div class="hero-stat">
+                            <span class="hero-stat-number">21</span>
+                            <span class="hero-stat-label">جامعة</span>
+                        </div>
+                        <div class="hero-stat">
+                            <span class="hero-stat-number">16</span>
+                            <span class="hero-stat-label">تخصص مهني</span>
+                        </div>
+                        <div class="hero-stat">
+                            <span class="hero-stat-number">4</span>
+                            <span class="hero-stat-label">مسارات أكاديمية</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quick Actions -->
+        <section class="quick-actions animate-on-scroll" aria-label="إجراءات سريعة">
+            <div class="container">
+                <div class="quick-actions-grid">
+                    <a href="/career-guidance/interest-test.html" class="quick-action-card">
+                        <span class="quick-action-icon" aria-hidden="true"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg></span>
+                        <span class="quick-action-title">اختبار الميول</span>
+                        <span class="quick-action-desc">اكتشف ميولك الأكاديمية</span>
+                    </a>
+                    <a href="/career-guidance/university-matcher.html" class="quick-action-card">
+                        <span class="quick-action-icon" aria-hidden="true"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg></span>
+                        <span class="quick-action-title">مطابقة الجامعات</span>
+                        <span class="quick-action-desc">جد أفضل جامعة لك</span>
+                    </a>
+                    <a href="/career-guidance/field-test.html" class="quick-action-card">
+                        <span class="quick-action-icon" aria-hidden="true"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg></span>
+                        <span class="quick-action-title">الجاهزية المهنية</span>
+                        <span class="quick-action-desc">هل أنت جاهز لسوق العمل؟</span>
+                    </a>
+                    <a href="/career-guidance/universities-list.html" class="quick-action-card">
+                        <span class="quick-action-icon" aria-hidden="true"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 1.1 2.7 2 6 2s6-.9 6-2v-5"/></svg></span>
+                        <span class="quick-action-title">دليل الجامعات</span>
+                        <span class="quick-action-desc">جميع الجامعات الأردنية</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <div class="section-divider" aria-hidden="true"></div>
+        <section class="awareness-section animate-on-scroll" id="awareness-academic" aria-labelledby="academic-title">
+            <div class="container">
+                <div class="section-header">
+                    <h2 id="academic-title" class="section-title">الحقول الأكاديمية</h2>
+                    <p class="section-desc">استكشف التخصصات الجامعية المتاحة في المسار الأكاديمي</p>
+                </div>
+                <div class="fields-grid" role="list">
+                    <article class="field-card" role="listitem">
+                        <div class="field-icon">
+                            <img src="/images/field-icon-1.webp" alt="" width="60" height="60" loading="lazy" decoding="async">
+                        </div>
+                        <h3>الصحي</h3>
+                        <a href="/fields-awareness/academic/health-field.html" class="btn-field">استكشف <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="vertical-align:middle;margin-right:0.2rem"><polygon points="19 3 5 12 19 21 19 3"/></svg></a>
+                    </article>
+                    <article class="field-card" role="listitem">
+                        <div class="field-icon">
+                            <img src="/images/field-icon-2.webp" alt="" width="60" height="60" loading="lazy" decoding="async">
+                        </div>
+                        <h3>الهندسة والعلوم والتكنولوجيا</h3>
+                        <a href="/fields-awareness/academic/science-and-technology-field.html" class="btn-field">استكشف <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="vertical-align:middle;margin-right:0.2rem"><polygon points="19 3 5 12 19 21 19 3"/></svg></a>
+                    </article>
+                    <article class="field-card" role="listitem">
+                        <div class="field-icon">
+                            <img src="/images/field-icon-5.webp" alt="" width="60" height="60" loading="lazy" decoding="async">
+                        </div>
+                        <h3>الأعمال</h3>
+                        <a href="/fields-awareness/academic/business-and-management-field.html" class="btn-field">استكشف <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="vertical-align:middle;margin-right:0.2rem"><polygon points="19 3 5 12 19 21 19 3"/></svg></a>
+                    </article>
+                    <article class="field-card" role="listitem">
+                        <div class="field-icon">
+                            <img src="/images/field-icon-6.webp" alt="" width="60" height="60" loading="lazy" decoding="async">
+                        </div>
+                        <h3>اللغات والعلوم الانسانية والاجتماعية</h3>
+                        <a href="/fields-awareness/academic/languages-and-social-studies.html" class="btn-field">استكشف <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="vertical-align:middle;margin-right:0.2rem"><polygon points="19 3 5 12 19 21 19 3"/></svg></a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+
+        <div class="section-divider" aria-hidden="true"></div>
+        <section class="hero btec-hero-section animate-on-scroll" id="btec" aria-labelledby="btec-title">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <span class="hero-badge"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="vertical-align:middle;margin-left:0.3rem"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg> مسار مهني وتقني</span>
+                    <h2 id="btec-title" class="hero-title">ما هو نظام التعليم المهني والتقني (BTEC)؟</h2>
+                    <p class="hero-subtitle">تعرف على نظام التعليم المهني والتقني في الأردن — بديل نوعي عن المسار الأكاديمي</p>
+                    <a href="/fields-awareness/overview/btec-system-2025.html" class="btn-hero">اكتشف نظام BTEC <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="vertical-align:middle;margin-right:0.3rem"><polygon points="5 3 19 12 5 21 5 3"/></svg></a>
+                </div>
+                <div class="hero-visual">
+                    <img src="/images/hero2-img.webp" alt="نظام BTEC التعليمي" class="hero-btec-img" loading="lazy" decoding="async">
+                </div>
+            </div>
+        </section>
+
+        <!-- Vocational Fields -->
+        <section class="awareness-section animate-on-scroll" id="awareness-btec" aria-labelledby="btec-fields-title">
+            <div class="container">
+                <div class="section-header">
+                    <h2 id="btec-fields-title" class="section-title">المسارات المهنية (التعليم المهني والتقني)</h2>
+                    <p class="section-desc">12 تخصصاً مهنياً وتقنياً متنوعاً لتناسب احتياجات سوق العمل</p>
+                </div>
+                <div class="fields-grid btec-fields-grid" role="list">
+                    <article class="field-card" role="listitem">
+                        <div class="field-icon">
+                            <img src="/images/field-icon-7.webp" alt="" width="60" height="60" loading="lazy" decoding="async">
+                        </div>
+                        <h3>تكنولوجيا المعلومات</h3>
+                        <a href="/fields-awareness/vocational/information-technology-vocational.html" class="btn-field">استكشف <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="vertical-align:middle;margin-right:0.2rem"><polygon points="19 3 5 12 19 21 19 3"/></svg></a>
+                    </article>
+                    <article class="field-card" role="listitem">
+                        <div class="field-icon">
+                            <img src="/images/field-icon-8.webp" alt="" width="60" height="60" loading="lazy" decoding="async">
+                        </div>
+                        <h3>الهندسة</h3>
+                        <a href="/fields-awareness/vocational/engineering-vocational.html" class="btn-field">استكشف <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="vertical-align:middle;margin-right:0.2rem"><polygon points="19 3 5 12 19 21 19 3"/></svg></a>
+                    </article>
+                    <article class="field-card" role="listitem">
+                        <div class="field-icon">
+                            <img src="/images/field-icon-9.webp" alt="" width="60" height="60" loading="lazy" decoding="async">
+                        </div>
+                        <h3>السفر والسياحة</h3>
+                        <a href="/fields-awareness/vocational/travel-and-tourism-vocational.html" class="btn-field">استكشف <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="vertical-align:middle;margin-right:0.2rem"><polygon points="19 3 5 12 19 21 19 3"/></svg></a>
+                    </article>
+                    <article class="field-card" role="listitem">
+                        <div class="field-icon">
+                            <img src="/images/field-icon-10.webp" alt="" width="60" height="60" loading="lazy" decoding="async">
+                        </div>
+                        <h3>الفن والتصميم</h3>
+                        <a href="/fields-awareness/vocational/art-and-design-vocational.html" class="btn-field">استكشف <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="vertical-align:middle;margin-right:0.2rem"><polygon points="19 3 5 12 19 21 19 3"/></svg></a>
+                    </article>
+                    <article class="field-card" role="listitem">
+                        <div class="field-icon">
+                            <img src="/images/field-icon-11.webp" alt="" width="60" height="60" loading="lazy" decoding="async">
+                        </div>
+                        <h3>الشعر والتجميل</h3>
+                        <a href="/fields-awareness/vocational/hair-and-beauty-vocational.html" class="btn-field">استكشف <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="vertical-align:middle;margin-right:0.2rem"><polygon points="19 3 5 12 19 21 19 3"/></svg></a>
+                    </article>
+                    <article class="field-card" role="listitem">
+                        <div class="field-icon">
+                            <img src="/images/field-icon-12.webp" alt="" width="60" height="60" loading="lazy" decoding="async">
+                        </div>
+                        <h3>الزراعة</h3>
+                        <a href="/fields-awareness/vocational/agriculture-vocational.html" class="btn-field">استكشف <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="vertical-align:middle;margin-right:0.2rem"><polygon points="19 3 5 12 19 21 19 3"/></svg></a>
+                    </article>
+                    <article class="field-card" role="listitem">
+                        <div class="field-icon">
+                            <img src="/images/field-icon-13.webp" alt="" width="60" height="60" loading="lazy" decoding="async">
+                        </div>
+                        <h3>الأعمال</h3>
+                        <a href="/fields-awareness/vocational/business-and-management-vocational.html" class="btn-field">استكشف <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="vertical-align:middle;margin-right:0.2rem"><polygon points="19 3 5 12 19 21 19 3"/></svg></a>
+                    </article>
+                    <article class="field-card" role="listitem">
+                        <div class="field-icon">
+                            <img src="/images/field-icon-14.webp" alt="" width="60" height="60" loading="lazy" decoding="async">
+                        </div>
+                        <h3>البناء والإنشاءات</h3>
+                        <a href="/fields-awareness/vocational/construction-vocational.html" class="btn-field">استكشف <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="vertical-align:middle;margin-right:0.2rem"><polygon points="19 3 5 12 19 21 19 3"/></svg></a>
+                    </article>
+                    <article class="field-card" role="listitem">
+                        <div class="field-icon">
+                            <img src="/images/field-icon-15.webp" alt="" width="60" height="60" loading="lazy" decoding="async">
+                        </div>
+                        <h3>الوسائط الإبداعية</h3>
+                        <a href="/fields-awareness/vocational/creative-media-vocational.html" class="btn-field">استكشف <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="vertical-align:middle;margin-right:0.2rem"><polygon points="19 3 5 12 19 21 19 3"/></svg></a>
+                    </article>
+                    <article class="field-card" role="listitem">
+                        <div class="field-icon">
+                            <img src="/images/field-icon-16.webp" alt="" width="60" height="60" loading="lazy" decoding="async">
+                        </div>
+                        <h3>الضيافة</h3>
+                        <a href="/fields-awareness/vocational/hospitality-vocational.html" class="btn-field">استكشف <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="vertical-align:middle;margin-right:0.2rem"><polygon points="19 3 5 12 19 21 19 3"/></svg></a>
+                    </article>
+                    <article class="field-card" role="listitem">
+                        <div class="field-icon">
+                            <img src="/images/field-icon-1.webp" alt="" width="60" height="60" loading="lazy" decoding="async">
+                        </div>
+                        <h3>الرعاية الصحية</h3>
+                        <a href="/fields-awareness/vocational/Healthcare-and-Social-Care-Vocational.html" class="btn-field">استكشف <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="vertical-align:middle;margin-right:0.2rem"><polygon points="19 3 5 12 19 21 19 3"/></svg></a>
+                    </article>
+                    <article class="field-card" role="listitem">
+                        <div class="field-icon">
+                            <img src="/images/field-icon-17.webp" alt="" width="60" height="60" loading="lazy" decoding="async">
+                        </div>
+                        <h3>الرياضة</h3>
+                        <a href="/fields-awareness/vocational/sports-vocational.html" class="btn-field">استكشف <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="vertical-align:middle;margin-right:0.2rem"><polygon points="19 3 5 12 19 21 19 3"/></svg></a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Market & Universities Section -->
+        <div class="section-transition" aria-hidden="true"></div>
+        <section class="universities-section animate-on-scroll" id="guide" aria-labelledby="market-title">
+            <div class="container">
+                <div class="section-header">
+                    <h2 id="market-title" class="section-title">سوق العمل والجامعات</h2>
+                    <p class="section-desc">تعرف على احتياجات سوق العمل واستكشف الجامعات الأردنية</p>
+                </div>
+                <div class="tabs-section">
+                    <div class="tabs-header">
+                        <button class="tab-btn active" data-tab="charts" role="tab" aria-selected="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="vertical-align:middle;margin-left:0.3rem"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg> سوق العمل</button>
+                        <button class="tab-btn" data-tab="map" role="tab" aria-selected="false"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="vertical-align:middle;margin-left:0.3rem"><polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"/><line x1="8" y1="2" x2="8" y2="18"/><line x1="16" y1="6" x2="16" y2="22"/></svg> خريطة الجامعات</button>
+                    </div>
+                    <div class="tab-content active" id="tab-charts" role="tabpanel">
+                        <div class="charts-row" role="region" aria-label="رسوم بيانية لسوق العمل">
+                            <iframe src="/components/charts.html" class="chart-frame" title="عدد الوظائف الشاغرة في الأردن" loading="lazy"></iframe>
+                            <iframe src="/components/chart2.html" class="chart-frame" title="القطاعات الأكثر طلباً للوظائف" loading="lazy"></iframe>
+                            <iframe src="/components/chart3.html" class="chart-frame" title="مستويات الأجور في الأردن" loading="lazy"></iframe>
+                        </div>
+                        <a href="/career-guidance/market-demand.html" class="btn-apply">عرض المزيد من التحليلات</a>
+                    </div>
+                    <div class="tab-content" id="tab-map" role="tabpanel">
+                        <div class="map-card-container">
+                            <iframe 
+                                src="/components/jordan-universities-map.html" 
+                                class="map-frame" 
+                                loading="lazy"
+                                title="خريطة الجامعات الأردنية"
+                            ></iframe>
+                        </div>
+                        <a href="/career-guidance/universities-list.html" class="btn-apply">عرض دليل الجامعات الكامل</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- News Section -->
+        <div class="section-divider" aria-hidden="true"></div>
+        <section class="news-section animate-on-scroll" id="news" aria-labelledby="news-title">
+            <div class="container">
+                <div class="section-header">
+                    <h2 id="news-title" class="section-title"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="vertical-align:middle;margin-left:0.3rem"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2zm0 0a2 2 0 0 1-2-2v-9a2 2 0 0 1 2-2h2"/><path d="M18 14h-8"/><path d="M15 18h-5"/><path d="M10 6h8v4h-8V6z"/></svg> الأخبار والتحديثات</h2>
+                    <p class="section-desc">آخر القرارات والتحديثات في النظام التعليمي الأردني</p>
+                </div>
+                <div class="news-grid" role="list">
+                    <a href="/decisions/bac-decision-213-2025.html" class="news-card" role="listitem">
+                        <div class="news-image">
+                            <div class="news-icon">
+                                <img src="/images/bac-icon.webp" alt="نظام البكالوريا" width="60" height="60" loading="lazy" decoding="async">
+                            </div>
+                        </div>
+                        <div class="news-content">
+                            <span class="news-category">قرار وزاري</span>
+                            <h3>نظام البكالوريا (القرار رقم 213 لسنة 2025)</h3>
+                            <div class="news-meta">
+                                <span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="vertical-align:middle;margin-left:0.2rem"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg> 3 سبتمبر 2025</span>
+                                <span class="news-tag">الجريدة الرسمية</span>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="/decisions/btec-expansion-2025.html" class="news-card" role="listitem">
+                        <div class="news-image">
+                            <div class="news-icon">
+                                <img src="/images/btec-icon.webp" alt="نظام التعليم المهني والتقني" width="60" height="60" loading="lazy" decoding="async">
+                            </div>
+                        </div>
+                        <div class="news-content">
+                            <span class="news-category">توسع</span>
+                            <h3>نظام التعليم المهني والتقني — 50 ألف مستفيد</h3>
+                            <div class="news-meta">
+                                <span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="vertical-align:middle;margin-left:0.2rem"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg> 15 سبتمبر 2025</span>
+                                <span class="news-tag">تعليم مهني</span>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="/decisions/new-tawjihi-curriculum-2025.html" class="news-card" role="listitem">
+                        <div class="news-image">
+                            <div class="news-icon">
+                                <img src="/images/tawjihi-icon.webp" alt="المنهج التوجيهي الجديد" width="60" height="60" loading="lazy" decoding="async">
+                            </div>
+                        </div>
+                        <div class="news-content">
+                            <span class="news-category">نظام جديد</span>
+                            <h3>الخطة الدراسية للتوجيهي الجديد</h3>
+                            <div class="news-meta">
+                                <span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="vertical-align:middle;margin-left:0.2rem"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg> طلبة الحادي عشر</span>
+                                <span class="news-tag">مسار أكاديمي</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <a href="/community/ministry-decisions.html" class="btn-apply">عرض جميع الأخبار</a>
+            </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <div id="footer" role="contentinfo" aria-label="تذييل الصفحة"></div>
+    <script>
+        fetch("/components/footer.html")
+            .then(res => res.text())
+            .then(data => document.getElementById("footer").innerHTML = data)
+            .catch(err => console.error('فشل تحميل التذييل:', err));
+    </script>
+    <!-- Floating Welcome Message (moved to CSS class-based styling) -->
+    <!-- Scripts (properly placed before </body>) -->
+    <script src="/dark-mode-controller.js" defer></script>
+    <script src="/components/mobile-menu.js" defer></script>
+    <script src="/slide.js" defer></script>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Tab switching
+        const tabBtns = document.querySelectorAll('.tab-btn');
+        const tabContents = document.querySelectorAll('.tab-content');
+        tabBtns.forEach(function(btn) {
+            btn.addEventListener('click', function() {
+                const target = this.getAttribute('data-tab');
+                tabBtns.forEach(function(b) { b.classList.remove('active'); b.setAttribute('aria-selected', 'false'); });
+                tabContents.forEach(function(c) { c.classList.remove('active'); });
+                this.classList.add('active');
+                this.setAttribute('aria-selected', 'true');
+                document.getElementById('tab-' + target).classList.add('active');
+            });
+        });
+        // Scroll-triggered animations
+        if ('IntersectionObserver' in window) {
+            const animEls = document.querySelectorAll('.animate-on-scroll');
+            const observer = new IntersectionObserver(function(entries) {
+                entries.forEach(function(entry) {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+            animEls.forEach(function(el) { observer.observe(el); });
+        } else {
+            document.querySelectorAll('.animate-on-scroll').forEach(function(el) { el.classList.add('visible'); });
+        }
+    });
+    </script>
+</body>
+</html>

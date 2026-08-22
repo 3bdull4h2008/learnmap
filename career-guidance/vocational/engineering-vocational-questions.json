@@ -1,0 +1,1102 @@
+[
+  {
+    "id": 1,
+    "text": "ما هو العلم الذي يهتم بتصميم وبناء وتشغيل الآلات والهياكل؟",
+    "subtitle": "الهندسة - أساسيات",
+    "options": [
+      {"id": "a", "text": "الفيزياء", "correct": false},
+      {"id": "b", "text": "الهندسة", "correct": true},
+      {"id": "c", "text": "الكيمياء", "correct": false},
+      {"id": "d", "text": "الرياضيات", "correct": false}
+    ]
+  },
+  {
+    "id": 2,
+    "text": "أي من هذه المواد يعتبر من المواد الموصلة للكهرباء؟",
+    "subtitle": "الهندسة الكهربائية - المواد",
+    "options": [
+      {"id": "a", "text": "النحاس", "correct": true},
+      {"id": "b", "text": "الخشب", "correct": false},
+      {"id": "c", "text": "البلاستيك", "correct": false},
+      {"id": "d", "text": "الزجاج", "correct": false}
+    ]
+  },
+  {
+    "id": 3,
+    "text": "ما هو الجهاز المستخدم لقياس الجهد الكهربائي؟",
+    "subtitle": "الهندسة الكهربائية - أدوات القياس",
+    "options": [
+      {"id": "a", "text": "الأميتر", "correct": false},
+      {"id": "b", "text": "الفولتميتر", "correct": true},
+      {"id": "c", "text": "الأوميتر", "correct": false},
+      {"id": "d", "text": "الواطميتر", "correct": false}
+    ]
+  },
+  {
+    "id": 4,
+    "text": "ما هي الوحدة الأساسية لقياس التيار الكهربائي؟",
+    "subtitle": "الهندسة الكهربائية - الوحدات",
+    "options": [
+      {"id": "a", "text": "الفولت", "correct": false},
+      {"id": "b", "text": "الأمبير", "correct": true},
+      {"id": "c", "text": "الأوم", "correct": false},
+      {"id": "d", "text": "الواط", "correct": false}
+    ]
+  },
+  {
+    "id": 5,
+    "text": "أي من هذه الأنظمة يستخدم في نقل الحركة في الآلات؟",
+    "subtitle": "الهندسة الميكانيكية - أنظمة نقل الحركة",
+    "options": [
+      {"id": "a", "text": "التروس", "correct": true},
+      {"id": "b", "text": "الأسلاك", "correct": false},
+      {"id": "c", "text": "الأنابيب", "correct": false},
+      {"id": "d", "text": "الدوائر", "correct": false}
+    ]
+  },
+  {
+    "id": 6,
+    "text": "ما هو نوع اللحام الذي يستخدم غاز الأرجون؟",
+    "subtitle": "الهندسة - عمليات التصنيع",
+    "options": [
+      {"id": "a", "text": "لحام القوس الكهربائي", "correct": false},
+      {"id": "b", "text": "لحام الأرجون", "correct": true},
+      {"id": "c", "text": "لحام الأوكسيأسيتلين", "correct": false},
+      {"id": "d", "text": "لحام النقطة", "correct": false}
+    ]
+  },
+  {
+    "id": 7,
+    "text": "ما هو الجهاز المستخدم لقياس الأبعاد بدقة عالية؟",
+    "subtitle": "الهندسة - أدوات القياس",
+    "options": [
+      {"id": "a", "text": "المسطرة", "correct": false},
+      {"id": "b", "text": "الفرجار", "correct": true},
+      {"id": "c", "text": "الشريط المتري", "correct": false},
+      {"id": "d", "text": "الميزان المائي", "correct": false}
+    ]
+  },
+  {
+    "id": 8,
+    "text": "أي من هذه المواد يعتبر من المواد العازلة للحرارة؟",
+    "subtitle": "الهندسة - المواد",
+    "options": [
+      {"id": "a", "text": "الصوف الصخري", "correct": true},
+      {"id": "b", "text": "النحاس", "correct": false},
+      {"id": "c", "text": "الألمنيوم", "correct": false},
+      {"id": "d", "text": "الحديد", "correct": false}
+    ]
+  },
+  {
+    "id": 9,
+    "text": "ما هو القانون الذي يربط بين الجهد والتيار والمقاومة؟",
+    "subtitle": "الهندسة الكهربائية - القوانين",
+    "options": [
+      {"id": "a", "text": "قانون أوم", "correct": true},
+      {"id": "b", "text": "قانون نيوتن", "correct": false},
+      {"id": "c", "text": "قانون كيرشوف", "correct": false},
+      {"id": "d", "text": "قانون فاراداي", "correct": false}
+    ]
+  },
+  {
+    "id": 10,
+    "text": "ما هو نوع المحرك الذي يعمل بالبنزين؟",
+    "subtitle": "الهندسة الميكانيكية - المحركات",
+    "options": [
+      {"id": "a", "text": "المحرك الكهربائي", "correct": false},
+      {"id": "b", "text": "محرك الاحتراق الداخلي", "correct": true},
+      {"id": "c", "text": "المحرك البخاري", "correct": false},
+      {"id": "d", "text": "المحرك الهيدروليكي", "correct": false}
+    ]
+  },
+  {
+    "id": 11,
+    "text": "أي من هذه الأدوات يستخدم في قطع المعادن؟",
+    "subtitle": "الهندسة - أدوات القطع",
+    "options": [
+      {"id": "a", "text": "منشار المعادن", "correct": true},
+      {"id": "b", "text": "المقص", "correct": false},
+      {"id": "c", "text": "السكين", "correct": false},
+      {"id": "d", "text": "المبرد", "correct": false}
+    ]
+  },
+  {
+    "id": 12,
+    "text": "ما هو الجهاز المستخدم لقياس سرعة الدوران؟",
+    "subtitle": "الهندسة الميكانيكية - أدوات القياس",
+    "options": [
+      {"id": "a", "text": "العداد", "correct": false},
+      {"id": "b", "text": "الترمومتر", "correct": false},
+      {"id": "c", "text": "التابومتر", "correct": true},
+      {"id": "d", "text": "المانومتر", "correct": false}
+    ]
+  },
+  {
+    "id": 13,
+    "text": "ما هي الوحدة الأساسية لقياس القوة؟",
+    "subtitle": "الهندسة الميكانيكية - الوحدات",
+    "options": [
+      {"id": "a", "text": "الجول", "correct": false},
+      {"id": "b", "text": "النيوتن", "correct": true},
+      {"id": "c", "text": "الواط", "correct": false},
+      {"id": "d", "text": "الباسكال", "correct": false}
+    ]
+  },
+  {
+    "id": 14,
+    "text": "أي من هذه الأنظمة يستخدم في التحكم الآلي؟",
+    "subtitle": "الهندسة - الأنظمة",
+    "options": [
+      {"id": "a", "text": "النظام الهيدروليكي", "correct": false},
+      {"id": "b", "text": "النظام البنيوماتي", "correct": false},
+      {"id": "c", "text": "نظام التحكم الإلكتروني", "correct": true},
+      {"id": "d", "text": "جميع ما سبق", "correct": false}
+    ]
+  },
+  {
+    "id": 15,
+    "text": "ما هو نوع اللحام الذي يستخدم في وصل الأنابيب؟",
+    "subtitle": "الهندسة - عمليات التصنيع",
+    "options": [
+      {"id": "a", "text": "لحام الغاز", "correct": true},
+      {"id": "b", "text": "لحام القوس", "correct": false},
+      {"id": "c", "text": "لحام النقطة", "correct": false},
+      {"id": "d", "text": "لحام الاحتكاك", "correct": false}
+    ]
+  },
+  {
+    "id": 16,
+    "text": "ما هو الجهاز المستخدم لقياس الضغط؟",
+    "subtitle": "الهندسة - أدوات القياس",
+    "options": [
+      {"id": "a", "text": "المانومتر", "correct": true},
+      {"id": "b", "text": "الترمومتر", "correct": false},
+      {"id": "c", "text": "الفوتميتر", "correct": false},
+      {"id": "d", "text": "الاميتر", "correct": false}
+    ]
+  },
+  {
+    "id": 17,
+    "text": "أي من هذه المواد يعتبر من المواد المقاومة للتآكل؟",
+    "subtitle": "الهندسة - المواد",
+    "options": [
+      {"id": "a", "text": "الستانلس ستيل", "correct": true},
+      {"id": "b", "text": "الحديد", "correct": false},
+      {"id": "c", "text": "النحاس", "correct": false},
+      {"id": "d", "text": "الألمنيوم", "correct": false}
+    ]
+  },
+  {
+    "id": 18,
+    "text": "ما هو نوع المحرك الذي يحول الطاقة الكهربائية إلى حركية؟",
+    "subtitle": "الهندسة الكهربائية - المحركات",
+    "options": [
+      {"id": "a", "text": "المحرك الكهربائي", "correct": true},
+      {"id": "b", "text": "محرك الاحتراق", "correct": false},
+      {"id": "c", "text": "المحرك البخاري", "correct": false},
+      {"id": "d", "text": "المحرك الهيدروليكي", "correct": false}
+    ]
+  },
+  {
+    "id": 19,
+    "text": "ما هو الجهاز المستخدم في قياس درجة الحرارة؟",
+    "subtitle": "الهندسة - أدوات القياس",
+    "options": [
+      {"id": "a", "text": "الترمومتر", "correct": true},
+      {"id": "b", "text": "المانومتر", "correct": false},
+      {"id": "c", "text": "الفوتميتر", "correct": false},
+      {"id": "d", "text": "الاميتر", "correct": false}
+    ]
+  },
+  {
+    "id": 20,
+    "text": "أي من هذه العمليات تستخدم في تشكيل المعادن؟",
+    "subtitle": "الهندسة - عمليات التصنيع",
+    "options": [
+      {"id": "a", "text": "الخراطة", "correct": false},
+      {"id": "b", "text": "الحدادة", "correct": false},
+      {"id": "c", "text": "السباكة", "correct": false},
+      {"id": "d", "text": "جميع ما سبق", "correct": true}
+    ]
+  },
+  {
+    "id": 21,
+    "text": "ما هو نوع التروس المستخدم في تغيير اتجاه الدوران؟",
+    "subtitle": "الهندسة الميكانيكية - التروس",
+    "options": [
+      {"id": "a", "text": "التروس المستقيمة", "correct": false},
+      {"id": "b", "text": "التروس المخروطية", "correct": true},
+      {"id": "c", "text": "التروس الحلزونية", "correct": false},
+      {"id": "d", "text": "التروس الدودية", "correct": false}
+    ]
+  },
+  {
+    "id": 22,
+    "text": "ما هو الجهاز المستخدم في قياس الاستطاعة الكهربائية؟",
+    "subtitle": "الهندسة الكهربائية - أدوات القياس",
+    "options": [
+      {"id": "a", "text": "الواطميتر", "correct": true},
+      {"id": "b", "text": "الاميتر", "correct": false},
+      {"id": "c", "text": "الفوتميتر", "correct": false},
+      {"id": "d", "text": "الاوميتر", "correct": false}
+    ]
+  },
+  {
+    "id": 23,
+    "text": "أي من هذه المواد يستخدم في صناعة الأسلاك الكهربائية؟",
+    "subtitle": "الهندسة الكهربائية - المواد",
+    "options": [
+      {"id": "a", "text": "النحاس", "correct": true},
+      {"id": "b", "text": "الحديد", "correct": false},
+      {"id": "c", "text": "الألمنيوم", "correct": false},
+      {"id": "d", "text": "الفضة", "correct": false}
+    ]
+  },
+  {
+    "id": 24,
+    "text": "ما هو نوع اللحام الذي يستخدم في صناعة السيارات؟",
+    "subtitle": "الهندسة - عمليات التصنيع",
+    "options": [
+      {"id": "a", "text": "لحام النقطة", "correct": true},
+      {"id": "b", "text": "لحام الغاز", "correct": false},
+      {"id": "c", "text": "لحام القوس", "correct": false},
+      {"id": "d", "text": "لحام الأرجون", "correct": false}
+    ]
+  },
+  {
+    "id": 25,
+    "text": "ما هو الجهاز المستخدم في قياس مستوى السوائل؟",
+    "subtitle": "الهندسة - أدوات القياس",
+    "options": [
+      {"id": "a", "text": "الميزان المائي", "correct": false},
+      {"id": "b", "text": "مقياس المستوى", "correct": true},
+      {"id": "c", "text": "المانومتر", "correct": false},
+      {"id": "d", "text": "الترمومتر", "correct": false}
+    ]
+  },
+  {
+    "id": 26,
+    "text": "أي من هذه الأنظمة يستخدم في نقل الطاقة بالسوائل؟",
+    "subtitle": "الهندسة الميكانيكية - الأنظمة",
+    "options": [
+      {"id": "a", "text": "النظام الهيدروليكي", "correct": true},
+      {"id": "b", "text": "النظام البنيوماتي", "correct": false},
+      {"id": "c", "text": "نظام التروس", "correct": false},
+      {"id": "d", "text": "نظام الأحزمة", "correct": false}
+    ]
+  },
+  {
+    "id": 27,
+    "text": "ما هو نوع المحرك المستخدم في الطائرات النفاثة؟",
+    "subtitle": "الهندسة الميكانيكية - المحركات",
+    "options": [
+      {"id": "a", "text": "محرك المكبس", "correct": false},
+      {"id": "b", "text": "المحرك النفاث", "correct": true},
+      {"id": "c", "text": "المحرك الكهربائي", "correct": false},
+      {"id": "d", "text": "المحرك البخاري", "correct": false}
+    ]
+  },
+  {
+    "id": 28,
+    "text": "ما هو الجهاز المستخدم في قياس الاهتزازات؟",
+    "subtitle": "الهندسة الميكانيكية - أدوات القياس",
+    "options": [
+      {"id": "a", "text": "مقياس الاهتزاز", "correct": true},
+      {"id": "b", "text": "المانومتر", "correct": false},
+      {"id": "c", "text": "الترمومتر", "correct": false},
+      {"id": "d", "text": "التابومتر", "correct": false}
+    ]
+  },
+  {
+    "id": 29,
+    "text": "أي من هذه المواد يستخدم في صناعة المحركات؟",
+    "subtitle": "الهندسة - المواد",
+    "options": [
+      {"id": "a", "text": "الحديد الزهر", "correct": true},
+      {"id": "b", "text": "الخشب", "correct": false},
+      {"id": "c", "text": "البلاستيك", "correct": false},
+      {"id": "d", "text": "الزجاج", "correct": false}
+    ]
+  },
+  {
+    "id": 30,
+    "text": "ما هو نوع اللحام الذي يستخدم في صناعة السفن؟",
+    "subtitle": "الهندسة - عمليات التصنيع",
+    "options": [
+      {"id": "a", "text": "لحام القوس الكهربائي", "correct": true},
+      {"id": "b", "text": "لحام النقطة", "correct": false},
+      {"id": "c", "text": "لحام الغاز", "correct": false},
+      {"id": "d", "text": "لحام الأرجون", "correct": false}
+    ]
+  },
+  {
+    "id": 31,
+    "text": "ما هو الجهاز المستخدم في قياس التدفق؟",
+    "subtitle": "الهندسة - أدوات القياس",
+    "options": [
+      {"id": "a", "text": "مقياس التدفق", "correct": true},
+      {"id": "b", "text": "المانومتر", "correct": false},
+      {"id": "c", "text": "الترمومتر", "correct": false},
+      {"id": "d", "text": "الفوتميتر", "correct": false}
+    ]
+  },
+  {
+    "id": 32,
+    "text": "أي من هذه الأنظمة يستخدم في التحكم بالضغط؟",
+    "subtitle": "الهندسة - الأنظمة",
+    "options": [
+      {"id": "a", "text": "الصمامات", "correct": true},
+      {"id": "b", "text": "التروس", "correct": false},
+      {"id": "c", "text": "الأحزمة", "correct": false},
+      {"id": "d", "text": "السلاسل", "correct": false}
+    ]
+  },
+  {
+    "id": 33,
+    "text": "ما هو نوع المحرك المستخدم في الغسالات؟",
+    "subtitle": "الهندسة الكهربائية - المحركات",
+    "options": [
+      {"id": "a", "text": "المحرك الكهربائي", "correct": true},
+      {"id": "b", "text": "محرك الاحتراق", "correct": false},
+      {"id": "c", "text": "المحرك البخاري", "correct": false},
+      {"id": "d", "text": "المحرك الهيدروليكي", "correct": false}
+    ]
+  },
+  {
+    "id": 34,
+    "text": "ما هو الجهاز المستخدم في قياس الصوت؟",
+    "subtitle": "الهندسة - أدوات القياس",
+    "options": [
+      {"id": "a", "text": "مقياس الصوت", "correct": true},
+      {"id": "b", "text": "المانومتر", "correct": false},
+      {"id": "c", "text": "الترمومتر", "correct": false},
+      {"id": "d", "text": "الفوتميتر", "correct": false}
+    ]
+  },
+  {
+    "id": 35,
+    "text": "أي من هذه المواد يستخدم في صناعة التروس؟",
+    "subtitle": "الهندسة - المواد",
+    "options": [
+      {"id": "a", "text": "الفولاذ", "correct": true},
+      {"id": "b", "text": "الخشب", "correct": false},
+      {"id": "c", "text": "البلاستيك", "correct": false},
+      {"id": "d", "text": "الزجاج", "correct": false}
+    ]
+  },
+  {
+    "id": 36,
+    "text": "ما هو نوع اللحام الذي يستخدم في صناعة الطائرات؟",
+    "subtitle": "الهندسة - عمليات التصنيع",
+    "options": [
+      {"id": "a", "text": "لحام الأرجون", "correct": true},
+      {"id": "b", "text": "لحام النقطة", "correct": false},
+      {"id": "c", "text": "لحام الغاز", "correct": false},
+      {"id": "d", "text": "لحام القوس", "correct": false}
+    ]
+  },
+  {
+    "id": 37,
+    "text": "ما هو الجهاز المستخدم في قياس الرطوبة؟",
+    "subtitle": "الهندسة - أدوات القياس",
+    "options": [
+      {"id": "a", "text": "الهيجرومتر", "correct": true},
+      {"id": "b", "text": "المانومتر", "correct": false},
+      {"id": "c", "text": "الترمومتر", "correct": false},
+      {"id": "d", "text": "الفوتميتر", "correct": false}
+    ]
+  },
+  {
+    "id": 38,
+    "text": "أي من هذه الأنظمة يستخدم في نقل الطاقة بالهواء؟",
+    "subtitle": "الهندسة الميكانيكية - الأنظمة",
+    "options": [
+      {"id": "a", "text": "النظام البنيوماتي", "correct": true},
+      {"id": "b", "text": "النظام الهيدروليكي", "correct": false},
+      {"id": "c", "text": "نظام التروس", "correct": false},
+      {"id": "d", "text": "نظام الأحزمة", "correct": false}
+    ]
+  },
+  {
+    "id": 39,
+    "text": "ما هو نوع المحرك المستخدم في القطارات؟",
+    "subtitle": "الهندسة الكهربائية - المحركات",
+    "options": [
+      {"id": "a", "text": "المحرك الكهربائي", "correct": true},
+      {"id": "b", "text": "محرك الاحتراق", "correct": false},
+      {"id": "c", "text": "المحرك البخاري", "correct": false},
+      {"id": "d", "text": "المحرك الهيدروليكي", "correct": false}
+    ]
+  },
+  {
+    "id": 40,
+    "text": "ما هو الجهاز المستخدم في قياس الضوء؟",
+    "subtitle": "الهندسة - أدوات القياس",
+    "options": [
+      {"id": "a", "text": "مقياس الضوء", "correct": true},
+      {"id": "b", "text": "المانومتر", "correct": false},
+      {"id": "c", "text": "الترمومتر", "correct": false},
+      {"id": "d", "text": "الفوتميتر", "correct": false}
+    ]
+  },
+  {
+    "id": 41,
+    "text": "أي من هذه المواد يستخدم في صناعة المحولات؟",
+    "subtitle": "الهندسة الكهربائية - المواد",
+    "options": [
+      {"id": "a", "text": "الحديد السيليكوني", "correct": true},
+      {"id": "b", "text": "الخشب", "correct": false},
+      {"id": "c", "text": "البلاستيك", "correct": false},
+      {"id": "d", "text": "الزجاج", "correct": false}
+    ]
+  },
+  {
+    "id": 42,
+    "text": "ما هو نوع اللحام الذي يستخدم في صناعة الجسور؟",
+    "subtitle": "الهندسة - عمليات التصنيع",
+    "options": [
+      {"id": "a", "text": "لحام القوس الكهربائي", "correct": true},
+      {"id": "b", "text": "لحام النقطة", "correct": false},
+      {"id": "c", "text": "لحام الغاز", "correct": false},
+      {"id": "d", "text": "لحام الأرجون", "correct": false}
+    ]
+  },
+  {
+    "id": 43,
+    "text": "ما هو الجهاز المستخدم في قياس التسارع؟",
+    "subtitle": "الهندسة الميكانيكية - أدوات القياس",
+    "options": [
+      {"id": "a", "text": "مقياس التسارع", "correct": true},
+      {"id": "b", "text": "المانومتر", "correct": false},
+      {"id": "c", "text": "الترمومتر", "correct": false},
+      {"id": "d", "text": "الفوتميتر", "correct": false}
+    ]
+  },
+  {
+    "id": 44,
+    "text": "أي من هذه الأنظمة يستخدم في التحكم بالسرعة؟",
+    "subtitle": "الهندسة - الأنظمة",
+    "options": [
+      {"id": "a", "text": "نظام التحكم الإلكتروني", "correct": true},
+      {"id": "b", "text": "النظام الهيدروليكي", "correct": false},
+      {"id": "c", "text": "النظام البنيوماتي", "correct": false},
+      {"id": "d", "text": "نظام التروس", "correct": false}
+    ]
+  },
+  {
+    "id": 45,
+    "text": "ما هو نوع المحرك المستخدم في السيارات الهجينة؟",
+    "subtitle": "الهندسة - المحركات",
+    "options": [
+      {"id": "a", "text": "المحرك الكهربائي ومحرك الاحتراق", "correct": true},
+      {"id": "b", "text": "المحرك البخاري", "correct": false},
+      {"id": "c", "text": "المحرك الهيدروليكي", "correct": false},
+      {"id": "d", "text": "المحرك النفاث", "correct": false}
+    ]
+  },
+  {
+    "id": 46,
+    "text": "ما هو الجهاز المستخدم في قياس اللزوجة؟",
+    "subtitle": "الهندسة - أدوات القياس",
+    "options": [
+      {"id": "a", "text": "مقياس اللزوجة", "correct": true},
+      {"id": "b", "text": "المانومتر", "correct": false},
+      {"id": "c", "text": "الترمومتر", "correct": false},
+      {"id": "d", "text": "الفوتميتر", "correct": false}
+    ]
+  },
+  {
+    "id": 47,
+    "text": "أي من هذه المواد يستخدم في صناعة المكثفات؟",
+    "subtitle": "الهندسة الكهربائية - المواد",
+    "options": [
+      {"id": "a", "text": "السيراميك", "correct": true},
+      {"id": "b", "text": "الخشب", "correct": false},
+      {"id": "c", "text": "البلاستيك", "correct": false},
+      {"id": "d", "text": "الزجاج", "correct": false}
+    ]
+  },
+  {
+    "id": 48,
+    "text": "ما هو نوع اللحام الذي يستخدم في صناعة الأنابيب؟",
+    "subtitle": "الهندسة - عمليات التصنيع",
+    "options": [
+      {"id": "a", "text": "لحام الغاز", "correct": true},
+      {"id": "b", "text": "لحام النقطة", "correct": false},
+      {"id": "c", "text": "لحام القوس", "correct": false},
+      {"id": "d", "text": "لحام الأرجون", "correct": false}
+    ]
+  },
+  {
+    "id": 49,
+    "text": "ما هو الجهاز المستخدم في قياس العزم؟",
+    "subtitle": "الهندسة الميكانيكية - أدوات القياس",
+    "options": [
+      {"id": "a", "text": "مقياس العزم", "correct": true},
+      {"id": "b", "text": "المانومتر", "correct": false},
+      {"id": "c", "text": "الترمومتر", "correct": false},
+      {"id": "d", "text": "الفوتميتر", "correct": false}
+    ]
+  },
+  {
+    "id": 50,
+    "text": "أي من هذه الأنظمة يستخدم في التحكم بالتدفق؟",
+    "subtitle": "الهندسة - الأنظمة",
+    "options": [
+      {"id": "a", "text": "الصمامات", "correct": true},
+      {"id": "b", "text": "التروس", "correct": false},
+      {"id": "c", "text": "الأحزمة", "correct": false},
+      {"id": "d", "text": "السلاسل", "correct": false}
+    ]
+  },
+  {
+    "id": 51,
+    "text": "ما هو نوع المحرك المستخدم في الغواصات؟",
+    "subtitle": "الهندسة - المحركات",
+    "options": [
+      {"id": "a", "text": "المحرك الكهربائي", "correct": true},
+      {"id": "b", "text": "محرك الاحتراق", "correct": false},
+      {"id": "c", "text": "المحرك البخاري", "correct": false},
+      {"id": "d", "text": "المحرك الهيدروليكي", "correct": false}
+    ]
+  },
+  {
+    "id": 52,
+    "text": "ما هو الجهاز المستخدم في قياس الشد؟",
+    "subtitle": "الهندسة - أدوات القياس",
+    "options": [
+      {"id": "a", "text": "مقياس الشد", "correct": true},
+      {"id": "b", "text": "المانومتر", "correct": false},
+      {"id": "c", "text": "الترمومتر", "correct": false},
+      {"id": "d", "text": "الفوتميتر", "correct": false}
+    ]
+  },
+  {
+    "id": 53,
+    "text": "أي من هذه المواد يستخدم في صناعة المبادلات الحرارية؟",
+    "subtitle": "الهندسة - المواد",
+    "options": [
+      {"id": "a", "text": "النحاس", "correct": true},
+      {"id": "b", "text": "الخشب", "correct": false},
+      {"id": "c", "text": "البلاستيك", "correct": false},
+      {"id": "d", "text": "الزجاج", "correct": false}
+    ]
+  },
+  {
+    "id": 54,
+    "text": "ما هو نوع اللحام الذي يستخدم في صناعة الخزانات؟",
+    "subtitle": "الهندسة - عمليات التصنيع",
+    "options": [
+      {"id": "a", "text": "لحام القوس الكهربائي", "correct": true},
+      {"id": "b", "text": "لحام النقطة", "correct": false},
+      {"id": "c", "text": "لحام الغاز", "correct": false},
+      {"id": "d", "text": "لحام الأرجون", "correct": false}
+    ]
+  },
+  {
+    "id": 55,
+    "text": "ما هو الجهاز المستخدم في قياس الصلادة؟",
+    "subtitle": "الهندسة - أدوات القياس",
+    "options": [
+      {"id": "a", "text": "مقياس الصلادة", "correct": true},
+      {"id": "b", "text": "المانومتر", "correct": false},
+      {"id": "c", "text": "الترمومتر", "correct": false},
+      {"id": "d", "text": "الفوتميتر", "correct": false}
+    ]
+  },
+  {
+    "id": 56,
+    "text": "أي من هذه الأنظمة يستخدم في التحكم بالحرارة؟",
+    "subtitle": "الهندسة - الأنظمة",
+    "options": [
+      {"id": "a", "text": "نظام التحكم الحراري", "correct": true},
+      {"id": "b", "text": "النظام الهيدروليكي", "correct": false},
+      {"id": "c", "text": "النظام البنيوماتي", "correct": false},
+      {"id": "d", "text": "نظام التروس", "correct": false}
+    ]
+  },
+  {
+    "id": 57,
+    "text": "ما هو نوع المحرك المستخدم في المراوح؟",
+    "subtitle": "الهندسة الكهربائية - المحركات",
+    "options": [
+      {"id": "a", "text": "المحرك الكهربائي", "correct": true},
+      {"id": "b", "text": "محرك الاحتراق", "correct": false},
+      {"id": "c", "text": "المحرك البخاري", "correct": false},
+      {"id": "d", "text": "المحرك الهيدروليكي", "correct": false}
+    ]
+  },
+  {
+    "id": 58,
+    "text": "ما هو الجهاز المستخدم في قياس الكثافة؟",
+    "subtitle": "الهندسة - أدوات القياس",
+    "options": [
+      {"id": "a", "text": "مقياس الكثافة", "correct": true},
+      {"id": "b", "text": "المانومتر", "correct": false},
+      {"id": "c", "text": "الترمومتر", "correct": false},
+      {"id": "d", "text": "الفوتميتر", "correct": false}
+    ]
+  },
+  {
+    "id": 59,
+    "text": "أي من هذه المواد يستخدم في صناعة العوازل؟",
+    "subtitle": "الهندسة الكهربائية - المواد",
+    "options": [
+      {"id": "a", "text": "البورسلين", "correct": true},
+      {"id": "b", "text": "الحديد", "correct": false},
+      {"id": "c", "text": "النحاس", "correct": false},
+      {"id": "d", "text": "الألمنيوم", "correct": false}
+    ]
+  },
+  {
+    "id": 60,
+    "text": "ما هو نوع اللحام الذي يستخدم في صناعة الأثاث المعدني؟",
+    "subtitle": "الهندسة - عمليات التصنيع",
+    "options": [
+      {"id": "a", "text": "لحام الغاز", "correct": true},
+      {"id": "b", "text": "لحام النقطة", "correct": false},
+      {"id": "c", "text": "لحام القوس", "correct": false},
+      {"id": "d", "text": "لحام الأرجون", "correct": false}
+    ]
+  },
+  {
+    "id": 61,
+    "text": "ما هو الجهاز المستخدم في قياس التردد؟",
+    "subtitle": "الهندسة الكهربائية - أدوات القياس",
+    "options": [
+      {"id": "a", "text": "مقياس التردد", "correct": true},
+      {"id": "b", "text": "المانومتر", "correct": false},
+      {"id": "c", "text": "الترمومتر", "correct": false},
+      {"id": "d", "text": "الفوتميتر", "correct": false}
+    ]
+  },
+  {
+    "id": 62,
+    "text": "أي من هذه الأنظمة يستخدم في التحكم بالموقع؟",
+    "subtitle": "الهندسة - الأنظمة",
+    "options": [
+      {"id": "a", "text": "نظام التحكم الإلكتروني", "correct": true},
+      {"id": "b", "text": "النظام الهيدروليكي", "correct": false},
+      {"id": "c", "text": "النظام البنيوماتي", "correct": false},
+      {"id": "d", "text": "نظام التروس", "correct": false}
+    ]
+  },
+  {
+    "id": 63,
+    "text": "ما هو نوع المحرك المستخدم في المصاعد؟",
+    "subtitle": "الهندسة الكهربائية - المحركات",
+    "options": [
+      {"id": "a", "text": "المحرك الكهربائي", "correct": true},
+      {"id": "b", "text": "محرك الاحتراق", "correct": false},
+      {"id": "c", "text": "المحرك البخاري", "correct": false},
+      {"id": "d", "text": "المحرك الهيدروليكي", "correct": false}
+    ]
+  },
+  {
+    "id": 64,
+    "text": "ما هو الجهاز المستخدم في قياس الإشعاع؟",
+    "subtitle": "الهندسة - أدوات القياس",
+    "options": [
+      {"id": "a", "text": "مقياس الإشعاع", "correct": true},
+      {"id": "b", "text": "المانومتر", "correct": false},
+      {"id": "c", "text": "الترمومتر", "correct": false},
+      {"id": "d", "text": "الفوتميتر", "correct": false}
+    ]
+  },
+  {
+    "id": 65,
+    "text": "أي من هذه المواد يستخدم في صناعة المحركات النفاثة؟",
+    "subtitle": "الهندسة - المواد",
+    "options": [
+      {"id": "a", "text": "سبائك التيتانيوم", "correct": true},
+      {"id": "b", "text": "الخشب", "correct": false},
+      {"id": "c", "text": "البلاستيك", "correct": false},
+      {"id": "d", "text": "الزجاج", "correct": false}
+    ]
+  },
+  {
+    "id": 66,
+    "text": "ما هو نوع اللحام الذي يستخدم في صناعة الدراجات؟",
+    "subtitle": "الهندسة - عمليات التصنيع",
+    "options": [
+      {"id": "a", "text": "لحام الغاز", "correct": true},
+      {"id": "b", "text": "لحام النقطة", "correct": false},
+      {"id": "c", "text": "لحام القوس", "correct": false},
+      {"id": "d", "text": "لحام الأرجون", "correct": false}
+    ]
+  },
+  {
+    "id": 67,
+    "text": "ما هو الجهاز المستخدم في قياس السماحية؟",
+    "subtitle": "الهندسة الكهربائية - أدوات القياس",
+    "options": [
+      {"id": "a", "text": "مقياس السماحية", "correct": true},
+      {"id": "b", "text": "المانومتر", "correct": false},
+      {"id": "c", "text": "الترمومتر", "correct": false},
+      {"id": "d", "text": "الفوتميتر", "correct": false}
+    ]
+  },
+  {
+    "id": 68,
+    "text": "أي من هذه الأنظمة يستخدم في التحكم بالتدفئة؟",
+    "subtitle": "الهندسة - الأنظمة",
+    "options": [
+      {"id": "a", "text": "نظام التحكم الحراري", "correct": true},
+      {"id": "b", "text": "النظام الهيدروليكي", "correct": false},
+      {"id": "c", "text": "النظام البنيوماتي", "correct": false},
+      {"id": "d", "text": "نظام التروس", "correct": false}
+    ]
+  },
+  {
+    "id": 69,
+    "text": "ما هو نوع المحرك المستخدم في الطائرات الشراعية؟",
+    "subtitle": "الهندسة - المحركات",
+    "options": [
+      {"id": "a", "text": "لا يوجد محرك", "correct": true},
+      {"id": "b", "text": "محرك الاحتراق", "correct": false},
+      {"id": "c", "text": "المحرك الكهربائي", "correct": false},
+      {"id": "d", "text": "المحرك الهيدروليكي", "correct": false}
+    ]
+  },
+  {
+    "id": 70,
+    "text": "ما هو الجهاز المستخدم في قياس المغناطيسية؟",
+    "subtitle": "الهندسة الكهربائية - أدوات القياس",
+    "options": [
+      {"id": "a", "text": "مقياس المغناطيسية", "correct": true},
+      {"id": "b", "text": "المانومتر", "correct": false},
+      {"id": "c", "text": "الترمومتر", "correct": false},
+      {"id": "d", "text": "الفوتميتر", "correct": false}
+    ]
+  },
+  {
+    "id": 71,
+    "text": "أي من هذه المواد يستخدم في صناعة الأجهزة الإلكترونية؟",
+    "subtitle": "الهندسة الكهربائية - المواد",
+    "options": [
+      {"id": "a", "text": "السيليكون", "correct": true},
+      {"id": "b", "text": "الخشب", "correct": false},
+      {"id": "c", "text": "البلاستيك", "correct": false},
+      {"id": "d", "text": "الزجاج", "correct": false}
+    ]
+  },
+  {
+    "id": 72,
+    "text": "ما هو نوع اللحام الذي يستخدم في صناعة الأدوات المنزلية؟",
+    "subtitle": "الهندسة - عمليات التصنيع",
+    "options": [
+      {"id": "a", "text": "لحام النقطة", "correct": true},
+      {"id": "b", "text": "لحام الغاز", "correct": false},
+      {"id": "c", "text": "لحام القوس", "correct": false},
+      {"id": "d", "text": "لحام الأرجون", "correct": false}
+    ]
+  },
+  {
+    "id": 73,
+    "text": "ما هو الجهاز المستخدم في قياس التوصيلية؟",
+    "subtitle": "الهندسة الكهربائية - أدوات القياس",
+    "options": [
+      {"id": "a", "text": "مقياس التوصيلية", "correct": true},
+      {"id": "b", "text": "المانومتر", "correct": false},
+      {"id": "c", "text": "الترمومتر", "correct": false},
+      {"id": "d", "text": "الفوتميتر", "correct": false}
+    ]
+  },
+  {
+    "id": 74,
+    "text": "أي من هذه الأنظمة يستخدم في التحكم بالتبريد؟",
+    "subtitle": "الهندسة - الأنظمة",
+    "options": [
+      {"id": "a", "text": "نظام التحكم الحراري", "correct": true},
+      {"id": "b", "text": "النظام الهيدروليكي", "correct": false},
+      {"id": "c", "text": "النظام البنيوماتي", "correct": false},
+      {"id": "d", "text": "نظام التروس", "correct": false}
+    ]
+  },
+  {
+    "id": 75,
+    "text": "ما هو نوع المحرك المستخدم في القوارب؟",
+    "subtitle": "الهندسة - المحركات",
+    "options": [
+      {"id": "a", "text": "محرك الاحتراق", "correct": true},
+      {"id": "b", "text": "المحرك الكهربائي", "correct": false},
+      {"id": "c", "text": "المحرك البخاري", "correct": false},
+      {"id": "d", "text": "المحرك الهيدروليكي", "correct": false}
+    ]
+  },
+  {
+    "id": 76,
+    "text": "ما هو الجهاز المستخدم في قياس السعة؟",
+    "subtitle": "الهندسة الكهربائية - أدوات القياس",
+    "options": [
+      {"id": "a", "text": "مقياس السعة", "correct": true},
+      {"id": "b", "text": "المانومتر", "correct": false},
+      {"id": "c", "text": "الترمومتر", "correct": false},
+      {"id": "d", "text": "الفوتميتر", "correct": false}
+    ]
+  },
+  {
+    "id": 77,
+    "text": "أي من هذه المواد يستخدم في صناعة الأسلاك الكهربائية؟",
+    "subtitle": "الهندسة الكهربائية - المواد",
+    "options": [
+      {"id": "a", "text": "النحاس", "correct": true},
+      {"id": "b", "text": "الحديد", "correct": false},
+      {"id": "c", "text": "الألمنيوم", "correct": false},
+      {"id": "d", "text": "الفضة", "correct": false}
+    ]
+  },
+  {
+    "id": 78,
+    "text": "ما هو نوع اللحام الذي يستخدم في صناعة الهياكل المعدنية؟",
+    "subtitle": "الهندسة - عمليات التصنيع",
+    "options": [
+      {"id": "a", "text": "لحام القوس الكهربائي", "correct": true},
+      {"id": "b", "text": "لحام النقطة", "correct": false},
+      {"id": "c", "text": "لحام الغاز", "correct": false},
+      {"id": "d", "text": "لحام الأرجون", "correct": false}
+    ]
+  },
+  {
+    "id": 79,
+    "text": "ما هو الجهاز المستخدم في قياس الاستطاعة؟",
+    "subtitle": "الهندسة الكهربائية - أدوات القياس",
+    "options": [
+      {"id": "a", "text": "الواطميتر", "correct": true},
+      {"id": "b", "text": "الاميتر", "correct": false},
+      {"id": "c", "text": "الفوتميتر", "correct": false},
+      {"id": "d", "text": "الاوميتر", "correct": false}
+    ]
+  },
+  {
+    "id": 80,
+    "text": "أي من هذه الأنظمة يستخدم في التحكم بالضغط؟",
+    "subtitle": "الهندسة - الأنظمة",
+    "options": [
+      {"id": "a", "text": "الصمامات", "correct": true},
+      {"id": "b", "text": "التروس", "correct": false},
+      {"id": "c", "text": "الأحزمة", "correct": false},
+      {"id": "d", "text": "السلاسل", "correct": false}
+    ]
+  },
+  {
+    "id": 81,
+    "text": "ما هو نوع المحرك المستخدم في المولدات الكهربائية؟",
+    "subtitle": "الهندسة الكهربائية - المحركات",
+    "options": [
+      {"id": "a", "text": "محرك الاحتراق", "correct": true},
+      {"id": "b", "text": "المحرك الكهربائي", "correct": false},
+      {"id": "c", "text": "المحرك البخاري", "correct": false},
+      {"id": "d", "text": "المحرك الهيدروليكي", "correct": false}
+    ]
+  },
+  {
+    "id": 82,
+    "text": "ما هو الجهاز المستخدم في قياس المقاومة؟",
+    "subtitle": "الهندسة الكهربائية - أدوات القياس",
+    "options": [
+      {"id": "a", "text": "الأوميتر", "correct": true},
+      {"id": "b", "text": "الاميتر", "correct": false},
+      {"id": "c", "text": "الفوتميتر", "correct": false},
+      {"id": "d", "text": "الواطميتر", "correct": false}
+    ]
+  },
+  {
+    "id": 83,
+    "text": "أي من هذه المواد يستخدم في صناعة المحركات الكهربائية؟",
+    "subtitle": "الهندسة الكهربائية - المواد",
+    "options": [
+      {"id": "a", "text": "النحاس", "correct": true},
+      {"id": "b", "text": "الخشب", "correct": false},
+      {"id": "c", "text": "البلاستيك", "correct": false},
+      {"id": "d", "text": "الزجاج", "correct": false}
+    ]
+  },
+  {
+    "id": 84,
+    "text": "ما هو نوع اللحام الذي يستخدم في صناعة الأواني المنزلية؟",
+    "subtitle": "الهندسة - عمليات التصنيع",
+    "options": [
+      {"id": "a", "text": "لحام الغاز", "correct": true},
+      {"id": "b", "text": "لحام النقطة", "correct": false},
+      {"id": "c", "text": "لحام القوس", "correct": false},
+      {"id": "d", "text": "لحام الأرجون", "correct": false}
+    ]
+  },
+  {
+    "id": 85,
+    "text": "ما هو الجهاز المستخدم في قياس التيار؟",
+    "subtitle": "الهندسة الكهربائية - أدوات القياس",
+    "options": [
+      {"id": "a", "text": "الأميتر", "correct": true},
+      {"id": "b", "text": "الفوتميتر", "correct": false},
+      {"id": "c", "text": "الاوميتر", "correct": false},
+      {"id": "d", "text": "الواطميتر", "correct": false}
+    ]
+  },
+  {
+    "id": 86,
+    "text": "أي من هذه الأنظمة يستخدم في التحكم بالتدفق؟",
+    "subtitle": "الهندسة - الأنظمة",
+    "options": [
+      {"id": "a", "text": "الصمامات", "correct": true},
+      {"id": "b", "text": "التروس", "correct": false},
+      {"id": "c", "text": "الأحزمة", "correct": false},
+      {"id": "d", "text": "السلاسل", "correct": false}
+    ]
+  },
+  {
+    "id": 87,
+    "text": "ما هو نوع المحرك المستخدم في الثلاجات؟",
+    "subtitle": "الهندسة الكهربائية - المحركات",
+    "options": [
+      {"id": "a", "text": "المحرك الكهربائي", "correct": true},
+      {"id": "b", "text": "محرك الاحتراق", "correct": false},
+      {"id": "c", "text": "المحرك البخاري", "correct": false},
+      {"id": "d", "text": "المحرك الهيدروليكي", "correct": false}
+    ]
+  },
+  {
+    "id": 88,
+    "text": "ما هو الجهاز المستخدم في قياس الجهد؟",
+    "subtitle": "الهندسة الكهربائية - أدوات القياس",
+    "options": [
+      {"id": "a", "text": "الفولتميتر", "correct": true},
+      {"id": "b", "text": "الاميتر", "correct": false},
+      {"id": "c", "text": "الاوميتر", "correct": false},
+      {"id": "d", "text": "الواطميتر", "correct": false}
+    ]
+  },
+  {
+    "id": 89,
+    "text": "أي من هذه المواد يستخدم في صناعة المكابح؟",
+    "subtitle": "الهندسة - المواد",
+    "options": [
+      {"id": "a", "text": "الحديد الزهر", "correct": true},
+      {"id": "b", "text": "الخشب", "correct": false},
+      {"id": "c", "text": "البلاستيك", "correct": false},
+      {"id": "d", "text": "الزجاج", "correct": false}
+    ]
+  },
+  {
+    "id": 90,
+    "text": "ما هو نوع اللحام الذي يستخدم في صناعة السكك الحديدية؟",
+    "subtitle": "الهندسة - عمليات التصنيع",
+    "options": [
+      {"id": "a", "text": "لحام القوس الكهربائي", "correct": true},
+      {"id": "b", "text": "لحام النقطة", "correct": false},
+      {"id": "c", "text": "لحام الغاز", "correct": false},
+      {"id": "d", "text": "لحام الأرجون", "correct": false}
+    ]
+  },
+  {
+    "id": 91,
+    "text": "ما هو الجهاز المستخدم في قياس السرعة؟",
+    "subtitle": "الهندسة الميكانيكية - أدوات القياس",
+    "options": [
+      {"id": "a", "text": "مقياس السرعة", "correct": true},
+      {"id": "b", "text": "المانومتر", "correct": false},
+      {"id": "c", "text": "الترمومتر", "correct": false},
+      {"id": "d", "text": "الفوتميتر", "correct": false}
+    ]
+  },
+  {
+    "id": 92,
+    "text": "أي من هذه الأنظمة يستخدم في التحكم بالحركة؟",
+    "subtitle": "الهندسة - الأنظمة",
+    "options": [
+      {"id": "a", "text": "نظام التحكم الإلكتروني", "correct": true},
+      {"id": "b", "text": "النظام الهيدروليكي", "correct": false},
+      {"id": "c", "text": "النظام البنيوماتي", "correct": false},
+      {"id": "d", "text": "نظام التروس", "correct": false}
+    ]
+  },
+  {
+    "id": 93,
+    "text": "ما هو نوع المحرك المستخدم في الغسالات؟",
+    "subtitle": "الهندسة الكهربائية - المحركات",
+    "options": [
+      {"id": "a", "text": "المحرك الكهربائي", "correct": true},
+      {"id": "b", "text": "محرك الاحتراق", "correct": false},
+      {"id": "c", "text": "المحرك البخاري", "correct": false},
+      {"id": "d", "text": "المحرك الهيدروليكي", "correct": false}
+    ]
+  },
+  {
+    "id": 94,
+    "text": "ما هو الجهاز المستخدم في قياس الضغط الجوي؟",
+    "subtitle": "الهندسة - أدوات القياس",
+    "options": [
+      {"id": "a", "text": "البارومتر", "correct": true},
+      {"id": "b", "text": "المانومتر", "correct": false},
+      {"id": "c", "text": "الترمومتر", "correct": false},
+      {"id": "d", "text": "الفوتميتر", "correct": false}
+    ]
+  },
+  {
+    "id": 95,
+    "text": "أي من هذه المواد يستخدم في صناعة التوربينات؟",
+    "subtitle": "الهندسة - المواد",
+    "options": [
+      {"id": "a", "text": "سبائك الفولاذ", "correct": true},
+      {"id": "b", "text": "الخشب", "correct": false},
+      {"id": "c", "text": "البلاستيك", "correct": false},
+      {"id": "d", "text": "الزجاج", "correct": false}
+    ]
+  },
+  {
+    "id": 96,
+    "text": "ما هو نوع اللحام الذي يستخدم في صناعة الأنابيب البترولية؟",
+    "subtitle": "الهندسة - عمليات التصنيع",
+    "options": [
+      {"id": "a", "text": "لحام الغاز", "correct": true},
+      {"id": "b", "text": "لحام النقطة", "correct": false},
+      {"id": "c", "text": "لحام القوس", "correct": false},
+      {"id": "d", "text": "لحام الأرجون", "correct": false}
+    ]
+  },
+  {
+    "id": 97,
+    "text": "ما هو الجهاز المستخدم في قياس الاستطاعة الحرارية؟",
+    "subtitle": "الهندسة - أدوات القياس",
+    "options": [
+      {"id": "a", "text": "مقياس الاستطاعة الحرارية", "correct": true},
+      {"id": "b", "text": "المانومتر", "correct": false},
+      {"id": "c", "text": "الترمومتر", "correct": false},
+      {"id": "d", "text": "الفوتميتر", "correct": false}
+    ]
+  },
+  {
+    "id": 98,
+    "text": "أي من هذه الأنظمة يستخدم في التحكم بالتدفئة؟",
+    "subtitle": "الهندسة - الأنظمة",
+    "options": [
+      {"id": "a", "text": "نظام التحكم الحراري", "correct": true},
+      {"id": "b", "text": "النظام الهيدروليكي", "correct": false},
+      {"id": "c", "text": "النظام البنيوماتي", "correct": false},
+      {"id": "d", "text": "نظام التروس", "correct": false}
+    ]
+  },
+  {
+    "id": 99,
+    "text": "ما هو نوع المحرك المستخدم في المكيفات؟",
+    "subtitle": "الهندسة الكهربائية - المحركات",
+    "options": [
+      {"id": "a", "text": "المحرك الكهربائي", "correct": true},
+      {"id": "b", "text": "محرك الاحتراق", "correct": false},
+      {"id": "c", "text": "المحرك البخاري", "correct": false},
+      {"id": "d", "text": "المحرك الهيدروليكي", "correct": false}
+    ]
+  },
+  {
+    "id": 100,
+    "text": "ما هو الجهاز المستخدم في قياس الاستطاعة الميكانيكية؟",
+    "subtitle": "الهندسة الميكانيكية - أدوات القياس",
+    "options": [
+      {"id": "a", "text": "مقياس الاستطاعة الميكانيكية", "correct": true},
+      {"id": "b", "text": "المانومتر", "correct": false},
+      {"id": "c", "text": "الترمومتر", "correct": false},
+      {"id": "d", "text": "الفوتميتر", "correct": false}
+    ]
+  }
+]

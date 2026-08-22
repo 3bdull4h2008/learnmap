@@ -1,0 +1,140 @@
+topic: Jordanian Universities
+description: Comprehensive research on all Jordanian universities covering admission requirements, majors, tuition fees, rankings, and market demand
+
+items:
+  - name: University of Jordan
+    category: Public University
+    description: الجامعة الأردنية, established 1962 in Amman, largest and oldest university in Jordan
+
+  - name: Yarmouk University
+    category: Public University
+    description: جامعة اليرموك, established 1976 in Irbid
+
+  - name: Jordan University of Science and Technology
+    category: Public University
+    description: جامعة العلوم والتكنولوجيا الأردنية, established 1986 in Irbid, leading science and technology university
+
+  - name: Hashemite University
+    category: Public University
+    description: الجامعة الهاشمية, established 1995 in Zarqa
+
+  - name: Mutah University
+    category: Public University
+    description: جامعة مؤتة, established 1981 in Karak, first university in southern Jordan
+
+  - name: Al al-Bayt University
+    category: Public University
+    description: جامعة آل البيت, established 1993 in Mafraq
+
+  - name: Al-Balqa Applied University
+    category: Public University
+    description: جامعة البلقاء التطبيقية, established 1997 in Salt, leading applied education with 13 affiliated colleges
+
+  - name: German Jordanian University
+    category: Public University
+    description: الجامعة الألمانية الأردنية, established 2005 in Amman, German-style applied education
+
+  - name: Al-Hussein Bin Talal University
+    category: Public University
+    description: جامعة الحسين بن طلال, established 1999 in Ma'an
+
+  - name: Tafila Technical University
+    category: Public University
+    description: جامعة الطفيلة التقنية, established 2005 in Tafila
+
+  - name: University of Jordan - Aqaba
+    category: Public University
+    description: فرع الجامعة الأردنية في العقبة, established 2000 in Aqaba
+
+  - name: World Islamic Sciences and Education University
+    category: Special Law University
+    description: جامعة العلوم الإسلامية العالمية, established 2008 in Amman
+
+  - name: Al-Hussein Technical University
+    category: Special Law University
+    description: جامعة الحسين التقنية, established 2016 in Amman, specialized in technical education
+
+  - name: Al-Ahliyya Amman University
+    category: Private University
+    description: جامعة عمان الأهلية, established 1990 in Amman, first private university in Jordan
+
+  - name: Applied Science Private University
+    category: Private University
+    description: جامعة العلوم التطبيقية الخاصة, established 1991 in Amman
+
+  - name: Zarqa University
+    category: Private University
+    description: جامعة الزرقاء, established 1994 in Zarqa
+
+  - name: University of Petra
+    category: Private University
+    description: جامعة البترا, established 1991 in Amman
+
+  - name: Isra University
+    category: Private University
+    description: جامعة الإسراء, established 1989 in Amman
+
+  - name: Al-Zaytoonah University of Jordan
+    category: Private University
+    description: جامعة الزيتونة الأردنية, established 1993 in Amman
+
+  - name: Princess Sumaya University for Technology
+    category: Private University
+    description: جامعة الأميرة سمية للتكنولوجيا, established 1991 in Amman, leading private tech university
+
+  - name: Amman Arab University
+    category: Private University
+    description: جامعة عمان العربية, established 1997 in Amman
+
+  - name: Middle East University
+    category: Private University
+    description: جامعة الشرق الأوسط, established 1999 in Amman
+
+  - name: Jerash University
+    category: Private University
+    description: جامعة جرش, established 1992 in Jerash
+
+  - name: Philadelphia University
+    category: Private University
+    description: جامعة فيلادلفيا, established 1989 in Amman
+
+  - name: Irbid National University
+    category: Private University
+    description: جامعة إربد الأهلية, established 1994 in Irbid
+
+  - name: Jadara University
+    category: Private University
+    description: جامعة جدارا, established 2005 in Irbid
+
+  - name: American University of Madaba
+    category: Private University
+    description: الجامعة الأمريكية في مادبا, established 2005 in Madaba
+
+  - name: Ajloun National University
+    category: Private University
+    description: جامعة عجلون الوطنية, established 2008 in Ajloun
+
+  - name: Aqaba University of Technology
+    category: Private University
+    description: جامعة العقبة للتكنولوجيا, established 2010 in Aqaba
+
+  - name: Arab Open University - Jordan
+    category: International University
+    description: الجامعة العربية المفتوحة - فرع الأردن, established 2002 in Amman, open education system
+
+  - name: Balqa Applied University Colleges
+    category: Affiliated Colleges
+    description: كليات جامعة البلقاء التطبيقية المنتشرة في المملكة (13 كلية)
+
+  - name: University of Jordan Hospital
+    category: University Hospital
+    description: مستشفى الجامعة الأردنية, established 1973 in Amman
+
+  - name: King Abdullah University Hospital
+    category: University Hospital
+    description: مستشفى الملك المؤسس عبد الله الجامعي, established 2002 in Irbid, affiliated with JUST
+
+execution:
+  batch_size: 33
+  items_per_agent: 1
+  output_dir: ./results

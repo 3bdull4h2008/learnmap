@@ -1,0 +1,66 @@
+{
+  "basic_info": {
+    "name": "جامعة الزيتونة الأردنية",
+    "nameEn": "Al-Zaytoonah University of Jordan",
+    "type": "private",
+    "city": "Amman",
+    "region": "central",
+    "established": 1993,
+    "website": "https://www.zuj.edu.jo"
+  },
+  "admission_requirements": {
+    "general_requirements": "Secondary school certificate (Al Tawjihi) or equivalent",
+    "min_tawjihi_mark": 60,
+    "has_entrance_exam": false,
+    "exam_details": "Not applicable",
+    "english_requirement": "Not required for undergraduate admission; required for postgraduate programs (TOEFL iBT 59-90 or IELTS 5-6.5 depending on specialization)"
+  },
+  "majors_overview": {
+    "college_count": 10,
+    "major_categories": ["engineering", "pharmacy", "nursing", "science", "information technology", "business", "arts", "law", "architecture", "design", "economics", "applied_medical_sciences"],
+    "total_majors": 56,
+    "has_postgraduate": true
+  },
+  "tuition_fees": {
+    "annual_fees_range": "2,000-2,400 JOD (national); 1,485-3,520 JOD (international)",
+    "medical_majors_fees": "Pharmacy: 110 JOD/hour (165 credit hours); Nursing: 65 JOD/hour (132 credit hours)",
+    "engineering_majors_fees": "Civil Engineering: 110 JOD/hour (162 hours); Electrical/Mechanical: 100 JOD/hour (160 hours); Alternative Energy: 80 JOD/hour (132 hours); Architectural Engineering: 120 JOD/hour (167 hours)",
+    "humanities_majors_fees": "Arabic Literature: 45 JOD/hour; English Literature/Translation: 65 JOD/hour; Classroom Teacher: 50 JOD/hour; Law: 55 JOD/hour",
+    "notes": "Credit-hour system. Registration fee: ~370 JOD/semester. Additional fees: 65 JOD. Scholarships: 40% for Tawjihi 90%+, 25% for top student per specialization, 15% for military/security families and persons with disabilities, 10-20% sibling discounts."
+  },
+  "ranking_accreditation": {
+    "national_ranking": "11-17 in Jordan (varies by ranking body)",
+    "accreditation": "Ministry of Higher Education and Scientific Research (MOHE), ABET (for selected engineering programs), ISO 9001, ISO 21001",
+    "international_recognition": "Times Higher Education World University Rankings 801-1000th (2026); QS World University Rankings 1201-1400 (2026); Member of IAU, FUIW, AArU"
+  },
+  "market_demand": {
+    "overall_demand": "[uncertain]",
+    "high_demand_majors": ["[uncertain]"],
+    "employment_rate_estimate": "[uncertain]",
+    "notes": "[uncertain]"
+  },
+  "campus_facilities": {
+    "has_accommodation": false,
+    "accommodation_details": "No on-campus student housing confirmed; dormitory design exists as an engineering student project only",
+    "has_library": true,
+    "has_sports_facilities": true,
+    "has_scholarships": true,
+    "scholarship_details": "Discounts available: 40% for students with Tawjihi average 90%+, 25% for top student per specialization, 15% for military/security personnel families and persons with disabilities, 10-20% sibling discounts for second to fourth siblings"
+  },
+  "contact_info": {
+    "address": "Queen Alia Airport Road, P.O. Box 130, Amman 11733, Jordan",
+    "phone": "+962 (6) 4291511",
+    "email": "president@zuj.edu.jo",
+    "social_media": [
+      "https://www.facebook.com/AlZaytoonahUniversityOfficial/",
+      "https://x.com/alZaytoonahUnv",
+      "https://jo.linkedin.com/company/alzaytoonahuniversityzuj"
+    ]
+  },
+  "uncertain": [
+    "market_demand.overall_demand",
+    "market_demand.high_demand_majors",
+    "market_demand.employment_rate_estimate",
+    "market_demand.notes"
+  ]
+}

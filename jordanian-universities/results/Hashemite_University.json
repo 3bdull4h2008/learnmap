@@ -1,0 +1,129 @@
+{
+  "basic_info": {
+    "name": "الجامعة الهاشمية",
+    "nameEn": "The Hashemite University",
+    "type": "public",
+    "city": "Zarqa",
+    "region": "central",
+    "established": 1995,
+    "establishment_note": "Royal decree issued June 19, 1991; teaching began 1995",
+    "website": "https://www.hu.edu.jo"
+  },
+  "admission_requirements": {
+    "general_requirements": "Tawjihi (General Secondary Education Certificate) or equivalent; international students submit equivalent secondary credentials certified by Jordanian Ministry of Education",
+    "min_tawjihi_mark": 65,
+    "has_entrance_exam": true,
+    "exam_details": "Selective admission based on entrance examinations and students' past academic records and grades",
+    "english_requirement": "Varies by program; TOEFL or IELTS required for postgraduate programs"
+  },
+  "majors_overview": {
+    "college_count": 20,
+    "college_list": [
+      "كلية العلوم التربوية والتنمية البشرية (Faculty of Educational Sciences and Human Development)",
+      "كلية الملكة رانيا للطفولة (Queen Rania Faculty of Childhood)",
+      "كلية الامير الحسن بن طلال للموارد الطبيعية والبيئة (Prince Hassan Bin Talal Faculty of Natural Resources and Environment)",
+      "كلية الدراسات العليا (Faculty of Graduate Studies)",
+      "كلية الاداب (Faculty of Arts)",
+      "كلية التربية البدنية وعلوم الرياضة (Faculty of Physical Education and Sport Sciences)",
+      "كلية الهندسة (Faculty of Engineering)",
+      "كلية الطب البشري (Faculty of Medicine)",
+      "كلية العلوم الصيدلانية (Faculty of Pharmaceutical Sciences)",
+      "كلية الأعمال (Faculty of Business)",
+      "الكلية التقنية (Technical College)",
+      "كلية طب الاسنان (Faculty of Dentistry)",
+      "كلية الملكة رانيا للسياحة والتراث (Queen Rania Faculty of Tourism and Heritage)",
+      "كلية العلوم (Faculty of Science)",
+      "كلية الامير الحسين بن عبدالله الثاني لتكنولوجيا المعلومات (Prince Hussein Bin Abdullah II Faculty of Information Technology)",
+      "كلية العلوم الطبية التطبيقية (Faculty of Applied Medical Sciences)",
+      "كلية التمريض (Faculty of Nursing)"
+    ],
+    "deanships": [
+      "عمادة البحث العلمي (Deanship of Scientific Research)",
+      "عمادة التطوير الاكاديمي والتواصل الدولي (Deanship of Academic Development and International Communication)",
+      "عمادة شؤون الطلبة (Deanship of Student Affairs)"
+    ],
+    "major_categories": [
+      "medicine",
+      "dentistry",
+      "pharmacy",
+      "engineering",
+      "information technology",
+      "science",
+      "business",
+      "arts",
+      "nursing",
+      "applied medical sciences",
+      "education",
+      "tourism and heritage",
+      "physical education",
+      "natural resources and environment",
+      "childhood",
+      "graduate studies",
+      "technical college"
+    ],
+    "total_majors": 52,
+    "has_postgraduate": true
+  },
+  "tuition_fees": {
+    "annual_fees_range": "1,800 JOD - 6,000 JOD",
+    "medical_majors_fees": "[uncertain]",
+    "engineering_majors_fees": "[uncertain]",
+    "humanities_majors_fees": "[uncertain]",
+    "notes": "Tuition varies by program and student type. Fee schedules available as PDFs on the Financial Affairs Unit page: Bachelor's (local/international), Diploma, Master's, Doctoral (Arabic), and Medical Specialization programs. International bachelor's: 1,800-6,000 JOD/year. Local students pay approximately 2,500 JOD/year equivalent. Specific per-credit-hour fees depend on college and program."
+  },
+  "ranking_accreditation": {
+    "national_ranking": "#4-#5 in Jordan",
+    "accreditation": "Ministry of Higher Education and Scientific Research of Jordan, ABET (Engineering), Higher Education Accreditation Commission (HEAC), American Medical Residency Certification Board",
+    "international_recognition": "QS World University Rankings #1001-1200 (2027), THE World University Rankings #1001-1200 (2026), US News Best Global Universities #1346, QS Arab Region Rankings #51"
+  },
+  "market_demand": {
+    "overall_demand": "[uncertain]",
+    "high_demand_majors": [
+      "Medicine",
+      "Pharmacy",
+      "Engineering",
+      "Information Technology",
+      "Nursing"
+    ],
+    "employment_rate_estimate": "[uncertain]",
+    "notes": "[uncertain]"
+  },
+  "campus_facilities": {
+    "has_accommodation": true,
+    "accommodation_details": "Student housing (مبنى المدينة الجامعية) available primarily for female international students with full services including transportation, internet, security, and study atmosphere",
+    "has_library": true,
+    "library_details": "Hashemite University Library with electronic/digital library platform (DeepKnowledge)",
+    "has_sports_facilities": true,
+    "has_scholarships": true,
+    "scholarship_details": "Financial aid and scholarships available for both local and international students; university offers financial support programs",
+    "has_hospital": true,
+    "hospital_details": "University Hospital (hospital.hu.edu.jo)",
+    "has_language_center": true,
+    "has_renewable_energy_center": true,
+    "has_innovation_center": true
+  },
+  "contact_info": {
+    "address": "PO Box 591504, Zarqa 13133, Jordan",
+    "phone": "+962 (5) 390 3333",
+    "president_office_phone": "+962-5-3903333 ext. 4325",
+    "email": "president@hu.edu.jo",
+    "social_media": [
+      "https://www.facebook.com/TheHashemiteUniversity",
+      "https://twitter.com/UniversityHash",
+      "https://jo.linkedin.com/school/the-hashemite-university-students/",
+      "https://plus.google.com/u/0/118384809881631887751"
+    ],
+    "student_portal": "https://sis.hu.edu.jo/",
+    "new_students_portal": "https://newstudents.hu.edu.jo/",
+    "learning_management": "https://lms.hu.edu.jo",
+    "employee_portal": "https://eis.hu.edu.jo"
+  },
+  "uncertain": [
+    "tuition_fees.medical_majors_fees",
+    "tuition_fees.engineering_majors_fees",
+    "tuition_fees.humanities_majors_fees",
+    "market_demand.overall_demand",
+    "market_demand.employment_rate_estimate",
+    "market_demand.notes"
+  ]
+}

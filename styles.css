@@ -1,0 +1,22 @@
+/* ===========================================
+   LEARNMAP - MODULAR STYLESHEET
+   ===========================================
+   Phase 1: Design Foundation & System
+   
+   This file imports all modular CSS files:
+   1. tokens.css    — Design tokens (colors, spacing, typography)
+   2. base.css      — Reset, typography, focus states, container
+   3. components.css — All component styles (nav, cards, forms, etc.)
+   4. dark-mode.css  — Refactored dark mode (property overrides)
+   5. animations.css — Keyframes and animation utilities
+   6. responsive.css — All media queries
+   
+   Total: ~6,000 lines split into 6 focused files.
+   =========================================== */
+
+@import url('css/tokens.css');
+@import url('css/base.css');
+@import url('css/components.css');
+@import url('css/dark-mode.css');
+@import url('css/animations.css');
+@import url('css/responsive.css');

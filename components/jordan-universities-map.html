@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>خريطة الجامعات الأردنية</title>
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="icon" type="image/x-icon" href="/images/logo.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    /* === دليل الجامعات === */
+.universities-index {
+  margin-top: 30px;
+  padding: 20px;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+.universities-index h3 {
+  text-align: center;
+  color: #1e3a5f;
+  margin-bottom: 15px;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+.university-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 14px;
+}
+.uni-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  text-decoration: none;
+  color: #1a1a2e;
+  font-weight: 600;
+  border-radius: 10px;
+  transition: all 0.2s ease;
+  font-family: 'Cairo', sans-serif;
+}
+.uni-item:hover {
+  background: #f0f7ff;
+  transform: translateY(-2px);
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+.uni-icon {
+  width: 34px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  flex-shrink: 0;
+  border: 2px solid white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+}
+.uni-name {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/* دارك مود */
+body.dark-mode .universities-index {
+  background: #1f2937;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+body.dark-mode .universities-index h3 {
+  color: #e5e7eb;
+}
+body.dark-mode .uni-item {
+  color: #f3f4f6;
+}
+body.dark-mode .uni-item:hover {
+  background: #374151;
+}
+/* موبايل */
+@media (max-width: 600px) {
+  .university-list {
+    grid-template-columns: 1fr;
+  }
+  .uni-name {
+    white-space: normal;
+  }
+}
+    /* --- Base Styles --- */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body {
+      width: 100%;
+      height: 100%;
+    }
+    body {
+      padding: 20px;
+      font-family: 'Cairo', Arial, sans-serif;
+      background: #f9f7f0;
+      color: #1a1a2e;
+      overflow-y: auto;
+    }
+    h1 {
+      text-align: center;
+      color: #1e3a5f;
+      margin-bottom: 10px;
+      font-weight: 700;
+    }
+    .subtitle {
+      text-align: center;
+      color: #666;
+      margin-bottom: 20px;
+      font-size: 1rem;
+    }
+    /* --- Filter Controls --- */
+    .filter-container {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 25px;
+      flex-wrap: wrap;
+    }
+    .filter-btn {
+      padding: 8px 20px;
+      border: none;
+      border-radius: 20px;
+      background: #e0e0e0;
+      color: #333;
+      font-family: 'Cairo', sans-serif;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .filter-btn:hover {
+      transform: translateY(-2px);
+    }
+    .filter-btn.active {
+      background: #1e3a5f;
+      color: white;
+    }
+    /* Specific colors for active states */
+    .filter-btn[data-filter="public"].active { background: #1565c0; }
+    .filter-btn[data-filter="private"].active { background: #ff6f00; }
+    .filter-btn[data-filter="special-law"].active { background: #7b1fa2; }
+    .filter-btn[data-filter="international"].active { background: #00796b; }
+    .filter-btn[data-filter="colleges"].active { background: #1976d2; }
+    .filter-btn[data-filter="hospital"].active { background: #d32f2f; }
+    /* --- Map Container --- */
+    .map-wrapper {
+      background: white;
+      padding: 20px;
+      border-radius: 16px;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+      position: relative;
+      overflow: hidden;
+    }
+    #jordan-map-container {
+      position: relative;
+      width: 100%;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    #jordan-map-container img {
+      width: 100%;
+      height: auto;
+      display: block;
+      object-fit: contain;
+    }
+    /* --- Pins --- */
+    .university-pin {
+      position: absolute;
+      transform: translate(-50%, -50%);
+      z-index: 10;
+      width: 30px;
+      height: 30px;
+      cursor: pointer;
+      transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+    .university-pin:hover {
+      z-index: 100;
+      transform: translate(-50%, -60%) scale(1.2);
+    }
+    .university-marker {
+      width: 100%;
+      height: 100%;
+      filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));
+    }
+    /* --- Tooltips (Labels) --- */
+    .university-label {
+      position: absolute;
+      bottom: 35px;
+      left: 50%;
+      transform: translateX(-50%) scale(0.8);
+      background: rgba(255, 255, 255, 0.95);
+      padding: 5px 12px;
+      border-radius: 6px;
+      font-size: 0.5rem;
+      font-weight: 700;
+      color: #1a1a2e;
+      white-space: nowrap;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      opacity: 0;
+      pointer-events: none;
+      transition: all 0.2s ease;
+      border: 1px solid #ddd;
+      visibility: hidden;
+    }
+    .university-label::after {
+      content: '';
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      margin-left: -6px;
+      border-width: 6px;
+      border-style: solid;
+      border-color: rgba(255, 255, 255, 0.95) transparent transparent transparent;
+    }
+    .university-pin:hover .university-label {
+      opacity: 1;
+      visibility: visible;
+      transform: translateX(-50%) scale(1);
+    }
+    /* --- Footer --- */
+    footer {
+      text-align: center;
+      margin-top: 25px;
+      color: #777;
+      font-size: 0.9rem;
+    }
+    /* =========================================
+       DARK MODE STYLES
+       ========================================= */
+    body.dark-mode {
+      background: #111827;
+      color: #f3f4f6;
+    }
+    body.dark-mode h1 {
+      color: #e5e7eb;
+    }
+    body.dark-mode .subtitle,
+    body.dark-mode footer {
+      color: #9ca3af;
+    }
+    body.dark-mode .map-wrapper {
+      background: #1f2937;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+    }
+    body.dark-mode .filter-btn {
+      background: #374151;
+      color: #e5e7eb;
+    }
+    body.dark-mode .filter-btn.active {
+      color: white;
+    }
+    body.dark-mode .university-label {
+      background: #374151;
+      color: #fff;
+      border-color: #4b5563;
+    }
+    body.dark-mode .university-label::after {
+      border-color: #374151 transparent transparent transparent;
+    }
+    body.dark-mode #jordan-map-container img {
+      opacity: 0.9;
+      filter: brightness(0.9);
+    }
+    @media (max-width: 768px) {
+      .university-pin {
+        width: 24px;
+        height: 24px;
+      }
+      .university-label {
+        font-size: 0.75rem;
+        padding: 4px 8px;
+      }
+      h1 { font-size: 1.5rem; }
+      .filter-btn {
+        padding: 6px 12px;
+        font-size: 0.85rem;
+      }
+    }
+  </style>
+</head>
+<body>
+    <h1>خريطة الجامعات الأردنية</h1>
+    <p class="subtitle">استخدم الفلتر لتصفح المؤسسات حسب النوع</p>
+    <div class="filter-container">
+      <button class="filter-btn active" data-filter="all">الكل</button>
+      <button class="filter-btn" data-filter="public">حكومية</button>
+      <button class="filter-btn" data-filter="private">خاصة</button>
+      <button class="filter-btn" data-filter="special-law">ذات قانون خاص</button>
+      <button class="filter-btn" data-filter="international">إقليمية</button>
+      <button class="filter-btn" data-filter="colleges">كليات تابعة</button>
+      <button class="filter-btn" data-filter="hospital">مستشفيات</button>
+    </div>
+    <div id="jordan-map-container">
+      <img src="/images/jordan-map.webp" alt="خريطة الأردن" />
+      <!-- =============== الجامعات الحكومية =============== -->
+      <div class="university-pin" style="left: 28%; top: 15%;" data-category="public">
+        <a href="https://www.just.edu.jo" target="_blank">
+          <svg class="university-marker" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="10" fill="#1565c0" stroke="white" stroke-width="2"/>
+            <text x="12" y="16" text-anchor="middle" fill="white" font-size="10" font-weight="bold">ع</text>
+          </svg>
+          <div class="university-label">العلوم والتكنولوجيا</div>
+        </a>
+      </div>
+      <div class="university-pin" style="left: 22%; top: 16%;" data-category="public">
+        <a href="https://www.yu.edu.jo" target="_blank">
+          <svg class="university-marker" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="10" fill="#1976d2" stroke="white" stroke-width="2"/>
+            <text x="12" y="16" text-anchor="middle" fill="white" font-size="10" font-weight="bold">ي</text>
+          </svg>
+          <div class="university-label">اليرموك</div>
+        </a>
+      </div>
+      <div class="university-pin" style="left: 55%; top: 20%;" data-category="public">
+        <a href="https://www.aabu.edu.jo" target="_blank">
+          <svg class="university-marker" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="10" fill="#0288d1" stroke="white" stroke-width="2"/>
+            <text x="12" y="16" text-anchor="middle" fill="white" font-size="10" font-weight="bold">آ</text>
+          </svg>
+          <div class="university-label">آل البيت</div>
+        </a>
+      </div>
+      <div class="university-pin" style="left: 15%; top: 32%;" data-category="public">
+        <a href="https://www.bau.edu.jo" target="_blank">
+          <svg class="university-marker" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="10" fill="#00796b" stroke="white" stroke-width="2"/>
+            <text x="12" y="16" text-anchor="middle" fill="white" font-size="10" font-weight="bold">ب</text>
+          </svg>
+          <div class="university-label">البلقاء التطبيقية</div>
+        </a>
+      </div>
+      <div class="university-pin" style="left: 36%; top: 35%;" data-category="public">
+        <a href="https://www.hu.edu.jo" target="_blank">
+          <svg class="university-marker" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="10" fill="#512da8" stroke="white" stroke-width="2"/>
+            <text x="12" y="16" text-anchor="middle" fill="white" font-size="10" font-weight="bold">هـ</text>
+          </svg>
+          <div class="university-label">الهاشمية</div>
+        </a>
+      </div>
+      <div class="university-pin" style="left: 28%; top: 35%;" data-category="public">
+        <a href="https://www.ju.edu.jo" target="_blank">
+          <svg class="university-marker" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="10" fill="#1565c0" stroke="white" stroke-width="2"/>
+            <text x="12" y="16" text-anchor="middle" fill="white" font-size="10" font-weight="bold">أ</text>
+          </svg>
+          <div class="university-label">الجامعة الأردنية</div>
+        </a>
+      </div>
+      <div class="university-pin" style="left: 22%; top: 58%;" data-category="public">
+        <a href="https://www.mutah.edu.jo" target="_blank">
+          <svg class="university-marker" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="10" fill="#388e3c" stroke="white" stroke-width="2"/>
+            <text x="12" y="16" text-anchor="middle" fill="white" font-size="10" font-weight="bold">م</text>
+          </svg>
+          <div class="university-label">مؤتة</div>
+        </a>
+      </div>
+      <div class="university-pin" style="left: 20%; top: 68%;" data-category="public">
+        <a href="https://www.ttu.edu.jo" target="_blank">
+          <svg class="university-marker" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="10" fill="#0288d1" stroke="white" stroke-width="2"/>
+            <text x="12" y="16" text-anchor="middle" fill="white" font-size="10" font-weight="bold">ط</text>
+          </svg>
+          <div class="university-label">الطفيلة التقنية</div>
+        </a>
+      </div>
+      <div class="university-pin" style="left: 28%; top: 78%;" data-category="public">
+        <a href="https://www.ahu.edu.jo" target="_blank">
+          <svg class="university-marker" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="10" fill="#512da8" stroke="white" stroke-width="2"/>
+            <text x="12" y="16" text-anchor="middle" fill="white" font-size="10" font-weight="bold">ح</text>
+          </svg>
+          <div class="university-label">الحسين بن طلال</div>
+        </a>
+      </div>
+      <div class="university-pin" style="left: 34%; top: 43%;" data-category="public">
+        <a href="https://www.gju.edu.jo" target="_blank">
+          <svg class="university-marker" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="10" fill="#01579b" stroke="white" stroke-width="2"/>
+            <text x="12" y="16" text-anchor="middle" fill="white" font-size="10" font-weight="bold">أ</text>
+          </svg>
+          <div class="university-label">الألمانية الأردنية</div>
+        </a>
+      </div>
+      <!-- =============== الجامعات الخاصة =============== -->
+      <div class="university-pin" style="left: 25%; top: 18%;" data-category="private">
+        <a href="https://www.iau.edu.jo" target="_blank">
+          <svg class="university-marker" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="10" fill="#ff6f00" stroke="white" stroke-width="2"/>
+            <text x="12" y="16" text-anchor="middle" fill="white" font-size="10" font-weight="bold">إ</text>
+          </svg>
+          <div class="university-label">إربد الأهلية</div>
+        </a>
+      </div>
+      <div class="university-pin" style="left: 20%; top: 18%;" data-category="private">
+        <a href="https://www.jadara.edu.jo" target="_blank">
+          <svg class="university-marker" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="10" fill="#ff9100" stroke="white" stroke-width="2"/>
+            <text x="12" y="16" text-anchor="middle" fill="white" font-size="10" font-weight="bold">ج</text>
+          </svg>
+          <div class="university-label">جدارا</div>
+        </a>
+      </div>
+      <div class="university-pin" style="left: 18%; top: 22%;" data-category="private">
+        <a href="https://www.najah.edu.jo" target="_blank">
+          <svg class="university-marker" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="10" fill="#f57c00" stroke="white" stroke-width="2"/>
+            <text x="12" y="16" text-anchor="middle" fill="white" font-size="10" font-weight="bold">ع</text>
+          </svg>
+          <div class="university-label">عجلون الوطنية</div>
+        </a>
+      </div>
+      <div class="university-pin" style="left: 25%; top: 24%;" data-category="private">
+        <a href="https://www.jpu.edu.jo" target="_blank">
+          <svg class="university-marker" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="10" fill="#ff8a00" stroke="white" stroke-width="2"/>
+            <text x="12" y="16" text-anchor="middle" fill="white" font-size="10" font-weight="bold">ج</text>
+          </svg>
+          <div class="university-label">جرش</div>
+        </a>
+      </div>
+      <div class="university-pin" style="left: 40%; top: 32%;" data-category="private">
+        <a href="https://www.zu.edu.jo" target="_blank">
+          <svg class="university-marker" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="10" fill="#d84315" stroke="white" stroke-width="2"/>
+            <text x="12" y="16" text-anchor="middle" fill="white" font-size="10" font-weight="bold">ز</text>
+          </svg>
+          <div class="university-label">الزرقاء</div>
+        </a>
+      </div>
+      <div class="university-pin" style="left: 32%; top: 38%;" data-category="private">
+        <a href="https://www.asu.edu.jo" target="_blank">
+          <svg class="university-marker" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="10" fill="#ef6c00" stroke="white" stroke-width="2"/>
+            <text x="12" y="16" text-anchor="middle" fill="white" font-size="10" font-weight="bold">ت</text>
+          </svg>
+          <div class="university-label">العلوم التطبيقية</div>
+        </a>
+      </div>
+      <div class="university-pin" style="left: 24%; top: 37%;" data-category="private">
+        <a href="https://www.psut.edu.jo" target="_blank">
+          <svg class="university-marker" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="10" fill="#004d40" stroke="white" stroke-width="2"/>
+            <text x="12" y="16" text-anchor="middle" fill="white" font-size="10" font-weight="bold">س</text>
+          </svg>
+          <div class="university-label">سمية للتكنولوجيا</div>
+        </a>
+      </div>
+      <div class="university-pin" style="left: 20%; top: 39%;" data-category="private">
+        <a href="https://www.ammanu.edu.jo" target="_blank">
+          <svg class="university-marker" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="10" fill="#e65100" stroke="white" stroke-width="2"/>
+            <text x="12" y="16" text-anchor="middle" fill="white" font-size="10" font-weight="bold">أ</text>
+          </svg>
+          <div class="university-label">عمان الأهلية</div>
+        </a>
+      </div>
+      <div class="university-pin" style="left: 26%; top: 42%;" data-category="private">
+        <a href="https://www.petra.edu.jo" target="_blank">
+          <svg class="university-marker" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="10" fill="#ff8f00" stroke="white" stroke-width="2"/>
+            <text x="12" y="16" text-anchor="middle" fill="white" font-size="10" font-weight="bold">ب</text>
+          </svg>
+          <div class="university-label">البترا</div>
+        </a>
+      </div>
+      <div class="university-pin" style="left: 30%; top: 45%;" data-category="private">
+        <a href="https://www.meu.edu.jo" target="_blank">
+          <svg class="university-marker" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="10" fill="#ff6f00" stroke="white" stroke-width="2"/>
+            <text x="12" y="16" text-anchor="middle" fill="white" font-size="10" font-weight="bold">ش</text>
+          </svg>
+          <div class="university-label">الشرق الأوسط</div>
+        </a>
+      </div>
+      <div class="university-pin" style="left: 38%; top: 45%;" data-category="private">
+        <a href="https://www.isra.edu.jo" target="_blank">
+          <svg class="university-marker" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="10" fill="#ff6d00" stroke="white" stroke-width="2"/>
+            <text x="12" y="16" text-anchor="middle" fill="white" font-size="10" font-weight="bold">إ</text>
+          </svg>
+          <div class="university-label">الإسراء</div>
+        </a>
+      </div>
+      <div class="university-pin" style="left: 18%; top: 46%;" data-category="private">
+        <a href="https://www.amideast.edu.jo" target="_blank">
+          <svg class="university-marker" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="10" fill="#ff6f00" stroke="white" stroke-width="2"/>
+            <text x="12" y="16" text-anchor="middle" fill="white" font-size="10" font-weight="bold">م</text>
+          </svg>
+          <div class="university-label">الأمريكية في مادبا</div>
+        </a>
+      </div>
+      <div class="university-pin" style="left: 18%; top: 90%;" data-category="private">
+        <a href="https://www.atu.edu.jo" target="_blank">
+          <svg class="university-marker" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="10" fill="#ff9800" stroke="white" stroke-width="2"/>
+            <text x="12" y="16" text-anchor="middle" fill="white" font-size="10" font-weight="bold">ع</text>
+          </svg>
+          <div class="university-label">العقبة للتكنولوجيا</div>
+        </a>
+      </div>
+      <div class="university-pin" style="left: 33%; top: 37%;" data-category="private">
+        <a href="https://www.aaru.edu.jo" target="_blank">
+          <svg class="university-marker" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="10" fill="#e64a19" stroke="white" stroke-width="2"/>
+            <text x="12" y="16" text-anchor="middle" fill="white" font-size="10" font-weight="bold">ع</text>
+          </svg>
+          <div class="university-label">عمان العربية</div>
+        </a>
+      </div>
+      <div class="university-pin" style="left: 25%; top: 33%;" data-category="private">
+        <a href="https://www.philadelphia.edu.jo" target="_blank">
+          <svg class="university-marker" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="10" fill="#fb8c00" stroke="white" stroke-width="2"/>
+            <text x="12" y="16" text-anchor="middle" fill="white" font-size="10" font-weight="bold">ف</text>
+          </svg>
+          <div class="university-label">فيلادلفيا</div>
+        </a>
+      </div>
+      <div class="university-pin" style="left: 29%; top: 32%;" data-category="private">
+        <a href="https://www.zu.edu.jo" target="_blank">
+          <svg class="university-marker" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="10" fill="#d84315" stroke="white" stroke-width="2"/>
+            <text x="12" y="16" text-anchor="middle" fill="white" font-size="10" font-weight="bold">ز</text>
+          </svg>
+          <div class="university-label">الزيتونة</div>
+        </a>
+      </div>
+      <!-- =============== الجامعات ذات القانون الخاص =============== -->
+      <div class="university-pin" style="left: 27%; top: 40%;" data-category="special-law">
+        <a href="https://www.htu.edu.jo" target="_blank">
+          <svg class="university-marker" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="10" fill="#7b1fa2" stroke="white" stroke-width="2"/>
+            <text x="12" y="16" text-anchor="middle" fill="white" font-size="10" font-weight="bold">ح</text>
+          </svg>
+          <div class="university-label">الحسين التقنية</div>
+        </a>
+      </div>
+      <div class="university-pin" style="left: 31%; top: 39%;" data-category="special-law">
+        <a href="https://www.wise.edu.jo" target="_blank">
+          <svg class="university-marker" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="10" fill="#7b1fa2" stroke="white" stroke-width="2"/>
+            <text x="12" y="16" text-anchor="middle" fill="white" font-size="10" font-weight="bold">ع</text>
+          </svg>
+          <div class="university-label">العلوم الإسلامية</div>
+        </a>
+      </div>
+      <!-- =============== الجامعات الإقليمية =============== -->
+      <div class="university-pin" style="left: 35%; top: 36%;" data-category="international">
+        <a href="https://www.arabou.edu.jo" target="_blank">
+          <svg class="university-marker" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="10" fill="#00796b" stroke="white" stroke-width="2"/>
+            <text x="12" y="16" text-anchor="middle" fill="white" font-size="10" font-weight="bold">ع</text>
+          </svg>
+          <div class="university-label">العربية المفتوحة</div>
+        </a>
+      </div>
+      <!-- =============== الكليات التابعة =============== -->
+      <div class="university-pin" style="left: 16%; top: 33%;" data-category="colleges">
+        <a href="https://www.bau.edu.jo" target="_blank">
+          <svg class="university-marker" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="10" fill="#1976d2" stroke="white" stroke-width="2"/>
+            <text x="12" y="16" text-anchor="middle" fill="white" font-size="10" font-weight="bold">ك</text>
+          </svg>
+          <div class="university-label">الكليات التطبيقية (13)</div>
+        </a>
+      </div>
+      <!-- =============== المستشفيات الجامعية =============== -->
+      <div class="university-pin" style="left: 29%; top: 36%;" data-category="hospital">
+        <a href="https://juh.ju.edu.jo" target="_blank">
+          <svg class="university-marker" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="10" fill="#d32f2f" stroke="white" stroke-width="2"/>
+            <text x="12" y="16" text-anchor="middle" fill="white" font-size="10" font-weight="bold">م</text>
+          </svg>
+          <div class="university-label">مستشفى الجامعة الأردنية</div>
+        </a>
+      </div>
+      <div class="university-pin" style="left: 27%; top: 16%;" data-category="hospital">
+        <a href="https://www.just.edu.jo/ar/UniversityHospital/Pages/default.aspx" target="_blank">
+          <svg class="university-marker" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="10" fill="#d32f2f" stroke="white" stroke-width="2"/>
+            <text x="12" y="16" text-anchor="middle" fill="white" font-size="10" font-weight="bold">م</text>
+          </svg>
+          <div class="university-label">مستشفى الملك المؤسس</div>
+        </a>
+      </div>
+    </div>
+    <!-- دليل الجامعات -->
+    <div class="universities-index">
+      <h3>دليل المؤسسات التعليمية</h3>
+      <div class="university-list">
+        <!-- Governmental -->
+        <a href="https://www.ju.edu.jo" target="_blank" class="uni-item" data-category="public">
+          <span class="uni-icon" style="background-color: #1565c0;">أ</span>
+          <span class="uni-name">الجامعة الأردنية</span>
+        </a>
+        <a href="https://www.yu.edu.jo" target="_blank" class="uni-item" data-category="public">
+          <span class="uni-icon" style="background-color: #1976d2;">ي</span>
+          <span class="uni-name">اليرموك</span>
+        </a>
+        <a href="https://www.mutah.edu.jo" target="_blank" class="uni-item" data-category="public">
+          <span class="uni-icon" style="background-color: #388e3c;">م</span>
+          <span class="uni-name">مؤتة</span>
+        </a>
+        <a href="https://www.just.edu.jo" target="_blank" class="uni-item" data-category="public">
+          <span class="uni-icon" style="background-color: #1565c0;">ع</span>
+          <span class="uni-name">العلوم والتكنولوجيا</span>
+        </a>
+        <a href="https://www.aabu.edu.jo" target="_blank" class="uni-item" data-category="public">
+          <span class="uni-icon" style="background-color: #0288d1;">آ</span>
+          <span class="uni-name">آل البيت</span>
+        </a>
+        <a href="https://www.hu.edu.jo" target="_blank" class="uni-item" data-category="public">
+          <span class="uni-icon" style="background-color: #512da8;">هـ</span>
+          <span class="uni-name">الهاشمية</span>
+        </a>
+        <a href="https://www.bau.edu.jo" target="_blank" class="uni-item" data-category="public">
+          <span class="uni-icon" style="background-color: #00796b;">ب</span>
+          <span class="uni-name">البلقاء التطبيقية</span>
+        </a>
+        <a href="https://www.ahu.edu.jo" target="_blank" class="uni-item" data-category="public">
+          <span class="uni-icon" style="background-color: #512da8;">ح</span>
+          <span class="uni-name">الحسين بن طلال</span>
+        </a>
+        <a href="https://www.ttu.edu.jo" target="_blank" class="uni-item" data-category="public">
+          <span class="uni-icon" style="background-color: #0288d1;">ط</span>
+          <span class="uni-name">الطفيلة التقنية</span>
+        </a>
+        <a href="https://www.gju.edu.jo" target="_blank" class="uni-item" data-category="public">
+          <span class="uni-icon" style="background-color: #01579b;">أ</span>
+          <span class="uni-name">الألمانية الأردنية</span>
+        </a>
+        <!-- Private -->
+        <a href="https://www.ammanu.edu.jo" target="_blank" class="uni-item" data-category="private">
+          <span class="uni-icon" style="background-color: #e65100;">أ</span>
+          <span class="uni-name">عمان الأهلية</span>
+        </a>
+        <a href="https://www.petra.edu.jo" target="_blank" class="uni-item" data-category="private">
+          <span class="uni-icon" style="background-color: #ff8f00;">ب</span>
+          <span class="uni-name">البترا</span>
+        </a>
+        <a href="https://www.philadelphia.edu.jo" target="_blank" class="uni-item" data-category="private">
+          <span class="uni-icon" style="background-color: #fb8c00;">ف</span>
+          <span class="uni-name">فيلادلفيا</span>
+        </a>
+        <a href="https://www.asu.edu.jo" target="_blank" class="uni-item" data-category="private">
+          <span class="uni-icon" style="background-color: #ef6c00;">ت</span>
+          <span class="uni-name">العلوم التطبيقية</span>
+        </a>
+        <a href="https://www.psut.edu.jo" target="_blank" class="uni-item" data-category="private">
+          <span class="uni-icon" style="background-color: #004d40;">س</span>
+          <span class="uni-name">سمية للتكنولوجيا</span>
+        </a>
+        <a href="https://www.isra.edu.jo" target="_blank" class="uni-item" data-category="private">
+          <span class="uni-icon" style="background-color: #ff6d00;">إ</span>
+          <span class="uni-name">الإسراء</span>
+        </a>
+        <a href="https://www.jpu.edu.jo" target="_blank" class="uni-item" data-category="private">
+          <span class="uni-icon" style="background-color: #ff8a00;">ج</span>
+          <span class="uni-name">جرش</span>
+        </a>
+        <a href="https://www.zu.edu.jo" target="_blank" class="uni-item" data-category="private">
+          <span class="uni-icon" style="background-color: #d84315;">ز</span>
+          <span class="uni-name">الزيتونة</span>
+        </a>
+        <a href="https://www.iau.edu.jo" target="_blank" class="uni-item" data-category="private">
+          <span class="uni-icon" style="background-color: #ff6f00;">إ</span>
+          <span class="uni-name">إربد الأهلية</span>
+        </a>
+        <a href="https://www.zu.edu.jo" target="_blank" class="uni-item" data-category="private">
+          <span class="uni-icon" style="background-color: #d84315;">ز</span>
+          <span class="uni-name">الزرقاء</span>
+        </a>
+        <a href="https://www.aaru.edu.jo" target="_blank" class="uni-item" data-category="private">
+          <span class="uni-icon" style="background-color: #e64a19;">ع</span>
+          <span class="uni-name">عمان العربية</span>
+        </a>
+        <a href="https://www.meu.edu.jo" target="_blank" class="uni-item" data-category="private">
+          <span class="uni-icon" style="background-color: #ff6f00;">ش</span>
+          <span class="uni-name">الشرق الأوسط</span>
+        </a>
+        <a href="https://www.jadara.edu.jo" target="_blank" class="uni-item" data-category="private">
+          <span class="uni-icon" style="background-color: #ff9100;">ج</span>
+          <span class="uni-name">جدارا</span>
+        </a>
+        <a href="https://www.amideast.edu.jo" target="_blank" class="uni-item" data-category="private">
+          <span class="uni-icon" style="background-color: #ff6f00;">م</span>
+          <span class="uni-name">الأمريكية في مادبا</span>
+        </a>
+        <a href="https://www.najah.edu.jo" target="_blank" class="uni-item" data-category="private">
+          <span class="uni-icon" style="background-color: #f57c00;">ع</span>
+          <span class="uni-name">عجلون الوطنية</span>
+        </a>
+        <a href="https://www.atu.edu.jo" target="_blank" class="uni-item" data-category="private">
+          <span class="uni-icon" style="background-color: #ff9800;">ع</span>
+          <span class="uni-name">العقبة للتكنولوجيا</span>
+        </a>
+        <!-- Special Law -->
+        <a href="https://www.wise.edu.jo" target="_blank" class="uni-item" data-category="special-law">
+          <span class="uni-icon" style="background-color: #7b1fa2;">ع</span>
+          <span class="uni-name">العلوم الإسلامية</span>
+        </a>
+        <a href="https://www.htu.edu.jo" target="_blank" class="uni-item" data-category="special-law">
+          <span class="uni-icon" style="background-color: #7b1fa2;">ح</span>
+          <span class="uni-name">الحسين التقنية</span>
+        </a>
+        <!-- International -->
+        <a href="https://www.arabou.edu.jo" target="_blank" class="uni-item" data-category="international">
+          <span class="uni-icon" style="background-color: #00796b;">ع</span>
+          <span class="uni-name">العربية المفتوحة</span>
+        </a>
+        <!-- Colleges -->
+        <a href="https://www.bau.edu.jo" target="_blank" class="uni-item" data-category="colleges">
+          <span class="uni-icon" style="background-color: #1976d2;">ك</span>
+          <span class="uni-name">الكليات التطبيقية (13)</span>
+        </a>
+        <!-- Hospitals -->
+        <a href="https://juh.ju.edu.jo" target="_blank" class="uni-item" data-category="hospital">
+          <span class="uni-icon" style="background-color: #d32f2f;">م</span>
+          <span class="uni-name">مستشفى الجامعة الأردنية</span>
+        </a>
+        <a href="https://www.just.edu.jo/ar/UniversityHospital/Pages/default.aspx" target="_blank" class="uni-item" data-category="hospital">
+          <span class="uni-icon" style="background-color: #d32f2f;">م</span>
+          <span class="uni-name">مستشفى الملك المؤسس</span>
+        </a>
+      </div>
+    </div>
+    <footer>
+      <p>انقر على أي مؤسسة لزيارة موقعها الرسمي</p>
+    </footer>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const filterBtns = document.querySelectorAll('.filter-btn');
+      const pins = document.querySelectorAll('.university-pin');
+      const listItems = document.querySelectorAll('.uni-item');
+      function applyFilter(filterValue) {
+        pins.forEach(pin => {
+          const pinCategory = pin.getAttribute('data-category');
+          if (filterValue === 'all' || filterValue === pinCategory) {
+            pin.style.display = 'block';
+            setTimeout(() => pin.style.opacity = '1', 50);
+          } else {
+            pin.style.opacity = '0';
+            setTimeout(() => pin.style.display = 'none', 300);
+          }
+        });
+        listItems.forEach(item => {
+          const itemCategory = item.getAttribute('data-category');
+          if (filterValue === 'all' || filterValue === itemCategory) {
+            item.style.display = 'flex';
+          } else {
+            item.style.display = 'none';
+          }
+        });
+      }
+      filterBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+          filterBtns.forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          const filterValue = btn.getAttribute('data-filter');
+          applyFilter(filterValue);
+        });
+      });
+      // Initialize with 'all' filter
+      applyFilter('all');
+    });
+  </script>
+</body>
+<script src="/dark-mode-controller.js" defer></script>
+<script src="/components/mobile-menu.js" defer></script>
+</html>

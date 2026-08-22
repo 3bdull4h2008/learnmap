@@ -1,0 +1,156 @@
+fields:
+  - name: basic_info
+    description: University name, type, location, establishment year
+    detail_level: brief
+    fields:
+      - name: name
+        description: Arabic name of the university
+        type: string
+      - name: nameEn
+        description: English name of the university
+        type: string
+      - name: type
+        description: University type (public, private, special-law, colleges)
+        type: string
+      - name: city
+        description: City where the university is located
+        type: string
+      - name: region
+        description: Region (north, central, south)
+        type: string
+      - name: established
+        description: Year of establishment
+        type: integer
+      - name: website
+        description: Official website URL
+        type: string
+
+  - name: admission_requirements
+    description: General admission criteria and requirements
+    detail_level: moderate
+    fields:
+      - name: general_requirements
+        description: General admission requirements (e.g., Tawjihi, SAT, etc.)
+        type: string
+      - name: min_tawjihi_mark
+        description: Minimum Tawjihi percentage for general admission
+        type: number
+      - name: has_entrance_exam
+        description: Whether university requires entrance exam
+        type: boolean
+      - name: exam_details
+        description: Details about entrance exam if applicable
+        type: string
+      - name: english_requirement
+        description: English language proficiency requirement (e.g., TOEFL, IELTS score)
+        type: string
+
+  - name: majors_overview
+    description: Overview of colleges and major categories offered
+    detail_level: moderate
+    fields:
+      - name: college_count
+        description: Number of colleges/faculties
+        type: integer
+      - name: major_categories
+        description: Categories of majors offered (e.g., medical, engineering, IT, business, arts, law, sharia)
+        type: list
+      - name: total_majors
+        description: Total number of undergraduate majors
+        type: integer
+      - name: has_postgraduate
+        description: Whether postgraduate programs are offered
+        type: boolean
+
+  - name: tuition_fees
+    description: Tuition fee ranges
+    detail_level: moderate
+    fields:
+      - name: annual_fees_range
+        description: Range of annual tuition fees in JOD
+        type: string
+      - name: medical_majors_fees
+        description: Typical annual fees for medical majors in JOD
+        type: number
+      - name: engineering_majors_fees
+        description: Typical annual fees for engineering majors in JOD
+        type: number
+      - name: humanities_majors_fees
+        description: Typical annual fees for humanities majors in JOD
+        type: number
+      - name: notes
+        description: Additional notes about fees, scholarships, etc.
+        type: string
+
+  - name: ranking_accreditation
+    description: National ranking and accreditation status
+    detail_level: brief
+    fields:
+      - name: national_ranking
+        description: National ranking position
+        type: string
+      - name: accreditation
+        description: Accreditation bodies (e.g., MOHE, ABET, etc.)
+        type: string
+      - name: international_recognition
+        description: International rankings or recognitions
+        type: string
+
+  - name: market_demand
+    description: Labor market demand for graduates
+    detail_level: detailed
+    fields:
+      - name: overall_demand
+        description: Overall market demand level (high, medium, low)
+        type: string
+      - name: high_demand_majors
+        description: Majors with highest market demand from this university
+        type: list
+      - name: employment_rate_estimate
+        description: Estimated employment rate within 1 year of graduation
+        type: string
+      - name: notes
+        description: Additional market demand notes
+        type: string
+
+  - name: campus_facilities
+    description: Campus facilities and student life
+    detail_level: detailed
+    fields:
+      - name: has_accommodation
+        description: Whether university offers student housing
+        type: boolean
+      - name: accommodation_details
+        description: Details about student housing
+        type: string
+      - name: has_library
+        description: Whether university has a library
+        type: boolean
+      - name: has_sports_facilities
+        description: Sports facilities available
+        type: boolean
+      - name: has_scholarships
+        description: Whether scholarships are available
+        type: boolean
+      - name: scholarship_details
+        description: Details about scholarship programs
+        type: string
+
+  - name: contact_info
+    description: Contact information
+    detail_level: brief
+    fields:
+      - name: address
+        description: Full address
+        type: string
+      - name: phone
+        description: Phone number
+        type: string
+      - name: email
+        description: Email address
+        type: string
+      - name: social_media
+        description: Social media links
+        type: list
+
+uncertain: []

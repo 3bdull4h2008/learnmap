@@ -1,0 +1,97 @@
+{
+  "basic_info": {
+    "name": "Ajloun National University",
+    "nameEn": "Ajloun National University",
+    "type": "private",
+    "city": "Ajloun",
+    "region": "north",
+    "established": 2008,
+    "website": "https://www.anu.edu.jo"
+  },
+  "admission_requirements": {
+    "general_requirements": "General Tawjihi certificate or equivalent; minimum 60% for most majors, 80% for engineering and computer engineering [uncertain - admission criteria PDF not accessible]",
+    "min_tawjihi_mark": 60,
+    "has_entrance_exam": "[uncertain]",
+    "exam_details": "[uncertain]",
+    "english_requirement": "TOEFL or IELTS required for master's programs; not specified for bachelor's programs"
+  },
+  "majors_overview": {
+    "college_count": 9,
+    "major_categories": [
+      "arts",
+      "law",
+      "information technology",
+      "business",
+      "engineering",
+      "science",
+      "education",
+      "agriculture",
+      "design"
+    ],
+    "total_majors": 37,
+    "has_postgraduate": true,
+    "faculties": [
+      "Faculty of Arts",
+      "Faculty of Law",
+      "Faculty of Information Technology",
+      "Faculty of Business",
+      "Faculty of Engineering",
+      "Faculty of Sciences",
+      "Faculty of Educational Sciences",
+      "Faculty of Agriculture",
+      "Faculty of Arts and Design"
+    ],
+    "notes": "Homepage statistics: 23 departments, 2 centers, 9 faculties, 3730 students, 7224 graduates. Faculty of Physical Education listed in Arabic but not English version [uncertain]."
+  },
+  "tuition_fees": {
+    "annual_fees_range": "480-1500 JOD per year based on 30 credit hours (16-50 JOD per credit hour)",
+    "medical_majors_fees": "[uncertain]",
+    "engineering_majors_fees": 50,
+    "humanities_majors_fees": 24.75,
+    "notes": "Discounts for new students; installment plans available; semester fees: 250 JOD for fall/spring, 180 JOD for summer; insurance 50 JOD one-time. Detailed fee schedule available as image on bsc page."
+  },
+  "ranking_accreditation": {
+    "national_ranking": "[uncertain]",
+    "accreditation": "Ministry of Higher Education and Scientific Research of Jordan, Higher Education Accreditation Commission",
+    "international_recognition": "[uncertain]"
+  },
+  "market_demand": {
+    "overall_demand": "[uncertain]",
+    "high_demand_majors": "[uncertain]",
+    "employment_rate_estimate": "[uncertain]",
+    "notes": "[uncertain]"
+  },
+  "campus_facilities": {
+    "has_accommodation": false,
+    "accommodation_details": "No accommodation facilities mentioned on the website. A healthcare center (مركز الرعاية الصحية) is listed among university departments.",
+    "has_library": true,
+    "library_details": "Founded 2009, 1654 sqm, 33859 books (Arabic/English), 99 print journals, subscribes to EBSCO database (192600 titles), 20 computer lab workstations, open Saturday-Wednesday 8am to end of official working hours.",
+    "has_sports_facilities": "[uncertain]",
+    "has_scholarships": true,
+    "scholarship_details": "Erasmus+ exchange program with University of Jaen, Spain; tuition discounts for new students; installment payment plans."
+  },
+  "contact_info": {
+    "address": "PO Box 43, Ajloun, 26810, Jordan",
+    "phone": ["+96226466616", "+962791110195"],
+    "liaison_office_phone": "+96265660141",
+    "email": "info@anu.edu.jo",
+    "complaints_email": "complaints@anu.edu.jo",
+    "social_media": [
+      "https://www.facebook.com/Ajloun.un",
+      "https://instagram.com/ajloununiversity",
+      "http://linkedin.com/in/ajloun-national-university-3b2a44283"
+    ]
+  },
+  "uncertain": [
+    "has_entrance_exam",
+    "exam_details",
+    "medical_majors_fees",
+    "national_ranking",
+    "international_recognition",
+    "overall_demand",
+    "high_demand_majors",
+    "employment_rate_estimate",
+    "notes",
+    "has_sports_facilities"
+  ]
+}

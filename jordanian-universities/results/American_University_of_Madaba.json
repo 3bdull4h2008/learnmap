@@ -1,0 +1,158 @@
+{
+  "basic_info": {
+    "name": "الجامعة الأمريكية في مادبا",
+    "nameEn": "American University of Madaba",
+    "type": "private non-profit",
+    "city": "Madaba",
+    "region": "central",
+    "established": 2005,
+    "inaugurated": 2013,
+    "opened_to_students": 2011,
+    "website": "https://www.aum.edu.jo",
+    "founded_by": "Latin Patriarchate of Jerusalem",
+    "campus_area": "100 acres (50 hectares), 8 km outside Madaba city",
+    "total_students_approx": "1,000-1,999"
+  },
+  "admission_requirements": {
+    "general_requirements": "Jordanian General Secondary Certificate (Tawjihi) or equivalent. Must meet minimum acceptance grades per program and pass Ministry of Education placement tests. Non-Jordanian certificates require equivalency from Ministry of Education.",
+    "min_tawjihi_mark": "60% (varies by faculty: 60% Science/IT/Business/Languages, 70% Health Sciences, 80% Engineering/Pharmacy/Architecture)",
+    "has_entrance_exam": true,
+    "exam_details": "Placement tests in English, Arabic, and Computer skills administered by the university. Students who fail any test must take remedial courses during the first year.",
+    "english_requirement": "English placement test at admission. Graduate programs require TOEFL (59-90) or IELTS (5-6.5) depending on program, or conditional admission with six credit hours of English.",
+    "accepted_certificates": ["General Secondary Certificate (Tawjihi)", "IB", "IGCSE", "SAT", "Bagrut"],
+    "diploma_bridging": "College diploma holders can pursue bachelor's through bridging program after passing comprehensive exam"
+  },
+  "majors_overview": {
+    "college_count": 7,
+    "faculties": [
+      "Faculty of Engineering",
+      "Faculty of Science",
+      "Faculty of Health Sciences",
+      "Faculty of Information Technology",
+      "Faculty of Business and Finance",
+      "Faculty of Architecture and Design",
+      "Faculty of Languages and Communication"
+    ],
+    "undergraduate_programs": {
+      "engineering": ["Intelligent Robotics Systems Engineering", "Mechanical Engineering"],
+      "science": ["Biology and Biotechnology"],
+      "health_sciences": ["Pharmacy (Pharmaceutical Sciences)", "Medical Laboratory Sciences"],
+      "information_technology": ["Computer Science", "Cyber Security", "Data Science and AI"],
+      "business": ["Business Administration", "International Accounting and Finance", "Digital Marketing and Innovation", "Risk Management", "Human Resources Management"],
+      "architecture_and_design": ["Architecture", "Design and Visual Communication", "Interior Design"],
+      "languages_and_communication": ["English Language, Culture and Communication"]
+    },
+    "ceased_enrollment": ["Civil Engineering", "English Language and Literature", "Nutrition and Dietetics", "Marketing"],
+    "newly_offered": ["Data Science and AI", "Digital Marketing and Innovation", "International Accounting and Finance", "Design and Applied Arts", "Nutrition and Health Psychology"],
+    "total_undergraduate_majors_approx": 21,
+    "has_postgraduate": true,
+    "postgraduate_programs": ["MBA and Business Analytics", "MSc in Risk Management"]
+  },
+  "tuition_fees": {
+    "currency": "JOD (Jordanian Dinar)",
+    "tuition_structure": "Per credit hour basis",
+    "credit_hour_fees_jordanian": {
+      "engineering": "100-110 JD/cr",
+      "architecture_and_design": "120 JD/cr",
+      "pharmacy": "150 JD/cr",
+      "science": "70-100 JD/cr",
+      "information_technology": "70-100 JD/cr",
+      "business": "100-110 JD/cr",
+      "health_sciences": "70-150 JD/cr",
+      "languages": "70 JD/cr"
+    },
+    "credit_hour_fees_non_jordanian_usd": {
+      "engineering": "170 USD/cr",
+      "architecture_and_design": "170 USD/cr",
+      "pharmacy": "285 USD/cr",
+      "business": "110 USD/cr",
+      "general_range": "100-285 USD/cr"
+    },
+    "registration_fees": {
+      "first_time_registration_jordanian": "250 JD",
+      "first_time_registration_non_jordanian": "357 USD",
+      "semester_registration": "125 JD (Jordanian), 180 USD (Non-Jordanian)"
+    },
+    "other_fees": {
+      "placement_tests": "Free (3 tests included)",
+      "graduation_fee": "424 JD"
+    },
+    "graduate_fees": {
+      "mba_and_business_analytics": "475 JD per semester",
+      "risk_management": "175 JD per credit hour, 475 JD per semester"
+    },
+    "notes": "Tuition varies by faculty and credit hour. Fees subject to change. Non-Jordanian charges are in USD."
+  },
+  "scholarships": {
+    "has_scholarships": true,
+    "academic_scholarships_jordanian": {
+      "60-69.9_percent": "0%",
+      "70-79.9_percent": "0%",
+      "80-89.9_percent": "30-35%",
+      "90-97.9_percent": "35-40%",
+      "98-100_percent": "100%"
+    },
+    "additional_discounts": "Extra 5% for Madaba residents and MOU partner school graduates",
+    "graduate_scholarships": "Corporate discounts (15-25%) for group enrollments in MBA programs",
+    "conditions": "Partial scholarships apply to tuition fees only, do not cover registration fees or summer terms. Highest applicable scholarship applies if multiple qualify."
+  },
+  "ranking_accreditation": {
+    "national_ranking": "24th in Jordan (Webometrics January 2026); 23rd in Jordan (EduRank 2026)",
+    "global_ranking": "6925th globally (EduRank 2026); 7764th (Webometrics January 2026)",
+    "accreditation": {
+      "jordanian": "Ministry of Higher Education and Scientific Research (MOHE), Accreditation and Quality Assurance Commission for Higher Education Institutions (HEAC)",
+      "american": "Authorized by New Hampshire Department of Education, Commission on Higher Education; Candidate for Accreditation by New England Commission of Higher Education (NECHE) - Approved November 2024, next comprehensive evaluation Spring 2029"
+    },
+    "international_recognition": "Registered as U.S. educational entity (AUM Inc.) in New Hampshire (incorporated 2013); member of Association of Arab Universities (AArU), International Association of Universities (IAU), Association of Catholic Colleges and Universities (ACCU)"
+  },
+  "market_demand": {
+    "overall_demand": "high",
+    "high_demand_majors": ["Pharmacy", "Business Administration", "Information Technology", "Computer Science", "Risk Management"],
+    "employment_rate": "Excellent - described as 'almost most students find work after graduation' (Vatican Source); consistently strong graduate outcomes reported",
+    "notable_achievements": "Pharmacy faculty ranked first in Jordanian board examinations for four consecutive years",
+    "notes": "Business and IT programs designed to align with market demands. Curriculum updated regularly including AI for Business, Digital Business Strategy, Cybersecurity, and Digital Marketing."
+  },
+  "campus_facilities": {
+    "campus_size": "100 acres (50 hectares), located 8 km outside Madaba",
+    "has_accommodation": true,
+    "accommodation_details": "House of Grace female dormitory opened July 2018, 3,490 sqm, 88 single rooms + 3 supervisor rooms. Air-conditioned, free Wi-Fi, main kitchen, gym, study lounge, laundry, outdoor spaces. Fee: 150 JD/month plus sales tax.",
+    "has_library": true,
+    "has_sports_facilities": true,
+    "sports_facilities": "Indoor swimming pool (semi-Olympic), basketball, football, volleyball, tennis courts, fitness center, weightlifting room, table tennis - both indoor and outdoor",
+    "has_medical_center": true,
+    "medical_center": "On-campus medical center with multiple clinics, periodic Medical Wellness Days, psychological counseling services",
+    "has_language_center": true,
+    "has_computer_hall": true,
+    "geothermal_system": "Largest geothermal heating and cooling system in the Middle East - environmentally friendly campus",
+    "four_day_academic_week": true,
+    "student_clubs": true,
+    "international_student_office": true
+  },
+  "contact_info": {
+    "address": "PO Box 2882, Amman 11821, Jordan (Theban St., Madaba)",
+    "campus_location": "MR62+F79, Madaba, Jordan (8 km outside city)",
+    "phone": "+962 5 3294444",
+    "phone_alt": "+962 5 329 44 50 (fax)",
+    "email": "info@aum.edu.jo",
+    "finance_email": "finance@aum.edu.jo",
+    "academics_email": "academics@aum.edu.jo",
+    "president": "Prof. Adi Arida (current, per NECHE)",
+    "social_media": [
+      "https://www.facebook.com/AUMMadaba",
+      "https://www.instagram.com/aummadaba/",
+      "https://www.linkedin.com/school/american-university-of-madaba---aum/",
+      "https://www.youtube.com/@AmericanUniversityofMadaba",
+      "https://www.tiktok.com/@aummadaba"
+    ]
+  },
+  "academic_calendar": {
+    "semester_system": true,
+    "current_academic_year": "2025/2026"
+  },
+  "uncertain": [
+    "exact_current_enrollment_count",
+    "credit_hour_fees_breakdown_per_program",
+    "exact_number_of_current_active_majors",
+    "current_president_confirmation"
+  ]
+}

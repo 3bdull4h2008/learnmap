@@ -1,0 +1,109 @@
+{
+  "basic_info": {
+    "name": "جامعة آل البيت",
+    "nameEn": "Al al-Bayt University",
+    "type": "public",
+    "city": "Mafraq",
+    "region": "north",
+    "established": 1993,
+    "website": "https://www.aabu.edu.jo",
+    "campus_area_dunums": 7539,
+    "undergraduate_students": 20521,
+    "academic_staff": 535
+  },
+  "admission_requirements": {
+    "general_requirements": "General Secondary Education Certificate (Tawjihi) or equivalent; parallel program requires minimum 65% average; bridging students from community colleges need 68% in comprehensive exam (70% for engineering)",
+    "min_tawjihi_mark": 65,
+    "has_entrance_exam": true,
+    "exam_details": "English proficiency examination for all students; those scoring below 70% must take remedial English course. Arabic and computer level examinations also required.",
+    "english_requirement": "English proficiency examination required; score of 70% or above exempts student from English 101 remedial course"
+  },
+  "majors_overview": {
+    "college_count": 16,
+    "major_categories": [
+      "sharia",
+      "law",
+      "arts and humanities",
+      "sciences",
+      "business",
+      "political sciences and international studies",
+      "engineering",
+      "earth and environmental sciences",
+      "information technology",
+      "nursing",
+      "educational sciences",
+      "foreign languages",
+      "applied medical sciences",
+      "physical education and sport sciences",
+      "technical education",
+      "institute of astronomy and space sciences"
+    ],
+    "total_undergraduate_programs": 46,
+    "has_postgraduate": true
+  },
+  "tuition_fees": {
+    "annual_fees_range": "330-3,240 JOD per year estimated (10-80 JOD per credit hour depending on program and track; regular/parallel/international)",
+    "medical_majors_fees": 660,
+    "engineering_majors_fees": 1215,
+    "humanities_majors_fees": 330,
+    "notes": "Regular program: 10 JOD/credit hour for humanities, 12 for sciences, 20 for nursing and architecture, 30 for IT and engineering. Parallel program: 30-80 JOD/credit hour. International parallel: 60-125 JOD/credit hour. One-time admission fee 140 JOD (regular), 210 JOD (parallel). Quarterly service fees 40 JOD (regular), 100 JOD (parallel). Renewable energy engineering has highest fees."
+  },
+  "ranking_accreditation": {
+    "national_ranking": "12th in Jordan (eduRank 2026); 15th (Webometrics 2024); 17th (uniRank 2026); 9th (Arab Ranking for Universities 2025)",
+    "accreditation": "Ministry of Higher Education and Scientific Research of Jordan; Accreditation and Quality Assurance Commission For Higher Education Institutions",
+    "international_recognition": "THE World University Rankings 801-1000th (2026); THE Arab University Ranking 121st (2024); SCImago World Ranking 6113th (2026); Webometrics World Ranking 2804th (2024)"
+  },
+  "market_demand": {
+    "overall_demand": "medium",
+    "high_demand_majors": [
+      "Information Technology",
+      "Engineering",
+      "Nursing",
+      "Business Administration",
+      "Law"
+    ],
+    "employment_rate_estimate": "[uncertain]",
+    "notes": "University actively aligning programs with labor market needs through EUSEEDS project (EU-funded) and partnerships with USAID. Jordan's national youth unemployment exceeds 50%, making accurate university-specific employment data unavailable. University has introduced market-responsive programs in cybersecurity, data science, AI, and financial technology."
+  },
+  "campus_facilities": {
+    "has_accommodation": true,
+    "accommodation_details": "University housing for female students only in five dormitories with capacity of approximately 500 students. No on-campus housing for male students. Housing fees: 105 JOD per semester (regular), 55 JOD (summer session). Housing deposit: 25 JOD.",
+    "has_library": true,
+    "library_name": "The Hashemite Library",
+    "has_sports_facilities": true,
+    "sports_facilities": [
+      "Swimming Pools",
+      "Indoor and outdoor fitness gym",
+      "Indoor Sports Courts",
+      "Outdoor Sport Courts"
+    ],
+    "has_medical_center": true,
+    "has_scholarships": true,
+    "scholarship_details": "Academic excellence scholarships (at least one per class per major); teaching assistant scholarships for master's students (renewable up to 5 semesters); MOHE postgraduate scholarships; Tawjihi top achiever full scholarships; Syrian refugee scholarships (UNHCR-supported); international partnerships (USAID, Erasmus+). Student loans available through the Student Fund.",
+    "other_facilities": [
+      "Cafeteria/Restaurant",
+      "Bookstore",
+      "Social room",
+      "Support center for minority groups",
+      "Religious facilities"
+    ]
+  },
+  "contact_info": {
+    "address": "P.O. Box 130040, Mafraq 25113, Jordan",
+    "phone": "+962-2-6297000",
+    "email": "info@aabu.edu.jo",
+    "social_media": [
+      "https://www.facebook.com/aabuniversity",
+      "https://www.instagram.com/aabuniversity/",
+      "https://www.linkedin.com/company/al-al-bayt-university",
+      "https://twitter.com/aabuniversity",
+      "https://www.youtube.com/aabuniversity"
+    ]
+  },
+  "uncertain": [
+    "employment_rate_estimate",
+    "admission_requirements",
+    "tuition_fees",
+    "ranking_accreditation"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+    "name": "LearnMap",
+    "short_name": "LearnMap",
+    "description": "منصة توجيهية شاملة لطلاب التوجيهي في الأردن",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#f0fdfa",
+    "theme_color": "#147079",
+    "lang": "ar",
+    "dir": "rtl",
+    "icons": [
+        {
+            "src": "/images/logo.ico",
+            "sizes": "48x48",
+            "type": "image/x-icon"
+        }
+    ]
+}

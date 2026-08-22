@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>العقلية وتنظيم المشاعر – دليلك العلمي للتوازن الداخلي | LearnMap</title>
+    <meta name="description" content="دليل متكامل لفهم العقلية الثابتة مقابل النامية، وتعلّم تقنيات تنظيم المشاعر المدعومة علميًا: من التنفّس إلى التحوّل المعرفي. مع اختبارات، دراسات حالة، وخطة 30 يومًا.">
+    <!-- أنماط عامة -->
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="icon" type="image/x-icon" href="/images/logo.ico">
+    <style>
+        :root {
+            --card-bg: #ffffff;
+        }
+        body.dark-mode {
+            --card-bg: #1c3352;
+        }
+        .page-hero {
+            background-image: linear-gradient(#02020279, #323d5acc), 
+            url('/images/mentality.webp');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            position: relative;
+            color: #363636;
+        }
+        /* تخصيص داخلي */
+        .mindset-table .growth {
+            background-color: rgba(67, 160, 71, 0.12);
+        }
+        .mindset-table .fixed {
+            background-color: rgba(244, 67, 54, 0.1);
+        }
+        .mindset-table td:nth-child(2) {
+            font-weight: 600;
+        }
+        .mindset-table .positive { color: #2e7d32; }
+        .mindset-table .negative { color: #d32f2f; }
+        .technique-card {
+            border-left: 4px solid #9c27b0;
+            background: var(--card-bg);
+            padding: 1.2rem;
+            margin: 1rem 0;
+            border-radius: 6px;
+        }
+        .technique-card h4 {
+            margin-top: 0;
+            color: #7b1fa2;
+        }
+        /* --- FIX 1: Prevent Diagram from breaking layout --- */
+        .brain-diagram {
+            font-family: monospace;
+            background: #263238;
+            color: #eeffff;
+            padding: 1.2rem;
+            border-radius: 8px;
+            direction: ltr;
+            text-align: left;
+            font-size: 0.9rem;
+            white-space: pre;
+            overflow-x: auto; /* Allows scrolling instead of widening page */
+            max-width: 100%;  /* Ensures it stays within container */
+        }
+        .progress-bar-container {
+            width: 100%;
+            background-color: #eee;
+            border-radius: 4px;
+            margin: 1rem 0;
+            height: 20px;
+        }
+        .progress-bar {
+            height: 100%;
+            border-radius: 4px;
+            background: linear-gradient(90deg, #e91e63, #9c27b0);
+            width: 0%;
+            transition: width 0.8s ease;
+        }
+        .case-study {
+            background: var(--card-bg);
+            border-left: 4px solid #ff9800;
+            padding: 1.2rem;
+            margin: 1.2rem 0;
+            border-radius: 6px;
+        }
+        .case-study h4 {
+            margin-top: 0;
+            color: #e65100;
+        }
+        .expert-quote {
+            border-right: 4px solid #3f51b5;
+            padding: 1rem;
+            margin: 1.2rem 0;
+            font-style: italic;
+        }
+        .expert-name {
+            font-weight: 700;
+            color: #1a237e;
+            display: block;
+            margin-top: 0.5rem;
+        }
+        .myth-buster {
+            display: flex;
+            gap: 1rem;
+            background: var(--card-bg);
+            padding: 1rem;
+            border-radius: 8px;
+            margin: 1rem 0;
+        }
+        .myth-icon {
+            font-size: 1.8rem;
+            color: #f44336;
+        }
+        .truth-icon {
+            font-size: 1.8rem;
+            color: #4caf50;
+        }
+        .reflection-prompt {
+            background: rgba(33, 150, 243, 0.08);
+            border-radius: 6px;
+            padding: 1rem;
+            margin: 1rem 0;
+        }
+        /* --- FIX 2: Table Scroll Wrapper Style --- */
+        .table-wrapper {
+            width: 100%;
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+            margin-bottom: 1rem;
+        }
+        /* Force table to keep width so it scrolls */
+        .mindset-table {
+            min-width: 600px; 
+        }
+        /* --- FIX 3: Responsive Layout Overrides --- */
+        /* Ensure main column doesn't squeeze */
+        .main-column {
+            min-width: 0; 
+        }
+        /* Mobile adjustments */
+        @media (max-width: 900px) {
+            .content-grid {
+                display: grid;
+                grid-template-columns: 1fr; /* Stack sidebar below content */
+                gap: 2rem;
+            }
+            .mindset-table th:nth-child(4),
+            .mindset-table td:nth-child(4) {
+                display: table-cell; /* Show 4th column again (scrolling handles it) */
+            }
+            .card-grid {
+                grid-template-columns: 1fr !important;
+            }
+            .brain-diagram {
+                font-size: 0.8rem;
+            }
+        }
+    </style>
+    <!-- سكريبتات محسّنة -->
+    <script src="/dark-mode-controller.js" defer></script>
+    <script src="/components/mobile-menu.js" defer></script>
+</head>
+<body>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap" as="style">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap" rel="stylesheet">
+<div class="nav-overlay" id="navOverlay" aria-hidden="true"></div>
+<nav class="navbar" role="navigation" aria-label="القائمة الرئيسية">
+  <div class="nav-container">
+    <a href="/index.html" class="logo" aria-label="العودة للصفحة الرئيسية">
+      <img src="/logo.webp" alt="LearnMap Logo" class="logo-img" width="50" height="50" loading="eager">
+    </a>
+    <button class="hamburger" id="hamburger" type="button" aria-label="فتح القائمة" aria-expanded="false" aria-controls="navMenu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <ul class="nav-menu" id="navMenu" role="menubar">
+      <li class="has-submenu" role="none">
+        <a role="menuitem" aria-haspopup="true" aria-expanded="false">النظام التعليمي في الأردن</a>
+        <ul class="dropdown-menu" role="menu">
+          <li role="none"><a href="/fields-awareness/overview/BTEC-System-2025.html" role="menuitem">المسار المهني والتقني</a></li>
+          <li role="none"><a href="/fields-awareness/overview/jordanian-system-2025.html" role="menuitem">المسار الأكاديمي</a></li>
+          <li class="has-submenu" role="none">
+            <a role="menuitem" aria-haspopup="true" aria-expanded="false">تخصصات المسار الأكاديمي</a>
+            <ul class="dropdown-submenu" role="menu">
+              <li role="none"><a href="/fields-awareness/academic/science-and-technology-field.html" role="menuitem">الهندسة والعلوم والتكنولوجيا</a></li>
+              <li role="none"><a href="/fields-awareness/academic/health-field.html" role="menuitem">الصحي</a></li>
+              <li role="none"><a href="/fields-awareness/academic/business-and-management-field.html" role="menuitem">إدارة الأعمال</a></li>
+              <li role="none"><a href="/fields-awareness/academic/languages-and-social-studies.html" role="menuitem">اللغات والعلوم الانسانية والاجتماعية</a></li>
+            </ul>
+          </li>
+          <li class="has-submenu" role="none">
+            <a role="menuitem" aria-haspopup="true" aria-expanded="false">تخصصات المسار المهني</a>
+            <ul class="dropdown-submenu" role="menu">
+              <li role="none"><a href="/fields-awareness/vocational/engineering-vocational.html" role="menuitem">الهندسة</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/information-technology-vocational.html" role="menuitem">تكنولوجيا معلومات</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/hospitality-vocational.html" role="menuitem">الضيافة</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/hair-and-beauty-vocational.html" role="menuitem">الشعر والتجميل</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/construction-vocational.html" role="menuitem">البناء والإنشاءات</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/agriculture-vocational.html" role="menuitem">الزراعة</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/art-and-design-vocational.html" role="menuitem">الفن والتصميم</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/travel-and-tourism-vocational.html" role="menuitem">السفر والسياحة</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/business-and-management-vocational.html" role="menuitem">الأعمال</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/creative-media-vocational.html" role="menuitem">الوسائط الإبداعية</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/Healthcare-and-Social-Care-Vocational.html" role="menuitem">الرعاية الصحية والاجتماعية</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/sports-vocational.html" role="menuitem">الرياضة</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li class="has-submenu" role="none">
+        <a role="menuitem" aria-haspopup="true" aria-expanded="false">التوجيه المهني</a>
+        <ul class="dropdown-menu" role="menu">
+          <li role="none"><a href="/career-guidance/interest-test.html" role="menuitem">اختبار الميول والقدرات</a></li>
+          <li role="none"><a href="/career-guidance/university-matcher.html" role="menuitem">مطابقة الجامعات</a></li>
+          <li role="none"><a href="/career-guidance/field-test.html" role="menuitem">اختبار الجاهزية المهنية</a></li>
+          <li role="none"><a href="/career-guidance/skills-development.html" role="menuitem">تطوير المهارات</a></li>
+          <li role="none"><a href="/career-guidance/market-demand.html" role="menuitem">احتياجات السوق</a></li>
+          <li role="none"><a href="/career-guidance/universities-list.html" role="menuitem">دليل الجامعات</a></li>
+        </ul>
+      </li>
+      <li class="has-submenu" role="none">
+        <a role="menuitem" aria-haspopup="true" aria-expanded="false">الدعم النفسي</a>
+        <ul class="dropdown-menu" role="menu">
+          <li role="none"><a href="/psychological-support/time-management-tools.html" role="menuitem">إدارة الوقت</a></li>
+          <li role="none"><a href="/psychological-support/mindset-and-emotional-regulation.html" role="menuitem">العقلية والضبط النفسي</a></li>
+        </ul>
+      </li>
+      <li class="has-submenu" role="none">
+        <a role="menuitem" aria-haspopup="true" aria-expanded="false">الأخبار والمجتمع</a>
+        <ul class="dropdown-menu" role="menu">
+          <li role="none"><a href="/community/ministry-decisions.html" role="menuitem">قرارات الوزارة</a></li>
+          <li role="none"><a href="/career-guidance/faq.html" role="menuitem">الأسئلة الشائعة</a></li>
+        </ul>
+      </li>
+    </ul>
+    <div class="nav-buttons">
+      <div class="nav-account-section" id="navAccountSection">
+        <a href="/auth/login.html" class="nav-account-btn" id="navAccountBtn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+          <span id="navAccountText">حسابي</span>
+        </a>
+      </div>
+      <button id="darkModeToggle" class="btn-dark-mode" type="button" aria-label="تفعيل الوضع الليلي" aria-pressed="false">
+        <svg class="dm-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+    </div>
+    <script>
+    try {
+      var isLoggedIn = false;
+
+      function showLoggedIn(user) {
+        isLoggedIn = true;
+        var nameEl = document.getElementById('navAccountText');
+        if (nameEl && user.name) nameEl.textContent = user.name;
+        var btn = document.getElementById('navAccountBtn');
+        if (btn) btn.href = '/user/profile.html';
+      }
+
+      function showLoggedOut() {
+        isLoggedIn = false;
+        document.getElementById('navAccountText').textContent = 'حسابي';
+        var btn = document.getElementById('navAccountBtn');
+        if (btn) btn.href = '/auth/login.html';
+      }
+
+      function handleLogout() {
+        if (window.LearnMapAuth && window.LearnMapAuth.logout) {
+          window.LearnMapAuth.logout();
+        } else {
+          localStorage.removeItem('learnmap_token');
+          localStorage.removeItem('learnmap_user');
+          showLoggedOut();
+          window.location.href = '/index.html';
+        }
+      }
+
+      function updateNavAuth() {
+        var token = localStorage.getItem('learnmap_token');
+        var userData = localStorage.getItem('learnmap_user');
+        if (token && userData) {
+          try { showLoggedIn(JSON.parse(userData)); } catch(e) { showLoggedOut(); }
+        } else if (token) {
+          showLoggedIn({});
+        } else {
+          showLoggedOut();
+        }
+      }
+
+      function tryCheckAuth() {
+        if (window.LearnMapAuth && window.LearnMapAuth.checkAuth) {
+          window.LearnMapAuth.checkAuth().then(function(user) {
+            if (user) showLoggedIn(user);
+          }).catch(function() {});
+        } else {
+          setTimeout(tryCheckAuth, 100);
+        }
+      }
+
+      updateNavAuth();
+      tryCheckAuth();
+      window.addEventListener('storage', updateNavAuth);
+
+      (function() {
+        var path = window.location.pathname;
+        var links = document.querySelectorAll('.nav-menu a');
+        for (var i = 0; i < links.length; i++) {
+          var href = links[i].getAttribute('href');
+          if (href && path.indexOf(href) !== -1) {
+            links[i].setAttribute('aria-current', 'page');
+            break;
+          }
+        }
+      })();
+    } catch(e) {}
+    </script>
+  </div>
+</nav>
+
+    <section class="page-hero">
+        <div class="page-hero-content">
+            <h1>العقلية وتنظيم المشاعر: كيف تبني دماغًا لا ينهار تحت الضغط؟</h1>
+            <p>ليس الذكاء أو الظروف هو ما يحدّد نجاحك — بل <strong>عقليتك</strong> وقدرتك على <strong>تنظيم المشاعر</strong>. هذا الدليل العلمي يأخذك من التلقائية إلى الوعي، ومن الانفعال إلى الاستجابة الواعية.</p>
+        </div>
+    </section>
+    <section class="page-content">
+        <div class="container">
+            <div class="content-grid">
+                <div class="main-column">
+                    <div class="content-section">
+                        <h2>لماذا يُهمل 95% من الناس هذا "العامل الحاسم"؟</h2>
+                        <p>تُظهر دراسة لجامعة هارفارد (2024) أن 85% من الفرق بين "الناجحين" و"غير الناجحين" لا يعود إلى الذكاء أو الفرص، بل إلى:</p>
+                        <ol>
+                            <li><strong>نوع العقلية (Mindset):</strong> هل ترى الفشل ككارثة أم كبيانات؟</li>
+                            <li><strong>كفاءة تنظيم المشاعر (Emotional Regulation):</strong> هل تسمح للمشاعر بالقيادة، أم تستخدمها كمؤشر؟</li>
+                        </ol>
+                        <p>الذكاء العاطفي (EQ) يفوق الذكاء الفطري (IQ) في التنبؤ بالنجاح الوظيفي بنسبة 2:1 (Goleman, 2023). ومع ذلك، لا يُدرّس في المدارس، ولا يُدرّب عليه في أغلب أماكن العمل.</p>
+                        <div class="expert-quote">
+                            "العقلية هي نظام التشغيل الداخلي. المشاعر هي التنبيهات. إذا لم تُحدّث النظام أو تتعلّم قراءة التنبيهات، فستتعطّل الآلة مبكرًا."
+                            <span class="expert-name">— د. ليلى الخطيب، أستاذة علم الأعصاب السلوكي، الجامعة الأردنية</span>
+                        </div>
+                    </div>
+                    <div class="content-section">
+                        <h2>العقلية الثابتة vs. العقلية النامية — الفرق الذي يغيّر حياتك</h2>
+                        <p>بناءً على أبحاث البروفيسورة <strong>كارول دويك (Carol Dweck)</strong> في ستانفورد، العقلية ليست سمة شخصية، بل <strong>نظام معرفي قابل للتغيير</strong>.</p>
+                        <div class="table-wrapper">
+                            <table class="styled-table mindset-table">
+                                <thead>
+                                    <tr>
+                                        <th>الموقف</th>
+                                        <th>العقلية الثابتة</th>
+                                        <th>العقلية النامية</th>
+                                        <th>التأثير طويل المدى</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="fixed">
+                                        <td>الفشل في امتحان</td>
+                                        <td class="negative">"أنا لست ذكيًا كفاية."</td>
+                                        <td class="positive">"طريقتي في الدراسة لم تُجدِ. ما الخطة البديلة؟"</td>
+                                        <td>الثابتة: تجنّب التحديات. النامية: البحث عن التغذية الراجعة.</td>
+                                    </tr>
+                                    <tr class="growth">
+                                        <td>نقد من المدير</td>
+                                        <td class="negative">"يريد إهانتي. سأبحث عن عمل آخر."</td>
+                                        <td class="positive">"ما الجزء القابل للتنفيذ في هذا النقد؟"</td>
+                                        <td>الثابتة: دفاعية → عزلة. النامية: تعلّم → ترقية.</td>
+                                    </tr>
+                                    <tr class="fixed">
+                                        <td>نجاح زميل</td>
+                                        <td class="negative">"لديه حظ. أو ربما يُفضّله المدير."</td>
+                                        <td class="positive">"ما الذي فعله؟ هل يمكنني تعلّم منه؟"</td>
+                                        <td>الثابتة: حسد → تآكل العلاقات. النامية: إلهام → تعاون.</td>
+                                    </tr>
+                                    <tr class="growth">
+                                        <td>مهمة جديدة صعبة</td>
+                                        <td class="negative">"سأُحرج نفسي. أرفض."</td>
+                                        <td class="positive">"هذه فرصة لتوسيع مهاراتي. ما أول خطوة صغيرة؟"</td>
+                                        <td>الثابتة: ركود مهني. النامية: نمو متسارع.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="reflection-prompt">
+                            <strong>اسأل نفسك الآن:</strong>  
+                            في المواقف الخمسة الأخيرة التي شعرت فيها بالإحباط — كم مرة استخدمت لغة "ثابتة"؟  
+                            (مثال: "أنا شخص فوضوي"، "أنا بطبعي أتوتر"... هذه جمل تُثبّت الهوية، لا تصف سلوكًا مؤقتًا).
+                        </div>
+                    </div>
+                    <div class="content-section">
+                        <h2>علم الأعصاب وراء الانفعال: لماذا "تفقد السيطرة"؟</h2>
+                        <p>عندما تشعر بتهديد (واقعي أو رمزي)، يحدث ما يسمّى بـ "<strong>اختطاف الحُصين</strong>" (Amygdala Hijack) — حيث يتخلّف القشرة الجبهية (مركز التفكير العقلاني) مؤقتًا.</p>
+                        <div class="brain-diagram">
+# تسلسل عصبي لانفعال قوي (مثال: غضب مفاجئ)
+[الحدث] → (عينيك/أذنيك)  
+     ↓  
+[الحُصين (Amygdala)] ←--- يكتشف "تهديدًا" (مثل نقد لاذع)  
+     ↓  
+[الهيبوثالاموس] → يُفعّل الجهاز العصبي الودّي  
+     ↓  
+[إفراز: أدرنالين + كورتيزول]  
+     ↓  
+[الجسم: تسارع نبض، توتر عضلي، تضيق تنفّس]  
+     ↓  
+[القشرة الجبهية (Prefrontal Cortex)] ←--- تُعطّل مؤقتًا (3–6 ثوانٍ)  
+     ↓  
+→ بدون تدخّل: رد فعل تلقائي (صراخ، هروب، صمت جليدي)
+# الحل: تقنيات "إعادة الاتصال" (Reconnection)
+- التنفّس البطني (4-7-8): يُهدئ الجهاز الودّي خلال 90 ثانية.
+- تسمية المشاعر: "أشعر بالغضب لأن..." → يُفعّل القشرة الجبهية.
+- تأجيل الرد: "أحتاج دقيقة لأفكّر" → يمنع الاختطاف.
+                        </div>
+                        <p style="font-size: 0.85rem; color: #777;">*المصدر: كتاب "الدماغ العاطفي" لـ دانيال غولمان، ودراسات fMRI من جامعة كاليفورنيا (2024).</p>
+                    </div>
+                    <div class="content-section">
+                        <h2>7 تقنيات لتنظيم المشاعر — مصنّفة حسب السرعة والعمق</h2>
+                        <p>ليست كل التقنيات مناسبة لكل لحظة. اختر حسب: هل تحتاج <strong>تهدئة فورية</strong>؟ أم <strong>تحوّلًا معرفيًا طويل المدى</strong>؟</p>
+                        <div class="technique-card">
+                            <h4>1. تقنية 4-7-8 (للطوارئ — 90 ثانية)</h4>
+                            <p><strong>كيف:</strong> شهيق 4 ثوانٍ → احباس 7 ثوانٍ → زفير بطيء 8 ثوانٍ. كرّر 3 مرات.</p>
+                            <p><strong>لماذا تعمل:</strong> تُحفّز العصب الحائر (Vagus Nerve)، وتُقلل معدل ضربات القلب بنسبة 15–20%.</p>
+                            <p><strong>متى تستخدمها:</strong> قبل الرد في خلاف، قبل عرض تقديمي، عند شعور بالذعر.</p>
+                        </div>
+                        <div class="technique-card">
+                            <h4>2. تسمية المشاعر بدقة (Labeling — 2 دقيقة)</h4>
+                            <p><strong>كيف:</strong> بدل "أشعر بضيق"، قل: "أشعر بالإحباط لأن توقّعي لم يُحقَّق، مع لمسة من الخوف من التكرار".</p>
+                            <p><strong>لماذا تعمل:</strong> تفعّل القشرة الجبهية، وتُقلل نشاط الحُصين بنسبة 50% (دراسة UCLA, 2023).</p>
+                            <p><strong>نصيحة:</strong> استخدم "عجلة المشاعر" (Plutchik’s Wheel) لتوسيع مفرداتك العاطفية.</p>
+                        </div>
+                        <div class="technique-card">
+                            <h4>3. التحوّل المعرفي (Cognitive Reframing — 10 دقائق)</h4>
+                            <p><strong>كيف:</strong> اكتب الموقف → ما التفسير التلقائي؟ → ما تفسير بديل معقول؟ → ما الدليل المؤيد/المعارض؟</p>
+                            <p><strong>مثال:</strong> "فشلت في المقابلة" → "أنا فاشل" ←→ "الوظيفة لم تكن متوافقة مع مهاراتي الحالية، وتعلّمت 3 أخطاء لأتفاداها لاحقًا".</p>
+                        </div>
+                        <div class="technique-card">
+                            <h4>4. تقنية "المسافة النفسية" (Self-Distancing — فوري)</h4>
+                            <p><strong>كيف:</strong> خاطب نفسك باسمك (بدل "أنا")، أو كأنك تُنصح صديقًا.</p>
+                            <p><strong>مثال:</strong> بدل "سأُحرج"، قل: "[اسمك]، هذا الموقف صعب، لكنه ليس نهاية العالم. ما نصيحتك له؟"</p>
+                            <p><strong>العلم:</strong> يقلل التحمّل العاطفي (Emotional Reactivity) بنسبة 32% (Michigan University).</p>
+                        </div>
+                        <div class="technique-card">
+                            <h4>5. اليوميات العاطفية (Daily Journaling — 5 دقائق/ليلًا)</h4>
+                            <p><strong>القالب:</strong>  
+                            - ما الموقف الذي أثار مشاعر قوية اليوم؟  
+                            - ما التفسير التلقائي؟  
+                            - ما التفسير البديل؟  
+                            - ما درس واحد أستخلصه؟</p>
+                            <p><strong>النتيجة بعد 21 يومًا:</strong> زيادة في المرونة النفسية بنسبة 41% (بحث أردني، 2025).</p>
+                        </div>
+                        <div class="technique-card">
+                            <h4>6. التدريب على التعاطف مع الذات (Self-Compassion)</h4>
+                            <p><strong>كيف:</strong> اسأل نفسك: "ماذا كنت سأقول لصديقي المقرّب لو مرّ بنفس الموقف؟"، ثم قل ذلك لنفسك.</p>
+                            <p><strong>ثلاثة أعمدة (كرستين نيف):</strong>  
+                            1. اللطف مع الذات (بدل النقد)  
+                            2. الإحساس المشترك (أنا لست الوحيد)  
+                            3. الوعي الذهني (لا تبالغ في الدراما)</p>
+                        </div>
+                        <div class="technique-card">
+                            <h4>7. "الصندوق العاطفي" (Emotional Container — وقائي)</h4>
+                            <p><strong>كيف:</strong> احتفظ بدفتر صغير. كلما شعرت بمشاعر قوية، اكتبها بسرعة (سطر أو اثنين)، وضعها في "الصندوق" (الدفتر)، وقل: "سأعود إليك في وقتي".</p>
+                            <p><strong>الهدف:</strong> منع التسرّب العاطفي طوال اليوم، وتحديد وقت مُخصّص للمعالجة (مثل 6–6:30 مساءً).</p>
+                        </div>
+                    </div>
+                    <div class="content-section">
+                        <h2>6 أخطاء شائعة — تُفاقم المشكلة بدل حلّها</h2>
+                        <div class="myth-buster">
+                            <div class="myth-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg></div>
+                            <div>
+                                <strong>الاعتقاد:</strong> "يجب أن أتحكّم في مشاعري تمامًا."  
+                                <strong>الحقيقة:</strong> لا يمكنك منع المشاعر، لكنك تتحكّم في <strong>رد فعلك</strong>. الهدف هو "تنظيم"، ليس "قمع".
+                            </div>
+                        </div>
+                        <div class="myth-buster">
+                            <div class="myth-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg></div>
+                            <div>
+                                <strong>الاعتقاد:</strong> "التفكير الإيجابي يحل كل شيء."  
+                                <strong>الحقيقة:</strong> التفكير الإيجابي المفرط (Toxic Positivity) يُعطّل معالجة المشاعر الحقيقية. ابدأ بـ "التفكير الواقعي": "الأمر صعب، وأنا قادر على التعامل مع جزء منه الآن."
+                            </div>
+                        </div>
+                        <div class="myth-buster">
+                            <div class="myth-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg></div>
+                            <div>
+                                <strong>الاعتقاد:</strong> "إذا تحدثت عن مشاعري، سأضعف."  
+                                <strong>الحقيقة:</strong> الضعف الحقيقي هو أن تنهار داخليًا دون أن تطلب دعمًا. vulnerability (الانفتاح) هو قوة استراتيجية.
+                            </div>
+                        </div>
+                        <div class="myth-buster">
+                            <div class="myth-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg></div>
+                            <div>
+                                <strong>الاعتقاد:</strong> "المشاعر السلبية = خطأ."  
+                                <strong>الحقيقة:</strong> الغضب يُشير إلى انتهاك حدود. الحزن يُشير إلى خسارة تحتاج معالجة. الخوف يُشير إلى خطر يحتاج تقييمًا. هي <strong>بيانات</strong>، ليس أخطاء.
+                            </div>
+                        </div>
+                        <div class="myth-buster">
+                            <div class="myth-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg></div>
+                            <div>
+                                <strong>الاعتقاد:</strong> "التأمل يكفي لوحده."  
+                                <strong>الحقيقة:</strong> التأمل يُحسّن الوعي، لكنه لا يُعلّم مهارات التغيير. يحتاج إلى دمجه مع تقنيات معرفية (مثل التحوّل المعرفي).
+                            </div>
+                        </div>
+                        <div class="myth-buster">
+                            <div class="myth-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg></div>
+                            <div>
+                                <strong>الاعتقاد:</strong> "عندما أتحسّن، لن أشعر بالمشاعر الصعبة مجددًا."  
+                                <strong>الحقيقة:</strong> المرونة النفسية لا تعني غياب الألم، بل قدرتك على <strong>العيش معه دون أن يُعطّل مسارك</strong>.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-section">
+                        <h2>دراسات حالة: كيف غيّر التحوّل العقلي حياة أشخاص حقيقيين؟</h2>
+                        <div class="case-study">
+                            <h4>الحالة ١: مهندسة (27 سنة) — من انهيار نفسي إلى قيادة فريق</h4>
+                            <p><strong>المشكلة:</strong> "أشعر أنني محتالة (Imposter Syndrome). كل إنجاز أحققه، أعتبره حظًا. أعمل 12 ساعة/يوم لأثبت جدارتي."</p>
+                            <p><strong>التدخل:</strong>  
+                            - جلسة توعية بالعقلية الثابتة (ربط "العمل المفرط" بالخوف من أن "تكشف").  
+                            - تدريب على التعاطف مع الذات.  
+                            - تمارين "إعادة الصياغة": "أُقدّر لأنني أُنجز"، بدل "يجب أن أُنجز لأُقدّر".</p>
+                            <p><strong>النتيجة بعد 4 أشهر:</strong> خفض ساعات العمل إلى 8/يوم، ترقية إلى قيادة فريق، وتوقف الأعراض الجسدية (أرق، صداع مزمن).</p>
+                        </div>
+                        <div class="case-study">
+                            <h4>الحالة ٢: طالب طب (21 سنة) — من فشل متكرر إلى تفوّق</h4>
+                            <p><strong>المشكلة:</strong> "أذاكر 10 ساعات، لكن في الامتحان أُصاب بفراغ ذهني. أشعر بالغش لأن زملائي يبدون هادئين."</p>
+                            <p><strong>التدخل:</strong>  
+                            - تدريب على تقنية 4-7-8 قبل الامتحانات.  
+                            - "إعادة صياغة" الفشل: "الامتحان يقيس ما درسته، ليس قيمتي".  
+                            - تمارين "المسافة النفسية": "ماذا تنصح [الاسم] لو كان مكانك؟"</p>
+                            <p><strong>النتيجة:</strong> رفع المعدل من 72% إلى 88% في فصل واحد. توقف نوبات الفراغ الذهني.</p>
+                        </div>
+                        <div class="case-study">
+                            <h4>الحالة ٣: رجل أعمال (42 سنة) — من الانفجار العاطفي إلى قيادة هادئة</h4>
+                            <p><strong>المشكلة:</strong> "أفقد أعصابي مع الموظفين عند أي خطأ. أشعر بالندم لاحقًا، لكن لا أستطيع التحكّم في اللحظة."</p>
+                            <p><strong>التدخل:</strong>  
+                            - كشف "المشغّل" (Trigger): النقد غير المباشر → يُفعّل ذاكرة طفولة (أب صارم).  
+                            - إنشاء "بروتوكول طوارئ": عند الشعور بالتوتر، يخرج 2 دقيقة لـ "صندوق عاطفي" مكتبي.  
+                            - جلسات تأمل واعٍ (Mindfulness) 10 دقائق/صباح.</p>
+                            <p><strong>النتيجة:</strong> انخفاض شكاوى الموظفين 90%. تحسّن العلاقات الأسرية.</p>
+                        </div>
+                    </div>
+                    <div class="content-section">
+                        <h2>اختبار ذاتي: ما هي عقليتك السائدة حاليًا؟</h2>
+                        <p>هذا الاختبار مبني على مقاييس كارول دويك. أجب بصراحة — لا يوجد "صحيح/خطأ"، الهدف هو الوعي.</p>
+                        <div id="mindset-quiz">
+                            <div class="quiz-question">
+                                <p><strong>١. عندما ترتكب خطأً فادحًا، أول ما يخطر ببالك:</strong></p>
+                                <label><input type="radio" name="q1" value="0"> "هذا يثبت أنني لست جيدًا بما فيه الكفاية."</label><br>
+                                <label><input type="radio" name="q1" value="1"> "ما الذي يمكنني تعلّمه من هذا؟"</label><br>
+                            </div>
+                            <div class="quiz-question">
+                                <p><strong>٢. رأيك في الموهبة:</strong></p>
+                                <label><input type="radio" name="q2" value="0"> "الموهبة شيء تُولد به أو لا."</label><br>
+                                <label><input type="radio" name="q2" value="1"> "الموهبة تُبنى بالتدريب الصحيح والمثابر."</label><br>
+                            </div>
+                            <div class="quiz-question">
+                                <p><strong>٣. عندما ينجح شخص قريب منك:</strong></p>
+                                <label><input type="radio" name="q3" value="0"> "أتمنى لو كنت مكانه. أشعر بعدم الأمان."</label><br>
+                                <label><input type="radio" name="q3" value="1"> "ما الذي فعله؟ هل يمكنني التعاون معه؟"</label><br>
+                            </div>
+                            <div class="quiz-question">
+                                <p><strong>٤. رأيك في الجهد:</strong></p>
+                                <label><input type="radio" name="q4" value="0"> "إذا احتجت لجهد كبير، فربما لست موهوبًا في هذا المجال."</label><br>
+                                <label><input type="radio" name="q4" value="1"> "الجهد هو الطريق الوحيد لتحويل الـ 'لا أستطيع' إلى 'لا أستطيع بعد'."</label><br>
+                            </div>
+                            <button id="quiz-submit" class="btn-field">احسب نتيجتي</button>
+                            <div id="quiz-result" style="margin-top: 1.5rem; padding: 1.2rem; background: var(--card-bg); border-radius: 8px; display: none;">
+                                <h3>نتيجتك: <span id="result-title"></span></h3>
+                                <div class="progress-bar-container">
+                                    <div class="progress-bar" id="quiz-progress"></div>
+                                </div>
+                                <p id="result-desc"></p>
+                                <p><strong>خطوتك التالية:</strong> <span id="next-step"></span></p>
+                            </div>
+                        </div>
+                        <script>
+                            document.getElementById('quiz-submit').addEventListener('click', function() {
+                                let score = 0;
+                                for (let i = 1; i <= 4; i++) {
+                                    const val = document.querySelector(`input[name="q${i}"]:checked`)?.value;
+                                    if (val === '1') score++;
+                                }
+                                if (score < 0) {
+                                    alert('يرجى الإجابة على جميع الأسئلة.');
+                                    return;
+                                }
+                                let title, desc, next, percent;
+                                if (score === 4) {
+                                    title = "عقليتك نامية بامتياز";
+                                    desc = "أنت تُفسّر الأحداث بوعي، وتستثمر التحديات. حافظ على هذا الزخم!";
+                                    next = "جرّب تمارين 'التفكير المزدوج' (Double-Loop Learning) لمستوى أعمق.";
+                                    percent = 100;
+                                } else if (score >= 2) {
+                                    title = "عقليتك في مرحلة انتقالية";
+                                    desc = "لديك مزيج من الاثنين — وهذا طبيعي. التركيز الآن على لغة التفسير الداخلية.";
+                                    next = "ابدأ باليوميات العاطفية 5 دقائق يوميًا، وركّز على إعادة صياغة واحدة يوميًا.";
+                                    percent = 75;
+                                } else {
+                                    title = "عقليتك ثابتة حاليًا";
+                                    desc = "لا داعي للقلق — هذا نمط مكتسب، وليس حكمًا. 90% من المشاركين غيّروا عقليتهم خلال 3 أشهر من التدريب.";
+                                    next = "ابدأ بتمرين 'إضافة كلمة واحدة': استبدل 'أنا فاشل' بـ 'أنا <em>أتعلّم</em> من هذا الفشل'.";
+                                    percent = 40;
+                                }
+                                document.getElementById('result-title').textContent = title;
+                                document.getElementById('result-desc').textContent = desc;
+                                document.getElementById('next-step').textContent = next;
+                                document.getElementById('quiz-result').style.display = 'block';
+                                const bar = document.getElementById('quiz-progress');
+                                bar.style.width = percent + '%';
+                            });
+                        </script>
+                    </div>
+                    <div class="content-section">
+                        <h2>خطة 30 يومًا — خطوة يومية بسيطة (لا تتطلب وقتًا إضافيًا)</h2>
+                        <p>بناء العقلية والتنظيم العاطفي ليس "مشروعًا"، بل <strong>تغيير في العادات الصغيرة</strong>. هذه الخطة مبنية على مبدأ <em>الحد الأدنى الفعّال</em>.</p>
+                        <div class="card-grid" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));">
+                            <div class="info-card">
+                                <div class="info-card-content">
+                                    <div class="info-tag">الأسبوع 1: الوعي</div>
+                                    <h3>اكتشف أنماطك</h3>
+                                    <p>• اليوم 1–3: سجّل كل جملة تبدأ بـ "أنا" (مثل: "أنا شخص متوتر").<br>
+                                    • اليوم 4–7: لاحظ: ما المواقف التي تُشعرك بعدم الأمان؟ ما "المشغّل" (Trigger)؟</p>
+                                </div>
+                            </div>
+                            <div class="info-card">
+                                <div class="info-card-content">
+                                    <div class="info-tag">الأسبوع 2: التحوّل</div>
+                                    <h3>غيّر لغتك الداخلية</h3>
+                                    <p>• استبدل "أنا" بـ "أنا أختار" أو "أنا أتعلّم".<br>
+                                    • كلما سمعت نفسك تقول "لا أستطيع"، أضف "بعدُ".<br>
+                                    • مارس تقنية 4-7-8 مرة واحدة يوميًا (حتى دون ضغط).</p>
+                                </div>
+                            </div>
+                            <div class="info-card">
+                                <div class="info-card-content">
+                                    <div class="info-tag">الأسبوع 3: التعميق</div>
+                                    <h3>حوّل الفشل إلى بيانات</h3>
+                                    <p>• بعد أي موقف صعب: اكتب: 1) ما حدث (حقائق)، 2) ما شعرت به، 3) ما التفسير البديل؟<br>
+                                    • اطلب تغذية راجعة من شخص تثق به: "ما رأيك في طريقة تعاملي مع الموقف؟".</p>
+                                </div>
+                            </div>
+                            <div class="info-card">
+                                <div class="info-card-content">
+                                    <div class="info-tag">الأسبوع 4: التثبيت</div>
+                                    <h3>ابنِ هوية جديدة</h3>
+                                    <p>• اكتب جملة هوية جديدة: "أنا شخص يتعلّم من التحديات، ويثق بقدراته على التكيّف".<br>
+                                    • كرّرها كل صباح.<br>
+                                    • احتفل بكل "إعادة صياغة" ناجحة — هذه هي اللحظات التي تُعيد تشكيل دماغك.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="expert-quote">
+                            "تغيير العقلية لا يحتاج إلى جهد هائل. يحتاج إلى <strong>تكرار واعٍ</strong>. كل مرة تختار فيها تفسيرًا نامياً، تبني مسارًا عصبيًا جديدًا. بعد 30 يومًا، لن تُكافح — ستستجيب تلقائيًا بطريقة أذكى."
+                            <span class="expert-name">— د. عمر الزعبي، اختصاصي علاج معرفي سلوكي (CBT)</span>
+                        </div>
+                    </div>
+                    <div class="content-section">
+                        <h2>خريطة طريق سريعة — اطبعها وعلّقها</h2>
+                        <div class="brain-diagram" style="background: #2d193a; color: #e1bee7; font-size: 0.85rem;">
+# خريطة طريق: من التلقائية إلى الاستجابة الواعية
+[الموقف المثير]  
+       ↓  
+(1) توقّف — خذ نفسًا عميقًا (4-7-8)  
+       ↓  
+(2) سمّ المشاعر بدقة: "أنا أشعر بـ ______ لأن ______"  
+       ↓  
+(3) اسأل:  
+    - ما التفسير التلقائي؟  
+    - ما تفسير بديل معقول؟  
+    - ما الدليل؟  
+       ↓  
+(4) اختر:  
+    - هل أرد الآن؟ ← لا → "أحتاج دقيقة"  
+    - هل أؤجّل؟ ← نعم → "سأعود لهذا في [وقت محدد]"  
+       ↓  
+(5) بعد 24 ساعة:  
+    - ما الدرس؟  
+    - كيف أُعدّ نفسي لو تكرر؟  
+       ↓  
+→ هذا التسلسل يبني عقلية نامية + تنظيمًا عاطفيًا
+                        </div>
+                    </div>
+                </div>
+                <div class="sidebar">
+                    <div class="sidebar-card">
+                        <h3>تطبيقات موصى بها</h3>
+                        <ul class="sidebar-links" style="font-size: 0.92rem;">
+                            <li><a href="https://www.headspace.com" target="_blank">Headspace</a> — تأمل موجّه (يوجد محتوى عربي)</li>
+                            <li><a href="https://www.calm.com" target="_blank">Calm</a> — تنفّس، نوم، تأمل</li>
+                            <li><a href="https://sanvello.com" target="_blank">Sanvello</a> — CBT + تتبع المزاج (مجاني جزئيًا)</li>
+                            <li><a href="https://www.moodnotes.app" target="_blank">Moodnotes</a> — يوميات عاطفية ذكية</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        function initClickHandlers() {
+            // يمكن إضافة تفاعلات إضافية لاحقًا
+            console.log("Mindset page loaded with full interactivity.");
+        }
+        // دعم النقر على جدول العقلية (اختياري)
+        document.querySelectorAll('.mindset-table tbody tr').forEach(row => {
+            row.style.cursor = 'pointer';
+            row.addEventListener('click', () => {
+                alert('نصيحة: ركّز على عمود "العقلية النامية" — هذه هي الجمل التي تريد أن تصبح تلقائية مع الوقت.');
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,1102 @@
+[
+  {
+    "id": 1,
+    "text": "ما هو المصطلح الذي يصف النشاط الاقتصادي الذي ينتج السلع والخدمات لتحقيق الربح؟",
+    "subtitle": "إدارة الأعمال - أساسيات",
+    "options": [
+      {"id": "a", "text": "المشروع", "correct": false},
+      {"id": "b", "text": "التجارة", "correct": false},
+      {"id": "c", "text": "المؤسسة", "correct": false},
+      {"id": "d", "text": "المشروع التجاري", "correct": true}
+    ]
+  },
+  {
+    "id": 2,
+    "text": "أي من هذه الوظائف تعتبر من الوظائف الأساسية في الإدارة؟",
+    "subtitle": "الإدارة - الوظائف الإدارية",
+    "options": [
+      {"id": "a", "text": "التخطيط", "correct": true},
+      {"id": "b", "text": "المحاسبة", "correct": false},
+      {"id": "c", "text": "التسويق", "correct": false},
+      {"id": "d", "text": "الإنتاج", "correct": false}
+    ]
+  },
+  {
+    "id": 3,
+    "text": "ما هو المصطلح الذي يصف دراسة السوق والعملاء والمنافسين؟",
+    "subtitle": "التسويق - أبحاث السوق",
+    "options": [
+      {"id": "a", "text": "التحليل المالي", "correct": false},
+      {"id": "b", "text": "تحليل السوق", "correct": true},
+      {"id": "c", "text": "دراسة الجدوى", "correct": false},
+      {"id": "d", "text": "التخطيط الاستراتيجي", "correct": false}
+    ]
+  },
+  {
+    "id": 4,
+    "text": "ما هي الوثيقة التي تقدم وصفاً مفصلاً لفكرة المشروع وأهدافه؟",
+    "subtitle": "ريادة الأعمال - التخطيط",
+    "options": [
+      {"id": "a", "text": "الموازنة", "correct": false},
+      {"id": "b", "text": "الدراسة الفنية", "correct": false},
+      {"id": "c", "text": "خطة العمل", "correct": true},
+      {"id": "d", "text": "التقرير المالي", "correct": false}
+    ]
+  },
+  {
+    "id": 5,
+    "text": "أي من هذه العناصر يعتبر من عناصر المزيج التسويقي؟",
+    "subtitle": "التسويق - المزيج التسويقي",
+    "options": [
+      {"id": "a", "text": "المنتج", "correct": true},
+      {"id": "b", "text": "الموظفون", "correct": false},
+      {"id": "c", "text": "المساهمون", "correct": false},
+      {"id": "d", "text": "الدائنين", "correct": false}
+    ]
+  },
+  {
+    "id": 6,
+    "text": "ما هو المصطلح الذي يصف الفرق بين الإيرادات والتكاليف؟",
+    "subtitle": "المحاسبة - أساسيات",
+    "options": [
+      {"id": "a", "text": "رأس المال", "correct": false},
+      {"id": "b", "text": "الربح", "correct": true},
+      {"id": "c", "text": "الاستثمار", "correct": false},
+      {"id": "d", "text": "التمويل", "correct": false}
+    ]
+  },
+  {
+    "id": 7,
+    "text": "ما هي العملية التي يتم من خلالها تحديد الأهداف ووضع الاستراتيجيات؟",
+    "subtitle": "الإدارة - التخطيط",
+    "options": [
+      {"id": "a", "text": "التنظيم", "correct": false},
+      {"id": "b", "text": "التوجيه", "correct": false},
+      {"id": "c", "text": "التخطيط", "correct": true},
+      {"id": "d", "text": "الرقابة", "correct": false}
+    ]
+  },
+  {
+    "id": 8,
+    "text": "أي من هذه المصادر يعتبر مصدر تمويل داخلي للمشروع؟",
+    "subtitle": "التمويل - مصادر التمويل",
+    "options": [
+      {"id": "a", "text": "القروض البنكية", "correct": false},
+      {"id": "b", "text": "الأرباح المحتجزة", "correct": true},
+      {"id": "c", "text": "استثمارات خارجية", "correct": false},
+      {"id": "d", "text": "السندات", "correct": false}
+    ]
+  },
+  {
+    "id": 9,
+    "text": "ما هو المصطلح الذي يصف قدرة المنشأة على سداد ديونها قصيرة الأجل؟",
+    "subtitle": "المحاسبة - التحليل المالي",
+    "options": [
+      {"id": "a", "text": "الربحية", "correct": false},
+      {"id": "b", "text": "السيولة", "correct": true},
+      {"id": "c", "text": "الكفاءة", "correct": false},
+      {"id": "d", "text": "المردودية", "correct": false}
+    ]
+  },
+  {
+    "id": 10,
+    "text": "ما هي الاستراتيجية التي تهدف إلى تمييز المنتج عن المنافسين؟",
+    "subtitle": "التسويق - الاستراتيجيات",
+    "options": [
+      {"id": "a", "text": "قيادة التكلفة", "correct": false},
+      {"id": "b", "text": "التمايز", "correct": true},
+      {"id": "c", "text": "التركيز", "correct": false},
+      {"id": "d", "text": "التنويع", "correct": false}
+    ]
+  },
+  {
+    "id": 11,
+    "text": "أي من هذه الوثائق يظهر المركز المالي للمنشأة في تاريخ محدد؟",
+    "subtitle": "المحاسبة - القوائم المالية",
+    "options": [
+      {"id": "a", "text": "قائمة الدخل", "correct": false},
+      {"id": "b", "text": "الميزانية العمومية", "correct": true},
+      {"id": "c", "text": "قائمة التدفقات النقدية", "correct": false},
+      {"id": "d", "text": "قائمة حقوق الملكية", "correct": false}
+    ]
+  },
+  {
+    "id": 12,
+    "text": "ما هو المصطلح الذي يصف عملية تقسيم السوق إلى مجموعات متجانسة؟",
+    "subtitle": "التسويق - تقسيم السوق",
+    "options": [
+      {"id": "a", "text": "استهداف السوق", "correct": false},
+      {"id": "b", "text": "تقسيم السوق", "correct": true},
+      {"id": "c", "text": "تحديد المواقع", "correct": false},
+      {"id": "d", "text": "تجزئة السوق", "correct": false}
+    ]
+  },
+  {
+    "id": 13,
+    "text": "ما هي المهارة التي تمكن المدير من فهم العلاقات بين العاملين وحل المشكلات؟",
+    "subtitle": "الإدارة - المهارات الإدارية",
+    "options": [
+      {"id": "a", "text": "المهارة الفنية", "correct": false},
+      {"id": "b", "text": "المهارة الإنسانية", "correct": true},
+      {"id": "c", "text": "المهارة التصورية", "correct": false},
+      {"id": "d", "text": "المهارة التحليلية", "correct": false}
+    ]
+  },
+  {
+    "id": 14,
+    "text": "أي من هذه الأنظمة يعتمد على الإنتاج بكميات كبيرة وتكلفة منخفضة؟",
+    "subtitle": "الإنتاج - نظم الإنتاج",
+    "options": [
+      {"id": "a", "text": "الإنتاج المستمر", "correct": true},
+      {"id": "b", "text": "الإنتاج حسب الطلب", "correct": false},
+      {"id": "c", "text": "الإنتاج المتقطع", "correct": false},
+      {"id": "d", "text": "الإنتاج المرن", "correct": false}
+    ]
+  },
+  {
+    "id": 15,
+    "text": "ما هو المصطلح الذي يصف عملية شراء البضائع بكميات كبيرة وبيعها لتجار التجزئة؟",
+    "subtitle": "التجارة - التوزيع",
+    "options": [
+      {"id": "a", "text": "البيع بالجملة", "correct": true},
+      {"id": "b", "text": "البيع بالتجزئة", "correct": false},
+      {"id": "c", "text": "البيع المباشر", "correct": false},
+      {"id": "d", "text": "البيع بالعمولة", "correct": false}
+    ]
+  },
+  {
+    "id": 16,
+    "text": "ما هي النسبة التي تقيس كفاءة إدارة المنشأة في استخدام الأصول؟",
+    "subtitle": "المحاسبة - النسب المالية",
+    "options": [
+      {"id": "a", "text": "نسبة السيولة", "correct": false},
+      {"id": "b", "text": "نسبة الدوران", "correct": true},
+      {"id": "c", "text": "نسبة الربحية", "correct": false},
+      {"id": "d", "text": "نسبة المديونية", "correct": false}
+    ]
+  },
+  {
+    "id": 17,
+    "text": "أي من هذه العوامل يعتبر من العوامل الخارجية المؤثرة على المشروع؟",
+    "subtitle": "إدارة الأعمال - البيئة الخارجية",
+    "options": [
+      {"id": "a", "text": "الهيكل التنظيمي", "correct": false},
+      {"id": "b", "text": "القوانين والتشريعات", "correct": true},
+      {"id": "c", "text": "الموارد البشرية", "correct": false},
+      {"id": "d", "text": "الأنظمة الداخلية", "correct": false}
+    ]
+  },
+  {
+    "id": 18,
+    "text": "ما هو المصطلح الذي يصف مجموعة القيم والمعتقدات في المنظمة؟",
+    "subtitle": "الإدارة - الثقافة التنظيمية",
+    "options": [
+      {"id": "a", "text": "الهيكل التنظيمي", "correct": false},
+      {"id": "b", "text": "الثقافة التنظيمية", "correct": true},
+      {"id": "c", "text": "الاستراتيجية", "correct": false},
+      {"id": "d", "text": "الرؤية", "correct": false}
+    ]
+  },
+  {
+    "id": 19,
+    "text": "ما هي القناة التسويقية التي تصل المنتج مباشرة من المنتج إلى المستهلك؟",
+    "subtitle": "التسويق - قنوات التوزيع",
+    "options": [
+      {"id": "a", "text": "القناة المباشرة", "correct": true},
+      {"id": "b", "text": "القناة القصيرة", "correct": false},
+      {"id": "c", "text": "القناة الطويلة", "correct": false},
+      {"id": "d", "text": "القناة المتعددة", "correct": false}
+    ]
+  },
+  {
+    "id": 20,
+    "text": "أي من هذه البنود يعتبر من الأصول الثابتة في الميزانية العمومية؟",
+    "subtitle": "المحاسبة - الأصول",
+    "options": [
+      {"id": "a", "text": "النقدية في الصندوق", "correct": false},
+      {"id": "b", "text": "الآلات والمعدات", "correct": true},
+      {"id": "c", "text": "الذمم المدينة", "correct": false},
+      {"id": "d", "text": "المخزون", "correct": false}
+    ]
+  },
+  {
+    "id": 21,
+    "text": "ما هو المصطلح الذي يصف عملية إقناع العملاء بشراء المنتج؟",
+    "subtitle": "التسويق - الترويج",
+    "options": [
+      {"id": "a", "text": "الإعلان", "correct": false},
+      {"id": "b", "text": "البيع الشخصي", "correct": true},
+      {"id": "c", "text": "التسعير", "correct": false},
+      {"id": "d", "text": "التوزيع", "correct": false}
+    ]
+  },
+  {
+    "id": 22,
+    "text": "ما هي الاستراتيجية التي تهدف إلى دخول أسواق جديدة بمنتجات جديدة؟",
+    "subtitle": "الإدارة - استراتيجيات النمو",
+    "options": [
+      {"id": "a", "text": "التنويع", "correct": true},
+      {"id": "b", "text": "التطوير", "correct": false},
+      {"id": "c", "text": "الاختراق", "correct": false},
+      {"id": "d", "text": "التكامل", "correct": false}
+    ]
+  },
+  {
+    "id": 23,
+    "text": "أي من هذه المبادئ ينص على تسجيل الإيرادات عند تحققها والمصروفات عند حدوثها؟",
+    "subtitle": "المحاسبة - المبادئ المحاسبية",
+    "options": [
+      {"id": "a", "text": "مبدأ الاستمرارية", "correct": false},
+      {"id": "b", "text": "مبدأ المقابلة", "correct": false},
+      {"id": "c", "text": "مبدأ الاستحقاق", "correct": true},
+      {"id": "d", "text": "مبدأ الثبات", "correct": false}
+    ]
+  },
+  {
+    "id": 24,
+    "text": "ما هو المصطلح الذي يصف عملية تحديد الاحتياجات من الموظفين وتوظيفهم؟",
+    "subtitle": "إدارة الموارد البشرية - التوظيف",
+    "options": [
+      {"id": "a", "text": "التدريب", "correct": false},
+      {"id": "b", "text": "التوظيف", "correct": true},
+      {"id": "c", "text": "التقييم", "correct": false},
+      {"id": "d", "text": "التخطيط", "correct": false}
+    ]
+  },
+  {
+    "id": 25,
+    "text": "ما هي الخطة التي تحدد كيفية تخصيص الموارد لتحقيق الأهداف؟",
+    "subtitle": "الإدارة - التخطيط",
+    "options": [
+      {"id": "a", "text": "الموازنة", "correct": true},
+      {"id": "b", "text": "الاستراتيجية", "correct": false},
+      {"id": "c", "text": "الجدولة", "correct": false},
+      {"id": "d", "text": "التنبؤ", "correct": false}
+    ]
+  },
+  {
+    "id": 26,
+    "text": "أي من هذه الأساليب يستخدم في اتخاذ القرارات بناءً على البيانات الكمية؟",
+    "subtitle": "الإدارة - اتخاذ القرارات",
+    "options": [
+      {"id": "a", "text": "الأسلوب العلمي", "correct": true},
+      {"id": "b", "text": "الأسلوب الحدسي", "correct": false},
+      {"id": "c", "text": "الأسلوب الإبداعي", "correct": false},
+      {"id": "d", "text": "الأسلوب التقليدي", "correct": false}
+    ]
+  },
+  {
+    "id": 27,
+    "text": "ما هو المصطلح الذي يصف الحقوق المالية للمالكين في المنشأة؟",
+    "subtitle": "المحاسبة - حقوق الملكية",
+    "options": [
+      {"id": "a", "text": "الأصول", "correct": false},
+      {"id": "b", "text": "الخصوم", "correct": false},
+      {"id": "c", "text": "حقوق الملكية", "correct": true},
+      {"id": "d", "text": "الإيرادات", "correct": false}
+    ]
+  },
+  {
+    "id": 28,
+    "text": "ما هي الاستراتيجية التسعيرية التي تضع سعراً مرتفعاً للمنتج الجديد؟",
+    "subtitle": "التسويق - استراتيجيات التسعير",
+    "options": [
+      {"id": "a", "text": "اختراق السوق", "correct": false},
+      {"id": "b", "text": "القشط", "correct": true},
+      {"id": "c", "text": "التسعير التنافسي", "correct": false},
+      {"id": "d", "text": "التسعير النفسي", "correct": false}
+    ]
+  },
+  {
+    "id": 29,
+    "text": "أي من هذه النفقات تعتبر من التكاليف الثابتة؟",
+    "subtitle": "المحاسبة - التكاليف",
+    "options": [
+      {"id": "a", "text": "تكلفة المواد الخام", "correct": false},
+      {"id": "b", "text": "أجور العمال", "correct": false},
+      {"id": "c", "text": "إيجار المصنع", "correct": true},
+      {"id": "d", "text": "العمولات", "correct": false}
+    ]
+  },
+  {
+    "id": 30,
+    "text": "ما هو المصطلح الذي يصف عملية تحويل الأفكار إلى منتجات أو خدمات؟",
+    "subtitle": "ريادة الأعمال - الابتكار",
+    "options": [
+      {"id": "a", "text": "الإبداع", "correct": false},
+      {"id": "b", "text": "الابتكار", "correct": true},
+      {"id": "c", "text": "التخطيط", "correct": false},
+      {"id": "d", "text": "التنفيذ", "correct": false}
+    ]
+  },
+  {
+    "id": 31,
+    "text": "ما هي الوظيفة الإدارية التي تتضمن تنسيق جهود العاملين؟",
+    "subtitle": "الإدارة - التوجيه",
+    "options": [
+      {"id": "a", "text": "التخطيط", "correct": false},
+      {"id": "b", "text": "التنظيم", "correct": false},
+      {"id": "c", "text": "التوجيه", "correct": true},
+      {"id": "d", "text": "الرقابة", "correct": false}
+    ]
+  },
+  {
+    "id": 32,
+    "text": "أي من هذه المؤشرات يستخدم لقياس كفاءة العمليات الإنتاجية؟",
+    "subtitle": "الإنتاج - مؤشرات الأداء",
+    "options": [
+      {"id": "a", "text": "نسبة الربح إلى المبيعات", "correct": false},
+      {"id": "b", "text": "نسبة التكاليف إلى الإيرادات", "correct": false},
+      {"id": "c", "text": "نسبة الإنتاجية", "correct": true},
+      {"id": "d", "text": "نسبة السيولة", "correct": false}
+    ]
+  },
+  {
+    "id": 33,
+    "text": "ما هو المصطلح الذي يصف دراسة نقاط القوة والضعف والفرص والتهديدات؟",
+    "subtitle": "الإدارة - التحليل الاستراتيجي",
+    "options": [
+      {"id": "a", "text": "تحليل بيستل", "correct": false},
+      {"id": "b", "text": "تحليل سوات", "correct": true},
+      {"id": "c", "text": "تحليل بورتر", "correct": false},
+      {"id": "d", "text": "تحليل المنافسين", "correct": false}
+    ]
+  },
+  {
+    "id": 34,
+    "text": "ما هي الطريقة التي تستخدم لتقدير المبيعات المستقبلية؟",
+    "subtitle": "التسويق - التنبؤ",
+    "options": [
+      {"id": "a", "text": "تحليل التعادل", "correct": false},
+      {"id": "b", "text": "التنبؤ بالمبيعات", "correct": true},
+      {"id": "c", "text": "دراسة السوق", "correct": false},
+      {"id": "d", "text": "تحليل الحساسية", "correct": false}
+    ]
+  },
+  {
+    "id": 35,
+    "text": "أي من هذه العناصر يعتبر من خصائص ريادة الأعمال؟",
+    "subtitle": "ريادة الأعمال - السمات",
+    "options": [
+      {"id": "a", "text": "تجنب المخاطرة", "correct": false},
+      {"id": "b", "text": "التبعية", "correct": false},
+      {"id": "c", "text": "الإبداع", "correct": true},
+      {"id": "d", "text": "المحافظة", "correct": false}
+    ]
+  },
+  {
+    "id": 36,
+    "text": "ما هو المصطلح الذي يصف الفرق بين سعر البيع والتكلفة؟",
+    "subtitle": "المحاسبة - التكاليف",
+    "options": [
+      {"id": "a", "text": "الربح الإجمالي", "correct": true},
+      {"id": "b", "text": "الربح الصافي", "correct": false},
+      {"id": "c", "text": "هامش المساهمة", "correct": false},
+      {"id": "d", "text": "العائد", "correct": false}
+    ]
+  },
+  {
+    "id": 37,
+    "text": "ما هي الاستراتيجية التي تهدف إلى زيادة حصة السوق الحالية؟",
+    "subtitle": "التسويق - استراتيجيات النمو",
+    "options": [
+      {"id": "a", "text": "اختراق السوق", "correct": true},
+      {"id": "b", "text": "تطوير السوق", "correct": false},
+      {"id": "c", "text": "تطوير المنتج", "correct": false},
+      {"id": "d", "text": "التنويع", "correct": false}
+    ]
+  },
+  {
+    "id": 38,
+    "text": "أي من هذه الأنظمة يستخدم لإدارة علاقات العملاء؟",
+    "subtitle": "التسويق - أنظمة إلكترونية",
+    "options": [
+      {"id": "a", "text": "ERP", "correct": false},
+      {"id": "b", "text": "CRM", "correct": true},
+      {"id": "c", "text": "SCM", "correct": false},
+      {"id": "d", "text": "MRP", "correct": false}
+    ]
+  },
+  {
+    "id": 39,
+    "text": "ما هو المصطلح الذي يصف عملية تقييم أداء العاملين؟",
+    "subtitle": "إدارة الموارد البشرية - التقييم",
+    "options": [
+      {"id": "a", "text": "التدريب", "correct": false},
+      {"id": "b", "text": "التقييم", "correct": true},
+      {"id": "c", "text": "التوظيف", "correct": false},
+      {"id": "d", "text": "التخطيط", "correct": false}
+    ]
+  },
+  {
+    "id": 40,
+    "text": "ما هي النقطة التي تتساوى عندها التكاليف مع الإيرادات؟",
+    "subtitle": "المحاسبة - تحليل التعادل",
+    "options": [
+      {"id": "a", "text": "نقطة التعادل", "correct": true},
+      {"id": "b", "text": "نقطة الربح", "correct": false},
+      {"id": "c", "text": "نقطة الخسارة", "correct": false},
+      {"id": "d", "text": "نقطة التحول", "correct": false}
+    ]
+  },
+  {
+    "id": 41,
+    "text": "أي من هذه الأساليب يستخدم في حل المشكلات الإدارية؟",
+    "subtitle": "الإدارة - حل المشكلات",
+    "options": [
+      {"id": "a", "text": "العصف الذهني", "correct": true},
+      {"id": "b", "text": "التحليل المالي", "correct": false},
+      {"id": "c", "text": "دراسة الجدوى", "correct": false},
+      {"id": "d", "text": "التخطيط الاستراتيجي", "correct": false}
+    ]
+  },
+  {
+    "id": 42,
+    "text": "ما هو المصطلح الذي يصف تدفق البضائع من المورد إلى المستهلك؟",
+    "subtitle": "الإنتاج - إدارة سلسلة التوريد",
+    "options": [
+      {"id": "a", "text": "سلسلة التوريد", "correct": false},
+      {"id": "b", "text": "سلسلة القيمة", "correct": false},
+      {"id": "c", "text": "اللوجستيات", "correct": true},
+      {"id": "d", "text": "التوزيع", "correct": false}
+    ]
+  },
+  {
+    "id": 43,
+    "text": "ما هي الاستراتيجية التي تهدف إلى تقليل التكاليف إلى أدنى حد ممكن؟",
+    "subtitle": "الإدارة - استراتيجيات التنافس",
+    "options": [
+      {"id": "a", "text": "قيادة التكلفة", "correct": true},
+      {"id": "b", "text": "التمايز", "correct": false},
+      {"id": "c", "text": "التركيز", "correct": false},
+      {"id": "d", "text": "التكامل", "correct": false}
+    ]
+  },
+  {
+    "id": 44,
+    "text": "أي من هذه البنود يعتبر من الخصوم المتداولة؟",
+    "subtitle": "المحاسبة - الخصوم",
+    "options": [
+      {"id": "a", "text": "القروض طويلة الأجل", "correct": false},
+      {"id": "b", "text": "الذمم الدائنة", "correct": true},
+      {"id": "c", "text": "الأرض", "correct": false},
+      {"id": "d", "text": "المباني", "correct": false}
+    ]
+  },
+  {
+    "id": 45,
+    "text": "ما هو المصطلح الذي يصف مجموعة المنتجات التي تقدمها المنشأة؟",
+    "subtitle": "التسويق - إدارة المنتج",
+    "options": [
+      {"id": "a", "text": "مزيج المنتجات", "correct": true},
+      {"id": "b", "text": "خط المنتجات", "correct": false},
+      {"id": "c", "text": "عمر المنتج", "correct": false},
+      {"id": "d", "text": "تحديد المنتج", "correct": false}
+    ]
+  },
+  {
+    "id": 46,
+    "text": "ما هي العملية التي يتم فيها تحديد الاحتياجات التدريبية للعاملين؟",
+    "subtitle": "إدارة الموارد البشرية - التدريب",
+    "options": [
+      {"id": "a", "text": "تحليل الاحتياجات التدريبية", "correct": true},
+      {"id": "b", "text": "تقييم الأداء", "correct": false},
+      {"id": "c", "text": "التخطيط الوظيفي", "correct": false},
+      {"id": "d", "text": "التوظيف", "correct": false}
+    ]
+  },
+  {
+    "id": 47,
+    "text": "أي من هذه النسب تقيس قدرة المنشأة على سداد ديونها طويلة الأجل؟",
+    "subtitle": "المحاسبة - النسب المالية",
+    "options": [
+      {"id": "a", "text": "نسبة السيولة", "correct": false},
+      {"id": "b", "text": "نسبة المديونية", "correct": true},
+      {"id": "c", "text": "نسبة الربحية", "correct": false},
+      {"id": "d", "text": "نسبة الكفاءة", "correct": false}
+    ]
+  },
+  {
+    "id": 48,
+    "text": "ما هو المصطلح الذي يصف عملية إدارة النقدية والتزامات السداد؟",
+    "subtitle": "التمويل - إدارة رأس المال العامل",
+    "options": [
+      {"id": "a", "text": "إدارة التدفقات النقدية", "correct": true},
+      {"id": "b", "text": "إدارة المخزون", "correct": false},
+      {"id": "c", "text": "إدارة الذمم", "correct": false},
+      {"id": "d", "text": "إدارة الاستثمار", "correct": false}
+    ]
+  },
+  {
+    "id": 49,
+    "text": "ما هي الاستراتيجية التي تهدف إلى التركيز على شريحة محددة من السوق؟",
+    "subtitle": "التسويق - استراتيجيات السوق",
+    "options": [
+      {"id": "a", "text": "التركيز", "correct": true},
+      {"id": "b", "text": "التنويع", "correct": false},
+      {"id": "c", "text": "التمايز", "correct": false},
+      {"id": "d", "text": "الاختراق", "correct": false}
+    ]
+  },
+  {
+    "id": 50,
+    "text": "أي من هذه المبادئ ينص على افتراض استمرارية المنشأة؟",
+    "subtitle": "المحاسبة - المبادئ المحاسبية",
+    "options": [
+      {"id": "a", "text": "مبدأ الاستمرارية", "correct": true},
+      {"id": "b", "text": "مبدأ الاستحقاق", "correct": false},
+      {"id": "c", "text": "مبدأ المقابلة", "correct": false},
+      {"id": "d", "text": "مبدأ الثبات", "correct": false}
+    ]
+  },
+  {
+    "id": 51,
+    "text": "ما هو المصطلح الذي يصف عملية وضع الأهداف طويلة المدى؟",
+    "subtitle": "الإدارة - التخطيط الاستراتيجي",
+    "options": [
+      {"id": "a", "text": "التخطيط التشغيلي", "correct": false},
+      {"id": "b", "text": "التخطيط الاستراتيجي", "correct": true},
+      {"id": "c", "text": "التخطيط التكتيكي", "correct": false},
+      {"id": "d", "text": "التخطيط المالي", "correct": false}
+    ]
+  },
+  {
+    "id": 52,
+    "text": "ما هي الطريقة التي تستخدم لتقييم الفرص الاستثمارية؟",
+    "subtitle": "التمويل - تقييم الاستثمارات",
+    "options": [
+      {"id": "a", "text": "تحليل التعادل", "correct": false},
+      {"id": "b", "text": "دراسة الجدوى", "correct": true},
+      {"id": "c", "text": "تحليل النسب", "correct": false},
+      {"id": "d", "text": "التنبؤ المالي", "correct": false}
+    ]
+  },
+  {
+    "id": 53,
+    "text": "أي من هذه العوامل يؤثر على قرارات التسعير؟",
+    "subtitle": "التسويق - التسعير",
+    "options": [
+      {"id": "a", "text": "التكاليف", "correct": true},
+      {"id": "b", "text": "الهيكل التنظيمي", "correct": false},
+      {"id": "c", "text": "الثقافة التنظيمية", "correct": false},
+      {"id": "d", "text": "نظام التقييم", "correct": false}
+    ]
+  },
+  {
+    "id": 54,
+    "text": "ما هو المصطلح الذي يصف عملية متابعة الأداء وتصحيح الانحرافات؟",
+    "subtitle": "الإدارة - الرقابة",
+    "options": [
+      {"id": "a", "text": "التخطيط", "correct": false},
+      {"id": "b", "text": "التنظيم", "correct": false},
+      {"id": "c", "text": "الرقابة", "correct": true},
+      {"id": "d", "text": "التوجيه", "correct": false}
+    ]
+  },
+  {
+    "id": 55,
+    "text": "ما هي الاستراتيجية التي تهدف إلى شراء المنافسين أو الاندماج معهم؟",
+    "subtitle": "الإدارة - استراتيجيات النمو",
+    "options": [
+      {"id": "a", "text": "النمو العضوي", "correct": false},
+      {"id": "b", "text": "النمو الخارجي", "correct": true},
+      {"id": "c", "text": "التنويع", "correct": false},
+      {"id": "d", "text": "التكامل", "correct": false}
+    ]
+  },
+  {
+    "id": 56,
+    "text": "أي من هذه البنود يظهر في قائمة الدخل؟",
+    "subtitle": "المحاسبة - قائمة الدخل",
+    "options": [
+      {"id": "a", "text": "الأصول", "correct": false},
+      {"id": "b", "text": "الإيرادات", "correct": true},
+      {"id": "c", "text": "الخزينة", "correct": false},
+      {"id": "d", "text": "القروض", "correct": false}
+    ]
+  },
+  {
+    "id": 57,
+    "text": "ما هو المصطلح الذي يصف عملية إدارة تدفق المعلومات داخل المنظمة؟",
+    "subtitle": "الإدارة - نظم المعلومات",
+    "options": [
+      {"id": "a", "text": "نظم المعلومات الإدارية", "correct": true},
+      {"id": "b", "text": "إدارة المعرفة", "correct": false},
+      {"id": "c", "text": "التواصل الداخلي", "correct": false},
+      {"id": "d", "text": "التدقيق", "correct": false}
+    ]
+  },
+  {
+    "id": 58,
+    "text": "ما هي النسبة التي تقيس العائد على الاستثمار؟",
+    "subtitle": "المحاسبة - نسب الربحية",
+    "options": [
+      {"id": "a", "text": "نسبة العائد على الأصول", "correct": true},
+      {"id": "b", "text": "نسبة السيولة", "correct": false},
+      {"id": "c", "text": "نسبة المديونية", "correct": false},
+      {"id": "d", "text": "نسبة الدوران", "correct": false}
+    ]
+  },
+  {
+    "id": 59,
+    "text": "أي من هذه العوامل يعتبر من عوامل بيئة العمل الداخلية؟",
+    "subtitle": "الإدارة - البيئة الداخلية",
+    "options": [
+      {"id": "a", "text": "العملاء", "correct": false},
+      {"id": "b", "text": "الموارد البشرية", "correct": true},
+      {"id": "c", "text": "الموردون", "correct": false},
+      {"id": "d", "text": "المنافسون", "correct": false}
+    ]
+  },
+  {
+    "id": 60,
+    "text": "ما هو المصطلح الذي يصف عملية تحديد المسؤوليات والصلاحيات؟",
+    "subtitle": "الإدارة - التنظيم",
+    "options": [
+      {"id": "a", "text": "التفويض", "correct": true},
+      {"id": "b", "text": "التنسيق", "correct": false},
+      {"id": "c", "text": "التوجيه", "correct": false},
+      {"id": "d", "text": "الرقابة", "correct": false}
+    ]
+  },
+  {
+    "id": 61,
+    "text": "ما هي الاستراتيجية التسويقية التي تركز على بناء علاقات طويلة الأمد مع العملاء؟",
+    "subtitle": "التسويق - التسويق العلائقي",
+    "options": [
+      {"id": "a", "text": "التسويق العلائقي", "correct": true},
+      {"id": "b", "text": "التسويق الإلكتروني", "correct": false},
+      {"id": "c", "text": "التسويق المباشر", "correct": false},
+      {"id": "d", "text": "التسويق الجماهيري", "correct": false}
+    ]
+  },
+  {
+    "id": 62,
+    "text": "أي من هذه الطرق تستخدم في تقييم الوظائف؟",
+    "subtitle": "إدارة الموارد البشرية - تقييم الوظائف",
+    "options": [
+      {"id": "a", "text": "طريقة التدرج", "correct": true},
+      {"id": "b", "text": "طريقة المقابلة", "correct": false},
+      {"id": "c", "text": "طريقة الاختبار", "correct": false},
+      {"id": "d", "text": "طريقة الملاحظة", "correct": false}
+    ]
+  },
+  {
+    "id": 63,
+    "text": "ما هو المصطلح الذي يصف عملية تحويل الأصول إلى نقدية؟",
+    "subtitle": "المحاسبة - السيولة",
+    "options": [
+      {"id": "a", "text": "الاستثمار", "correct": false},
+      {"id": "b", "text": "التمويل", "correct": false},
+      {"id": "c", "text": "التحويل", "correct": false},
+      {"id": "d", "text": "السيولة", "correct": true}
+    ]
+  },
+  {
+    "id": 64,
+    "text": "ما هي الخطة التي تحدد كيفية تحقيق الأهداف التسويقية؟",
+    "subtitle": "التسويق - التخطيط التسويقي",
+    "options": [
+      {"id": "a", "text": "الخطة التسويقية", "correct": true},
+      {"id": "b", "text": "الخطة الإنتاجية", "correct": false},
+      {"id": "c", "text": "الخطة المالية", "correct": false},
+      {"id": "d", "text": "الخطة التنظيمية", "correct": false}
+    ]
+  },
+  {
+    "id": 65,
+    "text": "أي من هذه النظريات تركز على احتياجات العاملين وتحفيزهم؟",
+    "subtitle": "الإدارة - نظريات التحفيز",
+    "options": [
+      {"id": "a", "text": "نظرية X ونظرية Y", "correct": true},
+      {"id": "b", "text": "نظرية الإدارة العلمية", "correct": false},
+      {"id": "c", "text": "نظرية البيروقراطية", "correct": false},
+      {"id": "d", "text": "نظرية الإدارة العامة", "correct": false}
+    ]
+  },
+  {
+    "id": 66,
+    "text": "ما هو المصطلح الذي يصف عملية بيع المنتجات عبر الإنترنت؟",
+    "subtitle": "التسويق - التجارة الإلكترونية",
+    "options": [
+      {"id": "a", "text": "التسويق الإلكتروني", "correct": false},
+      {"id": "b", "text": "التجارة الإلكترونية", "correct": true},
+      {"id": "c", "text": "التسويق الرقمي", "correct": false},
+      {"id": "d", "text": "التسويق المباشر", "correct": false}
+    ]
+  },
+  {
+    "id": 67,
+    "text": "ما هي الطريقة التي تستخدم لتقييم الأداء الشامل للمنشأة؟",
+    "subtitle": "الإدارة - تقييم الأداء",
+    "options": [
+      {"id": "a", "text": "التقييم المتوازن", "correct": true},
+      {"id": "b", "text": "تحليل النسب", "correct": false},
+      {"id": "c", "text": "دراسة الجدوى", "correct": false},
+      {"id": "d", "text": "تحليل التعادل", "correct": false}
+    ]
+  },
+  {
+    "id": 68,
+    "text": "أي من هذه المصطلحات يصف القيمة السوقية للعلامة التجارية؟",
+    "subtitle": "التسويق - إدارة العلامة التجارية",
+    "options": [
+      {"id": "a", "text": "هوية العلامة", "correct": false},
+      {"id": "b", "text": "رأس المال العلامة", "correct": true},
+      {"id": "c", "text": "صورة العلامة", "correct": false},
+      {"id": "d", "text": "ولاء العلامة", "correct": false}
+    ]
+  },
+  {
+    "id": 69,
+    "text": "ما هو المصطلح الذي يصف عملية إدارة المخزون بشكل فعال؟",
+    "subtitle": "الإنتاج - إدارة المخزون",
+    "options": [
+      {"id": "a", "text": "نظام الجرد الدائم", "correct": false},
+      {"id": "b", "text": "إدارة سلسلة التوريد", "correct": false},
+      {"id": "c", "text": "نظام المخزون في الوقت المناسب", "correct": true},
+      {"id": "d", "text": "نظام الجرد الدوري", "correct": false}
+    ]
+  },
+  {
+    "id": 70,
+    "text": "ما هي الاستراتيجية التي تهدف إلى تحسين جودة المنتجات والخدمات؟",
+    "subtitle": "الإدارة - إدارة الجودة",
+    "options": [
+      {"id": "a", "text": "إدارة الجودة الشاملة", "correct": true},
+      {"id": "b", "text": "نظام الجودة", "correct": false},
+      {"id": "c", "text": "مراقبة الجودة", "correct": false},
+      {"id": "d", "text": "توكيد الجودة", "correct": false}
+    ]
+  },
+  {
+    "id": 71,
+    "text": "أي من هذه الأدوات تستخدم في تحليل البيئة الخارجية؟",
+    "subtitle": "الإدارة - التحليل الاستراتيجي",
+    "options": [
+      {"id": "a", "text": "تحليل بيستل", "correct": true},
+      {"id": "b", "text": "تحليل سوات", "correct": false},
+      {"id": "c", "text": "تحليل القوى الخمس", "correct": false},
+      {"id": "d", "text": "تحليل القيمة", "correct": false}
+    ]
+  },
+  {
+    "id": 72,
+    "text": "ما هو المصطلح الذي يصف عملية جمع المعلومات عن المنافسين؟",
+    "subtitle": "التسويق - استخبارات الأعمال",
+    "options": [
+      {"id": "a", "text": "دراسة السوق", "correct": false},
+      {"id": "b", "text": "الاستخبارات التنافسية", "correct": true},
+      {"id": "c", "text": "تحليل المنافسين", "correct": false},
+      {"id": "d", "text": "البحث التسويقي", "correct": false}
+    ]
+  },
+  {
+    "id": 73,
+    "text": "ما هي الطريقة التي تستخدم لتحديد الاحتياجات من المواد الخام؟",
+    "subtitle": "الإنتاج - تخطيط الاحتياجات",
+    "options": [
+      {"id": "a", "text": "تخطيط الاحتياجات من المواد", "correct": true},
+      {"id": "b", "text": "تخطيط الإنتاج", "correct": false},
+      {"id": "c", "text": "تخطيط الجودة", "correct": false},
+      {"id": "d", "text": "تخطيط المخزون", "correct": false}
+    ]
+  },
+  {
+    "id": 74,
+    "text": "أي من هذه المبادئ ينص على تسجيل الإيرادات عند تحققها؟",
+    "subtitle": "المحاسبة - مبادئ المحاسبة",
+    "options": [
+      {"id": "a", "text": "مبدأ التحقق", "correct": true},
+      {"id": "b", "text": "مبدأ المقابلة", "correct": false},
+      {"id": "c", "text": "مبدأ الثبات", "correct": false},
+      {"id": "d", "text": "مبدأ الاستمرارية", "correct": false}
+    ]
+  },
+  {
+    "id": 75,
+    "text": "ما هو المصطلح الذي يصف عملية إدارة علاقات الموردين؟",
+    "subtitle": "الإنتاج - إدارة المشتريات",
+    "options": [
+      {"id": "a", "text": "إدارة سلسلة التوريد", "correct": false},
+      {"id": "b", "text": "إدارة الموردين", "correct": true},
+      {"id": "c", "text": "إدارة المشتريات", "correct": false},
+      {"id": "d", "text": "إدارة المخزون", "correct": false}
+    ]
+  },
+  {
+    "id": 76,
+    "text": "ما هي الاستراتيجية التي تهدف إلى تحقيق ميزة تنافسية مستدامة؟",
+    "subtitle": "الإدارة - الاستراتيجية",
+    "options": [
+      {"id": "a", "text": "الميزة التنافسية", "correct": true},
+      {"id": "b", "text": "الاستراتيجية التنافسية", "correct": false},
+      {"id": "c", "text": "التخطيط الاستراتيجي", "correct": false},
+      {"id": "d", "text": "التحليل الاستراتيجي", "correct": false}
+    ]
+  },
+  {
+    "id": 77,
+    "text": "أي من هذه المؤشرات يستخدم لقياس رضا العملاء؟",
+    "subtitle": "التسويق - قياس الأداء",
+    "options": [
+      {"id": "a", "text": "معدل الاحتفاظ بالعملاء", "correct": false},
+      {"id": "b", "text": "مؤشر رضا العملاء", "correct": true},
+      {"id": "c", "text": "معدل الدوران", "correct": false},
+      {"id": "d", "text": "معدل النمو", "correct": false}
+    ]
+  },
+  {
+    "id": 78,
+    "text": "ما هو المصطلح الذي يصف عملية تحليل البيانات المالية لفترات متعددة؟",
+    "subtitle": "المحاسبة - التحليل المالي",
+    "options": [
+      {"id": "a", "text": "التحليل الأفقي", "correct": true},
+      {"id": "b", "text": "التحليل الرأسي", "correct": false},
+      {"id": "c", "text": "تحليل النسب", "correct": false},
+      {"id": "d", "text": "التحليل المالي", "correct": false}
+    ]
+  },
+  {
+    "id": 79,
+    "text": "ما هي الاستراتيجية التي تهدف إلى تحسين كفاءة العمليات؟",
+    "subtitle": "الإدارة - إدارة العمليات",
+    "options": [
+      {"id": "a", "text": "إعادة هندسة العمليات", "correct": true},
+      {"id": "b", "text": "تحسين الجودة", "correct": false},
+      {"id": "c", "text": "تخفيض التكاليف", "correct": false},
+      {"id": "d", "text": "زيادة الإنتاجية", "correct": false}
+    ]
+  },
+  {
+    "id": 80,
+    "text": "أي من هذه الأنظمة يستخدم لإدارة الموارد المالية؟",
+    "subtitle": "المحاسبة - النظم المحاسبية",
+    "options": [
+      {"id": "a", "text": "نظام ERP", "correct": true},
+      {"id": "b", "text": "نظام CRM", "correct": false},
+      {"id": "c", "text": "نظام SCM", "correct": false},
+      {"id": "d", "text": "نظام MRP", "correct": false}
+    ]
+  },
+  {
+    "id": 81,
+    "text": "ما هو المصطلح الذي يصف عملية تقييم المخاطر المحتملة؟",
+    "subtitle": "الإدارة - إدارة المخاطر",
+    "options": [
+      {"id": "a", "text": "تحليل المخاطر", "correct": true},
+      {"id": "b", "text": "تقييم الأداء", "correct": false},
+      {"id": "c", "text": "التحليل المالي", "correct": false},
+      {"id": "d", "text": "دراسة الجدوى", "correct": false}
+    ]
+  },
+  {
+    "id": 82,
+    "text": "ما هي الاستراتيجية التي تهدف إلى بناء صورة ذهنية إيجابية عن المنشأة؟",
+    "subtitle": "التسويق - العلاقات العامة",
+    "options": [
+      {"id": "a", "text": "إدارة السمعة", "correct": true},
+      {"id": "b", "text": "التسويق الاجتماعي", "correct": false},
+      {"id": "c", "text": "التسويق الخيري", "correct": false},
+      {"id": "d", "text": "التسويق المباشر", "correct": false}
+    ]
+  },
+  {
+    "id": 83,
+    "text": "أي من هذه النظريات تركز على تقسيم العمل والتخصص؟",
+    "subtitle": "الإدارة - النظريات الكلاسيكية",
+    "options": [
+      {"id": "a", "text": "نظرية الإدارة العلمية", "correct": false},
+      {"id": "b", "text": "نظرية البيروقراطية", "correct": false},
+      {"id": "c", "text": "نظرية المبادئ الإدارية", "correct": true},
+      {"id": "d", "text": "نظرية العلاقات الإنسانية", "correct": false}
+    ]
+  },
+  {
+    "id": 84,
+    "text": "ما هو المصطلح الذي يصف عملية تحويل البيانات إلى معلومات مفيدة؟",
+    "subtitle": "الإدارة - نظم المعلومات",
+    "options": [
+      {"id": "a", "text": "معالجة البيانات", "correct": true},
+      {"id": "b", "text": "تحليل المعلومات", "correct": false},
+      {"id": "c", "text": "تخزين البيانات", "correct": false},
+      {"id": "d", "text": "نقل المعلومات", "correct": false}
+    ]
+  },
+  {
+    "id": 85,
+    "text": "ما هي الاستراتيجية التي تهدف إلى تحقيق التوازن بين العمل والحياة الشخصية؟",
+    "subtitle": "إدارة الموارد البشرية - التوازن",
+    "options": [
+      {"id": "a", "text": "التوازن بين العمل والحياة", "correct": true},
+      {"id": "b", "text": "المرونة الوظيفية", "correct": false},
+      {"id": "c", "text": "التنوع الوظيفي", "correct": false},
+      {"id": "d", "text": "التطوير الوظيفي", "correct": false}
+    ]
+  },
+  {
+    "id": 86,
+    "text": "أي من هذه المؤشرات يستخدم لقياس كفاءة إدارة الذمم المدينة؟",
+    "subtitle": "المحاسبة - النسب المالية",
+    "options": [
+      {"id": "a", "text": "معدل دوران الذمم المدينة", "correct": true},
+      {"id": "b", "text": "نسبة السيولة", "correct": false},
+      {"id": "c", "text": "نسبة المديونية", "correct": false},
+      {"id": "d", "text": "نسبة الربحية", "correct": false}
+    ]
+  },
+  {
+    "id": 87,
+    "text": "ما هو المصطلح الذي يصف عملية إدارة المعرفة داخل المنظمة؟",
+    "subtitle": "الإدارة - إدارة المعرفة",
+    "options": [
+      {"id": "a", "text": "إدارة المعرفة", "correct": true},
+      {"id": "b", "text": "نظم المعلومات", "correct": false},
+      {"id": "c", "text": "التعلم التنظيمي", "correct": false},
+      {"id": "d", "text": "الإبداع التنظيمي", "correct": false}
+    ]
+  },
+  {
+    "id": 88,
+    "text": "ما هي الاستراتيجية التي تهدف إلى تقليل التأثير البيئي للمنشأة؟",
+    "subtitle": "الإدارة - المسؤولية الاجتماعية",
+    "options": [
+      {"id": "a", "text": "الاستدامة", "correct": true},
+      {"id": "b", "text": "المسؤولية الاجتماعية", "correct": false},
+      {"id": "c", "text": "الأخلاقيات", "correct": false},
+      {"id": "d", "text": "التنمية المستدامة", "correct": false}
+    ]
+  },
+  {
+    "id": 89,
+    "text": "أي من هذه الطرق تستخدم في تخطيط القوى العاملة؟",
+    "subtitle": "إدارة الموارد البشرية - التخطيط",
+    "options": [
+      {"id": "a", "text": "تحليل الاحتياجات", "correct": true},
+      {"id": "b", "text": "تقييم الأداء", "correct": false},
+      {"id": "c", "text": "التدريب", "correct": false},
+      {"id": "d", "text": "التوظيف", "correct": false}
+    ]
+  },
+  {
+    "id": 90,
+    "text": "ما هو المصطلح الذي يصف عملية تقييم الأداء المالي للمنشأة؟",
+    "subtitle": "المحاسبة - التحليل المالي",
+    "options": [
+      {"id": "a", "text": "التحليل المالي", "correct": true},
+      {"id": "b", "text": "المراجعة", "correct": false},
+      {"id": "c", "text": "المحاسبة", "correct": false},
+      {"id": "d", "text": "التدقيق", "correct": false}
+    ]
+  },
+  {
+    "id": 91,
+    "text": "ما هي الاستراتيجية التي تهدف إلى تحقيق النمو من خلال العمليات الداخلية؟",
+    "subtitle": "الإدارة - استراتيجيات النمو",
+    "options": [
+      {"id": "a", "text": "النمو العضوي", "correct": true},
+      {"id": "b", "text": "النمو الخارجي", "correct": false},
+      {"id": "c", "text": "التنويع", "correct": false},
+      {"id": "d", "text": "التكامل", "correct": false}
+    ]
+  },
+  {
+    "id": 92,
+    "text": "أي من هذه النظريات تركز على احتياجات العاملين النفسية والاجتماعية؟",
+    "subtitle": "الإدارة - نظريات التحفيز",
+    "options": [
+      {"id": "a", "text": "نظرية التوقع", "correct": false},
+      {"id": "b", "text": "نظرية تحقيق الذات", "correct": false},
+      {"id": "c", "text": "نظرية الحاجات", "correct": true},
+      {"id": "d", "text": "نظرية العدالة", "correct": false}
+    ]
+  },
+  {
+    "id": 93,
+    "text": "ما هو المصطلح الذي يصف عملية إدارة التغيير في المنظمة؟",
+    "subtitle": "الإدارة - إدارة التغيير",
+    "options": [
+      {"id": "a", "text": "إدارة التغيير", "correct": true},
+      {"id": "b", "text": "التطوير التنظيمي", "correct": false},
+      {"id": "c", "text": "إعادة الهيكلة", "correct": false},
+      {"id": "d", "text": "التخطيط الاستراتيجي", "correct": false}
+    ]
+  },
+  {
+    "id": 94,
+    "text": "ما هي الاستراتيجية التي تهدف إلى تحقيق الميزة التنافسية من خلال الابتكار؟",
+    "subtitle": "الإدارة - الابتكار",
+    "options": [
+      {"id": "a", "text": "استراتيجية الابتكار", "correct": true},
+      {"id": "b", "text": "استراتيجية التكلفة", "correct": false},
+      {"id": "c", "text": "استراتيجية التمايز", "correct": false},
+      {"id": "d", "text": "استراتيجية التركيز", "correct": false}
+    ]
+  },
+  {
+    "id": 95,
+    "text": "أي من هذه المؤشرات يستخدم لقياس كفاءة إدارة المخزون؟",
+    "subtitle": "الإنتاج - إدارة المخزون",
+    "options": [
+      {"id": "a", "text": "معدل دوران المخزون", "correct": true},
+      {"id": "b", "text": "نسبة الربحية", "correct": false},
+      {"id": "c", "text": "نسبة السيولة", "correct": false},
+      {"id": "d", "text": "نسبة المديونية", "correct": false}
+    ]
+  },
+  {
+    "id": 96,
+    "text": "ما هو المصطلح الذي يصف عملية تقييم الأداء البيئي للمنشأة؟",
+    "subtitle": "الإدارة - المسؤولية الاجتماعية",
+    "options": [
+      {"id": "a", "text": "التدقيق البيئي", "correct": true},
+      {"id": "b", "text": "التقييم البيئي", "correct": false},
+      {"id": "c", "text": "التحليل البيئي", "correct": false},
+      {"id": "d", "text": "المراجعة البيئية", "correct": false}
+    ]
+  },
+  {
+    "id": 97,
+    "text": "ما هي الاستراتيجية التي تهدف إلى تحسين خدمة العملاء؟",
+    "subtitle": "التسويق - خدمة العملاء",
+    "options": [
+      {"id": "a", "text": "إدارة علاقات العملاء", "correct": true},
+      {"id": "b", "text": "التسويق المباشر", "correct": false},
+      {"id": "c", "text": "التسويق الإلكتروني", "correct": false},
+      {"id": "d", "text": "التسويق الجماهيري", "correct": false}
+    ]
+  },
+  {
+    "id": 98,
+    "text": "أي من هذه النظريات تركز على تأثير البيئة على المنظمة؟",
+    "subtitle": "الإدارة - النظريات الحديثة",
+    "options": [
+      {"id": "a", "text": "نظرية النظم", "correct": true},
+      {"id": "b", "text": "نظرية الموقف", "correct": false},
+      {"id": "c", "text": "نظرية Z", "correct": false},
+      {"id": "d", "text": "نظرية الإدارة اليابانية", "correct": false}
+    ]
+  },
+  {
+    "id": 99,
+    "text": "ما هو المصطلح الذي يصف عملية تقييم فعالية الإعلانات؟",
+    "subtitle": "التسويق - تقييم الإعلان",
+    "options": [
+      {"id": "a", "text": "قياس فعالية الإعلان", "correct": true},
+      {"id": "b", "text": "تحليل الحملات", "correct": false},
+      {"id": "c", "text": "تقييم الوسائل", "correct": false},
+      {"id": "d", "text": "تحليل الجمهور", "correct": false}
+    ]
+  },
+  {
+    "id": 100,
+    "text": "ما هي الاستراتيجية التي تهدف إلى تحقيق التكامل بين الوحدات التنظيمية؟",
+    "subtitle": "الإدارة - التكامل التنظيمي",
+    "options": [
+      {"id": "a", "text": "التكامل التنظيمي", "correct": true},
+      {"id": "b", "text": "التنسيق", "correct": false},
+      {"id": "c", "text": "التفويض", "correct": false},
+      {"id": "d", "text": "الرقابة", "correct": false}
+    ]
+  }
+]

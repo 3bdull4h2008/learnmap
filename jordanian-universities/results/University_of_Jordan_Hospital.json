@@ -1,0 +1,121 @@
+{
+  "basic_info": {
+    "name": "مستشفى الجامعة الأردنية",
+    "nameEn": "Jordan University Hospital",
+    "type": "public",
+    "city": "Amman",
+    "region": "central",
+    "established": 1973,
+    "website": "https://hospital.ju.edu.jo"
+  },
+  "admission_requirements": {
+    "general_requirements": "Admission to residency and higher specialization programs at JUH requires a medical/dental degree with minimum grade of Good, valid practice license, Tawjihi certificate, and passing a written exam and personal interview; English proficiency required (TOEFL iBT 90, IELTS 6.5, or OET C); patient admission for medical services based on urgency, specialty availability, and bed availability",
+    "min_tawjihi_mark": "[uncertain]",
+    "has_entrance_exam": true,
+    "exam_details": "Written exam and personal interview required for higher specialization (residency) programs in medicine and dentistry",
+    "english_requirement": "TOEFL iBT minimum 90 or IELTS minimum 6.5 or OET grade C for higher specialization programs"
+  },
+  "majors_overview": {
+    "college_count": 1,
+    "major_categories": [
+      "special surgery",
+      "internal medicine",
+      "general surgery",
+      "pediatrics",
+      "obstetrics and gynecology",
+      "dentistry",
+      "radiology and nuclear medicine",
+      "anesthesia and intensive care",
+      "laboratories and forensic medicine",
+      "rehabilitation medicine",
+      "emergency medicine"
+    ],
+    "total_majors": 11,
+    "total_medical_units": "[uncertain]",
+    "has_postgraduate": true
+  },
+  "tuition_fees": {
+    "annual_fees_range": "[uncertain]",
+    "medical_majors_fees": "[uncertain]",
+    "engineering_majors_fees": null,
+    "humanities_majors_fees": null,
+    "notes": "Higher specialization (residency) program fees for Jordanians: 1,066 JOD annual university fees including academic year fee (960 JOD), insurance (56 JOD), computer usage (40 JOD), and service charges (10 JOD per semester); one-time fees: 20 JOD application fee, 150 JOD admission fee. Fees for non-Jordanian students vary."
+  },
+  "ranking_accreditation": {
+    "national_ranking": "[uncertain]",
+    "accreditation": "Joint Commission International (JCI), Hazard Analysis Critical Control Point (HACCP), ISO; affiliated with University of Jordan and King Hussein Cancer Center",
+    "international_recognition": "First hospital in Arab region and second in Middle East to receive JCI accreditation; first university teaching hospital in Jordan and one of the first in the Arab world; described as 'the first academic medical center at the level of the Arab world'"
+  },
+  "market_demand": {
+    "overall_demand": "high",
+    "high_demand_majors": [
+      "Medicine",
+      "Nursing",
+      "Pharmacy",
+      "Dentistry",
+      "Medical Laboratory Sciences",
+      "Rehabilitation Sciences"
+    ],
+    "employment_rate_estimate": "[uncertain]",
+    "notes": "JUH is the premier teaching hospital in Jordan and a major referral center, serving approximately half a million patients annually. Medical graduates from JUH achieve top scores in US medical specialization exams. High demand for healthcare professionals in Jordan and the region."
+  },
+  "campus_facilities": {
+    "has_accommodation": false,
+    "accommodation_details": "As a teaching hospital located within the University of Jordan campus, patients and students may access University of Jordan dormitories; JUH itself does not operate dedicated patient accommodation",
+    "has_library": true,
+    "has_sports_facilities": false,
+    "has_scholarships": false,
+    "scholarship_details": "Scholarships may be available through the University of Jordan for students training at JUH; no independent JUH scholarship programs identified"
+  },
+  "contact_info": {
+    "address": "Queen Rania Street, PO Box 13046, Amman 11942, Jordan",
+    "phone": "+962 6 535 3444 / +962 6 535 3666",
+    "email": "juhosp@ju.edu.jo",
+    "social_media": [
+      "https://www.facebook.com/pages/%D9%85%D8%B3%D8%AA%D8%B4%D9%81%D9%89-%D8%A7%D9%84%D8%AC%D8%A7%D9%85%D8%B9%D8%A9-%D8%A7%D9%84%D8%A7%D8%B1%D8%AF%D9%86%D9%8A%D8%A9/554206651291068"
+    ]
+  },
+  "hospital_departments": {
+    "medical_departments": [
+      "دائرة الجراحة الخاصة (Special Surgery)",
+      "دائرة الأمراض الباطنية (Internal Medicine)",
+      "دائرة الجراحة العامة (General Surgery)",
+      "دائرة طب الأطفال (Pediatrics)",
+      "دائرة النسائية والتوليد (Obstetrics and Gynecology)",
+      "دائرة طب الأسنان (Dentistry)",
+      "دائرة الأشعة والطب النووي (Radiology and Nuclear Medicine)",
+      "دائرة التخدير والانعاش (Anesthesia and Intensive Care)",
+      "دائرة المختبرات والطب الشرعي (Laboratories and Forensic Medicine)",
+      "دائرة طب التأهيل (Rehabilitation Medicine)",
+      "دائرة الحوادث والطوارئ (Emergency)"
+    ],
+    "total_medical_departments": 11,
+    "total_medical_units": "[uncertain]",
+    "notes": "Hospital has over 30 specialized medical units in addition to the 11 main medical departments"
+  },
+  "medical_achievements": [
+    "Epilepsy treatment through surgical intervention",
+    "Brain and skull base tumor surgery",
+    "Cochlear implantation",
+    "Congenital deformity surgery in children (cleft lip, etc.)",
+    "Cerebrovascular malformations treatment",
+    "Plastic surgery",
+    "Bone marrow transplantation for children and adults",
+    "Endoscopy using smart capsule technology",
+    "Obesity treatment via laparoscopy and gastric bypass",
+    "Advanced joint replacement and prosthetic joint installation",
+    "Artificial insemination and infertility treatment",
+    "High-risk pregnancy management",
+    "Sleep disorders laboratory",
+    "Laser skin treatment",
+    "First hospital in Arab region to receive JCI accreditation"
+  ],
+  "uncertain": [
+    "min_tawjihi_mark",
+    "annual_fees_range",
+    "medical_majors_fees",
+    "national_ranking",
+    "employment_rate_estimate",
+    "total_medical_units"
+  ]
+}

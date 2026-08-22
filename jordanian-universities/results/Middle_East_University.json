@@ -1,0 +1,125 @@
+{
+  "basic_info": {
+    "name": "جامعة الشرق الأوسط",
+    "nameEn": "Middle East University",
+    "type": "private",
+    "city": "Amman",
+    "region": "central",
+    "established": 2005,
+    "website": "https://www.meu.edu.jo",
+    "website_note": "Domain mu.edu.jo does not resolve; official website is meu.edu.jo"
+  },
+  "admission_requirements": {
+    "general_requirements": "General Secondary Education Certificate (Tawjihi) or equivalent; minimum 60% for most majors, 65% for Law, 80% for Pharmacy and Engineering. Non-Jordanian students may be admitted with up to 10 marks less than the Jordanian minimum. Community College diploma holders accepted with qualifying exam average >= 68% (70% for Pharmacy/Engineering). Placement tests in Arabic, English, and Computer required at first enrollment.",
+    "min_tawjihi_mark": 60,
+    "has_entrance_exam": false,
+    "exam_details": "Placement tests in Arabic, English, and Computer are administered at first enrollment semester (25 JD per test). Students who pass are exempted from remedial courses. Students scoring 80%+ are exempted from both remedial course (099) and first-level course (101).",
+    "english_requirement": "Placement test in English at first enrollment (no separate IELTS/TOEFL requirement for admission)"
+  },
+  "majors_overview": {
+    "college_count": 9,
+    "colleges": [
+      "Faculty of Arts and Educational Sciences",
+      "Faculty of Business",
+      "Faculty of Law",
+      "Faculty of Information Technology",
+      "Faculty of Media",
+      "Faculty of Engineering and Design",
+      "Faculty of Pharmacy",
+      "Faculty of Allied Medical Sciences",
+      "Faculty of Nursing"
+    ],
+    "major_categories": ["engineering", "information technology", "media", "education", "law", "architecture and design", "pharmacy", "arts and sciences", "business", "nursing", "allied medical sciences"],
+    "total_bachelor_majors": 36,
+    "total_master_majors": "[uncertain]",
+    "has_postgraduate": true,
+    "has_higher_diploma": true,
+    "academic_programs": ["bachelor", "higher diploma", "master"],
+    "uk_hosted_programs": "Hosted programmes with University of Bedfordshire (UK) and University of Strathclyde"
+  },
+  "tuition_fees": {
+    "fee_structure_notes": "Registration fee 500 JD per regular semester (300 JD summer); enrollment fee 75 JD (paid once); refundable fee 75 JD (paid once); health insurance free; transportation free; placement tests 25 JD each. Non-Jordanian students pay additional 30 JD per semester.",
+    "per_credit_hour_range": "50-130 JD depending on major",
+    "major_fee_categories": {
+      "arts_and_educational_sciences": "50-90 JD per credit hour (Arabic Literature 50, English Literature 80, Applied Translation 90, Education Tech 70, Sports Management 70)",
+      "law": "65 JD per credit hour",
+      "business": "80-90 JD per credit hour (Business Admin 80, Accounting 85, others 90)",
+      "information_technology": "90-100 JD per credit hour (Computer Science 90, Software Engineering/Cyber Security/AI 100)",
+      "media": "70-80 JD per credit hour (Journalism/TV 70, Digital Media 80)",
+      "engineering_and_design": "90-110 JD per credit hour (Renewable Energy 90, Architecture/Biomedical 110, Graphic Design 90, Interior Design 100)",
+      "pharmacy": "130 JD per credit hour (Pharmacy), 100 JD (Cosmetic Chemical Products)",
+      "allied_medical_sciences": "80-100 JD per credit hour (Nutrition 80, Physiotherapy/Medical Analysis/Genetic Eng 100, Paramedic 90)",
+      "nursing": "90 JD per credit hour"
+    },
+    "notes": "Registration fee 500 JD per regular semester for bachelor programs; enrollment fee 75 JD (paid once); refundable fee 75 JD (paid once); health insurance free; free transportation; placement tests 25 JD each"
+  },
+  "ranking_accreditation": {
+    "national_ranking": "[uncertain]",
+    "accreditation": "Ministry of Higher Education and Scientific Research (MOHE) - generally and privately accredited; Association of Arab Universities; Union of Arab and International Universities",
+    "programmatic_accreditations": "AACSB (Faculty of Business); FIBAA (Faculty of Engineering - multiple programs); CEA (Faculty of Arts and Educational Sciences - Arabic language); NCAAA (Faculty of IT); Philippine Accrediting Association (Pharmacy)",
+    "international_recognition": "QS World University Rankings #1001-1200 (2027); QS Arab Region Rankings #91; THE Impact Rankings 801-1000 (2025)"
+  },
+  "market_demand": {
+    "overall_demand": "[uncertain]",
+    "high_demand_majors": ["[uncertain]"],
+    "employment_rate_estimate": "[uncertain]",
+    "notes": "University hosts annual Career Day with 60+ participating companies; runs hosted programs with University of Bedfordshire (UK) and University of Strathclyde; new majors added in 2025-2026 include Genetic Engineering & Biotechnology, Paramedical & Emergency Science, Business & Psychology, Biomedical Engineering"
+  },
+  "campus_facilities": {
+    "has_accommodation": false,
+    "accommodation_details": "No on-campus accommodation mentioned on official website",
+    "has_library": true,
+    "has_sports_facilities": true,
+    "sports_details": "Olympic Stadium, indoor sports courts, outdoor sport courts and pitches, fitness gym, Next Level Arena",
+    "has_scholarships": true,
+    "scholarship_details": "[uncertain]",
+    "other_facilities": [
+      "Places of worship",
+      "Parking lot",
+      "Banking service",
+      "Medical services and health insurance (free)",
+      "MEU Center for Therapeutic Recovery",
+      "Internet services",
+      "Services for people with special needs",
+      "Entertainment centers",
+      "Catering",
+      "Free transportation"
+    ],
+    "campus_buildings": ["A Building", "B Building", "H Building", "G Building", "N Building", "Library", "Deanship of Students Affairs"]
+  },
+  "contact_info": {
+    "address": "Middle East University, Amman-Jordan, Zip Code: 11831",
+    "phone": "+962 6 4790222",
+    "fax": "+962 6 4129613",
+    "mobile": "+962 79 7122000",
+    "mobile2": "+962 79 9969933",
+    "whatsapp": "+962 79 7122000",
+    "email": "admission@meu.edu.jo",
+    "social_media": [
+      "https://www.facebook.com/meunijo",
+      "https://www.instagram.com/meujo/",
+      "https://twitter.com/meuedujo",
+      "https://www.youtube.com/channel/UCc9gJEHI7OMGOJNBYWjn3Sw",
+      "https://www.linkedin.com/school/meu-jordanedu/",
+      "https://bit.ly/3Pn6WF9 (TikTok)",
+      "https://bit.ly/3QCI4uI (Snapchat)"
+    ]
+  },
+  "uncertain": [
+    "ranking_accreditation.national_ranking",
+    "majors_overview.total_master_majors",
+    "market_demand.overall_demand",
+    "market_demand.high_demand_majors",
+    "market_demand.employment_rate_estimate",
+    "campus_facilities.scholarship_details"
+  ],
+  "verified_sources": [
+    "https://www.meu.edu.jo (official homepage)",
+    "https://www.meu.edu.jo/admission/bachelor-programmes/admission-requirements-undergraduate-programme/",
+    "https://www.meu.edu.jo/admission/bachelor-programmes/fees-and-insurance-for-undergraduate-studies/",
+    "https://www.meu.edu.jo/admission/bachelor-programmes/placement-tests/",
+    "https://www.meu.edu.jo/contact-us/",
+    "https://www.meu.edu.jo/accreditation/",
+    "https://www.meu.edu.jo/prospective-students/"
+  ]
+}

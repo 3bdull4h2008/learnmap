@@ -1,0 +1,66 @@
+{
+  "basic_info": {
+    "name": "جامعة الإسراء",
+    "nameEn": "Isra University",
+    "type": "private",
+    "city": "Amman",
+    "region": "central",
+    "established": 1989,
+    "website": "https://www.iu.edu.jo"
+  },
+  "admission_requirements": {
+    "general_requirements": "Tawjihi (General Secondary Education Certificate) or equivalent with minimum 60% cumulative average; credit hour system",
+    "min_tawjihi_mark": 60,
+    "has_entrance_exam": false,
+    "exam_details": "[uncertain]",
+    "english_requirement": "TOEFL or IELTS required for postgraduate programs; undergraduate English requirement not specified on website"
+  },
+  "majors_overview": {
+    "college_count": 10,
+    "major_categories": ["arts", "business", "law", "engineering", "pharmacy", "information technology", "educational sciences", "nursing", "sciences", "allied medical sciences"],
+    "total_majors": 32,
+    "has_postgraduate": true
+  },
+  "tuition_fees": {
+    "annual_fees_range": "1,688 - 5,100 JOD",
+    "medical_majors_fees": "[uncertain]",
+    "engineering_majors_fees": "3,000 JOD per semester (Faculty of Engineering)",
+    "humanities_majors_fees": "2,000 JOD per semester (Faculty of Arts and Sciences)",
+    "notes": "Per-semester tuition: Pharmacy 3,500 JOD, Engineering 3,000 JOD, Law 2,800 JOD, Business 2,500 JOD, Arts and Sciences 2,000 JOD. Application fee: 40 JOD. Hourly rate for some programs: 99-200 JOD/hour."
+  },
+  "ranking_accreditation": {
+    "national_ranking": "21st in Jordan (EduRank 2026)",
+    "accreditation": "Ministry of Higher Education and Scientific Research of Jordan",
+    "international_recognition": "EduRank 2026: Global #6235, Asia #2337, Jordan #21; UniRank 2026: listed"
+  },
+  "market_demand": {
+    "overall_demand": "[uncertain]",
+    "high_demand_majors": "[uncertain]",
+    "employment_rate_estimate": "[uncertain]",
+    "notes": "[uncertain]"
+  },
+  "campus_facilities": {
+    "has_accommodation": true,
+    "accommodation_details": "On-campus housing available",
+    "has_library": true,
+    "has_sports_facilities": true,
+    "has_scholarships": true,
+    "scholarship_details": "Financial aid programs available; details on website"
+  },
+  "contact_info": {
+    "address": "Queen Alia International Airport Highway, Amman 11622, Jordan",
+    "phone": "+962 (6) 471 1710",
+    "fax": "+962 (6) 471 1505",
+    "email": "info@isra.edu.jo",
+    "social_media": ["https://twitter.com/IsraUni"],
+    "po_box": "PO Box 33 and 22, Isra University Office 1162"
+  },
+  "uncertain": [
+    "admission_requirements.exam_details",
+    "tuition_fees.medical_majors_fees",
+    "market_demand.overall_demand",
+    "market_demand.high_demand_majors",
+    "market_demand.employment_rate_estimate",
+    "market_demand.notes"
+  ]
+}

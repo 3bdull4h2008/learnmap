@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>التقويم الدراسي 2025–2026 — الأردن | وزارة التربية والتعليم</title>
+    <meta name="description" content="التقويم الدراسي الرسمي للعام 2025–2026 في الأردن: تواريخ بدء وانتهاء الدوام، الامتحانات، الإجازات الرسمية والدينية. مع روابط PDF وتنزيل مباشر.">
+    <link rel="stylesheet" href="../styles.css" />
+    <style>
+        .calendar-header {
+            background: rgba(255, 152, 0, 0.08);
+            padding: 1.2rem;
+            border-radius: 8px;
+            margin-bottom: 1.5rem;
+        }
+        .calendar-header h1 {
+            margin-top: 0;
+            color: #e65100;
+        }
+        .quick-dates {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin: 1.5rem 0;
+        }
+        .date-card {
+            background: var(--card-bg);
+            text-align: center;
+            padding: 1rem;
+            border-radius: 8px;
+            border-top: 3px solid #ffb300;
+        }
+        .date-label {
+            font-size: 0.85rem;
+            color: #616161;
+        }
+        .date-value {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: #e65100;
+        }
+        .official-doc {
+            background: #fff3e0;
+            border-left: 4px solid #fb8c00;
+            padding: 1rem;
+            margin: 1.2rem 0;
+            border-radius: 0 6px 6px 0;
+        }
+        .term-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.5rem 0;
+        }
+        .term-table th, .term-table td {
+            padding: 0.8rem 1rem;
+            text-align: center;
+            border: 1px solid var(--border-color);
+        }
+        .term-table th {
+            background-color: var(--card-bg);
+            font-weight: 700;
+        }
+        .term-table tr:nth-child(even) {
+            background-color: rgba(250, 250, 250, 0.3);
+        }
+        .exam-row { background: rgba(255, 243, 224, 0.7); }
+        .holiday-row { background: rgba(224, 247, 250, 0.7); }
+        .ascii-calendar {
+            font-family: monospace;
+            background: #263238;
+            color: #eeffff;
+            padding: 1.2rem;
+            border-radius: 8px;
+            direction: ltr;
+            text-align: left;
+            font-size: 0.85rem;
+            white-space: pre;
+            overflow-x: auto;
+        }
+        .alert-box {
+            background: #fff8e1;
+            border-right: 4px solid #ffb300;
+            padding: 1rem;
+            margin: 1.5rem 0;
+            border-radius: 6px;
+        }
+        @media (max-width: 768px) {
+            .quick-dates {
+                grid-template-columns: 1fr;
+            }
+            .ascii-calendar {
+                font-size: 0.75rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap" as="style">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap" rel="stylesheet">
+<div class="nav-overlay" id="navOverlay" aria-hidden="true"></div>
+<nav class="navbar" role="navigation" aria-label="القائمة الرئيسية">
+  <div class="nav-container">
+    <a href="/index.html" class="logo" aria-label="العودة للصفحة الرئيسية">
+      <img src="/logo.webp" alt="LearnMap Logo" class="logo-img" width="50" height="50" loading="eager">
+    </a>
+    <button class="hamburger" id="hamburger" type="button" aria-label="فتح القائمة" aria-expanded="false" aria-controls="navMenu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <ul class="nav-menu" id="navMenu" role="menubar">
+      <li class="has-submenu" role="none">
+        <a role="menuitem" aria-haspopup="true" aria-expanded="false">النظام التعليمي في الأردن</a>
+        <ul class="dropdown-menu" role="menu">
+          <li role="none"><a href="/fields-awareness/overview/BTEC-System-2025.html" role="menuitem">المسار المهني والتقني</a></li>
+          <li role="none"><a href="/fields-awareness/overview/jordanian-system-2025.html" role="menuitem">المسار الأكاديمي</a></li>
+          <li class="has-submenu" role="none">
+            <a role="menuitem" aria-haspopup="true" aria-expanded="false">تخصصات المسار الأكاديمي</a>
+            <ul class="dropdown-submenu" role="menu">
+              <li role="none"><a href="/fields-awareness/academic/science-and-technology-field.html" role="menuitem">الهندسة والعلوم والتكنولوجيا</a></li>
+              <li role="none"><a href="/fields-awareness/academic/health-field.html" role="menuitem">الصحي</a></li>
+              <li role="none"><a href="/fields-awareness/academic/business-and-management-field.html" role="menuitem">إدارة الأعمال</a></li>
+              <li role="none"><a href="/fields-awareness/academic/languages-and-social-studies.html" role="menuitem">اللغات والعلوم الانسانية والاجتماعية</a></li>
+            </ul>
+          </li>
+          <li class="has-submenu" role="none">
+            <a role="menuitem" aria-haspopup="true" aria-expanded="false">تخصصات المسار المهني</a>
+            <ul class="dropdown-submenu" role="menu">
+              <li role="none"><a href="/fields-awareness/vocational/engineering-vocational.html" role="menuitem">الهندسة</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/information-technology-vocational.html" role="menuitem">تكنولوجيا معلومات</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/hospitality-vocational.html" role="menuitem">الضيافة</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/hair-and-beauty-vocational.html" role="menuitem">الشعر والتجميل</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/construction-vocational.html" role="menuitem">البناء والإنشاءات</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/agriculture-vocational.html" role="menuitem">الزراعة</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/art-and-design-vocational.html" role="menuitem">الفن والتصميم</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/travel-and-tourism-vocational.html" role="menuitem">السفر والسياحة</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/business-and-management-vocational.html" role="menuitem">الأعمال</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/creative-media-vocational.html" role="menuitem">الوسائط الإبداعية</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/Healthcare-and-Social-Care-Vocational.html" role="menuitem">الرعاية الصحية والاجتماعية</a></li>
+              <li role="none"><a href="/fields-awareness/vocational/sports-vocational.html" role="menuitem">الرياضة</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li class="has-submenu" role="none">
+        <a role="menuitem" aria-haspopup="true" aria-expanded="false">التوجيه المهني</a>
+        <ul class="dropdown-menu" role="menu">
+          <li role="none"><a href="/career-guidance/interest-test.html" role="menuitem">اختبار الميول والقدرات</a></li>
+          <li role="none"><a href="/career-guidance/university-matcher.html" role="menuitem">مطابقة الجامعات</a></li>
+          <li role="none"><a href="/career-guidance/field-test.html" role="menuitem">اختبار الجاهزية المهنية</a></li>
+          <li role="none"><a href="/career-guidance/skills-development.html" role="menuitem">تطوير المهارات</a></li>
+          <li role="none"><a href="/career-guidance/market-demand.html" role="menuitem">احتياجات السوق</a></li>
+          <li role="none"><a href="/career-guidance/universities-list.html" role="menuitem">دليل الجامعات</a></li>
+        </ul>
+      </li>
+      <li class="has-submenu" role="none">
+        <a role="menuitem" aria-haspopup="true" aria-expanded="false">الدعم النفسي</a>
+        <ul class="dropdown-menu" role="menu">
+          <li role="none"><a href="/psychological-support/time-management-tools.html" role="menuitem">إدارة الوقت</a></li>
+          <li role="none"><a href="/psychological-support/mindset-and-emotional-regulation.html" role="menuitem">العقلية والضبط النفسي</a></li>
+        </ul>
+      </li>
+      <li class="has-submenu" role="none">
+        <a role="menuitem" aria-haspopup="true" aria-expanded="false">الأخبار والمجتمع</a>
+        <ul class="dropdown-menu" role="menu">
+          <li role="none"><a href="/community/ministry-decisions.html" role="menuitem">قرارات الوزارة</a></li>
+          <li role="none"><a href="/career-guidance/faq.html" role="menuitem">الأسئلة الشائعة</a></li>
+        </ul>
+      </li>
+    </ul>
+    <div class="nav-buttons">
+      <div class="nav-account-section" id="navAccountSection">
+        <a href="/auth/login.html" class="nav-account-btn" id="navAccountBtn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+          <span id="navAccountText">حسابي</span>
+        </a>
+      </div>
+      <button id="darkModeToggle" class="btn-dark-mode" type="button" aria-label="تفعيل الوضع الليلي" aria-pressed="false">
+        <svg class="dm-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+    </div>
+    <script>
+    try {
+      var isLoggedIn = false;
+
+      function showLoggedIn(user) {
+        isLoggedIn = true;
+        var nameEl = document.getElementById('navAccountText');
+        if (nameEl && user.name) nameEl.textContent = user.name;
+        var btn = document.getElementById('navAccountBtn');
+        if (btn) btn.href = '/user/profile.html';
+      }
+
+      function showLoggedOut() {
+        isLoggedIn = false;
+        document.getElementById('navAccountText').textContent = 'حسابي';
+        var btn = document.getElementById('navAccountBtn');
+        if (btn) btn.href = '/auth/login.html';
+      }
+
+      function handleLogout() {
+        if (window.LearnMapAuth && window.LearnMapAuth.logout) {
+          window.LearnMapAuth.logout();
+        } else {
+          localStorage.removeItem('learnmap_token');
+          localStorage.removeItem('learnmap_user');
+          showLoggedOut();
+          window.location.href = '/index.html';
+        }
+      }
+
+      function updateNavAuth() {
+        var token = localStorage.getItem('learnmap_token');
+        var userData = localStorage.getItem('learnmap_user');
+        if (token && userData) {
+          try { showLoggedIn(JSON.parse(userData)); } catch(e) { showLoggedOut(); }
+        } else if (token) {
+          showLoggedIn({});
+        } else {
+          showLoggedOut();
+        }
+      }
+
+      function tryCheckAuth() {
+        if (window.LearnMapAuth && window.LearnMapAuth.checkAuth) {
+          window.LearnMapAuth.checkAuth().then(function(user) {
+            if (user) showLoggedIn(user);
+          }).catch(function() {});
+        } else {
+          setTimeout(tryCheckAuth, 100);
+        }
+      }
+
+      updateNavAuth();
+      tryCheckAuth();
+      window.addEventListener('storage', updateNavAuth);
+
+      (function() {
+        var path = window.location.pathname;
+        var links = document.querySelectorAll('.nav-menu a');
+        for (var i = 0; i < links.length; i++) {
+          var href = links[i].getAttribute('href');
+          if (href && path.indexOf(href) !== -1) {
+            links[i].setAttribute('aria-current', 'page');
+            break;
+          }
+        }
+      })();
+    } catch(e) {}
+    </script>
+  </div>
+</nav>
+
+    <!-- Hero Section -->
+    <section class="page-hero">
+        <div class="page-hero-content">
+            <h1>التقويم الدراسي 2025–2026</h1>
+            <p>التواريخ الرسمية لبدء وانتهاء الدوام، الامتحانات، والإجازات في مدارس الأردن</p>
+        </div>
+    </section>
+    <!-- Main Content Layout -->
+    <section class="page-content">
+        <div class="container">
+            <div class="content-grid">
+                <!-- Main Column -->
+                <div class="main-column">
+                    <div class="calendar-header">
+                        <h1>التقويم الدراسي الرسمي</h1>
+                        <p><strong>العام الدراسي:</strong> 2025–2026<br>
+                        <em>"أُقرّ من مجلس الوزراء بتاريخ 13 يوليو 2025، ونُشر في الجريدة الرسمية العدد 5907"</em> [[25], [62]]</p>
+                    </div>
+                    <!-- مصدر القرار -->
+                    <div class="official-doc">
+                        <strong>المصدر الرسمي:</strong> <a href="https://www.moe.gov.jo/ar/node/4995" target="_blank">التقويم على موقع الوزارة</a> | <a href="https://www.moe.gov.jo/sites/default/files/2025-07/School_Calendar_2025_2026_Arabic.pdf" target="_blank">تحميل PDF (12 صفحة)</a> [[62]]
+                    </div>
+                    <!-- التواريخ الأساسية -->
+                    <div class="content-section">
+                        <h2>التواريخ الأساسية</h2>
+                        <div class="quick-dates">
+                            <div class="date-card">
+                                <div class="date-label">بدء دوام الهيئات</div>
+                                <div class="date-value">الأحد<br>17 آب 2025</div>
+                            </div>
+                            <div class="date-card">
+                                <div class="date-label">بدء دوام الطلبة</div>
+                                <div class="date-value">الأحد<br>24 آب 2025</div>
+                            </div>
+                            <div class="date-card">
+                                <div class="date-label">نهاية الفصل الأول</div>
+                                <div class="date-value">الخميس<br>18 كانون الأول 2025</div>
+                            </div>
+                            <div class="date-card">
+                                <div class="date-label">بدء الفصل الثاني</div>
+                                <div class="date-value">الأحد<br>4 كانون الثاني 2026</div>
+                            </div>
+                            <div class="date-card">
+                                <div class="date-label">نهاية العام الدراسي</div>
+                                <div class="date-value">الخميس<br>5 حزيران 2026</div>
+                            </div>
+                            <div class="date-card">
+                                <div class="date-label">امتحانات التكميلية</div>
+                                <div class="date-value">27 كانون الأول 2025 –<br>8 كانون الثاني 2026</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- جدول مفصّل -->
+                    <div class="content-section">
+                        <h2>جدول التقويم الدراسي — 2025–2026</h2>
+                        <table class="term-table">
+                            <thead>
+                                <tr>
+                                    <th>المرحلة</th>
+                                    <th>الحدث</th>
+                                    <th>التاريخ</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>التحضير</td>
+                                    <td>بدء دوام الهيئات التدريسية والإدارية</td>
+                                    <td>الأحد، 17 آب 2025</td>
+                                </tr>
+                                <tr>
+                                    <td>الفصل الأول</td>
+                                    <td>بدء دوام الطلبة</td>
+                                    <td>الأحد، 24 آب 2025</td>
+                                </tr>
+                                <tr class="holiday-row">
+                                    <td></td>
+                                    <td>إجازة عيد الأضحى (تقديرية)</td>
+                                    <td>5–9 أيلول 2025</td>
+                                </tr>
+                                <tr class="exam-row">
+                                    <td></td>
+                                    <td>امتحانات منتصف الفصل الأول</td>
+                                    <td>12–18 تشرين الأول 2025</td>
+                                </tr>
+                                <tr class="holiday-row">
+                                    <td></td>
+                                    <td>إجازة ذكرى المولد النبوي</td>
+                                    <td>الاثنين، 6 تشرين الأول 2025</td>
+                                </tr>
+                                <tr class="exam-row">
+                                    <td></td>
+                                    <td>امتحانات نهاية الفصل الأول</td>
+                                    <td>14–18 كانون الأول 2025</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>نهاية الفصل الأول</td>
+                                    <td>الخميس، 18 كانون الأول 2025</td>
+                                </tr>
+                                <tr>
+                                    <td>العطلة</td>
+                                    <td>عطلة منتصف العام</td>
+                                    <td>21 كانون الأول 2025 – 3 كانون الثاني 2026</td>
+                                </tr>
+                                <tr class="exam-row">
+                                    <td></td>
+                                    <td>الامتحان التكميلي</td>
+                                    <td>27–31 كانون الأول 2025<br>4–8 كانون الثاني 2026</td>
+                                </tr>
+                                <tr>
+                                    <td>الفصل الثاني</td>
+                                    <td>بدء الفصل الثاني</td>
+                                    <td>الأحد، 4 كانون الثاني 2026</td>
+                                </tr>
+                                <tr class="holiday-row">
+                                    <td></td>
+                                    <td>إجازة رأس السنة الميلادية</td>
+                                    <td>الأربعاء، 31 كانون الأول 2025</td>
+                                </tr>
+                                <tr class="holiday-row">
+                                    <td></td>
+                                    <td>إجازة عيد الميلاد المجيد</td>
+                                    <td>الاثنين، 6 كانون الثاني 2026</td>
+                                </tr>
+                                <tr class="exam-row">
+                                    <td></td>
+                                    <td>امتحانات منتصف الفصل الثاني</td>
+                                    <td>22–26 شباط 2026</td>
+                                </tr>
+                                <tr class="holiday-row">
+                                    <td></td>
+                                    <td>إجازة عيد الفطر (تقديرية)</td>
+                                    <td>29 آذار – 2 نيسان 2026</td>
+                                </tr>
+                                <tr class="exam-row">
+                                    <td></td>
+                                    <td>امتحانات نهاية الفصل الثاني (التوجيهي)</td>
+                                    <td>25 أيار – 10 حزيران 2026</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>نهاية العام الدراسي</td>
+                                    <td>الخميس، 5 حزيران 2026</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="alert-box">
+                            <strong>تنبيه:</strong> تواريخ الإجازات الدينية (عيد الأضحى، عيد الفطر) قابلة للتغيير حسب رؤية الهلال. تُعلن الوزارة عن التعديلات قبل شهر من الحدث.
+                        </div>
+                    </div>
+                    <!-- التقويم النصّي (ASCII) -->
+                    <div class="content-section">
+                        <h2>التقويم المدرسي — نظرة سريعة (نصّي)</h2>
+                        <div class="ascii-calendar">
+# التقويم الدراسي 2025–2026 (للصفوف 1–11)
+[أغسطس 2025]
+ S  M  T  W  T  F  S
+                1  2
+ 3  4  5  6  7  8  9
+10 11 12 13 14 15 16
+17*18 19 20 21 22 23
+24*25 26 27 28 29 30
+31
+*17: دوام هيئات  
+*24: دوام طلبة
+[ديسمبر 2025]
+ S  M  T  W  T  F  S
+    1  2  3  4  5  6
+ 7  8  9 10 11 12 13
+14~15~16~17~18#19 20
+21~22~23~24~25~26~27~
+28~29~30 31
+~ امتحانات منتصف/نهاية فصل أول  
+# نهاية الفصل الأول (18)  
+~ امتحان تكميلي (27–31)
+[يناير 2026]
+ S  M  T  W  T  F  S
+           1* 2  3#
+ 4* 5  6% 7  8~ 9 10
+...
+*1,4: عطلة + دوام تكميلي  
+#3: يوم تدريب (لا دوام طلبة)  
+%6: عيد الميلاد  
+~ تكميلي (4–8)
+→ التقويم الكامل في ملف PDF.
+                        </div>
+                    </div>
+                    <!-- مقارنة مع العام السابق -->
+                    <div class="content-section">
+                        <h2>مقارنة مع التقويم 2024–2025</h2>
+                        <table class="term-table">
+                            <thead>
+                                <tr>
+                                    <th>الحدث</th>
+                                    <th>2024–2025</th>
+                                    <th>2025–2026</th>
+                                    <th>الفرق</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>بدء دوام الطلبة</td>
+                                    <td>الأحد، 25 آب 2024</td>
+                                    <td>الأحد، 24 آب 2025</td>
+                                    <td>يوم واحد أبكر</td>
+                                </tr>
+                                <tr>
+                                    <td>نهاية الفصل الأول</td>
+                                    <td>الخميس، 19 كانون الأول 2024</td>
+                                    <td>الخميس، 18 كانون الأول 2025</td>
+                                    <td>يوم واحد أبكر</td>
+                                </tr>
+                                <tr>
+                                    <td>بدء الفصل الثاني</td>
+                                    <td>الأحد، 5 كانون الثاني 2025</td>
+                                    <td>الأحد، 4 كانون الثاني 2026</td>
+                                    <td>يوم واحد أبكر</td>
+                                </tr>
+                                <tr>
+                                    <td>نهاية العام</td>
+                                    <td>الخميس، 4 حزيران 2025</td>
+                                    <td>الخميس، 5 حزيران 2026</td>
+                                    <td>يوم واحد أبعد</td>
+                                </tr>
+                                <tr>
+                                    <td>إجمالي أيام الدراسة</td>
+                                    <td>182 يومًا</td>
+                                    <td>183 يومًا</td>
+                                    <td>+1 يوم</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p><strong>السبب:</strong> تعديل طفيف لتوحيد مواعيد الامتحانات مع التقويم الميلادي [[62]].</p>
+                    </div>
+                    <!-- الأسئلة الشائعة -->
+                    <div class="content-section">
+                        <h2>الأسئلة الشائعة (FAQ)</h2>
+                        <div class="content-section" style="background: var(--card-bg); border-radius: 8px; padding: 1rem;">
+                            <h4>هل ينطبق التقويم على المدارس الخاصة؟</h4>
+                            <p>نعم. التقويم إلزامي لجميع مدارس التعليم العام والخاص (باستثناء المدارس الدولية المرخصة من وزارة التربية) [[62]].</p>
+                        </div>
+                        <div class="content-section" style="background: var(--card-bg); border-radius: 8px; padding: 1rem;">
+                            <h4>ما مصير أيام الدراسة التي تصادف عطلة دينية غير رسمية؟</h4>
+                            <p>لا يُحتسب اليوم كعطلة رسمية، ويُستأنف الدوام في اليوم التالي. لا يتم تعويضه، إلا إذا أعلنت الوزارة خلاف ذلك (مثل: يوم عرفة لو صادف يوم دوام) [[25]].</p>
+                        </div>
+                        <div class="content-section" style="background: var(--card-bg); border-radius: 8px; padding: 1rem;">
+                            <h4>هل تُعقد امتحانات التكميلية في جميع الصفوف؟</h4>
+                            <p>لا. التكميلية تُعقد فقط للصفوف: (8، 9، توجيهي). باقي الصفوف يُعيدون المادة في العام التالي [[63]].</p>
+                        </div>
+                    </div>
+                    <!-- موارد -->
+                    <div class="content-section">
+                        <h2>موارد إضافية</h2>
+                        <ul>
+                            <li>📥 <a href="/downloads/school-calendar-2025-2026.pdf" download>التقويم (PDF رسمي)</a></li>
+                            <li>🗓️ <a href="/downloads/calendar-2025-2026-printable.pdf" download>نسخة قابلة للطباعة (A4)</a></li>
+                            <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="vertical-align:middle;margin-left:0.2rem"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg> <a href="https://www.timeanddate.com/calendar/?year=2025&country=21" target="_blank">تقويم أردني تفاعلي</a></li>
+                            <li>📞 <strong>للاستفسار:</strong> خط الوزارة 117110 — تحويلة 1 (شؤون الطلبة)</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Sidebar -->
+                <div class="sidebar">
+                    <div class="sidebar-card">
+                        <h3>روابط سريعة</h3>
+                        <ul class="sidebar-links">
+                            <li><a href="#exam-dates">تواريخ الامتحانات</a></li>
+                            <li><a href="#holidays">الإجازات</a></li>
+                            <li><a href="#comparison">مقارنة مع 2024</a></li>
+                        </ul>
+                    </div>
+                    <div class="sidebar-card">
+                        <h3>العودة إلى الصفحة الرئيسية</h3>
+                        <ul class="sidebar-links">
+                            <li><a href="/decisions/ministry-decisions.html">جميع قرارات الوزارة 2025</a></li>
+                        </ul>
+                    </div>
+                    <div class="sidebar-card">
+                        <h3>صفحات ذات صلة</h3>
+                        <ul class="sidebar-links">
+                            <li><a href="/decisions/tawjihi-supplementary-2025.html">الامتحان التكميلي 2025</a></li>
+                            <li><a href="/decisions/new-tawjihi-curriculum-2025.html">التوجيهي </a></li>
+                            <li><a href="/career-guidance/school-transition-guide.html">دليل الانتقال من التاسع إلى العاشر</a></li>
+                        </ul>
+                    </div>
+                    <div class="sidebar-card">
+                        <h3>شارك التقويم</h3>
+                        <p style="font-size: 0.9rem;">مهم للمعلمين وأولياء الأمور.</p>
+                        <div style="display: flex; gap: 0.5rem; margin-top: 0.5rem;">
+                            <a href="https://twitter.com/intent/tweet?text=التقويم%20المدرسي%202025–2026%20في%20الأردن&url=https://learnmap.jo/decisions/school-calendar-2025-2026" target="_blank" class="btn btn-social">𝕏</a>
+                            <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://learnmap.jo/decisions/school-calendar-2025-2026" target="_blank" class="btn btn-social">in</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="/dark-mode-controller.js" defer></script>
+<script src="/components/mobile-menu.js" defer></script>
+</html>

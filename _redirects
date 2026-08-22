@@ -1,0 +1,5 @@
+/api/*  https://learnmap-api.onrender.com/api/:splat  200
+/login  /auth/login.html  301
+/register  /auth/register.html  301
+/profile  /user/profile.html  301
+/dashboard  /user/dashboard.html  301

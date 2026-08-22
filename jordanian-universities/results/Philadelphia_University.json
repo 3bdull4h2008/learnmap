@@ -1,0 +1,67 @@
+{
+  "basic_info": {
+    "name": "جامعة فيلادلفيا",
+    "nameEn": "Philadelphia University",
+    "type": "private",
+    "city": "Amman",
+    "region": "central",
+    "established": 1989,
+    "website": "https://www.philadelphia.edu.jo"
+  },
+  "admission_requirements": {
+    "general_requirements": "Jordanian General Secondary Certificate (Tawjihi) or equivalent; minimum 60% average for Jordanians, 50% for international students; comprehensive exam GPA not less than 68% for most majors, 70% for Pharmacy and Engineering; scientific stream required for Pharmacy.",
+    "min_tawjihi_mark": 60,
+    "has_entrance_exam": false,
+    "exam_details": "No entrance exam; admission based on Tawjihi grades and comprehensive exam GPA for diploma holders.",
+    "english_requirement": "Undergraduate: University English Placement Test (EPT) administered by the Language Center; no external TOEFL/IELTS required for admission. Graduate: TOEFL, IELTS, or equivalent language proficiency exam required."
+  },
+  "majors_overview": {
+    "college_count": 10,
+    "major_categories": ["engineering", "information technology", "business", "pharmacy", "allied medical sciences", "nursing", "arts and educational sciences", "law", "science", "architecture and design"],
+    "total_majors": 30,
+    "has_postgraduate": true
+  },
+  "tuition_fees": {
+    "annual_fees_range": "Approximately 900-2,850 JOD/year for international bachelor's students (per studyabroadaide); local students pay per credit hour (50-85 JOD depending on program). Fee brochure 2025-2026 available on university website.",
+    "medical_majors_fees": "[uncertain]",
+    "engineering_majors_fees": "Approximately 85 JOD per credit hour (Renewable Energy Engineering per youapply.com).",
+    "humanities_majors_fees": "Approximately 30-50 JOD per credit hour for humanities/business programs (per youapply.com).",
+    "notes": "Tuition charged per credit hour. Registration fee 120 JOD per semester (undergraduate). Refundable deposit 100 JOD. Evening students receive 20% discount on credit hour fees. Graduate studies: 75-120 JOD per credit hour after discount, registration fee 30 JOD per semester, enrollment fee 50 JOD (one-time), refundable insurance deposit 5 JOD, UID card 435 JOD (one-time). Comprehensive exam/thesis fee 200 JOD."
+  },
+  "ranking_accreditation": {
+    "national_ranking": "#1 among Jordanian private universities and #4 among all Jordanian universities according to UniRank 2025; #11 in Jordan per Arab Ranking for Universities (ARU) 2025",
+    "accreditation": "Ministry of Higher Education and Scientific Research (MOHE), ISO 9001",
+    "international_recognition": "QS Arab Region Rankings #127 (2026); UniRank Arab World #47; THE World University Rankings (listed); Webometrics ranked #1 among Jordanian universities (2022)"
+  },
+  "market_demand": {
+    "overall_demand": "[uncertain]",
+    "high_demand_majors": "[uncertain]",
+    "employment_rate_estimate": "[uncertain]",
+    "notes": "University operates a Career Guidance and Graduate Follow-up Office and Department of Alumni Affairs. In 2025, university added new programs: Supply Chain and Digital Logistics Management, Applied Chemistry, and Master of Chinese Language, designed to meet labor market needs. Exact employment rate and market demand data not publicly available."
+  },
+  "campus_facilities": {
+    "has_accommodation": false,
+    "accommodation_details": "No on-campus student dormitories found on the official website. University provides free transportation services for students.",
+    "has_library": true,
+    "has_sports_facilities": true,
+    "has_scholarships": true,
+    "scholarship_details": "Academic excellence scholarships for high-achieving students based on Tawjihi GPA (up to 75% for artistic, musical, and sports excellence); scholarships for children of military/security personnel and UNRWA employees (10-25%); scholarships for villagers near the campus; 20% tuition fee remission for teachers' union members enrolling in master's programs; partial financial assistance through lab supervision or research assistance; financial aid and fees payment facilities available."
+  },
+  "contact_info": {
+    "address": "Jarash Road, 20 KM out of Amman, P.O. Box 1, Amman 19392, Jordan",
+    "phone": "+962 6 4799000",
+    "email": "info@philadelphia.edu.jo",
+    "social_media": [
+      "https://www.facebook.com/PhiladelphiaUniversity",
+      "https://twitter.com/Philadelphia_Jo",
+      "https://www.youtube.com/user/philadelphiaJo1",
+      "https://www.instagram.com/Philadelphiauniversityjordan/"
+    ]
+  },
+  "uncertain": [
+    "medical_majors_fees",
+    "overall_demand",
+    "high_demand_majors",
+    "employment_rate_estimate"
+  ]
+}

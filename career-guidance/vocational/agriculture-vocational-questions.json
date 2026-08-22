@@ -1,0 +1,1102 @@
+[
+  {
+    "id": 1,
+    "text": "ما هي العملية الأساسية التي تقوم بها النباتات الخضراء لصنع غذائها؟",
+    "subtitle": "الزراعة - أساسيات النبات",
+    "options": [
+      {"id": "a", "text": "التنفس", "correct": false},
+      {"id": "b", "text": "البناء الضوئي", "correct": true},
+      {"id": "c", "text": "التبخر", "correct": false},
+      {"id": "d", "text": "التكاثر", "correct": false}
+    ]
+  },
+  {
+    "id": 2,
+    "text": "أي من هذه المحاصيل يعتبر من محاصيل الحبوب؟",
+    "subtitle": "الزراعة - المحاصيل",
+    "options": [
+      {"id": "a", "text": "الطماطم", "correct": false},
+      {"id": "b", "text": "القمح", "correct": true},
+      {"id": "c", "text": "البطاطس", "correct": false},
+      {"id": "d", "text": "القطن", "correct": false}
+    ]
+  },
+  {
+    "id": 3,
+    "text": "ما هو الغاز الذي تمتصه النباتات خلال عملية البناء الضوئي؟",
+    "subtitle": "الزراعة - عمليات النبات",
+    "options": [
+      {"id": "a", "text": "الأكسجين", "correct": false},
+      {"id": "b", "text": "الهيدروجين", "correct": false},
+      {"id": "c", "text": "ثاني أكسيد الكربون", "correct": true},
+      {"id": "d", "text": "النيتروجين", "correct": false}
+    ]
+  },
+  {
+    "id": 4,
+    "text": "ما هي الوحدة الأساسية لقياس مساحة الأراضي الزراعية؟",
+    "subtitle": "الزراعة - القياسات",
+    "options": [
+      {"id": "a", "text": "الكيلوغرام", "correct": false},
+      {"id": "b", "text": "الدونم", "correct": true},
+      {"id": "c", "text": "المتر المكعب", "correct": false},
+      {"id": "d", "text": "اللتر", "correct": false}
+    ]
+  },
+  {
+    "id": 5,
+    "text": "أي من هذه الأدوات يستخدم لقلب التربة وتحضيرها للزراعة؟",
+    "subtitle": "الزراعة - الأدوات",
+    "options": [
+      {"id": "a", "text": "المجرفة", "correct": false},
+      {"id": "b", "text": "المحراث", "correct": true},
+      {"id": "c", "text": "المشط", "correct": false},
+      {"id": "d", "text": "المنجل", "correct": false}
+    ]
+  },
+  {
+    "id": 6,
+    "text": "ما هو أفضل وقت لري النباتات في الأيام الحارة؟",
+    "subtitle": "الزراعة - الري",
+    "options": [
+      {"id": "a", "text": "منتصف النهار", "correct": false},
+      {"id": "b", "text": "الصباح الباكر أو المساء", "correct": true},
+      {"id": "c", "text": "الليل", "correct": false},
+      {"id": "d", "text": "أي وقت", "correct": false}
+    ]
+  },
+  {
+    "id": 7,
+    "text": "ما هي المادة الخضراء في النبات المسؤولة عن عملية البناء الضوئي؟",
+    "subtitle": "الزراعة - تركيب النبات",
+    "options": [
+      {"id": "a", "text": "الكاروتين", "correct": false},
+      {"id": "b", "text": "الكلوروفيل", "correct": true},
+      {"id": "c", "text": "الأنثوسيانين", "correct": false},
+      {"id": "d", "text": "الزانثوفيل", "correct": false}
+    ]
+  },
+  {
+    "id": 8,
+    "text": "أي من هذه العناصر يعتبر من العناصر الغذائية الكبرى للنبات؟",
+    "subtitle": "الزراعة - التسميد",
+    "options": [
+      {"id": "a", "text": "النيتروجين", "correct": true},
+      {"id": "b", "text": "الحديد", "correct": false},
+      {"id": "c", "text": "الزنك", "correct": false},
+      {"id": "d", "text": "النحاس", "correct": false}
+    ]
+  },
+  {
+    "id": 9,
+    "text": "ما هو الغاز الذي تطلقه النباتات خلال عملية البناء الضوئي؟",
+    "subtitle": "الزراعة - عمليات النبات",
+    "options": [
+      {"id": "a", "text": "ثاني أكسيد الكربون", "correct": false},
+      {"id": "b", "text": "الأكسجين", "correct": true},
+      {"id": "c", "text": "الهيدروجين", "correct": false},
+      {"id": "d", "text": "النيتروجين", "correct": false}
+    ]
+  },
+  {
+    "id": 10,
+    "text": "ما هي الطريقة المستخدمة لإكثار النباتات بدون بذور؟",
+    "subtitle": "الزراعة - الإكثار",
+    "options": [
+      {"id": "a", "text": "التلقيح", "correct": false},
+      {"id": "b", "text": "التطعيم", "correct": true},
+      {"id": "c", "text": "الإزهار", "correct": false},
+      {"id": "d", "text": "الإثمار", "correct": false}
+    ]
+  },
+  {
+    "id": 11,
+    "text": "أي من هذه المحاصيل ينتمي إلى الفصيلة البقولية؟",
+    "subtitle": "الزراعة - تصنيف المحاصيل",
+    "options": [
+      {"id": "a", "text": "القمح", "correct": false},
+      {"id": "b", "text": "العدس", "correct": true},
+      {"id": "c", "text": "الذرة", "correct": false},
+      {"id": "d", "text": "القطن", "correct": false}
+    ]
+  },
+  {
+    "id": 12,
+    "text": "ما هو الهدف الرئيسي من عملية الحراثة؟",
+    "subtitle": "الزراعة - إعداد التربة",
+    "options": [
+      {"id": "a", "text": "قتل الحشرات", "correct": false},
+      {"id": "b", "text": "تهوية التربة وتفكيكها", "correct": true},
+      {"id": "c", "text": "تجميل المظهر", "correct": false},
+      {"id": "d", "text": "جذب الديدان", "correct": false}
+    ]
+  },
+  {
+    "id": 13,
+    "text": "ما هي الآفة التي تصيب المحاصيل وتتغذى على الأوراق؟",
+    "subtitle": "الزراعة - المكافحة المتكاملة",
+    "options": [
+      {"id": "a", "text": "الفطريات", "correct": false},
+      {"id": "b", "text": "الديدان القارضة", "correct": false},
+      {"id": "c", "text": "المن", "correct": true},
+      {"id": "d", "text": "البكتيريا", "correct": false}
+    ]
+  },
+  {
+    "id": 14,
+    "text": "أي من هذه الطرق تعتبر وسيلة ميكانيكية لمكافحة الآفات؟",
+    "subtitle": "الزراعة - المكافحة",
+    "options": [
+      {"id": "a", "text": "استخدام المبيدات", "correct": false},
+      {"id": "b", "text": "القبضة اليدوية", "correct": true},
+      {"id": "c", "text": "الرش الكيميائي", "correct": false},
+      {"id": "d", "text": "المعالجة الحرارية", "correct": false}
+    ]
+  },
+  {
+    "id": 15,
+    "text": "ما هو نوع التربة الذي يتميز بجزيئات كبيرة وتهوية جيدة؟",
+    "subtitle": "الزراعة - أنواع التربة",
+    "options": [
+      {"id": "a", "text": "الطينية", "correct": false},
+      {"id": "b", "text": "الرملية", "correct": true},
+      {"id": "c", "text": "السلتية", "correct": false},
+      {"id": "d", "text": "الصفراء", "correct": false}
+    ]
+  },
+  {
+    "id": 16,
+    "text": "ما هي المادة العضوية المتحللة التي تضاف للتربة لتحسين خواصها؟",
+    "subtitle": "الزراعة - تحسين التربة",
+    "options": [
+      {"id": "a", "text": "الرمل", "correct": false},
+      {"id": "b", "text": "السماد العضوي", "correct": true},
+      {"id": "c", "text": "الطين", "correct": false},
+      {"id": "d", "text": "الحصى", "correct": false}
+    ]
+  },
+  {
+    "id": 17,
+    "text": "أي من هذه المحاصيل يزرع في فصل الشتاء في الأردن؟",
+    "subtitle": "الزراعة - المواسم",
+    "options": [
+      {"id": "a", "text": "الذرة", "correct": false},
+      {"id": "b", "text": "القمح", "correct": true},
+      {"id": "c", "text": "الطماطم", "correct": false},
+      {"id": "d", "text": "البطيخ", "correct": false}
+    ]
+  },
+  {
+    "id": 18,
+    "text": "ما هو الجهاز المستخدم لقياس درجة حموضة التربة؟",
+    "subtitle": "الزراعة - قياسات التربة",
+    "options": [
+      {"id": "a", "text": "الترمومتر", "correct": false},
+      {"id": "b", "text": "مقياس الأس الهيدروجيني", "correct": true},
+      {"id": "c", "text": "البارومتر", "correct": false},
+      {"id": "d", "text": "الهيجرومتر", "correct": false}
+    ]
+  },
+  {
+    "id": 19,
+    "text": "ما هي العملية التي يتم فيها نقل حبوب اللقاح من متك إلى ميسم؟",
+    "subtitle": "الزراعة - التلقيح",
+    "options": [
+      {"id": "a", "text": "الإخصاب", "correct": false},
+      {"id": "b", "text": "التلقيح", "correct": true},
+      {"id": "c", "text": "التكاثر", "correct": false},
+      {"id": "d", "text": "الإثمار", "correct": false}
+    ]
+  },
+  {
+    "id": 20,
+    "text": "أي من هذه الأشجار تعتبر من الأشجار المثمرة؟",
+    "subtitle": "الزراعة - أشجار الفاكهة",
+    "options": [
+      {"id": "a", "text": "الزيتون", "correct": true},
+      {"id": "b", "text": "الصنوبر", "correct": false},
+      {"id": "c", "text": "الكينا", "correct": false},
+      {"id": "d", "text": "السرو", "correct": false}
+    ]
+  },
+  {
+    "id": 21,
+    "text": "ما هو الاسم العلمي لعملية انبات البذور؟",
+    "subtitle": "الزراعة - إنبات البذور",
+    "options": [
+      {"id": "a", "text": "التلقيح", "correct": false},
+      {"id": "b", "text": "الإخصاب", "correct": false},
+      {"id": "c", "text": "الإنبات", "correct": true},
+      {"id": "d", "text": "التزهير", "correct": false}
+    ]
+  },
+  {
+    "id": 22,
+    "text": "أي من هذه العوامل ضروري لإنبات البذور؟",
+    "subtitle": "الزراعة - متطلبات الإنبات",
+    "options": [
+      {"id": "a", "text": "الضوء", "correct": false},
+      {"id": "b", "text": "الماء", "correct": true},
+      {"id": "c", "text": "الرياح", "correct": false},
+      {"id": "d", "text": "الحرارة العالية", "correct": false}
+    ]
+  },
+  {
+    "id": 23,
+    "text": "ما هي المادة الكيميائية المستخدمة لمكافحة الحشائش؟",
+    "subtitle": "الزراعة - المكافحة الكيميائية",
+    "options": [
+      {"id": "a", "text": "المبيدات الحشرية", "correct": false},
+      {"id": "b", "text": "المبيدات الفطرية", "correct": false},
+      {"id": "c", "text": "المبيدات العشبية", "correct": true},
+      {"id": "d", "text": "المطهرات", "correct": false}
+    ]
+  },
+  {
+    "id": 24,
+    "text": "أي من هذه المحاصيل يزرع للاستفادة من جذوره؟",
+    "subtitle": "الزراعة - المحاصيل الجذرية",
+    "options": [
+      {"id": "a", "text": "الطماطم", "correct": false},
+      {"id": "b", "text": "البطاطس", "correct": false},
+      {"id": "c", "text": "الجزر", "correct": true},
+      {"id": "d", "text": "الخيار", "correct": false}
+    ]
+  },
+  {
+    "id": 25,
+    "text": "ما هو النظام الزراعي الذي يعتمد على تربية الحيوانات؟",
+    "subtitle": "الزراعة - الأنظمة الزراعية",
+    "options": [
+      {"id": "a", "text": "الزراعة المائية", "correct": false},
+      {"id": "b", "text": "الزراعة العضوية", "correct": false},
+      {"id": "c", "text": "التربية الحيوانية", "correct": true},
+      {"id": "d", "text": "البستنة", "correct": false}
+    ]
+  },
+  {
+    "id": 26,
+    "text": "ما هي الآلة المستخدمة لحصاد محاصيل الحبوب؟",
+    "subtitle": "الزراعة - آلات الحصاد",
+    "options": [
+      {"id": "a", "text": "المحراث", "correct": false},
+      {"id": "b", "text": "الحصادة", "correct": true},
+      {"id": "c", "text": "المشط", "correct": false},
+      {"id": "d", "text": "المدادة", "correct": false}
+    ]
+  },
+  {
+    "id": 27,
+    "text": "أي من هذه الحيوانات يعتبر من الحيوانات المجترة؟",
+    "subtitle": "الزراعة - تربية الحيوان",
+    "options": [
+      {"id": "a", "text": "الحصان", "correct": false},
+      {"id": "b", "text": "البقرة", "correct": true},
+      {"id": "c", "text": "الدجاج", "correct": false},
+      {"id": "d", "text": "الخنزير", "correct": false}
+    ]
+  },
+  {
+    "id": 28,
+    "text": "ما هو الغرض من عملية التسميد؟",
+    "subtitle": "الزراعة - التسميد",
+    "options": [
+      {"id": "a", "text": "قتل الحشرات", "correct": false},
+      {"id": "b", "text": "توفير العناصر الغذائية للنبات", "correct": true},
+      {"id": "c", "text": "تحسين مظهر التربة", "correct": false},
+      {"id": "d", "text": "جذب الديدان", "correct": false}
+    ]
+  },
+  {
+    "id": 29,
+    "text": "أي من هذه العناصر يعتبر من العناصر الصغرى للنبات؟",
+    "subtitle": "الزراعة - التغذية النباتية",
+    "options": [
+      {"id": "a", "text": "النيتروجين", "correct": false},
+      {"id": "b", "text": "الفوسفور", "correct": false},
+      {"id": "c", "text": "البوتاسيوم", "correct": false},
+      {"id": "d", "text": "الحديد", "correct": true}
+    ]
+  },
+  {
+    "id": 30,
+    "text": "ما هي الطريقة المستخدمة لحفظ المنتجات الزراعية لفترة طويلة؟",
+    "subtitle": "الزراعة - التصنيع والحفظ",
+    "options": [
+      {"id": "a", "text": "الري", "correct": false},
+      {"id": "b", "text": "التجفيف", "correct": true},
+      {"id": "c", "text": "الحراثة", "correct": false},
+      {"id": "d", "text": "التسميد", "correct": false}
+    ]
+  },
+  {
+    "id": 31,
+    "text": "ما هو العضو المسؤول عن امتصاص الماء والأملاح من التربة؟",
+    "subtitle": "الزراعة - تركيب النبات",
+    "options": [
+      {"id": "a", "text": "الأوراق", "correct": false},
+      {"id": "b", "text": "الجذور", "correct": true},
+      {"id": "c", "text": "الساق", "correct": false},
+      {"id": "d", "text": "الأزهار", "correct": false}
+    ]
+  },
+  {
+    "id": 32,
+    "text": "أي من هذه المحاصيل يعتبر من المحاصيل الزيتية؟",
+    "subtitle": "الزراعة - المحاصيل الزيتية",
+    "options": [
+      {"id": "a", "text": "القمح", "correct": false},
+      {"id": "b", "text": "الذرة", "correct": false},
+      {"id": "c", "text": "عباد الشمس", "correct": true},
+      {"id": "d", "text": "القطن", "correct": false}
+    ]
+  },
+  {
+    "id": 33,
+    "text": "ما هو النظام الذي يعتمد على زراعة النباتات بدون تربة؟",
+    "subtitle": "الزراعة - الأنظمة الحديثة",
+    "options": [
+      {"id": "a", "text": "الزراعة العضوية", "correct": false},
+      {"id": "b", "text": "الزراعة المائية", "correct": true},
+      {"id": "c", "text": "الزراعة التقليدية", "correct": false},
+      {"id": "d", "text": "الزراعة الكثيفة", "correct": false}
+    ]
+  },
+  {
+    "id": 34,
+    "text": "ما هي الآفة التي تسبب أمراضاً نباتية وتنتمي إلى الفطريات؟",
+    "subtitle": "الزراعة - الأمراض النباتية",
+    "options": [
+      {"id": "a", "text": "المن", "correct": false},
+      {"id": "b", "text": "الديدان", "correct": false},
+      {"id": "c", "text": "البياض الدقيقي", "correct": true},
+      {"id": "d", "text": "الحلم", "correct": false}
+    ]
+  },
+  {
+    "id": 35,
+    "text": "أي من هذه الطرق تستخدم لتحسين نوعية المحاصيل؟",
+    "subtitle": "الزراعة - التربية والتحسين",
+    "options": [
+      {"id": "a", "text": "الحراثة العميقة", "correct": false},
+      {"id": "b", "text": "التهجين", "correct": true},
+      {"id": "c", "text": "الري الغزير", "correct": false},
+      {"id": "d", "text": "التسميد المفرط", "correct": false}
+    ]
+  },
+  {
+    "id": 36,
+    "text": "ما هو العامل الذي يؤثر على نمو النبات ويتعلق بدرجة الحرارة؟",
+    "subtitle": "الزراعة - العوامل البيئية",
+    "options": [
+      {"id": "a", "text": "الضوء", "correct": false},
+      {"id": "b", "text": "الماء", "correct": false},
+      {"id": "c", "text": "الحرارة", "correct": true},
+      {"id": "d", "text": "الرياح", "correct": false}
+    ]
+  },
+  {
+    "id": 37,
+    "text": "ما هي المادة التي تنتجها بعض النباتات لصد الحشرات؟",
+    "subtitle": "الزراعة - دفاعات النبات",
+    "options": [
+      {"id": "a", "text": "الكلوروفيل", "correct": false},
+      {"id": "b", "text": "الراتنجات", "correct": true},
+      {"id": "c", "text": "السكريات", "correct": false},
+      {"id": "d", "text": "البروتينات", "correct": false}
+    ]
+  },
+  {
+    "id": 38,
+    "text": "أي من هذه المحاصيل يزرع للاستفادة من أليافه؟",
+    "subtitle": "الزراعة - المحاصيل الليفية",
+    "options": [
+      {"id": "a", "text": "القطن", "correct": true},
+      {"id": "b", "text": "القمح", "correct": false},
+      {"id": "c", "text": "الذرة", "correct": false},
+      {"id": "d", "text": "الطماطم", "correct": false}
+    ]
+  },
+  {
+    "id": 39,
+    "text": "ما هو الجهاز المستخدم لقياس رطوبة التربة؟",
+    "subtitle": "الزراعة - أدوات القياس",
+    "options": [
+      {"id": "a", "text": "الترمومتر", "correct": false},
+      {"id": "b", "text": "مقياس الرطوبة", "correct": true},
+      {"id": "c", "text": "البارومتر", "correct": false},
+      {"id": "d", "text": "الأنيمومتر", "correct": false}
+    ]
+  },
+  {
+    "id": 40,
+    "text": "ما هي العملية التي يتم فيها نقل النباتات الصغيرة من المشتل إلى الأرض الدائمة؟",
+    "subtitle": "الزراعة - عمليات زراعية",
+    "options": [
+      {"id": "a", "text": "الزراعة", "correct": false},
+      {"id": "b", "text": "التشتيل", "correct": true},
+      {"id": "c", "text": "التهجين", "correct": false},
+      {"id": "d", "text": "التطعيم", "correct": false}
+    ]
+  },
+  {
+    "id": 41,
+    "text": "أي من هذه العناصر مسؤول عن النمو الخضري في النبات؟",
+    "subtitle": "الزراعة - التغذية النباتية",
+    "options": [
+      {"id": "a", "text": "النيتروجين", "correct": true},
+      {"id": "b", "text": "الفوسفور", "correct": false},
+      {"id": "c", "text": "البوتاسيوم", "correct": false},
+      {"id": "d", "text": "الكالسيوم", "correct": false}
+    ]
+  },
+  {
+    "id": 42,
+    "text": "ما هو الاسم العلمي لتربية النحل؟",
+    "subtitle": "الزراعة - تربية النحل",
+    "options": [
+      {"id": "a", "text": "الزراعة", "correct": false},
+      {"id": "b", "text": "التربية الحيوانية", "correct": false},
+      {"id": "c", "text": "نحالة", "correct": true},
+      {"id": "d", "text": "حراثة", "correct": false}
+    ]
+  },
+  {
+    "id": 43,
+    "text": "ما هي المادة التي ينتجها النحل من رحيق الأزهار؟",
+    "subtitle": "الزراعة - منتجات النحل",
+    "options": [
+      {"id": "a", "text": "الشمع", "correct": false},
+      {"id": "b", "text": "العسل", "correct": true},
+      {"id": "c", "text": "اللبن", "correct": false},
+      {"id": "d", "text": "الرحيق", "correct": false}
+    ]
+  },
+  {
+    "id": 44,
+    "text": "أي من هذه المحاصيل يعتبر من محاصيل الخضر؟",
+    "subtitle": "الزراعة - محاصيل الخضر",
+    "options": [
+      {"id": "a", "text": "القمح", "correct": false},
+      {"id": "b", "text": "الخيار", "correct": true},
+      {"id": "c", "text": "الذرة", "correct": false},
+      {"id": "d", "text": "القطن", "correct": false}
+    ]
+  },
+  {
+    "id": 45,
+    "text": "ما هو النظام الزراعي الذي لا يستخدم فيه الأسمدة الكيميائية؟",
+    "subtitle": "الزراعة - الأنظمة الزراعية",
+    "options": [
+      {"id": "a", "text": "الزراعة التقليدية", "correct": false},
+      {"id": "b", "text": "الزراعة العضوية", "correct": true},
+      {"id": "c", "text": "الزراعة المكثفة", "correct": false},
+      {"id": "d", "text": "الزراعة المائية", "correct": false}
+    ]
+  },
+  {
+    "id": 46,
+    "text": "ما هي الآلة المستخدمة لقطع العشب في الحدائق؟",
+    "subtitle": "الزراعة - آلات الحدائق",
+    "options": [
+      {"id": "a", "text": "المحراث", "correct": false},
+      {"id": "b", "text": "جزازة العشب", "correct": true},
+      {"id": "c", "text": "المشط", "correct": false},
+      {"id": "d", "text": "المدادة", "correct": false}
+    ]
+  },
+  {
+    "id": 47,
+    "text": "أي من هذه الحيوانات تربي لإنتاج اللحوم؟",
+    "subtitle": "الزراعة - تربية الحيوان",
+    "options": [
+      {"id": "a", "text": "الأغنام", "correct": true},
+      {"id": "b", "text": "الدجاج البياض", "correct": false},
+      {"id": "c", "text": "الأبقار الحلوب", "correct": false},
+      {"id": "d", "text": "النحل", "correct": false}
+    ]
+  },
+  {
+    "id": 48,
+    "text": "ما هو الغرض من عملية التقليم؟",
+    "subtitle": "الزراعة - العناية بالأشجار",
+    "options": [
+      {"id": "a", "text": "قتل الحشرات", "correct": false},
+      {"id": "b", "text": "تحسين شكل الشجرة وتنظيم نموها", "correct": true},
+      {"id": "c", "text": "جذب الطيور", "correct": false},
+      {"id": "d", "text": "زيادة الري", "correct": false}
+    ]
+  },
+  {
+    "id": 49,
+    "text": "أي من هذه العناصر مسؤول عن تكوين الجذور والأزهار؟",
+    "subtitle": "الزراعة - التغذية النباتية",
+    "options": [
+      {"id": "a", "text": "النيتروجين", "correct": false},
+      {"id": "b", "text": "الفوسفور", "correct": true},
+      {"id": "c", "text": "البوتاسيوم", "correct": false},
+      {"id": "d", "text": "الكالسيوم", "correct": false}
+    ]
+  },
+  {
+    "id": 50,
+    "text": "ما هي الطريقة المستخدمة لحفظ الفواكه بالسكر؟",
+    "subtitle": "الزراعة - التصنيع الغذائي",
+    "options": [
+      {"id": "a", "text": "التجفيف", "correct": false},
+      {"id": "b", "text": "التجميد", "correct": false},
+      {"id": "c", "text": "التخليل", "correct": false},
+      {"id": "d", "text": "المربى", "correct": true}
+    ]
+  },
+  {
+    "id": 51,
+    "text": "ما هو الجزء المسؤول عن نقل الماء والمعادن من الجذور إلى الأوراق؟",
+    "subtitle": "الزراعة - تركيب النبات",
+    "options": [
+      {"id": "a", "text": "اللحاء", "correct": false},
+      {"id": "b", "text": "الخشب", "correct": true},
+      {"id": "c", "text": "الكامبيوم", "correct": false},
+      {"id": "d", "text": "البشرة", "correct": false}
+    ]
+  },
+  {
+    "id": 52,
+    "text": "أي من هذه المحاصيل يعتبر من المحاصيل النقدية؟",
+    "subtitle": "الزراعة - الاقتصاد الزراعي",
+    "options": [
+      {"id": "a", "text": "التبغ", "correct": true},
+      {"id": "b", "text": "القمح", "correct": false},
+      {"id": "c", "text": "الذرة", "correct": false},
+      {"id": "d", "text": "الشعير", "correct": false}
+    ]
+  },
+  {
+    "id": 53,
+    "text": "ما هو النظام الذي يجمع بين الزراعة وتربية الأسماك؟",
+    "subtitle": "الزراعة - الأنظمة المتكاملة",
+    "options": [
+      {"id": "a", "text": "الزراعة المائية", "correct": false},
+      {"id": "b", "text": "الأكوابونيك", "correct": true},
+      {"id": "c", "text": "الزراعة العضوية", "correct": false},
+      {"id": "d", "text": "التربية المكثفة", "correct": false}
+    ]
+  },
+  {
+    "id": 54,
+    "text": "ما هي الآفة التي تصيب الحبوب في المخازن؟",
+    "subtitle": "الزراعة - آفات المخازن",
+    "options": [
+      {"id": "a", "text": "المن", "correct": false},
+      {"id": "b", "text": "سوسة الحبوب", "correct": true},
+      {"id": "c", "text": "الديدان القارضة", "correct": false},
+      {"id": "d", "text": "البياض الدقيقي", "correct": false}
+    ]
+  },
+  {
+    "id": 55,
+    "text": "أي من هذه الطرق تستخدم لمكافحة التربة المالحة؟",
+    "subtitle": "الزراعة - تحسين التربة",
+    "options": [
+      {"id": "a", "text": "الري الغزير", "correct": false},
+      {"id": "b", "text": "الغسيل بالماء", "correct": true},
+      {"id": "c", "text": "التسميد الكثيف", "correct": false},
+      {"id": "d", "text": "الحراثة العميقة", "correct": false}
+    ]
+  },
+  {
+    "id": 56,
+    "text": "ما هو العامل الذي يؤثر على نمو النبات ويتعلق بكمية الضوء؟",
+    "subtitle": "الزراعة - العوامل البيئية",
+    "options": [
+      {"id": "a", "text": "الرطوبة", "correct": false},
+      {"id": "b", "text": "الضوء", "correct": true},
+      {"id": "c", "text": "الحرارة", "correct": false},
+      {"id": "d", "text": "الرياح", "correct": false}
+    ]
+  },
+  {
+    "id": 57,
+    "text": "ما هي المادة التي تنتجها النباتات لجذب الملقحات؟",
+    "subtitle": "الزراعة - التلقيح",
+    "options": [
+      {"id": "a", "text": "الراتنجات", "correct": false},
+      {"id": "b", "text": "الرحيق", "correct": true},
+      {"id": "c", "text": "السكريات", "correct": false},
+      {"id": "d", "text": "البروتينات", "correct": false}
+    ]
+  },
+  {
+    "id": 58,
+    "text": "أي من هذه المحاصيل يزرع للاستفادة من بذوره؟",
+    "subtitle": "الزراعة - المحاصيل البذرية",
+    "options": [
+      {"id": "a", "text": "البطاطس", "correct": false},
+      {"id": "b", "text": "الفول السوداني", "correct": true},
+      {"id": "c", "text": "الطماطم", "correct": false},
+      {"id": "d", "text": "الملفوف", "correct": false}
+    ]
+  },
+  {
+    "id": 59,
+    "text": "ما هو الجهاز المستخدم لقياس سرعة الرياح؟",
+    "subtitle": "الزراعة - الأرصاد الجوية",
+    "options": [
+      {"id": "a", "text": "الترمومتر", "correct": false},
+      {"id": "b", "text": "الأنيمومتر", "correct": true},
+      {"id": "c", "text": "البارومتر", "correct": false},
+      {"id": "d", "text": "الهيجرومتر", "correct": false}
+    ]
+  },
+  {
+    "id": 60,
+    "text": "ما هي العملية التي يتم فيها إزالة الأعشاب الضارة؟",
+    "subtitle": "الزراعة - العناية بالمحاصيل",
+    "options": [
+      {"id": "a", "text": "الحراثة", "correct": false},
+      {"id": "b", "text": "العزق", "correct": true},
+      {"id": "c", "text": "التسميد", "correct": false},
+      {"id": "d", "text": "الري", "correct": false}
+    ]
+  },
+  {
+    "id": 61,
+    "text": "أي من هذه العناصر مسؤول عن نقل الطاقة في النبات؟",
+    "subtitle": "الزراعة - التغذية النباتية",
+    "options": [
+      {"id": "a", "text": "النيتروجين", "correct": false},
+      {"id": "b", "text": "الفوسفور", "correct": false},
+      {"id": "c", "text": "البوتاسيوم", "correct": true},
+      {"id": "d", "text": "الكالسيوم", "correct": false}
+    ]
+  },
+  {
+    "id": 62,
+    "text": "ما هو الاسم العلمي لتربية الدواجن؟",
+    "subtitle": "الزراعة - تربية الدواجن",
+    "options": [
+      {"id": "a", "text": "الزراعة", "correct": false},
+      {"id": "b", "text": "التربية الحيوانية", "correct": false},
+      {"id": "c", "text": "دواجن", "correct": true},
+      {"id": "d", "text": "نحالة", "correct": false}
+    ]
+  },
+  {
+    "id": 63,
+    "text": "ما هي المادة التي تنتجها الدجاجة البياضة؟",
+    "subtitle": "الزراعة - منتجات الدواجن",
+    "options": [
+      {"id": "a", "text": "اللحم", "correct": false},
+      {"id": "b", "text": "البيض", "correct": true},
+      {"id": "c", "text": "الحليب", "correct": false},
+      {"id": "d", "text": "الصوف", "correct": false}
+    ]
+  },
+  {
+    "id": 64,
+    "text": "أي من هذه المحاصيل يعتبر من محاصيل الفاكهة؟",
+    "subtitle": "الزراعة - أشجار الفاكهة",
+    "options": [
+      {"id": "a", "text": "الخس", "correct": false},
+      {"id": "b", "text": "العنب", "correct": true},
+      {"id": "c", "text": "البصل", "correct": false},
+      {"id": "d", "text": "الثوم", "correct": false}
+    ]
+  },
+  {
+    "id": 65,
+    "text": "ما هو النظام الزراعي الذي يعتمد على مياه الأمطار فقط؟",
+    "subtitle": "الزراعة - أنظمة الري",
+    "options": [
+      {"id": "a", "text": "الزراعة المروية", "correct": false},
+      {"id": "b", "text": "الزراعة البعلية", "correct": true},
+      {"id": "c", "text": "الزراعة المائية", "correct": false},
+      {"id": "d", "text": "الزراعة العضوية", "correct": false}
+    ]
+  },
+  {
+    "id": 66,
+    "text": "ما هي الآلة المستخدمة لنثر البذور في الأرض؟",
+    "subtitle": "الزراعة - آلات الزراعة",
+    "options": [
+      {"id": "a", "text": "المحراث", "correct": false},
+      {"id": "b", "text": "البذارة", "correct": true},
+      {"id": "c", "text": "المشط", "correct": false},
+      {"id": "d", "text": "المدادة", "correct": false}
+    ]
+  },
+  {
+    "id": 67,
+    "text": "أي من هذه الحيوانات تربي لإنتاج الحليب؟",
+    "subtitle": "الزراعة - تربية الحيوان",
+    "options": [
+      {"id": "a", "text": "الأغنام", "correct": false},
+      {"id": "b", "text": "الأبقار الحلوب", "correct": true},
+      {"id": "c", "text": "الدجاج اللاحم", "correct": false},
+      {"id": "d", "text": "النحل", "correct": false}
+    ]
+  },
+  {
+    "id": 68,
+    "text": "ما هو الغرض من عملية الترقيد؟",
+    "subtitle": "الزراعة - إكثار النباتات",
+    "options": [
+      {"id": "a", "text": "قتل الحشرات", "correct": false},
+      {"id": "b", "text": "إكثار النباتات بتغطية الأفرع بالتربة", "correct": true},
+      {"id": "c", "text": "جذب الطيور", "correct": false},
+      {"id": "d", "text": "زيادة الري", "correct": false}
+    ]
+  },
+  {
+    "id": 69,
+    "text": "أي من هذه العناصر مسؤول عن تكوين جدر الخلايا؟",
+    "subtitle": "الزراعة - التغذية النباتية",
+    "options": [
+      {"id": "a", "text": "النيتروجين", "correct": false},
+      {"id": "b", "text": "الفوسفور", "correct": false},
+      {"id": "c", "text": "البوتاسيوم", "correct": false},
+      {"id": "d", "text": "الكالسيوم", "correct": true}
+    ]
+  },
+  {
+    "id": 70,
+    "text": "ما هي الطريقة المستخدمة لحفظ الخضار بالماء والملح؟",
+    "subtitle": "الزراعة - التصنيع الغذائي",
+    "options": [
+      {"id": "a", "text": "التجفيف", "correct": false},
+      {"id": "b", "text": "التجميد", "correct": false},
+      {"id": "c", "text": "التخليل", "correct": true},
+      {"id": "d", "text": "المربى", "correct": false}
+    ]
+  },
+  {
+    "id": 71,
+    "text": "ما هو الجزء المسؤول عن نقل الغذاء المصنع من الأوراق إلى باقي أجزاء النبات؟",
+    "subtitle": "الزراعة - تركيب النبات",
+    "options": [
+      {"id": "a", "text": "الخشب", "correct": false},
+      {"id": "b", "text": "اللحاء", "correct": true},
+      {"id": "c", "text": "الكامبيوم", "correct": false},
+      {"id": "d", "text": "البشرة", "correct": false}
+    ]
+  },
+  {
+    "id": 72,
+    "text": "أي من هذه المحاصيل يعتبر من المحاصيل العلفية؟",
+    "subtitle": "الزراعة - المحاصيل العلفية",
+    "options": [
+      {"id": "a", "text": "البرسيم", "correct": true},
+      {"id": "b", "text": "القمح", "correct": false},
+      {"id": "c", "text": "الذرة", "correct": false},
+      {"id": "d", "text": "القطن", "correct": false}
+    ]
+  },
+  {
+    "id": 73,
+    "text": "ما هو النظام الذي يستخدم فيه الماء بشكل متكرر بعد معالجته؟",
+    "subtitle": "الزراعة - الري",
+    "options": [
+      {"id": "a", "text": "الري بالتنقيط", "correct": false},
+      {"id": "b", "text": "الري بالرش", "correct": false},
+      {"id": "c", "text": "الري المعاد استخدامه", "correct": true},
+      {"id": "d", "text": "الري السطحي", "correct": false}
+    ]
+  },
+  {
+    "id": 74,
+    "text": "ما هي الآفة التي تصيب أوراق النباتات وتسبب بقعاً سوداء؟",
+    "subtitle": "الزراعة - الأمراض النباتية",
+    "options": [
+      {"id": "a", "text": "المن", "correct": false},
+      {"id": "b", "text": "البياض الزغبي", "correct": false},
+      {"id": "c", "text": "التبقع", "correct": true},
+      {"id": "d", "text": "العفن", "correct": false}
+    ]
+  },
+  {
+    "id": 75,
+    "text": "أي من هذه الطرق تستخدم لتحسين خصوبة التربة؟",
+    "subtitle": "الزراعة - تحسين التربة",
+    "options": [
+      {"id": "a", "text": "الري الغزير", "correct": false},
+      {"id": "b", "text": "إضافة السماد العضوي", "correct": true},
+      {"id": "c", "text": "الحراثة العميقة", "correct": false},
+      {"id": "d", "text": "رش المبيدات", "correct": false}
+    ]
+  },
+  {
+    "id": 76,
+    "text": "ما هو العامل الذي يؤثر على نمو النبات ويتعلق بكمية الماء؟",
+    "subtitle": "الزراعة - العوامل البيئية",
+    "options": [
+      {"id": "a", "text": "الرطوبة", "correct": true},
+      {"id": "b", "text": "الضوء", "correct": false},
+      {"id": "c", "text": "الحرارة", "correct": false},
+      {"id": "d", "text": "الرياح", "correct": false}
+    ]
+  },
+  {
+    "id": 77,
+    "text": "ما هي المادة التي تنتجها النباتات لحماية نفسها من الحشرات؟",
+    "subtitle": "الزراعة - دفاعات النبات",
+    "options": [
+      {"id": "a", "text": "الرحيق", "correct": false},
+      {"id": "b", "text": "الراتنجات", "correct": false},
+      {"id": "c", "text": "القلويدات", "correct": true},
+      {"id": "d", "text": "السكريات", "correct": false}
+    ]
+  },
+  {
+    "id": 78,
+    "text": "أي من هذه المحاصيل يزرع للاستفادة من أزهاره؟",
+    "subtitle": "الزراعة - نباتات الزينة",
+    "options": [
+      {"id": "a", "text": "الورد", "correct": true},
+      {"id": "b", "text": "القطن", "correct": false},
+      {"id": "c", "text": "الذرة", "correct": false},
+      {"id": "d", "text": "القمح", "correct": false}
+    ]
+  },
+  {
+    "id": 79,
+    "text": "ما هو الجهاز المستخدم لقياس كمية الأمطار؟",
+    "subtitle": "الزراعة - الأرصاد الجوية",
+    "options": [
+      {"id": "a", "text": "الترمومتر", "correct": false},
+      {"id": "b", "text": "الممطار", "correct": true},
+      {"id": "c", "text": "البارومتر", "correct": false},
+      {"id": "d", "text": "الهيجرومتر", "correct": false}
+    ]
+  },
+  {
+    "id": 80,
+    "text": "ما هي العملية التي يتم فيها إزالة الأجزاء المصابة من النبات؟",
+    "subtitle": "الزراعة - العناية بالنبات",
+    "options": [
+      {"id": "a", "text": "التقليم", "correct": false},
+      {"id": "b", "text": "التطهير", "correct": true},
+      {"id": "c", "text": "التسميد", "correct": false},
+      {"id": "d", "text": "الري", "correct": false}
+    ]
+  },
+  {
+    "id": 81,
+    "text": "أي من هذه العناصر مسؤول عن تكوين الكلوروفيل؟",
+    "subtitle": "الزراعة - التغذية النباتية",
+    "options": [
+      {"id": "a", "text": "النيتروجين", "correct": false},
+      {"id": "b", "text": "المغنيسيوم", "correct": true},
+      {"id": "c", "text": "البوتاسيوم", "correct": false},
+      {"id": "d", "text": "الكالسيوم", "correct": false}
+    ]
+  },
+  {
+    "id": 82,
+    "text": "ما هو الاسم العلمي لتربية الأغنام؟",
+    "subtitle": "الزراعة - تربية الحيوان",
+    "options": [
+      {"id": "a", "text": "الزراعة", "correct": false},
+      {"id": "b", "text": "التربية الحيوانية", "correct": false},
+      {"id": "c", "text": "غنم", "correct": true},
+      {"id": "d", "text": "نحالة", "correct": false}
+    ]
+  },
+  {
+    "id": 83,
+    "text": "ما هي المادة التي تنتجها الأغنام؟",
+    "subtitle": "الزراعة - منتجات الحيوان",
+    "options": [
+      {"id": "a", "text": "اللحم", "correct": false},
+      {"id": "b", "text": "الحليب", "correct": false},
+      {"id": "c", "text": "الصوف", "correct": true},
+      {"id": "d", "text": "البيض", "correct": false}
+    ]
+  },
+  {
+    "id": 84,
+    "text": "أي من هذه المحاصيل يعتبر من المحاصيل الدرنية؟",
+    "subtitle": "الزراعة - المحاصيل الدرنية",
+    "options": [
+      {"id": "a", "text": "البطاطس", "correct": true},
+      {"id": "b", "text": "الطماطم", "correct": false},
+      {"id": "c", "text": "الخيار", "correct": false},
+      {"id": "d", "text": "الفلفل", "correct": false}
+    ]
+  },
+  {
+    "id": 85,
+    "text": "ما هو النظام الزراعي الذي يستخدم فيه الري بالتنقيط؟",
+    "subtitle": "الزراعة - أنظمة الري",
+    "options": [
+      {"id": "a", "text": "الزراعة المروية", "correct": true},
+      {"id": "b", "text": "الزراعة البعلية", "correct": false},
+      {"id": "c", "text": "الزراعة المائية", "correct": false},
+      {"id": "d", "text": "الزراعة العضوية", "correct": false}
+    ]
+  },
+  {
+    "id": 86,
+    "text": "ما هي الآلة المستخدمة لجمع المحاصيل من الأرض؟",
+    "subtitle": "الزراعة - آلات الحصاد",
+    "options": [
+      {"id": "a", "text": "المحراث", "correct": false},
+      {"id": "b", "text": "الحصادة", "correct": false},
+      {"id": "c", "text": "المدادة", "correct": true},
+      {"id": "d", "text": "المشط", "correct": false}
+    ]
+  },
+  {
+    "id": 87,
+    "text": "أي من هذه الحيوانات تربي لإنتاج العسل؟",
+    "subtitle": "الزراعة - تربية النحل",
+    "options": [
+      {"id": "a", "text": "الأغنام", "correct": false},
+      {"id": "b", "text": "الأبقار", "correct": false},
+      {"id": "c", "text": "النحل", "correct": true},
+      {"id": "d", "text": "الدجاج", "correct": false}
+    ]
+  },
+  {
+    "id": 88,
+    "text": "ما هو الغرض من عملية التهوية؟",
+    "subtitle": "الزراعة - العناية بالمحاصيل",
+    "options": [
+      {"id": "a", "text": "قتل الحشرات", "correct": false},
+      {"id": "b", "text": "تحسين دخول الهواء للتربة", "correct": true},
+      {"id": "c", "text": "جذب الطيور", "correct": false},
+      {"id": "d", "text": "زيادة الري", "correct": false}
+    ]
+  },
+  {
+    "id": 89,
+    "text": "أي من هذه العناصر مسؤول عن تنشيط الإنزيمات في النبات؟",
+    "subtitle": "الزراعة - التغذية النباتية",
+    "options": [
+      {"id": "a", "text": "النيتروجين", "correct": false},
+      {"id": "b", "text": "الفوسفور", "correct": false},
+      {"id": "c", "text": "البوتاسيوم", "correct": false},
+      {"id": "d", "text": "الزنك", "correct": true}
+    ]
+  },
+  {
+    "id": 90,
+    "text": "ما هي الطريقة المستخدمة لحفظ الطعام بالتبريد الشديد؟",
+    "subtitle": "الزراعة - التصنيع الغذائي",
+    "options": [
+      {"id": "a", "text": "التجفيف", "correct": false},
+      {"id": "b", "text": "التجميد", "correct": true},
+      {"id": "c", "text": "التخليل", "correct": false},
+      {"id": "d", "text": "المربى", "correct": false}
+    ]
+  },
+  {
+    "id": 91,
+    "text": "ما هو الجزء المسؤول عن امتصاص الضوء في عملية البناء الضوئي؟",
+    "subtitle": "الزراعة - تركيب النبات",
+    "options": [
+      {"id": "a", "text": "الجذور", "correct": false},
+      {"id": "b", "text": "الأوراق", "correct": true},
+      {"id": "c", "text": "الساق", "correct": false},
+      {"id": "d", "text": "الأزهار", "correct": false}
+    ]
+  },
+  {
+    "id": 92,
+    "text": "أي من هذه المحاصيل يعتبر من المحاصيل السكرية؟",
+    "subtitle": "الزراعة - المحاصيل السكرية",
+    "options": [
+      {"id": "a", "text": "القصب", "correct": true},
+      {"id": "b", "text": "القمح", "correct": false},
+      {"id": "c", "text": "الذرة", "correct": false},
+      {"id": "d", "text": "القطن", "correct": false}
+    ]
+  },
+  {
+    "id": 93,
+    "text": "ما هو النظام الذي يستخدم فيه الزراعة في بيوت محمية؟",
+    "subtitle": "الزراعة - الأنظمة المحمية",
+    "options": [
+      {"id": "a", "text": "الزراعة المكشوفة", "correct": false},
+      {"id": "b", "text": "الزراعة المحمية", "correct": true},
+      {"id": "c", "text": "الزراعة المائية", "correct": false},
+      {"id": "d", "text": "الزراعة العضوية", "correct": false}
+    ]
+  },
+  {
+    "id": 94,
+    "text": "ما هي الآفة التي تصيب جذور النباتات؟",
+    "subtitle": "الزراعة - الآفات",
+    "options": [
+      {"id": "a", "text": "المن", "correct": false},
+      {"id": "b", "text": "النيماتودا", "correct": true},
+      {"id": "c", "text": "البياض الدقيقي", "correct": false},
+      {"id": "d", "text": "التبقع", "correct": false}
+    ]
+  },
+  {
+    "id": 95,
+    "text": "أي من هذه الطرق تستخدم لتحسين صرف التربة؟",
+    "subtitle": "الزراعة - تحسين التربة",
+    "options": [
+      {"id": "a", "text": "الري الغزير", "correct": false},
+      {"id": "b", "text": "إضافة الرمل", "correct": true},
+      {"id": "c", "text": "الحراثة العميقة", "correct": false},
+      {"id": "d", "text": "رش المبيدات", "correct": false}
+    ]
+  },
+  {
+    "id": 96,
+    "text": "ما هو العامل الذي يؤثر على نمو النبات ويتعلق بحركة الهواء؟",
+    "subtitle": "الزراعة - العوامل البيئية",
+    "options": [
+      {"id": "a", "text": "الرطوبة", "correct": false},
+      {"id": "b", "text": "الضوء", "correct": false},
+      {"id": "c", "text": "الحرارة", "correct": false},
+      {"id": "d", "text": "الرياح", "correct": true}
+    ]
+  },
+  {
+    "id": 97,
+    "text": "ما هي المادة التي تنتجها النباتات لحماية نفسها من الأمراض؟",
+    "subtitle": "الزراعة - دفاعات النبات",
+    "options": [
+      {"id": "a", "text": "الرحيق", "correct": false},
+      {"id": "b", "text": "الراتنجات", "correct": false},
+      {"id": "c", "text": "الفيتواليكسين", "correct": true},
+      {"id": "d", "text": "السكريات", "correct": false}
+    ]
+  },
+  {
+    "id": 98,
+    "text": "أي من هذه المحاصيل يزرع للاستفادة من ثماره؟",
+    "subtitle": "الزراعة - محاصيل الفاكهة",
+    "options": [
+      {"id": "a", "text": "الموز", "correct": true},
+      {"id": "b", "text": "القطن", "correct": false},
+      {"id": "c", "text": "الذرة", "correct": false},
+      {"id": "d", "text": "القمح", "correct": false}
+    ]
+  },
+  {
+    "id": 99,
+    "text": "ما هو الجهاز المستخدم لقياس ضغط الهواء؟",
+    "subtitle": "الزراعة - الأرصاد الجوية",
+    "options": [
+      {"id": "a", "text": "الترمومتر", "correct": false},
+      {"id": "b", "text": "البارومتر", "correct": true},
+      {"id": "c", "text": "الممطار", "correct": false},
+      {"id": "d", "text": "الهيجرومتر", "correct": false}
+    ]
+  },
+  {
+    "id": 100,
+    "text": "ما هي العملية التي يتم فيها تربية الأحياء المائية؟",
+    "subtitle": "الزراعة - الاستزراع المائي",
+    "options": [
+      {"id": "a", "text": "الزراعة", "correct": false},
+      {"id": "b", "text": "التربية الحيوانية", "correct": false},
+      {"id": "c", "text": "تربية الأحياء المائية", "correct": true},
+      {"id": "d", "text": "نحالة", "correct": false}
+    ]
+  }
+]
